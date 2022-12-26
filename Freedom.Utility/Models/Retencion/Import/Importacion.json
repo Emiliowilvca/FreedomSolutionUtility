@@ -1,0 +1,65 @@
+﻿[
+  {
+    "detalle": [
+      {
+        "cantidad": 1,
+        "tasaAplica": "10",
+        "precioUnitario": 8800000,
+        "descripcion": "EJEMPLO DE VENTA AL 10"
+      }
+    ],
+    "retencion": {
+      "moneda": "PYG",
+      "fecha": "2017-08-02",
+      "retencionRenta": true,
+      "conceptoRenta": "COMERCIAL_INDUSTRIAL_SERVICIO_REGISTRADO.1",  
+      "ivaPorcentaje5": 0,
+      "ivaPorcentaje10": 0,
+      "rentaCabezasBase": 0,
+      "rentaCabezasCantidad": 0,
+      "rentaToneladasBase": 0,
+      "rentaToneladasCantidad": 0,
+      "rentaPorcentaje": 2,
+      "retencionIva": false,
+      "conceptoIva": ""
+    },
+    "informado": {
+      "ruc": null,
+      "dv": null,
+      "nombre": "NOVARA SA",
+      "identificacion": "234534",
+      "situacion": "NO_RESIDENTE",
+      "tipoIdentificacion": "PASAPORTE",
+      "correoElectronico": "prueba@set.gov.py",
+      "direccion": "",
+      "telefono": "",
+      "pais": "UK",
+      "nombreFantasia": null,
+      "domicilio": "MOLAS LOPEZ 4152",
+      "tieneRepresentante": true,
+      "tieneBeneficiario": true,
+      "representante": {
+        "tipoIdentificacion": "PASAPORTE",
+        "identificacion": "245234",
+        "nombre": "JUAN SERVIN"
+      },
+      "beneficiario": {
+        "tipoIdentificacion": "CEDULA",
+        "identificacion": "435234",
+        "nombre": "PABLO GONZALEZ"
+      }
+    },
+    "transaccion": {
+      "numeroComprobanteVenta": "001-001-1234567",
+      "condicionCompra": "CONTADO",
+      "tipoComprobante": 1,
+      "fecha": "2017-08-01",
+      "numeroTimbrado": "12345678"
+    },
+    "atributos": {
+      "fechaCreacion": "2017-08-02",
+      "fechaHoraCreacion": "2017-08-02 09:23:03"
+    }
+  }
+]
+

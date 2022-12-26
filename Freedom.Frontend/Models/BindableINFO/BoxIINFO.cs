@@ -1,0 +1,46 @@
+﻿using Freedom.Utility.Bindable;
+using Freedom.Utility.Models.BaseEntity;
+using Freedom.Utility.Models.BaseRTO;
+
+namespace Freedom.Frontend.Models.BindableINFO
+{
+    public class BoxINFO : BindableBase, IBoxRTO, ISelectable
+    {
+        private int _id;
+        private int _companyId;
+        private int _shopId;
+        private int _moneyId;
+        private string _name;
+        private string _shopName;
+        private string _moneyName;
+        private bool _isSelected;
+
+        public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
+
+        public int Id { get => _id; set => SetProperty(ref _id, value); }
+
+        public int CompanyId { get => _companyId; set => SetProperty(ref _companyId, value); }
+
+        public int ShopId { get => _shopId; set => SetProperty(ref _shopId, value); }
+
+        public int MoneyId { get => _moneyId; set => SetProperty(ref _moneyId, value); }
+
+        public string Name { get => _name; set => SetProperty(ref _name, value); }
+
+        public string ShopName { get => _shopName; set => SetProperty(ref _shopName, value); }
+
+        public string MoneyName { get => _moneyName; set => SetProperty(ref _moneyName, value); }
+
+        public override void ResetEntity()
+        {
+            base.ResetEntity();
+            Id = 0;
+            CompanyId = 0;
+            ShopId = 0;
+            MoneyId = 0;
+            Name = "";
+            ShopName = "";
+            MoneyName = "";
+        }
+    }
+}

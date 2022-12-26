@@ -1,0 +1,13 @@
+﻿
+
+
+
+
+
+atencion
+--------------------------------------------------
+
+para que funcione las fuente incluir las fuentes al proyecto
+en propiedades
+		- Build Action = Resource
+		- Copy to Ouput = copy if never

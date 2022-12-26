@@ -1,0 +1,4163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessPoint" xml:space="preserve">
+    <value>Точка доступа</value>
+    <comment />
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Нет доступа</value>
+    <comment />
+  </data>
+  <data name="Authorization" xml:space="preserve">
+    <value>Авторизация</value>
+    <comment />
+  </data>
+  <data name="AuthorizationInfo" xml:space="preserve">
+    <value>Управление доступом</value>
+    <comment />
+  </data>
+  <data name="BackToLogin" xml:space="preserve">
+    <value>Вернуться на страницу входа</value>
+    <comment />
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Сменить Пароль</value>
+    <comment />
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Подтвердите пароль</value>
+    <comment />
+  </data>
+  <data name="ConfirmPasswordDoNotMatch" xml:space="preserve">
+    <value>{0} и {1} не совпадают</value>
+    <comment />
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Текущий пароль</value>
+    <comment />
+  </data>
+  <data name="Email_Is_Invalid" xml:space="preserve">
+    <value>Некорректный Email.</value>
+    <comment />
+  </data>
+  <data name="EmailClickLinkText" xml:space="preserve">
+    <value>Чтобы подтвердить пользователя, пожалуйста, нажмите на эту ссылку:</value>
+    <comment />
+  </data>
+  <data name="EmailConfirm" xml:space="preserve">
+    <value>Спасибо за подтверждение вашей электронной почты. Теперь вы можете войти в систему.</value>
+    <comment />
+  </data>
+  <data name="EmailConfirmNewUser" xml:space="preserve">
+    <value>{0} Подтвердите нового пользователя</value>
+    <comment />
+  </data>
+  <data name="EmailMsgActivate" xml:space="preserve">
+    <value>Инструкции по предоставлению доступа пользователю были отправлены по электронной почте.</value>
+    <comment />
+  </data>
+  <data name="EmailNotCorrespond" xml:space="preserve">
+    <value>Адрес электронной почты не соответствует зарегистрированному пользователю.</value>
+    <comment />
+  </data>
+  <data name="ErrorCantCreateUser" xml:space="preserve">
+    <value>Пользователь не может быть создан.</value>
+    <comment />
+  </data>
+  <data name="ErrorFailedToLogin" xml:space="preserve">
+    <value>Не удалось осуществить вход</value>
+    <comment />
+  </data>
+  <data name="ErrorUsernameExits" xml:space="preserve">
+    <value>Электронная почта уже зарегистрирована.</value>
+    <comment />
+  </data>
+  <data name="ImageProfile" xml:space="preserve">
+    <value>Изображение профиля</value>
+    <comment />
+  </data>
+  <data name="LicenseExpired" xml:space="preserve">
+    <value>Срок действия лицензии истек</value>
+    <comment />
+  </data>
+  <data name="LoginAsAdministrator" xml:space="preserve">
+    <value>Войдите в систему как администратор</value>
+    <comment />
+  </data>
+  <data name="LoginInstructions" xml:space="preserve">
+    <value>Инструкции по началу работы были отправлены на вашу электронную почту. Пожалуйста, проверьте ссылку для входа</value>
+    <comment />
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Войти</value>
+    <comment />
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Выход</value>
+    <comment />
+  </data>
+  <data name="LogoutQuestions" xml:space="preserve">
+    <value>намеревается выйти</value>
+    <comment />
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Новый пароль</value>
+    <comment />
+  </data>
+  <data name="NotAuthorized" xml:space="preserve">
+    <value>Вы не авторизованы для выполнения этого действия</value>
+    <comment />
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password ("Пароль")</value>
+    <comment />
+  </data>
+  <data name="PasswordError" xml:space="preserve">
+    <value>Введите допустимый пароль</value>
+    <comment />
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>Сбросить пароль</value>
+    <comment />
+  </data>
+  <data name="PasswordResetButtonlink" xml:space="preserve">
+    <value>Сброс пароля</value>
+    <comment />
+  </data>
+  <data name="PasswordResetError" xml:space="preserve">
+    <value>Ошибка при сбросе пароля.</value>
+    <comment />
+  </data>
+  <data name="PasswordResetIntruction" xml:space="preserve">
+    <value>Инструкция по восстановлению пароля была отправлена на вашу электронную почту.</value>
+    <comment />
+  </data>
+  <data name="PasswordResetLink" xml:space="preserve">
+    <value>Для сброса пароля нажмите на эту ссылку:</value>
+    <comment />
+  </data>
+  <data name="PasswordResetSuccessful" xml:space="preserve">
+    <value>Восстановление пароля прошло успешно.</value>
+    <comment />
+  </data>
+  <data name="PasswordResetTitle" xml:space="preserve">
+    <value>Сброс пароля Royalsys</value>
+    <comment />
+  </data>
+  <data name="PleaseSignin" xml:space="preserve">
+    <value>Пожалуйста, войдите</value>
+    <comment />
+  </data>
+  <data name="ProfileUser" xml:space="preserve">
+    <value>Профиль пользователя</value>
+    <comment />
+  </data>
+  <data name="RecoverPassword" xml:space="preserve">
+    <value>Восстановление пароля</value>
+    <comment />
+  </data>
+  <data name="RecoverPasswordCompany" xml:space="preserve">
+    <value>{0} Восстановить пароль</value>
+    <comment />
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>Регистрация нового пользователя</value>
+    <comment />
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Запомнить меня?</value>
+    <comment />
+  </data>
+  <data name="RequiredToLogin" xml:space="preserve">
+    <value>Вы должны войти в систему </value>
+    <comment />
+  </data>
+  <data name="RoleNameInvestor" xml:space="preserve">
+    <value>Инвестор</value>
+    <comment />
+  </data>
+  <data name="RoleNameAdministrator" xml:space="preserve">
+    <value>Администратор</value>
+    <comment />
+  </data>
+  <data name="RoleNameCustomer" xml:space="preserve">
+    <value>Заказчик</value>
+    <comment />
+  </data>
+  <data name="RoleNameFinance" xml:space="preserve">
+    <value>финансы</value>
+    <comment />
+  </data>
+  <data name="RoleNameOperator" xml:space="preserve">
+    <value>оператор</value>
+    <comment />
+  </data>
+  <data name="RoleNameProvider" xml:space="preserve">
+    <value>Поставщик</value>
+    <comment />
+  </data>
+  <data name="RoleNameSeller" xml:space="preserve">
+    <value>Продавец</value>
+    <comment />
+  </data>
+  <data name="RoleNameSuperuser" xml:space="preserve">
+    <value>Root</value>
+    <comment />
+  </data>
+  <data name="SavePassword" xml:space="preserve">
+    <value>Сохранить пароль</value>
+    <comment />
+  </data>
+  <data name="SuccessfullyRegister" xml:space="preserve">
+    <value>Вы успешно зарегистрировались, мы почти готовы.</value>
+    <comment />
+  </data>
+  <data name="ThanksRegistering" xml:space="preserve">
+    <value>Благодарим за регистрацию</value>
+    <comment />
+  </data>
+  <data name="UpdateUser" xml:space="preserve">
+    <value>Обновить пользователя</value>
+    <comment />
+  </data>
+  <data name="UserAddress" xml:space="preserve">
+    <value>адрес</value>
+    <comment />
+  </data>
+  <data name="UserAlreadyRegistered" xml:space="preserve">
+    <value>Пользователь уже зарегестрирован</value>
+    <comment />
+  </data>
+  <data name="UserEmail" xml:space="preserve">
+    <value>Email пользователя</value>
+    <comment />
+  </data>
+  <data name="UserForgotPassword" xml:space="preserve">
+    <value>Забыли пароль?</value>
+    <comment />
+  </data>
+  <data name="UserFullName" xml:space="preserve">
+    <value>Полное имя</value>
+    <comment />
+  </data>
+  <data name="UserIsAdmin" xml:space="preserve">
+    <value>Администратор?</value>
+    <comment />
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>пользователь</value>
+    <comment />
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>User Name ("Имя пользователя")</value>
+    <comment />
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>Пользователь не найден.</value>
+    <comment />
+  </data>
+  <data name="UserPhoneNumber" xml:space="preserve">
+    <value>Номер телефона</value>
+    <comment />
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Пользователи</value>
+    <comment />
+  </data>
+  <data name="UserUpdated" xml:space="preserve">
+    <value>Пользователь обновлен</value>
+    <comment />
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Добавить</value>
+    <comment />
+  </data>
+  <data name="Anonymous_NiceToMeetyou" xml:space="preserve">
+    <value>Приятно познакомиться</value>
+    <comment />
+  </data>
+  <data name="Anonymous_WelcomeToBussiness" xml:space="preserve">
+    <value>добро пожаловать в наш бизнес</value>
+    <comment />
+  </data>
+  <data name="ApiAddress" xml:space="preserve">
+    <value>URL-адрес</value>
+    <comment />
+  </data>
+  <data name="ApiAddress_Title" xml:space="preserve">
+    <value>Конфигурирование Api Service</value>
+    <comment />
+  </data>
+  <data name="ApiAddressTextEmpty" xml:space="preserve">
+    <value>Текст адреса API пуст</value>
+    <comment />
+  </data>
+  <data name="AppProduct" xml:space="preserve">
+    <value>JK-Shop является продуктом Royalsys</value>
+    <comment />
+  </data>
+  <data name="AppType" xml:space="preserve">
+    <value>Решение для бизнеса</value>
+    <comment />
+  </data>
+  <data name="AccountStatement" xml:space="preserve">
+    <value>Выписка по счету</value>
+    <comment />
+  </data>
+  <data name="BouncedCheck" xml:space="preserve">
+    <value>отскок чека</value>
+    <comment />
+  </data>
+  <data name="BankBranch" xml:space="preserve">
+    <value>филиал банка</value>
+    <comment />
+  </data>
+  <data name="BankCheck" xml:space="preserve">
+    <value>Банковский чек</value>
+    <comment />
+  </data>
+  <data name="BankCheckNumber" xml:space="preserve">
+    <value>Номер чека</value>
+    <comment />
+  </data>
+  <data name="BankCheckNumberExist" xml:space="preserve">
+    <value>Номер банковского чека уже существует</value>
+    <comment />
+  </data>
+  <data name="BankCheckPayee" xml:space="preserve">
+    <value>Получатель платежа</value>
+    <comment />
+  </data>
+  <data name="BankDepositAddNew" xml:space="preserve">
+    <value>Создать депозит</value>
+    <comment />
+  </data>
+  <data name="BankDepositedChecks" xml:space="preserve">
+    <value>Депонированные чеки</value>
+    <comment />
+  </data>
+  <data name="BankDepositNumber" xml:space="preserve">
+    <value>Номер депозита</value>
+    <comment />
+  </data>
+  <data name="BankDepositNumExist" xml:space="preserve">
+    <value>Номер депозита уже существует</value>
+    <comment />
+  </data>
+  <data name="BankDepositoDetails" xml:space="preserve">
+    <value>Детали депозита</value>
+    <comment />
+  </data>
+  <data name="BankDepositReport2" xml:space="preserve">
+    <value>Отчет о банковском вкладе</value>
+    <comment />
+  </data>
+  <data name="BankExtraction" xml:space="preserve">
+    <value>банковское извлечение</value>
+    <comment />
+  </data>
+  <data name="BankExtractionReport" xml:space="preserve">
+    <value>Отчет об экстракциях</value>
+    <comment />
+  </data>
+  <data name="Bank" xml:space="preserve">
+    <value>Банк</value>
+    <comment />
+  </data>
+  <data name="BankManager" xml:space="preserve">
+    <value>Управляющий банком</value>
+    <comment />
+  </data>
+  <data name="BankMyBank" xml:space="preserve">
+    <value>Наш банк</value>
+    <comment />
+  </data>
+  <data name="BankOtherBank" xml:space="preserve">
+    <value>Прочие банки</value>
+    <comment />
+  </data>
+  <data name="BankReimbursed" xml:space="preserve">
+    <value>возмещены</value>
+    <comment />
+  </data>
+  <data name="BankAccount" xml:space="preserve">
+    <value>Банковский счет</value>
+    <comment />
+  </data>
+  <data name="BankAccountType" xml:space="preserve">
+    <value>Типы банковских счетов</value>
+    <comment />
+  </data>
+  <data name="BankDeposit_ReportTitle" xml:space="preserve">
+    <value>Банковские депозиты между датами субъектом</value>
+    <comment />
+  </data>
+  <data name="BankDeposit_TitleCheckDeposited" xml:space="preserve">
+    <value>Чеки зачисляются на счет между датами</value>
+    <comment />
+  </data>
+  <data name="BankExtractionType" xml:space="preserve">
+    <value>Тип выбора</value>
+    <comment />
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>Ветвь</value>
+    <comment />
+  </data>
+  <data name="Branch_Name" xml:space="preserve">
+    <value>Имя ветви</value>
+    <comment />
+  </data>
+  <data name="BusinessManagementSoftware" xml:space="preserve">
+    <value>Программное обеспечение по управлению бизнес-процессами</value>
+    <comment />
+  </data>
+  <data name="Category_Name" xml:space="preserve">
+    <value>Имя категории</value>
+    <comment />
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Категория</value>
+    <comment />
+  </data>
+  <data name="CheckInternetConnection" xml:space="preserve">
+    <value>Проверьте подключение к интернету.</value>
+    <comment />
+  </data>
+  <data name="Cities" xml:space="preserve">
+    <value>Города</value>
+    <comment />
+  </data>
+  <data name="City_ErrorMustSelect" xml:space="preserve">
+    <value>Вы должны выбрать город.</value>
+    <comment />
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Город</value>
+    <comment />
+  </data>
+  <data name="City_Name" xml:space="preserve">
+    <value>Название города</value>
+    <comment />
+  </data>
+  <data name="City_NoCitiesAddedYet" xml:space="preserve">
+    <value>Города еще не добавлены</value>
+    <comment />
+  </data>
+  <data name="City_of" xml:space="preserve">
+    <value>Люда</value>
+    <comment />
+  </data>
+  <data name="City_Pleseholder" xml:space="preserve">
+    <value>Наименование города</value>
+    <comment />
+  </data>
+  <data name="City_SelectCombo" xml:space="preserve">
+    <value>выберите город</value>
+    <comment />
+  </data>
+  <data name="Company_Create" xml:space="preserve">
+    <value>Создать компанию</value>
+    <comment />
+  </data>
+  <data name="Company_Edith" xml:space="preserve">
+    <value>Обновить компанию</value>
+    <comment />
+  </data>
+  <data name="Company_ErrorMustSelect" xml:space="preserve">
+    <value>Необходимо выбрать компанию.</value>
+    <comment />
+  </data>
+  <data name="Company_Logo" xml:space="preserve">
+    <value>Логотип</value>
+    <comment />
+  </data>
+  <data name="Company_OwnerLabel" xml:space="preserve">
+    <value>Владелец</value>
+    <comment />
+  </data>
+  <data name="Company_SelectCombo" xml:space="preserve">
+    <value>(Выбор компании)</value>
+    <comment />
+  </data>
+  <data name="Company_TrialDay" xml:space="preserve">
+    <value>Пробные дни</value>
+    <comment />
+  </data>
+  <data name="ConfigureConnection" xml:space="preserve">
+    <value>Настроить подключение</value>
+    <comment />
+  </data>
+  <data name="ConfigureDatabase" xml:space="preserve">
+    <value>Настройте сервер базы данных</value>
+    <comment />
+  </data>
+  <data name="Countries" xml:space="preserve">
+    <value>страна</value>
+    <comment />
+  </data>
+  <data name="Country_CannotLoadCountries" xml:space="preserve">
+    <value>не могу загрузить страны</value>
+    <comment />
+  </data>
+  <data name="Country_ErrorMustSelect" xml:space="preserve">
+    <value>Вы должны выбрать страну</value>
+    <comment />
+  </data>
+  <data name="Country_Name" xml:space="preserve">
+    <value>Название страны</value>
+    <comment />
+  </data>
+  <data name="Country_Pleaseholder" xml:space="preserve">
+    <value>Название страны</value>
+    <comment />
+  </data>
+  <data name="Country_SelectCombo" xml:space="preserve">
+    <value>выберите страну</value>
+    <comment />
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Страна</value>
+    <comment />
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>Заказчик</value>
+    <comment />
+  </data>
+  <data name="DataBaseName" xml:space="preserve">
+    <value>База данных</value>
+    <comment />
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>О программе</value>
+    <comment />
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>принимать</value>
+    <comment />
+  </data>
+  <data name="AccountHolder" xml:space="preserve">
+    <value>Держатель счета</value>
+    <comment />
+  </data>
+  <data name="AccountNumber" xml:space="preserve">
+    <value>Номер счета</value>
+    <comment />
+  </data>
+  <data name="AccountType" xml:space="preserve">
+    <value>Тип учетной записи</value>
+    <comment />
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Действия</value>
+    <comment />
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Адрес</value>
+    <comment />
+  </data>
+  <data name="AlreadyExists" xml:space="preserve">
+    <value>{0} уже существует.</value>
+    <comment />
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Сумма</value>
+    <comment />
+  </data>
+  <data name="AmountIsInvalid" xml:space="preserve">
+    <value>Сумма не является действительной</value>
+    <comment />
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Применить</value>
+    <comment />
+  </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>Атрибут</value>
+    <comment />
+  </data>
+  <data name="BackToList" xml:space="preserve">
+    <value>Назад к списку</value>
+    <comment />
+  </data>
+  <data name="Birthdate" xml:space="preserve">
+    <value>Дата рождения</value>
+    <comment />
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+    <comment />
+  </data>
+  <data name="CardIdNumber" xml:space="preserve">
+    <value>номер удостоверения личности</value>
+    <comment />
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>Касса</value>
+    <comment />
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>Выберите файл</value>
+    <comment />
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Закрой</value>
+    <comment />
+  </data>
+  <data name="Concept" xml:space="preserve">
+    <value>Концепция</value>
+    <comment />
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Конфигурация</value>
+    <comment />
+  </data>
+  <data name="CopyToClipboad" xml:space="preserve">
+    <value>Копировать в буфер</value>
+    <comment />
+  </data>
+  <data name="CreateNew" xml:space="preserve">
+    <value>Создать новый</value>
+    <comment />
+  </data>
+  <data name="CreditOfficer" xml:space="preserve">
+    <value>Кредитный специалист</value>
+    <comment />
+  </data>
+  <data name="EmptyTable" xml:space="preserve">
+    <value>Нет данных в таблице</value>
+    <comment />
+  </data>
+  <data name="LoadingRecords" xml:space="preserve">
+    <value>Загрузка</value>
+    <comment />
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>первых</value>
+    <comment />
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Последний</value>
+    <comment />
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Далее</value>
+    <comment />
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Назад</value>
+    <comment />
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Обработка...</value>
+    <comment />
+  </data>
+  <data name="NoRecordsFound" xml:space="preserve">
+    <value>Результаты не найдены</value>
+    <comment />
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Дата</value>
+    <comment />
+  </data>
+  <data name="DateIsInvalid" xml:space="preserve">
+    <value>Дата недействительна</value>
+    <comment />
+  </data>
+  <data name="DateRange" xml:space="preserve">
+    <value>Диапазон Дат</value>
+    <comment />
+  </data>
+  <data name="DateRangeValidate" xml:space="preserve">
+    <value>неправильный диапазон дат</value>
+    <comment />
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+    <comment />
+  </data>
+  <data name="Delete_Question" xml:space="preserve">
+    <value>Почему вы хотите отменить этот заказ?</value>
+    <comment />
+  </data>
+  <data name="DeleteItem" xml:space="preserve">
+    <value>Удалить запись</value>
+    <comment />
+  </data>
+  <data name="DeleteSuccessful" xml:space="preserve">
+    <value>Удаление завершено</value>
+    <comment />
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>Все дело в деталях</value>
+    <comment />
+  </data>
+  <data name="DetailWithoutRecords" xml:space="preserve">
+    <value>Деталь без записей</value>
+    <comment />
+  </data>
+  <data name="DocNumber" xml:space="preserve">
+    <value>Номер документа</value>
+    <comment />
+  </data>
+  <data name="DueDate" xml:space="preserve">
+    <value>Срок</value>
+    <comment />
+  </data>
+  <data name="DuplicateEntry" xml:space="preserve">
+    <value>Такая запись уже есть</value>
+    <comment />
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редактировать</value>
+    <comment />
+  </data>
+  <data name="EditPerson" xml:space="preserve">
+    <value>Изменение пользователя</value>
+    <comment />
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>почта</value>
+    <comment />
+  </data>
+  <data name="EnterValidNumber" xml:space="preserve">
+    <value>Введите допустимое число</value>
+    <comment />
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+    <comment />
+  </data>
+  <data name="Error404" xml:space="preserve">
+    <value>Ошибка 404 - Страница не найдена!</value>
+    <comment />
+  </data>
+  <data name="ErrorDataObtained" xml:space="preserve">
+    <value>Невозможно получить данные.</value>
+    <comment />
+  </data>
+  <data name="Expiration" xml:space="preserve">
+    <value>Срок действия</value>
+    <comment />
+  </data>
+  <data name="Facebook" xml:space="preserve">
+    <value>Facebook</value>
+    <comment />
+  </data>
+  <data name="FromCamera" xml:space="preserve">
+    <value>С камеры</value>
+    <comment />
+  </data>
+  <data name="FromGallery" xml:space="preserve">
+    <value>Из коллекции</value>
+    <comment />
+  </data>
+  <data name="GetRecords" xml:space="preserve">
+    <value>Найти записи</value>
+    <comment />
+  </data>
+  <data name="InvalidDateFormat" xml:space="preserve">
+    <value>Обязательный формат {0}</value>
+    <comment />
+  </data>
+  <data name="IsAvailable" xml:space="preserve">
+    <value>доступно</value>
+    <comment />
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Pасположение</value>
+    <comment />
+  </data>
+  <data name="MainNavigation" xml:space="preserve">
+    <value>Главная панель навигации</value>
+    <comment />
+  </data>
+  <data name="MainPageTitle" xml:space="preserve">
+    <value>Freedom - программное обеспечение для управления бизнесом</value>
+    <comment />
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Руководитель</value>
+    <comment />
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>Поле {0} может содержать только {1} символов.</value>
+    <comment />
+  </data>
+  <data name="MinLength" xml:space="preserve">
+    <value>Поле {0} должно содержать не менее {1} символов.</value>
+    <comment />
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Мобильный</value>
+    <comment />
+  </data>
+  <data name="ModifyRecord" xml:space="preserve">
+    <value>Изменить запись</value>
+    <comment />
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Имя</value>
+    <comment />
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+    <comment />
+  </data>
+  <data name="NoCameraSupported" xml:space="preserve">
+    <value>Устройство не поддерживает доступ к камере.</value>
+    <comment />
+  </data>
+  <data name="NoGallerySupported" xml:space="preserve">
+    <value>Устройство не поддерживает доступ к галерее.</value>
+    <comment />
+  </data>
+  <data name="NoRecordAddedYet" xml:space="preserve">
+    <value>Нет записей</value>
+    <comment />
+  </data>
+  <data name="NoResultFound" xml:space="preserve">
+    <value>Результатов не найдено</value>
+    <comment />
+  </data>
+  <data name="UnAuthorized" xml:space="preserve">
+    <value>Запрещено</value>
+    <comment />
+  </data>
+  <data name="NumberIsInvalid" xml:space="preserve">
+    <value>Не верное число</value>
+    <comment />
+  </data>
+  <data name="OperationType" xml:space="preserve">
+    <value>Тип операции </value>
+    <comment />
+  </data>
+  <data name="PageXofY" xml:space="preserve">
+    <value>Стр. {0} из {1}</value>
+    <comment />
+  </data>
+  <data name="PasteFromClipboard" xml:space="preserve">
+    <value>Вставить из буфера обмена</value>
+    <comment />
+  </data>
+  <data name="PayBox" xml:space="preserve">
+    <value>Box</value>
+    <comment />
+  </data>
+  <data name="PaymentDate" xml:space="preserve">
+    <value>Дата платежа</value>
+    <comment />
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>пользователи</value>
+    <comment />
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Номер телефона</value>
+    <comment />
+  </data>
+  <data name="Validate_PhoneNumberIsInvalid" xml:space="preserve">
+    <value>имеет неверный формат</value>
+    <comment />
+  </data>
+  <data name="PictureSource" xml:space="preserve">
+    <value>Где вы хотите получить изображение?</value>
+    <comment />
+  </data>
+  <data name="Placeholder" xml:space="preserve">
+    <value>Введите текст</value>
+    <comment />
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Печать</value>
+    <comment />
+  </data>
+  <data name="RecordExists" xml:space="preserve">
+    <value>эта запись уже существует</value>
+    <comment />
+  </data>
+  <data name="RecordNotFound" xml:space="preserve">
+    <value>Не найдена запись</value>
+    <comment />
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Отчеты</value>
+    <comment />
+  </data>
+  <data name="Requiered" xml:space="preserve">
+    <value>Поле {0} обязательно для заполнения</value>
+    <comment />
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Возврат</value>
+    <comment />
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сэкономьте</value>
+    <comment />
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>поиск</value>
+    <comment />
+  </data>
+  <data name="ReturnEmptySearch" xml:space="preserve">
+    <value>Результат поиска без результатов</value>
+    <comment />
+  </data>
+  <data name="SelectItemCombo" xml:space="preserve">
+    <value>(Выбрать номенклатуру)</value>
+    <comment />
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Выбор параметров</value>
+    <comment />
+  </data>
+  <data name="Sender" xml:space="preserve">
+    <value>Отправитель</value>
+    <comment />
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>Параметр</value>
+    <comment />
+  </data>
+  <data name="DateSince" xml:space="preserve">
+    <value>С даты</value>
+    <comment />
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Промежуточный итог</value>
+    <comment />
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Выполнено</value>
+    <comment />
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Всего</value>
+    <comment />
+  </data>
+  <data name="TotalRecord" xml:space="preserve">
+    <value>Всего записей</value>
+    <comment />
+  </data>
+  <data name="DateUntil" xml:space="preserve">
+    <value>До даты</value>
+    <comment />
+  </data>
+  <data name="UpdateSuccessful" xml:space="preserve">
+    <value>Обновление выполнено успешно</value>
+    <comment />
+  </data>
+  <data name="Web" xml:space="preserve">
+    <value>Веб</value>
+    <comment />
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Добро пожаловать</value>
+    <comment />
+  </data>
+  <data name="WelcomeTo" xml:space="preserve">
+    <value>Добро пожаловать в {0}</value>
+    <comment />
+  </data>
+  <data name="WhatsApp" xml:space="preserve">
+    <value>вы можете дать мне свой номер whatsapp</value>
+    <comment />
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+    <comment />
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Группа</value>
+    <comment />
+  </data>
+  <data name="Group_Pleaseholder" xml:space="preserve">
+    <value>Имя группы</value>
+    <comment />
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Домашняя страница</value>
+    <comment />
+  </data>
+  <data name="HostAddress" xml:space="preserve">
+    <value>Адрес узла</value>
+    <comment />
+  </data>
+  <data name="IntendsToCancel" xml:space="preserve">
+    <value>Намерен отменить.</value>
+    <comment />
+  </data>
+  <data name="Kardex" xml:space="preserve">
+    <value>Kardex</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityBakeries" xml:space="preserve">
+    <value>Хлебобулочные и кондитерские изделия</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityClothesStores" xml:space="preserve">
+    <value>Одежда и кожа</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityHardwarePaints" xml:space="preserve">
+    <value>метизы и краски</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityIndustries" xml:space="preserve">
+    <value>Отрасли</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityMotorcicleParts" xml:space="preserve">
+    <value>Запасные части и принадлежности</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityPharmacy" xml:space="preserve">
+    <value>Аптеки и Парфюмерия</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivitySparePartsVehicle" xml:space="preserve">
+    <value>запасные части автомобилей и спецтехники</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityStationery" xml:space="preserve">
+    <value>Канцелярские магазины</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivitySupermarket" xml:space="preserve">
+    <value>Супермаркет</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityToyStore" xml:space="preserve">
+    <value>Магазин</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageAutomateWorkflow" xml:space="preserve">
+    <value>Автоматизировать рабочий процесс</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageBestPlanning" xml:space="preserve">
+    <value>Планирование</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageImproveAdministrativeProcedures" xml:space="preserve">
+    <value>Улучшите административные процедуры</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageMarketProjections" xml:space="preserve">
+    <value>Прогнозы рынка</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageMultipleReportsDataAnalysis" xml:space="preserve">
+    <value>Несколько отчетов и анализ данных</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageOptimizationCommercialOperations" xml:space="preserve">
+    <value>Оптимизация коммерческих операций</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageOptimizeCustomerSupplierRelationships" xml:space="preserve">
+    <value>Оптимизируйте отношения с клиентами и поставщиками</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageReduceAdministrativeTime" xml:space="preserve">
+    <value>Сократить административное время</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitAttractingNewBusinessIdeas" xml:space="preserve">
+    <value>Привлечение новых бизнес-идей</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitCurrencyFlowStability" xml:space="preserve">
+    <value>Стабильность валютного потока</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitCustomerLoyalty" xml:space="preserve">
+    <value>Лояльность клиентов</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitFacilityForWorkTeam" xml:space="preserve">
+    <value>Объект для работы команды</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitIncreaseIncomeLiquidity" xml:space="preserve">
+    <value>Увеличение доходов и ликвидности</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitIncreasingCustomerBase" xml:space="preserve">
+    <value>Увеличение клиентской базы</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitReduceDepartmentCosts" xml:space="preserve">
+    <value>Сократите расходы на отдел</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitStabilityCommitmentsSuppliers" xml:space="preserve">
+    <value>Стабильность в отношениях с поставщиками</value>
+    <comment />
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Финансовый</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelEmployee" xml:space="preserve">
+    <value>сотрудников</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelOrders" xml:space="preserve">
+    <value>Заказы и Поставки</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelProduct" xml:space="preserve">
+    <value>Продукты</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelTransport" xml:space="preserve">
+    <value>Транспорты</value>
+    <comment />
+  </data>
+  <data name="Logout_CustomizableSoft" xml:space="preserve">
+    <value>Настраиваемое программное обеспечение</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureContactOpportunityManagement" xml:space="preserve">
+    <value>Управление контактами и возможностями</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureCreationOffers" xml:space="preserve">
+    <value>Создание предложений, с информацией о товаре, цены, цены и скидки.</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureCustomize options" xml:space="preserve">
+    <value>Команда настройки</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureDeliveryManagement" xml:space="preserve">
+    <value>управление доставкой</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureLoanManagement" xml:space="preserve">
+    <value>Управление кредитами</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureManagementObjectives" xml:space="preserve">
+    <value>Управление целями и задачами</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureMonitoringTracking" xml:space="preserve">
+    <value>Мониторинг и отслеживание возможностей, продаж и целей по датам.</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureObtainingReportsAnalysis" xml:space="preserve">
+    <value>Получение отчетов и анализ</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureOrderSalesTracking" xml:space="preserve">
+    <value>Отслеживание заказов и продаж</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureSalesZones" xml:space="preserve">
+    <value>Зоны продаж</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureStrategicBusinessPlanning" xml:space="preserve">
+    <value>Стратегическое бизнес-планирование</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureSynchronizationMobility" xml:space="preserve">
+    <value>Синхронизация и мобильность</value>
+    <comment />
+  </data>
+  <data name="Logout_ModBanks" xml:space="preserve">
+    <value>Банки</value>
+    <comment />
+  </data>
+  <data name="Logout_ModCustomer" xml:space="preserve">
+    <value>Заказчик</value>
+    <comment />
+  </data>
+  <data name="Logout_ModCustomerOrders" xml:space="preserve">
+    <value>Клиентские заказы</value>
+    <comment />
+  </data>
+  <data name="Logout_ModEmployee" xml:space="preserve">
+    <value>Число сотрудников</value>
+    <comment />
+  </data>
+  <data name="Payments" xml:space="preserve">
+    <value>Платежи</value>
+    <comment />
+  </data>
+  <data name="Logout_ModProducts" xml:space="preserve">
+    <value>Продукты, сток, инвентарь</value>
+    <comment />
+  </data>
+  <data name="Logout_ModPurchase" xml:space="preserve">
+    <value>Закупка</value>
+    <comment />
+  </data>
+  <data name="Logout_ModRetail" xml:space="preserve">
+    <value>Предприятия розничной торговли</value>
+    <comment />
+  </data>
+  <data name="Logout_ModReturns" xml:space="preserve">
+    <value>Возвращает</value>
+    <comment />
+  </data>
+  <data name="Logout_ModSales" xml:space="preserve">
+    <value>Продажа, Билеты, Счет-фактура</value>
+    <comment />
+  </data>
+  <data name="Logout_ModSupport" xml:space="preserve">
+    <value>Техническая поддержка</value>
+    <comment />
+  </data>
+  <data name="Logout_Modwholesalers" xml:space="preserve">
+    <value>Предприятия оптовой торговли</value>
+    <comment />
+  </data>
+  <data name="Advantage" xml:space="preserve">
+    <value>преимущество</value>
+    <comment />
+  </data>
+  <data name="Applications" xml:space="preserve">
+    <value>приложения</value>
+    <comment />
+  </data>
+  <data name="Benefits" xml:space="preserve">
+    <value>Преимущества</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleBusinessManagementSoftware" xml:space="preserve">
+    <value>Программное обеспечение по управлению бизнес-процессами</value>
+    <comment />
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>функции</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleModule" xml:space="preserve">
+    <value>Модули</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleTradeActivity" xml:space="preserve">
+    <value>Торговая деятельность</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleWebPlatformMobileDesktop" xml:space="preserve">
+    <value>Веб-платформа, мобильная и настольная</value>
+    <comment />
+  </data>
+  <data name="Measure" xml:space="preserve">
+    <value>Единство измерения</value>
+    <comment />
+  </data>
+  <data name="Measure_name" xml:space="preserve">
+    <value>Единица измерения</value>
+    <comment />
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Число сотрудников</value>
+    <comment />
+  </data>
+  <data name="MenuMain_Finance" xml:space="preserve">
+    <value>финансы</value>
+    <comment />
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Продукты</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabAdministration" xml:space="preserve">
+    <value>администрация</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabConfiguration" xml:space="preserve">
+    <value>Конфигурация</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabEmployee" xml:space="preserve">
+    <value>сотрудников</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabFile" xml:space="preserve">
+    <value>файл</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabFinance" xml:space="preserve">
+    <value>финансы</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabProcess" xml:space="preserve">
+    <value>процесс</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabTransport" xml:space="preserve">
+    <value>транспорт</value>
+    <comment />
+  </data>
+  <data name="Money" xml:space="preserve">
+    <value>Валюта</value>
+    <comment />
+  </data>
+  <data name="Quote" xml:space="preserve">
+    <value>Ставка</value>
+    <comment />
+  </data>
+  <data name="Symbol" xml:space="preserve">
+    <value>Символ</value>
+    <comment />
+  </data>
+  <data name="Orders" xml:space="preserve">
+    <value>Заказ</value>
+    <comment />
+  </data>
+  <data name="Package" xml:space="preserve">
+    <value>Пакет</value>
+    <comment />
+  </data>
+  <data name="Package_Name" xml:space="preserve">
+    <value>Имя пакета</value>
+    <comment />
+  </data>
+  <data name="CustomerPayment" xml:space="preserve">
+    <value>Платеж клиента</value>
+    <comment />
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Порт</value>
+    <comment />
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Цена</value>
+    <comment />
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Приоритет</value>
+    <comment />
+  </data>
+  <data name="Priority_Name" xml:space="preserve">
+    <value>Название приоритета</value>
+    <comment />
+  </data>
+  <data name="ProductActive" xml:space="preserve">
+    <value>Список активных продуктов</value>
+    <comment />
+  </data>
+  <data name="AlterStock" xml:space="preserve">
+    <value>Перешить сток</value>
+    <comment />
+  </data>
+  <data name="ProductApply" xml:space="preserve">
+    <value>Применение продукта</value>
+    <comment />
+  </data>
+  <data name="Barcode" xml:space="preserve">
+    <value>Штрих-код</value>
+    <comment />
+  </data>
+  <data name="ProductChecked" xml:space="preserve">
+    <value>Продукт проверен</value>
+    <comment />
+  </data>
+  <data name="ProductCode" xml:space="preserve">
+    <value>Код</value>
+    <comment />
+  </data>
+  <data name="CommissionSale" xml:space="preserve">
+    <value>Продажи, комиссия</value>
+    <comment />
+  </data>
+  <data name="Drug" xml:space="preserve">
+    <value>Компоненты</value>
+    <comment />
+  </data>
+  <data name="GenericName" xml:space="preserve">
+    <value>Общее имя</value>
+    <comment />
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>Продукты</value>
+    <comment />
+  </data>
+  <data name="MaximumDiscount" xml:space="preserve">
+    <value>Максимальная скидка</value>
+    <comment />
+  </data>
+  <data name="MinimumStock" xml:space="preserve">
+    <value>Минимальный запас</value>
+    <comment />
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>торговая марка</value>
+    <comment />
+  </data>
+  <data name="ProviderCode" xml:space="preserve">
+    <value>Код провайдера</value>
+    <comment />
+  </data>
+  <data name="PayTax" xml:space="preserve">
+    <value>Налоговые</value>
+    <comment />
+  </data>
+  <data name="TaxRate" xml:space="preserve">
+    <value>Ставка налога</value>
+    <comment />
+  </data>
+  <data name="WayAdmin" xml:space="preserve">
+    <value>Способ введения</value>
+    <comment />
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Вес</value>
+    <comment />
+  </data>
+  <data name="Wholesaler" xml:space="preserve">
+    <value>оптовик</value>
+    <comment />
+  </data>
+  <data name="Provider" xml:space="preserve">
+    <value>Поставщик</value>
+    <comment />
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Закупка</value>
+    <comment />
+  </data>
+  <data name="Route" xml:space="preserve">
+    <value>Направить</value>
+    <comment />
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Продажи</value>
+    <comment />
+  </data>
+  <data name="Sector" xml:space="preserve">
+    <value>Сектор продуктов</value>
+    <comment />
+  </data>
+  <data name="SectorProductName" xml:space="preserve">
+    <value>Сектора</value>
+    <comment />
+  </data>
+  <data name="Shop" xml:space="preserve">
+    <value>Магазин</value>
+    <comment />
+  </data>
+  <data name="SourceProduct" xml:space="preserve">
+    <value>Информация о товаре</value>
+    <comment />
+  </data>
+  <data name="SourceProduct_Name" xml:space="preserve">
+    <value>Имя источника</value>
+    <comment />
+  </data>
+  <data name="State_ErrorMustSelect" xml:space="preserve">
+    <value>Вы должны выбрать штат.</value>
+    <comment />
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>состояние</value>
+    <comment />
+  </data>
+  <data name="State_Name" xml:space="preserve">
+    <value>название региона</value>
+    <comment />
+  </data>
+  <data name="State_of" xml:space="preserve">
+    <value>Штаты</value>
+    <comment />
+  </data>
+  <data name="State_Pleaseholder" xml:space="preserve">
+    <value>название государства</value>
+    <comment />
+  </data>
+  <data name="State_SelectCombo" xml:space="preserve">
+    <value>выберите штат</value>
+    <comment />
+  </data>
+  <data name="States" xml:space="preserve">
+    <value>Области</value>
+    <comment />
+  </data>
+  <data name="Store" xml:space="preserve">
+    <value>магазин</value>
+    <comment />
+  </data>
+  <data name="SubGroup" xml:space="preserve">
+    <value>Подгруппа</value>
+    <comment />
+  </data>
+  <data name="SubGroup_of" xml:space="preserve">
+    <value>Подгруппа из</value>
+    <comment />
+  </data>
+  <data name="Subgroup_pleaseholder" xml:space="preserve">
+    <value>Название подгруппы</value>
+    <comment />
+  </data>
+  <data name="SuccessfulEntry" xml:space="preserve">
+    <value>удачный вход</value>
+    <comment />
+  </data>
+  <data name="Trademark" xml:space="preserve">
+    <value>Товарный знак</value>
+    <comment />
+  </data>
+  <data name="TrademarkName" xml:space="preserve">
+    <value>Наименование торговой марки</value>
+    <comment />
+  </data>
+  <data name="Validate_Address" xml:space="preserve">
+    <value>Указан недопустимый адрес</value>
+    <comment />
+  </data>
+  <data name="CantFinishedProccess" xml:space="preserve">
+    <value>Процесс не может быть прекращен</value>
+    <comment />
+  </data>
+  <data name="Validate_CardId" xml:space="preserve">
+    <value>Номер документа недействителен</value>
+    <comment />
+  </data>
+  <data name="Validate_CityName" xml:space="preserve">
+    <value>Название города не является действительным.</value>
+    <comment />
+  </data>
+  <data name="Validate_CountryName" xml:space="preserve">
+    <value>Название страны не является действительным.</value>
+    <comment />
+  </data>
+  <data name="Validate_Email" xml:space="preserve">
+    <value>Некорректный e-mail.</value>
+    <comment />
+  </data>
+  <data name="Validate_maxLenght" xml:space="preserve">
+    <value>Поле может содержать только {1} символов длины.</value>
+    <comment />
+  </data>
+  <data name="Validate_Name" xml:space="preserve">
+    <value>необходимо ввести имя и фамилию</value>
+    <comment />
+  </data>
+  <data name="Validate_NameIsRequiered" xml:space="preserve">
+    <value>Требуется имя.</value>
+    <comment />
+  </data>
+  <data name="Validate_StateName" xml:space="preserve">
+    <value>Государственное имя не является действительным.</value>
+    <comment />
+  </data>
+  <data name="Visitor_Basket" xml:space="preserve">
+    <value>КОРЗИНА</value>
+    <comment />
+  </data>
+  <data name="Visitor_Catalog" xml:space="preserve">
+    <value>КАТАЛОГ</value>
+    <comment />
+  </data>
+  <data name="Visitor_Order" xml:space="preserve">
+    <value>ЗАКАЗЫ</value>
+    <comment />
+  </data>
+  <data name="zip" xml:space="preserve">
+    <value>Индекс</value>
+    <comment />
+  </data>
+  <data name="Zone" xml:space="preserve">
+    <value>Зона</value>
+    <comment />
+  </data>
+  <data name="Zone_Name" xml:space="preserve">
+    <value>Имя зоны</value>
+    <comment />
+  </data>
+  <data name="Validate_Owner" xml:space="preserve">
+    <value>Требуется имя владельца.</value>
+    <comment />
+  </data>
+  <data name="Validate_Facebook" xml:space="preserve">
+    <value>Требуется Facebook.</value>
+    <comment />
+  </data>
+  <data name="Validate_Whatsapp" xml:space="preserve">
+    <value>поле WhatsApp неправильное</value>
+    <comment />
+  </data>
+  <data name="ErrorOnSave" xml:space="preserve">
+    <value>Ошибка при сохранении.</value>
+    <comment />
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Обновить</value>
+    <comment />
+  </data>
+  <data name="Alter" xml:space="preserve">
+    <value>Изменение</value>
+    <comment />
+  </data>
+  <data name="DateRegister" xml:space="preserve">
+    <value>Дата регистрации</value>
+    <comment />
+  </data>
+  <data name="FieldIsRequiered" xml:space="preserve">
+    <value>Поле {0} обязательно</value>
+    <comment />
+  </data>
+  <data name="owner" xml:space="preserve">
+    <value>Владелец</value>
+    <comment />
+  </data>
+  <data name="MaxLengthCharacter" xml:space="preserve">
+    <value>максимальная длина символа</value>
+    <comment />
+  </data>
+  <data name="FieldNameIsNotValid" xml:space="preserve">
+    <value>имя недействительно</value>
+    <comment />
+  </data>
+  <data name="FieldOwnerIsNotValid" xml:space="preserve">
+    <value>владелец не действительный</value>
+    <comment />
+  </data>
+  <data name="FieldWhatsappIsNotValid" xml:space="preserve">
+    <value>WhatsApp недействителен</value>
+    <comment />
+  </data>
+  <data name="FieldFacebookAddressIsNotValid" xml:space="preserve">
+    <value>адрес facebook недействителен</value>
+    <comment />
+  </data>
+  <data name="FieldPhoneNumberIsNotValid" xml:space="preserve">
+    <value>неправильный номер телефона</value>
+    <comment />
+  </data>
+  <data name="FieldCityIsNotValid" xml:space="preserve">
+    <value>название города недействительно</value>
+    <comment />
+  </data>
+  <data name="FieldCountryIsNotValid" xml:space="preserve">
+    <value>Название страны недействительно</value>
+    <comment />
+  </data>
+  <data name="FieldAddressIsNotValid" xml:space="preserve">
+    <value>Адрес недействителен</value>
+    <comment />
+  </data>
+  <data name="FieldStateIsNotValid" xml:space="preserve">
+    <value>Состояние недействительно</value>
+    <comment />
+  </data>
+  <data name="CancelByTocken" xml:space="preserve">
+    <value>Эта операция отменена</value>
+    <comment />
+  </data>
+  <data name="ConfirmToFinish" xml:space="preserve">
+    <value>Подтвердите, чтобы закончить</value>
+    <comment />
+  </data>
+  <data name="PasswordMinimunLength" xml:space="preserve">
+    <value>'Минимальная длинна пароля 6 символов'</value>
+    <comment />
+  </data>
+  <data name="PasswordMaxLength" xml:space="preserve">
+    <value>максимальная длина пароля 20 символов</value>
+    <comment />
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>электронная почта требуется</value>
+    <comment />
+  </data>
+  <data name="ItemsperPage" xml:space="preserve">
+    <value>элементы на странице не действительны</value>
+    <comment />
+  </data>
+  <data name="IdParameterOutOfRange" xml:space="preserve">
+    <value>Параметр идентичности вне допустимого диапазона</value>
+    <comment />
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Подождите</value>
+    <comment />
+  </data>
+  <data name="ProcessHasBeenCanceled" xml:space="preserve">
+    <value>Процесс отменен</value>
+    <comment />
+  </data>
+  <data name="RecordsProcessedSuccessfully" xml:space="preserve">
+    <value>Записи успешно обработаны</value>
+    <comment />
+  </data>
+  <data name="UserIdIsInvalid" xml:space="preserve">
+    <value>Идентификатор пользователя недопустим</value>
+    <comment />
+  </data>
+  <data name="AccessPointIsNullOrEmpty" xml:space="preserve">
+    <value>Точка доступа пуста или пуста</value>
+    <comment />
+  </data>
+  <data name="IdentityNumberIsNotValid" xml:space="preserve">
+    <value>Номер карты недействителен</value>
+    <comment />
+  </data>
+  <data name="CompanyIdIsInvalid" xml:space="preserve">
+    <value>Идентификатор компании недействителен</value>
+    <comment />
+  </data>
+  <data name="EmailUserCreate" xml:space="preserve">
+    <value>Пароль был отправлен на вашу электронную почту, пожалуйста, подтвердите, чтобы войти в систему</value>
+    <comment />
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>Неверная попытка входа в систему. У вас должен быть подтвержденный адрес электронной почты.</value>
+    <comment />
+  </data>
+  <data name="NewUserValidation" xml:space="preserve">
+    <value>Проверка нового пользователя</value>
+    <comment />
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Подтверждение</value>
+    <comment />
+  </data>
+  <data name="ConfirmationCode" xml:space="preserve">
+    <value>Код подтверждения</value>
+    <comment />
+  </data>
+  <data name="EnterConfirmationCodeReceived" xml:space="preserve">
+    <value>введите код подтверждения, полученный на вашу электронную почту</value>
+    <comment />
+  </data>
+  <data name="ValidationCodeIsInvalid" xml:space="preserve">
+    <value>код проверки недействителен</value>
+    <comment />
+  </data>
+  <data name="TokenDoesNotExist" xml:space="preserve">
+    <value>Маркер доступа не существует.</value>
+    <comment />
+  </data>
+  <data name="UserRegisterCorrectly" xml:space="preserve">
+    <value>пользователь уже зарегистрирован правильно</value>
+    <comment />
+  </data>
+  <data name="UserSettingIsInvalid" xml:space="preserve">
+    <value>настройка пользователя недействительна</value>
+    <comment />
+  </data>
+  <data name="EmployeeIdIsNull" xml:space="preserve">
+    <value>Сотрудник недействителен</value>
+    <comment />
+  </data>
+  <data name="UserIsInvalid" xml:space="preserve">
+    <value>Пользователь недействителен</value>
+    <comment />
+  </data>
+  <data name="ShopIsInvalid" xml:space="preserve">
+    <value>Магазин недействителен</value>
+    <comment />
+  </data>
+  <data name="BoxIdIsInvalid" xml:space="preserve">
+    <value>Коробка недействительна</value>
+    <comment />
+  </data>
+  <data name="UserHasNoConfiguration" xml:space="preserve">
+    <value>у пользователя нет конфигурации</value>
+    <comment />
+  </data>
+  <data name="UserSetting" xml:space="preserve">
+    <value>Параметр пользователя</value>
+    <comment />
+  </data>
+  <data name="UserSettingAndRoles" xml:space="preserve">
+    <value>Настройки пользователей и роли</value>
+    <comment />
+  </data>
+  <data name="Box" xml:space="preserve">
+    <value>Кассовый регистр</value>
+    <comment />
+  </data>
+  <data name="EnterHereToSearch" xml:space="preserve">
+    <value>Введите сюда для поиска</value>
+    <comment />
+  </data>
+  <data name="SearchOfShops" xml:space="preserve">
+    <value>Искать в магазине</value>
+    <comment />
+  </data>
+  <data name="SearchOfBox" xml:space="preserve">
+    <value>поиск кассы</value>
+    <comment />
+  </data>
+  <data name="SearchOfUsers" xml:space="preserve">
+    <value>Поиск пользователей</value>
+    <comment />
+  </data>
+  <data name="SearchOfEmployees" xml:space="preserve">
+    <value>поиск сотрудника</value>
+    <comment />
+  </data>
+  <data name="SearchBranchOffices" xml:space="preserve">
+    <value>Поиск филиалов</value>
+    <comment />
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Перезагрузить</value>
+    <comment />
+  </data>
+  <data name="Job_Position" xml:space="preserve">
+    <value>Должность</value>
+    <comment />
+  </data>
+  <data name="job_Sectors" xml:space="preserve">
+    <value>Сфера Работи</value>
+    <comment />
+  </data>
+  <data name="ErrorWhenSelectingItem" xml:space="preserve">
+    <value>Ошибка при выборе ítem</value>
+    <comment />
+  </data>
+  <data name="PriceLevel" xml:space="preserve">
+    <value>ценовой уровень</value>
+    <comment />
+  </data>
+  <data name="DiscountMaxRate" xml:space="preserve">
+    <value>Максимальная ставка скидки</value>
+    <comment />
+  </data>
+  <data name="SearchOfZones" xml:space="preserve">
+    <value>Поиск зон</value>
+    <comment />
+  </data>
+  <data name="SearchOfOperationTypes" xml:space="preserve">
+    <value>Поиск типа операции</value>
+    <comment />
+  </data>
+  <data name="SearchOfGroups" xml:space="preserve">
+    <value>Поиск групп</value>
+    <comment />
+  </data>
+  <data name="ContactNameIsInvalid" xml:space="preserve">
+    <value>Контактное имя недействительно</value>
+    <comment />
+  </data>
+  <data name="RucNumberIsInvalid" xml:space="preserve">
+    <value>Номер документа налогоплательщика недействителен</value>
+    <comment />
+  </data>
+  <data name="ProviderType_ErrorMustSelect" xml:space="preserve">
+    <value>Вы должны выбрать тип провайдера</value>
+    <comment />
+  </data>
+  <data name="PaymentType_ErrorMustSelect" xml:space="preserve">
+    <value>Вы должны выбрать тип платежа</value>
+    <comment />
+  </data>
+  <data name="StampIsInvalid" xml:space="preserve">
+    <value>штамп недействителен</value>
+    <comment />
+  </data>
+  <data name="BankErrorMustSelect" xml:space="preserve">
+    <value>Вы должны выбрать банк</value>
+    <comment />
+  </data>
+  <data name="SearchOfProvider" xml:space="preserve">
+    <value>поиск поставщиков</value>
+    <comment />
+  </data>
+  <data name="BusinessName" xml:space="preserve">
+    <value>Юридическое название фирмы</value>
+    <comment />
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Компания</value>
+    <comment />
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>Услуга</value>
+    <comment />
+  </data>
+  <data name="Production" xml:space="preserve">
+    <value>Производство</value>
+    <comment />
+  </data>
+  <data name="CattleRaising" xml:space="preserve">
+    <value>разведение скота</value>
+    <comment />
+  </data>
+  <data name="comercialContact" xml:space="preserve">
+    <value>Контакт</value>
+    <comment />
+  </data>
+  <data name="RUC" xml:space="preserve">
+    <value>ICEX</value>
+    <comment />
+  </data>
+  <data name="stamped" xml:space="preserve">
+    <value>Напечатано</value>
+    <comment />
+  </data>
+  <data name="PaymentType" xml:space="preserve">
+    <value>Варианты оплаты</value>
+    <comment />
+  </data>
+  <data name="ProviderType" xml:space="preserve">
+    <value>Тип провайдера</value>
+    <comment />
+  </data>
+  <data name="SearchOfProviderType" xml:space="preserve">
+    <value>Поиск типов Провайдеров</value>
+    <comment />
+  </data>
+  <data name="SearchOfCities" xml:space="preserve">
+    <value>Поиск городов</value>
+    <comment />
+  </data>
+  <data name="SearchOfPaymentTypes" xml:space="preserve">
+    <value>Поиск видов платежей</value>
+    <comment />
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>Номер счета</value>
+    <comment />
+  </data>
+  <data name="Carrier" xml:space="preserve">
+    <value>Доставка</value>
+    <comment />
+  </data>
+  <data name="ImportCosts" xml:space="preserve">
+    <value>затраты на импорт</value>
+    <comment />
+  </data>
+  <data name="ItIsImported" xml:space="preserve">
+    <value>это импортировано</value>
+    <comment />
+  </data>
+  <data name="PurchaseWithHoldindTax" xml:space="preserve">
+    <value>Покупка с удерживаемым налогом</value>
+    <comment />
+  </data>
+  <data name="TypeOfVoucher" xml:space="preserve">
+    <value>Тип ваучера</value>
+    <comment />
+  </data>
+  <data name="VoucherDetail" xml:space="preserve">
+    <value>Подробная информация о ваучере</value>
+    <comment />
+  </data>
+  <data name="TaxpayerSituation" xml:space="preserve">
+    <value>положение налогоплательщика</value>
+    <comment />
+  </data>
+  <data name="RentWithholding" xml:space="preserve">
+    <value>Удержание арендной платы</value>
+    <comment />
+  </data>
+  <data name="IVAwithholding" xml:space="preserve">
+    <value>Удержание НДС</value>
+    <comment />
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Количество</value>
+    <comment />
+  </data>
+  <data name="Tax" xml:space="preserve">
+    <value>Налог</value>
+    <comment />
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Описание</value>
+    <comment />
+  </data>
+  <data name="Exent" xml:space="preserve">
+    <value>освобождать</value>
+    <comment />
+  </data>
+  <data name="iva" xml:space="preserve">
+    <value>НДС</value>
+    <comment />
+  </data>
+  <data name="TotalRetention" xml:space="preserve">
+    <value>полное удержание</value>
+    <comment />
+  </data>
+  <data name="VAT_Settlement" xml:space="preserve">
+    <value>Расчет НДС</value>
+    <comment />
+  </data>
+  <data name="RetentionBasis" xml:space="preserve">
+    <value>Основа удержания</value>
+    <comment />
+  </data>
+  <data name="RetentionPercentage" xml:space="preserve">
+    <value>процент удержания</value>
+    <comment />
+  </data>
+  <data name="TotalVATWithheld" xml:space="preserve">
+    <value>Общая сумма удержанного НДС</value>
+    <comment />
+  </data>
+  <data name="TotalRentWithheld" xml:space="preserve">
+    <value>общая удержанная арендная плата</value>
+    <comment />
+  </data>
+  <data name="ISOcode" xml:space="preserve">
+    <value>Код ISO</value>
+    <comment />
+  </data>
+  <data name="BaseCurrency" xml:space="preserve">
+    <value>базисная валюта</value>
+    <comment />
+  </data>
+  <data name="decimals" xml:space="preserve">
+    <value>десятичные дроби</value>
+    <comment />
+  </data>
+  <data name="Commission" xml:space="preserve">
+    <value>Комиссия</value>
+    <comment />
+  </data>
+  <data name="SearchOfMoney" xml:space="preserve">
+    <value>поиск валюты</value>
+    <comment />
+  </data>
+  <data name="mobileIsInvalid" xml:space="preserve">
+    <value>Номер мобильного телефона недействителен</value>
+    <comment />
+  </data>
+  <data name="moneyIsInvalid" xml:space="preserve">
+    <value>валюта недействительна</value>
+    <comment />
+  </data>
+  <data name="barcodeIsNotValid" xml:space="preserve">
+    <value>штрих-код недействителен</value>
+    <comment />
+  </data>
+  <data name="JobSectorNotValid" xml:space="preserve">
+    <value>Сектор вакансий недействителен</value>
+    <comment />
+  </data>
+  <data name="JobPostIsInvalid" xml:space="preserve">
+    <value>Сообщение о вакансии недействительно</value>
+    <comment />
+  </data>
+  <data name="ProfessionIsNotValid" xml:space="preserve">
+    <value>Профессия не действительна</value>
+    <comment />
+  </data>
+  <data name="FatherNameIsNotValid" xml:space="preserve">
+    <value>Имя отца недействительно</value>
+    <comment />
+  </data>
+  <data name="MotherNameIsInvalid" xml:space="preserve">
+    <value>Имя матери недействительно</value>
+    <comment />
+  </data>
+  <data name="BloodTypenameNotValid" xml:space="preserve">
+    <value>Имя типа крови недействительно</value>
+    <comment />
+  </data>
+  <data name="SalaryIsNotValid" xml:space="preserve">
+    <value>зарплата недействительна</value>
+    <comment />
+  </data>
+  <data name="CommissionSaleIsNotValid" xml:space="preserve">
+    <value>комиссия за продажу не действует</value>
+    <comment />
+  </data>
+  <data name="CommissionCollectionIsNotValid" xml:space="preserve">
+    <value>комиссия за взыскание недействительна</value>
+    <comment />
+  </data>
+  <data name="SearchOfCarrier" xml:space="preserve">
+    <value>поиск конвейеров</value>
+    <comment />
+  </data>
+  <data name="BranchManagerIsNoValid" xml:space="preserve">
+    <value>Менеджер филиала недействителен</value>
+    <comment />
+  </data>
+  <data name="BirthDateIsInvalid" xml:space="preserve">
+    <value>Дата рождения недействительна</value>
+    <comment />
+  </data>
+  <data name="SexIsNotvalid" xml:space="preserve">
+    <value>Пол недействителен</value>
+    <comment />
+  </data>
+  <data name="WorkStartDateIsInvalid" xml:space="preserve">
+    <value>Дата начала работы недействительна</value>
+    <comment />
+  </data>
+  <data name="ChildrenNumberIsNotValid" xml:space="preserve">
+    <value>Дочерний счет недействителен</value>
+    <comment />
+  </data>
+  <data name="CommissionPercentIsNotValid" xml:space="preserve">
+    <value>Процент комиссии недействителен</value>
+    <comment />
+  </data>
+  <data name="SalaryTypeIsNotValid" xml:space="preserve">
+    <value>Тип заработной платы недействителен</value>
+    <comment />
+  </data>
+  <data name="NickNameIsInvalid" xml:space="preserve">
+    <value>Псевдоним недействителен</value>
+    <comment />
+  </data>
+  <data name="PassportNumIsNotValid" xml:space="preserve">
+    <value>Номер паспорта недействителен</value>
+    <comment />
+  </data>
+  <data name="SpouceIdentiyIsnotValid" xml:space="preserve">
+    <value>Личность супруга недействительна</value>
+    <comment />
+  </data>
+  <data name="SpouceNameIsNotValid" xml:space="preserve">
+    <value>Имя супруга недействительно</value>
+    <comment />
+  </data>
+  <data name="DrivingLicenceNumberIsNotValid" xml:space="preserve">
+    <value>Номер водительского удостоверения недействителен</value>
+    <comment />
+  </data>
+  <data name="Emergency1NumberNotValid" xml:space="preserve">
+    <value>Основной контактный номер для экстренной помощи недействителен</value>
+    <comment />
+  </data>
+  <data name="PlaceBirtIsNotValid" xml:space="preserve">
+    <value>Место рождения недействительно</value>
+    <comment />
+  </data>
+  <data name="IdIsInvalid" xml:space="preserve">
+    <value>Id недействителен</value>
+    <comment />
+  </data>
+  <data name="ObservationIsNotValid" xml:space="preserve">
+    <value>Замечание недействительно</value>
+    <comment />
+  </data>
+  <data name="ExchangeIsnotValid" xml:space="preserve">
+    <value>Обмен не действителен</value>
+    <comment />
+  </data>
+  <data name="SymbolNotValid" xml:space="preserve">
+    <value>Символ недействителен</value>
+    <comment />
+  </data>
+  <data name="CivilStatusIsNotValid" xml:space="preserve">
+    <value>Гражданский статус недействителен</value>
+    <comment />
+  </data>
+  <data name="Emergency2NumberNotValid" xml:space="preserve">
+    <value>Дополнительный контактный номер для экстренной помощи недействителен</value>
+    <comment />
+  </data>
+  <data name="TaxRateIsNotValid" xml:space="preserve">
+    <value>Налоговый процент недействителен</value>
+    <comment />
+  </data>
+  <data name="TotalWithholdingIsInvalid" xml:space="preserve">
+    <value>Общая сумма удержания недействительна</value>
+    <comment />
+  </data>
+  <data name="RemarkIsNotValid" xml:space="preserve">
+    <value>Замечание недействительно</value>
+    <comment />
+  </data>
+  <data name="PurchaseDateIsInvalid" xml:space="preserve">
+    <value>Дата покупки недействительна</value>
+    <comment />
+  </data>
+  <data name="ProviderIsInvalid" xml:space="preserve">
+    <value>Провайдер недействителен</value>
+    <comment />
+  </data>
+  <data name="OperationTypeIsInvalid" xml:space="preserve">
+    <value>Тип операции недействителен</value>
+    <comment />
+  </data>
+  <data name="CarrierIsInvalid" xml:space="preserve">
+    <value>Неверный носитель</value>
+    <comment />
+  </data>
+  <data name="InvoiceNumberIsNotValid" xml:space="preserve">
+    <value>Номер счета-фактуры недействителен</value>
+    <comment />
+  </data>
+  <data name="TotalExentaIsNotValid" xml:space="preserve">
+    <value>Полное освобождение недействительно</value>
+    <comment />
+  </data>
+  <data name="TotalGravadaIsNotValid" xml:space="preserve">
+    <value>Общая сумма налога недействительна</value>
+    <comment />
+  </data>
+  <data name="StatusIsInvalid" xml:space="preserve">
+    <value>Статус недействителен</value>
+    <comment />
+  </data>
+  <data name="TotalIvaIsNotValid" xml:space="preserve">
+    <value>Общая сумма НДС не действительна</value>
+    <comment />
+  </data>
+  <data name="CustomerIsNotValid" xml:space="preserve">
+    <value>Заказчик недействителен</value>
+    <comment />
+  </data>
+  <data name="Balance" xml:space="preserve">
+    <value>Остаток средств</value>
+    <comment />
+  </data>
+  <data name="Capital" xml:space="preserve">
+    <value>Столица</value>
+    <comment />
+  </data>
+  <data name="Calculate" xml:space="preserve">
+    <value>Рассчитать</value>
+    <comment />
+  </data>
+  <data name="ConditionsToGenerateQuotas" xml:space="preserve">
+    <value>Условия для создания квот</value>
+    <comment />
+  </data>
+  <data name="BalanceToFinance" xml:space="preserve">
+    <value>Баланс для финансирования</value>
+    <comment />
+  </data>
+  <data name="AmountOfFees" xml:space="preserve">
+    <value>Размер комиссии</value>
+    <comment />
+  </data>
+  <data name="DaysOverdue" xml:space="preserve">
+    <value>Просроченные дни</value>
+    <comment />
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>Доставка</value>
+    <comment />
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Уровень</value>
+    <comment />
+  </data>
+  <data name="Interest" xml:space="preserve">
+    <value>Интерес</value>
+    <comment />
+  </data>
+  <data name="AnnualInterestPercentage" xml:space="preserve">
+    <value>Годовой процентный процент</value>
+    <comment />
+  </data>
+  <data name="FirstMaturity" xml:space="preserve">
+    <value>Первая зрелость</value>
+    <comment />
+  </data>
+  <data name="TypesOfTerm" xml:space="preserve">
+    <value>типы сроков погашения</value>
+    <comment />
+  </data>
+  <data name="FeesCalculator" xml:space="preserve">
+    <value>Калькулятор Платежей</value>
+    <comment />
+  </data>
+  <data name="FeesGenerator" xml:space="preserve">
+    <value>Генератор сборов</value>
+    <comment />
+  </data>
+  <data name="EveryDay" xml:space="preserve">
+    <value>ежедневно</value>
+    <comment />
+  </data>
+  <data name="Every8days" xml:space="preserve">
+    <value>каждую неделю</value>
+    <comment />
+  </data>
+  <data name="Every30days" xml:space="preserve">
+    <value>каждый месяц</value>
+    <comment />
+  </data>
+  <data name="Every60Days" xml:space="preserve">
+    <value>каждые 60 дней</value>
+    <comment />
+  </data>
+  <data name="Every90days" xml:space="preserve">
+    <value>каждые 90 дней</value>
+    <comment />
+  </data>
+  <data name="Every120days" xml:space="preserve">
+    <value>каждые 120 дней</value>
+    <comment />
+  </data>
+  <data name="Every180days" xml:space="preserve">
+    <value>каждые 180 дней</value>
+    <comment />
+  </data>
+  <data name="Every15days" xml:space="preserve">
+    <value>каждые 15 дней</value>
+    <comment />
+  </data>
+  <data name="Every45days" xml:space="preserve">
+    <value>каждые 180 дней</value>
+    <comment />
+  </data>
+  <data name="VisualizePurchase" xml:space="preserve">
+    <value>Визуализируйте покупки</value>
+    <comment />
+  </data>
+  <data name="PurchaseReport" xml:space="preserve">
+    <value>Отчет о покупках</value>
+    <comment />
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>Окей</value>
+    <comment />
+  </data>
+  <data name="SearchByProvider" xml:space="preserve">
+    <value>поиск по провайдеру</value>
+    <comment />
+  </data>
+  <data name="SearchByInvoiceNumber" xml:space="preserve">
+    <value>поиск по номеру счета</value>
+    <comment />
+  </data>
+  <data name="SearchByOperationType" xml:space="preserve">
+    <value>поиск по типу операции</value>
+    <comment />
+  </data>
+  <data name="SearchByMoney" xml:space="preserve">
+    <value>поиск по валюте</value>
+    <comment />
+  </data>
+  <data name="SearchByBox" xml:space="preserve">
+    <value>поиск по окну</value>
+    <comment />
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Накладная</value>
+    <comment />
+  </data>
+  <data name="Retention" xml:space="preserve">
+    <value>Ретенция</value>
+    <comment />
+  </data>
+  <data name="TotalExenta" xml:space="preserve">
+    <value>Всего освобождено</value>
+    <comment />
+  </data>
+  <data name="TotalVAT" xml:space="preserve">
+    <value>Итого НДС</value>
+    <comment />
+  </data>
+  <data name="TotalTaxed" xml:space="preserve">
+    <value>Всего облагается налогом</value>
+    <comment />
+  </data>
+  <data name="TotalPurchase" xml:space="preserve">
+    <value>Общая покупка</value>
+    <comment />
+  </data>
+  <data name="TheDateIsNotValid" xml:space="preserve">
+    <value>Дата недействительна</value>
+    <comment />
+  </data>
+  <data name="DateSinceIsNotValid" xml:space="preserve">
+    <value>Дата начала недействительна</value>
+    <comment />
+  </data>
+  <data name="DateUntilIsNotValid" xml:space="preserve">
+    <value>дата до недействительна</value>
+    <comment />
+  </data>
+  <data name="PaginationItemsperPage" xml:space="preserve">
+    <value>Элементы на странице не действительны</value>
+    <comment />
+  </data>
+  <data name="PaginationNumberInNotValid" xml:space="preserve">
+    <value>номер пейджинга недействителен</value>
+    <comment />
+  </data>
+  <data name="TotalNetIsInvalid" xml:space="preserve">
+    <value>Чистая сумма недействительна</value>
+    <comment />
+  </data>
+  <data name="SearchOptions" xml:space="preserve">
+    <value>Параметры поиска</value>
+    <comment />
+  </data>
+  <data name="SearchTextIsInvalid" xml:space="preserve">
+    <value>Текст поиска недействителен</value>
+    <comment />
+  </data>
+  <data name="SearchOfCountries" xml:space="preserve">
+    <value>Поиск стран</value>
+    <comment />
+  </data>
+  <data name="SearchOfStates" xml:space="preserve">
+    <value>Поиск Штатов</value>
+    <comment />
+  </data>
+  <data name="LoadMore" xml:space="preserve">
+    <value>Загрузить еще</value>
+    <comment />
+  </data>
+  <data name="forbidenAccess" xml:space="preserve">
+    <value>Запрещенный доступ</value>
+    <comment />
+  </data>
+  <data name="ApiVersionIsWrong" xml:space="preserve">
+    <value>Версия api неверна</value>
+    <comment />
+  </data>
+  <data name="SearchOfCompany" xml:space="preserve">
+    <value>Поиск компаний</value>
+    <comment />
+  </data>
+  <data name="TypeOfExpenses" xml:space="preserve">
+    <value>Тип расходов</value>
+    <comment />
+  </data>
+  <data name="Expence" xml:space="preserve">
+    <value>Расходы</value>
+    <comment />
+  </data>
+  <data name="ReturnReason" xml:space="preserve">
+    <value>Причина возврата</value>
+    <comment />
+  </data>
+  <data name="Town" xml:space="preserve">
+    <value>окресности</value>
+    <comment />
+  </data>
+  <data name="Vehicle" xml:space="preserve">
+    <value>Пассажирский модуль</value>
+    <comment />
+  </data>
+  <data name="GroupIdIsInvalid" xml:space="preserve">
+    <value>ID группы недействителен</value>
+    <comment />
+  </data>
+  <data name="ZoneIdIsInvalid" xml:space="preserve">
+    <value>Идентификатор зоны недействителен</value>
+    <comment />
+  </data>
+  <data name="SearchOfApply" xml:space="preserve">
+    <value>Поиск приложения</value>
+    <comment />
+  </data>
+  <data name="SearchOfTown" xml:space="preserve">
+    <value>Поиск города</value>
+    <comment />
+  </data>
+  <data name="SearchOfCategory" xml:space="preserve">
+    <value>Поиск по категории</value>
+    <comment />
+  </data>
+  <data name="SearchOfExpence" xml:space="preserve">
+    <value>Поиск расходов</value>
+    <comment />
+  </data>
+  <data name="SearchOfBrand" xml:space="preserve">
+    <value>Поиск бренда</value>
+    <comment />
+  </data>
+  <data name="SearchOfPackage" xml:space="preserve">
+    <value>Поиск пакета</value>
+    <comment />
+  </data>
+  <data name="SearchOfPriority" xml:space="preserve">
+    <value>Поиск приоритета</value>
+    <comment />
+  </data>
+  <data name="SearchOfProduct" xml:space="preserve">
+    <value>Поиск продуктов</value>
+    <comment />
+  </data>
+  <data name="SearchOfJobPost" xml:space="preserve">
+    <value>Поиск вакансий</value>
+    <comment />
+  </data>
+  <data name="SearchOfReason" xml:space="preserve">
+    <value>Поиск причины возврата</value>
+    <comment />
+  </data>
+  <data name="SearchOfBranch" xml:space="preserve">
+    <value>Поиск филиала</value>
+    <comment />
+  </data>
+  <data name="SearchOfRoute" xml:space="preserve">
+    <value>Поиск маршрута</value>
+    <comment />
+  </data>
+  <data name="SearchOfSectorProduct" xml:space="preserve">
+    <value>Поиск сектора продукта</value>
+    <comment />
+  </data>
+  <data name="SearchOfJobSector" xml:space="preserve">
+    <value>Поиск вакансий</value>
+    <comment />
+  </data>
+  <data name="SearchOfSubGroup" xml:space="preserve">
+    <value>Поиск подгруппы</value>
+    <comment />
+  </data>
+  <data name="SearchOfExepenceType" xml:space="preserve">
+    <value>Поиск типа расходов</value>
+    <comment />
+  </data>
+  <data name="SearchOfVehicle" xml:space="preserve">
+    <value>Поиск автомобиля</value>
+    <comment />
+  </data>
+  <data name="SearchOfMeasure" xml:space="preserve">
+    <value>Поиск меры</value>
+    <comment />
+  </data>
+  <data name="SearchOfWayAdmin" xml:space="preserve">
+    <value>Поиск пути админа</value>
+    <comment />
+  </data>
+  <data name="SearchOfDrug" xml:space="preserve">
+    <value>Поиск компонентов</value>
+    <comment />
+  </data>
+  <data name="ReferentialIntegrityConstraintsError" xml:space="preserve">
+    <value>Ограничения ссылочной целостности</value>
+    <comment />
+  </data>
+  <data name="ResponsibleStaff" xml:space="preserve">
+    <value>ОТВЕТСТВЕННЫЙ ПЕРСОНАЛ</value>
+    <comment />
+  </data>
+  <data name="CreditNoteLastCreated" xml:space="preserve">
+    <value>Последнее создание кредитной ноты</value>
+    <comment />
+  </data>
+  <data name="CreditNoteSince" xml:space="preserve">
+    <value>Кредит-нота с</value>
+    <comment />
+  </data>
+  <data name="CreditNoteUntil" xml:space="preserve">
+    <value>Кредитная нота до</value>
+    <comment />
+  </data>
+  <data name="InvoiceLastCreated" xml:space="preserve">
+    <value>Последний созданный счет</value>
+    <comment />
+  </data>
+  <data name="InvoiceSince" xml:space="preserve">
+    <value>Счет с</value>
+    <comment />
+  </data>
+  <data name="InvoiceUntil" xml:space="preserve">
+    <value>Счет до</value>
+    <comment />
+  </data>
+  <data name="PromissoryNoteLastCreated" xml:space="preserve">
+    <value>Вексель последний созданный</value>
+    <comment />
+  </data>
+  <data name="PromissoryNoteSince" xml:space="preserve">
+    <value>Вексель с</value>
+    <comment />
+  </data>
+  <data name="PromissoryNoteUntil" xml:space="preserve">
+    <value>Вексель до</value>
+    <comment />
+  </data>
+  <data name="ReceiptLastCreated" xml:space="preserve">
+    <value>Квитанция об оплате Последнее создание</value>
+    <comment />
+  </data>
+  <data name="ReceiptSince" xml:space="preserve">
+    <value>Квитанция об оплате с</value>
+    <comment />
+  </data>
+  <data name="ReceiptUntil" xml:space="preserve">
+    <value>Квитанция об оплате До</value>
+    <comment />
+  </data>
+  <data name="ReturnNoteLastCreated" xml:space="preserve">
+    <value>Последнее созданное примечание к возврату</value>
+    <comment />
+  </data>
+  <data name="ReturnNoteSince" xml:space="preserve">
+    <value>Примечание о возврате с</value>
+    <comment />
+  </data>
+  <data name="ReturnNoteUntil" xml:space="preserve">
+    <value>Примечание о возврате</value>
+    <comment />
+  </data>
+  <data name="Shop_ErrorMustSelect" xml:space="preserve">
+    <value>Вы должны выбрать магазин</value>
+    <comment />
+  </data>
+  <data name="Brand" xml:space="preserve">
+    <value>Бренд</value>
+    <comment />
+  </data>
+  <data name="Brandisinvalid" xml:space="preserve">
+    <value>Марка недействительна</value>
+    <comment />
+  </data>
+  <data name="Capacity" xml:space="preserve">
+    <value>Емкость</value>
+    <comment />
+  </data>
+  <data name="CapacityisInvalid" xml:space="preserve">
+    <value>Недопустимая емкость</value>
+    <comment />
+  </data>
+  <data name="CarriagenNumberIsInvalid" xml:space="preserve">
+    <value>Неверный номер вагона</value>
+    <comment />
+  </data>
+  <data name="ChassisNumberIsInvalid" xml:space="preserve">
+    <value>Номер шасси недействителен</value>
+    <comment />
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Цвет</value>
+    <comment />
+  </data>
+  <data name="ColorIsInvalid" xml:space="preserve">
+    <value>Неверный цвет</value>
+    <comment />
+  </data>
+  <data name="EngineNumberIsInvalid" xml:space="preserve">
+    <value>Номер двигателя недействителен</value>
+    <comment />
+  </data>
+  <data name="FuelTypeIsInvalid" xml:space="preserve">
+    <value>Неверный тип топлива</value>
+    <comment />
+  </data>
+  <data name="InitialKmIsInvalid" xml:space="preserve">
+    <value>Начальный км недействителен</value>
+    <comment />
+  </data>
+  <data name="LoadTypeIsInvalid" xml:space="preserve">
+    <value>Недопустимый тип загрузки</value>
+    <comment />
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Модель</value>
+    <comment />
+  </data>
+  <data name="Model is invalid" xml:space="preserve">
+    <value>Недопустимая модель</value>
+    <comment />
+  </data>
+  <data name="Patent" xml:space="preserve">
+    <value>Патент</value>
+    <comment />
+  </data>
+  <data name="PatentIsInvalid" xml:space="preserve">
+    <value>Патент недействителен</value>
+    <comment />
+  </data>
+  <data name="YearModelIsInvalid" xml:space="preserve">
+    <value>Модель года недействительна</value>
+    <comment />
+  </data>
+  <data name="CarriageNumber" xml:space="preserve">
+    <value>Номер вагона</value>
+    <comment />
+  </data>
+  <data name="ChassisNumber" xml:space="preserve">
+    <value>Номер шасси</value>
+    <comment />
+  </data>
+  <data name="EngineNumber" xml:space="preserve">
+    <value>номер двигателя</value>
+    <comment />
+  </data>
+  <data name="FuelType" xml:space="preserve">
+    <value>Тип топлива</value>
+    <comment />
+  </data>
+  <data name="InitialKM" xml:space="preserve">
+    <value>Начальный километр</value>
+    <comment />
+  </data>
+  <data name="LoadType" xml:space="preserve">
+    <value>Тип нагрузки</value>
+    <comment />
+  </data>
+  <data name="year" xml:space="preserve">
+    <value>Год</value>
+    <comment />
+  </data>
+  <data name="CustomerAccount" xml:space="preserve">
+    <value>Аккаунт клиента</value>
+    <comment />
+  </data>
+  <data name="BankDeposit" xml:space="preserve">
+    <value>Банковский депозит</value>
+    <comment />
+  </data>
+  <data name="BankDepositReport" xml:space="preserve">
+    <value>Отчет о банковском депозите</value>
+    <comment />
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Открытки</value>
+    <comment />
+  </data>
+  <data name="ReleaseCheck" xml:space="preserve">
+    <value>Выпустить банковский чек</value>
+    <comment />
+  </data>
+  <data name="Transfers" xml:space="preserve">
+    <value>Телеграфный перевод</value>
+    <comment />
+  </data>
+  <data name="AccountHolderIsInvalid" xml:space="preserve">
+    <value>Владелец счета недействителен</value>
+    <comment />
+  </data>
+  <data name="AccountNumberIsInvalid" xml:space="preserve">
+    <value>Неверный номер счета</value>
+    <comment />
+  </data>
+  <data name="AgencyIsInvalid" xml:space="preserve">
+    <value>Агентство недействительно</value>
+    <comment />
+  </data>
+  <data name="BankAccountTypeIsInvalid" xml:space="preserve">
+    <value>Недопустимый тип банковского счета</value>
+    <comment />
+  </data>
+  <data name="BankIdIsInvalid" xml:space="preserve">
+    <value>Идентификатор банка недействителен</value>
+    <comment />
+  </data>
+  <data name="CreditOfficerIsInvalid" xml:space="preserve">
+    <value>Кредитный инспектор недействителен</value>
+    <comment />
+  </data>
+  <data name="ManagerIsInvalid" xml:space="preserve">
+    <value>Менеджер недействителен</value>
+    <comment />
+  </data>
+  <data name="WebIsInvalid" xml:space="preserve">
+    <value>сеть недействительна</value>
+    <comment />
+  </data>
+  <data name="CategoryIsInvalid" xml:space="preserve">
+    <value>Категория недействительна</value>
+    <comment />
+  </data>
+  <data name="DiscountIsNotValid" xml:space="preserve">
+    <value>Скидка не действует</value>
+    <comment />
+  </data>
+  <data name="FullNameIsInvalid" xml:space="preserve">
+    <value>Полное имя недействительно</value>
+    <comment />
+  </data>
+  <data name="IdentityPartnerIsInvalid" xml:space="preserve">
+    <value>Идентификация партнера недействительна</value>
+    <comment />
+  </data>
+  <data name="MobileNumIsInvalid" xml:space="preserve">
+    <value>Номер мобильного телефона недействителен</value>
+    <comment />
+  </data>
+  <data name="PartnerIsInvalid" xml:space="preserve">
+    <value>Партнер недействителен</value>
+    <comment />
+  </data>
+  <data name="PriceLevelIsInvalid" xml:space="preserve">
+    <value>Уровень цен недействителен</value>
+    <comment />
+  </data>
+  <data name="RouteIsInvalid" xml:space="preserve">
+    <value>Маршрут недействителен</value>
+    <comment />
+  </data>
+  <data name="TradeNameIsInvalid" xml:space="preserve">
+    <value>Торговая марка недействительна</value>
+    <comment />
+  </data>
+  <data name="WorkActivityIsInvalid" xml:space="preserve">
+    <value>Рабочая деятельность недействительна</value>
+    <comment />
+  </data>
+  <data name="WorkspaceIsInvalid" xml:space="preserve">
+    <value>Рабочая область недействительна</value>
+    <comment />
+  </data>
+  <data name="CreditLimitIsInvalid" xml:space="preserve">
+    <value>Кредитный лимит недействителен</value>
+    <comment />
+  </data>
+  <data name="CustomerAccountNumberIsInvalid" xml:space="preserve">
+    <value>Неверный номер счета клиента</value>
+    <comment />
+  </data>
+  <data name="SearchOfBank" xml:space="preserve">
+    <value>Поиск банков</value>
+    <comment />
+  </data>
+  <data name="SearchOfBankAccount" xml:space="preserve">
+    <value>Поиск банковского счета</value>
+    <comment />
+  </data>
+  <data name="SearchOfBankAccountType" xml:space="preserve">
+    <value>Поиск типа банковского счета</value>
+    <comment />
+  </data>
+  <data name="SearchOfCustomerAccount" xml:space="preserve">
+    <value>Поиск учетной записи клиента</value>
+    <comment />
+  </data>
+  <data name="SearchOfCustomers" xml:space="preserve">
+    <value>Поиск клиентов</value>
+    <comment />
+  </data>
+  <data name="ActiveEmployee" xml:space="preserve">
+    <value>Активный сотрудник</value>
+    <comment />
+  </data>
+  <data name="CollectionCommission" xml:space="preserve">
+    <value>Комиссия по сбору</value>
+    <comment />
+  </data>
+  <data name="CommissionAgent" xml:space="preserve">
+    <value>Комиссионер</value>
+    <comment />
+  </data>
+  <data name="EmergencyContact" xml:space="preserve">
+    <value>Экстренный контакт</value>
+    <comment />
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Пол</value>
+    <comment />
+  </data>
+  <data name="IsSupervisor" xml:space="preserve">
+    <value>Супервайзер</value>
+    <comment />
+  </data>
+  <data name="PlaceOfBirth" xml:space="preserve">
+    <value>Место рождения</value>
+    <comment />
+  </data>
+  <data name="Salary" xml:space="preserve">
+    <value>Оплата труда</value>
+    <comment />
+  </data>
+  <data name="SalesCommissionPercent" xml:space="preserve">
+    <value>Комиссионные</value>
+    <comment />
+  </data>
+  <data name="Spouse" xml:space="preserve">
+    <value>Супруг</value>
+    <comment />
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>Кредит</value>
+    <comment />
+  </data>
+  <data name="LendProducts" xml:space="preserve">
+    <value>Одолжить продукты</value>
+    <comment />
+  </data>
+  <data name="OwnHouse" xml:space="preserve">
+    <value>Собственный дом</value>
+    <comment />
+  </data>
+  <data name="SendBillCollector" xml:space="preserve">
+    <value>Отправить коллектору</value>
+    <comment />
+  </data>
+  <data name="BillCollector" xml:space="preserve">
+    <value>Инкассатор</value>
+    <comment />
+  </data>
+  <data name="CreditLimit" xml:space="preserve">
+    <value>Кредитный лимит</value>
+    <comment />
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Дата окончания</value>
+    <comment />
+  </data>
+  <data name="ActiveAccount" xml:space="preserve">
+    <value>активный аккаунт</value>
+    <comment />
+  </data>
+  <data name="ShopRule" xml:space="preserve">
+    <value>настройки магазина</value>
+    <comment />
+  </data>
+  <data name="DefaultClient" xml:space="preserve">
+    <value>клиент по умолчанию</value>
+    <comment />
+  </data>
+  <data name="PriceLevelDefault" xml:space="preserve">
+    <value>Уровень цен по умолчанию</value>
+    <comment />
+  </data>
+  <data name="OperTypeCreditSale" xml:space="preserve">
+    <value>Тип операции Продажа в кредит</value>
+    <comment />
+  </data>
+  <data name="OperTypeCreditPurchase" xml:space="preserve">
+    <value>Тип операции Покупка в кредит</value>
+    <comment />
+  </data>
+  <data name="OperTypeCashSale" xml:space="preserve">
+    <value>Тип операции Продажа за наличные</value>
+    <comment />
+  </data>
+  <data name="OperTypeCashPurchase" xml:space="preserve">
+    <value>Тип операции Покупка за наличный расчет</value>
+    <comment />
+  </data>
+  <data name="ModifyPriceInSales" xml:space="preserve">
+    <value>Сделка купли-продажи за наличный расчет</value>
+    <comment />
+  </data>
+  <data name="MaximumItemsInSale" xml:space="preserve">
+    <value>Максимальное количество товаров в продаже</value>
+    <comment />
+  </data>
+  <data name="InterestRateMonthly" xml:space="preserve">
+    <value>Ежемесячная процентная ставка</value>
+    <comment />
+  </data>
+  <data name="ForceSaleIfStockIsZero" xml:space="preserve">
+    <value>Принудительная продажа, если запас равен нулю</value>
+    <comment />
+  </data>
+  <data name="EncryptedPrice" xml:space="preserve">
+    <value>Зашифрованная цена</value>
+    <comment />
+  </data>
+  <data name="DecimalsInStock" xml:space="preserve">
+    <value>десятичные знаки в наличии</value>
+    <comment />
+  </data>
+  <data name="GrantDiscounts" xml:space="preserve">
+    <value>Грант Скидки</value>
+    <comment />
+  </data>
+  <data name="MaxDiscountPercent" xml:space="preserve">
+    <value>Максимальный процент скидки</value>
+    <comment />
+  </data>
+  <data name="MaximumPriceLevel" xml:space="preserve">
+    <value>Максимальный уровень цен</value>
+    <comment />
+  </data>
+  <data name="Administrator" xml:space="preserve">
+    <value>Администратор</value>
+    <comment />
+  </data>
+  <data name="Finance" xml:space="preserve">
+    <value>Финансы</value>
+    <comment />
+  </data>
+  <data name="Investor" xml:space="preserve">
+    <value>Инвестор</value>
+    <comment />
+  </data>
+  <data name="Operator" xml:space="preserve">
+    <value>Оператор</value>
+    <comment />
+  </data>
+  <data name="Seller" xml:space="preserve">
+    <value>Продавец</value>
+    <comment />
+  </data>
+  <data name="SuperUser" xml:space="preserve">
+    <value>Суперпользователь</value>
+    <comment />
+  </data>
+  <data name="DiscountPercentageIsInvalid" xml:space="preserve">
+    <value>процент скидки недействителен</value>
+    <comment />
+  </data>
+  <data name="GroupIsRequired" xml:space="preserve">
+    <value>группа требуется</value>
+    <comment />
+  </data>
+  <data name="MaximumPriceLevelIsNotValid" xml:space="preserve">
+    <value>максимальный уровень цен недействителен</value>
+    <comment />
+  </data>
+  <data name="OperationTypeIsRequired" xml:space="preserve">
+    <value>требуется тип операции</value>
+    <comment />
+  </data>
+  <data name="ZoneIsRequired" xml:space="preserve">
+    <value>требуется зона</value>
+    <comment />
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>Инвентарь</value>
+    <comment />
+  </data>
+  <data name="ProviderHistory" xml:space="preserve">
+    <value>История провайдера</value>
+    <comment />
+  </data>
+  <data name="ProviderFees" xml:space="preserve">
+    <value>Сборы провайдера</value>
+    <comment />
+  </data>
+  <data name="PriceList" xml:space="preserve">
+    <value>прайс-лист</value>
+    <comment />
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Снабжать</value>
+    <comment />
+  </data>
+  <data name="CustomerDebt" xml:space="preserve">
+    <value>Долг клиента</value>
+    <comment />
+  </data>
+  <data name="DebtCreditSale" xml:space="preserve">
+    <value>Долг для продажи в кредит</value>
+    <comment />
+  </data>
+  <data name="DebtForPurchases" xml:space="preserve">
+    <value>Долг за покупки</value>
+    <comment />
+  </data>
+  <data name="DebtSupplier" xml:space="preserve">
+    <value>Задолженность перед поставщиком</value>
+    <comment />
+  </data>
+  <data name="albaran" xml:space="preserve">
+    <value>Накладная</value>
+    <comment />
+  </data>
+  <data name="InventoryReport" xml:space="preserve">
+    <value>Отчет об инвентаризации</value>
+    <comment />
+  </data>
+  <data name="PurchaseOrder" xml:space="preserve">
+    <value>Заказ на покупку</value>
+    <comment />
+  </data>
+  <data name="ReturnPurchases" xml:space="preserve">
+    <value>Возврат покупок</value>
+    <comment />
+  </data>
+  <data name="SalesOrder" xml:space="preserve">
+    <value>Заказ клиента</value>
+    <comment />
+  </data>
+  <data name="SalesReport" xml:space="preserve">
+    <value>Отчет о продажах</value>
+    <comment />
+  </data>
+  <data name="SalesReturn" xml:space="preserve">
+    <value>Возвращение продаж</value>
+    <comment />
+  </data>
+  <data name="TransferProduct" xml:space="preserve">
+    <value>Передача продукта</value>
+    <comment />
+  </data>
+  <data name="TransferReport" xml:space="preserve">
+    <value>Отчет о передаче</value>
+    <comment />
+  </data>
+  <data name="UnfulfilledOrders" xml:space="preserve">
+    <value>невыполненные заказы</value>
+    <comment />
+  </data>
+  <data name="BanknotesDenomination" xml:space="preserve">
+    <value>Номинал банкноты</value>
+    <comment />
+  </data>
+  <data name="CashBoxClose" xml:space="preserve">
+    <value>Касса Закрыть</value>
+    <comment />
+  </data>
+  <data name="CashBoxOpening" xml:space="preserve">
+    <value>Открытие кассы</value>
+    <comment />
+  </data>
+  <data name="CashboxCount" xml:space="preserve">
+    <value>количество касс</value>
+    <comment />
+  </data>
+  <data name="Consumption" xml:space="preserve">
+    <value>Потребление</value>
+    <comment />
+  </data>
+  <data name="CustomerFees" xml:space="preserve">
+    <value>Комиссия клиентов</value>
+    <comment />
+  </data>
+  <data name="CustomerHistory" xml:space="preserve">
+    <value>История клиентов</value>
+    <comment />
+  </data>
+  <data name="CustomerPaymentReport" xml:space="preserve">
+    <value>Отчет о платежах клиентов</value>
+    <comment />
+  </data>
+  <data name="PriceTag" xml:space="preserve">
+    <value>Ценник</value>
+    <comment />
+  </data>
+  <data name="ProductPrice" xml:space="preserve">
+    <value>Цена продукта</value>
+    <comment />
+  </data>
+  <data name="ProviderPayment" xml:space="preserve">
+    <value>Оплата провайдеру</value>
+    <comment />
+  </data>
+  <data name="ProviderPaymentReport" xml:space="preserve">
+    <value>Отчет о платежах поставщика</value>
+    <comment />
+  </data>
+  <data name="SaleExpress" xml:space="preserve">
+    <value>Распродажа Экспресс</value>
+    <comment />
+  </data>
+  <data name="CustomerDebtsReport" xml:space="preserve">
+    <value>Отчет о дебиторской задолженности</value>
+    <comment />
+  </data>
+  <data name="ProviderDebtReport" xml:space="preserve">
+    <value>Отчет о кредиторской задолженности</value>
+    <comment />
+  </data>
+  <data name="ClearTextBox" xml:space="preserve">
+    <value>очистить текстовое поле</value>
+    <comment />
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>вернитесь назад</value>
+    <comment />
+  </data>
+  <data name="SearchOfSourceProduct" xml:space="preserve">
+    <value>Поиск источника продукта</value>
+    <comment />
+  </data>
+  <data name="workplace" xml:space="preserve">
+    <value>Рабочее место</value>
+    <comment />
+  </data>
+  <data name="WorkPhone" xml:space="preserve">
+    <value>Рабочий телефон</value>
+    <comment />
+  </data>
+  <data name="SpouseIdentification" xml:space="preserve">
+    <value>идентификация супруга</value>
+    <comment />
+  </data>
+  <data name="Indeterminate" xml:space="preserve">
+    <value>Неопределенный</value>
+    <comment />
+  </data>
+  <data name="Children" xml:space="preserve">
+    <value>Дети</value>
+    <comment />
+  </data>
+  <data name="male" xml:space="preserve">
+    <value>Мужской</value>
+    <comment />
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Характеристики</value>
+    <comment />
+  </data>
+  <data name="Remark" xml:space="preserve">
+    <value>Примечание</value>
+    <comment />
+  </data>
+  <data name="ResidenceDate" xml:space="preserve">
+    <value>Дата проживания</value>
+    <comment />
+  </data>
+  <data name="WorkStartDate" xml:space="preserve">
+    <value>Дата начала работы</value>
+    <comment />
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>женщина</value>
+    <comment />
+  </data>
+  <data name="AccessCode" xml:space="preserve">
+    <value>Код доступа</value>
+    <comment />
+  </data>
+  <data name="BloodType" xml:space="preserve">
+    <value>Группа крови</value>
+    <comment />
+  </data>
+  <data name="CivilStatus" xml:space="preserve">
+    <value>Гражданский статус</value>
+    <comment />
+  </data>
+  <data name="DriversLicense" xml:space="preserve">
+    <value>Водительские права</value>
+    <comment />
+  </data>
+  <data name="Emergency1Number" xml:space="preserve">
+    <value>Первичный экстренный контакт</value>
+    <comment />
+  </data>
+  <data name="Emergency2Number" xml:space="preserve">
+    <value>Вторичный аварийный контакт</value>
+    <comment />
+  </data>
+  <data name="FatherName" xml:space="preserve">
+    <value>Имя Отца</value>
+    <comment />
+  </data>
+  <data name="MothersName" xml:space="preserve">
+    <value>Имя матери</value>
+    <comment />
+  </data>
+  <data name="Nickname" xml:space="preserve">
+    <value>Псевдоним</value>
+    <comment />
+  </data>
+  <data name="passport" xml:space="preserve">
+    <value>Заграничный пасспорт</value>
+    <comment />
+  </data>
+  <data name="Profession" xml:space="preserve">
+    <value>Профессия</value>
+    <comment />
+  </data>
+  <data name="EmployerContribution" xml:space="preserve">
+    <value>вклад работодателя</value>
+    <comment />
+  </data>
+  <data name="WorkerContribution" xml:space="preserve">
+    <value>вклад рабочего</value>
+    <comment />
+  </data>
+  <data name="StaffMaintenance" xml:space="preserve">
+    <value>обслуживание сотрудников</value>
+    <comment />
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>Сотрудники</value>
+    <comment />
+  </data>
+  <data name="Worked" xml:space="preserve">
+    <value>Работал</value>
+    <comment />
+  </data>
+  <data name="CustomerAccountMaintenance" xml:space="preserve">
+    <value>Обслуживание учетной записи клиента</value>
+    <comment />
+  </data>
+  <data name="Agency" xml:space="preserve">
+    <value>агентство</value>
+    <comment />
+  </data>
+  <data name="AmountTotalIsInvalid" xml:space="preserve">
+    <value>Общая сумма недействительна</value>
+    <comment />
+  </data>
+  <data name="CashAmountIsInvalid" xml:space="preserve">
+    <value>Сумма наличными недействительна</value>
+    <comment />
+  </data>
+  <data name="ConceptIsInvalid" xml:space="preserve">
+    <value>Концепция недействительна</value>
+    <comment />
+  </data>
+  <data name="DepositNumberIsInvalid" xml:space="preserve">
+    <value>Номер банковского депозита недействителен</value>
+    <comment />
+  </data>
+  <data name="TransactionDate" xml:space="preserve">
+    <value>Дата сделки</value>
+    <comment />
+  </data>
+  <data name="TransactionDateIsInvalid" xml:space="preserve">
+    <value>Дата транзакции недействительна</value>
+    <comment />
+  </data>
+  <data name="VoucherNumber" xml:space="preserve">
+    <value>Номер ваучера</value>
+    <comment />
+  </data>
+  <data name="BankAccountIsInvalid" xml:space="preserve">
+    <value>Банковский счет недействителен</value>
+    <comment />
+  </data>
+  <data name="BankCheckDateIsInvalid" xml:space="preserve">
+    <value>Дата банковского чека недействительна</value>
+    <comment />
+  </data>
+  <data name="BankNameIsInvalid" xml:space="preserve">
+    <value>Неверное название банка</value>
+    <comment />
+  </data>
+  <data name="CheckNumberIsInvalid" xml:space="preserve">
+    <value>Контрольный номер недействителен</value>
+    <comment />
+  </data>
+  <data name="SenderIsInvalid" xml:space="preserve">
+    <value>Отправитель недействителен</value>
+    <comment />
+  </data>
+  <data name="CheckAmountIsInvalid" xml:space="preserve">
+    <value>сумма чека недействительна</value>
+    <comment />
+  </data>
+  <data name="Initials" xml:space="preserve">
+    <value>Инициалы</value>
+    <comment />
+  </data>
+  <data name="InitialsAreNotValid" xml:space="preserve">
+    <value>Инициалы недействительны</value>
+    <comment />
+  </data>
+  <data name="Limit" xml:space="preserve">
+    <value>Брать</value>
+    <comment />
+  </data>
+  <data name="Offset" xml:space="preserve">
+    <value>Пропускать</value>
+    <comment />
+  </data>
+  <data name="OffsetIsInvalid" xml:space="preserve">
+    <value>Пропустить недопустимо</value>
+    <comment />
+  </data>
+  <data name="LimitIsInvalid" xml:space="preserve">
+    <value>Взять недействительно</value>
+    <comment />
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Экспорт</value>
+    <comment />
+  </data>
+  <data name="ExportToExcel" xml:space="preserve">
+    <value>Экспорт в MS-Excel</value>
+    <comment />
+  </data>
+  <data name="ExportToHtml" xml:space="preserve">
+    <value>Экспорт в HTML</value>
+    <comment />
+  </data>
+  <data name="ExportToPDF" xml:space="preserve">
+    <value>Экспорт в PDF</value>
+    <comment />
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Фильтр</value>
+    <comment />
+  </data>
+  <data name="SearchParameters" xml:space="preserve">
+    <value>Параметры поиска</value>
+    <comment />
+  </data>
+  <data name="DeferredCheck" xml:space="preserve">
+    <value>Отложенный чек</value>
+    <comment />
+  </data>
+  <data name="DeferredCheckIsInvalid" xml:space="preserve">
+    <value>Отложенная проверка недействительна</value>
+    <comment />
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Документ</value>
+    <comment />
+  </data>
+  <data name="IsDeferrefCheck" xml:space="preserve">
+    <value>Отсроченная проверка</value>
+    <comment />
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Число</value>
+    <comment />
+  </data>
+  <data name="PostedDate" xml:space="preserve">
+    <value>Дата публикации</value>
+    <comment />
+  </data>
+  <data name="PostedDateIsInvalid" xml:space="preserve">
+    <value>Дата публикации недействительна</value>
+    <comment />
+  </data>
+  <data name="PaymentDateIsInvalid" xml:space="preserve">
+    <value>дата платежа недействительна</value>
+    <comment />
+  </data>
+  <data name="PayeeIsInvalid" xml:space="preserve">
+    <value>получатель платежа недействителен</value>
+    <comment />
+  </data>
+  <data name="NumberRangue" xml:space="preserve">
+    <value>Диапазон номеров</value>
+    <comment />
+  </data>
+  <data name="SinceNumber" xml:space="preserve">
+    <value>С номера</value>
+    <comment />
+  </data>
+  <data name="UntilNumber" xml:space="preserve">
+    <value>До номера</value>
+    <comment />
+  </data>
+  <data name="NumberRangeIsInvalid" xml:space="preserve">
+    <value>Недопустимый диапазон номеров</value>
+    <comment />
+  </data>
+  <data name="SinceNumberIsInvalid" xml:space="preserve">
+    <value>Так как номер недействителен</value>
+    <comment />
+  </data>
+  <data name="UntilNumberIsInvalid" xml:space="preserve">
+    <value>Пока номер недействителен</value>
+    <comment />
+  </data>
+  <data name="DocumentNumberIsInvalid" xml:space="preserve">
+    <value>Номер документа недействителен</value>
+    <comment />
+  </data>
+  <data name="CheckRegister" xml:space="preserve">
+    <value>Банковский чек Реестр</value>
+    <comment />
+  </data>
+  <data name="SightBankCheck" xml:space="preserve">
+    <value>Банковский чек на предъявление</value>
+    <comment />
+  </data>
+  <data name="TypesOfChecks" xml:space="preserve">
+    <value>Тип банковского чека</value>
+    <comment />
+  </data>
+  <data name="Withdrawal" xml:space="preserve">
+    <value>вывод</value>
+    <comment />
+  </data>
+  <data name="BetweenNumbers" xml:space="preserve">
+    <value>между числами</value>
+    <comment />
+  </data>
+  <data name="BetweenDates" xml:space="preserve">
+    <value>между датами</value>
+    <comment />
+  </data>
+  <data name="Debit" xml:space="preserve">
+    <value>дебетовать</value>
+    <comment />
+  </data>
+  <data name="BankMovementReport" xml:space="preserve">
+    <value>Отчет о движении банка</value>
+    <comment />
+  </data>
+  <data name="TotalItems" xml:space="preserve">
+    <value>Всего предметов</value>
+    <comment />
+  </data>
+  <data name="PowerUser" xml:space="preserve">
+    <value>продвинутый пользователь</value>
+    <comment />
+  </data>
+  <data name="TypeOperationPurchaseCredit" xml:space="preserve">
+    <value>вид операции при Покупке в кредит</value>
+    <comment />
+  </data>
+  <data name="TypeOperationPurchaseCash" xml:space="preserve">
+    <value>тип операции для покупки наличными</value>
+    <comment />
+  </data>
+  <data name="TypeOperationSaleCredit" xml:space="preserve">
+    <value>вид операции Продажа в кредит</value>
+    <comment />
+  </data>
+  <data name="TypeOperationSaleCash" xml:space="preserve">
+    <value>тип операции Продажа наличными</value>
+    <comment />
+  </data>
+  <data name="InterestRateMonthlyIsInvalid" xml:space="preserve">
+    <value>Ежемесячная процентная ставка недействительна</value>
+    <comment />
+  </data>
+  <data name="MaxDiscountPercentIsInvalid" xml:space="preserve">
+    <value>Максимальный процент скидки недействителен</value>
+    <comment />
+  </data>
+  <data name="MaximumNumberOfItemsIsInvalid" xml:space="preserve">
+    <value>Недопустимое максимальное количество элементов</value>
+    <comment />
+  </data>
+  <data name="NumberOfDecimalsInStockIsInvalid" xml:space="preserve">
+    <value>Неверное количество знаков после запятой на складе</value>
+    <comment />
+  </data>
+  <data name="PriceLevelDefaultIsInvalid" xml:space="preserve">
+    <value>Уровень цен по умолчанию недействителен</value>
+    <comment />
+  </data>
+  <data name="SecretKeyForPriceIsNotValid" xml:space="preserve">
+    <value>Секретный ключ для цены недействителен</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForPurchaseCashIsInvalid" xml:space="preserve">
+    <value>Тип операции для покупки наличными недействителен</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForPurchaseOnCreditIsInvalid" xml:space="preserve">
+    <value>Тип операции для покупки в кредит недействителен</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForSaleCashIsInvalid" xml:space="preserve">
+    <value>Неверный тип операции Продажа за наличные</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForSaleOnCreditIsInvalid" xml:space="preserve">
+    <value>Тип операции Продажа в кредит неверный</value>
+    <comment />
+  </data>
+  <data name="ActiveProductIsInvalid" xml:space="preserve">
+    <value>Активный продукт недействителен</value>
+    <comment />
+  </data>
+  <data name="AlterStockIsInvalid" xml:space="preserve">
+    <value>Модификатор запаса недействителен</value>
+    <comment />
+  </data>
+  <data name="BarcodeIsInvalid" xml:space="preserve">
+    <value>Штрих-код недействителен</value>
+    <comment />
+  </data>
+  <data name="GenericNameIsInvalid" xml:space="preserve">
+    <value>Общее название продукта недействительно</value>
+    <comment />
+  </data>
+  <data name="GroupIsInvalid" xml:space="preserve">
+    <value>Группа продуктов недействительна</value>
+    <comment />
+  </data>
+  <data name="MeasureIsInvalid" xml:space="preserve">
+    <value>Единица измерения недействительна</value>
+    <comment />
+  </data>
+  <data name="MinimunStockIsInvalid" xml:space="preserve">
+    <value>Минимальный запас недействителен</value>
+    <comment />
+  </data>
+  <data name="PackagingIsInvalid" xml:space="preserve">
+    <value>Тип упаковки недействителен</value>
+    <comment />
+  </data>
+  <data name="PriorityIsInvalid" xml:space="preserve">
+    <value>Приоритет продукта недействителен</value>
+    <comment />
+  </data>
+  <data name="ProductCheckIsInvalid" xml:space="preserve">
+    <value>Контролируемый продукт недействителен</value>
+    <comment />
+  </data>
+  <data name="ProductCodeIsInvalid" xml:space="preserve">
+    <value>Код продукта недействителен</value>
+    <comment />
+  </data>
+  <data name="ProductCodeProviderIsInvalid" xml:space="preserve">
+    <value>Код провайдера недействителен</value>
+    <comment />
+  </data>
+  <data name="SaleCommissionIsNotValid" xml:space="preserve">
+    <value>Комиссия за продажу недействительна</value>
+    <comment />
+  </data>
+  <data name="SectorProductIsInvalid" xml:space="preserve">
+    <value>Сектор продукта недействителен</value>
+    <comment />
+  </data>
+  <data name="SourceProductIsInvalid" xml:space="preserve">
+    <value>Источник продукта недействителен</value>
+    <comment />
+  </data>
+  <data name="SubGroupIsInvalid" xml:space="preserve">
+    <value>Недопустимая подгруппа продуктов</value>
+    <comment />
+  </data>
+  <data name="TaxIsInvalid" xml:space="preserve">
+    <value>тип налога недействителен</value>
+    <comment />
+  </data>
+  <data name="TrademarkIsInvalid" xml:space="preserve">
+    <value>Товарный знак недействителен</value>
+    <comment />
+  </data>
+  <data name="WeightIsNotValid" xml:space="preserve">
+    <value>Вес недействителен</value>
+    <comment />
+  </data>
+  <data name="WholesaleIsInvalid" xml:space="preserve">
+    <value>Опт не действует</value>
+    <comment />
+  </data>
+  <data name="ProductNameIsInvalid" xml:space="preserve">
+    <value>название продукта недействительно</value>
+    <comment />
+  </data>
+  <data name="ProductIsInvalid" xml:space="preserve">
+    <value>Продукт недействителен</value>
+    <comment />
+  </data>
+  <data name="PriceAccordingToQuantityIsNotValid" xml:space="preserve">
+    <value>цена в зависимости от количества недействительна</value>
+    <comment />
+  </data>
+  <data name="PriceValueIsInvalid" xml:space="preserve">
+    <value>Цена недействительна</value>
+    <comment />
+  </data>
+  <data name="TypeOfPriceIsNotValid" xml:space="preserve">
+    <value>Тип цены недействителен</value>
+    <comment />
+  </data>
+  <data name="QuantityIsNotValid" xml:space="preserve">
+    <value>Количество недействительно</value>
+    <comment />
+  </data>
+  <data name="BatchIsInvalid" xml:space="preserve">
+    <value>Пакет недействителен</value>
+    <comment />
+  </data>
+  <data name="StartDateIsInvalid" xml:space="preserve">
+    <value>дата начала недействительна</value>
+    <comment />
+  </data>
+  <data name="EndDateIsInvalid" xml:space="preserve">
+    <value>дата окончания недействительна</value>
+    <comment />
+  </data>
+  <data name="CustomerActiveIsNotValid" xml:space="preserve">
+    <value>активный клиент недействителен</value>
+    <comment />
+  </data>
+  <data name="StockIsInvalid" xml:space="preserve">
+    <value>запас недействителен</value>
+    <comment />
+  </data>
+  <data name="VATpercentage" xml:space="preserve">
+    <value>процент НДС</value>
+  </data>
+  <data name="StockQuantity" xml:space="preserve">
+    <value>Количество на складе</value>
+  </data>
+  <data name="Side" xml:space="preserve">
+    <value>Сторона</value>
+  </data>
+  <data name="Shelving" xml:space="preserve">
+    <value>Стеллажи</value>
+  </data>
+  <data name="section" xml:space="preserve">
+    <value>Раздел</value>
+  </data>
+  <data name="SalePrice" xml:space="preserve">
+    <value>Цена продажи</value>
+  </data>
+  <data name="QuantityPerBox" xml:space="preserve">
+    <value>Количество в коробке</value>
+  </data>
+  <data name="MaximumStock" xml:space="preserve">
+    <value>Максимальный запас</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Линия</value>
+  </data>
+  <data name="ImageSecondary" xml:space="preserve">
+    <value>Вторичное изображение</value>
+  </data>
+  <data name="ImageMain" xml:space="preserve">
+    <value>Основное изображение</value>
+  </data>
+  <data name="DeleteSecondary" xml:space="preserve">
+    <value>Удалить вторичное</value>
+  </data>
+  <data name="DeleteMain" xml:space="preserve">
+    <value>Удалить главную</value>
+  </data>
+  <data name="CostPrice" xml:space="preserve">
+    <value>Стоимость</value>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>Столбец</value>
+  </data>
+  <data name="AddImageSecondary" xml:space="preserve">
+    <value>Добавить вторичное изображение</value>
+  </data>
+  <data name="AddImageMain" xml:space="preserve">
+    <value>Добавить основное изображение</value>
+  </data>
+  <data name="Attributes" xml:space="preserve">
+    <value>Атрибуты</value>
+  </data>
+  <data name="ComponentsAndApplications" xml:space="preserve">
+    <value>Компоненты и приложения</value>
+  </data>
+  <data name="Conditions" xml:space="preserve">
+    <value>Условия</value>
+  </data>
+  <data name="ImageLocationComponents" xml:space="preserve">
+    <value>Изображение | Расположение | Составные части</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Главный</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>Маркетинг</value>
+  </data>
+  <data name="Prices" xml:space="preserve">
+    <value>Цены</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Имущество</value>
+  </data>
+  <data name="StockAndPrices" xml:space="preserve">
+    <value>Акции и цены</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>личность</value>
+  </data>
+  <data name="AdvantageIsInvalid" xml:space="preserve">
+    <value>Преимущество недействительно</value>
+  </data>
+  <data name="BenefitIsInvalid" xml:space="preserve">
+    <value>Преимущество недействительно</value>
+  </data>
+  <data name="ColumnIsInvalid" xml:space="preserve">
+    <value>Столбец недействителен</value>
+  </data>
+  <data name="FeatureIsInvalid" xml:space="preserve">
+    <value>Функция недействительна</value>
+  </data>
+  <data name="LineIsInvalid" xml:space="preserve">
+    <value>Строка недействительна</value>
+  </data>
+  <data name="MaximumStockIsInvalid" xml:space="preserve">
+    <value>Максимальный запас недействителен</value>
+  </data>
+  <data name="ProductServiceIsInvalid" xml:space="preserve">
+    <value>Недопустимый тип продукта</value>
+  </data>
+  <data name="QuantityPerBoxIsInvalid" xml:space="preserve">
+    <value>Неверное количество в коробке</value>
+  </data>
+  <data name="ShelvingIsInvalid" xml:space="preserve">
+    <value>Стеллаж недействителен</value>
+  </data>
+  <data name="SideIsInvalid" xml:space="preserve">
+    <value>Сторона недействительна</value>
+  </data>
+  <data name="QuantityStockIsInvalid" xml:space="preserve">
+    <value>Себестоимость недействительна</value>
+  </data>
+  <data name="CostPriceIsInvalid" xml:space="preserve">
+    <value>Дата истечения срока действия недействительна</value>
+  </data>
+  <data name="SalePriceIsInvalid" xml:space="preserve">
+    <value>Количество на складе недействительно</value>
+  </data>
+  <data name="ExpireDateIsInvalid" xml:space="preserve">
+    <value>Цена продажи недействительна</value>
+  </data>
+  <data name="CopyCodeToClipboard" xml:space="preserve">
+    <value>Скопировать код в буфер обмена</value>
+  </data>
+  <data name="CopyPicture" xml:space="preserve">
+    <value>Копировать изображение</value>
+  </data>
+  <data name="DeleteImage" xml:space="preserve">
+    <value>Удалить изображение</value>
+  </data>
+  <data name="EditImage" xml:space="preserve">
+    <value>Изменить изображение</value>
+  </data>
+  <data name="ExportImage" xml:space="preserve">
+    <value>Экспорт изображения</value>
+  </data>
+  <data name="ModifyStock" xml:space="preserve">
+    <value>Изменить запас</value>
+  </data>
+  <data name="PasteImage" xml:space="preserve">
+    <value>Вставить изображение</value>
+  </data>
+  <data name="PurchaseHistory" xml:space="preserve">
+    <value>История покупки</value>
+  </data>
+  <data name="SelectItem" xml:space="preserve">
+    <value>Выбрать предмет</value>
+  </data>
+  <data name="ViewImage" xml:space="preserve">
+    <value>Посмотреть изображение</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Доступный</value>
+  </data>
+  <data name="CancelSale" xml:space="preserve">
+    <value>Отменить продажу</value>
+  </data>
+  <data name="condition" xml:space="preserve">
+    <value>Условие</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Продолжать</value>
+  </data>
+  <data name="ContinueSellingProducts" xml:space="preserve">
+    <value>Продолжить продажу продукции</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Скидка</value>
+  </data>
+  <data name="DiscountRate" xml:space="preserve">
+    <value>Учетная ставка</value>
+  </data>
+  <data name="displaySalesInvoice" xml:space="preserve">
+    <value>Показать счет продажи</value>
+  </data>
+  <data name="finish" xml:space="preserve">
+    <value>Заканчивать</value>
+  </data>
+  <data name="finishInvoicing" xml:space="preserve">
+    <value>Завершить выставление счетов</value>
+  </data>
+  <data name="Invoices" xml:space="preserve">
+    <value>Счета</value>
+  </data>
+  <data name="PretendToPrint" xml:space="preserve">
+    <value>Делать вид, что печатаешь</value>
+  </data>
+  <data name="Row" xml:space="preserve">
+    <value>Строка</value>
+  </data>
+  <data name="SelectCustomerRuc" xml:space="preserve">
+    <value>ssn клиента</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Останавливаться</value>
+  </data>
+  <data name="StopSelling" xml:space="preserve">
+    <value>Остановить продажу</value>
+  </data>
+  <data name="AddNewRow" xml:space="preserve">
+    <value>Добавить новую строку</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>Клиенты</value>
+  </data>
+  <data name="budgetPrinterName" xml:space="preserve">
+    <value>название бюджетного принтера</value>
+  </data>
+  <data name="InvoicePrinterName" xml:space="preserve">
+    <value>имя принтера счетов</value>
+  </data>
+  <data name="IsSaleImputQuantity" xml:space="preserve">
+    <value>указать количество продуктов</value>
+  </data>
+  <data name="PointOfSaleSetup" xml:space="preserve">
+    <value>настройка точки продаж</value>
+  </data>
+  <data name="PersonIdIsInvalid" xml:space="preserve">
+    <value>идентификатор человека недействителен</value>
+  </data>
+  <data name="PromissoryNoteIsInvalid" xml:space="preserve">
+    <value>номер векселя недействителен</value>
+  </data>
+  <data name="NumberOfInstallments" xml:space="preserve">
+    <value>количество платежей</value>
+  </data>
+  <data name="NumberOfInstallmentsInvalid" xml:space="preserve">
+    <value>количество платежей неверно</value>
+  </data>
+  <data name="AuthorizedStaff" xml:space="preserve">
+    <value>Уполномоченный персонал</value>
+  </data>
+  <data name="AuthorizingOfficer" xml:space="preserve">
+    <value>Орган по закупкам</value>
+  </data>
+  <data name="SearchOfAuthorizeStaff" xml:space="preserve">
+    <value>поиск уполномоченного персонала</value>
+  </data>
+  <data name="SearchOfPersons" xml:space="preserve">
+    <value>розыск лиц</value>
+  </data>
+  <data name="SearchOfPurchasingAuthority" xml:space="preserve">
+    <value>поиск органа по закупкам</value>
+  </data>
+  <data name="CustomerCurrencyIsInvalid" xml:space="preserve">
+    <value>выбор не разрешен</value>
+  </data>
+  <data name="SelectionNotAllowed" xml:space="preserve">
+    <value>валюта клиента недействительна</value>
+  </data>
+  <data name="CurrencyDoesNotMatch" xml:space="preserve">
+    <value>валюта не совпадает</value>
+  </data>
+  <data name="ProductCurrencyIsInvalid" xml:space="preserve">
+    <value>Валюта продукта недействительна.</value>
+  </data>
+  <data name="AmountPaid" xml:space="preserve">
+    <value>Выплаченная сумма</value>
+  </data>
+  <data name="FinalizeCashSale" xml:space="preserve">
+    <value>Завершить продажу за наличные</value>
+  </data>
+  <data name="SalePaymentDetail" xml:space="preserve">
+    <value>Сведения об оплате продажи</value>
+  </data>
+  <data name="change" xml:space="preserve">
+    <value>сдача</value>
+  </data>
+  <data name="arrears" xml:space="preserve">
+    <value>задолженность</value>
+  </data>
+  <data name="Fees" xml:space="preserve">
+    <value>Сборы</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Период</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>ценность</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>дни</value>
+  </data>
+  <data name="FinalizeCreditSale" xml:space="preserve">
+    <value>зафиксировать продажу в кредит</value>
+  </data>
+  <data name="SearchOfAuthorizingOfficer" xml:space="preserve">
+    <value>Поиск уполномоченного сотрудника</value>
+  </data>
+  <data name="SerialCodeIsInvalid" xml:space="preserve">
+    <value>серийный код недействителен</value>
+  </data>
+  <data name="ShopRuleIsInvalid" xml:space="preserve">
+    <value>правило магазина недействительно</value>
+  </data>
+  <data name="VisualizeSalesBill" xml:space="preserve">
+    <value>визуализировать счета продаж</value>
+  </data>
+  <data name="InternalControl" xml:space="preserve">
+    <value>внутренний контроль</value>
+  </data>
+  <data name="DeliveryNote2" xml:space="preserve">
+    <value>накладная</value>
+  </data>
+  <data name="Budget" xml:space="preserve">
+    <value>Бюджет</value>
+  </data>
+  <data name="TotalSales" xml:space="preserve">
+    <value>тотальная распродажа</value>
+  </data>
+  <data name="InternalControlIsInvalid" xml:space="preserve">
+    <value>внутренний контроль недействителен</value>
+  </data>
+  <data name="BoxIsInvalid" xml:space="preserve">
+    <value>коробка недействительна</value>
+  </data>
+  <data name="PrintInternalControlLX-350" xml:space="preserve">
+    <value>Печать внутреннего контроля LX-350</value>
+  </data>
+  <data name="PrintInternalControlTM-T20" xml:space="preserve">
+    <value>Печать внутреннего контроля TM-T20</value>
+  </data>
+  <data name="PrintInternalControlTMU-220" xml:space="preserve">
+    <value>Печать внутреннего контроля TM-U220</value>
+  </data>
+  <data name="PrintInvoiceLX-350" xml:space="preserve">
+    <value>Распечатать счет-фактуру LX-350</value>
+  </data>
+  <data name="VisualizeInternalControl" xml:space="preserve">
+    <value>Визуализируйте внутренний контроль</value>
+  </data>
+  <data name="CancelInvoiceNumber" xml:space="preserve">
+    <value>Отменить номер счета</value>
+  </data>
+  <data name="DeleteSale" xml:space="preserve">
+    <value>Удалить распродажу</value>
+  </data>
+  <data name="SelectSale" xml:space="preserve">
+    <value>Выберите Распродажа</value>
+  </data>
+  <data name="SendByEmail" xml:space="preserve">
+    <value>Послать по электронной почте</value>
+  </data>
+  <data name="POSdocument" xml:space="preserve">
+    <value>POS-печать</value>
+  </data>
+  <data name="InvoiceAlreadyGenerated" xml:space="preserve">
+    <value>Счет уже создан</value>
+  </data>
+  <data name="ManageCashRegister" xml:space="preserve">
+    <value>Управлять кассовым аппаратом</value>
+  </data>
+  <data name="SelectActiveBox" xml:space="preserve">
+    <value>Выберите активное поле</value>
+  </data>
+  <data name="BoxSetting" xml:space="preserve">
+    <value>конфигурация коробки</value>
+  </data>
+  <data name="DefaultPerson" xml:space="preserve">
+    <value>человек по умолчанию</value>
+  </data>
+  <data name="AmountOfFeesIsInvalid" xml:space="preserve">
+    <value>Сумма сборов недействительна</value>
+  </data>
+  <data name="ChargeWithInterest" xml:space="preserve">
+    <value>Взимать проценты</value>
+  </data>
+  <data name="InterestIsInvalid" xml:space="preserve">
+    <value>Процент недействителен</value>
+  </data>
+  <data name="PaymentValueIsInvalid" xml:space="preserve">
+    <value>Сумма платежа недействительна</value>
+  </data>
+  <data name="SaleFeesIdIsInvalid" xml:space="preserve">
+    <value>Недействительный идентификатор комиссии за продажу</value>
+  </data>
+  <data name="SaleIdIsInvalid" xml:space="preserve">
+    <value>Идентификатор продажи недействителен</value>
+  </data>
+  <data name="PaymentIdIsInvalid" xml:space="preserve">
+    <value>Идентификатор платежа недействителен</value>
+  </data>
+  <data name="PaymentTypeIsInvalid" xml:space="preserve">
+    <value>Тип платежа недействителен</value>
+  </data>
+  <data name="PaymentDetailIsInvalid" xml:space="preserve">
+    <value>платежная информация недействительна</value>
+  </data>
+  <data name="InterestOnArrears" xml:space="preserve">
+    <value>Проценты за просрочку</value>
+  </data>
+  <data name="InterestOnArrearsIsInvalid" xml:space="preserve">
+    <value>Проценты за просрочку недействительны</value>
+  </data>
+  <data name="StockModification" xml:space="preserve">
+    <value>стоковая модификация</value>
+  </data>
+</root>

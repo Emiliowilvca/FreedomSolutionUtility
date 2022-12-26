@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>	  
+    <PackageIcon>Letter-F-icon.png</PackageIcon>
+    <PackAsTool>False</PackAsTool>    
+    <Version>1.0.869</Version>
+    <Title>Dto Model Shared</Title>
+	<Authors>EmilioWildberger</Authors>
+	<Company>Sicro</Company>
+	<Product>FreedomUtililies</Product>
+	<Description>share Dtos between backend and frontend in Freedom project</Description>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	<RepositoryUrl>https://github.com/Emiliowilvca/FreedomSolutionUtility</RepositoryUrl>
+	<RepositoryType>github</RepositoryType>	  
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.4.0" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="6.0.0-preview.4.21253.7" />
+    <PackageReference Include="System.Text.Json" Version="7.0.1" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <None Update="Letter-F-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

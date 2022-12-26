@@ -1,0 +1,4163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessPoint" xml:space="preserve">
+    <value>Adgangspunkt</value>
+    <comment />
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Adgang nægtet</value>
+    <comment />
+  </data>
+  <data name="Authorization" xml:space="preserve">
+    <value>Autorisation</value>
+    <comment />
+  </data>
+  <data name="AuthorizationInfo" xml:space="preserve">
+    <value>Adgangsadministration</value>
+    <comment />
+  </data>
+  <data name="BackToLogin" xml:space="preserve">
+    <value>Tilbage til Log Ind</value>
+    <comment />
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Ændre adgangskode</value>
+    <comment />
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Bekræft Adgangskode</value>
+    <comment />
+  </data>
+  <data name="ConfirmPasswordDoNotMatch" xml:space="preserve">
+    <value>{0} og {1} stemmer ikke overens</value>
+    <comment />
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Nuværende adgangskode</value>
+    <comment />
+  </data>
+  <data name="Email_Is_Invalid" xml:space="preserve">
+    <value>E-mail adresse er ugyldig.</value>
+    <comment />
+  </data>
+  <data name="EmailClickLinkText" xml:space="preserve">
+    <value>For at bekræfte brugeren, klik venligst på dette link:</value>
+    <comment />
+  </data>
+  <data name="EmailConfirm" xml:space="preserve">
+    <value>Tak for at bekræfte din email. Nu kan du logge ind på systemet.</value>
+    <comment />
+  </data>
+  <data name="EmailConfirmNewUser" xml:space="preserve">
+    <value>{0} Bekræft ny bruger</value>
+    <comment />
+  </data>
+  <data name="EmailMsgActivate" xml:space="preserve">
+    <value>Instruktionerne for at give adgang til brugeren er blevet sendt via e-mail.</value>
+    <comment />
+  </data>
+  <data name="EmailNotCorrespond" xml:space="preserve">
+    <value>E-mailen svarer ikke til en registreret bruger.</value>
+    <comment />
+  </data>
+  <data name="ErrorCantCreateUser" xml:space="preserve">
+    <value>Brugeren kunne ikke oprettes.</value>
+    <comment />
+  </data>
+  <data name="ErrorFailedToLogin" xml:space="preserve">
+    <value>Kunne ikke logge ind</value>
+    <comment />
+  </data>
+  <data name="ErrorUsernameExits" xml:space="preserve">
+    <value>E-mailen er allerede registreret.</value>
+    <comment />
+  </data>
+  <data name="ImageProfile" xml:space="preserve">
+    <value>Profilbillede</value>
+    <comment />
+  </data>
+  <data name="LicenseExpired" xml:space="preserve">
+    <value>Din licens er udløbet</value>
+    <comment />
+  </data>
+  <data name="LoginAsAdministrator" xml:space="preserve">
+    <value>Log på som administrator</value>
+    <comment />
+  </data>
+  <data name="LoginInstructions" xml:space="preserve">
+    <value>Instruktioner til at komme i gang er sendt til din e-mail. Tjek venligst linket for at logge ind</value>
+    <comment />
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Log ind</value>
+    <comment />
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Log af</value>
+    <comment />
+  </data>
+  <data name="LogoutQuestions" xml:space="preserve">
+    <value>har til hensigt at logge ud</value>
+    <comment />
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Ny adgangskode</value>
+    <comment />
+  </data>
+  <data name="NotAuthorized" xml:space="preserve">
+    <value>Du har ikke rettigeder til at udføre denne handling</value>
+    <comment />
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Adgangskode</value>
+    <comment />
+  </data>
+  <data name="PasswordError" xml:space="preserve">
+    <value>Indtast venligst en gyldig adgangskode</value>
+    <comment />
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>Nulstil Adgangskode</value>
+    <comment />
+  </data>
+  <data name="PasswordResetButtonlink" xml:space="preserve">
+    <value>Adgangskode Nulstillet</value>
+    <comment />
+  </data>
+  <data name="PasswordResetError" xml:space="preserve">
+    <value>Der opstod en fejl under tilbagekaldelsen af adgangskoden.</value>
+    <comment />
+  </data>
+  <data name="PasswordResetIntruction" xml:space="preserve">
+    <value>Vejledningen til at genoprette kodeord er blevet sendt til din email.</value>
+    <comment />
+  </data>
+  <data name="PasswordResetLink" xml:space="preserve">
+    <value>For at nulstille adgangskoden klik i dette link:</value>
+    <comment />
+  </data>
+  <data name="PasswordResetSuccessful" xml:space="preserve">
+    <value>Reset password er godkendt.</value>
+    <comment />
+  </data>
+  <data name="PasswordResetTitle" xml:space="preserve">
+    <value>Royalsys Password Reset</value>
+    <comment />
+  </data>
+  <data name="PleaseSignin" xml:space="preserve">
+    <value>Log venligst ind</value>
+    <comment />
+  </data>
+  <data name="ProfileUser" xml:space="preserve">
+    <value>Brugerprofil</value>
+    <comment />
+  </data>
+  <data name="RecoverPassword" xml:space="preserve">
+    <value>Indhent kodeord</value>
+    <comment />
+  </data>
+  <data name="RecoverPasswordCompany" xml:space="preserve">
+    <value>{0} Gendan adgangskode</value>
+    <comment />
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>Opret ny bruger</value>
+    <comment />
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Husk mig?</value>
+    <comment />
+  </data>
+  <data name="RequiredToLogin" xml:space="preserve">
+    <value>Du skal logge ind </value>
+    <comment />
+  </data>
+  <data name="RoleNameInvestor" xml:space="preserve">
+    <value>Investor</value>
+    <comment />
+  </data>
+  <data name="RoleNameAdministrator" xml:space="preserve">
+    <value>Administrator</value>
+    <comment />
+  </data>
+  <data name="RoleNameCustomer" xml:space="preserve">
+    <value>Kunde</value>
+    <comment />
+  </data>
+  <data name="RoleNameFinance" xml:space="preserve">
+    <value>Finanser</value>
+    <comment />
+  </data>
+  <data name="RoleNameOperator" xml:space="preserve">
+    <value>Operatør</value>
+    <comment />
+  </data>
+  <data name="RoleNameProvider" xml:space="preserve">
+    <value>provider</value>
+    <comment />
+  </data>
+  <data name="RoleNameSeller" xml:space="preserve">
+    <value>Sælger</value>
+    <comment />
+  </data>
+  <data name="RoleNameSuperuser" xml:space="preserve">
+    <value>SuperUser</value>
+    <comment />
+  </data>
+  <data name="SavePassword" xml:space="preserve">
+    <value>Gem adgangskode</value>
+    <comment />
+  </data>
+  <data name="SuccessfullyRegister" xml:space="preserve">
+    <value>Du har tilmeldt dig, vi er næsten klar.</value>
+    <comment />
+  </data>
+  <data name="ThanksRegistering" xml:space="preserve">
+    <value>Tak for din registrering</value>
+    <comment />
+  </data>
+  <data name="UpdateUser" xml:space="preserve">
+    <value>Opdater Bruger</value>
+    <comment />
+  </data>
+  <data name="UserAddress" xml:space="preserve">
+    <value>Adresse</value>
+    <comment />
+  </data>
+  <data name="UserAlreadyRegistered" xml:space="preserve">
+    <value>Brugeren er allerede registreret</value>
+    <comment />
+  </data>
+  <data name="UserEmail" xml:space="preserve">
+    <value>Votre email</value>
+    <comment />
+  </data>
+  <data name="UserForgotPassword" xml:space="preserve">
+    <value>Glemt adgangskode?</value>
+    <comment />
+  </data>
+  <data name="UserFullName" xml:space="preserve">
+    <value>Fuldt navn</value>
+    <comment />
+  </data>
+  <data name="UserIsAdmin" xml:space="preserve">
+    <value>Er administrator ?</value>
+    <comment />
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Bruger</value>
+    <comment />
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Brugernavn</value>
+    <comment />
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>Brugeren blev ikke fundet.</value>
+    <comment />
+  </data>
+  <data name="UserPhoneNumber" xml:space="preserve">
+    <value>Telefonnummer</value>
+    <comment />
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Brugere</value>
+    <comment />
+  </data>
+  <data name="UserUpdated" xml:space="preserve">
+    <value>Bruger opdateret</value>
+    <comment />
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Tilføj</value>
+    <comment />
+  </data>
+  <data name="Anonymous_NiceToMeetyou" xml:space="preserve">
+    <value>Det er rart at møde dig</value>
+    <comment />
+  </data>
+  <data name="Anonymous_WelcomeToBussiness" xml:space="preserve">
+    <value>velkommen til vores forretning</value>
+    <comment />
+  </data>
+  <data name="ApiAddress" xml:space="preserve">
+    <value>URL-adresse</value>
+    <comment />
+  </data>
+  <data name="ApiAddress_Title" xml:space="preserve">
+    <value>Api Service Konfiguration</value>
+    <comment />
+  </data>
+  <data name="ApiAddressTextEmpty" xml:space="preserve">
+    <value>Api adresse tekst er tom</value>
+    <comment />
+  </data>
+  <data name="AppProduct" xml:space="preserve">
+    <value>JK-Shop er et produkt af Royalsys</value>
+    <comment />
+  </data>
+  <data name="AppType" xml:space="preserve">
+    <value>Forretningssoftwareløsning</value>
+    <comment />
+  </data>
+  <data name="AccountStatement" xml:space="preserve">
+    <value>Kontoudtog</value>
+    <comment />
+  </data>
+  <data name="BouncedCheck" xml:space="preserve">
+    <value>Sprang Check</value>
+    <comment />
+  </data>
+  <data name="BankBranch" xml:space="preserve">
+    <value>Bankfilialen</value>
+    <comment />
+  </data>
+  <data name="BankCheck" xml:space="preserve">
+    <value>Check</value>
+    <comment />
+  </data>
+  <data name="BankCheckNumber" xml:space="preserve">
+    <value>Checknummer</value>
+    <comment />
+  </data>
+  <data name="BankCheckNumberExist" xml:space="preserve">
+    <value>Bankchecknummer findes allerede</value>
+    <comment />
+  </data>
+  <data name="BankCheckPayee" xml:space="preserve">
+    <value>Betalingsmodtager</value>
+    <comment />
+  </data>
+  <data name="BankDepositAddNew" xml:space="preserve">
+    <value>Ny indbetaling</value>
+    <comment />
+  </data>
+  <data name="BankDepositedChecks" xml:space="preserve">
+    <value>Indskudt Checks</value>
+    <comment />
+  </data>
+  <data name="BankDepositNumber" xml:space="preserve">
+    <value>Indbetalingsnummer</value>
+    <comment />
+  </data>
+  <data name="BankDepositNumExist" xml:space="preserve">
+    <value>Indbetalingsnummer findes allerede</value>
+    <comment />
+  </data>
+  <data name="BankDepositoDetails" xml:space="preserve">
+    <value>Oplysninger om bankindskud</value>
+    <comment />
+  </data>
+  <data name="BankDepositReport2" xml:space="preserve">
+    <value>Bankindskudsrapport</value>
+    <comment />
+  </data>
+  <data name="BankExtraction" xml:space="preserve">
+    <value>Bankudtrækning</value>
+    <comment />
+  </data>
+  <data name="BankExtractionReport" xml:space="preserve">
+    <value>Uddragsrapport</value>
+    <comment />
+  </data>
+  <data name="Bank" xml:space="preserve">
+    <value>Bank</value>
+    <comment />
+  </data>
+  <data name="BankManager" xml:space="preserve">
+    <value>Bankchef</value>
+    <comment />
+  </data>
+  <data name="BankMyBank" xml:space="preserve">
+    <value>Pengeinstitut</value>
+    <comment />
+  </data>
+  <data name="BankOtherBank" xml:space="preserve">
+    <value>Andre banker</value>
+    <comment />
+  </data>
+  <data name="BankReimbursed" xml:space="preserve">
+    <value>Refunderet</value>
+    <comment />
+  </data>
+  <data name="BankAccount" xml:space="preserve">
+    <value>Bankkonto</value>
+    <comment />
+  </data>
+  <data name="BankAccountType" xml:space="preserve">
+    <value>Typer af bankkonti</value>
+    <comment />
+  </data>
+  <data name="BankDeposit_ReportTitle" xml:space="preserve">
+    <value>Bankindskud mellem enheder fra Enhed</value>
+    <comment />
+  </data>
+  <data name="BankDeposit_TitleCheckDeposited" xml:space="preserve">
+    <value>Checks deponeret til konto mellem dato</value>
+    <comment />
+  </data>
+  <data name="BankExtractionType" xml:space="preserve">
+    <value>Ekstraktion</value>
+    <comment />
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>Afdeling</value>
+    <comment />
+  </data>
+  <data name="Branch_Name" xml:space="preserve">
+    <value>Afdelingsnavn</value>
+    <comment />
+  </data>
+  <data name="BusinessManagementSoftware" xml:space="preserve">
+    <value>Forretningsstyringssoftware</value>
+    <comment />
+  </data>
+  <data name="Category_Name" xml:space="preserve">
+    <value>Kategorinavn</value>
+    <comment />
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Kategori</value>
+    <comment />
+  </data>
+  <data name="CheckInternetConnection" xml:space="preserve">
+    <value>Kontroller internetforbindelsen.</value>
+    <comment />
+  </data>
+  <data name="Cities" xml:space="preserve">
+    <value>By</value>
+    <comment />
+  </data>
+  <data name="City_ErrorMustSelect" xml:space="preserve">
+    <value>Du skal vælge en by.</value>
+    <comment />
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>By</value>
+    <comment />
+  </data>
+  <data name="City_Name" xml:space="preserve">
+    <value>By Navn</value>
+    <comment />
+  </data>
+  <data name="City_NoCitiesAddedYet" xml:space="preserve">
+    <value>Ingen byer tilføjet endnu</value>
+    <comment />
+  </data>
+  <data name="City_of" xml:space="preserve">
+    <value>Byer</value>
+    <comment />
+  </data>
+  <data name="City_Pleseholder" xml:space="preserve">
+    <value>navnet på byen</value>
+    <comment />
+  </data>
+  <data name="City_SelectCombo" xml:space="preserve">
+    <value>Vælg en by</value>
+    <comment />
+  </data>
+  <data name="Company_Create" xml:space="preserve">
+    <value>Opret firma</value>
+    <comment />
+  </data>
+  <data name="Company_Edith" xml:space="preserve">
+    <value>Opdater Company</value>
+    <comment />
+  </data>
+  <data name="Company_ErrorMustSelect" xml:space="preserve">
+    <value>Du skal vælge et firma.</value>
+    <comment />
+  </data>
+  <data name="Company_Logo" xml:space="preserve">
+    <value>Logo</value>
+    <comment />
+  </data>
+  <data name="Company_OwnerLabel" xml:space="preserve">
+    <value>Ejer</value>
+    <comment />
+  </data>
+  <data name="Company_SelectCombo" xml:space="preserve">
+    <value>(Vælg et firma)</value>
+    <comment />
+  </data>
+  <data name="Company_TrialDay" xml:space="preserve">
+    <value>Prøve dage</value>
+    <comment />
+  </data>
+  <data name="ConfigureConnection" xml:space="preserve">
+    <value>Konfigurer forbindelse</value>
+    <comment />
+  </data>
+  <data name="ConfigureDatabase" xml:space="preserve">
+    <value>Konfigurer databaseserveren</value>
+    <comment />
+  </data>
+  <data name="Countries" xml:space="preserve">
+    <value>Lande</value>
+    <comment />
+  </data>
+  <data name="Country_CannotLoadCountries" xml:space="preserve">
+    <value>kan ikke indlæse lande</value>
+    <comment />
+  </data>
+  <data name="Country_ErrorMustSelect" xml:space="preserve">
+    <value>Vælg land</value>
+    <comment />
+  </data>
+  <data name="Country_Name" xml:space="preserve">
+    <value>Landenavn</value>
+    <comment />
+  </data>
+  <data name="Country_Pleaseholder" xml:space="preserve">
+    <value>landets navn</value>
+    <comment />
+  </data>
+  <data name="Country_SelectCombo" xml:space="preserve">
+    <value>Vælg et land</value>
+    <comment />
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Land</value>
+    <comment />
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>kunde</value>
+    <comment />
+  </data>
+  <data name="DataBaseName" xml:space="preserve">
+    <value>Database</value>
+    <comment />
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Om</value>
+    <comment />
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Acceptér</value>
+    <comment />
+  </data>
+  <data name="AccountHolder" xml:space="preserve">
+    <value>Kontoindehaver</value>
+    <comment />
+  </data>
+  <data name="AccountNumber" xml:space="preserve">
+    <value>Firmanummer</value>
+    <comment />
+  </data>
+  <data name="AccountType" xml:space="preserve">
+    <value>Kontotype</value>
+    <comment />
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Handlinger</value>
+    <comment />
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adresse</value>
+    <comment />
+  </data>
+  <data name="AlreadyExists" xml:space="preserve">
+    <value>{0} eksisterer allerede.</value>
+    <comment />
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Beløb</value>
+    <comment />
+  </data>
+  <data name="AmountIsInvalid" xml:space="preserve">
+    <value>Beløbet er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Anvend</value>
+    <comment />
+  </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>attribut</value>
+    <comment />
+  </data>
+  <data name="BackToList" xml:space="preserve">
+    <value>Tilbage til liste</value>
+    <comment />
+  </data>
+  <data name="Birthdate" xml:space="preserve">
+    <value>Fødselsdato</value>
+    <comment />
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuller</value>
+    <comment />
+  </data>
+  <data name="CardIdNumber" xml:space="preserve">
+    <value>identitetskortnummer</value>
+    <comment />
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>Kontant</value>
+    <comment />
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>Vælg fil</value>
+    <comment />
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Luk</value>
+    <comment />
+  </data>
+  <data name="Concept" xml:space="preserve">
+    <value>Koncept</value>
+    <comment />
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Konfiguration</value>
+    <comment />
+  </data>
+  <data name="CopyToClipboad" xml:space="preserve">
+    <value>Kopiér til &amp;Udklipsholder</value>
+    <comment />
+  </data>
+  <data name="CreateNew" xml:space="preserve">
+    <value>Opret ny</value>
+    <comment />
+  </data>
+  <data name="CreditOfficer" xml:space="preserve">
+    <value>Kreditchef</value>
+    <comment />
+  </data>
+  <data name="EmptyTable" xml:space="preserve">
+    <value>Ingen data tilgængelig i tabellen</value>
+    <comment />
+  </data>
+  <data name="LoadingRecords" xml:space="preserve">
+    <value>Indlæser</value>
+    <comment />
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>Første</value>
+    <comment />
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Sidste</value>
+    <comment />
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Næste</value>
+    <comment />
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Forrige</value>
+    <comment />
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Behandler...</value>
+    <comment />
+  </data>
+  <data name="NoRecordsFound" xml:space="preserve">
+    <value>Der blev ikke fundet nogen resultater</value>
+    <comment />
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Dato</value>
+    <comment />
+  </data>
+  <data name="DateIsInvalid" xml:space="preserve">
+    <value>er ugyldig</value>
+    <comment />
+  </data>
+  <data name="DateRange" xml:space="preserve">
+    <value>Datointerval</value>
+    <comment />
+  </data>
+  <data name="DateRangeValidate" xml:space="preserve">
+    <value>forkert datointerval</value>
+    <comment />
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Slet</value>
+    <comment />
+  </data>
+  <data name="Delete_Question" xml:space="preserve">
+    <value>Vil du slette ?</value>
+    <comment />
+  </data>
+  <data name="DeleteItem" xml:space="preserve">
+    <value>Slet emne</value>
+    <comment />
+  </data>
+  <data name="DeleteSuccessful" xml:space="preserve">
+    <value>Fjernet</value>
+    <comment />
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>Detaljer</value>
+    <comment />
+  </data>
+  <data name="DetailWithoutRecords" xml:space="preserve">
+    <value>Detalje uden poster</value>
+    <comment />
+  </data>
+  <data name="DocNumber" xml:space="preserve">
+    <value>Dokumentnr</value>
+    <comment />
+  </data>
+  <data name="DueDate" xml:space="preserve">
+    <value>Forfaldsdato</value>
+    <comment />
+  </data>
+  <data name="DuplicateEntry" xml:space="preserve">
+    <value>Identisk post</value>
+    <comment />
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Rediger</value>
+    <comment />
+  </data>
+  <data name="EditPerson" xml:space="preserve">
+    <value>Rediger person</value>
+    <comment />
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Mail</value>
+    <comment />
+  </data>
+  <data name="EnterValidNumber" xml:space="preserve">
+    <value>Skriv et gyldigt tal</value>
+    <comment />
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Fejl</value>
+    <comment />
+  </data>
+  <data name="Error404" xml:space="preserve">
+    <value>Fejl 404 - siden ikke fundet!</value>
+    <comment />
+  </data>
+  <data name="ErrorDataObtained" xml:space="preserve">
+    <value>Data kan ikke opnås.</value>
+    <comment />
+  </data>
+  <data name="Expiration" xml:space="preserve">
+    <value>Udløb</value>
+    <comment />
+  </data>
+  <data name="Facebook" xml:space="preserve">
+    <value>Facebook</value>
+    <comment />
+  </data>
+  <data name="FromCamera" xml:space="preserve">
+    <value>Fra kamera</value>
+    <comment />
+  </data>
+  <data name="FromGallery" xml:space="preserve">
+    <value>Fra galleri</value>
+    <comment />
+  </data>
+  <data name="GetRecords" xml:space="preserve">
+    <value>Find poster</value>
+    <comment />
+  </data>
+  <data name="InvalidDateFormat" xml:space="preserve">
+    <value>Format {0}</value>
+    <comment />
+  </data>
+  <data name="IsAvailable" xml:space="preserve">
+    <value>er tilgængelig</value>
+    <comment />
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Placering</value>
+    <comment />
+  </data>
+  <data name="MainNavigation" xml:space="preserve">
+    <value>Hovednavigation</value>
+    <comment />
+  </data>
+  <data name="MainPageTitle" xml:space="preserve">
+    <value>Fredom - Business management software</value>
+    <comment />
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Leder</value>
+    <comment />
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>Feltet {0} kan kun indeholde {1} tegnlængde.</value>
+    <comment />
+  </data>
+  <data name="MinLength" xml:space="preserve">
+    <value>Felt {0} skal indeholde mindst {1} tegn.</value>
+    <comment />
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobiltelefon</value>
+    <comment />
+  </data>
+  <data name="ModifyRecord" xml:space="preserve">
+    <value>Ændre post</value>
+    <comment />
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Navn</value>
+    <comment />
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nej</value>
+    <comment />
+  </data>
+  <data name="NoCameraSupported" xml:space="preserve">
+    <value>Enheden understøtter ikke adgang til kameraet.</value>
+    <comment />
+  </data>
+  <data name="NoGallerySupported" xml:space="preserve">
+    <value>Enheden understøtter ikke adgang til galleriet.</value>
+    <comment />
+  </data>
+  <data name="NoRecordAddedYet" xml:space="preserve">
+    <value>Ingen poster</value>
+    <comment />
+  </data>
+  <data name="NoResultFound" xml:space="preserve">
+    <value>Der blev ikke fundet nogen resultater</value>
+    <comment />
+  </data>
+  <data name="UnAuthorized" xml:space="preserve">
+    <value>Ikke godkendt</value>
+    <comment />
+  </data>
+  <data name="NumberIsInvalid" xml:space="preserve">
+    <value>Nummeret er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="OperationType" xml:space="preserve">
+    <value>Handlingstype </value>
+    <comment />
+  </data>
+  <data name="PageXofY" xml:space="preserve">
+    <value>Side {0} af {1}</value>
+    <comment />
+  </data>
+  <data name="PasteFromClipboard" xml:space="preserve">
+    <value>Indsæt fra udklipsholderen</value>
+    <comment />
+  </data>
+  <data name="PayBox" xml:space="preserve">
+    <value>Lønboks</value>
+    <comment />
+  </data>
+  <data name="PaymentDate" xml:space="preserve">
+    <value>Betalings Dato</value>
+    <comment />
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>Personer</value>
+    <comment />
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Telefonnummer</value>
+    <comment />
+  </data>
+  <data name="Validate_PhoneNumberIsInvalid" xml:space="preserve">
+    <value>er ikke et gyldigt telefon nummer</value>
+    <comment />
+  </data>
+  <data name="PictureSource" xml:space="preserve">
+    <value>Hvor vil du tage billedet?</value>
+    <comment />
+  </data>
+  <data name="Placeholder" xml:space="preserve">
+    <value>Indtast en tekst</value>
+    <comment />
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Udskriv</value>
+    <comment />
+  </data>
+  <data name="RecordExists" xml:space="preserve">
+    <value>denne regime findes allerede</value>
+    <comment />
+  </data>
+  <data name="RecordNotFound" xml:space="preserve">
+    <value>Posten blev ikke fundet</value>
+    <comment />
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Rapporter</value>
+    <comment />
+  </data>
+  <data name="Requiered" xml:space="preserve">
+    <value>Feltet {0} er påkrævet</value>
+    <comment />
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Tilbage</value>
+    <comment />
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Gem</value>
+    <comment />
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Søg</value>
+    <comment />
+  </data>
+  <data name="ReturnEmptySearch" xml:space="preserve">
+    <value>Søgeresultat uden optegnelser</value>
+    <comment />
+  </data>
+  <data name="SelectItemCombo" xml:space="preserve">
+    <value>(Vælg element)</value>
+    <comment />
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Vælg indstillinger</value>
+    <comment />
+  </data>
+  <data name="Sender" xml:space="preserve">
+    <value>Afsender</value>
+    <comment />
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>Indstilling</value>
+    <comment />
+  </data>
+  <data name="DateSince" xml:space="preserve">
+    <value>Siden dato</value>
+    <comment />
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Subtotal</value>
+    <comment />
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Udført</value>
+    <comment />
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>I alt</value>
+    <comment />
+  </data>
+  <data name="TotalRecord" xml:space="preserve">
+    <value>Poster i alt</value>
+    <comment />
+  </data>
+  <data name="DateUntil" xml:space="preserve">
+    <value>Indtil dato</value>
+    <comment />
+  </data>
+  <data name="UpdateSuccessful" xml:space="preserve">
+    <value>Opdateringen lykkedes</value>
+    <comment />
+  </data>
+  <data name="Web" xml:space="preserve">
+    <value>Web</value>
+    <comment />
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Velkommen</value>
+    <comment />
+  </data>
+  <data name="WelcomeTo" xml:space="preserve">
+    <value>Velkommen til {0}</value>
+    <comment />
+  </data>
+  <data name="WhatsApp" xml:space="preserve">
+    <value>WhatsApp</value>
+    <comment />
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+    <comment />
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Gruppe</value>
+    <comment />
+  </data>
+  <data name="Group_Pleaseholder" xml:space="preserve">
+    <value>Navn på gruppen</value>
+    <comment />
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>startside</value>
+    <comment />
+  </data>
+  <data name="HostAddress" xml:space="preserve">
+    <value>Værtsadresse</value>
+    <comment />
+  </data>
+  <data name="IntendsToCancel" xml:space="preserve">
+    <value>Har til hensigt at annullere.</value>
+    <comment />
+  </data>
+  <data name="Kardex" xml:space="preserve">
+    <value>Kardex</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityBakeries" xml:space="preserve">
+    <value>Bagerier og konfekture</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityClothesStores" xml:space="preserve">
+    <value>Tøj og læder</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityHardwarePaints" xml:space="preserve">
+    <value>hardware og maling</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityIndustries" xml:space="preserve">
+    <value>Brancher</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityMotorcicleParts" xml:space="preserve">
+    <value>Motorcicle dele og tilbehør</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityPharmacy" xml:space="preserve">
+    <value>Apoteker og parfumerier</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivitySparePartsVehicle" xml:space="preserve">
+    <value>reservedele til køretøjer og maskiner</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityStationery" xml:space="preserve">
+    <value>Papirbutikker</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivitySupermarket" xml:space="preserve">
+    <value>Supermarked</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityToyStore" xml:space="preserve">
+    <value>Butik</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageAutomateWorkflow" xml:space="preserve">
+    <value>Automatiser arbejdsgang</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageBestPlanning" xml:space="preserve">
+    <value>Planlægning</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageImproveAdministrativeProcedures" xml:space="preserve">
+    <value>Forbedre administrative procedurer</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageMarketProjections" xml:space="preserve">
+    <value>Markedsfremskrivninger</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageMultipleReportsDataAnalysis" xml:space="preserve">
+    <value>Flere rapporter og dataanalyse</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageOptimizationCommercialOperations" xml:space="preserve">
+    <value>Optimering af kommercielle operationer</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageOptimizeCustomerSupplierRelationships" xml:space="preserve">
+    <value>Optimer kunde- og leverandørforhold</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageReduceAdministrativeTime" xml:space="preserve">
+    <value>Reducer administrativ tid</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitAttractingNewBusinessIdeas" xml:space="preserve">
+    <value>Tiltrækning af nye forretningsidéer</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitCurrencyFlowStability" xml:space="preserve">
+    <value>Valutaflowstabilitet</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitCustomerLoyalty" xml:space="preserve">
+    <value>Kunde loyalitet</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitFacilityForWorkTeam" xml:space="preserve">
+    <value>Facilitet til arbejdsteamet</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitIncreaseIncomeLiquidity" xml:space="preserve">
+    <value>Stigning i indkomst og likviditet</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitIncreasingCustomerBase" xml:space="preserve">
+    <value>Øget kundebase</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitReduceDepartmentCosts" xml:space="preserve">
+    <value>Reducer afdelingsomkostningerne</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitStabilityCommitmentsSuppliers" xml:space="preserve">
+    <value>Stabilitet i forpligtelser med leverandører</value>
+    <comment />
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Regnskab</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelEmployee" xml:space="preserve">
+    <value>medarbejdere</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelOrders" xml:space="preserve">
+    <value>Bestillinger og levering</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelProduct" xml:space="preserve">
+    <value>Produkter</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelTransport" xml:space="preserve">
+    <value>Transporter</value>
+    <comment />
+  </data>
+  <data name="Logout_CustomizableSoft" xml:space="preserve">
+    <value>Tilpasbar software</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureContactOpportunityManagement" xml:space="preserve">
+    <value>Kontakt og mulighedsstyring</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureCreationOffers" xml:space="preserve">
+    <value>Oprettelse af tilbud med produktdetaljer, priser, priser og rabatter.</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureCustomize options" xml:space="preserve">
+    <value>Tilpas indstillinger</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureDeliveryManagement" xml:space="preserve">
+    <value>Leveringsstyring</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureLoanManagement" xml:space="preserve">
+    <value>Låneadministration</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureManagementObjectives" xml:space="preserve">
+    <value>Styring af mål og mål</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureMonitoringTracking" xml:space="preserve">
+    <value>Overvågning og sporing af muligheder, salg og mål efter datoer.</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureObtainingReportsAnalysis" xml:space="preserve">
+    <value>Indhentning af rapporter og analyse</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureOrderSalesTracking" xml:space="preserve">
+    <value>Bestilling og salgsporing</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureSalesZones" xml:space="preserve">
+    <value>Salgszoner</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureStrategicBusinessPlanning" xml:space="preserve">
+    <value>Strategisk forretningsplanlægning</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureSynchronizationMobility" xml:space="preserve">
+    <value>Synkronisering og mobilitet</value>
+    <comment />
+  </data>
+  <data name="Logout_ModBanks" xml:space="preserve">
+    <value>Banker</value>
+    <comment />
+  </data>
+  <data name="Logout_ModCustomer" xml:space="preserve">
+    <value>Kunde</value>
+    <comment />
+  </data>
+  <data name="Logout_ModCustomerOrders" xml:space="preserve">
+    <value>Kundeordrer</value>
+    <comment />
+  </data>
+  <data name="Logout_ModEmployee" xml:space="preserve">
+    <value>medarbejder</value>
+    <comment />
+  </data>
+  <data name="Payments" xml:space="preserve">
+    <value>Betalinger</value>
+    <comment />
+  </data>
+  <data name="Logout_ModProducts" xml:space="preserve">
+    <value>Produkter, lager, lager</value>
+    <comment />
+  </data>
+  <data name="Logout_ModPurchase" xml:space="preserve">
+    <value>Køb</value>
+    <comment />
+  </data>
+  <data name="Logout_ModRetail" xml:space="preserve">
+    <value>Detailhandlere</value>
+    <comment />
+  </data>
+  <data name="Logout_ModReturns" xml:space="preserve">
+    <value>Returneringer</value>
+    <comment />
+  </data>
+  <data name="Logout_ModSales" xml:space="preserve">
+    <value>Salg, billetter, faktura</value>
+    <comment />
+  </data>
+  <data name="Logout_ModSupport" xml:space="preserve">
+    <value>Teknisk support</value>
+    <comment />
+  </data>
+  <data name="Logout_Modwholesalers" xml:space="preserve">
+    <value>Grossister</value>
+    <comment />
+  </data>
+  <data name="Advantage" xml:space="preserve">
+    <value>Fordels</value>
+    <comment />
+  </data>
+  <data name="Applications" xml:space="preserve">
+    <value>applikationer</value>
+    <comment />
+  </data>
+  <data name="Benefits" xml:space="preserve">
+    <value>Fordele</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleBusinessManagementSoftware" xml:space="preserve">
+    <value>Forretningsstyringssoftware</value>
+    <comment />
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Funktioner</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleModule" xml:space="preserve">
+    <value>Moduler</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleTradeActivity" xml:space="preserve">
+    <value>handelsaktivitet</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleWebPlatformMobileDesktop" xml:space="preserve">
+    <value>Webplatform, mobil og desktop</value>
+    <comment />
+  </data>
+  <data name="Measure" xml:space="preserve">
+    <value>Måleenhed</value>
+    <comment />
+  </data>
+  <data name="Measure_name" xml:space="preserve">
+    <value>måleenhed navn</value>
+    <comment />
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>medarbejder</value>
+    <comment />
+  </data>
+  <data name="MenuMain_Finance" xml:space="preserve">
+    <value>finanser</value>
+    <comment />
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Produkter</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabAdministration" xml:space="preserve">
+    <value>administration</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabConfiguration" xml:space="preserve">
+    <value>Konfiguration</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabEmployee" xml:space="preserve">
+    <value>medarbejdere</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabFile" xml:space="preserve">
+    <value>Arkiver</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabFinance" xml:space="preserve">
+    <value>Finanser</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabProcess" xml:space="preserve">
+    <value>behandle</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabTransport" xml:space="preserve">
+    <value>transportere</value>
+    <comment />
+  </data>
+  <data name="Money" xml:space="preserve">
+    <value>Valuta</value>
+    <comment />
+  </data>
+  <data name="Quote" xml:space="preserve">
+    <value>Tilbud</value>
+    <comment />
+  </data>
+  <data name="Symbol" xml:space="preserve">
+    <value>Symbol</value>
+    <comment />
+  </data>
+  <data name="Orders" xml:space="preserve">
+    <value>Rækkefølge</value>
+    <comment />
+  </data>
+  <data name="Package" xml:space="preserve">
+    <value>Pakke</value>
+    <comment />
+  </data>
+  <data name="Package_Name" xml:space="preserve">
+    <value>Pakkenavn</value>
+    <comment />
+  </data>
+  <data name="CustomerPayment" xml:space="preserve">
+    <value>Kundebetaling</value>
+    <comment />
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Port</value>
+    <comment />
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>pris</value>
+    <comment />
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Prioritet</value>
+    <comment />
+  </data>
+  <data name="Priority_Name" xml:space="preserve">
+    <value>Prioitet</value>
+    <comment />
+  </data>
+  <data name="ProductActive" xml:space="preserve">
+    <value>Aktivt produkt</value>
+    <comment />
+  </data>
+  <data name="AlterStock" xml:space="preserve">
+    <value>Ændre lager</value>
+    <comment />
+  </data>
+  <data name="ProductApply" xml:space="preserve">
+    <value>Produkt applikation</value>
+    <comment />
+  </data>
+  <data name="Barcode" xml:space="preserve">
+    <value>Stregkode</value>
+    <comment />
+  </data>
+  <data name="ProductChecked" xml:space="preserve">
+    <value>Produkt kontrolleret</value>
+    <comment />
+  </data>
+  <data name="ProductCode" xml:space="preserve">
+    <value>Kode</value>
+    <comment />
+  </data>
+  <data name="CommissionSale" xml:space="preserve">
+    <value>Ordre - Provision</value>
+    <comment />
+  </data>
+  <data name="Drug" xml:space="preserve">
+    <value>Komponenter</value>
+    <comment />
+  </data>
+  <data name="GenericName" xml:space="preserve">
+    <value>Generisk navn</value>
+    <comment />
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>Produkter</value>
+    <comment />
+  </data>
+  <data name="MaximumDiscount" xml:space="preserve">
+    <value>Maks. rabat (%)</value>
+    <comment />
+  </data>
+  <data name="MinimumStock" xml:space="preserve">
+    <value>mindstelager</value>
+    <comment />
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>Handelsnavn</value>
+    <comment />
+  </data>
+  <data name="ProviderCode" xml:space="preserve">
+    <value>udbyder</value>
+    <comment />
+  </data>
+  <data name="PayTax" xml:space="preserve">
+    <value>betaler</value>
+    <comment />
+  </data>
+  <data name="TaxRate" xml:space="preserve">
+    <value>Momssats</value>
+    <comment />
+  </data>
+  <data name="WayAdmin" xml:space="preserve">
+    <value>indgiftsvejen</value>
+    <comment />
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Vægt</value>
+    <comment />
+  </data>
+  <data name="Wholesaler" xml:space="preserve">
+    <value>Grossist</value>
+    <comment />
+  </data>
+  <data name="Provider" xml:space="preserve">
+    <value>udbyder</value>
+    <comment />
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Køb</value>
+    <comment />
+  </data>
+  <data name="Route" xml:space="preserve">
+    <value>Rute</value>
+    <comment />
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Salg</value>
+    <comment />
+  </data>
+  <data name="Sector" xml:space="preserve">
+    <value>Produkt sektor</value>
+    <comment />
+  </data>
+  <data name="SectorProductName" xml:space="preserve">
+    <value>Sektornavn</value>
+    <comment />
+  </data>
+  <data name="Shop" xml:space="preserve">
+    <value>butik</value>
+    <comment />
+  </data>
+  <data name="SourceProduct" xml:space="preserve">
+    <value>Produktkilde</value>
+    <comment />
+  </data>
+  <data name="SourceProduct_Name" xml:space="preserve">
+    <value>Kildenavn</value>
+    <comment />
+  </data>
+  <data name="State_ErrorMustSelect" xml:space="preserve">
+    <value>Du skal vælge en tilstand.</value>
+    <comment />
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Region</value>
+    <comment />
+  </data>
+  <data name="State_Name" xml:space="preserve">
+    <value>Region navn</value>
+    <comment />
+  </data>
+  <data name="State_of" xml:space="preserve">
+    <value>Stater af</value>
+    <comment />
+  </data>
+  <data name="State_Pleaseholder" xml:space="preserve">
+    <value>navn på staten</value>
+    <comment />
+  </data>
+  <data name="State_SelectCombo" xml:space="preserve">
+    <value>vælg en tilstand</value>
+    <comment />
+  </data>
+  <data name="States" xml:space="preserve">
+    <value>Områder</value>
+    <comment />
+  </data>
+  <data name="Store" xml:space="preserve">
+    <value>Store</value>
+    <comment />
+  </data>
+  <data name="SubGroup" xml:space="preserve">
+    <value>Undergruppe</value>
+    <comment />
+  </data>
+  <data name="SubGroup_of" xml:space="preserve">
+    <value>Undergruppe af</value>
+    <comment />
+  </data>
+  <data name="Subgroup_pleaseholder" xml:space="preserve">
+    <value>Undergruppens navn</value>
+    <comment />
+  </data>
+  <data name="SuccessfulEntry" xml:space="preserve">
+    <value>vellykket indgang</value>
+    <comment />
+  </data>
+  <data name="Trademark" xml:space="preserve">
+    <value>Varemærke</value>
+    <comment />
+  </data>
+  <data name="TrademarkName" xml:space="preserve">
+    <value>Varemærke</value>
+    <comment />
+  </data>
+  <data name="Validate_Address" xml:space="preserve">
+    <value>Adressen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="CantFinishedProccess" xml:space="preserve">
+    <value>Processen kan ikke afsluttes</value>
+    <comment />
+  </data>
+  <data name="Validate_CardId" xml:space="preserve">
+    <value>Dokumentnummer er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="Validate_CityName" xml:space="preserve">
+    <value>Bynavn er ikke gyldigt.</value>
+    <comment />
+  </data>
+  <data name="Validate_CountryName" xml:space="preserve">
+    <value>Landenavnet er ikke gyldigt.</value>
+    <comment />
+  </data>
+  <data name="Validate_Email" xml:space="preserve">
+    <value>Denne e-mail er ikke gyldig.</value>
+    <comment />
+  </data>
+  <data name="Validate_maxLenght" xml:space="preserve">
+    <value>Feltet kan kun indeholde {1} tegn længde.</value>
+    <comment />
+  </data>
+  <data name="Validate_Name" xml:space="preserve">
+    <value>Du skal angive både din første og sidste navn</value>
+    <comment />
+  </data>
+  <data name="Validate_NameIsRequiered" xml:space="preserve">
+    <value>Du skal angive et navn.</value>
+    <comment />
+  </data>
+  <data name="Validate_StateName" xml:space="preserve">
+    <value>Statens navn er ikke gyldigt.</value>
+    <comment />
+  </data>
+  <data name="Visitor_Basket" xml:space="preserve">
+    <value>KURV</value>
+    <comment />
+  </data>
+  <data name="Visitor_Catalog" xml:space="preserve">
+    <value>KATALOG</value>
+    <comment />
+  </data>
+  <data name="Visitor_Order" xml:space="preserve">
+    <value>ORDRER</value>
+    <comment />
+  </data>
+  <data name="zip" xml:space="preserve">
+    <value>Postnummer</value>
+    <comment />
+  </data>
+  <data name="Zone" xml:space="preserve">
+    <value>Zone</value>
+    <comment />
+  </data>
+  <data name="Zone_Name" xml:space="preserve">
+    <value>Navn på zone</value>
+    <comment />
+  </data>
+  <data name="Validate_Owner" xml:space="preserve">
+    <value>Ejer er påkrævet.</value>
+    <comment />
+  </data>
+  <data name="Validate_Facebook" xml:space="preserve">
+    <value>Facebook er påkrævet.</value>
+    <comment />
+  </data>
+  <data name="Validate_Whatsapp" xml:space="preserve">
+    <value>Whatsapp-feltet er forkert</value>
+    <comment />
+  </data>
+  <data name="ErrorOnSave" xml:space="preserve">
+    <value>Fejl ved gem.</value>
+    <comment />
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Opdater</value>
+    <comment />
+  </data>
+  <data name="Alter" xml:space="preserve">
+    <value>Juster</value>
+    <comment />
+  </data>
+  <data name="DateRegister" xml:space="preserve">
+    <value>Registreringsdato</value>
+    <comment />
+  </data>
+  <data name="FieldIsRequiered" xml:space="preserve">
+    <value>Feltet {0} er påkrævet</value>
+    <comment />
+  </data>
+  <data name="owner" xml:space="preserve">
+    <value>Ejer</value>
+    <comment />
+  </data>
+  <data name="MaxLengthCharacter" xml:space="preserve">
+    <value>max længde tegn</value>
+    <comment />
+  </data>
+  <data name="FieldNameIsNotValid" xml:space="preserve">
+    <value>navnet er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="FieldOwnerIsNotValid" xml:space="preserve">
+    <value>eieren er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="FieldWhatsappIsNotValid" xml:space="preserve">
+    <value>whatsapp er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="FieldFacebookAddressIsNotValid" xml:space="preserve">
+    <value>Facebook -adressen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="FieldPhoneNumberIsNotValid" xml:space="preserve">
+    <value>ugyldigt telefonnummer</value>
+    <comment />
+  </data>
+  <data name="FieldCityIsNotValid" xml:space="preserve">
+    <value>bynavn er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="FieldCountryIsNotValid" xml:space="preserve">
+    <value>Landets navn er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="FieldAddressIsNotValid" xml:space="preserve">
+    <value>Adressen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="FieldStateIsNotValid" xml:space="preserve">
+    <value>Stat er ugyldig</value>
+    <comment />
+  </data>
+  <data name="CancelByTocken" xml:space="preserve">
+    <value>Denne handling er blevet aflyst</value>
+    <comment />
+  </data>
+  <data name="ConfirmToFinish" xml:space="preserve">
+    <value>Bekræft for at afslutte</value>
+    <comment />
+  </data>
+  <data name="PasswordMinimunLength" xml:space="preserve">
+    <value>Mindste adgangskodelængde er 6 tegn</value>
+    <comment />
+  </data>
+  <data name="PasswordMaxLength" xml:space="preserve">
+    <value>maksimal adgangskodelængde er 20 tegn</value>
+    <comment />
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>e -mail er påkrævet</value>
+    <comment />
+  </data>
+  <data name="ItemsperPage" xml:space="preserve">
+    <value>varer pr. side er ikke gyldige</value>
+    <comment />
+  </data>
+  <data name="IdParameterOutOfRange" xml:space="preserve">
+    <value>Identitetsparameter uden for rækkevidde</value>
+    <comment />
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Vent et øjeblik</value>
+    <comment />
+  </data>
+  <data name="ProcessHasBeenCanceled" xml:space="preserve">
+    <value>Processen er annulleret</value>
+    <comment />
+  </data>
+  <data name="RecordsProcessedSuccessfully" xml:space="preserve">
+    <value>Registreringer behandlet med succes</value>
+    <comment />
+  </data>
+  <data name="UserIdIsInvalid" xml:space="preserve">
+    <value>Bruger-ID er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="AccessPointIsNullOrEmpty" xml:space="preserve">
+    <value>Adgangspunkt er tomt eller tomt</value>
+    <comment />
+  </data>
+  <data name="IdentityNumberIsNotValid" xml:space="preserve">
+    <value>SIM-nummeret er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="CompanyIdIsInvalid" xml:space="preserve">
+    <value>Firma -id er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="EmailUserCreate" xml:space="preserve">
+    <value>Der er sendt en adgangskode til din e -mail. Bekræft venligst for at logge ind</value>
+    <comment />
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>Ugyldigt loginforsøg. Du skal have en bekræftet e -mail -adresse.</value>
+    <comment />
+  </data>
+  <data name="NewUserValidation" xml:space="preserve">
+    <value>Ny brugervalidering</value>
+    <comment />
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Bekræft</value>
+    <comment />
+  </data>
+  <data name="ConfirmationCode" xml:space="preserve">
+    <value>Bekræftelseskode</value>
+    <comment />
+  </data>
+  <data name="EnterConfirmationCodeReceived" xml:space="preserve">
+    <value>Indtast bekræftelseskoden modtaget i din e -mail</value>
+    <comment />
+  </data>
+  <data name="ValidationCodeIsInvalid" xml:space="preserve">
+    <value>valideringskoden er ugyldig</value>
+    <comment />
+  </data>
+  <data name="TokenDoesNotExist" xml:space="preserve">
+    <value>Kalendertoken findes ikke.</value>
+    <comment />
+  </data>
+  <data name="UserRegisterCorrectly" xml:space="preserve">
+    <value>brugeren er allerede registreret korrekt</value>
+    <comment />
+  </data>
+  <data name="UserSettingIsInvalid" xml:space="preserve">
+    <value>brugerindstilling er ugyldig</value>
+    <comment />
+  </data>
+  <data name="EmployeeIdIsNull" xml:space="preserve">
+    <value>Medarbejderen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="UserIsInvalid" xml:space="preserve">
+    <value>Bruger er ugyldig</value>
+    <comment />
+  </data>
+  <data name="ShopIsInvalid" xml:space="preserve">
+    <value>Butikken er ugyldig</value>
+    <comment />
+  </data>
+  <data name="BoxIdIsInvalid" xml:space="preserve">
+    <value>Boksen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="UserHasNoConfiguration" xml:space="preserve">
+    <value>brugeren har ingen konfiguration</value>
+    <comment />
+  </data>
+  <data name="UserSetting" xml:space="preserve">
+    <value>Brugerindstilling</value>
+    <comment />
+  </data>
+  <data name="UserSettingAndRoles" xml:space="preserve">
+    <value>Brugerindstilling og roller</value>
+    <comment />
+  </data>
+  <data name="Box" xml:space="preserve">
+    <value>Kasseapparat</value>
+    <comment />
+  </data>
+  <data name="EnterHereToSearch" xml:space="preserve">
+    <value>Indtast her for at søge</value>
+    <comment />
+  </data>
+  <data name="SearchOfShops" xml:space="preserve">
+    <value>Søg butik</value>
+    <comment />
+  </data>
+  <data name="SearchOfBox" xml:space="preserve">
+    <value>søg efter kasse</value>
+    <comment />
+  </data>
+  <data name="SearchOfUsers" xml:space="preserve">
+    <value>Søg efter brugere</value>
+    <comment />
+  </data>
+  <data name="SearchOfEmployees" xml:space="preserve">
+    <value>søge medarbejder</value>
+    <comment />
+  </data>
+  <data name="SearchBranchOffices" xml:space="preserve">
+    <value>Søg filialer</value>
+    <comment />
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Genindlæs</value>
+    <comment />
+  </data>
+  <data name="Job_Position" xml:space="preserve">
+    <value>Stillingsniveau</value>
+    <comment />
+  </data>
+  <data name="job_Sectors" xml:space="preserve">
+    <value>Projekt sektor</value>
+    <comment />
+  </data>
+  <data name="ErrorWhenSelectingItem" xml:space="preserve">
+    <value>Fejl ved valg af punkt</value>
+    <comment />
+  </data>
+  <data name="PriceLevel" xml:space="preserve">
+    <value>prisniveau</value>
+    <comment />
+  </data>
+  <data name="DiscountMaxRate" xml:space="preserve">
+    <value>Rabat maks. Sats</value>
+    <comment />
+  </data>
+  <data name="SearchOfGroups" xml:space="preserve">
+    <value>Søgning efter grupper</value>
+    <comment />
+  </data>
+  <data name="SearchOfZones" xml:space="preserve">
+    <value>zoeken naar zones</value>
+    <comment />
+  </data>
+  <data name="SearchOfOperationTypes" xml:space="preserve">
+    <value>Søgning efter operationstype</value>
+    <comment />
+  </data>
+  <data name="ContactNameIsInvalid" xml:space="preserve">
+    <value>Kontaktnavn er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="RucNumberIsInvalid" xml:space="preserve">
+    <value>Skatteyderens dokumentnummer er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="ProviderType_ErrorMustSelect" xml:space="preserve">
+    <value>Du skal vælge en udbydertype</value>
+    <comment />
+  </data>
+  <data name="PaymentType_ErrorMustSelect" xml:space="preserve">
+    <value>Du skal vælge en betalingstype</value>
+    <comment />
+  </data>
+  <data name="StampIsInvalid" xml:space="preserve">
+    <value>stemplet er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="BankErrorMustSelect" xml:space="preserve">
+    <value>Du skal vælge en bank</value>
+    <comment />
+  </data>
+  <data name="SearchOfProvider" xml:space="preserve">
+    <value>søg efter leverandører</value>
+    <comment />
+  </data>
+  <data name="BusinessName" xml:space="preserve">
+    <value>Virksomhedsnavn</value>
+    <comment />
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Virksomhed</value>
+    <comment />
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>Tjeneste</value>
+    <comment />
+  </data>
+  <data name="Production" xml:space="preserve">
+    <value>Produktion</value>
+    <comment />
+  </data>
+  <data name="CattleRaising" xml:space="preserve">
+    <value>kvægavl</value>
+    <comment />
+  </data>
+  <data name="comercialContact" xml:space="preserve">
+    <value>Kontakt</value>
+    <comment />
+  </data>
+  <data name="RUC" xml:space="preserve">
+    <value>NIT</value>
+    <comment />
+  </data>
+  <data name="stamped" xml:space="preserve">
+    <value>Stemplet</value>
+    <comment />
+  </data>
+  <data name="PaymentType" xml:space="preserve">
+    <value>Betalingsmuligheder</value>
+    <comment />
+  </data>
+  <data name="ProviderType" xml:space="preserve">
+    <value>Udbyder Type</value>
+    <comment />
+  </data>
+  <data name="SearchOfProviderType" xml:space="preserve">
+    <value>Søg efter udbydere</value>
+    <comment />
+  </data>
+  <data name="SearchOfCities" xml:space="preserve">
+    <value>Søg efter byer</value>
+    <comment />
+  </data>
+  <data name="SearchOfPaymentTypes" xml:space="preserve">
+    <value>Søgning efter betalingstyper</value>
+    <comment />
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>Faktura nummer</value>
+    <comment />
+  </data>
+  <data name="Carrier" xml:space="preserve">
+    <value>transportør</value>
+    <comment />
+  </data>
+  <data name="ImportCosts" xml:space="preserve">
+    <value>importomkostninger</value>
+    <comment />
+  </data>
+  <data name="ItIsImported" xml:space="preserve">
+    <value>den er importeret</value>
+    <comment />
+  </data>
+  <data name="PurchaseWithHoldindTax" xml:space="preserve">
+    <value>Køb med kildeskat</value>
+    <comment />
+  </data>
+  <data name="TypeOfVoucher" xml:space="preserve">
+    <value>Bilagstype</value>
+    <comment />
+  </data>
+  <data name="VoucherDetail" xml:space="preserve">
+    <value>Kupon detaljer</value>
+    <comment />
+  </data>
+  <data name="TaxpayerSituation" xml:space="preserve">
+    <value>skatteydernes situation</value>
+    <comment />
+  </data>
+  <data name="RentWithholding" xml:space="preserve">
+    <value>Leje tilbageholdelse</value>
+    <comment />
+  </data>
+  <data name="IVAwithholding" xml:space="preserve">
+    <value>Momsindeholdelse</value>
+    <comment />
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Antal</value>
+    <comment />
+  </data>
+  <data name="Tax" xml:space="preserve">
+    <value>Moms</value>
+    <comment />
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Beskrivelse</value>
+    <comment />
+  </data>
+  <data name="Exent" xml:space="preserve">
+    <value>fritaget</value>
+    <comment />
+  </data>
+  <data name="iva" xml:space="preserve">
+    <value>Moms</value>
+    <comment />
+  </data>
+  <data name="TotalRetention" xml:space="preserve">
+    <value>total fastholdelse</value>
+    <comment />
+  </data>
+  <data name="VAT_Settlement" xml:space="preserve">
+    <value>Momsafregning</value>
+    <comment />
+  </data>
+  <data name="RetentionBasis" xml:space="preserve">
+    <value>Opbevaringsgrundlag</value>
+    <comment />
+  </data>
+  <data name="RetentionPercentage" xml:space="preserve">
+    <value>Opbevaringsprocent</value>
+    <comment />
+  </data>
+  <data name="TotalVATWithheld" xml:space="preserve">
+    <value>Samlet moms tilbageholdt</value>
+    <comment />
+  </data>
+  <data name="TotalRentWithheld" xml:space="preserve">
+    <value>samlet husleje tilbageholdt</value>
+    <comment />
+  </data>
+  <data name="ISOcode" xml:space="preserve">
+    <value>ISO -kode</value>
+    <comment />
+  </data>
+  <data name="BaseCurrency" xml:space="preserve">
+    <value>basisvaluta</value>
+    <comment />
+  </data>
+  <data name="decimals" xml:space="preserve">
+    <value>decimaler</value>
+    <comment />
+  </data>
+  <data name="Commission" xml:space="preserve">
+    <value>Provision</value>
+    <comment />
+  </data>
+  <data name="SearchOfMoney" xml:space="preserve">
+    <value>søgning efter valuta</value>
+    <comment />
+  </data>
+  <data name="mobileIsInvalid" xml:space="preserve">
+    <value>Mobilnummer er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="moneyIsInvalid" xml:space="preserve">
+    <value>valutaen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="barcodeIsNotValid" xml:space="preserve">
+    <value>Stregkoden er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="JobSectorNotValid" xml:space="preserve">
+    <value>jobsektoren er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="JobPostIsInvalid" xml:space="preserve">
+    <value>Stillingen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="ProfessionIsNotValid" xml:space="preserve">
+    <value>Erhvervet er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="FatherNameIsNotValid" xml:space="preserve">
+    <value>Fadernavnet er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="MotherNameIsInvalid" xml:space="preserve">
+    <value>Modernavnet er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="BloodTypenameNotValid" xml:space="preserve">
+    <value>Blodtypenavnet er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="SalaryIsNotValid" xml:space="preserve">
+    <value>lønnen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="CommissionSaleIsNotValid" xml:space="preserve">
+    <value>kommissionen for salg er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="CommissionCollectionIsNotValid" xml:space="preserve">
+    <value>provision for afhentning er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="SearchOfCarrier" xml:space="preserve">
+    <value>eftersøgning af transportører</value>
+    <comment />
+  </data>
+  <data name="BranchManagerIsNoValid" xml:space="preserve">
+    <value>Filialchefen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="BirthDateIsInvalid" xml:space="preserve">
+    <value>Fødselsdatoen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="SexIsNotvalid" xml:space="preserve">
+    <value>Sexet er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="WorkStartDateIsInvalid" xml:space="preserve">
+    <value>Startdatoen for arbejdet er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="ChildrenNumberIsNotValid" xml:space="preserve">
+    <value>antallet af børn er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="CivilStatusIsNotValid" xml:space="preserve">
+    <value>Civilstatus er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="SalaryTypeIsNotValid" xml:space="preserve">
+    <value>Lønnetypen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="NickNameIsInvalid" xml:space="preserve">
+    <value>Kaldenavnet er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="PassportNumIsNotValid" xml:space="preserve">
+    <value>Pasnummeret er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="SpouceIdentiyIsnotValid" xml:space="preserve">
+    <value>Ægtefællens identitet er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="SpouceNameIsNotValid" xml:space="preserve">
+    <value>Ægtefællens navn er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="DrivingLicenceNumberIsNotValid" xml:space="preserve">
+    <value>Kørekortnummeret er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="Emergency1NumberNotValid" xml:space="preserve">
+    <value>Det primære nødkontaktnummer er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="PlaceBirtIsNotValid" xml:space="preserve">
+    <value>Stedsfødslen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="IdIsInvalid" xml:space="preserve">
+    <value>Id er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="CommissionPercentIsNotValid" xml:space="preserve">
+    <value>Provisionsprocent er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="Emergency2NumberNotValid" xml:space="preserve">
+    <value>Det sekundære nødkontaktnummer er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="ObservationIsNotValid" xml:space="preserve">
+    <value>Bemærkningen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="ExchangeIsnotValid" xml:space="preserve">
+    <value>Udvekslingen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="SymbolNotValid" xml:space="preserve">
+    <value>The symbol is not valid</value>
+    <comment />
+  </data>
+  <data name="TaxRateIsNotValid" xml:space="preserve">
+    <value>Skatteprocent er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="TotalWithholdingIsInvalid" xml:space="preserve">
+    <value>Samlet tilbageholdelse er ugyldig</value>
+    <comment />
+  </data>
+  <data name="RemarkIsNotValid" xml:space="preserve">
+    <value>Bemærkningen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="PurchaseDateIsInvalid" xml:space="preserve">
+    <value>Købsdatoen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="ProviderIsInvalid" xml:space="preserve">
+    <value>Udbyderen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="OperationTypeIsInvalid" xml:space="preserve">
+    <value>Operationstypen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="CarrierIsInvalid" xml:space="preserve">
+    <value>Transportøren er ugyldig</value>
+    <comment />
+  </data>
+  <data name="InvoiceNumberIsNotValid" xml:space="preserve">
+    <value>Fakturanummer er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="TotalExentaIsNotValid" xml:space="preserve">
+    <value>Samlet fritagelse er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="TotalGravadaIsNotValid" xml:space="preserve">
+    <value>Samlet beskattet er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="StatusIsInvalid" xml:space="preserve">
+    <value>Status er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="TotalIvaIsNotValid" xml:space="preserve">
+    <value>Samlet moms er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="CustomerIsNotValid" xml:space="preserve">
+    <value>Kunden er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="Balance" xml:space="preserve">
+    <value>Balance</value>
+    <comment />
+  </data>
+  <data name="ConditionsToGenerateQuotas" xml:space="preserve">
+    <value>Betingelser for at generere kvoter</value>
+    <comment />
+  </data>
+  <data name="Capital" xml:space="preserve">
+    <value>Kapital</value>
+    <comment />
+  </data>
+  <data name="AmountOfFees" xml:space="preserve">
+    <value>Gebyrer</value>
+    <comment />
+  </data>
+  <data name="DaysOverdue" xml:space="preserve">
+    <value>Forsinkede dage</value>
+    <comment />
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Niveau</value>
+    <comment />
+  </data>
+  <data name="Interest" xml:space="preserve">
+    <value>Interesse</value>
+    <comment />
+  </data>
+  <data name="AnnualInterestPercentage" xml:space="preserve">
+    <value>Årlig renteprocent</value>
+    <comment />
+  </data>
+  <data name="FirstMaturity" xml:space="preserve">
+    <value>Første modenhed</value>
+    <comment />
+  </data>
+  <data name="Calculate" xml:space="preserve">
+    <value>Beregn</value>
+    <comment />
+  </data>
+  <data name="BalanceToFinance" xml:space="preserve">
+    <value>Balance til finansiering</value>
+    <comment />
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>Levering</value>
+    <comment />
+  </data>
+  <data name="TypesOfTerm" xml:space="preserve">
+    <value>Typer af udtryk</value>
+    <comment />
+  </data>
+  <data name="FeesCalculator" xml:space="preserve">
+    <value>Gebyr beregner</value>
+    <comment />
+  </data>
+  <data name="FeesGenerator" xml:space="preserve">
+    <value>Gebyr generator</value>
+    <comment />
+  </data>
+  <data name="EveryDay" xml:space="preserve">
+    <value>hver dag</value>
+    <comment />
+  </data>
+  <data name="Every8days" xml:space="preserve">
+    <value>hver ugentlig</value>
+    <comment />
+  </data>
+  <data name="Every15days" xml:space="preserve">
+    <value>hver 15. dag</value>
+    <comment />
+  </data>
+  <data name="Every120days" xml:space="preserve">
+    <value>hver 120. dag</value>
+    <comment />
+  </data>
+  <data name="Every180days" xml:space="preserve">
+    <value>hver 180. dag</value>
+    <comment />
+  </data>
+  <data name="Every30days" xml:space="preserve">
+    <value>hver måned</value>
+    <comment />
+  </data>
+  <data name="Every60Days" xml:space="preserve">
+    <value>hver 60. dag</value>
+    <comment />
+  </data>
+  <data name="Every90days" xml:space="preserve">
+    <value>hver 90. dag</value>
+    <comment />
+  </data>
+  <data name="Every45days" xml:space="preserve">
+    <value>hver 45. dag</value>
+    <comment />
+  </data>
+  <data name="VisualizePurchase" xml:space="preserve">
+    <value>Visualiser køb</value>
+    <comment />
+  </data>
+  <data name="PurchaseReport" xml:space="preserve">
+    <value>Købsrapport</value>
+    <comment />
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>Ok</value>
+    <comment />
+  </data>
+  <data name="SearchByProvider" xml:space="preserve">
+    <value>søg på udbyder</value>
+    <comment />
+  </data>
+  <data name="SearchByInvoiceNumber" xml:space="preserve">
+    <value>søg på fakturanummer</value>
+    <comment />
+  </data>
+  <data name="SearchByOperationType" xml:space="preserve">
+    <value>søg efter operationstype</value>
+    <comment />
+  </data>
+  <data name="SearchByMoney" xml:space="preserve">
+    <value>søg efter valuta</value>
+    <comment />
+  </data>
+  <data name="SearchByBox" xml:space="preserve">
+    <value>søg efter boks</value>
+    <comment />
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Faktura</value>
+    <comment />
+  </data>
+  <data name="Retention" xml:space="preserve">
+    <value>Opbevaring</value>
+    <comment />
+  </data>
+  <data name="TotalExenta" xml:space="preserve">
+    <value>Samlet fritaget</value>
+    <comment />
+  </data>
+  <data name="TotalVAT" xml:space="preserve">
+    <value>Samlet moms</value>
+    <comment />
+  </data>
+  <data name="TotalTaxed" xml:space="preserve">
+    <value>Samlet beskattet</value>
+    <comment />
+  </data>
+  <data name="TotalPurchase" xml:space="preserve">
+    <value>Samlet køb</value>
+    <comment />
+  </data>
+  <data name="TheDateIsNotValid" xml:space="preserve">
+    <value>Datoen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="DateSinceIsNotValid" xml:space="preserve">
+    <value>Startdatoen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="DateUntilIsNotValid" xml:space="preserve">
+    <value>dato indtil er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="PaginationItemsperPage" xml:space="preserve">
+    <value>Elementer pr. side er ikke gyldige</value>
+    <comment />
+  </data>
+  <data name="PaginationNumberInNotValid" xml:space="preserve">
+    <value>personsøgningsnummer er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="TotalNetIsInvalid" xml:space="preserve">
+    <value>Nettototal er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="SearchOptions" xml:space="preserve">
+    <value>Søgemuligheder</value>
+    <comment />
+  </data>
+  <data name="SearchTextIsInvalid" xml:space="preserve">
+    <value>Søgeteksten er ugyldig</value>
+    <comment />
+  </data>
+  <data name="SearchOfCountries" xml:space="preserve">
+    <value>Søg efter lande</value>
+    <comment />
+  </data>
+  <data name="SearchOfStates" xml:space="preserve">
+    <value>Søg efter stater</value>
+    <comment />
+  </data>
+  <data name="LoadMore" xml:space="preserve">
+    <value>Indlæs Flere</value>
+    <comment />
+  </data>
+  <data name="forbidenAccess" xml:space="preserve">
+    <value>Forbudt adgang</value>
+    <comment />
+  </data>
+  <data name="ApiVersionIsWrong" xml:space="preserve">
+    <value>API-versionen er forkert</value>
+    <comment />
+  </data>
+  <data name="SearchOfCompany" xml:space="preserve">
+    <value>Søg efter virksomheder</value>
+    <comment />
+  </data>
+  <data name="Expence" xml:space="preserve">
+    <value>Type af udgifter</value>
+    <comment />
+  </data>
+  <data name="TypeOfExpenses" xml:space="preserve">
+    <value>Udgifter</value>
+    <comment />
+  </data>
+  <data name="ReturnReason" xml:space="preserve">
+    <value>Årsag til returnering</value>
+    <comment />
+  </data>
+  <data name="Town" xml:space="preserve">
+    <value>Område</value>
+    <comment />
+  </data>
+  <data name="Vehicle" xml:space="preserve">
+    <value>Køretøj</value>
+    <comment />
+  </data>
+  <data name="GroupIdIsInvalid" xml:space="preserve">
+    <value>Gruppe-id er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="ZoneIdIsInvalid" xml:space="preserve">
+    <value>Zone-id er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="SearchOfApply" xml:space="preserve">
+    <value>Søgning efter ansøgning</value>
+    <comment />
+  </data>
+  <data name="SearchOfTown" xml:space="preserve">
+    <value>Søgning i byen</value>
+    <comment />
+  </data>
+  <data name="SearchOfCategory" xml:space="preserve">
+    <value>Søgning efter kategori</value>
+    <comment />
+  </data>
+  <data name="SearchOfExpence" xml:space="preserve">
+    <value>Søgning af Expence</value>
+    <comment />
+  </data>
+  <data name="SearchOfBrand" xml:space="preserve">
+    <value>Søgning efter mærke</value>
+    <comment />
+  </data>
+  <data name="SearchOfPackage" xml:space="preserve">
+    <value>Søg efter pakke</value>
+    <comment />
+  </data>
+  <data name="SearchOfPriority" xml:space="preserve">
+    <value>Søgning efter prioritet</value>
+    <comment />
+  </data>
+  <data name="SearchOfProduct" xml:space="preserve">
+    <value>Søgning af produkter</value>
+    <comment />
+  </data>
+  <data name="SearchOfJobPost" xml:space="preserve">
+    <value>Søgning af jobopslag</value>
+    <comment />
+  </data>
+  <data name="SearchOfReason" xml:space="preserve">
+    <value>Søgning efter Reason</value>
+    <comment />
+  </data>
+  <data name="SearchOfBranch" xml:space="preserve">
+    <value>Søgning af filial</value>
+    <comment />
+  </data>
+  <data name="SearchOfRoute" xml:space="preserve">
+    <value>Søgning af rute</value>
+    <comment />
+  </data>
+  <data name="SearchOfSectorProduct" xml:space="preserve">
+    <value>Søgning af produktsektor</value>
+    <comment />
+  </data>
+  <data name="SearchOfJobSector" xml:space="preserve">
+    <value>Søgning af jobsektor</value>
+    <comment />
+  </data>
+  <data name="SearchOfSubGroup" xml:space="preserve">
+    <value>Søg efter undergruppe</value>
+    <comment />
+  </data>
+  <data name="SearchOfExepenceType" xml:space="preserve">
+    <value>Søgning efter udgiftstype</value>
+    <comment />
+  </data>
+  <data name="SearchOfVehicle" xml:space="preserve">
+    <value>Søgning af køretøj</value>
+    <comment />
+  </data>
+  <data name="SearchOfMeasure" xml:space="preserve">
+    <value>Målsøgning</value>
+    <comment />
+  </data>
+  <data name="SearchOfWayAdmin" xml:space="preserve">
+    <value>Søg efter Way Admin</value>
+    <comment />
+  </data>
+  <data name="SearchOfDrug" xml:space="preserve">
+    <value>Søgning af komponenter</value>
+    <comment />
+  </data>
+  <data name="ReferentialIntegrityConstraintsError" xml:space="preserve">
+    <value>Referenceintegritetsbegrænsninger</value>
+    <comment />
+  </data>
+  <data name="ResponsibleStaff" xml:space="preserve">
+    <value>Ansvarligt personale</value>
+    <comment />
+  </data>
+  <data name="CreditNoteLastCreated" xml:space="preserve">
+    <value>Kreditnota Sidst oprettet</value>
+    <comment />
+  </data>
+  <data name="CreditNoteSince" xml:space="preserve">
+    <value>Kreditnota Siden</value>
+    <comment />
+  </data>
+  <data name="CreditNoteUntil" xml:space="preserve">
+    <value>Kreditnota Indtil</value>
+    <comment />
+  </data>
+  <data name="InvoiceLastCreated" xml:space="preserve">
+    <value>Sidst oprettet faktura</value>
+    <comment />
+  </data>
+  <data name="InvoiceSince" xml:space="preserve">
+    <value>Faktura siden</value>
+    <comment />
+  </data>
+  <data name="InvoiceUntil" xml:space="preserve">
+    <value>Faktura indtil</value>
+    <comment />
+  </data>
+  <data name="PromissoryNoteLastCreated" xml:space="preserve">
+    <value>Gældsbrev Sidst oprettet</value>
+    <comment />
+  </data>
+  <data name="PromissoryNoteSince" xml:space="preserve">
+    <value>Skiftebrev Siden</value>
+    <comment />
+  </data>
+  <data name="PromissoryNoteUntil" xml:space="preserve">
+    <value>Skiftebrev Indtil</value>
+    <comment />
+  </data>
+  <data name="ReceiptLastCreated" xml:space="preserve">
+    <value>Modtagelse af betaling Sidst oprettet</value>
+    <comment />
+  </data>
+  <data name="ReceiptSince" xml:space="preserve">
+    <value>Modtagelse af betaling Siden</value>
+    <comment />
+  </data>
+  <data name="ReceiptUntil" xml:space="preserve">
+    <value>Modtagelse af betaling Indtil</value>
+    <comment />
+  </data>
+  <data name="ReturnNoteLastCreated" xml:space="preserve">
+    <value>Returnote Sidst oprettet</value>
+    <comment />
+  </data>
+  <data name="ReturnNoteSince" xml:space="preserve">
+    <value>Returnotat siden</value>
+    <comment />
+  </data>
+  <data name="ReturnNoteUntil" xml:space="preserve">
+    <value>Returbemærkning Indtil</value>
+    <comment />
+  </data>
+  <data name="Shop_ErrorMustSelect" xml:space="preserve">
+    <value>Du skal vælge en butik</value>
+    <comment />
+  </data>
+  <data name="Brand" xml:space="preserve">
+    <value>Mærke</value>
+    <comment />
+  </data>
+  <data name="Brandisinvalid" xml:space="preserve">
+    <value>Mærket er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="Capacity" xml:space="preserve">
+    <value>Kapacitet</value>
+    <comment />
+  </data>
+  <data name="CapacityisInvalid" xml:space="preserve">
+    <value>Kapaciteten er ugyldig</value>
+    <comment />
+  </data>
+  <data name="CarriagenNumberIsInvalid" xml:space="preserve">
+    <value>Vognnummeret er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="ChassisNumberIsInvalid" xml:space="preserve">
+    <value>Stelnummeret er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Farve</value>
+    <comment />
+  </data>
+  <data name="ColorIsInvalid" xml:space="preserve">
+    <value>Farven er ugyldig</value>
+    <comment />
+  </data>
+  <data name="EngineNumberIsInvalid" xml:space="preserve">
+    <value>Motornummeret er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="FuelTypeIsInvalid" xml:space="preserve">
+    <value>Brændstoftypen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="InitialKmIsInvalid" xml:space="preserve">
+    <value>Indledende km er ugyldig</value>
+    <comment />
+  </data>
+  <data name="LoadTypeIsInvalid" xml:space="preserve">
+    <value>Belastningstypen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Model</value>
+    <comment />
+  </data>
+  <data name="Model is invalid" xml:space="preserve">
+    <value>Modellen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="Patent" xml:space="preserve">
+    <value>Patent</value>
+    <comment />
+  </data>
+  <data name="PatentIsInvalid" xml:space="preserve">
+    <value>Patentet er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="YearModelIsInvalid" xml:space="preserve">
+    <value>Årsmodellen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="CarriageNumber" xml:space="preserve">
+    <value>Vognnummer</value>
+    <comment />
+  </data>
+  <data name="ChassisNumber" xml:space="preserve">
+    <value>Stelnummer</value>
+    <comment />
+  </data>
+  <data name="EngineNumber" xml:space="preserve">
+    <value>Motornummer</value>
+    <comment />
+  </data>
+  <data name="FuelType" xml:space="preserve">
+    <value>Brændstoftype</value>
+    <comment />
+  </data>
+  <data name="InitialKM" xml:space="preserve">
+    <value>Indledende kilometer</value>
+    <comment />
+  </data>
+  <data name="LoadType" xml:space="preserve">
+    <value>Belastningstype</value>
+    <comment />
+  </data>
+  <data name="year" xml:space="preserve">
+    <value>År</value>
+    <comment />
+  </data>
+  <data name="CustomerAccount" xml:space="preserve">
+    <value>Kundekonto</value>
+    <comment />
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Kort</value>
+    <comment />
+  </data>
+  <data name="ReleaseCheck" xml:space="preserve">
+    <value>Slip tjek</value>
+    <comment />
+  </data>
+  <data name="Transfers" xml:space="preserve">
+    <value>Bankoverførsel</value>
+    <comment />
+  </data>
+  <data name="BankDepositReport" xml:space="preserve">
+    <value>Bankindskudsrapport</value>
+    <comment />
+  </data>
+  <data name="BankDeposit" xml:space="preserve">
+    <value>Bank depositum</value>
+    <comment />
+  </data>
+  <data name="AccountHolderIsInvalid" xml:space="preserve">
+    <value>Kontoindehaveren er ugyldig</value>
+    <comment />
+  </data>
+  <data name="AccountNumberIsInvalid" xml:space="preserve">
+    <value>Kontonummeret er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="AgencyIsInvalid" xml:space="preserve">
+    <value>Agenturet er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="BankAccountTypeIsInvalid" xml:space="preserve">
+    <value>Bankkontotype er ugyldig</value>
+    <comment />
+  </data>
+  <data name="BankIdIsInvalid" xml:space="preserve">
+    <value>Bank-id er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="CreditOfficerIsInvalid" xml:space="preserve">
+    <value>Kreditansvarlig er ugyldig</value>
+    <comment />
+  </data>
+  <data name="ManagerIsInvalid" xml:space="preserve">
+    <value>Manager er ugyldig</value>
+    <comment />
+  </data>
+  <data name="CategoryIsInvalid" xml:space="preserve">
+    <value>Kategori er ugyldig</value>
+    <comment />
+  </data>
+  <data name="DiscountIsNotValid" xml:space="preserve">
+    <value>Rabatten er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="FullNameIsInvalid" xml:space="preserve">
+    <value>Det fulde navn er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="IdentityPartnerIsInvalid" xml:space="preserve">
+    <value>Identitetspartner er ugyldig</value>
+    <comment />
+  </data>
+  <data name="MobileNumIsInvalid" xml:space="preserve">
+    <value>Mobilnummeret er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="PartnerIsInvalid" xml:space="preserve">
+    <value>Partneren er ugyldig</value>
+    <comment />
+  </data>
+  <data name="PriceLevelIsInvalid" xml:space="preserve">
+    <value>Prisniveauet er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="RouteIsInvalid" xml:space="preserve">
+    <value>Ruten er ugyldig</value>
+    <comment />
+  </data>
+  <data name="TradeNameIsInvalid" xml:space="preserve">
+    <value>Handelsnavnet er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="WorkActivityIsInvalid" xml:space="preserve">
+    <value>Arbejdsaktivitet er ugyldig</value>
+    <comment />
+  </data>
+  <data name="WorkspaceIsInvalid" xml:space="preserve">
+    <value>Arbejdsområdet er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="CreditLimitIsInvalid" xml:space="preserve">
+    <value>Kreditgrænsen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="CustomerAccountNumberIsInvalid" xml:space="preserve">
+    <value>Kundekontonummer er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="SearchOfBank" xml:space="preserve">
+    <value>Søgning af banker</value>
+    <comment />
+  </data>
+  <data name="SearchOfBankAccount" xml:space="preserve">
+    <value>Søgning på bankkonto</value>
+    <comment />
+  </data>
+  <data name="SearchOfBankAccountType" xml:space="preserve">
+    <value>Søg efter bankkontotype</value>
+    <comment />
+  </data>
+  <data name="SearchOfCustomerAccount" xml:space="preserve">
+    <value>Søgning af kundekonto</value>
+    <comment />
+  </data>
+  <data name="SearchOfCustomers" xml:space="preserve">
+    <value>Søgning af kunder</value>
+    <comment />
+  </data>
+  <data name="ActiveEmployee" xml:space="preserve">
+    <value>Aktiv medarbejder</value>
+    <comment />
+  </data>
+  <data name="CollectionCommission" xml:space="preserve">
+    <value>Indsamlingskommission</value>
+    <comment />
+  </data>
+  <data name="CommissionAgent" xml:space="preserve">
+    <value>Kommissionsagent</value>
+    <comment />
+  </data>
+  <data name="EmergencyContact" xml:space="preserve">
+    <value>Kontakt i nødstilfælde</value>
+    <comment />
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Køn</value>
+    <comment />
+  </data>
+  <data name="IsSupervisor" xml:space="preserve">
+    <value>er supervisor</value>
+    <comment />
+  </data>
+  <data name="PlaceOfBirth" xml:space="preserve">
+    <value>Fødselssted</value>
+    <comment />
+  </data>
+  <data name="Salary" xml:space="preserve">
+    <value>Løn</value>
+    <comment />
+  </data>
+  <data name="SalesCommissionPercent" xml:space="preserve">
+    <value>Salgskommission</value>
+    <comment />
+  </data>
+  <data name="WebIsInvalid" xml:space="preserve">
+    <value>er ugyldig</value>
+    <comment />
+  </data>
+  <data name="Spouse" xml:space="preserve">
+    <value>Ægtefælde</value>
+    <comment />
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>Kredit</value>
+    <comment />
+  </data>
+  <data name="LendProducts" xml:space="preserve">
+    <value>Udlån produkter</value>
+    <comment />
+  </data>
+  <data name="OwnHouse" xml:space="preserve">
+    <value>Eget hus</value>
+    <comment />
+  </data>
+  <data name="SendBillCollector" xml:space="preserve">
+    <value>Send til regningsopkræver</value>
+    <comment />
+  </data>
+  <data name="BillCollector" xml:space="preserve">
+    <value>Regningssamler</value>
+    <comment />
+  </data>
+  <data name="CreditLimit" xml:space="preserve">
+    <value>Kredit grænse</value>
+    <comment />
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Slutdato</value>
+    <comment />
+  </data>
+  <data name="ActiveAccount" xml:space="preserve">
+    <value>aktiv konto</value>
+    <comment />
+  </data>
+  <data name="ShopRule" xml:space="preserve">
+    <value>butiksindstillinger</value>
+    <comment />
+  </data>
+  <data name="DefaultClient" xml:space="preserve">
+    <value>standardkunde</value>
+    <comment />
+  </data>
+  <data name="PriceLevelDefault" xml:space="preserve">
+    <value>Prisniveau Standard</value>
+    <comment />
+  </data>
+  <data name="OperTypeCreditSale" xml:space="preserve">
+    <value>Operation Type Kreditsalg</value>
+    <comment />
+  </data>
+  <data name="OperTypeCreditPurchase" xml:space="preserve">
+    <value>Operation Type Kreditkøb</value>
+    <comment />
+  </data>
+  <data name="OperTypeCashSale" xml:space="preserve">
+    <value>Operation Type Kontant salg</value>
+    <comment />
+  </data>
+  <data name="OperTypeCashPurchase" xml:space="preserve">
+    <value>Operation Type Kontant køb</value>
+    <comment />
+  </data>
+  <data name="ModifyPriceInSales" xml:space="preserve">
+    <value>Kontant salgstransaktion</value>
+    <comment />
+  </data>
+  <data name="MaximumItemsInSale" xml:space="preserve">
+    <value>Maksimalt antal varer i salg</value>
+    <comment />
+  </data>
+  <data name="InterestRateMonthly" xml:space="preserve">
+    <value>Renter Månedligt</value>
+    <comment />
+  </data>
+  <data name="ForceSaleIfStockIsZero" xml:space="preserve">
+    <value>Tvangssalg, hvis lageret er nul</value>
+    <comment />
+  </data>
+  <data name="EncryptedPrice" xml:space="preserve">
+    <value>Krypteret pris</value>
+    <comment />
+  </data>
+  <data name="DecimalsInStock" xml:space="preserve">
+    <value>decimaler på lager</value>
+    <comment />
+  </data>
+  <data name="GrantDiscounts" xml:space="preserve">
+    <value>Give rabatter</value>
+    <comment />
+  </data>
+  <data name="MaxDiscountPercent" xml:space="preserve">
+    <value>Maksimal rabatprocent</value>
+    <comment />
+  </data>
+  <data name="MaximumPriceLevel" xml:space="preserve">
+    <value>Maksimalt prisniveau</value>
+    <comment />
+  </data>
+  <data name="Administrator" xml:space="preserve">
+    <value>Administrator</value>
+    <comment />
+  </data>
+  <data name="Finance" xml:space="preserve">
+    <value>Finansiere</value>
+    <comment />
+  </data>
+  <data name="Investor" xml:space="preserve">
+    <value>Investor</value>
+    <comment />
+  </data>
+  <data name="Operator" xml:space="preserve">
+    <value>Operatør</value>
+    <comment />
+  </data>
+  <data name="Seller" xml:space="preserve">
+    <value>Sælger</value>
+    <comment />
+  </data>
+  <data name="SuperUser" xml:space="preserve">
+    <value>Superbruger</value>
+    <comment />
+  </data>
+  <data name="DiscountPercentageIsInvalid" xml:space="preserve">
+    <value>rabatprocenten er ugyldig</value>
+    <comment />
+  </data>
+  <data name="GroupIsRequired" xml:space="preserve">
+    <value>gruppen er påkrævet</value>
+    <comment />
+  </data>
+  <data name="MaximumPriceLevelIsNotValid" xml:space="preserve">
+    <value>maksimalt prisniveau er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="OperationTypeIsRequired" xml:space="preserve">
+    <value>typen af operation er påkrævet</value>
+    <comment />
+  </data>
+  <data name="ZoneIsRequired" xml:space="preserve">
+    <value>zonen er påkrævet</value>
+    <comment />
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>Beholdning</value>
+    <comment />
+  </data>
+  <data name="ProviderHistory" xml:space="preserve">
+    <value>Udbyder historie</value>
+    <comment />
+  </data>
+  <data name="ProviderFees" xml:space="preserve">
+    <value>Udbyder gebyrer</value>
+    <comment />
+  </data>
+  <data name="PriceList" xml:space="preserve">
+    <value>Prisliste</value>
+    <comment />
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Stock</value>
+    <comment />
+  </data>
+  <data name="CustomerDebt" xml:space="preserve">
+    <value>Kundegæld</value>
+    <comment />
+  </data>
+  <data name="DebtCreditSale" xml:space="preserve">
+    <value>Gæld til Kreditsalg</value>
+    <comment />
+  </data>
+  <data name="DebtForPurchases" xml:space="preserve">
+    <value>Gæld til Køb</value>
+    <comment />
+  </data>
+  <data name="DebtSupplier" xml:space="preserve">
+    <value>Gæld til leverandør</value>
+    <comment />
+  </data>
+  <data name="albaran" xml:space="preserve">
+    <value>Følgeseddel</value>
+    <comment />
+  </data>
+  <data name="InventoryReport" xml:space="preserve">
+    <value>Inventar rapport</value>
+    <comment />
+  </data>
+  <data name="PurchaseOrder" xml:space="preserve">
+    <value>Købsordre</value>
+    <comment />
+  </data>
+  <data name="ReturnPurchases" xml:space="preserve">
+    <value>Returkøb</value>
+    <comment />
+  </data>
+  <data name="SalesOrder" xml:space="preserve">
+    <value>Salgsordre</value>
+    <comment />
+  </data>
+  <data name="SalesReport" xml:space="preserve">
+    <value>Salgsrapport</value>
+    <comment />
+  </data>
+  <data name="SalesReturn" xml:space="preserve">
+    <value>Salgsretur</value>
+    <comment />
+  </data>
+  <data name="TransferProduct" xml:space="preserve">
+    <value>produktoverførsel</value>
+    <comment />
+  </data>
+  <data name="TransferReport" xml:space="preserve">
+    <value>Overførselsrapport</value>
+    <comment />
+  </data>
+  <data name="UnfulfilledOrders" xml:space="preserve">
+    <value>Uopfyldte ordrer</value>
+    <comment />
+  </data>
+  <data name="CustomerPaymentReport" xml:space="preserve">
+    <value>Kundebetalingsrapport</value>
+    <comment />
+  </data>
+  <data name="ProviderPayment" xml:space="preserve">
+    <value>Udbyder betaling</value>
+    <comment />
+  </data>
+  <data name="ProviderPaymentReport" xml:space="preserve">
+    <value>Udbyder betalingsrapport</value>
+    <comment />
+  </data>
+  <data name="BanknotesDenomination" xml:space="preserve">
+    <value>Seddelværdi</value>
+    <comment />
+  </data>
+  <data name="PriceTag" xml:space="preserve">
+    <value>Prisskilt</value>
+    <comment />
+  </data>
+  <data name="CashBoxOpening" xml:space="preserve">
+    <value>CashBox åbning</value>
+    <comment />
+  </data>
+  <data name="CustomerHistory" xml:space="preserve">
+    <value>Kundehistorie</value>
+    <comment />
+  </data>
+  <data name="CashBoxClose" xml:space="preserve">
+    <value>CashBox Luk</value>
+    <comment />
+  </data>
+  <data name="Consumption" xml:space="preserve">
+    <value>Forbrug</value>
+    <comment />
+  </data>
+  <data name="CashboxCount" xml:space="preserve">
+    <value>kasseoptælling</value>
+    <comment />
+  </data>
+  <data name="CustomerFees" xml:space="preserve">
+    <value>Kundegebyrer</value>
+    <comment />
+  </data>
+  <data name="ProductPrice" xml:space="preserve">
+    <value>Produkt Pris</value>
+    <comment />
+  </data>
+  <data name="SaleExpress" xml:space="preserve">
+    <value>Salg Express</value>
+    <comment />
+  </data>
+  <data name="CustomerDebtsReport" xml:space="preserve">
+    <value>Debitorrapport</value>
+    <comment />
+  </data>
+  <data name="ProviderDebtReport" xml:space="preserve">
+    <value>Kreditorrapport</value>
+    <comment />
+  </data>
+  <data name="ClearTextBox" xml:space="preserve">
+    <value>rydde tekstfelt</value>
+    <comment />
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>gå tilbage</value>
+    <comment />
+  </data>
+  <data name="SearchOfSourceProduct" xml:space="preserve">
+    <value>Søg efter produktkilde</value>
+    <comment />
+  </data>
+  <data name="workplace" xml:space="preserve">
+    <value>Arbejdsplads</value>
+    <comment />
+  </data>
+  <data name="WorkPhone" xml:space="preserve">
+    <value>arbejdstelefon</value>
+    <comment />
+  </data>
+  <data name="SpouseIdentification" xml:space="preserve">
+    <value>ægtefælles identifikation</value>
+    <comment />
+  </data>
+  <data name="Indeterminate" xml:space="preserve">
+    <value>Ubestemt</value>
+    <comment />
+  </data>
+  <data name="Children" xml:space="preserve">
+    <value>Børn</value>
+    <comment />
+  </data>
+  <data name="male" xml:space="preserve">
+    <value>Han</value>
+    <comment />
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Ejendomme</value>
+    <comment />
+  </data>
+  <data name="Remark" xml:space="preserve">
+    <value>Bemærkning</value>
+    <comment />
+  </data>
+  <data name="ResidenceDate" xml:space="preserve">
+    <value>Bopælsdato</value>
+    <comment />
+  </data>
+  <data name="WorkStartDate" xml:space="preserve">
+    <value>Arbejdsstartdato</value>
+    <comment />
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>kvinde</value>
+    <comment />
+  </data>
+  <data name="AccessCode" xml:space="preserve">
+    <value>Adgangskode</value>
+    <comment />
+  </data>
+  <data name="BloodType" xml:space="preserve">
+    <value>Blodtype</value>
+    <comment />
+  </data>
+  <data name="CivilStatus" xml:space="preserve">
+    <value>Civilstand</value>
+    <comment />
+  </data>
+  <data name="DriversLicense" xml:space="preserve">
+    <value>Kørekort</value>
+    <comment />
+  </data>
+  <data name="Emergency1Number" xml:space="preserve">
+    <value>Nødkontakt nummer primært</value>
+    <comment />
+  </data>
+  <data name="Emergency2Number" xml:space="preserve">
+    <value>Nødkontakt nummer sekundært</value>
+    <comment />
+  </data>
+  <data name="FatherName" xml:space="preserve">
+    <value>Fars navn</value>
+    <comment />
+  </data>
+  <data name="MothersName" xml:space="preserve">
+    <value>Mors navn</value>
+    <comment />
+  </data>
+  <data name="Nickname" xml:space="preserve">
+    <value>Kaldenavn</value>
+    <comment />
+  </data>
+  <data name="passport" xml:space="preserve">
+    <value>Pas</value>
+    <comment />
+  </data>
+  <data name="Profession" xml:space="preserve">
+    <value>Erhverv</value>
+    <comment />
+  </data>
+  <data name="EmployerContribution" xml:space="preserve">
+    <value>arbejdsgiverbidrag</value>
+    <comment />
+  </data>
+  <data name="WorkerContribution" xml:space="preserve">
+    <value>arbejderbidrag</value>
+    <comment />
+  </data>
+  <data name="StaffMaintenance" xml:space="preserve">
+    <value>medarbejdervedligeholdelse</value>
+    <comment />
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>Personale</value>
+    <comment />
+  </data>
+  <data name="Worked" xml:space="preserve">
+    <value>Arbejdede</value>
+    <comment />
+  </data>
+  <data name="CustomerAccountMaintenance" xml:space="preserve">
+    <value>Vedligeholdelse af kundekonto</value>
+    <comment />
+  </data>
+  <data name="Agency" xml:space="preserve">
+    <value>bureau</value>
+    <comment />
+  </data>
+  <data name="AmountTotalIsInvalid" xml:space="preserve">
+    <value>Det samlede beløb er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="CashAmountIsInvalid" xml:space="preserve">
+    <value>Kontantbeløbet er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="ConceptIsInvalid" xml:space="preserve">
+    <value>Konceptet er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="DepositNumberIsInvalid" xml:space="preserve">
+    <value>Bankindskudsnummer er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="TransactionDate" xml:space="preserve">
+    <value>Overførselsdato</value>
+    <comment />
+  </data>
+  <data name="TransactionDateIsInvalid" xml:space="preserve">
+    <value>Transaktionsdatoen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="VoucherNumber" xml:space="preserve">
+    <value>Kuponnummer</value>
+    <comment />
+  </data>
+  <data name="BankAccountIsInvalid" xml:space="preserve">
+    <value>Bankkontoen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="BankCheckDateIsInvalid" xml:space="preserve">
+    <value>Datoen for bankcheck er ugyldig</value>
+    <comment />
+  </data>
+  <data name="BankNameIsInvalid" xml:space="preserve">
+    <value>Bankens navn er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="CheckNumberIsInvalid" xml:space="preserve">
+    <value>Kontrolnummeret er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="SenderIsInvalid" xml:space="preserve">
+    <value>Afsender er ugyldig</value>
+    <comment />
+  </data>
+  <data name="CheckAmountIsInvalid" xml:space="preserve">
+    <value>checkbeløbet er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="Initials" xml:space="preserve">
+    <value>Initialer</value>
+    <comment />
+  </data>
+  <data name="InitialsAreNotValid" xml:space="preserve">
+    <value>Initialer er ikke gyldige</value>
+    <comment />
+  </data>
+  <data name="Offset" xml:space="preserve">
+    <value>Springe</value>
+    <comment />
+  </data>
+  <data name="Limit" xml:space="preserve">
+    <value>Tage</value>
+    <comment />
+  </data>
+  <data name="OffsetIsInvalid" xml:space="preserve">
+    <value>Spring over er ugyldig</value>
+    <comment />
+  </data>
+  <data name="LimitIsInvalid" xml:space="preserve">
+    <value>Take er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Eksport</value>
+    <comment />
+  </data>
+  <data name="ExportToExcel" xml:space="preserve">
+    <value>Eksporter til MS-Excel</value>
+    <comment />
+  </data>
+  <data name="ExportToHtml" xml:space="preserve">
+    <value>Eksporter til HTML</value>
+    <comment />
+  </data>
+  <data name="ExportToPDF" xml:space="preserve">
+    <value>Eksporter til PDF</value>
+    <comment />
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+    <comment />
+  </data>
+  <data name="SearchParameters" xml:space="preserve">
+    <value>Søgeparametre</value>
+    <comment />
+  </data>
+  <data name="DeferredCheck" xml:space="preserve">
+    <value>Udskudt check</value>
+    <comment />
+  </data>
+  <data name="DeferredCheckIsInvalid" xml:space="preserve">
+    <value>Udskudt check er ugyldig</value>
+    <comment />
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Dokument</value>
+    <comment />
+  </data>
+  <data name="IsDeferrefCheck" xml:space="preserve">
+    <value>Er udskudt check</value>
+    <comment />
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Nummer</value>
+    <comment />
+  </data>
+  <data name="PostedDateIsInvalid" xml:space="preserve">
+    <value>Udsendelsesdatoen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="PostedDate" xml:space="preserve">
+    <value>Udsendt dato</value>
+    <comment />
+  </data>
+  <data name="PayeeIsInvalid" xml:space="preserve">
+    <value>betalingsmodtager er ugyldig</value>
+    <comment />
+  </data>
+  <data name="PaymentDateIsInvalid" xml:space="preserve">
+    <value>betalingsdatoen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="NumberRangue" xml:space="preserve">
+    <value>Nummerområde</value>
+    <comment />
+  </data>
+  <data name="SinceNumber" xml:space="preserve">
+    <value>Siden nummer</value>
+    <comment />
+  </data>
+  <data name="UntilNumber" xml:space="preserve">
+    <value>Indtil nummer</value>
+    <comment />
+  </data>
+  <data name="NumberRangeIsInvalid" xml:space="preserve">
+    <value>Nummerinterval er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="SinceNumberIsInvalid" xml:space="preserve">
+    <value>Da nummeret ikke er gyldigt</value>
+    <comment />
+  </data>
+  <data name="UntilNumberIsInvalid" xml:space="preserve">
+    <value>Indtil nummeret ikke er gyldigt</value>
+    <comment />
+  </data>
+  <data name="DocumentNumberIsInvalid" xml:space="preserve">
+    <value>Dokumentnummeret er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="CheckRegister" xml:space="preserve">
+    <value>Tjek Register</value>
+    <comment />
+  </data>
+  <data name="SightBankCheck" xml:space="preserve">
+    <value>Syns bankcheck</value>
+    <comment />
+  </data>
+  <data name="TypesOfChecks" xml:space="preserve">
+    <value>Type check</value>
+    <comment />
+  </data>
+  <data name="Withdrawal" xml:space="preserve">
+    <value>tilbagetrækning</value>
+    <comment />
+  </data>
+  <data name="BetweenDates" xml:space="preserve">
+    <value>mellem datoer</value>
+    <comment />
+  </data>
+  <data name="BetweenNumbers" xml:space="preserve">
+    <value>mellem tal</value>
+    <comment />
+  </data>
+  <data name="Debit" xml:space="preserve">
+    <value>Debet</value>
+    <comment />
+  </data>
+  <data name="BankMovementReport" xml:space="preserve">
+    <value>Bankbevægelsesrapport</value>
+    <comment />
+  </data>
+  <data name="TotalItems" xml:space="preserve">
+    <value>varer i alt</value>
+    <comment />
+  </data>
+  <data name="PowerUser" xml:space="preserve">
+    <value>advanceret bruger</value>
+    <comment />
+  </data>
+  <data name="TypeOperationPurchaseCredit" xml:space="preserve">
+    <value>type operation for Køb på kredit</value>
+    <comment />
+  </data>
+  <data name="TypeOperationPurchaseCash" xml:space="preserve">
+    <value>type operation for Køb kontant</value>
+    <comment />
+  </data>
+  <data name="TypeOperationSaleCredit" xml:space="preserve">
+    <value>type operation til salg på kredit</value>
+    <comment />
+  </data>
+  <data name="TypeOperationSaleCash" xml:space="preserve">
+    <value>type operation for Salg kontant</value>
+    <comment />
+  </data>
+  <data name="InterestRateMonthlyIsInvalid" xml:space="preserve">
+    <value>Månedlig rentesats er ugyldig</value>
+    <comment />
+  </data>
+  <data name="MaxDiscountPercentIsInvalid" xml:space="preserve">
+    <value>Maks. rabatprocent er ugyldig</value>
+    <comment />
+  </data>
+  <data name="MaximumNumberOfItemsIsInvalid" xml:space="preserve">
+    <value>Det maksimale antal varer er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="NumberOfDecimalsInStockIsInvalid" xml:space="preserve">
+    <value>Antal decimaler på lager er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="PriceLevelDefaultIsInvalid" xml:space="preserve">
+    <value>Prisniveau Standard er ugyldig</value>
+    <comment />
+  </data>
+  <data name="SecretKeyForPriceIsNotValid" xml:space="preserve">
+    <value>Hemmelig nøgle til pris er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForPurchaseCashIsInvalid" xml:space="preserve">
+    <value>Operationstype for køb af kontanter er ugyldig</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForPurchaseOnCreditIsInvalid" xml:space="preserve">
+    <value>Operationstypen for køb på kredit er ugyldig</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForSaleCashIsInvalid" xml:space="preserve">
+    <value>Type operation for Sale kontanter er ugyldig</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForSaleOnCreditIsInvalid" xml:space="preserve">
+    <value>Operationstypen for Salg på kredit er ugyldig</value>
+    <comment />
+  </data>
+  <data name="ActiveProductIsInvalid" xml:space="preserve">
+    <value>Aktivt produkt er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="AlterStockIsInvalid" xml:space="preserve">
+    <value>Lagermodifikator er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="BarcodeIsInvalid" xml:space="preserve">
+    <value>Stregkoden er ugyldig</value>
+    <comment />
+  </data>
+  <data name="GenericNameIsInvalid" xml:space="preserve">
+    <value>Generisk navn på produktet er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="GroupIsInvalid" xml:space="preserve">
+    <value>Produktgruppen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="MeasureIsInvalid" xml:space="preserve">
+    <value>Måleenheden er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="MinimunStockIsInvalid" xml:space="preserve">
+    <value>Minimumlager er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="PackagingIsInvalid" xml:space="preserve">
+    <value>Emballagetype er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="PriorityIsInvalid" xml:space="preserve">
+    <value>Produktprioritet er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="ProductCheckIsInvalid" xml:space="preserve">
+    <value>Det kontrollerede produkt er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="ProductCodeIsInvalid" xml:space="preserve">
+    <value>Produktkoden er ugyldig</value>
+    <comment />
+  </data>
+  <data name="ProductCodeProviderIsInvalid" xml:space="preserve">
+    <value>Udbyderkoden er ugyldig</value>
+    <comment />
+  </data>
+  <data name="SaleCommissionIsNotValid" xml:space="preserve">
+    <value>Salgsprovision er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="SectorProductIsInvalid" xml:space="preserve">
+    <value>Produktsektoren er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="SourceProductIsInvalid" xml:space="preserve">
+    <value>Kilden til produktet er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="SubGroupIsInvalid" xml:space="preserve">
+    <value>Produktundergruppen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="TaxIsInvalid" xml:space="preserve">
+    <value>skattetypen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="TrademarkIsInvalid" xml:space="preserve">
+    <value>Varemærket er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="WeightIsNotValid" xml:space="preserve">
+    <value>Vægt er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="WholesaleIsInvalid" xml:space="preserve">
+    <value>Engros er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="ProductNameIsInvalid" xml:space="preserve">
+    <value>produktnavnet er ikke gyldigt</value>
+    <comment />
+  </data>
+  <data name="ProductIsInvalid" xml:space="preserve">
+    <value>Producto er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="PriceAccordingToQuantityIsNotValid" xml:space="preserve">
+    <value>pris efter mængde er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="PriceValueIsInvalid" xml:space="preserve">
+    <value>Prisen er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="TypeOfPriceIsNotValid" xml:space="preserve">
+    <value>Pristype er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="QuantityIsNotValid" xml:space="preserve">
+    <value>Mængden er ikke gyldig</value>
+    <comment />
+  </data>
+  <data name="BatchIsInvalid" xml:space="preserve">
+    <value>Batchen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="StartDateIsInvalid" xml:space="preserve">
+    <value>startdatoen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="EndDateIsInvalid" xml:space="preserve">
+    <value>slutdatoen er ugyldig</value>
+    <comment />
+  </data>
+  <data name="CustomerActiveIsNotValid" xml:space="preserve">
+    <value>den aktive klient er ugyldig</value>
+    <comment />
+  </data>
+  <data name="StockIsInvalid" xml:space="preserve">
+    <value>lager er ugyldigt</value>
+    <comment />
+  </data>
+  <data name="VATpercentage" xml:space="preserve">
+    <value>momsprocent</value>
+  </data>
+  <data name="StockQuantity" xml:space="preserve">
+    <value>Lagermængde</value>
+  </data>
+  <data name="Side" xml:space="preserve">
+    <value>Side</value>
+  </data>
+  <data name="Shelving" xml:space="preserve">
+    <value>Reoler</value>
+  </data>
+  <data name="section" xml:space="preserve">
+    <value>Afsnit</value>
+  </data>
+  <data name="SalePrice" xml:space="preserve">
+    <value>Udsalgspris</value>
+  </data>
+  <data name="QuantityPerBox" xml:space="preserve">
+    <value>Antal pr kasse</value>
+  </data>
+  <data name="MaximumStock" xml:space="preserve">
+    <value>Maksimal lager</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Linje</value>
+  </data>
+  <data name="ImageSecondary" xml:space="preserve">
+    <value>Sekundært billede</value>
+  </data>
+  <data name="ImageMain" xml:space="preserve">
+    <value>Hovedbillede</value>
+  </data>
+  <data name="DeleteSecondary" xml:space="preserve">
+    <value>Slet sekundær</value>
+  </data>
+  <data name="DeleteMain" xml:space="preserve">
+    <value>Slet Main</value>
+  </data>
+  <data name="CostPrice" xml:space="preserve">
+    <value>Omkostning</value>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>Kolonne</value>
+  </data>
+  <data name="AddImageSecondary" xml:space="preserve">
+    <value>Tilføj sekundært billede</value>
+  </data>
+  <data name="AddImageMain" xml:space="preserve">
+    <value>Tilføj hovedbillede</value>
+  </data>
+  <data name="Attributes" xml:space="preserve">
+    <value>Egenskaber</value>
+  </data>
+  <data name="ComponentsAndApplications" xml:space="preserve">
+    <value>Komponenter og applikationer</value>
+  </data>
+  <data name="Conditions" xml:space="preserve">
+    <value>Betingelser</value>
+  </data>
+  <data name="ImageLocationComponents" xml:space="preserve">
+    <value>Billede | Beliggenhed | Komponenter</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Hoved</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>Markedsføring</value>
+  </data>
+  <data name="Prices" xml:space="preserve">
+    <value>Priser</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Ejendom</value>
+  </data>
+  <data name="StockAndPrices" xml:space="preserve">
+    <value>Lager og priser</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>identitet</value>
+  </data>
+  <data name="AdvantageIsInvalid" xml:space="preserve">
+    <value>Fordelen er ugyldig</value>
+  </data>
+  <data name="BenefitIsInvalid" xml:space="preserve">
+    <value>Fordelen er ugyldig</value>
+  </data>
+  <data name="ColumnIsInvalid" xml:space="preserve">
+    <value>Kolonnen er ugyldig</value>
+  </data>
+  <data name="FeatureIsInvalid" xml:space="preserve">
+    <value>Funktionen er ugyldig</value>
+  </data>
+  <data name="LineIsInvalid" xml:space="preserve">
+    <value>Linjen er ugyldig</value>
+  </data>
+  <data name="MaximumStockIsInvalid" xml:space="preserve">
+    <value>Maksimal lagerbeholdning er ugyldig</value>
+  </data>
+  <data name="ProductServiceIsInvalid" xml:space="preserve">
+    <value>Produkttypeservicen er ikke gyldig</value>
+  </data>
+  <data name="QuantityPerBoxIsInvalid" xml:space="preserve">
+    <value>Antal pr. boks er ugyldig</value>
+  </data>
+  <data name="ShelvingIsInvalid" xml:space="preserve">
+    <value>Reoler er ugyldige</value>
+  </data>
+  <data name="SideIsInvalid" xml:space="preserve">
+    <value>Side er ugyldig</value>
+  </data>
+  <data name="CostPriceIsInvalid" xml:space="preserve">
+    <value>Kostprisen er ugyldig</value>
+  </data>
+  <data name="ExpireDateIsInvalid" xml:space="preserve">
+    <value>Udløbsdatoen er ugyldig</value>
+  </data>
+  <data name="QuantityStockIsInvalid" xml:space="preserve">
+    <value>Mængdelager er ugyldigt</value>
+  </data>
+  <data name="SalePriceIsInvalid" xml:space="preserve">
+    <value>Udsalgsprisen er ugyldig</value>
+  </data>
+  <data name="CopyCodeToClipboard" xml:space="preserve">
+    <value>Kopiér koden til udklipsholderen</value>
+  </data>
+  <data name="CopyPicture" xml:space="preserve">
+    <value>Kopier billede</value>
+  </data>
+  <data name="DeleteImage" xml:space="preserve">
+    <value>Slet billede</value>
+  </data>
+  <data name="EditImage" xml:space="preserve">
+    <value>Rediger billede</value>
+  </data>
+  <data name="ExportImage" xml:space="preserve">
+    <value>Eksporter billede</value>
+  </data>
+  <data name="ModifyStock" xml:space="preserve">
+    <value>Ændre lager</value>
+  </data>
+  <data name="PasteImage" xml:space="preserve">
+    <value>Indsæt billede</value>
+  </data>
+  <data name="PurchaseHistory" xml:space="preserve">
+    <value>Købshistorie</value>
+  </data>
+  <data name="SelectItem" xml:space="preserve">
+    <value>Vælg element</value>
+  </data>
+  <data name="ViewImage" xml:space="preserve">
+    <value>Se billede</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Ledig</value>
+  </data>
+  <data name="CancelSale" xml:space="preserve">
+    <value>Annuller salg</value>
+  </data>
+  <data name="condition" xml:space="preserve">
+    <value>Tilstand</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Blive ved</value>
+  </data>
+  <data name="ContinueSellingProducts" xml:space="preserve">
+    <value>Fortsæt med at sælge produkter</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Rabat</value>
+  </data>
+  <data name="DiscountRate" xml:space="preserve">
+    <value>Rabat</value>
+  </data>
+  <data name="displaySalesInvoice" xml:space="preserve">
+    <value>Vis salgsfaktura</value>
+  </data>
+  <data name="finish" xml:space="preserve">
+    <value>Afslut</value>
+  </data>
+  <data name="finishInvoicing" xml:space="preserve">
+    <value>Afslut fakturering</value>
+  </data>
+  <data name="Invoices" xml:space="preserve">
+    <value>Fakturaer</value>
+  </data>
+  <data name="PretendToPrint" xml:space="preserve">
+    <value>Lad som om du udskriver</value>
+  </data>
+  <data name="Row" xml:space="preserve">
+    <value>Række</value>
+  </data>
+  <data name="SelectCustomerRuc" xml:space="preserve">
+    <value>klients ssn</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Hold op</value>
+  </data>
+  <data name="StopSelling" xml:space="preserve">
+    <value>Stop med at sælge</value>
+  </data>
+  <data name="AddNewRow" xml:space="preserve">
+    <value>Tilføj ny række</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>Kunder</value>
+  </data>
+  <data name="budgetPrinterName" xml:space="preserve">
+    <value>budgetprinternavn</value>
+  </data>
+  <data name="InvoicePrinterName" xml:space="preserve">
+    <value>fakturaprinternavn</value>
+  </data>
+  <data name="IsSaleImputQuantity" xml:space="preserve">
+    <value>angive mængde af produkter</value>
+  </data>
+  <data name="PointOfSaleSetup" xml:space="preserve">
+    <value>opsætning af salgssted</value>
+  </data>
+  <data name="PersonIdIsInvalid" xml:space="preserve">
+    <value>person-id er ugyldigt</value>
+  </data>
+  <data name="PromissoryNoteIsInvalid" xml:space="preserve">
+    <value>gældsbrevsnummer er ugyldigt</value>
+  </data>
+  <data name="NumberOfInstallments" xml:space="preserve">
+    <value>antal rater</value>
+  </data>
+  <data name="NumberOfInstallmentsInvalid" xml:space="preserve">
+    <value>antallet af rater er ugyldigt</value>
+  </data>
+  <data name="AuthorizedStaff" xml:space="preserve">
+    <value>Autoriseret personale</value>
+  </data>
+  <data name="AuthorizingOfficer" xml:space="preserve">
+    <value>Indkøbsmyndighed</value>
+  </data>
+  <data name="SearchOfAuthorizeStaff" xml:space="preserve">
+    <value>søgning af autoriseret personale</value>
+  </data>
+  <data name="SearchOfPersons" xml:space="preserve">
+    <value>eftersøgning af personer</value>
+  </data>
+  <data name="SearchOfPurchasingAuthority" xml:space="preserve">
+    <value>søgning af indkøbsmyndigheden</value>
+  </data>
+  <data name="CustomerCurrencyIsInvalid" xml:space="preserve">
+    <value>valg ikke tilladt</value>
+  </data>
+  <data name="SelectionNotAllowed" xml:space="preserve">
+    <value>kundevalutaen er ugyldig</value>
+  </data>
+  <data name="CurrencyDoesNotMatch" xml:space="preserve">
+    <value>valutaen stemmer ikke overens</value>
+  </data>
+  <data name="ProductCurrencyIsInvalid" xml:space="preserve">
+    <value>Produktets valuta er ugyldig</value>
+  </data>
+  <data name="AmountPaid" xml:space="preserve">
+    <value>Betalt beløb</value>
+  </data>
+  <data name="FinalizeCashSale" xml:space="preserve">
+    <value>Afslut kontantsalg</value>
+  </data>
+  <data name="SalePaymentDetail" xml:space="preserve">
+    <value>Salgsbetalingsdetaljer</value>
+  </data>
+  <data name="change" xml:space="preserve">
+    <value>lave om</value>
+  </data>
+  <data name="arrears" xml:space="preserve">
+    <value>restance</value>
+  </data>
+  <data name="Fees" xml:space="preserve">
+    <value>Gebyrer</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Periode</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>værdi</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>dage</value>
+  </data>
+  <data name="FinalizeCreditSale" xml:space="preserve">
+    <value>registrere et kreditsalg</value>
+  </data>
+  <data name="SearchOfAuthorizingOfficer" xml:space="preserve">
+    <value>Søg efter den anvisningsberettigede</value>
+  </data>
+  <data name="SerialCodeIsInvalid" xml:space="preserve">
+    <value>seriekoden er ugyldig</value>
+  </data>
+  <data name="ShopRuleIsInvalid" xml:space="preserve">
+    <value>butiksreglen er ugyldig</value>
+  </data>
+  <data name="VisualizeSalesBill" xml:space="preserve">
+    <value>visualisere salgsregninger</value>
+  </data>
+  <data name="InternalControl" xml:space="preserve">
+    <value>intern kontrol</value>
+  </data>
+  <data name="DeliveryNote2" xml:space="preserve">
+    <value>følgeseddel</value>
+  </data>
+  <data name="Budget" xml:space="preserve">
+    <value>Budget</value>
+  </data>
+  <data name="TotalSales" xml:space="preserve">
+    <value>samlede salg</value>
+  </data>
+  <data name="InternalControlIsInvalid" xml:space="preserve">
+    <value>boksen er ugyldig</value>
+  </data>
+  <data name="BoxIsInvalid" xml:space="preserve">
+    <value>intern kontrol er ugyldig</value>
+  </data>
+  <data name="PrintInternalControlLX-350" xml:space="preserve">
+    <value>Udskriv intern kontrol LX-350</value>
+  </data>
+  <data name="PrintInternalControlTM-T20" xml:space="preserve">
+    <value>Udskriv intern kontrol TM-T20</value>
+  </data>
+  <data name="PrintInternalControlTMU-220" xml:space="preserve">
+    <value>Udskriv intern kontrol TM-U220</value>
+  </data>
+  <data name="PrintInvoiceLX-350" xml:space="preserve">
+    <value>Udskriv faktura LX-350</value>
+  </data>
+  <data name="VisualizeInternalControl" xml:space="preserve">
+    <value>Visualiser intern kontrol</value>
+  </data>
+  <data name="CancelInvoiceNumber" xml:space="preserve">
+    <value>Annuller fakturanummer</value>
+  </data>
+  <data name="DeleteSale" xml:space="preserve">
+    <value>Slet udsalg</value>
+  </data>
+  <data name="SelectSale" xml:space="preserve">
+    <value>Vælg Udsalg</value>
+  </data>
+  <data name="SendByEmail" xml:space="preserve">
+    <value>Send via email</value>
+  </data>
+  <data name="POSdocument" xml:space="preserve">
+    <value>POS print</value>
+  </data>
+  <data name="InvoiceAlreadyGenerated" xml:space="preserve">
+    <value>Faktura allerede genereret</value>
+  </data>
+  <data name="ManageCashRegister" xml:space="preserve">
+    <value>Administrer kasseapparat</value>
+  </data>
+  <data name="SelectActiveBox" xml:space="preserve">
+    <value>Vælg aktiv boks</value>
+  </data>
+  <data name="BoxSetting" xml:space="preserve">
+    <value>boks konfiguration</value>
+  </data>
+  <data name="DefaultPerson" xml:space="preserve">
+    <value>standard person</value>
+  </data>
+  <data name="AmountOfFeesIsInvalid" xml:space="preserve">
+    <value>Gebyrbeløbet er ugyldigt</value>
+  </data>
+  <data name="ChargeWithInterest" xml:space="preserve">
+    <value>Opkræve med renter</value>
+  </data>
+  <data name="InterestIsInvalid" xml:space="preserve">
+    <value>Interessen er ugyldig</value>
+  </data>
+  <data name="PaymentValueIsInvalid" xml:space="preserve">
+    <value>Betalingsværdien er ugyldig</value>
+  </data>
+  <data name="SaleIdIsInvalid" xml:space="preserve">
+    <value>Salgs-id er ugyldigt</value>
+  </data>
+  <data name="SaleFeesIdIsInvalid" xml:space="preserve">
+    <value>Salgsgebyr-id er ugyldigt</value>
+  </data>
+  <data name="PaymentIdIsInvalid" xml:space="preserve">
+    <value>Betalings-id'et er ugyldigt</value>
+  </data>
+  <data name="PaymentTypeIsInvalid" xml:space="preserve">
+    <value>Betalingstypen er ugyldig</value>
+  </data>
+  <data name="PaymentDetailIsInvalid" xml:space="preserve">
+    <value>betalingsoplysninger er ugyldige</value>
+  </data>
+  <data name="InterestOnArrears" xml:space="preserve">
+    <value>Renter på restance</value>
+  </data>
+  <data name="InterestOnArrearsIsInvalid" xml:space="preserve">
+    <value>Renter på restance er ugyldig</value>
+  </data>
+  <data name="StockModification" xml:space="preserve">
+    <value>lagerændring</value>
+  </data>
+</root>

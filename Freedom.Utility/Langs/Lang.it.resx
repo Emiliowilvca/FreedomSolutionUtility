@@ -1,0 +1,4163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessPoint" xml:space="preserve">
+    <value>Punto di accesso</value>
+    <comment />
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Accesso negato</value>
+    <comment />
+  </data>
+  <data name="Authorization" xml:space="preserve">
+    <value>Autorizzazione</value>
+    <comment />
+  </data>
+  <data name="AuthorizationInfo" xml:space="preserve">
+    <value>Gestione accesso</value>
+    <comment />
+  </data>
+  <data name="BackToLogin" xml:space="preserve">
+    <value>Torna al Login</value>
+    <comment />
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Cambia Password</value>
+    <comment />
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Conferma password</value>
+    <comment />
+  </data>
+  <data name="ConfirmPasswordDoNotMatch" xml:space="preserve">
+    <value>{0} e {1} non corrispondono</value>
+    <comment />
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Password attuale</value>
+    <comment />
+  </data>
+  <data name="Email_Is_Invalid" xml:space="preserve">
+    <value>Il tuo indirizzo email non è valido.</value>
+    <comment />
+  </data>
+  <data name="EmailClickLinkText" xml:space="preserve">
+    <value>Per leggerlo, fai clic su questo link:</value>
+    <comment />
+  </data>
+  <data name="EmailConfirm" xml:space="preserve">
+    <value>Grazie per aver confermato la tua email. Ora puoi accedere al sistema.</value>
+    <comment />
+  </data>
+  <data name="EmailConfirmNewUser" xml:space="preserve">
+    <value>{0} Conferma nuovo utente</value>
+    <comment />
+  </data>
+  <data name="EmailMsgActivate" xml:space="preserve">
+    <value>Le istruzioni per consentire l'accesso all'utente sono state inviate via e-mail.</value>
+    <comment />
+  </data>
+  <data name="EmailNotCorrespond" xml:space="preserve">
+    <value>L&amp;#39;email non corrisponde ad un utente registrato.</value>
+    <comment />
+  </data>
+  <data name="ErrorCantCreateUser" xml:space="preserve">
+    <value>l'utente non può essere creato.</value>
+    <comment />
+  </data>
+  <data name="ErrorFailedToLogin" xml:space="preserve">
+    <value>Impossibile effettuare il login</value>
+    <comment />
+  </data>
+  <data name="ErrorUsernameExits" xml:space="preserve">
+    <value>L'email è già registrata.</value>
+    <comment />
+  </data>
+  <data name="ImageProfile" xml:space="preserve">
+    <value>Immagine del profilo</value>
+    <comment />
+  </data>
+  <data name="LicenseExpired" xml:space="preserve">
+    <value>La licenza è scaduta</value>
+    <comment />
+  </data>
+  <data name="LoginAsAdministrator" xml:space="preserve">
+    <value>Accedi come amministratore</value>
+    <comment />
+  </data>
+  <data name="LoginInstructions" xml:space="preserve">
+    <value>Le istruzioni per iniziare sono state inviate alla tua email. Controlla il link per accedere</value>
+    <comment />
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+    <comment />
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Disconnetti</value>
+    <comment />
+  </data>
+  <data name="LogoutQuestions" xml:space="preserve">
+    <value>intende uscire</value>
+    <comment />
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Nuova password</value>
+    <comment />
+  </data>
+  <data name="NotAuthorized" xml:space="preserve">
+    <value>Non sei autorizzato a eseguire questa azione</value>
+    <comment />
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+    <comment />
+  </data>
+  <data name="PasswordError" xml:space="preserve">
+    <value>Immettere una password valida</value>
+    <comment />
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>Reimposta Password</value>
+    <comment />
+  </data>
+  <data name="PasswordResetButtonlink" xml:space="preserve">
+    <value>Ripristino password</value>
+    <comment />
+  </data>
+  <data name="PasswordResetError" xml:space="preserve">
+    <value>Errore durante il ripristino della password.</value>
+    <comment />
+  </data>
+  <data name="PasswordResetIntruction" xml:space="preserve">
+    <value>Le istruzioni per recuperare la password sono state inviate alla tua email.</value>
+    <comment />
+  </data>
+  <data name="PasswordResetLink" xml:space="preserve">
+    <value>Per reimpostare la password, fai clic su questo link:</value>
+    <comment />
+  </data>
+  <data name="PasswordResetSuccessful" xml:space="preserve">
+    <value>Ripristina password.</value>
+    <comment />
+  </data>
+  <data name="PasswordResetTitle" xml:space="preserve">
+    <value>Reimpostazione password di Royalsys</value>
+    <comment />
+  </data>
+  <data name="PleaseSignin" xml:space="preserve">
+    <value>Prego, fai login</value>
+    <comment />
+  </data>
+  <data name="ProfileUser" xml:space="preserve">
+    <value>Profilo utente</value>
+    <comment />
+  </data>
+  <data name="RecoverPassword" xml:space="preserve">
+    <value>Recupera password</value>
+    <comment />
+  </data>
+  <data name="RecoverPasswordCompany" xml:space="preserve">
+    <value>{0} Recupera password</value>
+    <comment />
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>Registra una nuova utenza</value>
+    <comment />
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Ricordati di Me?</value>
+    <comment />
+  </data>
+  <data name="RequiredToLogin" xml:space="preserve">
+    <value>devi effettuare il login </value>
+    <comment />
+  </data>
+  <data name="RoleNameInvestor" xml:space="preserve">
+    <value>Investitore</value>
+    <comment />
+  </data>
+  <data name="RoleNameAdministrator" xml:space="preserve">
+    <value>Amministratore</value>
+    <comment />
+  </data>
+  <data name="RoleNameCustomer" xml:space="preserve">
+    <value>cliente</value>
+    <comment />
+  </data>
+  <data name="RoleNameFinance" xml:space="preserve">
+    <value>Finanza</value>
+    <comment />
+  </data>
+  <data name="RoleNameOperator" xml:space="preserve">
+    <value>Operatore</value>
+    <comment />
+  </data>
+  <data name="RoleNameProvider" xml:space="preserve">
+    <value>fornitore</value>
+    <comment />
+  </data>
+  <data name="RoleNameSeller" xml:space="preserve">
+    <value>Venditore</value>
+    <comment />
+  </data>
+  <data name="RoleNameSuperuser" xml:space="preserve">
+    <value>Super utente</value>
+    <comment />
+  </data>
+  <data name="SavePassword" xml:space="preserve">
+    <value>Salva password</value>
+    <comment />
+  </data>
+  <data name="SuccessfullyRegister" xml:space="preserve">
+    <value>Ti sei registrato con successo, siamo quasi pronti.</value>
+    <comment />
+  </data>
+  <data name="ThanksRegistering" xml:space="preserve">
+    <value>Grazie per avere effettuato la registrazione</value>
+    <comment />
+  </data>
+  <data name="UpdateUser" xml:space="preserve">
+    <value>Aggiornare Utente</value>
+    <comment />
+  </data>
+  <data name="UserAddress" xml:space="preserve">
+    <value>Indirizzo</value>
+    <comment />
+  </data>
+  <data name="UserAlreadyRegistered" xml:space="preserve">
+    <value>L'utente è già registrato</value>
+    <comment />
+  </data>
+  <data name="UserEmail" xml:space="preserve">
+    <value>Utente di posta elettronica</value>
+    <comment />
+  </data>
+  <data name="UserForgotPassword" xml:space="preserve">
+    <value>Password dimenticata?</value>
+    <comment />
+  </data>
+  <data name="UserFullName" xml:space="preserve">
+    <value>Nome Completo</value>
+    <comment />
+  </data>
+  <data name="UserIsAdmin" xml:space="preserve">
+    <value>È amministratore?</value>
+    <comment />
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Utente</value>
+    <comment />
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Utente</value>
+    <comment />
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>Utente non trovato.</value>
+    <comment />
+  </data>
+  <data name="UserPhoneNumber" xml:space="preserve">
+    <value>Numero di telefono</value>
+    <comment />
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Utenti</value>
+    <comment />
+  </data>
+  <data name="UserUpdated" xml:space="preserve">
+    <value>Utente modificato</value>
+    <comment />
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Aggiungi &gt;&gt;</value>
+    <comment />
+  </data>
+  <data name="Anonymous_NiceToMeetyou" xml:space="preserve">
+    <value>Piacere di conoscerti</value>
+    <comment />
+  </data>
+  <data name="Anonymous_WelcomeToBussiness" xml:space="preserve">
+    <value>benvenuto nella nostra attività</value>
+    <comment />
+  </data>
+  <data name="ApiAddress" xml:space="preserve">
+    <value>Indirizzo URL</value>
+    <comment />
+  </data>
+  <data name="ApiAddress_Title" xml:space="preserve">
+    <value>Configurazione servizio Api</value>
+    <comment />
+  </data>
+  <data name="ApiAddressTextEmpty" xml:space="preserve">
+    <value>Il testo dell'indirizzo Api è vuoto</value>
+    <comment />
+  </data>
+  <data name="AppProduct" xml:space="preserve">
+    <value>JK-Shop è un prodotto di Royalsys</value>
+    <comment />
+  </data>
+  <data name="AppType" xml:space="preserve">
+    <value>Soluzione software aziendale</value>
+    <comment />
+  </data>
+  <data name="AccountStatement" xml:space="preserve">
+    <value>Estratto conto</value>
+    <comment />
+  </data>
+  <data name="BouncedCheck" xml:space="preserve">
+    <value>Controllo Rimbalzato</value>
+    <comment />
+  </data>
+  <data name="BankBranch" xml:space="preserve">
+    <value>Sportello Bancario</value>
+    <comment />
+  </data>
+  <data name="BankCheck" xml:space="preserve">
+    <value>Assegno bancario</value>
+    <comment />
+  </data>
+  <data name="BankCheckNumber" xml:space="preserve">
+    <value>Numero assegno</value>
+    <comment />
+  </data>
+  <data name="BankCheckNumberExist" xml:space="preserve">
+    <value>Il numero di assegno bancario esiste già</value>
+    <comment />
+  </data>
+  <data name="BankCheckPayee" xml:space="preserve">
+    <value>Beneficiario</value>
+    <comment />
+  </data>
+  <data name="BankDepositAddNew" xml:space="preserve">
+    <value>Nuovo deposito</value>
+    <comment />
+  </data>
+  <data name="BankDepositedChecks" xml:space="preserve">
+    <value>Controlli depositati</value>
+    <comment />
+  </data>
+  <data name="BankDepositNumber" xml:space="preserve">
+    <value>Numero deposito</value>
+    <comment />
+  </data>
+  <data name="BankDepositNumExist" xml:space="preserve">
+    <value>Il numero di deposito esiste già</value>
+    <comment />
+  </data>
+  <data name="BankDepositoDetails" xml:space="preserve">
+    <value>Dettagli del deposito bancario</value>
+    <comment />
+  </data>
+  <data name="BankDepositReport2" xml:space="preserve">
+    <value>Rapporto sul deposito bancario</value>
+    <comment />
+  </data>
+  <data name="BankExtraction" xml:space="preserve">
+    <value>Estrazione bancaria</value>
+    <comment />
+  </data>
+  <data name="BankExtractionReport" xml:space="preserve">
+    <value>Rapporto sulle estrazioni</value>
+    <comment />
+  </data>
+  <data name="Bank" xml:space="preserve">
+    <value>Banca</value>
+    <comment />
+  </data>
+  <data name="BankManager" xml:space="preserve">
+    <value>Direttore di banca</value>
+    <comment />
+  </data>
+  <data name="BankMyBank" xml:space="preserve">
+    <value>La nostra banca</value>
+    <comment />
+  </data>
+  <data name="BankOtherBank" xml:space="preserve">
+    <value>Altre banche</value>
+    <comment />
+  </data>
+  <data name="BankReimbursed" xml:space="preserve">
+    <value>Rimborsata</value>
+    <comment />
+  </data>
+  <data name="BankAccount" xml:space="preserve">
+    <value>Conto bancario</value>
+    <comment />
+  </data>
+  <data name="BankAccountType" xml:space="preserve">
+    <value>Tipi di conti bancari</value>
+    <comment />
+  </data>
+  <data name="BankDeposit_ReportTitle" xml:space="preserve">
+    <value>Versamenti bancari tra le date per Entità</value>
+    <comment />
+  </data>
+  <data name="BankDeposit_TitleCheckDeposited" xml:space="preserve">
+    <value>Assegni depositati sull-account</value>
+    <comment />
+  </data>
+  <data name="BankExtractionType" xml:space="preserve">
+    <value>Estrazione</value>
+    <comment />
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>Ramo</value>
+    <comment />
+  </data>
+  <data name="Branch_Name" xml:space="preserve">
+    <value>Nome ramo</value>
+    <comment />
+  </data>
+  <data name="BusinessManagementSoftware" xml:space="preserve">
+    <value>Software di gestione aziendale</value>
+    <comment />
+  </data>
+  <data name="Category_Name" xml:space="preserve">
+    <value>Nome della Categoria</value>
+    <comment />
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Categoria</value>
+    <comment />
+  </data>
+  <data name="CheckInternetConnection" xml:space="preserve">
+    <value>Controlla la connessione Internet.</value>
+    <comment />
+  </data>
+  <data name="Cities" xml:space="preserve">
+    <value>Città</value>
+    <comment />
+  </data>
+  <data name="City_ErrorMustSelect" xml:space="preserve">
+    <value>Devi selezionare una città.</value>
+    <comment />
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Città</value>
+    <comment />
+  </data>
+  <data name="City_Name" xml:space="preserve">
+    <value>Nome della Città</value>
+    <comment />
+  </data>
+  <data name="City_NoCitiesAddedYet" xml:space="preserve">
+    <value>Nessuna città aggiunta ancora</value>
+    <comment />
+  </data>
+  <data name="City_of" xml:space="preserve">
+    <value>Città di</value>
+    <comment />
+  </data>
+  <data name="City_Pleseholder" xml:space="preserve">
+    <value>Nome della città</value>
+    <comment />
+  </data>
+  <data name="City_SelectCombo" xml:space="preserve">
+    <value>Scegli il comune</value>
+    <comment />
+  </data>
+  <data name="Company_Create" xml:space="preserve">
+    <value>Crea società</value>
+    <comment />
+  </data>
+  <data name="Company_Edith" xml:space="preserve">
+    <value>Aggiorna azienda</value>
+    <comment />
+  </data>
+  <data name="Company_ErrorMustSelect" xml:space="preserve">
+    <value>Devi selezionare una società.</value>
+    <comment />
+  </data>
+  <data name="Company_Logo" xml:space="preserve">
+    <value>Logo</value>
+    <comment />
+  </data>
+  <data name="Company_OwnerLabel" xml:space="preserve">
+    <value>Proprietario</value>
+    <comment />
+  </data>
+  <data name="Company_SelectCombo" xml:space="preserve">
+    <value>(Selezionare una società)</value>
+    <comment />
+  </data>
+  <data name="Company_TrialDay" xml:space="preserve">
+    <value>Giorni di prova</value>
+    <comment />
+  </data>
+  <data name="ConfigureConnection" xml:space="preserve">
+    <value>Configura connessione</value>
+    <comment />
+  </data>
+  <data name="ConfigureDatabase" xml:space="preserve">
+    <value>Configura il server del database</value>
+    <comment />
+  </data>
+  <data name="Countries" xml:space="preserve">
+    <value>Paesi</value>
+    <comment />
+  </data>
+  <data name="Country_CannotLoadCountries" xml:space="preserve">
+    <value>non è possibile caricare i paesi</value>
+    <comment />
+  </data>
+  <data name="Country_ErrorMustSelect" xml:space="preserve">
+    <value>Seleziona un paese</value>
+    <comment />
+  </data>
+  <data name="Country_Name" xml:space="preserve">
+    <value>Nazione</value>
+    <comment />
+  </data>
+  <data name="Country_Pleaseholder" xml:space="preserve">
+    <value>Denominazione del paese</value>
+    <comment />
+  </data>
+  <data name="Country_SelectCombo" xml:space="preserve">
+    <value>Selezionare un paese</value>
+    <comment />
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Paese</value>
+    <comment />
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>cliente</value>
+    <comment />
+  </data>
+  <data name="DataBaseName" xml:space="preserve">
+    <value>Database</value>
+    <comment />
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Informazioni su</value>
+    <comment />
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Accetta</value>
+    <comment />
+  </data>
+  <data name="AccountHolder" xml:space="preserve">
+    <value>Titolare conto</value>
+    <comment />
+  </data>
+  <data name="AccountNumber" xml:space="preserve">
+    <value>Numero account</value>
+    <comment />
+  </data>
+  <data name="AccountType" xml:space="preserve">
+    <value>Tipo di account</value>
+    <comment />
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Azioni</value>
+    <comment />
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Indirizzo</value>
+    <comment />
+  </data>
+  <data name="AlreadyExists" xml:space="preserve">
+    <value>{0} esiste già.</value>
+    <comment />
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Importo</value>
+    <comment />
+  </data>
+  <data name="AmountIsInvalid" xml:space="preserve">
+    <value>L'importo non è valido</value>
+    <comment />
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Applica</value>
+    <comment />
+  </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>attributo</value>
+    <comment />
+  </data>
+  <data name="BackToList" xml:space="preserve">
+    <value>Torna alla lista</value>
+    <comment />
+  </data>
+  <data name="Birthdate" xml:space="preserve">
+    <value>Data di nascita</value>
+    <comment />
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annulla</value>
+    <comment />
+  </data>
+  <data name="CardIdNumber" xml:space="preserve">
+    <value>ID Card</value>
+    <comment />
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>Contante</value>
+    <comment />
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>Scegli file</value>
+    <comment />
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Chiudi</value>
+    <comment />
+  </data>
+  <data name="Concept" xml:space="preserve">
+    <value>Concetto</value>
+    <comment />
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Configurazione</value>
+    <comment />
+  </data>
+  <data name="CopyToClipboad" xml:space="preserve">
+    <value>Copia negli Appunti</value>
+    <comment />
+  </data>
+  <data name="CreateNew" xml:space="preserve">
+    <value>Crea nuovo</value>
+    <comment />
+  </data>
+  <data name="CreditOfficer" xml:space="preserve">
+    <value>Funzionario</value>
+    <comment />
+  </data>
+  <data name="EmptyTable" xml:space="preserve">
+    <value>Nessun dato disponibile nella tabella</value>
+    <comment />
+  </data>
+  <data name="LoadingRecords" xml:space="preserve">
+    <value>Caricamento in corso</value>
+    <comment />
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>primo</value>
+    <comment />
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Ultimo</value>
+    <comment />
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Avanti</value>
+    <comment />
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Precedente</value>
+    <comment />
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Elaborazione...</value>
+    <comment />
+  </data>
+  <data name="NoRecordsFound" xml:space="preserve">
+    <value>Nessun risultato trovato</value>
+    <comment />
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Data</value>
+    <comment />
+  </data>
+  <data name="DateIsInvalid" xml:space="preserve">
+    <value>Data non valida</value>
+    <comment />
+  </data>
+  <data name="DateRange" xml:space="preserve">
+    <value>Intervallo di date</value>
+    <comment />
+  </data>
+  <data name="DateRangeValidate" xml:space="preserve">
+    <value>intervallo di date errato</value>
+    <comment />
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Elimina</value>
+    <comment />
+  </data>
+  <data name="Delete_Question" xml:space="preserve">
+    <value>Vuoi eliminare?</value>
+    <comment />
+  </data>
+  <data name="DeleteItem" xml:space="preserve">
+    <value>Elimina articolo</value>
+    <comment />
+  </data>
+  <data name="DeleteSuccessful" xml:space="preserve">
+    <value>La rimozione è stata completata</value>
+    <comment />
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>Dettagli</value>
+    <comment />
+  </data>
+  <data name="DetailWithoutRecords" xml:space="preserve">
+    <value>Dettaglio senza record</value>
+    <comment />
+  </data>
+  <data name="DocNumber" xml:space="preserve">
+    <value>Numero documento</value>
+    <comment />
+  </data>
+  <data name="DueDate" xml:space="preserve">
+    <value>Scadenza</value>
+    <comment />
+  </data>
+  <data name="DuplicateEntry" xml:space="preserve">
+    <value>Voce duplicata</value>
+    <comment />
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Modifica</value>
+    <comment />
+  </data>
+  <data name="EditPerson" xml:space="preserve">
+    <value>Modifica persona</value>
+    <comment />
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Posta</value>
+    <comment />
+  </data>
+  <data name="EnterValidNumber" xml:space="preserve">
+    <value>Immettere un numero valido</value>
+    <comment />
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Errore</value>
+    <comment />
+  </data>
+  <data name="Error404" xml:space="preserve">
+    <value>Errore 404: pagina non trovata!</value>
+    <comment />
+  </data>
+  <data name="ErrorDataObtained" xml:space="preserve">
+    <value>Impossibile ottenere i dati.</value>
+    <comment />
+  </data>
+  <data name="Expiration" xml:space="preserve">
+    <value>Scadenza</value>
+    <comment />
+  </data>
+  <data name="Facebook" xml:space="preserve">
+    <value>Facebook</value>
+    <comment />
+  </data>
+  <data name="FromCamera" xml:space="preserve">
+    <value>Da fotocamera</value>
+    <comment />
+  </data>
+  <data name="FromGallery" xml:space="preserve">
+    <value>Da raccolta</value>
+    <comment />
+  </data>
+  <data name="GetRecords" xml:space="preserve">
+    <value>Trova record</value>
+    <comment />
+  </data>
+  <data name="InvalidDateFormat" xml:space="preserve">
+    <value>Il formato richiesto è {0}</value>
+    <comment />
+  </data>
+  <data name="IsAvailable" xml:space="preserve">
+    <value>è disponibile</value>
+    <comment />
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Posizione</value>
+    <comment />
+  </data>
+  <data name="MainNavigation" xml:space="preserve">
+    <value>Navigazione principale</value>
+    <comment />
+  </data>
+  <data name="MainPageTitle" xml:space="preserve">
+    <value>Fredom - Software di gestione aziendale</value>
+    <comment />
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Responsabile</value>
+    <comment />
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>Il campo {0} può contenere solo {1} caratteri.</value>
+    <comment />
+  </data>
+  <data name="MinLength" xml:space="preserve">
+    <value>Il campo {0} deve contenere almeno {1} caratteri.</value>
+    <comment />
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Cellulare</value>
+    <comment />
+  </data>
+  <data name="ModifyRecord" xml:space="preserve">
+    <value>Modifica record</value>
+    <comment />
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nome</value>
+    <comment />
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+    <comment />
+  </data>
+  <data name="NoCameraSupported" xml:space="preserve">
+    <value>Il dispositivo non supporta l'accesso alla fotocamera.</value>
+    <comment />
+  </data>
+  <data name="NoGallerySupported" xml:space="preserve">
+    <value>Il dispositivo non supporta l'accesso alla galleria.</value>
+    <comment />
+  </data>
+  <data name="NoRecordAddedYet" xml:space="preserve">
+    <value>Nessuna registrazione</value>
+    <comment />
+  </data>
+  <data name="NoResultFound" xml:space="preserve">
+    <value>Nessun risultato trovato</value>
+    <comment />
+  </data>
+  <data name="UnAuthorized" xml:space="preserve">
+    <value>Non autorizzato</value>
+    <comment />
+  </data>
+  <data name="NumberIsInvalid" xml:space="preserve">
+    <value>non è un numero valido</value>
+    <comment />
+  </data>
+  <data name="OperationType" xml:space="preserve">
+    <value>Tipo di operazione </value>
+    <comment />
+  </data>
+  <data name="PageXofY" xml:space="preserve">
+    <value>Pagina {0} di {1}</value>
+    <comment />
+  </data>
+  <data name="PasteFromClipboard" xml:space="preserve">
+    <value>Incolla dagli appunti</value>
+    <comment />
+  </data>
+  <data name="PayBox" xml:space="preserve">
+    <value>cassa</value>
+    <comment />
+  </data>
+  <data name="PaymentDate" xml:space="preserve">
+    <value>Data di pagamento</value>
+    <comment />
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>Persone</value>
+    <comment />
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Numero di telefono</value>
+    <comment />
+  </data>
+  <data name="Validate_PhoneNumberIsInvalid" xml:space="preserve">
+    <value>non è un numero di telefono valido</value>
+    <comment />
+  </data>
+  <data name="PictureSource" xml:space="preserve">
+    <value>Dove vuoi scattare la foto?</value>
+    <comment />
+  </data>
+  <data name="Placeholder" xml:space="preserve">
+    <value>Inserisci un testo</value>
+    <comment />
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Stampa</value>
+    <comment />
+  </data>
+  <data name="RecordExists" xml:space="preserve">
+    <value>questo registro esiste già</value>
+    <comment />
+  </data>
+  <data name="RecordNotFound" xml:space="preserve">
+    <value>Record non trovato</value>
+    <comment />
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Report</value>
+    <comment />
+  </data>
+  <data name="Requiered" xml:space="preserve">
+    <value>Il campo {0} è richiesto</value>
+    <comment />
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Ritorno</value>
+    <comment />
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Salva</value>
+    <comment />
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Ricerca</value>
+    <comment />
+  </data>
+  <data name="ReturnEmptySearch" xml:space="preserve">
+    <value>Risultato della ricerca senza record</value>
+    <comment />
+  </data>
+  <data name="SelectItemCombo" xml:space="preserve">
+    <value>(Seleziona articolo)</value>
+    <comment />
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Seleziona opzioni</value>
+    <comment />
+  </data>
+  <data name="Sender" xml:space="preserve">
+    <value>Mittente</value>
+    <comment />
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>Ambito</value>
+    <comment />
+  </data>
+  <data name="DateSince" xml:space="preserve">
+    <value>Data di inizio</value>
+    <comment />
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Subtotale</value>
+    <comment />
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Operazione riuscita</value>
+    <comment />
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totale</value>
+    <comment />
+  </data>
+  <data name="TotalRecord" xml:space="preserve">
+    <value>Totale record</value>
+    <comment />
+  </data>
+  <data name="DateUntil" xml:space="preserve">
+    <value>Fino alla data</value>
+    <comment />
+  </data>
+  <data name="UpdateSuccessful" xml:space="preserve">
+    <value>Aggiornamento completato</value>
+    <comment />
+  </data>
+  <data name="Web" xml:space="preserve">
+    <value>Web</value>
+    <comment />
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Benvenuto</value>
+    <comment />
+  </data>
+  <data name="WelcomeTo" xml:space="preserve">
+    <value>Benvenuto in {0}</value>
+    <comment />
+  </data>
+  <data name="WhatsApp" xml:space="preserve">
+    <value>WhatsApp</value>
+    <comment />
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sì</value>
+    <comment />
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Gruppo</value>
+    <comment />
+  </data>
+  <data name="Group_Pleaseholder" xml:space="preserve">
+    <value>Nome del gruppo</value>
+    <comment />
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>home page</value>
+    <comment />
+  </data>
+  <data name="HostAddress" xml:space="preserve">
+    <value>Indirizzo host</value>
+    <comment />
+  </data>
+  <data name="IntendsToCancel" xml:space="preserve">
+    <value>Intende annullare.</value>
+    <comment />
+  </data>
+  <data name="Kardex" xml:space="preserve">
+    <value>Kardex</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityBakeries" xml:space="preserve">
+    <value>Panifici e pasticceria</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityClothesStores" xml:space="preserve">
+    <value>Vestiti e pelle</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityHardwarePaints" xml:space="preserve">
+    <value>hardware e vernici</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityIndustries" xml:space="preserve">
+    <value>Settori</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityMotorcicleParts" xml:space="preserve">
+    <value>Ricambi e accessori</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityPharmacy" xml:space="preserve">
+    <value>Farmacie e Profumerie</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivitySparePartsVehicle" xml:space="preserve">
+    <value>pezzi di ricambio di veicoli e macchinari</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityStationery" xml:space="preserve">
+    <value>Cartoleria</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivitySupermarket" xml:space="preserve">
+    <value>Area di deposito</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityToyStore" xml:space="preserve">
+    <value>Nel negozio di giocattoli</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageAutomateWorkflow" xml:space="preserve">
+    <value>Automatizza il flusso di lavoro</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageBestPlanning" xml:space="preserve">
+    <value>Pianificazione</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageImproveAdministrativeProcedures" xml:space="preserve">
+    <value>Migliora le procedure amministrative</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageMarketProjections" xml:space="preserve">
+    <value>Proiezioni di mercato</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageMultipleReportsDataAnalysis" xml:space="preserve">
+    <value>Rapporti multipli e analisi dei dati</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageOptimizationCommercialOperations" xml:space="preserve">
+    <value>Ottimizzazione delle operazioni commerciali</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageOptimizeCustomerSupplierRelationships" xml:space="preserve">
+    <value>Ottimizza le relazioni con clienti e fornitori</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageReduceAdministrativeTime" xml:space="preserve">
+    <value>Ridurre il tempo amministrativo</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitAttractingNewBusinessIdeas" xml:space="preserve">
+    <value>Attirare nuove idee imprenditoriali</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitCurrencyFlowStability" xml:space="preserve">
+    <value>Stabilità del flusso di valuta</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitCustomerLoyalty" xml:space="preserve">
+    <value>Fidelizzazione del Cliente</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitFacilityForWorkTeam" xml:space="preserve">
+    <value>Struttura per il team di lavoro</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitIncreaseIncomeLiquidity" xml:space="preserve">
+    <value>Aumento del reddito e della liquidità</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitIncreasingCustomerBase" xml:space="preserve">
+    <value>Aumento della base clienti</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitReduceDepartmentCosts" xml:space="preserve">
+    <value>Ridurre i costi del dipartimento</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitStabilityCommitmentsSuppliers" xml:space="preserve">
+    <value>Stabilità negli impegni con i fornitori</value>
+    <comment />
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Contabilità</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelEmployee" xml:space="preserve">
+    <value>Dipendenti</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelOrders" xml:space="preserve">
+    <value>4. Ordini e consegne</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelProduct" xml:space="preserve">
+    <value>prodotti</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelTransport" xml:space="preserve">
+    <value>Transports</value>
+    <comment />
+  </data>
+  <data name="Logout_CustomizableSoft" xml:space="preserve">
+    <value>Software personalizzabile</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureContactOpportunityManagement" xml:space="preserve">
+    <value>Gestione dei contatti e delle opportunità</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureCreationOffers" xml:space="preserve">
+    <value>Creazione di offerte, con dettagli del prodotto, tariffe, prezzi e sconti.</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureCustomize options" xml:space="preserve">
+    <value>Opzioni di personalizzazione</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureDeliveryManagement" xml:space="preserve">
+    <value>gestione recapito</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureLoanManagement" xml:space="preserve">
+    <value>Gestione dei prestiti</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureManagementObjectives" xml:space="preserve">
+    <value>Gestione di obiettivi e traguardi</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureMonitoringTracking" xml:space="preserve">
+    <value>Monitoraggio e monitoraggio di opportunità, vendite e obiettivi per data.</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureObtainingReportsAnalysis" xml:space="preserve">
+    <value>Ottenere report e analisi</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureOrderSalesTracking" xml:space="preserve">
+    <value>Monitoraggio ordini e vendite</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureSalesZones" xml:space="preserve">
+    <value>Zone di vendita</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureStrategicBusinessPlanning" xml:space="preserve">
+    <value>Pianificazione aziendale strategica</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureSynchronizationMobility" xml:space="preserve">
+    <value>Sincronizzazione e mobilità</value>
+    <comment />
+  </data>
+  <data name="Logout_ModBanks" xml:space="preserve">
+    <value>Banche</value>
+    <comment />
+  </data>
+  <data name="Logout_ModCustomer" xml:space="preserve">
+    <value>cliente</value>
+    <comment />
+  </data>
+  <data name="Logout_ModCustomerOrders" xml:space="preserve">
+    <value>Ordini cliente</value>
+    <comment />
+  </data>
+  <data name="Logout_ModEmployee" xml:space="preserve">
+    <value>Dipendente</value>
+    <comment />
+  </data>
+  <data name="Payments" xml:space="preserve">
+    <value>Pagamenti</value>
+    <comment />
+  </data>
+  <data name="Logout_ModProducts" xml:space="preserve">
+    <value>Prodotti, magazzino, inventario</value>
+    <comment />
+  </data>
+  <data name="Logout_ModPurchase" xml:space="preserve">
+    <value>Acquisto</value>
+    <comment />
+  </data>
+  <data name="Logout_ModRetail" xml:space="preserve">
+    <value>Venditori al dettaglio</value>
+    <comment />
+  </data>
+  <data name="Logout_ModReturns" xml:space="preserve">
+    <value>Risultati restituiti</value>
+    <comment />
+  </data>
+  <data name="Logout_ModSales" xml:space="preserve">
+    <value>Vendite, biglietti, fattura</value>
+    <comment />
+  </data>
+  <data name="Logout_ModSupport" xml:space="preserve">
+    <value>Supporto tecnico</value>
+    <comment />
+  </data>
+  <data name="Logout_Modwholesalers" xml:space="preserve">
+    <value>Grossisti</value>
+    <comment />
+  </data>
+  <data name="Advantage" xml:space="preserve">
+    <value>Vantaggio</value>
+    <comment />
+  </data>
+  <data name="Applications" xml:space="preserve">
+    <value>Applicazioni</value>
+    <comment />
+  </data>
+  <data name="Benefits" xml:space="preserve">
+    <value>Benefici</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleBusinessManagementSoftware" xml:space="preserve">
+    <value>Software di gestione aziendale</value>
+    <comment />
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Caratteristiche</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleModule" xml:space="preserve">
+    <value>Moduli</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleTradeActivity" xml:space="preserve">
+    <value>attività commerciale</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleWebPlatformMobileDesktop" xml:space="preserve">
+    <value>Piattaforma Web, mobile e desktop</value>
+    <comment />
+  </data>
+  <data name="Measure" xml:space="preserve">
+    <value>Unità di misura</value>
+    <comment />
+  </data>
+  <data name="Measure_name" xml:space="preserve">
+    <value>Unità di misura</value>
+    <comment />
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>Dipendente</value>
+    <comment />
+  </data>
+  <data name="MenuMain_Finance" xml:space="preserve">
+    <value>Finanza</value>
+    <comment />
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>prodotti</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabAdministration" xml:space="preserve">
+    <value>Amministrazione</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabConfiguration" xml:space="preserve">
+    <value>Configurazione</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabEmployee" xml:space="preserve">
+    <value>Dipendenti</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabFile" xml:space="preserve">
+    <value>Archivio</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabFinance" xml:space="preserve">
+    <value>Finanza</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabProcess" xml:space="preserve">
+    <value>Processi</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabTransport" xml:space="preserve">
+    <value>Trasporto</value>
+    <comment />
+  </data>
+  <data name="Money" xml:space="preserve">
+    <value>Valuta</value>
+    <comment />
+  </data>
+  <data name="Quote" xml:space="preserve">
+    <value>Quotazione</value>
+    <comment />
+  </data>
+  <data name="Symbol" xml:space="preserve">
+    <value>Simbolo</value>
+    <comment />
+  </data>
+  <data name="Orders" xml:space="preserve">
+    <value>Ordine</value>
+    <comment />
+  </data>
+  <data name="Package" xml:space="preserve">
+    <value>Pacchetto</value>
+    <comment />
+  </data>
+  <data name="Package_Name" xml:space="preserve">
+    <value>Nome del pacchetto</value>
+    <comment />
+  </data>
+  <data name="CustomerPayment" xml:space="preserve">
+    <value>Pagamento del cliente</value>
+    <comment />
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Porta</value>
+    <comment />
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>prezzo</value>
+    <comment />
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Priorità</value>
+    <comment />
+  </data>
+  <data name="Priority_Name" xml:space="preserve">
+    <value>Nome priorità</value>
+    <comment />
+  </data>
+  <data name="ProductActive" xml:space="preserve">
+    <value>Prodotto attivo</value>
+    <comment />
+  </data>
+  <data name="AlterStock" xml:space="preserve">
+    <value>Alter Stock</value>
+    <comment />
+  </data>
+  <data name="ProductApply" xml:space="preserve">
+    <value>Applicazione del prodotto</value>
+    <comment />
+  </data>
+  <data name="Barcode" xml:space="preserve">
+    <value>Codice a barre</value>
+    <comment />
+  </data>
+  <data name="ProductChecked" xml:space="preserve">
+    <value>Prodotto controllato</value>
+    <comment />
+  </data>
+  <data name="ProductCode" xml:space="preserve">
+    <value>Codice</value>
+    <comment />
+  </data>
+  <data name="CommissionSale" xml:space="preserve">
+    <value>Vendite, commissione</value>
+    <comment />
+  </data>
+  <data name="Drug" xml:space="preserve">
+    <value>Componenti</value>
+    <comment />
+  </data>
+  <data name="GenericName" xml:space="preserve">
+    <value>Nome generico</value>
+    <comment />
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>prodotti</value>
+    <comment />
+  </data>
+  <data name="MaximumDiscount" xml:space="preserve">
+    <value>Sconto Massimo</value>
+    <comment />
+  </data>
+  <data name="MinimumStock" xml:space="preserve">
+    <value>Scorta minima</value>
+    <comment />
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>Denominazione commerciale</value>
+    <comment />
+  </data>
+  <data name="ProviderCode" xml:space="preserve">
+    <value>Codice Fornitore</value>
+    <comment />
+  </data>
+  <data name="PayTax" xml:space="preserve">
+    <value>Paga le tasse</value>
+    <comment />
+  </data>
+  <data name="TaxRate" xml:space="preserve">
+    <value>Aliquota d'imposta</value>
+    <comment />
+  </data>
+  <data name="WayAdmin" xml:space="preserve">
+    <value>Via di somministrazione</value>
+    <comment />
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Peso</value>
+    <comment />
+  </data>
+  <data name="Wholesaler" xml:space="preserve">
+    <value>grossista</value>
+    <comment />
+  </data>
+  <data name="Provider" xml:space="preserve">
+    <value>fornitore</value>
+    <comment />
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Acquisto</value>
+    <comment />
+  </data>
+  <data name="Route" xml:space="preserve">
+    <value>Itinerario</value>
+    <comment />
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Vendite</value>
+    <comment />
+  </data>
+  <data name="Sector" xml:space="preserve">
+    <value>Settore merceologico</value>
+    <comment />
+  </data>
+  <data name="SectorProductName" xml:space="preserve">
+    <value>Nuovo settore</value>
+    <comment />
+  </data>
+  <data name="Shop" xml:space="preserve">
+    <value>negozio</value>
+    <comment />
+  </data>
+  <data name="SourceProduct" xml:space="preserve">
+    <value>Sorgente Prodotto</value>
+    <comment />
+  </data>
+  <data name="SourceProduct_Name" xml:space="preserve">
+    <value>Nome origine</value>
+    <comment />
+  </data>
+  <data name="State_ErrorMustSelect" xml:space="preserve">
+    <value>Devi selezionare uno stato.</value>
+    <comment />
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Stato</value>
+    <comment />
+  </data>
+  <data name="State_Name" xml:space="preserve">
+    <value>Nome dello stato</value>
+    <comment />
+  </data>
+  <data name="State_of" xml:space="preserve">
+    <value>Stati di</value>
+    <comment />
+  </data>
+  <data name="State_Pleaseholder" xml:space="preserve">
+    <value>nome dello stato</value>
+    <comment />
+  </data>
+  <data name="State_SelectCombo" xml:space="preserve">
+    <value>Seleziona una regione</value>
+    <comment />
+  </data>
+  <data name="States" xml:space="preserve">
+    <value>stati</value>
+    <comment />
+  </data>
+  <data name="Store" xml:space="preserve">
+    <value>Store</value>
+    <comment />
+  </data>
+  <data name="SubGroup" xml:space="preserve">
+    <value>Gruppo secondario</value>
+    <comment />
+  </data>
+  <data name="SubGroup_of" xml:space="preserve">
+    <value>Sottogruppo di</value>
+    <comment />
+  </data>
+  <data name="Subgroup_pleaseholder" xml:space="preserve">
+    <value>Nome del sottogruppo</value>
+    <comment />
+  </data>
+  <data name="SuccessfulEntry" xml:space="preserve">
+    <value>entrata riuscita</value>
+    <comment />
+  </data>
+  <data name="Trademark" xml:space="preserve">
+    <value>Marchio</value>
+    <comment />
+  </data>
+  <data name="TrademarkName" xml:space="preserve">
+    <value>Nome del marchio</value>
+    <comment />
+  </data>
+  <data name="Validate_Address" xml:space="preserve">
+    <value>Indirizzo non valido</value>
+    <comment />
+  </data>
+  <data name="CantFinishedProccess" xml:space="preserve">
+    <value>Il processo non può essere terminato</value>
+    <comment />
+  </data>
+  <data name="Validate_CardId" xml:space="preserve">
+    <value>Il numero del documento non è valido</value>
+    <comment />
+  </data>
+  <data name="Validate_CityName" xml:space="preserve">
+    <value>Il nome della città non è valido.</value>
+    <comment />
+  </data>
+  <data name="Validate_CountryName" xml:space="preserve">
+    <value>Il nome del paese non è valido.</value>
+    <comment />
+  </data>
+  <data name="Validate_Email" xml:space="preserve">
+    <value>Inserisci un indirizzo e-mail valido.</value>
+    <comment />
+  </data>
+  <data name="Validate_maxLenght" xml:space="preserve">
+    <value>Il campo può contenere solo {1} caratteri.</value>
+    <comment />
+  </data>
+  <data name="Validate_Name" xml:space="preserve">
+    <value>devi inserire il nome e il cognome</value>
+    <comment />
+  </data>
+  <data name="Validate_NameIsRequiered" xml:space="preserve">
+    <value>Il nome è obbligatorio.</value>
+    <comment />
+  </data>
+  <data name="Validate_StateName" xml:space="preserve">
+    <value>Il nome dello stato non è valido.</value>
+    <comment />
+  </data>
+  <data name="Visitor_Basket" xml:space="preserve">
+    <value>CESTINO</value>
+    <comment />
+  </data>
+  <data name="Visitor_Catalog" xml:space="preserve">
+    <value>CATALOGARE</value>
+    <comment />
+  </data>
+  <data name="Visitor_Order" xml:space="preserve">
+    <value>ORDINI</value>
+    <comment />
+  </data>
+  <data name="zip" xml:space="preserve">
+    <value>CAP</value>
+    <comment />
+  </data>
+  <data name="Zone" xml:space="preserve">
+    <value>Zona</value>
+    <comment />
+  </data>
+  <data name="Zone_Name" xml:space="preserve">
+    <value>Nome zona</value>
+    <comment />
+  </data>
+  <data name="Validate_Owner" xml:space="preserve">
+    <value>Il nome del proprietario è obbligatorio.</value>
+    <comment />
+  </data>
+  <data name="Validate_Facebook" xml:space="preserve">
+    <value>Facebook è è un campo obbligatorio.</value>
+    <comment />
+  </data>
+  <data name="Validate_Whatsapp" xml:space="preserve">
+    <value>Il campo whatsapp è sbagliato</value>
+    <comment />
+  </data>
+  <data name="ErrorOnSave" xml:space="preserve">
+    <value>Errore durante il salvataggio.</value>
+    <comment />
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Aggiornare</value>
+    <comment />
+  </data>
+  <data name="Alter" xml:space="preserve">
+    <value>Modifica</value>
+    <comment />
+  </data>
+  <data name="DateRegister" xml:space="preserve">
+    <value>Data di registrazione</value>
+    <comment />
+  </data>
+  <data name="FieldIsRequiered" xml:space="preserve">
+    <value>Il campo {0} è obbligatorio</value>
+    <comment />
+  </data>
+  <data name="owner" xml:space="preserve">
+    <value>Proprietario</value>
+    <comment />
+  </data>
+  <data name="MaxLengthCharacter" xml:space="preserve">
+    <value>carattere di lunghezza massima</value>
+    <comment />
+  </data>
+  <data name="FieldNameIsNotValid" xml:space="preserve">
+    <value>il nome non è valido</value>
+    <comment />
+  </data>
+  <data name="FieldOwnerIsNotValid" xml:space="preserve">
+    <value>carattere di lunghezza massima</value>
+    <comment />
+  </data>
+  <data name="FieldWhatsappIsNotValid" xml:space="preserve">
+    <value>il whatsapp non è valido</value>
+    <comment />
+  </data>
+  <data name="FieldFacebookAddressIsNotValid" xml:space="preserve">
+    <value>l'indirizzo facebook non è valido</value>
+    <comment />
+  </data>
+  <data name="FieldPhoneNumberIsNotValid" xml:space="preserve">
+    <value>numero di telefono invalido</value>
+    <comment />
+  </data>
+  <data name="FieldCityIsNotValid" xml:space="preserve">
+    <value>il nome della città non è valido</value>
+    <comment />
+  </data>
+  <data name="FieldCountryIsNotValid" xml:space="preserve">
+    <value>Il nome del paese non è valido</value>
+    <comment />
+  </data>
+  <data name="FieldStateIsNotValid" xml:space="preserve">
+    <value>Lo stato non è valido</value>
+    <comment />
+  </data>
+  <data name="FieldAddressIsNotValid" xml:space="preserve">
+    <value>L'indirizzo non è valido</value>
+    <comment />
+  </data>
+  <data name="CancelByTocken" xml:space="preserve">
+    <value>Questa operazione è stata annullata</value>
+    <comment />
+  </data>
+  <data name="ConfirmToFinish" xml:space="preserve">
+    <value>Conferma per finire</value>
+    <comment />
+  </data>
+  <data name="PasswordMinimunLength" xml:space="preserve">
+    <value>La password deve contenere almeno 6 caratteri</value>
+    <comment />
+  </data>
+  <data name="PasswordMaxLength" xml:space="preserve">
+    <value>la lunghezza massima della password è di 20 caratteri</value>
+    <comment />
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>l'e-mail è obbligatoria</value>
+    <comment />
+  </data>
+  <data name="ItemsperPage" xml:space="preserve">
+    <value>articoli per pagina non è valido</value>
+    <comment />
+  </data>
+  <data name="IdParameterOutOfRange" xml:space="preserve">
+    <value>Parametro identità fuori intervallo</value>
+    <comment />
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Attendere</value>
+    <comment />
+  </data>
+  <data name="ProcessHasBeenCanceled" xml:space="preserve">
+    <value>L'elaborazione è stata annullata</value>
+    <comment />
+  </data>
+  <data name="RecordsProcessedSuccessfully" xml:space="preserve">
+    <value>Record elaborati con successo</value>
+    <comment />
+  </data>
+  <data name="UserIdIsInvalid" xml:space="preserve">
+    <value>L'ID utente non è valido</value>
+    <comment />
+  </data>
+  <data name="AccessPointIsNullOrEmpty" xml:space="preserve">
+    <value>Il punto di accesso è nullo o vuoto</value>
+    <comment />
+  </data>
+  <data name="IdentityNumberIsNotValid" xml:space="preserve">
+    <value>Il numero della carta non è valido</value>
+    <comment />
+  </data>
+  <data name="CompanyIdIsInvalid" xml:space="preserve">
+    <value>l'ID azienda non è valido</value>
+    <comment />
+  </data>
+  <data name="EmailUserCreate" xml:space="preserve">
+    <value>È stata inviata una password alla tua email, verifica per accedere</value>
+    <comment />
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>Tentativo di accesso non valido. Devi avere un indirizzo email confermato.</value>
+    <comment />
+  </data>
+  <data name="NewUserValidation" xml:space="preserve">
+    <value>convalida utente</value>
+    <comment />
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Conferma</value>
+    <comment />
+  </data>
+  <data name="ConfirmationCode" xml:space="preserve">
+    <value>Codice di conferma</value>
+    <comment />
+  </data>
+  <data name="EnterConfirmationCodeReceived" xml:space="preserve">
+    <value>inserisci il codice di conferma ricevuto nella tua email</value>
+    <comment />
+  </data>
+  <data name="ValidationCodeIsInvalid" xml:space="preserve">
+    <value>il codice di convalida non è valido</value>
+    <comment />
+  </data>
+  <data name="TokenDoesNotExist" xml:space="preserve">
+    <value>Il token di accesso non esiste.</value>
+    <comment />
+  </data>
+  <data name="UserRegisterCorrectly" xml:space="preserve">
+    <value>l'utente è già registrato correttamente</value>
+    <comment />
+  </data>
+  <data name="UserSettingIsInvalid" xml:space="preserve">
+    <value>l'impostazione dell'utente non è valida</value>
+    <comment />
+  </data>
+  <data name="EmployeeIdIsNull" xml:space="preserve">
+    <value>Il dipendente non è valido</value>
+    <comment />
+  </data>
+  <data name="UserIsInvalid" xml:space="preserve">
+    <value>L'utente non è valido</value>
+    <comment />
+  </data>
+  <data name="ShopIsInvalid" xml:space="preserve">
+    <value>Il negozio non è valido</value>
+    <comment />
+  </data>
+  <data name="BoxIdIsInvalid" xml:space="preserve">
+    <value>La casella non è valida</value>
+    <comment />
+  </data>
+  <data name="UserHasNoConfiguration" xml:space="preserve">
+    <value>l'utente non ha alcuna configurazione</value>
+    <comment />
+  </data>
+  <data name="UserSetting" xml:space="preserve">
+    <value>Impostazione utente</value>
+    <comment />
+  </data>
+  <data name="UserSettingAndRoles" xml:space="preserve">
+    <value>Impostazione utente e ruoli</value>
+    <comment />
+  </data>
+  <data name="Box" xml:space="preserve">
+    <value>Registratore di cassa</value>
+    <comment />
+  </data>
+  <data name="EnterHereToSearch" xml:space="preserve">
+    <value>Entra qui per cercare</value>
+    <comment />
+  </data>
+  <data name="SearchOfShops" xml:space="preserve">
+    <value>Cerca negozio</value>
+    <comment />
+  </data>
+  <data name="SearchOfBox" xml:space="preserve">
+    <value>Cerca cassa</value>
+    <comment />
+  </data>
+  <data name="SearchOfUsers" xml:space="preserve">
+    <value>Cerca utenti</value>
+    <comment />
+  </data>
+  <data name="SearchOfEmployees" xml:space="preserve">
+    <value>cerca dipendente</value>
+    <comment />
+  </data>
+  <data name="SearchBranchOffices" xml:space="preserve">
+    <value>Cerca filiali</value>
+    <comment />
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Ricarica</value>
+    <comment />
+  </data>
+  <data name="Job_Position" xml:space="preserve">
+    <value>Posizione Lavorativa</value>
+    <comment />
+  </data>
+  <data name="job_Sectors" xml:space="preserve">
+    <value>Settore</value>
+    <comment />
+  </data>
+  <data name="ErrorWhenSelectingItem" xml:space="preserve">
+    <value>Errore durante la selezione dell'elemento</value>
+    <comment />
+  </data>
+  <data name="PriceLevel" xml:space="preserve">
+    <value>Livello di prezzo</value>
+    <comment />
+  </data>
+  <data name="DiscountMaxRate" xml:space="preserve">
+    <value>Tasso massimo di sconto</value>
+    <comment />
+  </data>
+  <data name="SearchOfGroups" xml:space="preserve">
+    <value>Ricerca di gruppi</value>
+    <comment />
+  </data>
+  <data name="SearchOfZones" xml:space="preserve">
+    <value>Ricerca di zone</value>
+    <comment />
+  </data>
+  <data name="SearchOfOperationTypes" xml:space="preserve">
+    <value>Ricerca del tipo di operazione</value>
+    <comment />
+  </data>
+  <data name="ContactNameIsInvalid" xml:space="preserve">
+    <value>Il nome del contatto non è valido</value>
+    <comment />
+  </data>
+  <data name="RucNumberIsInvalid" xml:space="preserve">
+    <value>Il numero di documento del contribuente non è valido</value>
+    <comment />
+  </data>
+  <data name="ProviderType_ErrorMustSelect" xml:space="preserve">
+    <value>Devi selezionare un tipo di fornitore</value>
+    <comment />
+  </data>
+  <data name="PaymentType_ErrorMustSelect" xml:space="preserve">
+    <value>Devi selezionare un tipo di pagamento</value>
+    <comment />
+  </data>
+  <data name="StampIsInvalid" xml:space="preserve">
+    <value>il timbro non è valido</value>
+    <comment />
+  </data>
+  <data name="BankErrorMustSelect" xml:space="preserve">
+    <value>Devi selezionare una banca</value>
+    <comment />
+  </data>
+  <data name="SearchOfProvider" xml:space="preserve">
+    <value>Ricerca fornitori</value>
+    <comment />
+  </data>
+  <data name="BusinessName" xml:space="preserve">
+    <value>Ragione sociale</value>
+    <comment />
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Azienda</value>
+    <comment />
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>Servizio</value>
+    <comment />
+  </data>
+  <data name="Production" xml:space="preserve">
+    <value>Produzione</value>
+    <comment />
+  </data>
+  <data name="CattleRaising" xml:space="preserve">
+    <value>allevamento di bestiame</value>
+    <comment />
+  </data>
+  <data name="comercialContact" xml:space="preserve">
+    <value>Contatto</value>
+    <comment />
+  </data>
+  <data name="RUC" xml:space="preserve">
+    <value>COFIS</value>
+    <comment />
+  </data>
+  <data name="stamped" xml:space="preserve">
+    <value>Stampato</value>
+    <comment />
+  </data>
+  <data name="PaymentType" xml:space="preserve">
+    <value>Opzioni di Pagamento</value>
+    <comment />
+  </data>
+  <data name="ProviderType" xml:space="preserve">
+    <value>Tipo di fornitore</value>
+    <comment />
+  </data>
+  <data name="SearchOfProviderType" xml:space="preserve">
+    <value>Ricerca di tipologie di Provider</value>
+    <comment />
+  </data>
+  <data name="SearchOfCities" xml:space="preserve">
+    <value>Ricerca di città</value>
+    <comment />
+  </data>
+  <data name="SearchOfPaymentTypes" xml:space="preserve">
+    <value>Ricerca di tipi di pagamento</value>
+    <comment />
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>Numero di fattura</value>
+    <comment />
+  </data>
+  <data name="Carrier" xml:space="preserve">
+    <value>vettore</value>
+    <comment />
+  </data>
+  <data name="ImportCosts" xml:space="preserve">
+    <value>costi di importazione</value>
+    <comment />
+  </data>
+  <data name="ItIsImported" xml:space="preserve">
+    <value>è importato</value>
+    <comment />
+  </data>
+  <data name="PurchaseWithHoldindTax" xml:space="preserve">
+    <value>Acquisto con ritenuta d'acconto</value>
+    <comment />
+  </data>
+  <data name="TypeOfVoucher" xml:space="preserve">
+    <value>Tipo di buono</value>
+    <comment />
+  </data>
+  <data name="VoucherDetail" xml:space="preserve">
+    <value>Dettaglio Buono</value>
+    <comment />
+  </data>
+  <data name="TaxpayerSituation" xml:space="preserve">
+    <value>situazione dei contribuenti</value>
+    <comment />
+  </data>
+  <data name="RentWithholding" xml:space="preserve">
+    <value>Ritenuta d'affitto</value>
+    <comment />
+  </data>
+  <data name="IVAwithholding" xml:space="preserve">
+    <value>Ritenuta IVA</value>
+    <comment />
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantità</value>
+    <comment />
+  </data>
+  <data name="Tax" xml:space="preserve">
+    <value>Imposta</value>
+    <comment />
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descrizione</value>
+    <comment />
+  </data>
+  <data name="Exent" xml:space="preserve">
+    <value>esonerare</value>
+    <comment />
+  </data>
+  <data name="iva" xml:space="preserve">
+    <value>IVA</value>
+    <comment />
+  </data>
+  <data name="TotalRetention" xml:space="preserve">
+    <value>ritenzione totale</value>
+    <comment />
+  </data>
+  <data name="VAT_Settlement" xml:space="preserve">
+    <value>Liquidazione IVA</value>
+    <comment />
+  </data>
+  <data name="RetentionBasis" xml:space="preserve">
+    <value>Base di conservazione</value>
+    <comment />
+  </data>
+  <data name="RetentionPercentage" xml:space="preserve">
+    <value>Percentuale di ritenzione</value>
+    <comment />
+  </data>
+  <data name="TotalVATWithheld" xml:space="preserve">
+    <value>IVA totale trattenuta</value>
+    <comment />
+  </data>
+  <data name="TotalRentWithheld" xml:space="preserve">
+    <value>canone totale trattenuto</value>
+    <comment />
+  </data>
+  <data name="ISOcode" xml:space="preserve">
+    <value>Codice ISO</value>
+    <comment />
+  </data>
+  <data name="BaseCurrency" xml:space="preserve">
+    <value>valuta di base</value>
+    <comment />
+  </data>
+  <data name="decimals" xml:space="preserve">
+    <value>decimali</value>
+    <comment />
+  </data>
+  <data name="Commission" xml:space="preserve">
+    <value>Commissione</value>
+    <comment />
+  </data>
+  <data name="SearchOfMoney" xml:space="preserve">
+    <value>ricerca di valuta</value>
+    <comment />
+  </data>
+  <data name="mobileIsInvalid" xml:space="preserve">
+    <value>Questo numero di cellulare non è valido</value>
+    <comment />
+  </data>
+  <data name="moneyIsInvalid" xml:space="preserve">
+    <value>la valuta non è valida</value>
+    <comment />
+  </data>
+  <data name="barcodeIsNotValid" xml:space="preserve">
+    <value>il codice a barre non è valido</value>
+    <comment />
+  </data>
+  <data name="JobSectorNotValid" xml:space="preserve">
+    <value>il Settore Lavoro non è valido</value>
+    <comment />
+  </data>
+  <data name="JobPostIsInvalid" xml:space="preserve">
+    <value>L'annuncio di lavoro non è valido</value>
+    <comment />
+  </data>
+  <data name="ProfessionIsNotValid" xml:space="preserve">
+    <value>La professione non è valida</value>
+    <comment />
+  </data>
+  <data name="FatherNameIsNotValid" xml:space="preserve">
+    <value>Il nome del padre non è valido</value>
+    <comment />
+  </data>
+  <data name="MotherNameIsInvalid" xml:space="preserve">
+    <value>Il nome della madre non è valido</value>
+    <comment />
+  </data>
+  <data name="BloodTypenameNotValid" xml:space="preserve">
+    <value>Il nome del gruppo sanguigno non è valido</value>
+    <comment />
+  </data>
+  <data name="SalaryIsNotValid" xml:space="preserve">
+    <value>lo stipendio non è valido</value>
+    <comment />
+  </data>
+  <data name="CommissionSaleIsNotValid" xml:space="preserve">
+    <value>la commissione di vendita non è valida</value>
+    <comment />
+  </data>
+  <data name="CommissionCollectionIsNotValid" xml:space="preserve">
+    <value>la commissione per la riscossione non è valida</value>
+    <comment />
+  </data>
+  <data name="SearchOfCarrier" xml:space="preserve">
+    <value>ricerca di vettori</value>
+    <comment />
+  </data>
+  <data name="BranchManagerIsNoValid" xml:space="preserve">
+    <value>Il direttore di filiale non è valido</value>
+    <comment />
+  </data>
+  <data name="BirthDateIsInvalid" xml:space="preserve">
+    <value>La data di nascita non è valida</value>
+    <comment />
+  </data>
+  <data name="SexIsNotvalid" xml:space="preserve">
+    <value>Il sesso non è valido</value>
+    <comment />
+  </data>
+  <data name="WorkStartDateIsInvalid" xml:space="preserve">
+    <value>La data di inizio del lavoro non è valida</value>
+    <comment />
+  </data>
+  <data name="ChildrenNumberIsNotValid" xml:space="preserve">
+    <value>Il conteggio dei bambini non è valido</value>
+    <comment />
+  </data>
+  <data name="CivilStatusIsNotValid" xml:space="preserve">
+    <value>Lo stato civile non è valido</value>
+    <comment />
+  </data>
+  <data name="SalaryTypeIsNotValid" xml:space="preserve">
+    <value>Il tipo di stipendio non è valido</value>
+    <comment />
+  </data>
+  <data name="NickNameIsInvalid" xml:space="preserve">
+    <value>Il nickname non è valido</value>
+    <comment />
+  </data>
+  <data name="PassportNumIsNotValid" xml:space="preserve">
+    <value>Il numero di passaporto non è valido</value>
+    <comment />
+  </data>
+  <data name="SpouceNameIsNotValid" xml:space="preserve">
+    <value>Il nome del coniuge non è valido</value>
+    <comment />
+  </data>
+  <data name="SpouceIdentiyIsnotValid" xml:space="preserve">
+    <value>L'identità del coniuge non è valida</value>
+    <comment />
+  </data>
+  <data name="DrivingLicenceNumberIsNotValid" xml:space="preserve">
+    <value>Il numero della patente di guida non è valido</value>
+    <comment />
+  </data>
+  <data name="Emergency1NumberNotValid" xml:space="preserve">
+    <value>Il numero di contatto di emergenza primario non è valido</value>
+    <comment />
+  </data>
+  <data name="PlaceBirtIsNotValid" xml:space="preserve">
+    <value>Il luogo di nascita non è valido</value>
+    <comment />
+  </data>
+  <data name="IdIsInvalid" xml:space="preserve">
+    <value>L'ID non è valido</value>
+    <comment />
+  </data>
+  <data name="CommissionPercentIsNotValid" xml:space="preserve">
+    <value>La percentuale della commissione non è valida</value>
+    <comment />
+  </data>
+  <data name="Emergency2NumberNotValid" xml:space="preserve">
+    <value>Il numero del contatto di emergenza secondario non è valido</value>
+    <comment />
+  </data>
+  <data name="ObservationIsNotValid" xml:space="preserve">
+    <value>L'osservazione non è valida</value>
+    <comment />
+  </data>
+  <data name="ExchangeIsnotValid" xml:space="preserve">
+    <value>Lo scambio non è valido</value>
+    <comment />
+  </data>
+  <data name="SymbolNotValid" xml:space="preserve">
+    <value>Il simbolo non è valido</value>
+    <comment />
+  </data>
+  <data name="TaxRateIsNotValid" xml:space="preserve">
+    <value>La percentuale di tasse non è valida</value>
+    <comment />
+  </data>
+  <data name="TotalWithholdingIsInvalid" xml:space="preserve">
+    <value>La trattenuta totale non è valida</value>
+    <comment />
+  </data>
+  <data name="RemarkIsNotValid" xml:space="preserve">
+    <value>L'osservazione non è valida</value>
+    <comment />
+  </data>
+  <data name="PurchaseDateIsInvalid" xml:space="preserve">
+    <value>La data di acquisto non è valida</value>
+    <comment />
+  </data>
+  <data name="ProviderIsInvalid" xml:space="preserve">
+    <value>Il provider non è valido</value>
+    <comment />
+  </data>
+  <data name="OperationTypeIsInvalid" xml:space="preserve">
+    <value>Il tipo di operazione non è valido</value>
+    <comment />
+  </data>
+  <data name="CarrierIsInvalid" xml:space="preserve">
+    <value>Il vettore non è valido</value>
+    <comment />
+  </data>
+  <data name="InvoiceNumberIsNotValid" xml:space="preserve">
+    <value>Il numero della fattura non è valido</value>
+    <comment />
+  </data>
+  <data name="TotalExentaIsNotValid" xml:space="preserve">
+    <value>L'esenzione totale non è valida</value>
+    <comment />
+  </data>
+  <data name="TotalGravadaIsNotValid" xml:space="preserve">
+    <value>Il totale tassato non è valido</value>
+    <comment />
+  </data>
+  <data name="StatusIsInvalid" xml:space="preserve">
+    <value>Lo stato non è valido</value>
+    <comment />
+  </data>
+  <data name="TotalIvaIsNotValid" xml:space="preserve">
+    <value>L'IVA totale non è valida</value>
+    <comment />
+  </data>
+  <data name="CustomerIsNotValid" xml:space="preserve">
+    <value>L'indirizzo del cliente non è valido</value>
+    <comment />
+  </data>
+  <data name="Balance" xml:space="preserve">
+    <value>Bilancia</value>
+    <comment />
+  </data>
+  <data name="Capital" xml:space="preserve">
+    <value>Capitale</value>
+    <comment />
+  </data>
+  <data name="Calculate" xml:space="preserve">
+    <value>Calcolare</value>
+    <comment />
+  </data>
+  <data name="ConditionsToGenerateQuotas" xml:space="preserve">
+    <value>Condizioni per generare quote</value>
+    <comment />
+  </data>
+  <data name="BalanceToFinance" xml:space="preserve">
+    <value>Saldo per finanziare</value>
+    <comment />
+  </data>
+  <data name="AmountOfFees" xml:space="preserve">
+    <value>Importo delle commissioni</value>
+    <comment />
+  </data>
+  <data name="DaysOverdue" xml:space="preserve">
+    <value>Giorni di ritardo</value>
+    <comment />
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>Consegna</value>
+    <comment />
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Livello</value>
+    <comment />
+  </data>
+  <data name="Interest" xml:space="preserve">
+    <value>Interesse</value>
+    <comment />
+  </data>
+  <data name="AnnualInterestPercentage" xml:space="preserve">
+    <value>Percentuale di interesse annuale</value>
+    <comment />
+  </data>
+  <data name="FirstMaturity" xml:space="preserve">
+    <value>Prima maturità</value>
+    <comment />
+  </data>
+  <data name="TypesOfTerm" xml:space="preserve">
+    <value>Tipi di termine</value>
+    <comment />
+  </data>
+  <data name="FeesCalculator" xml:space="preserve">
+    <value>Calcolatore</value>
+    <comment />
+  </data>
+  <data name="FeesGenerator" xml:space="preserve">
+    <value>Generatore di commissioni</value>
+    <comment />
+  </data>
+  <data name="EveryDay" xml:space="preserve">
+    <value>ogni giorno</value>
+    <comment />
+  </data>
+  <data name="Every8days" xml:space="preserve">
+    <value>ogni settimana</value>
+    <comment />
+  </data>
+  <data name="Every30days" xml:space="preserve">
+    <value>ogni mese</value>
+    <comment />
+  </data>
+  <data name="Every60Days" xml:space="preserve">
+    <value>ogni 60 giorni</value>
+    <comment />
+  </data>
+  <data name="Every90days" xml:space="preserve">
+    <value>ogni 90 giorni</value>
+    <comment />
+  </data>
+  <data name="Every120days" xml:space="preserve">
+    <value>ogni 120 giorni</value>
+    <comment />
+  </data>
+  <data name="Every180days" xml:space="preserve">
+    <value>ogni 180 giorni</value>
+    <comment />
+  </data>
+  <data name="Every15days" xml:space="preserve">
+    <value>ogni 15 giorni</value>
+    <comment />
+  </data>
+  <data name="Every45days" xml:space="preserve">
+    <value>ogni 45 giorni</value>
+    <comment />
+  </data>
+  <data name="VisualizePurchase" xml:space="preserve">
+    <value>Visualizza gli acquisti</value>
+    <comment />
+  </data>
+  <data name="PurchaseReport" xml:space="preserve">
+    <value>Rapporto sull'acquisto</value>
+    <comment />
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>Ok</value>
+    <comment />
+  </data>
+  <data name="SearchByProvider" xml:space="preserve">
+    <value>cerca per provider</value>
+    <comment />
+  </data>
+  <data name="SearchByInvoiceNumber" xml:space="preserve">
+    <value>cerca per numero di fattura</value>
+    <comment />
+  </data>
+  <data name="SearchByOperationType" xml:space="preserve">
+    <value>ricerca per tipo di operazione</value>
+    <comment />
+  </data>
+  <data name="SearchByMoney" xml:space="preserve">
+    <value>cerca per valuta</value>
+    <comment />
+  </data>
+  <data name="SearchByBox" xml:space="preserve">
+    <value>cerca per casella</value>
+    <comment />
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Fattura</value>
+    <comment />
+  </data>
+  <data name="Retention" xml:space="preserve">
+    <value>Fidelizzazione</value>
+    <comment />
+  </data>
+  <data name="TotalExenta" xml:space="preserve">
+    <value>Totale esente</value>
+    <comment />
+  </data>
+  <data name="TotalVAT" xml:space="preserve">
+    <value>IVA totale</value>
+    <comment />
+  </data>
+  <data name="TotalTaxed" xml:space="preserve">
+    <value>Totale tassato</value>
+    <comment />
+  </data>
+  <data name="TotalPurchase" xml:space="preserve">
+    <value>Acquisto totale</value>
+    <comment />
+  </data>
+  <data name="TheDateIsNotValid" xml:space="preserve">
+    <value>La data non è valida</value>
+    <comment />
+  </data>
+  <data name="DateSinceIsNotValid" xml:space="preserve">
+    <value>La data di inizio non è valida</value>
+    <comment />
+  </data>
+  <data name="DateUntilIsNotValid" xml:space="preserve">
+    <value>data fino a non è valida</value>
+    <comment />
+  </data>
+  <data name="PaginationItemsperPage" xml:space="preserve">
+    <value>Gli articoli per pagina non sono validi</value>
+    <comment />
+  </data>
+  <data name="PaginationNumberInNotValid" xml:space="preserve">
+    <value>Il numero di paginazione non è valido</value>
+    <comment />
+  </data>
+  <data name="TotalNetIsInvalid" xml:space="preserve">
+    <value>Il totale netto non è valido</value>
+    <comment />
+  </data>
+  <data name="SearchOptions" xml:space="preserve">
+    <value>opzioni di ricerca</value>
+    <comment />
+  </data>
+  <data name="SearchTextIsInvalid" xml:space="preserve">
+    <value>Il testo di ricerca non è valido</value>
+    <comment />
+  </data>
+  <data name="SearchOfCountries" xml:space="preserve">
+    <value>Ricerca di Paesi</value>
+    <comment />
+  </data>
+  <data name="SearchOfStates" xml:space="preserve">
+    <value>Ricerca degli Stati</value>
+    <comment />
+  </data>
+  <data name="LoadMore" xml:space="preserve">
+    <value>Carica altri</value>
+    <comment />
+  </data>
+  <data name="forbidenAccess" xml:space="preserve">
+    <value>Accesso vietato</value>
+    <comment />
+  </data>
+  <data name="ApiVersionIsWrong" xml:space="preserve">
+    <value>La versione API è sbagliata</value>
+    <comment />
+  </data>
+  <data name="SearchOfCompany" xml:space="preserve">
+    <value>Ricerca di aziende</value>
+    <comment />
+  </data>
+  <data name="TypeOfExpenses" xml:space="preserve">
+    <value>Tipo di spese</value>
+    <comment />
+  </data>
+  <data name="Expence" xml:space="preserve">
+    <value>Spese</value>
+    <comment />
+  </data>
+  <data name="ReturnReason" xml:space="preserve">
+    <value>Motivo del reso</value>
+    <comment />
+  </data>
+  <data name="Town" xml:space="preserve">
+    <value>Dintorni</value>
+    <comment />
+  </data>
+  <data name="Vehicle" xml:space="preserve">
+    <value>Veicolo</value>
+    <comment />
+  </data>
+  <data name="GroupIdIsInvalid" xml:space="preserve">
+    <value>L'ID gruppo non è valido</value>
+    <comment />
+  </data>
+  <data name="ZoneIdIsInvalid" xml:space="preserve">
+    <value>L'ID zona non è valido</value>
+    <comment />
+  </data>
+  <data name="SearchOfApply" xml:space="preserve">
+    <value>Ricerca dell'applicazione</value>
+    <comment />
+  </data>
+  <data name="SearchOfTown" xml:space="preserve">
+    <value>Ricerca della città</value>
+    <comment />
+  </data>
+  <data name="SearchOfCategory" xml:space="preserve">
+    <value>Ricerca per categoria</value>
+    <comment />
+  </data>
+  <data name="SearchOfExpence" xml:space="preserve">
+    <value>Ricerca della spesa</value>
+    <comment />
+  </data>
+  <data name="SearchOfBrand" xml:space="preserve">
+    <value>Ricerca del marchio</value>
+    <comment />
+  </data>
+  <data name="SearchOfPackage" xml:space="preserve">
+    <value>Ricerca del pacchetto</value>
+    <comment />
+  </data>
+  <data name="SearchOfPriority" xml:space="preserve">
+    <value>Ricerca di priorità</value>
+    <comment />
+  </data>
+  <data name="SearchOfProduct" xml:space="preserve">
+    <value>Ricerca di prodotti</value>
+    <comment />
+  </data>
+  <data name="SearchOfJobPost" xml:space="preserve">
+    <value>Ricerca del posto di lavoro</value>
+    <comment />
+  </data>
+  <data name="SearchOfReason" xml:space="preserve">
+    <value>Ricerca del motivo del reso</value>
+    <comment />
+  </data>
+  <data name="SearchOfBranch" xml:space="preserve">
+    <value>Ricerca di filiale</value>
+    <comment />
+  </data>
+  <data name="SearchOfRoute" xml:space="preserve">
+    <value>Ricerca del percorso</value>
+    <comment />
+  </data>
+  <data name="SearchOfSectorProduct" xml:space="preserve">
+    <value>Ricerca per settore merceologico</value>
+    <comment />
+  </data>
+  <data name="SearchOfJobSector" xml:space="preserve">
+    <value>Ricerca del settore del lavoro</value>
+    <comment />
+  </data>
+  <data name="SearchOfSubGroup" xml:space="preserve">
+    <value>Ricerca di sottogruppo</value>
+    <comment />
+  </data>
+  <data name="SearchOfExepenceType" xml:space="preserve">
+    <value>Ricerca del tipo di spesa</value>
+    <comment />
+  </data>
+  <data name="SearchOfVehicle" xml:space="preserve">
+    <value>Ricerca del veicolo</value>
+    <comment />
+  </data>
+  <data name="SearchOfMeasure" xml:space="preserve">
+    <value>Ricerca di misura</value>
+    <comment />
+  </data>
+  <data name="SearchOfWayAdmin" xml:space="preserve">
+    <value>Cerca Via Admin</value>
+    <comment />
+  </data>
+  <data name="SearchOfDrug" xml:space="preserve">
+    <value>Ricerca di componenti</value>
+    <comment />
+  </data>
+  <data name="ReferentialIntegrityConstraintsError" xml:space="preserve">
+    <value>Vincoli di integrità referenziale</value>
+    <comment />
+  </data>
+  <data name="ResponsibleStaff" xml:space="preserve">
+    <value>Personale responsabile</value>
+    <comment />
+  </data>
+  <data name="CreditNoteLastCreated" xml:space="preserve">
+    <value>Nota di credito Ultima creazione</value>
+    <comment />
+  </data>
+  <data name="CreditNoteSince" xml:space="preserve">
+    <value>Nota di credito da</value>
+    <comment />
+  </data>
+  <data name="CreditNoteUntil" xml:space="preserve">
+    <value>Nota di credito fino al</value>
+    <comment />
+  </data>
+  <data name="InvoiceLastCreated" xml:space="preserve">
+    <value>Ultima fattura creata</value>
+    <comment />
+  </data>
+  <data name="InvoiceSince" xml:space="preserve">
+    <value>Fattura dal</value>
+    <comment />
+  </data>
+  <data name="InvoiceUntil" xml:space="preserve">
+    <value>Fattura Fino</value>
+    <comment />
+  </data>
+  <data name="PromissoryNoteLastCreated" xml:space="preserve">
+    <value>Ultima cambiale creata</value>
+    <comment />
+  </data>
+  <data name="PromissoryNoteSince" xml:space="preserve">
+    <value>Pagherò cambiario dal</value>
+    <comment />
+  </data>
+  <data name="PromissoryNoteUntil" xml:space="preserve">
+    <value>cambiale fino a</value>
+    <comment />
+  </data>
+  <data name="ReceiptLastCreated" xml:space="preserve">
+    <value>Ricevuta di pagamento Ultima creazione</value>
+    <comment />
+  </data>
+  <data name="ReceiptSince" xml:space="preserve">
+    <value>Ricevuta di pagamento Dal</value>
+    <comment />
+  </data>
+  <data name="ReceiptUntil" xml:space="preserve">
+    <value>Ricevuta di pagamento Fino</value>
+    <comment />
+  </data>
+  <data name="ReturnNoteLastCreated" xml:space="preserve">
+    <value>Nota di ritorno Ultima creazione</value>
+    <comment />
+  </data>
+  <data name="ReturnNoteSince" xml:space="preserve">
+    <value>Nota di ritorno dal</value>
+    <comment />
+  </data>
+  <data name="ReturnNoteUntil" xml:space="preserve">
+    <value>Nota di ritorno fino a</value>
+    <comment />
+  </data>
+  <data name="Shop_ErrorMustSelect" xml:space="preserve">
+    <value>Devi selezionare un negozio</value>
+    <comment />
+  </data>
+  <data name="Brand" xml:space="preserve">
+    <value>Marca</value>
+    <comment />
+  </data>
+  <data name="Brandisinvalid" xml:space="preserve">
+    <value>Il marchio non è valido</value>
+    <comment />
+  </data>
+  <data name="Capacity" xml:space="preserve">
+    <value>Capacità</value>
+    <comment />
+  </data>
+  <data name="CapacityisInvalid" xml:space="preserve">
+    <value>La capacità non è valida</value>
+    <comment />
+  </data>
+  <data name="CarriagenNumberIsInvalid" xml:space="preserve">
+    <value>Il numero di trasporto non è valido</value>
+    <comment />
+  </data>
+  <data name="ChassisNumberIsInvalid" xml:space="preserve">
+    <value>Il numero di telaio non è valido</value>
+    <comment />
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Colore</value>
+    <comment />
+  </data>
+  <data name="ColorIsInvalid" xml:space="preserve">
+    <value>Il colore non è valido</value>
+    <comment />
+  </data>
+  <data name="EngineNumberIsInvalid" xml:space="preserve">
+    <value>Il numero del motore non è valido</value>
+    <comment />
+  </data>
+  <data name="FuelTypeIsInvalid" xml:space="preserve">
+    <value>Il tipo di carburante non è valido</value>
+    <comment />
+  </data>
+  <data name="InitialKmIsInvalid" xml:space="preserve">
+    <value>Il km iniziale non è valido</value>
+    <comment />
+  </data>
+  <data name="LoadTypeIsInvalid" xml:space="preserve">
+    <value>Il tipo di caricamento non è valido</value>
+    <comment />
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Modello</value>
+    <comment />
+  </data>
+  <data name="Model is invalid" xml:space="preserve">
+    <value>Il modello non è valido</value>
+    <comment />
+  </data>
+  <data name="Patent" xml:space="preserve">
+    <value>Brevetto</value>
+    <comment />
+  </data>
+  <data name="PatentIsInvalid" xml:space="preserve">
+    <value>Il brevetto non è valido</value>
+    <comment />
+  </data>
+  <data name="YearModelIsInvalid" xml:space="preserve">
+    <value>Il modello dell'anno non è valido</value>
+    <comment />
+  </data>
+  <data name="CarriageNumber" xml:space="preserve">
+    <value>Numero di trasporto</value>
+    <comment />
+  </data>
+  <data name="ChassisNumber" xml:space="preserve">
+    <value>Numero di telaio</value>
+    <comment />
+  </data>
+  <data name="EngineNumber" xml:space="preserve">
+    <value>numero di motore</value>
+    <comment />
+  </data>
+  <data name="FuelType" xml:space="preserve">
+    <value>Tipo di carburante</value>
+    <comment />
+  </data>
+  <data name="InitialKM" xml:space="preserve">
+    <value>Chilometro iniziale</value>
+    <comment />
+  </data>
+  <data name="LoadType" xml:space="preserve">
+    <value>Tipo di carico</value>
+    <comment />
+  </data>
+  <data name="year" xml:space="preserve">
+    <value>Anno</value>
+    <comment />
+  </data>
+  <data name="CustomerAccount" xml:space="preserve">
+    <value>Conto del Cliente</value>
+    <comment />
+  </data>
+  <data name="BankDeposit" xml:space="preserve">
+    <value>Deposito bancario</value>
+    <comment />
+  </data>
+  <data name="BankDepositReport" xml:space="preserve">
+    <value>Rapporto sui depositi bancari</value>
+    <comment />
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Carte</value>
+    <comment />
+  </data>
+  <data name="ReleaseCheck" xml:space="preserve">
+    <value>Rilascia assegno bancario</value>
+    <comment />
+  </data>
+  <data name="Transfers" xml:space="preserve">
+    <value>Bonifico bancario</value>
+    <comment />
+  </data>
+  <data name="AccountHolderIsInvalid" xml:space="preserve">
+    <value>Il titolare del conto non è valido</value>
+    <comment />
+  </data>
+  <data name="AccountNumberIsInvalid" xml:space="preserve">
+    <value>Il numero di conto non è valido</value>
+    <comment />
+  </data>
+  <data name="AgencyIsInvalid" xml:space="preserve">
+    <value>L'agenzia non è valida</value>
+    <comment />
+  </data>
+  <data name="BankAccountTypeIsInvalid" xml:space="preserve">
+    <value>Il tipo di conto bancario non è valido</value>
+    <comment />
+  </data>
+  <data name="BankIdIsInvalid" xml:space="preserve">
+    <value>L'ID banca non è valido</value>
+    <comment />
+  </data>
+  <data name="CreditOfficerIsInvalid" xml:space="preserve">
+    <value>L'ufficiale di credito non è valido</value>
+    <comment />
+  </data>
+  <data name="ManagerIsInvalid" xml:space="preserve">
+    <value>Il gestore non è valido</value>
+    <comment />
+  </data>
+  <data name="WebIsInvalid" xml:space="preserve">
+    <value>web non è valido</value>
+    <comment />
+  </data>
+  <data name="CategoryIsInvalid" xml:space="preserve">
+    <value>La categoria non è valida</value>
+    <comment />
+  </data>
+  <data name="DiscountIsNotValid" xml:space="preserve">
+    <value>Lo sconto non è valido</value>
+    <comment />
+  </data>
+  <data name="FullNameIsInvalid" xml:space="preserve">
+    <value>Il nome completo non è valido</value>
+    <comment />
+  </data>
+  <data name="IdentityPartnerIsInvalid" xml:space="preserve">
+    <value>Il partner di identità non è valido</value>
+    <comment />
+  </data>
+  <data name="MobileNumIsInvalid" xml:space="preserve">
+    <value>Il numero di cellulare non è valido</value>
+    <comment />
+  </data>
+  <data name="PartnerIsInvalid" xml:space="preserve">
+    <value>Il partner non è valido</value>
+    <comment />
+  </data>
+  <data name="PriceLevelIsInvalid" xml:space="preserve">
+    <value>Il livello di prezzo non è valido</value>
+    <comment />
+  </data>
+  <data name="RouteIsInvalid" xml:space="preserve">
+    <value>Il percorso non è valido</value>
+    <comment />
+  </data>
+  <data name="TradeNameIsInvalid" xml:space="preserve">
+    <value>Il nome commerciale non è valido</value>
+    <comment />
+  </data>
+  <data name="WorkActivityIsInvalid" xml:space="preserve">
+    <value>L'attività lavorativa non è valida</value>
+    <comment />
+  </data>
+  <data name="WorkspaceIsInvalid" xml:space="preserve">
+    <value>L'area di lavoro non è valida</value>
+    <comment />
+  </data>
+  <data name="CreditLimitIsInvalid" xml:space="preserve">
+    <value>Il limite di credito non è valido</value>
+    <comment />
+  </data>
+  <data name="CustomerAccountNumberIsInvalid" xml:space="preserve">
+    <value>Il numero di conto cliente non è valido</value>
+    <comment />
+  </data>
+  <data name="SearchOfBank" xml:space="preserve">
+    <value>Ricerca di banche</value>
+    <comment />
+  </data>
+  <data name="SearchOfBankAccount" xml:space="preserve">
+    <value>Ricerca di conto bancario</value>
+    <comment />
+  </data>
+  <data name="SearchOfBankAccountType" xml:space="preserve">
+    <value>Ricerca del tipo di conto bancario</value>
+    <comment />
+  </data>
+  <data name="SearchOfCustomerAccount" xml:space="preserve">
+    <value>Ricerca dell'Account Cliente</value>
+    <comment />
+  </data>
+  <data name="SearchOfCustomers" xml:space="preserve">
+    <value>Ricerca di clienti</value>
+    <comment />
+  </data>
+  <data name="ActiveEmployee" xml:space="preserve">
+    <value>Dipendente attivo</value>
+    <comment />
+  </data>
+  <data name="CollectionCommission" xml:space="preserve">
+    <value>Commissione di riscossione</value>
+    <comment />
+  </data>
+  <data name="CommissionAgent" xml:space="preserve">
+    <value>Agente di commissione</value>
+    <comment />
+  </data>
+  <data name="EmergencyContact" xml:space="preserve">
+    <value>Contatto di emergenza</value>
+    <comment />
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Genere</value>
+    <comment />
+  </data>
+  <data name="IsSupervisor" xml:space="preserve">
+    <value>è supervisore</value>
+    <comment />
+  </data>
+  <data name="PlaceOfBirth" xml:space="preserve">
+    <value>Luogo di nascita</value>
+    <comment />
+  </data>
+  <data name="Salary" xml:space="preserve">
+    <value>Stipendio</value>
+    <comment />
+  </data>
+  <data name="SalesCommissionPercent" xml:space="preserve">
+    <value>Commissione di vendita</value>
+    <comment />
+  </data>
+  <data name="Spouse" xml:space="preserve">
+    <value>Coniuge</value>
+    <comment />
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>Credito</value>
+    <comment />
+  </data>
+  <data name="LendProducts" xml:space="preserve">
+    <value>Prestare prodotti</value>
+    <comment />
+  </data>
+  <data name="OwnHouse" xml:space="preserve">
+    <value>Propria casa</value>
+    <comment />
+  </data>
+  <data name="SendBillCollector" xml:space="preserve">
+    <value>Invia all'esattore delle fatture</value>
+    <comment />
+  </data>
+  <data name="BillCollector" xml:space="preserve">
+    <value>Esattore</value>
+    <comment />
+  </data>
+  <data name="CreditLimit" xml:space="preserve">
+    <value>Limite di credito</value>
+    <comment />
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Data di fine</value>
+    <comment />
+  </data>
+  <data name="ActiveAccount" xml:space="preserve">
+    <value>conto attivo</value>
+    <comment />
+  </data>
+  <data name="ShopRule" xml:space="preserve">
+    <value>impostazioni del negozio</value>
+    <comment />
+  </data>
+  <data name="DefaultClient" xml:space="preserve">
+    <value>cliente predefinito</value>
+    <comment />
+  </data>
+  <data name="PriceLevelDefault" xml:space="preserve">
+    <value>Livello di prezzo predefinito</value>
+    <comment />
+  </data>
+  <data name="OperTypeCreditSale" xml:space="preserve">
+    <value>Tipo di operazione Vendite a credito</value>
+    <comment />
+  </data>
+  <data name="OperTypeCreditPurchase" xml:space="preserve">
+    <value>Tipo di operazione Acquisto a credito</value>
+    <comment />
+  </data>
+  <data name="OperTypeCashSale" xml:space="preserve">
+    <value>Tipo di operazione Vendita in contanti</value>
+    <comment />
+  </data>
+  <data name="OperTypeCashPurchase" xml:space="preserve">
+    <value>Tipo di operazione Acquisto in contanti</value>
+    <comment />
+  </data>
+  <data name="ModifyPriceInSales" xml:space="preserve">
+    <value>Transazione di vendita in contanti</value>
+    <comment />
+  </data>
+  <data name="MaximumItemsInSale" xml:space="preserve">
+    <value>Numero massimo di articoli in vendita</value>
+    <comment />
+  </data>
+  <data name="InterestRateMonthly" xml:space="preserve">
+    <value>Tasso di interesse mensile</value>
+    <comment />
+  </data>
+  <data name="EncryptedPrice" xml:space="preserve">
+    <value>Prezzo criptato</value>
+    <comment />
+  </data>
+  <data name="ForceSaleIfStockIsZero" xml:space="preserve">
+    <value>Forza la vendita se lo stock è zero</value>
+    <comment />
+  </data>
+  <data name="DecimalsInStock" xml:space="preserve">
+    <value>decimali in magazzino</value>
+    <comment />
+  </data>
+  <data name="GrantDiscounts" xml:space="preserve">
+    <value>Concedi sconti</value>
+    <comment />
+  </data>
+  <data name="MaxDiscountPercent" xml:space="preserve">
+    <value>Percentuale massima di sconto</value>
+    <comment />
+  </data>
+  <data name="MaximumPriceLevel" xml:space="preserve">
+    <value>Livello massimo di prezzo</value>
+    <comment />
+  </data>
+  <data name="Administrator" xml:space="preserve">
+    <value>Amministratore</value>
+    <comment />
+  </data>
+  <data name="Finance" xml:space="preserve">
+    <value>Finanza</value>
+    <comment />
+  </data>
+  <data name="Investor" xml:space="preserve">
+    <value>Investitore</value>
+    <comment />
+  </data>
+  <data name="Operator" xml:space="preserve">
+    <value>Operatore</value>
+    <comment />
+  </data>
+  <data name="Seller" xml:space="preserve">
+    <value>Venditore</value>
+    <comment />
+  </data>
+  <data name="SuperUser" xml:space="preserve">
+    <value>Super utente</value>
+    <comment />
+  </data>
+  <data name="DiscountPercentageIsInvalid" xml:space="preserve">
+    <value>la percentuale di sconto non è valida</value>
+    <comment />
+  </data>
+  <data name="GroupIsRequired" xml:space="preserve">
+    <value>il gruppo è obbligatorio</value>
+    <comment />
+  </data>
+  <data name="MaximumPriceLevelIsNotValid" xml:space="preserve">
+    <value>il livello di prezzo massimo non è valido</value>
+    <comment />
+  </data>
+  <data name="OperationTypeIsRequired" xml:space="preserve">
+    <value>il tipo di operazione è richiesta</value>
+    <comment />
+  </data>
+  <data name="ZoneIsRequired" xml:space="preserve">
+    <value>la zona è obbligatoria</value>
+    <comment />
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>Inventario</value>
+    <comment />
+  </data>
+  <data name="ProviderHistory" xml:space="preserve">
+    <value>Cronologia del fornitore</value>
+    <comment />
+  </data>
+  <data name="ProviderFees" xml:space="preserve">
+    <value>Commissioni del fornitore</value>
+    <comment />
+  </data>
+  <data name="PriceList" xml:space="preserve">
+    <value>listino prezzi</value>
+    <comment />
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Stock</value>
+    <comment />
+  </data>
+  <data name="CustomerDebt" xml:space="preserve">
+    <value>Debito del cliente</value>
+    <comment />
+  </data>
+  <data name="DebtCreditSale" xml:space="preserve">
+    <value>Debito per vendita di credito</value>
+    <comment />
+  </data>
+  <data name="DebtForPurchases" xml:space="preserve">
+    <value>Debito per acquisti</value>
+    <comment />
+  </data>
+  <data name="DebtSupplier" xml:space="preserve">
+    <value>Debito verso il fornitore</value>
+    <comment />
+  </data>
+  <data name="albaran" xml:space="preserve">
+    <value>Bolla d'accompagnamento</value>
+    <comment />
+  </data>
+  <data name="InventoryReport" xml:space="preserve">
+    <value>Rapporto di inventario</value>
+    <comment />
+  </data>
+  <data name="PurchaseOrder" xml:space="preserve">
+    <value>Ordinazione d'acquisto</value>
+    <comment />
+  </data>
+  <data name="ReturnPurchases" xml:space="preserve">
+    <value>Acquisti di ritorno</value>
+    <comment />
+  </data>
+  <data name="SalesOrder" xml:space="preserve">
+    <value>Ordine di vendita</value>
+    <comment />
+  </data>
+  <data name="SalesReport" xml:space="preserve">
+    <value>Rapporto delle vendite</value>
+    <comment />
+  </data>
+  <data name="SalesReturn" xml:space="preserve">
+    <value>Ritorno di vendita</value>
+    <comment />
+  </data>
+  <data name="TransferProduct" xml:space="preserve">
+    <value>Trasferimento del prodotto</value>
+    <comment />
+  </data>
+  <data name="TransferReport" xml:space="preserve">
+    <value>Rapporto di trasferimento</value>
+    <comment />
+  </data>
+  <data name="UnfulfilledOrders" xml:space="preserve">
+    <value>Ordini inevasi</value>
+    <comment />
+  </data>
+  <data name="BanknotesDenomination" xml:space="preserve">
+    <value>Denominazione delle banconote</value>
+    <comment />
+  </data>
+  <data name="CashBoxClose" xml:space="preserve">
+    <value>Cassa chiusa</value>
+    <comment />
+  </data>
+  <data name="CashBoxOpening" xml:space="preserve">
+    <value>Apertura cassa</value>
+    <comment />
+  </data>
+  <data name="CashboxCount" xml:space="preserve">
+    <value>Conteggio Cassa</value>
+    <comment />
+  </data>
+  <data name="Consumption" xml:space="preserve">
+    <value>Consumo</value>
+    <comment />
+  </data>
+  <data name="CustomerFees" xml:space="preserve">
+    <value>Commissioni del cliente</value>
+    <comment />
+  </data>
+  <data name="CustomerHistory" xml:space="preserve">
+    <value>Storia del cliente</value>
+    <comment />
+  </data>
+  <data name="CustomerPaymentReport" xml:space="preserve">
+    <value>Rapporto di pagamento del cliente</value>
+    <comment />
+  </data>
+  <data name="PriceTag" xml:space="preserve">
+    <value>Cartellino del prezzo</value>
+    <comment />
+  </data>
+  <data name="ProductPrice" xml:space="preserve">
+    <value>Prezzo del prodotto</value>
+    <comment />
+  </data>
+  <data name="ProviderPayment" xml:space="preserve">
+    <value>Pagamento del fornitore</value>
+    <comment />
+  </data>
+  <data name="ProviderPaymentReport" xml:space="preserve">
+    <value>Rapporto sul pagamento del fornitore</value>
+    <comment />
+  </data>
+  <data name="SaleExpress" xml:space="preserve">
+    <value>Vendita Express</value>
+    <comment />
+  </data>
+  <data name="CustomerDebtsReport" xml:space="preserve">
+    <value>Rapporto di contabilità clienti</value>
+    <comment />
+  </data>
+  <data name="ProviderDebtReport" xml:space="preserve">
+    <value>Resoconto di contabilità fornitori</value>
+    <comment />
+  </data>
+  <data name="ClearTextBox" xml:space="preserve">
+    <value>casella di testo chiara</value>
+    <comment />
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>tornare</value>
+    <comment />
+  </data>
+  <data name="SearchOfSourceProduct" xml:space="preserve">
+    <value>Ricerca della fonte del prodotto</value>
+    <comment />
+  </data>
+  <data name="workplace" xml:space="preserve">
+    <value>Posto di lavoro</value>
+    <comment />
+  </data>
+  <data name="WorkPhone" xml:space="preserve">
+    <value>Telefono del lavoro</value>
+    <comment />
+  </data>
+  <data name="SpouseIdentification" xml:space="preserve">
+    <value>identificazione del coniuge</value>
+    <comment />
+  </data>
+  <data name="Indeterminate" xml:space="preserve">
+    <value>Indeterminato</value>
+    <comment />
+  </data>
+  <data name="Children" xml:space="preserve">
+    <value>Bambini</value>
+    <comment />
+  </data>
+  <data name="male" xml:space="preserve">
+    <value>Maschio</value>
+    <comment />
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Proprietà</value>
+    <comment />
+  </data>
+  <data name="Remark" xml:space="preserve">
+    <value>Nota</value>
+    <comment />
+  </data>
+  <data name="ResidenceDate" xml:space="preserve">
+    <value>Data di residenza</value>
+    <comment />
+  </data>
+  <data name="WorkStartDate" xml:space="preserve">
+    <value>Data di inizio lavori</value>
+    <comment />
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>femmina</value>
+    <comment />
+  </data>
+  <data name="AccessCode" xml:space="preserve">
+    <value>Codice d'accesso</value>
+    <comment />
+  </data>
+  <data name="BloodType" xml:space="preserve">
+    <value>Gruppo sanguigno</value>
+    <comment />
+  </data>
+  <data name="CivilStatus" xml:space="preserve">
+    <value>Stato civile</value>
+    <comment />
+  </data>
+  <data name="DriversLicense" xml:space="preserve">
+    <value>Patente di guida</value>
+    <comment />
+  </data>
+  <data name="Emergency1Number" xml:space="preserve">
+    <value>Contatto di emergenza Numero primario</value>
+    <comment />
+  </data>
+  <data name="Emergency2Number" xml:space="preserve">
+    <value>Contatto di emergenza Numero secondario</value>
+    <comment />
+  </data>
+  <data name="FatherName" xml:space="preserve">
+    <value>Il nome del padre</value>
+    <comment />
+  </data>
+  <data name="MothersName" xml:space="preserve">
+    <value>Nome della madre</value>
+    <comment />
+  </data>
+  <data name="Nickname" xml:space="preserve">
+    <value>Soprannome</value>
+    <comment />
+  </data>
+  <data name="passport" xml:space="preserve">
+    <value>Passaporto</value>
+    <comment />
+  </data>
+  <data name="Profession" xml:space="preserve">
+    <value>Professione</value>
+    <comment />
+  </data>
+  <data name="EmployerContribution" xml:space="preserve">
+    <value>contributo del datore di lavoro</value>
+    <comment />
+  </data>
+  <data name="WorkerContribution" xml:space="preserve">
+    <value>contributo dei lavoratori</value>
+    <comment />
+  </data>
+  <data name="StaffMaintenance" xml:space="preserve">
+    <value>manutenzione dei dipendenti</value>
+    <comment />
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>Personale</value>
+    <comment />
+  </data>
+  <data name="Worked" xml:space="preserve">
+    <value>Lavorato</value>
+    <comment />
+  </data>
+  <data name="CustomerAccountMaintenance" xml:space="preserve">
+    <value>Manutenzione dell'account cliente</value>
+    <comment />
+  </data>
+  <data name="Agency" xml:space="preserve">
+    <value>agenzia</value>
+    <comment />
+  </data>
+  <data name="AmountTotalIsInvalid" xml:space="preserve">
+    <value>L'importo totale non è valido</value>
+    <comment />
+  </data>
+  <data name="CashAmountIsInvalid" xml:space="preserve">
+    <value>L'importo in contanti non è valido</value>
+    <comment />
+  </data>
+  <data name="ConceptIsInvalid" xml:space="preserve">
+    <value>Il concetto non è valido</value>
+    <comment />
+  </data>
+  <data name="DepositNumberIsInvalid" xml:space="preserve">
+    <value>Il numero di deposito bancario non è valido</value>
+    <comment />
+  </data>
+  <data name="TransactionDate" xml:space="preserve">
+    <value>Data della transazione</value>
+    <comment />
+  </data>
+  <data name="TransactionDateIsInvalid" xml:space="preserve">
+    <value>La data della transazione non è valida</value>
+    <comment />
+  </data>
+  <data name="VoucherNumber" xml:space="preserve">
+    <value>Numero del buono</value>
+    <comment />
+  </data>
+  <data name="BankAccountIsInvalid" xml:space="preserve">
+    <value>Il conto bancario non è valido</value>
+    <comment />
+  </data>
+  <data name="BankCheckDateIsInvalid" xml:space="preserve">
+    <value>La data dell'assegno bancario non è valida</value>
+    <comment />
+  </data>
+  <data name="BankNameIsInvalid" xml:space="preserve">
+    <value>Il nome della banca non è valido</value>
+    <comment />
+  </data>
+  <data name="CheckNumberIsInvalid" xml:space="preserve">
+    <value>Il numero di controllo non è valido</value>
+    <comment />
+  </data>
+  <data name="SenderIsInvalid" xml:space="preserve">
+    <value>Il mittente non è valido</value>
+    <comment />
+  </data>
+  <data name="CheckAmountIsInvalid" xml:space="preserve">
+    <value>l'importo dell'assegno non è valido</value>
+    <comment />
+  </data>
+  <data name="Initials" xml:space="preserve">
+    <value>Iniziali</value>
+    <comment />
+  </data>
+  <data name="InitialsAreNotValid" xml:space="preserve">
+    <value>Le iniziali non sono valide</value>
+    <comment />
+  </data>
+  <data name="Limit" xml:space="preserve">
+    <value>Prendere</value>
+    <comment />
+  </data>
+  <data name="Offset" xml:space="preserve">
+    <value>Saltare</value>
+    <comment />
+  </data>
+  <data name="OffsetIsInvalid" xml:space="preserve">
+    <value>Salta non è valido</value>
+    <comment />
+  </data>
+  <data name="LimitIsInvalid" xml:space="preserve">
+    <value>Take non è valido</value>
+    <comment />
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Esportare</value>
+    <comment />
+  </data>
+  <data name="ExportToExcel" xml:space="preserve">
+    <value>Esporta in MS-Excel</value>
+    <comment />
+  </data>
+  <data name="ExportToHtml" xml:space="preserve">
+    <value>Esporta in HTML</value>
+    <comment />
+  </data>
+  <data name="ExportToPDF" xml:space="preserve">
+    <value>Esporta in PDF</value>
+    <comment />
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtro</value>
+    <comment />
+  </data>
+  <data name="SearchParameters" xml:space="preserve">
+    <value>Parametri di ricerca</value>
+    <comment />
+  </data>
+  <data name="DeferredCheck" xml:space="preserve">
+    <value>Controllo differito</value>
+    <comment />
+  </data>
+  <data name="DeferredCheckIsInvalid" xml:space="preserve">
+    <value>Il controllo differito non è valido</value>
+    <comment />
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Documento</value>
+    <comment />
+  </data>
+  <data name="IsDeferrefCheck" xml:space="preserve">
+    <value>È un controllo differito</value>
+    <comment />
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Numero</value>
+    <comment />
+  </data>
+  <data name="PostedDate" xml:space="preserve">
+    <value>Post-datato</value>
+    <comment />
+  </data>
+  <data name="PostedDateIsInvalid" xml:space="preserve">
+    <value>La data di pubblicazione non è valida</value>
+    <comment />
+  </data>
+  <data name="PayeeIsInvalid" xml:space="preserve">
+    <value>il beneficiario non è valido</value>
+    <comment />
+  </data>
+  <data name="PaymentDateIsInvalid" xml:space="preserve">
+    <value>la data di pagamento non è valida</value>
+    <comment />
+  </data>
+  <data name="NumberRangue" xml:space="preserve">
+    <value>Intervallo di numeri</value>
+    <comment />
+  </data>
+  <data name="SinceNumber" xml:space="preserve">
+    <value>Dal numero</value>
+    <comment />
+  </data>
+  <data name="UntilNumber" xml:space="preserve">
+    <value>Fino al numero</value>
+    <comment />
+  </data>
+  <data name="NumberRangeIsInvalid" xml:space="preserve">
+    <value>L'intervallo di numeri non è valido</value>
+    <comment />
+  </data>
+  <data name="SinceNumberIsInvalid" xml:space="preserve">
+    <value>Poiché il numero non è valido</value>
+    <comment />
+  </data>
+  <data name="UntilNumberIsInvalid" xml:space="preserve">
+    <value>Fino a quando il numero non è valido</value>
+    <comment />
+  </data>
+  <data name="DocumentNumberIsInvalid" xml:space="preserve">
+    <value>Il numero del documento non è valido</value>
+    <comment />
+  </data>
+  <data name="CheckRegister" xml:space="preserve">
+    <value>Registro degli assegni bancari</value>
+    <comment />
+  </data>
+  <data name="SightBankCheck" xml:space="preserve">
+    <value>Assegno bancario a vista</value>
+    <comment />
+  </data>
+  <data name="TypesOfChecks" xml:space="preserve">
+    <value>Tipo di assegno bancario</value>
+    <comment />
+  </data>
+  <data name="Withdrawal" xml:space="preserve">
+    <value>ritiro</value>
+    <comment />
+  </data>
+  <data name="BetweenDates" xml:space="preserve">
+    <value>tra le date</value>
+    <comment />
+  </data>
+  <data name="BetweenNumbers" xml:space="preserve">
+    <value>tra i numeri</value>
+    <comment />
+  </data>
+  <data name="Debit" xml:space="preserve">
+    <value>Addebito</value>
+    <comment />
+  </data>
+  <data name="BankMovementReport" xml:space="preserve">
+    <value>Rapporto sui movimenti bancari</value>
+    <comment />
+  </data>
+  <data name="TotalItems" xml:space="preserve">
+    <value>totale di articoli</value>
+    <comment />
+  </data>
+  <data name="PowerUser" xml:space="preserve">
+    <value>utente avanzato</value>
+    <comment />
+  </data>
+  <data name="TypeOperationPurchaseCredit" xml:space="preserve">
+    <value>tipo di operazione per Acquisto a credito</value>
+    <comment />
+  </data>
+  <data name="TypeOperationPurchaseCash" xml:space="preserve">
+    <value>tipo di operazione per Acquisto contanti</value>
+    <comment />
+  </data>
+  <data name="TypeOperationSaleCredit" xml:space="preserve">
+    <value>tipo di operazione per Vendita a credito</value>
+    <comment />
+  </data>
+  <data name="TypeOperationSaleCash" xml:space="preserve">
+    <value>tipo di operazione per Vendita contanti</value>
+    <comment />
+  </data>
+  <data name="InterestRateMonthlyIsInvalid" xml:space="preserve">
+    <value>Il tasso di interesse mensile non è valido</value>
+    <comment />
+  </data>
+  <data name="MaxDiscountPercentIsInvalid" xml:space="preserve">
+    <value>La percentuale di sconto massima non è valida</value>
+    <comment />
+  </data>
+  <data name="MaximumNumberOfItemsIsInvalid" xml:space="preserve">
+    <value>Il numero massimo di elementi non è valido</value>
+    <comment />
+  </data>
+  <data name="NumberOfDecimalsInStockIsInvalid" xml:space="preserve">
+    <value>Il numero di decimali in stock non è valido</value>
+    <comment />
+  </data>
+  <data name="PriceLevelDefaultIsInvalid" xml:space="preserve">
+    <value>Il livello di prezzo predefinito non è valido</value>
+    <comment />
+  </data>
+  <data name="SecretKeyForPriceIsNotValid" xml:space="preserve">
+    <value>La chiave segreta per il prezzo non è valida</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForPurchaseCashIsInvalid" xml:space="preserve">
+    <value>Il tipo di operazione per l'acquisto di contanti non è valido</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForPurchaseOnCreditIsInvalid" xml:space="preserve">
+    <value>Il tipo di operazione per l'acquisto a credito non è valido</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForSaleCashIsInvalid" xml:space="preserve">
+    <value>Il tipo di operazione per Vendita contanti non è valido</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForSaleOnCreditIsInvalid" xml:space="preserve">
+    <value>Il tipo di operazione per la Vendita a credito non è valido</value>
+    <comment />
+  </data>
+  <data name="ActiveProductIsInvalid" xml:space="preserve">
+    <value>Il prodotto attivo non è valido</value>
+    <comment />
+  </data>
+  <data name="AlterStockIsInvalid" xml:space="preserve">
+    <value>Il modificatore di stock non è valido</value>
+    <comment />
+  </data>
+  <data name="BarcodeIsInvalid" xml:space="preserve">
+    <value>Il codice a barre non è valido</value>
+    <comment />
+  </data>
+  <data name="GenericNameIsInvalid" xml:space="preserve">
+    <value>Il nome generico del prodotto non è valido</value>
+    <comment />
+  </data>
+  <data name="GroupIsInvalid" xml:space="preserve">
+    <value>Il gruppo di prodotti non è valido</value>
+    <comment />
+  </data>
+  <data name="MeasureIsInvalid" xml:space="preserve">
+    <value>L'unità di misura non è valida</value>
+    <comment />
+  </data>
+  <data name="MinimunStockIsInvalid" xml:space="preserve">
+    <value>Lo stock minimo non è valido</value>
+    <comment />
+  </data>
+  <data name="PackagingIsInvalid" xml:space="preserve">
+    <value>Il tipo di imballaggio non è valido</value>
+    <comment />
+  </data>
+  <data name="PriorityIsInvalid" xml:space="preserve">
+    <value>La priorità del prodotto non è valida</value>
+    <comment />
+  </data>
+  <data name="ProductCheckIsInvalid" xml:space="preserve">
+    <value>Il prodotto controllato non è valido</value>
+    <comment />
+  </data>
+  <data name="ProductCodeIsInvalid" xml:space="preserve">
+    <value>Il codice del prodotto non è valido</value>
+    <comment />
+  </data>
+  <data name="ProductCodeProviderIsInvalid" xml:space="preserve">
+    <value>Il codice del fornitore non è valido</value>
+    <comment />
+  </data>
+  <data name="SaleCommissionIsNotValid" xml:space="preserve">
+    <value>La commissione di vendita non è valida</value>
+    <comment />
+  </data>
+  <data name="SectorProductIsInvalid" xml:space="preserve">
+    <value>Il settore dei prodotti non è valido</value>
+    <comment />
+  </data>
+  <data name="SourceProductIsInvalid" xml:space="preserve">
+    <value>La fonte del prodotto non è valida</value>
+    <comment />
+  </data>
+  <data name="SubGroupIsInvalid" xml:space="preserve">
+    <value>Il sottogruppo di prodotti non è valido</value>
+    <comment />
+  </data>
+  <data name="TaxIsInvalid" xml:space="preserve">
+    <value>tipo di tassa non è valido</value>
+    <comment />
+  </data>
+  <data name="TrademarkIsInvalid" xml:space="preserve">
+    <value>Il marchio non è valido</value>
+    <comment />
+  </data>
+  <data name="WeightIsNotValid" xml:space="preserve">
+    <value>Il peso non è valido</value>
+    <comment />
+  </data>
+  <data name="WholesaleIsInvalid" xml:space="preserve">
+    <value>Il commercio all'ingrosso non è valido</value>
+    <comment />
+  </data>
+  <data name="ProductNameIsInvalid" xml:space="preserve">
+    <value>il nome del prodotto non è valido</value>
+    <comment />
+  </data>
+  <data name="ProductIsInvalid" xml:space="preserve">
+    <value>Producto non è valido</value>
+    <comment />
+  </data>
+  <data name="PriceAccordingToQuantityIsNotValid" xml:space="preserve">
+    <value>il prezzo in base alla quantità non è valido</value>
+    <comment />
+  </data>
+  <data name="PriceValueIsInvalid" xml:space="preserve">
+    <value>Il prezzo non è valido</value>
+    <comment />
+  </data>
+  <data name="TypeOfPriceIsNotValid" xml:space="preserve">
+    <value>Il tipo di prezzo non è valido</value>
+    <comment />
+  </data>
+  <data name="QuantityIsNotValid" xml:space="preserve">
+    <value>La quantità non è valida</value>
+    <comment />
+  </data>
+  <data name="BatchIsInvalid" xml:space="preserve">
+    <value>Il lotto non è valido</value>
+    <comment />
+  </data>
+  <data name="StartDateIsInvalid" xml:space="preserve">
+    <value>la data di inizio non è valida</value>
+    <comment />
+  </data>
+  <data name="EndDateIsInvalid" xml:space="preserve">
+    <value>la data di fine non è valida</value>
+    <comment />
+  </data>
+  <data name="CustomerActiveIsNotValid" xml:space="preserve">
+    <value>il client attivo non è valido</value>
+    <comment />
+  </data>
+  <data name="StockIsInvalid" xml:space="preserve">
+    <value>lo stock non è valido</value>
+    <comment />
+  </data>
+  <data name="VATpercentage" xml:space="preserve">
+    <value>Percentuale IVA</value>
+  </data>
+  <data name="StockQuantity" xml:space="preserve">
+    <value>Quantità di scorta</value>
+  </data>
+  <data name="Side" xml:space="preserve">
+    <value>Lato</value>
+  </data>
+  <data name="Shelving" xml:space="preserve">
+    <value>Scaffalature</value>
+  </data>
+  <data name="section" xml:space="preserve">
+    <value>Sezione</value>
+  </data>
+  <data name="SalePrice" xml:space="preserve">
+    <value>Prezzo di vendita</value>
+  </data>
+  <data name="QuantityPerBox" xml:space="preserve">
+    <value>Quantità per scatola</value>
+  </data>
+  <data name="MaximumStock" xml:space="preserve">
+    <value>Massima scorta</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Linea</value>
+  </data>
+  <data name="ImageSecondary" xml:space="preserve">
+    <value>Immagine secondaria</value>
+  </data>
+  <data name="ImageMain" xml:space="preserve">
+    <value>Immagine principale</value>
+  </data>
+  <data name="DeleteSecondary" xml:space="preserve">
+    <value>Elimina secondario</value>
+  </data>
+  <data name="DeleteMain" xml:space="preserve">
+    <value>Elimina principale</value>
+  </data>
+  <data name="CostPrice" xml:space="preserve">
+    <value>Prezzo di costo</value>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>Colonna</value>
+  </data>
+  <data name="AddImageSecondary" xml:space="preserve">
+    <value>Aggiungi un'immagine secondaria</value>
+  </data>
+  <data name="AddImageMain" xml:space="preserve">
+    <value>Aggiungi immagine principale</value>
+  </data>
+  <data name="Attributes" xml:space="preserve">
+    <value>Attributi</value>
+  </data>
+  <data name="ComponentsAndApplications" xml:space="preserve">
+    <value>Componenti e applicazioni</value>
+  </data>
+  <data name="Conditions" xml:space="preserve">
+    <value>Condizioni</value>
+  </data>
+  <data name="ImageLocationComponents" xml:space="preserve">
+    <value>Immagine | Posizione | Componenti</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Principale</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="Prices" xml:space="preserve">
+    <value>Prezzi</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Proprietà</value>
+  </data>
+  <data name="StockAndPrices" xml:space="preserve">
+    <value>Stock e prezzi</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>identità</value>
+  </data>
+  <data name="AdvantageIsInvalid" xml:space="preserve">
+    <value>Il vantaggio non è valido</value>
+  </data>
+  <data name="BenefitIsInvalid" xml:space="preserve">
+    <value>Il beneficio non è valido</value>
+  </data>
+  <data name="ColumnIsInvalid" xml:space="preserve">
+    <value>La colonna non è valida</value>
+  </data>
+  <data name="FeatureIsInvalid" xml:space="preserve">
+    <value>La funzione non è valida</value>
+  </data>
+  <data name="LineIsInvalid" xml:space="preserve">
+    <value>La riga non è valida</value>
+  </data>
+  <data name="MaximumStockIsInvalid" xml:space="preserve">
+    <value>Lo stock massimo non è valido</value>
+  </data>
+  <data name="ProductServiceIsInvalid" xml:space="preserve">
+    <value>Il servizio del tipo di prodotto non è valido</value>
+  </data>
+  <data name="QuantityPerBoxIsInvalid" xml:space="preserve">
+    <value>La quantità per scatola non è valida</value>
+  </data>
+  <data name="ShelvingIsInvalid" xml:space="preserve">
+    <value>La scaffalatura non è valida</value>
+  </data>
+  <data name="SideIsInvalid" xml:space="preserve">
+    <value>Il lato non è valido</value>
+  </data>
+  <data name="QuantityStockIsInvalid" xml:space="preserve">
+    <value>Il prezzo di costo non è valido</value>
+  </data>
+  <data name="CostPriceIsInvalid" xml:space="preserve">
+    <value>La data di scadenza non è valida</value>
+  </data>
+  <data name="SalePriceIsInvalid" xml:space="preserve">
+    <value>La quantità di stock non è valida</value>
+  </data>
+  <data name="ExpireDateIsInvalid" xml:space="preserve">
+    <value>Il prezzo di vendita non è valido</value>
+  </data>
+  <data name="CopyCodeToClipboard" xml:space="preserve">
+    <value>Copia il codice negli appunti</value>
+  </data>
+  <data name="CopyPicture" xml:space="preserve">
+    <value>Copia immagine</value>
+  </data>
+  <data name="DeleteImage" xml:space="preserve">
+    <value>Elimina immagine</value>
+  </data>
+  <data name="EditImage" xml:space="preserve">
+    <value>Modifica immagine</value>
+  </data>
+  <data name="ExportImage" xml:space="preserve">
+    <value>Esporta immagine</value>
+  </data>
+  <data name="ModifyStock" xml:space="preserve">
+    <value>Modifica Stock</value>
+  </data>
+  <data name="PasteImage" xml:space="preserve">
+    <value>Incolla l'immagine</value>
+  </data>
+  <data name="PurchaseHistory" xml:space="preserve">
+    <value>Cronologia degli acquisti</value>
+  </data>
+  <data name="SelectItem" xml:space="preserve">
+    <value>Scegliere oggetto</value>
+  </data>
+  <data name="ViewImage" xml:space="preserve">
+    <value>Guarda l'immagine</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>A disposizione</value>
+  </data>
+  <data name="CancelSale" xml:space="preserve">
+    <value>Annulla vendita</value>
+  </data>
+  <data name="condition" xml:space="preserve">
+    <value>Condizione</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continua</value>
+  </data>
+  <data name="ContinueSellingProducts" xml:space="preserve">
+    <value>Continua a vendere prodotti</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Sconto</value>
+  </data>
+  <data name="DiscountRate" xml:space="preserve">
+    <value>Tasso di sconto</value>
+  </data>
+  <data name="displaySalesInvoice" xml:space="preserve">
+    <value>Visualizza fattura di vendita</value>
+  </data>
+  <data name="finish" xml:space="preserve">
+    <value>Fine</value>
+  </data>
+  <data name="finishInvoicing" xml:space="preserve">
+    <value>Termina la fatturazione</value>
+  </data>
+  <data name="Invoices" xml:space="preserve">
+    <value>Fatture</value>
+  </data>
+  <data name="PretendToPrint" xml:space="preserve">
+    <value>Fai finta di stampare</value>
+  </data>
+  <data name="Row" xml:space="preserve">
+    <value>Riga</value>
+  </data>
+  <data name="SelectCustomerRuc" xml:space="preserve">
+    <value>ssn del cliente</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Fermare</value>
+  </data>
+  <data name="StopSelling" xml:space="preserve">
+    <value>Smetti di vendere</value>
+  </data>
+  <data name="AddNewRow" xml:space="preserve">
+    <value>Aggiungi nuova riga</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>Clienti</value>
+  </data>
+  <data name="budgetPrinterName" xml:space="preserve">
+    <value>nome della stampante di bilancio</value>
+  </data>
+  <data name="InvoicePrinterName" xml:space="preserve">
+    <value>nome stampante fattura</value>
+  </data>
+  <data name="IsSaleImputQuantity" xml:space="preserve">
+    <value>indicare la quantità di prodotti</value>
+  </data>
+  <data name="PointOfSaleSetup" xml:space="preserve">
+    <value>allestimento punto vendita</value>
+  </data>
+  <data name="PersonIdIsInvalid" xml:space="preserve">
+    <value>l'ID persona non è valido</value>
+  </data>
+  <data name="PromissoryNoteIsInvalid" xml:space="preserve">
+    <value>il numero della cambiale non è valido</value>
+  </data>
+  <data name="NumberOfInstallments" xml:space="preserve">
+    <value>numero di installazioni</value>
+  </data>
+  <data name="NumberOfInstallmentsInvalid" xml:space="preserve">
+    <value>numero di rate non è valido</value>
+  </data>
+  <data name="AuthorizedStaff" xml:space="preserve">
+    <value>Personale autorizzato</value>
+  </data>
+  <data name="AuthorizingOfficer" xml:space="preserve">
+    <value>Autorità di acquisto</value>
+  </data>
+  <data name="SearchOfAuthorizeStaff" xml:space="preserve">
+    <value>ricerca di Personale Autorizzato</value>
+  </data>
+  <data name="SearchOfPersons" xml:space="preserve">
+    <value>ricerca di persone</value>
+  </data>
+  <data name="SearchOfPurchasingAuthority" xml:space="preserve">
+    <value>ricerca dell'Autorità Acquirente</value>
+  </data>
+  <data name="CustomerCurrencyIsInvalid" xml:space="preserve">
+    <value>selezione non consentita</value>
+  </data>
+  <data name="SelectionNotAllowed" xml:space="preserve">
+    <value>la valuta del cliente non è valida</value>
+  </data>
+  <data name="CurrencyDoesNotMatch" xml:space="preserve">
+    <value>la valuta non corrisponde</value>
+  </data>
+  <data name="ProductCurrencyIsInvalid" xml:space="preserve">
+    <value>La valuta del prodotto non è valida</value>
+  </data>
+  <data name="AmountPaid" xml:space="preserve">
+    <value>Importo pagato</value>
+  </data>
+  <data name="FinalizeCashSale" xml:space="preserve">
+    <value>Finalizzare la vendita in contanti</value>
+  </data>
+  <data name="SalePaymentDetail" xml:space="preserve">
+    <value>Dettaglio pagamento vendita</value>
+  </data>
+  <data name="change" xml:space="preserve">
+    <value>cambiare</value>
+  </data>
+  <data name="arrears" xml:space="preserve">
+    <value>arretrati</value>
+  </data>
+  <data name="Fees" xml:space="preserve">
+    <value>Commissioni</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Periodo</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>valore</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>Giorni</value>
+  </data>
+  <data name="FinalizeCreditSale" xml:space="preserve">
+    <value>registrare una vendita a credito</value>
+  </data>
+  <data name="SearchOfAuthorizingOfficer" xml:space="preserve">
+    <value>Cerca ordinatore</value>
+  </data>
+  <data name="SerialCodeIsInvalid" xml:space="preserve">
+    <value>il codice seriale non è valido</value>
+  </data>
+  <data name="ShopRuleIsInvalid" xml:space="preserve">
+    <value>la regola del negozio non è valida</value>
+  </data>
+  <data name="VisualizeSalesBill" xml:space="preserve">
+    <value>visualizzare le fatture di vendita</value>
+  </data>
+  <data name="InternalControl" xml:space="preserve">
+    <value>controllo interno</value>
+  </data>
+  <data name="DeliveryNote2" xml:space="preserve">
+    <value>bolla d'accompagnamento</value>
+  </data>
+  <data name="Budget" xml:space="preserve">
+    <value>Bilancio</value>
+  </data>
+  <data name="TotalSales" xml:space="preserve">
+    <value>vendite totali</value>
+  </data>
+  <data name="InternalControlIsInvalid" xml:space="preserve">
+    <value>il controllo interno non è valido</value>
+  </data>
+  <data name="BoxIsInvalid" xml:space="preserve">
+    <value>la casella non è valida</value>
+  </data>
+  <data name="PrintInternalControlLX-350" xml:space="preserve">
+    <value>Stampa controllo interno LX-350</value>
+  </data>
+  <data name="PrintInternalControlTM-T20" xml:space="preserve">
+    <value>Stampa controllo interno TM-T20</value>
+  </data>
+  <data name="PrintInternalControlTMU-220" xml:space="preserve">
+    <value>Stampa controllo interno TM-U220</value>
+  </data>
+  <data name="PrintInvoiceLX-350" xml:space="preserve">
+    <value>Stampa fattura LX-350</value>
+  </data>
+  <data name="VisualizeInternalControl" xml:space="preserve">
+    <value>Visualizza il controllo interno</value>
+  </data>
+  <data name="CancelInvoiceNumber" xml:space="preserve">
+    <value>Annulla numero fattura</value>
+  </data>
+  <data name="DeleteSale" xml:space="preserve">
+    <value>Elimina vendita</value>
+  </data>
+  <data name="SelectSale" xml:space="preserve">
+    <value>Seleziona Vendita</value>
+  </data>
+  <data name="SendByEmail" xml:space="preserve">
+    <value>Inviare per email</value>
+  </data>
+  <data name="POSdocument" xml:space="preserve">
+    <value>Stampa POS</value>
+  </data>
+  <data name="InvoiceAlreadyGenerated" xml:space="preserve">
+    <value>Fattura già generata</value>
+  </data>
+  <data name="ManageCashRegister" xml:space="preserve">
+    <value>Gestisci il registratore di cassa</value>
+  </data>
+  <data name="SelectActiveBox" xml:space="preserve">
+    <value>Seleziona casella attiva</value>
+  </data>
+  <data name="BoxSetting" xml:space="preserve">
+    <value>configurazione della scatola</value>
+  </data>
+  <data name="DefaultPerson" xml:space="preserve">
+    <value>persona predefinita</value>
+  </data>
+  <data name="AmountOfFeesIsInvalid" xml:space="preserve">
+    <value>L'importo delle commissioni non è valido</value>
+  </data>
+  <data name="ChargeWithInterest" xml:space="preserve">
+    <value>Carica con interessi</value>
+  </data>
+  <data name="InterestIsInvalid" xml:space="preserve">
+    <value>L'interesse non è valido</value>
+  </data>
+  <data name="PaymentValueIsInvalid" xml:space="preserve">
+    <value>Il valore del pagamento non è valido</value>
+  </data>
+  <data name="SaleFeesIdIsInvalid" xml:space="preserve">
+    <value>L'ID delle commissioni di vendita non è valido</value>
+  </data>
+  <data name="SaleIdIsInvalid" xml:space="preserve">
+    <value>ID vendita non valido</value>
+  </data>
+  <data name="PaymentIdIsInvalid" xml:space="preserve">
+    <value>L'ID del pagamento non è valido</value>
+  </data>
+  <data name="PaymentTypeIsInvalid" xml:space="preserve">
+    <value>Il tipo di pagamento non è valido</value>
+  </data>
+  <data name="PaymentDetailIsInvalid" xml:space="preserve">
+    <value>i dettagli del pagamento non sono validi</value>
+  </data>
+  <data name="InterestOnArrears" xml:space="preserve">
+    <value>Interessi di mora</value>
+  </data>
+  <data name="InterestOnArrearsIsInvalid" xml:space="preserve">
+    <value>Gli interessi di mora non sono validi</value>
+  </data>
+  <data name="StockModification" xml:space="preserve">
+    <value>modifica del magazzino</value>
+  </data>
+</root>

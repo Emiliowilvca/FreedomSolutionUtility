@@ -1,0 +1,4163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessPoint" xml:space="preserve">
+    <value>Toegangspunt</value>
+    <comment />
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Toegang geweigerd</value>
+    <comment />
+  </data>
+  <data name="Authorization" xml:space="preserve">
+    <value>Autorisatie</value>
+    <comment />
+  </data>
+  <data name="AuthorizationInfo" xml:space="preserve">
+    <value>Toegangsbeheer</value>
+    <comment />
+  </data>
+  <data name="BackToLogin" xml:space="preserve">
+    <value>terug naar Inloggen</value>
+    <comment />
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Wijzig Wachtwoord</value>
+    <comment />
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Bevestig uw Wachtwoord</value>
+    <comment />
+  </data>
+  <data name="ConfirmPasswordDoNotMatch" xml:space="preserve">
+    <value>{0} en {1} komen niet overeen</value>
+    <comment />
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Huidig wachtwoord</value>
+    <comment />
+  </data>
+  <data name="Email_Is_Invalid" xml:space="preserve">
+    <value>uw e-mailadres is ongeldig.</value>
+    <comment />
+  </data>
+  <data name="EmailClickLinkText" xml:space="preserve">
+    <value>Klik op deze link om de gebruiker te bevestigen :</value>
+    <comment />
+  </data>
+  <data name="EmailConfirm" xml:space="preserve">
+    <value>Bedankt voor het bevestigen van uw e-mail. Nu kunt u inloggen op het systeem.</value>
+    <comment />
+  </data>
+  <data name="EmailConfirmNewUser" xml:space="preserve">
+    <value>{0} Bevestig nieuwe gebruiker</value>
+    <comment />
+  </data>
+  <data name="EmailMsgActivate" xml:space="preserve">
+    <value>De instructies om de gebruiker toegang te geven, zijn per e-mail verzonden.</value>
+    <comment />
+  </data>
+  <data name="EmailNotCorrespond" xml:space="preserve">
+    <value>De e-mail komt niet overeen met een geregistreerde gebruiker.</value>
+    <comment />
+  </data>
+  <data name="ErrorCantCreateUser" xml:space="preserve">
+    <value>De gebruiker kan niet worden gemaakt.</value>
+    <comment />
+  </data>
+  <data name="ErrorFailedToLogin" xml:space="preserve">
+    <value>Inloggen mislukt</value>
+    <comment />
+  </data>
+  <data name="ErrorUsernameExits" xml:space="preserve">
+    <value>De e-mail is al geregistreerd.</value>
+    <comment />
+  </data>
+  <data name="ImageProfile" xml:space="preserve">
+    <value>Profielafbeelding</value>
+    <comment />
+  </data>
+  <data name="LicenseExpired" xml:space="preserve">
+    <value>Je licentiesleutel is verlopen</value>
+    <comment />
+  </data>
+  <data name="LoginAsAdministrator" xml:space="preserve">
+    <value>Login als beheerder</value>
+    <comment />
+  </data>
+  <data name="LoginInstructions" xml:space="preserve">
+    <value>Instructies om te beginnen zijn naar uw e-mail gestuurd. Controleer de link om in te loggen</value>
+    <comment />
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Inloggen</value>
+    <comment />
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Afmelden</value>
+    <comment />
+  </data>
+  <data name="LogoutQuestions" xml:space="preserve">
+    <value>is van plan uit te loggen</value>
+    <comment />
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Nieuw wachtwoord</value>
+    <comment />
+  </data>
+  <data name="NotAuthorized" xml:space="preserve">
+    <value>U bent niet gemachtigd om deze actie uit te voeren</value>
+    <comment />
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Wachtwoord</value>
+    <comment />
+  </data>
+  <data name="PasswordError" xml:space="preserve">
+    <value>Geef een geldig wachtwoord op</value>
+    <comment />
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>wachtwoord opnieuw instellen</value>
+    <comment />
+  </data>
+  <data name="PasswordResetButtonlink" xml:space="preserve">
+    <value>wachtwoord reset</value>
+    <comment />
+  </data>
+  <data name="PasswordResetError" xml:space="preserve">
+    <value>Fout bij het opnieuw instellen van je wachtwoord.</value>
+    <comment />
+  </data>
+  <data name="PasswordResetIntruction" xml:space="preserve">
+    <value>De instructies om het wachtwoord te herstellen zijn naar uw e-mailadres verzonden.</value>
+    <comment />
+  </data>
+  <data name="PasswordResetLink" xml:space="preserve">
+    <value>om het wachtwoord opnieuw in te stellen, klik in deze link:</value>
+    <comment />
+  </data>
+  <data name="PasswordResetSuccessful" xml:space="preserve">
+    <value>Reset wachtwoord succesvol.</value>
+    <comment />
+  </data>
+  <data name="PasswordResetTitle" xml:space="preserve">
+    <value>Royalsys wachtwoordherstel</value>
+    <comment />
+  </data>
+  <data name="PleaseSignin" xml:space="preserve">
+    <value>Log hier in alstublieft</value>
+    <comment />
+  </data>
+  <data name="ProfileUser" xml:space="preserve">
+    <value>Gebruikersprofiel</value>
+    <comment />
+  </data>
+  <data name="RecoverPassword" xml:space="preserve">
+    <value>wachtwoord herstellen</value>
+    <comment />
+  </data>
+  <data name="RecoverPasswordCompany" xml:space="preserve">
+    <value>{0} Wachtwoord herstellen</value>
+    <comment />
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>Registreer nieuwe gebruiker</value>
+    <comment />
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>Onthoud mijn gegevens?</value>
+    <comment />
+  </data>
+  <data name="RequiredToLogin" xml:space="preserve">
+    <value>Je moet inloggen </value>
+    <comment />
+  </data>
+  <data name="RoleNameInvestor" xml:space="preserve">
+    <value>Belegger</value>
+    <comment />
+  </data>
+  <data name="RoleNameAdministrator" xml:space="preserve">
+    <value>Administrator</value>
+    <comment />
+  </data>
+  <data name="RoleNameCustomer" xml:space="preserve">
+    <value>Klant</value>
+    <comment />
+  </data>
+  <data name="RoleNameFinance" xml:space="preserve">
+    <value>financiën</value>
+    <comment />
+  </data>
+  <data name="RoleNameOperator" xml:space="preserve">
+    <value>Operator</value>
+    <comment />
+  </data>
+  <data name="RoleNameProvider" xml:space="preserve">
+    <value>leverancier</value>
+    <comment />
+  </data>
+  <data name="RoleNameSeller" xml:space="preserve">
+    <value>Verkoper</value>
+    <comment />
+  </data>
+  <data name="RoleNameSuperuser" xml:space="preserve">
+    <value>Rootgebruiker</value>
+    <comment />
+  </data>
+  <data name="SavePassword" xml:space="preserve">
+    <value>Wachtwoord opslaan</value>
+    <comment />
+  </data>
+  <data name="SuccessfullyRegister" xml:space="preserve">
+    <value>U bent succesvol geregistreerd, we zijn bijna klaar.</value>
+    <comment />
+  </data>
+  <data name="ThanksRegistering" xml:space="preserve">
+    <value>Bedankt voor de registratie</value>
+    <comment />
+  </data>
+  <data name="UpdateUser" xml:space="preserve">
+    <value>Gebruiker bijwerken</value>
+    <comment />
+  </data>
+  <data name="UserAddress" xml:space="preserve">
+    <value>Adres</value>
+    <comment />
+  </data>
+  <data name="UserAlreadyRegistered" xml:space="preserve">
+    <value>De gebruiker is al geregistreerd</value>
+    <comment />
+  </data>
+  <data name="UserEmail" xml:space="preserve">
+    <value>Gebruikers e-mail</value>
+    <comment />
+  </data>
+  <data name="UserForgotPassword" xml:space="preserve">
+    <value>uw wachtwoord vergeten?</value>
+    <comment />
+  </data>
+  <data name="UserFullName" xml:space="preserve">
+    <value>Volledige naam</value>
+    <comment />
+  </data>
+  <data name="UserIsAdmin" xml:space="preserve">
+    <value>Is administrator?</value>
+    <comment />
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Gebruiker</value>
+    <comment />
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Gebruikersnaam</value>
+    <comment />
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>Gebruiker niet gevonden.</value>
+    <comment />
+  </data>
+  <data name="UserPhoneNumber" xml:space="preserve">
+    <value>Telefoon Nummer</value>
+    <comment />
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Gebruikers</value>
+    <comment />
+  </data>
+  <data name="UserUpdated" xml:space="preserve">
+    <value>Gebruiker bijgewerkt</value>
+    <comment />
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Toevoegen</value>
+    <comment />
+  </data>
+  <data name="Anonymous_NiceToMeetyou" xml:space="preserve">
+    <value>Het is leuk je te ontmoeten</value>
+    <comment />
+  </data>
+  <data name="Anonymous_WelcomeToBussiness" xml:space="preserve">
+    <value>welkom bij ons bedrijf</value>
+    <comment />
+  </data>
+  <data name="ApiAddress" xml:space="preserve">
+    <value>URL-adres</value>
+    <comment />
+  </data>
+  <data name="ApiAddress_Title" xml:space="preserve">
+    <value>Api Service configureren</value>
+    <comment />
+  </data>
+  <data name="ApiAddressTextEmpty" xml:space="preserve">
+    <value>Api-adrestekst is leeg</value>
+    <comment />
+  </data>
+  <data name="AppProduct" xml:space="preserve">
+    <value>JK-Shop is een product van Royalsys</value>
+    <comment />
+  </data>
+  <data name="AppType" xml:space="preserve">
+    <value>Zakelijke softwareoplossing</value>
+    <comment />
+  </data>
+  <data name="AccountStatement" xml:space="preserve">
+    <value>Rekeningoverzicht</value>
+    <comment />
+  </data>
+  <data name="BouncedCheck" xml:space="preserve">
+    <value>Stuiterde cheque</value>
+    <comment />
+  </data>
+  <data name="BankBranch" xml:space="preserve">
+    <value>Bankfiliaal</value>
+    <comment />
+  </data>
+  <data name="BankCheck" xml:space="preserve">
+    <value>Bankcheque</value>
+    <comment />
+  </data>
+  <data name="BankCheckNumber" xml:space="preserve">
+    <value>Chequenummer</value>
+    <comment />
+  </data>
+  <data name="BankCheckNumberExist" xml:space="preserve">
+    <value>Chequenummer bestaat al</value>
+    <comment />
+  </data>
+  <data name="BankCheckPayee" xml:space="preserve">
+    <value>Begunstigde</value>
+    <comment />
+  </data>
+  <data name="BankDepositAddNew" xml:space="preserve">
+    <value>Nieuwe storting</value>
+    <comment />
+  </data>
+  <data name="BankDepositedChecks" xml:space="preserve">
+    <value>Gedeponeerde cheques</value>
+    <comment />
+  </data>
+  <data name="BankDepositNumber" xml:space="preserve">
+    <value>Depositonummer</value>
+    <comment />
+  </data>
+  <data name="BankDepositNumExist" xml:space="preserve">
+    <value>Er bestaat al een aanbetalingsnummer</value>
+    <comment />
+  </data>
+  <data name="BankDepositoDetails" xml:space="preserve">
+    <value>Betaling gegevens</value>
+    <comment />
+  </data>
+  <data name="BankDepositReport2" xml:space="preserve">
+    <value>Bankstortingsrapport</value>
+    <comment />
+  </data>
+  <data name="BankExtraction" xml:space="preserve">
+    <value>bank extractie</value>
+    <comment />
+  </data>
+  <data name="BankExtractionReport" xml:space="preserve">
+    <value>Extracties Rapport</value>
+    <comment />
+  </data>
+  <data name="Bank" xml:space="preserve">
+    <value>Bank</value>
+    <comment />
+  </data>
+  <data name="BankManager" xml:space="preserve">
+    <value>Bankmanager</value>
+    <comment />
+  </data>
+  <data name="BankMyBank" xml:space="preserve">
+    <value>Onze bank</value>
+    <comment />
+  </data>
+  <data name="BankOtherBank" xml:space="preserve">
+    <value>Andere banken</value>
+    <comment />
+  </data>
+  <data name="BankReimbursed" xml:space="preserve">
+    <value>Vergoed</value>
+    <comment />
+  </data>
+  <data name="BankAccount" xml:space="preserve">
+    <value>Bankrekening</value>
+    <comment />
+  </data>
+  <data name="BankAccountType" xml:space="preserve">
+    <value>Soorten bankrekeningen</value>
+    <comment />
+  </data>
+  <data name="BankDeposit_ReportTitle" xml:space="preserve">
+    <value>Bankstortingen tussen datums per entiteit</value>
+    <comment />
+  </data>
+  <data name="BankDeposit_TitleCheckDeposited" xml:space="preserve">
+    <value>Cheques Gestort op rekening tussen datum</value>
+    <comment />
+  </data>
+  <data name="BankExtractionType" xml:space="preserve">
+    <value>Extractie</value>
+    <comment />
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>Vertakking</value>
+    <comment />
+  </data>
+  <data name="Branch_Name" xml:space="preserve">
+    <value>Naam vertakking</value>
+    <comment />
+  </data>
+  <data name="BusinessManagementSoftware" xml:space="preserve">
+    <value>business management software</value>
+    <comment />
+  </data>
+  <data name="Category_Name" xml:space="preserve">
+    <value>Categorienaam</value>
+    <comment />
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Categorie</value>
+    <comment />
+  </data>
+  <data name="CheckInternetConnection" xml:space="preserve">
+    <value>Controleer uw internetverbinding.</value>
+    <comment />
+  </data>
+  <data name="Cities" xml:space="preserve">
+    <value>STEDEN</value>
+    <comment />
+  </data>
+  <data name="City_ErrorMustSelect" xml:space="preserve">
+    <value>U moet een stad selecteren.</value>
+    <comment />
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Stad</value>
+    <comment />
+  </data>
+  <data name="City_Name" xml:space="preserve">
+    <value>Plaatsnaam</value>
+    <comment />
+  </data>
+  <data name="City_NoCitiesAddedYet" xml:space="preserve">
+    <value>geen steden toegevoegd straalvliegtuig</value>
+    <comment />
+  </data>
+  <data name="City_of" xml:space="preserve">
+    <value>Steden van</value>
+    <comment />
+  </data>
+  <data name="City_Pleseholder" xml:space="preserve">
+    <value>naam van de stad</value>
+    <comment />
+  </data>
+  <data name="City_SelectCombo" xml:space="preserve">
+    <value>Selecteer een stad</value>
+    <comment />
+  </data>
+  <data name="Company_Create" xml:space="preserve">
+    <value>Bedrijf maken</value>
+    <comment />
+  </data>
+  <data name="Company_Edith" xml:space="preserve">
+    <value>Update Bedrijf</value>
+    <comment />
+  </data>
+  <data name="Company_ErrorMustSelect" xml:space="preserve">
+    <value>U moet een bedrijf selecteren.</value>
+    <comment />
+  </data>
+  <data name="Company_Logo" xml:space="preserve">
+    <value>Logo</value>
+    <comment />
+  </data>
+  <data name="Company_OwnerLabel" xml:space="preserve">
+    <value>Eigenaar</value>
+    <comment />
+  </data>
+  <data name="Company_SelectCombo" xml:space="preserve">
+    <value>(Een bedrijf selecteren)</value>
+    <comment />
+  </data>
+  <data name="Company_TrialDay" xml:space="preserve">
+    <value>Proefperiode</value>
+    <comment />
+  </data>
+  <data name="ConfigureConnection" xml:space="preserve">
+    <value>Verbinding configureren</value>
+    <comment />
+  </data>
+  <data name="ConfigureDatabase" xml:space="preserve">
+    <value>Configureer de databaseserver</value>
+    <comment />
+  </data>
+  <data name="Countries" xml:space="preserve">
+    <value>Landen</value>
+    <comment />
+  </data>
+  <data name="Country_CannotLoadCountries" xml:space="preserve">
+    <value>kan landen niet laden</value>
+    <comment />
+  </data>
+  <data name="Country_ErrorMustSelect" xml:space="preserve">
+    <value>Selecteer een land</value>
+    <comment />
+  </data>
+  <data name="Country_Name" xml:space="preserve">
+    <value>Naam van het Land</value>
+    <comment />
+  </data>
+  <data name="Country_Pleaseholder" xml:space="preserve">
+    <value>naam van het land</value>
+    <comment />
+  </data>
+  <data name="Country_SelectCombo" xml:space="preserve">
+    <value>Selecteren een land</value>
+    <comment />
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Land</value>
+    <comment />
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>klant</value>
+    <comment />
+  </data>
+  <data name="DataBaseName" xml:space="preserve">
+    <value>Database</value>
+    <comment />
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Info</value>
+    <comment />
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Aanvaarden</value>
+    <comment />
+  </data>
+  <data name="AccountHolder" xml:space="preserve">
+    <value>Rekeninghouder</value>
+    <comment />
+  </data>
+  <data name="AccountNumber" xml:space="preserve">
+    <value>Rekeningnummer</value>
+    <comment />
+  </data>
+  <data name="AccountType" xml:space="preserve">
+    <value>Accounttype</value>
+    <comment />
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>Acties</value>
+    <comment />
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adres</value>
+    <comment />
+  </data>
+  <data name="AlreadyExists" xml:space="preserve">
+    <value>{0} bestaat al.</value>
+    <comment />
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Hoeveelheid</value>
+    <comment />
+  </data>
+  <data name="AmountIsInvalid" xml:space="preserve">
+    <value>Bedrag is niet geldig</value>
+    <comment />
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Toepassen</value>
+    <comment />
+  </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>kenmerk</value>
+    <comment />
+  </data>
+  <data name="BackToList" xml:space="preserve">
+    <value>Terug naar lijst</value>
+    <comment />
+  </data>
+  <data name="Birthdate" xml:space="preserve">
+    <value>Geboortedatum</value>
+    <comment />
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuleren</value>
+    <comment />
+  </data>
+  <data name="CardIdNumber" xml:space="preserve">
+    <value>Identiteitskaartnummer</value>
+    <comment />
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>Contant</value>
+    <comment />
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>Bestand kiezen</value>
+    <comment />
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Sluiten</value>
+    <comment />
+  </data>
+  <data name="Concept" xml:space="preserve">
+    <value>Concept</value>
+    <comment />
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Configuratie</value>
+    <comment />
+  </data>
+  <data name="CopyToClipboad" xml:space="preserve">
+    <value>Naar Klembord &amp;kopiëren</value>
+    <comment />
+  </data>
+  <data name="CreateNew" xml:space="preserve">
+    <value>Nieuwe creëren</value>
+    <comment />
+  </data>
+  <data name="CreditOfficer" xml:space="preserve">
+    <value>Credit Officer</value>
+    <comment />
+  </data>
+  <data name="EmptyTable" xml:space="preserve">
+    <value>Geen data beschikbaar in de tabel</value>
+    <comment />
+  </data>
+  <data name="LoadingRecords" xml:space="preserve">
+    <value>Laden</value>
+    <comment />
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>eerste</value>
+    <comment />
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Laatste</value>
+    <comment />
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Volgende</value>
+    <comment />
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Vorige</value>
+    <comment />
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>Verwerken...</value>
+    <comment />
+  </data>
+  <data name="NoRecordsFound" xml:space="preserve">
+    <value>Geen resultaten gevonden</value>
+    <comment />
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Datum</value>
+    <comment />
+  </data>
+  <data name="DateIsInvalid" xml:space="preserve">
+    <value>Datum is ongeldig</value>
+    <comment />
+  </data>
+  <data name="DateRange" xml:space="preserve">
+    <value>Datumbereik</value>
+    <comment />
+  </data>
+  <data name="DateRangeValidate" xml:space="preserve">
+    <value>verkeerde periode</value>
+    <comment />
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Verwijderen</value>
+    <comment />
+  </data>
+  <data name="Delete_Question" xml:space="preserve">
+    <value>Wilt u verwijderen?</value>
+    <comment />
+  </data>
+  <data name="DeleteItem" xml:space="preserve">
+    <value>Verwijder bestand</value>
+    <comment />
+  </data>
+  <data name="DeleteSuccessful" xml:space="preserve">
+    <value>Verwijderd</value>
+    <comment />
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>Gegevens</value>
+    <comment />
+  </data>
+  <data name="DetailWithoutRecords" xml:space="preserve">
+    <value>Detail zonder records</value>
+    <comment />
+  </data>
+  <data name="DocNumber" xml:space="preserve">
+    <value>Documentnummer</value>
+    <comment />
+  </data>
+  <data name="DueDate" xml:space="preserve">
+    <value>Einddatum</value>
+    <comment />
+  </data>
+  <data name="DuplicateEntry" xml:space="preserve">
+    <value>Dubbele vermelding</value>
+    <comment />
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Bewerk</value>
+    <comment />
+  </data>
+  <data name="EditPerson" xml:space="preserve">
+    <value>Persoon bewerken</value>
+    <comment />
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+    <comment />
+  </data>
+  <data name="EnterValidNumber" xml:space="preserve">
+    <value>Voer een geldig nummer in</value>
+    <comment />
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Fout</value>
+    <comment />
+  </data>
+  <data name="Error404" xml:space="preserve">
+    <value>Fout 404 - Pagina niet gevonden!</value>
+    <comment />
+  </data>
+  <data name="ErrorDataObtained" xml:space="preserve">
+    <value>Er kunnen geen gegevens worden opgehaald.</value>
+    <comment />
+  </data>
+  <data name="Expiration" xml:space="preserve">
+    <value>Verlooptijd</value>
+    <comment />
+  </data>
+  <data name="Facebook" xml:space="preserve">
+    <value>Facebook</value>
+    <comment />
+  </data>
+  <data name="FromCamera" xml:space="preserve">
+    <value>Van camera</value>
+    <comment />
+  </data>
+  <data name="FromGallery" xml:space="preserve">
+    <value>Uit galerie</value>
+    <comment />
+  </data>
+  <data name="GetRecords" xml:space="preserve">
+    <value>Records zoeken</value>
+    <comment />
+  </data>
+  <data name="InvalidDateFormat" xml:space="preserve">
+    <value>Vereist formaat is {0}</value>
+    <comment />
+  </data>
+  <data name="IsAvailable" xml:space="preserve">
+    <value>is beschikbaar</value>
+    <comment />
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Plaats</value>
+    <comment />
+  </data>
+  <data name="MainNavigation" xml:space="preserve">
+    <value>Hoofdnavigatie</value>
+    <comment />
+  </data>
+  <data name="MainPageTitle" xml:space="preserve">
+    <value>Fredom - Business management software</value>
+    <comment />
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Manager</value>
+    <comment />
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>Het veld {0} kan slechts {1} tekens bevatten.</value>
+    <comment />
+  </data>
+  <data name="MinLength" xml:space="preserve">
+    <value>Veld {0} moet ten minste {1} tekens bevatten.</value>
+    <comment />
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>Mobiel</value>
+    <comment />
+  </data>
+  <data name="ModifyRecord" xml:space="preserve">
+    <value>Wijzig record</value>
+    <comment />
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Naam</value>
+    <comment />
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nee</value>
+    <comment />
+  </data>
+  <data name="NoCameraSupported" xml:space="preserve">
+    <value>Het apparaat ondersteunt geen toegang tot de camera.</value>
+    <comment />
+  </data>
+  <data name="NoGallerySupported" xml:space="preserve">
+    <value>Het apparaat ondersteunt geen toegang tot de galerij.</value>
+    <comment />
+  </data>
+  <data name="NoRecordAddedYet" xml:space="preserve">
+    <value>Geen resultaat gevonden</value>
+    <comment />
+  </data>
+  <data name="NoResultFound" xml:space="preserve">
+    <value>Geen resultaten gevonden</value>
+    <comment />
+  </data>
+  <data name="UnAuthorized" xml:space="preserve">
+    <value>Niet gemachtigd</value>
+    <comment />
+  </data>
+  <data name="NumberIsInvalid" xml:space="preserve">
+    <value>Geen geldig BTW-nummer</value>
+    <comment />
+  </data>
+  <data name="OperationType" xml:space="preserve">
+    <value>Bewerkingstype </value>
+    <comment />
+  </data>
+  <data name="PageXofY" xml:space="preserve">
+    <value>Pagina {0} van {1}</value>
+    <comment />
+  </data>
+  <data name="PasteFromClipboard" xml:space="preserve">
+    <value>Plakken vanaf clipboard</value>
+    <comment />
+  </data>
+  <data name="PayBox" xml:space="preserve">
+    <value>Doos</value>
+    <comment />
+  </data>
+  <data name="PaymentDate" xml:space="preserve">
+    <value>Betaaldatum</value>
+    <comment />
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>Mensen</value>
+    <comment />
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Telefoon Nummer</value>
+    <comment />
+  </data>
+  <data name="Validate_PhoneNumberIsInvalid" xml:space="preserve">
+    <value>Geen geldig telefoonnummer</value>
+    <comment />
+  </data>
+  <data name="PictureSource" xml:space="preserve">
+    <value>Waar wil je de foto maken?</value>
+    <comment />
+  </data>
+  <data name="Placeholder" xml:space="preserve">
+    <value>Voer een tekst in</value>
+    <comment />
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Afdrukken</value>
+    <comment />
+  </data>
+  <data name="RecordExists" xml:space="preserve">
+    <value>dit record bestaat al</value>
+    <comment />
+  </data>
+  <data name="RecordNotFound" xml:space="preserve">
+    <value>Kan de record niet vinden</value>
+    <comment />
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Rapporten</value>
+    <comment />
+  </data>
+  <data name="Requiered" xml:space="preserve">
+    <value>Het veld {0} is verplicht</value>
+    <comment />
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Terugzenden</value>
+    <comment />
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Opslaan</value>
+    <comment />
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Zoeken</value>
+    <comment />
+  </data>
+  <data name="ReturnEmptySearch" xml:space="preserve">
+    <value>Zoekresultaat zonder records</value>
+    <comment />
+  </data>
+  <data name="SelectItemCombo" xml:space="preserve">
+    <value>(Artikel selecteren)</value>
+    <comment />
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>Opties selecteren</value>
+    <comment />
+  </data>
+  <data name="Sender" xml:space="preserve">
+    <value>Afzender</value>
+    <comment />
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>omgeving</value>
+    <comment />
+  </data>
+  <data name="DateSince" xml:space="preserve">
+    <value>Sinds datum</value>
+    <comment />
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>Subtotaal</value>
+    <comment />
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Geslaagd</value>
+    <comment />
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Totaal</value>
+    <comment />
+  </data>
+  <data name="TotalRecord" xml:space="preserve">
+    <value>Totaal aantal registraties</value>
+    <comment />
+  </data>
+  <data name="DateUntil" xml:space="preserve">
+    <value>Tot op heden</value>
+    <comment />
+  </data>
+  <data name="UpdateSuccessful" xml:space="preserve">
+    <value>Update geïnstalleerd</value>
+    <comment />
+  </data>
+  <data name="Web" xml:space="preserve">
+    <value>web</value>
+    <comment />
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welkom</value>
+    <comment />
+  </data>
+  <data name="WelcomeTo" xml:space="preserve">
+    <value>Welkom bij {0}</value>
+    <comment />
+  </data>
+  <data name="WhatsApp" xml:space="preserve">
+    <value>WhatsApp</value>
+    <comment />
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Ja</value>
+    <comment />
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Groep</value>
+    <comment />
+  </data>
+  <data name="Group_Pleaseholder" xml:space="preserve">
+    <value>Naam van de groep</value>
+    <comment />
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>startpagina</value>
+    <comment />
+  </data>
+  <data name="HostAddress" xml:space="preserve">
+    <value>Hostadres</value>
+    <comment />
+  </data>
+  <data name="IntendsToCancel" xml:space="preserve">
+    <value>Is van plan om te annuleren.</value>
+    <comment />
+  </data>
+  <data name="Kardex" xml:space="preserve">
+    <value>Kardex</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityBakeries" xml:space="preserve">
+    <value>Bakkerijen en zoetwaren</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityClothesStores" xml:space="preserve">
+    <value>Kleding en leer</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityHardwarePaints" xml:space="preserve">
+    <value>hardware en verf</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityIndustries" xml:space="preserve">
+    <value>Branches</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityMotorcicleParts" xml:space="preserve">
+    <value>Motoronderdelen en accessoires</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityPharmacy" xml:space="preserve">
+    <value>Apotheken en parfumerieën</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivitySparePartsVehicle" xml:space="preserve">
+    <value>reserveonderdelen voor voertuigen en machines</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityStationery" xml:space="preserve">
+    <value>Kantoorartikelen</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivitySupermarket" xml:space="preserve">
+    <value>Supermarkt</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityToyStore" xml:space="preserve">
+    <value>Winkel</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageAutomateWorkflow" xml:space="preserve">
+    <value>Automatiseer workflow</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageBestPlanning" xml:space="preserve">
+    <value>Planning</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageImproveAdministrativeProcedures" xml:space="preserve">
+    <value>Verbeter administratieve procedures</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageMarketProjections" xml:space="preserve">
+    <value>Marktprojecties</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageMultipleReportsDataAnalysis" xml:space="preserve">
+    <value>Meerdere rapporten en gegevensanalyse</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageOptimizationCommercialOperations" xml:space="preserve">
+    <value>Optimalisatie van commerciële activiteiten</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageOptimizeCustomerSupplierRelationships" xml:space="preserve">
+    <value>Optimaliseer klant- en leveranciersrelaties</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageReduceAdministrativeTime" xml:space="preserve">
+    <value>Verminder administratieve tijd</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitAttractingNewBusinessIdeas" xml:space="preserve">
+    <value>Nieuwe zakelijke ideeën aantrekken</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitCurrencyFlowStability" xml:space="preserve">
+    <value>Valutastroomstabiliteit</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitCustomerLoyalty" xml:space="preserve">
+    <value>Customer loyalty</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitFacilityForWorkTeam" xml:space="preserve">
+    <value>Faciliteit voor het werkteam</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitIncreaseIncomeLiquidity" xml:space="preserve">
+    <value>Toename van inkomen en liquiditeit</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitIncreasingCustomerBase" xml:space="preserve">
+    <value>Klantenbestand vergroten</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitReduceDepartmentCosts" xml:space="preserve">
+    <value>Verlaag afdelingskosten</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitStabilityCommitmentsSuppliers" xml:space="preserve">
+    <value>Stabiliteit in verplichtingen met leveranciers</value>
+    <comment />
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Financieel</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelEmployee" xml:space="preserve">
+    <value>werknemers</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelOrders" xml:space="preserve">
+    <value>Bestellingen en leveringen</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelProduct" xml:space="preserve">
+    <value>producten</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelTransport" xml:space="preserve">
+    <value>Transporten</value>
+    <comment />
+  </data>
+  <data name="Logout_CustomizableSoft" xml:space="preserve">
+    <value>Personaliseerbare crm software</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureContactOpportunityManagement" xml:space="preserve">
+    <value>Contact- en opportunitybeheer</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureCreationOffers" xml:space="preserve">
+    <value>Creëren van aanbiedingen, met productdetails, tarieven, prijzen en kortingen.</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureCustomize options" xml:space="preserve">
+    <value>Opties voor aanpassen</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureDeliveryManagement" xml:space="preserve">
+    <value>bezorgingsbeheer</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureLoanManagement" xml:space="preserve">
+    <value>Lening directie</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureManagementObjectives" xml:space="preserve">
+    <value>Beheer van doelstellingen en doelen</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureMonitoringTracking" xml:space="preserve">
+    <value>Monitoring en volgen van kansen, verkopen en doelstellingen op datums.</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureObtainingReportsAnalysis" xml:space="preserve">
+    <value>Rapporten en analyse verkrijgen</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureOrderSalesTracking" xml:space="preserve">
+    <value>Order- en verkooptracking</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureSalesZones" xml:space="preserve">
+    <value>Verkoopzones</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureStrategicBusinessPlanning" xml:space="preserve">
+    <value>Strategische bedrijfsplanning</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureSynchronizationMobility" xml:space="preserve">
+    <value>Synchronisatie en mobiliteit</value>
+    <comment />
+  </data>
+  <data name="Logout_ModBanks" xml:space="preserve">
+    <value>Banken</value>
+    <comment />
+  </data>
+  <data name="Logout_ModCustomer" xml:space="preserve">
+    <value>Klant</value>
+    <comment />
+  </data>
+  <data name="Logout_ModCustomerOrders" xml:space="preserve">
+    <value>Klantorders</value>
+    <comment />
+  </data>
+  <data name="Logout_ModEmployee" xml:space="preserve">
+    <value>werknemer</value>
+    <comment />
+  </data>
+  <data name="Payments" xml:space="preserve">
+    <value>Betalingen</value>
+    <comment />
+  </data>
+  <data name="Logout_ModProducts" xml:space="preserve">
+    <value>Producten, Voorraad, Voorraad</value>
+    <comment />
+  </data>
+  <data name="Logout_ModPurchase" xml:space="preserve">
+    <value>Inkoop</value>
+    <comment />
+  </data>
+  <data name="Logout_ModRetail" xml:space="preserve">
+    <value>Retailers</value>
+    <comment />
+  </data>
+  <data name="Logout_ModReturns" xml:space="preserve">
+    <value>Retourneert</value>
+    <comment />
+  </data>
+  <data name="Logout_ModSales" xml:space="preserve">
+    <value>Verkoop, tickets, factuur</value>
+    <comment />
+  </data>
+  <data name="Logout_ModSupport" xml:space="preserve">
+    <value>Technische ondersteuning</value>
+    <comment />
+  </data>
+  <data name="Logout_Modwholesalers" xml:space="preserve">
+    <value>Groothandelaren</value>
+    <comment />
+  </data>
+  <data name="Advantage" xml:space="preserve">
+    <value>Voordeel</value>
+    <comment />
+  </data>
+  <data name="Applications" xml:space="preserve">
+    <value>Toepassingen</value>
+    <comment />
+  </data>
+  <data name="Benefits" xml:space="preserve">
+    <value>Voordelen</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleBusinessManagementSoftware" xml:space="preserve">
+    <value>business management software</value>
+    <comment />
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Kenmerken</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleModule" xml:space="preserve">
+    <value>Modules</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleTradeActivity" xml:space="preserve">
+    <value>handelsactiviteit</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleWebPlatformMobileDesktop" xml:space="preserve">
+    <value>Webplatform, mobiel en desktop</value>
+    <comment />
+  </data>
+  <data name="Measure" xml:space="preserve">
+    <value>Meet eenheid</value>
+    <comment />
+  </data>
+  <data name="Measure_name" xml:space="preserve">
+    <value>Meeteenheid</value>
+    <comment />
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>werknemer</value>
+    <comment />
+  </data>
+  <data name="MenuMain_Finance" xml:space="preserve">
+    <value>Financiën</value>
+    <comment />
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>producten</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabAdministration" xml:space="preserve">
+    <value>toediening</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabConfiguration" xml:space="preserve">
+    <value>Configuratie</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabEmployee" xml:space="preserve">
+    <value>werknemers</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabFile" xml:space="preserve">
+    <value>het dossier</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabFinance" xml:space="preserve">
+    <value>financiën</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabProcess" xml:space="preserve">
+    <value>werkwijze</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabTransport" xml:space="preserve">
+    <value>vervoer</value>
+    <comment />
+  </data>
+  <data name="Money" xml:space="preserve">
+    <value>Valuta</value>
+    <comment />
+  </data>
+  <data name="Quote" xml:space="preserve">
+    <value>Koers</value>
+    <comment />
+  </data>
+  <data name="Symbol" xml:space="preserve">
+    <value>Symbool</value>
+    <comment />
+  </data>
+  <data name="Orders" xml:space="preserve">
+    <value>Volgorde</value>
+    <comment />
+  </data>
+  <data name="Package" xml:space="preserve">
+    <value>Pakket</value>
+    <comment />
+  </data>
+  <data name="Package_Name" xml:space="preserve">
+    <value>Pakketnaam</value>
+    <comment />
+  </data>
+  <data name="CustomerPayment" xml:space="preserve">
+    <value>Klantbetaling</value>
+    <comment />
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Poort</value>
+    <comment />
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>prijs</value>
+    <comment />
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>Prioriteit</value>
+    <comment />
+  </data>
+  <data name="Priority_Name" xml:space="preserve">
+    <value>Naam van prioriteit</value>
+    <comment />
+  </data>
+  <data name="ProductActive" xml:space="preserve">
+    <value>Actief product</value>
+    <comment />
+  </data>
+  <data name="AlterStock" xml:space="preserve">
+    <value>Wijzig voorraad</value>
+    <comment />
+  </data>
+  <data name="ProductApply" xml:space="preserve">
+    <value>Productapplicatie</value>
+    <comment />
+  </data>
+  <data name="Barcode" xml:space="preserve">
+    <value>Streepjescode</value>
+    <comment />
+  </data>
+  <data name="ProductChecked" xml:space="preserve">
+    <value>Product gecontroleerd</value>
+    <comment />
+  </data>
+  <data name="ProductCode" xml:space="preserve">
+    <value>Code</value>
+    <comment />
+  </data>
+  <data name="CommissionSale" xml:space="preserve">
+    <value>Verkoop - provisie</value>
+    <comment />
+  </data>
+  <data name="Drug" xml:space="preserve">
+    <value>Onderdelen</value>
+    <comment />
+  </data>
+  <data name="GenericName" xml:space="preserve">
+    <value>Algemene naam</value>
+    <comment />
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>producten</value>
+    <comment />
+  </data>
+  <data name="MaximumDiscount" xml:space="preserve">
+    <value>Maximumkorting</value>
+    <comment />
+  </data>
+  <data name="MinimumStock" xml:space="preserve">
+    <value>Minimale voorraad</value>
+    <comment />
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>Handelsnaam</value>
+    <comment />
+  </data>
+  <data name="ProviderCode" xml:space="preserve">
+    <value>Dienstverlener</value>
+    <comment />
+  </data>
+  <data name="PayTax" xml:space="preserve">
+    <value>betaal</value>
+    <comment />
+  </data>
+  <data name="TaxRate" xml:space="preserve">
+    <value>BTW-tarief</value>
+    <comment />
+  </data>
+  <data name="WayAdmin" xml:space="preserve">
+    <value>Toedieningsvorm</value>
+    <comment />
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Gewicht</value>
+    <comment />
+  </data>
+  <data name="Wholesaler" xml:space="preserve">
+    <value>Groothandelaar</value>
+    <comment />
+  </data>
+  <data name="Provider" xml:space="preserve">
+    <value>leverancier</value>
+    <comment />
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>Inkoop</value>
+    <comment />
+  </data>
+  <data name="Route" xml:space="preserve">
+    <value>Route</value>
+    <comment />
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>Verkoop</value>
+    <comment />
+  </data>
+  <data name="Sector" xml:space="preserve">
+    <value>Productsector</value>
+    <comment />
+  </data>
+  <data name="SectorProductName" xml:space="preserve">
+    <value>Nieuwe sector naam</value>
+    <comment />
+  </data>
+  <data name="Shop" xml:space="preserve">
+    <value>winkel</value>
+    <comment />
+  </data>
+  <data name="SourceProduct" xml:space="preserve">
+    <value>Producten Bron</value>
+    <comment />
+  </data>
+  <data name="SourceProduct_Name" xml:space="preserve">
+    <value>Naam van bron</value>
+    <comment />
+  </data>
+  <data name="State_ErrorMustSelect" xml:space="preserve">
+    <value>U moet een staat selecteren.</value>
+    <comment />
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Staat</value>
+    <comment />
+  </data>
+  <data name="State_Name" xml:space="preserve">
+    <value>Provincie</value>
+    <comment />
+  </data>
+  <data name="State_of" xml:space="preserve">
+    <value>Staten van</value>
+    <comment />
+  </data>
+  <data name="State_Pleaseholder" xml:space="preserve">
+    <value>naam van de staat</value>
+    <comment />
+  </data>
+  <data name="State_SelectCombo" xml:space="preserve">
+    <value>Selecteer een staat</value>
+    <comment />
+  </data>
+  <data name="States" xml:space="preserve">
+    <value>Provincies</value>
+    <comment />
+  </data>
+  <data name="Store" xml:space="preserve">
+    <value>Store</value>
+    <comment />
+  </data>
+  <data name="SubGroup" xml:space="preserve">
+    <value>Subgroep</value>
+    <comment />
+  </data>
+  <data name="SubGroup_of" xml:space="preserve">
+    <value>Subgroep van</value>
+    <comment />
+  </data>
+  <data name="Subgroup_pleaseholder" xml:space="preserve">
+    <value>Naam van de subgroep</value>
+    <comment />
+  </data>
+  <data name="SuccessfulEntry" xml:space="preserve">
+    <value>succesvolle deelname</value>
+    <comment />
+  </data>
+  <data name="Trademark" xml:space="preserve">
+    <value>Handelsmerk</value>
+    <comment />
+  </data>
+  <data name="TrademarkName" xml:space="preserve">
+    <value>Handelsmerknaam</value>
+    <comment />
+  </data>
+  <data name="Validate_Address" xml:space="preserve">
+    <value>Het adres is niet geldig</value>
+    <comment />
+  </data>
+  <data name="CantFinishedProccess" xml:space="preserve">
+    <value>Het proces kan niet worden beëindigd</value>
+    <comment />
+  </data>
+  <data name="Validate_CardId" xml:space="preserve">
+    <value>Documentnummer is niet geldig</value>
+    <comment />
+  </data>
+  <data name="Validate_CityName" xml:space="preserve">
+    <value>Plaatsnaam is niet geldig.</value>
+    <comment />
+  </data>
+  <data name="Validate_CountryName" xml:space="preserve">
+    <value>Landnaam is geen geldig.</value>
+    <comment />
+  </data>
+  <data name="Validate_Email" xml:space="preserve">
+    <value>Dit e-mailadres is ongeldig.</value>
+    <comment />
+  </data>
+  <data name="Validate_maxLenght" xml:space="preserve">
+    <value>Het veld kan alleen {1} tekens lengte bevatten.</value>
+    <comment />
+  </data>
+  <data name="Validate_Name" xml:space="preserve">
+    <value>U moet zowel uw voor- als achternaam invoeren</value>
+    <comment />
+  </data>
+  <data name="Validate_NameIsRequiered" xml:space="preserve">
+    <value>Naam is vereist.</value>
+    <comment />
+  </data>
+  <data name="Validate_StateName" xml:space="preserve">
+    <value>De naam van de staat is geen geldig.</value>
+    <comment />
+  </data>
+  <data name="Visitor_Basket" xml:space="preserve">
+    <value>MAND</value>
+    <comment />
+  </data>
+  <data name="Visitor_Catalog" xml:space="preserve">
+    <value>CATALOGUS</value>
+    <comment />
+  </data>
+  <data name="Visitor_Order" xml:space="preserve">
+    <value>BESTELLINGEN</value>
+    <comment />
+  </data>
+  <data name="zip" xml:space="preserve">
+    <value>Postcode</value>
+    <comment />
+  </data>
+  <data name="Zone" xml:space="preserve">
+    <value>Zone</value>
+    <comment />
+  </data>
+  <data name="Zone_Name" xml:space="preserve">
+    <value>Zonenaam</value>
+    <comment />
+  </data>
+  <data name="Validate_Owner" xml:space="preserve">
+    <value>De naam van de eigenaar is vereist.</value>
+    <comment />
+  </data>
+  <data name="Validate_Facebook" xml:space="preserve">
+    <value>Facebook is vereist.</value>
+    <comment />
+  </data>
+  <data name="Validate_Whatsapp" xml:space="preserve">
+    <value>het whatsapp-veld is verkeerd</value>
+    <comment />
+  </data>
+  <data name="ErrorOnSave" xml:space="preserve">
+    <value>Fout bij opslaan.</value>
+    <comment />
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Bijwerken</value>
+    <comment />
+  </data>
+  <data name="Alter" xml:space="preserve">
+    <value>Wijzigen</value>
+    <comment />
+  </data>
+  <data name="DateRegister" xml:space="preserve">
+    <value>Registratiedatum</value>
+    <comment />
+  </data>
+  <data name="FieldIsRequiered" xml:space="preserve">
+    <value>Het veld {0} is verplicht</value>
+    <comment />
+  </data>
+  <data name="owner" xml:space="preserve">
+    <value>Eigenaar</value>
+    <comment />
+  </data>
+  <data name="MaxLengthCharacter" xml:space="preserve">
+    <value>maximale lengte karakter</value>
+    <comment />
+  </data>
+  <data name="FieldNameIsNotValid" xml:space="preserve">
+    <value>de naam is niet geldig</value>
+    <comment />
+  </data>
+  <data name="FieldOwnerIsNotValid" xml:space="preserve">
+    <value>de eigenaar is niet geldig</value>
+    <comment />
+  </data>
+  <data name="FieldWhatsappIsNotValid" xml:space="preserve">
+    <value>de whatsapp is niet geldig</value>
+    <comment />
+  </data>
+  <data name="FieldFacebookAddressIsNotValid" xml:space="preserve">
+    <value>het facebook adres is niet geldig</value>
+    <comment />
+  </data>
+  <data name="FieldPhoneNumberIsNotValid" xml:space="preserve">
+    <value>ongeldig telefoonnummer</value>
+    <comment />
+  </data>
+  <data name="FieldCityIsNotValid" xml:space="preserve">
+    <value>plaatsnaam is ongeldig</value>
+    <comment />
+  </data>
+  <data name="FieldCountryIsNotValid" xml:space="preserve">
+    <value>Landnaam is ongeldig</value>
+    <comment />
+  </data>
+  <data name="FieldStateIsNotValid" xml:space="preserve">
+    <value>Staat is ongeldig</value>
+    <comment />
+  </data>
+  <data name="FieldAddressIsNotValid" xml:space="preserve">
+    <value>Adres is ongeldig</value>
+    <comment />
+  </data>
+  <data name="CancelByTocken" xml:space="preserve">
+    <value>Deze bewerking is geannuleerd</value>
+    <comment />
+  </data>
+  <data name="ConfirmToFinish" xml:space="preserve">
+    <value>Bevestig om te voltooien</value>
+    <comment />
+  </data>
+  <data name="PasswordMinimunLength" xml:space="preserve">
+    <value>Minimale wachtwoordlengte is 6 tekens</value>
+    <comment />
+  </data>
+  <data name="PasswordMaxLength" xml:space="preserve">
+    <value>maximale wachtwoordlengte is 20 tekens</value>
+    <comment />
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>e-mail is vereist</value>
+    <comment />
+  </data>
+  <data name="ItemsperPage" xml:space="preserve">
+    <value>items per pagina is niet geldig</value>
+    <comment />
+  </data>
+  <data name="IdParameterOutOfRange" xml:space="preserve">
+    <value>Identiteitsparameter buiten bereik</value>
+    <comment />
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Een ogenblik geduld</value>
+    <comment />
+  </data>
+  <data name="ProcessHasBeenCanceled" xml:space="preserve">
+    <value>De verwerking is geannuleerd</value>
+    <comment />
+  </data>
+  <data name="RecordsProcessedSuccessfully" xml:space="preserve">
+    <value>Records succesvol verwerkt</value>
+    <comment />
+  </data>
+  <data name="UserIdIsInvalid" xml:space="preserve">
+    <value>ID is ongeldig</value>
+    <comment />
+  </data>
+  <data name="AccessPointIsNullOrEmpty" xml:space="preserve">
+    <value>Toegangspunt is null of leeg</value>
+    <comment />
+  </data>
+  <data name="IdentityNumberIsNotValid" xml:space="preserve">
+    <value>Nummer is ongeldig</value>
+    <comment />
+  </data>
+  <data name="CompanyIdIsInvalid" xml:space="preserve">
+    <value>Bedrijfs-ID is ongeldig</value>
+    <comment />
+  </data>
+  <data name="EmailUserCreate" xml:space="preserve">
+    <value>Er is een wachtwoord naar uw e-mailadres gestuurd, verifieer dit om in te loggen</value>
+    <comment />
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>Ongeldige inlogpoging. U moet een bevestigd e-mailadres hebben.</value>
+    <comment />
+  </data>
+  <data name="NewUserValidation" xml:space="preserve">
+    <value>Nieuwe gebruikersvalidatie</value>
+    <comment />
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Bevestigen</value>
+    <comment />
+  </data>
+  <data name="ConfirmationCode" xml:space="preserve">
+    <value>Bevestigingscode</value>
+    <comment />
+  </data>
+  <data name="EnterConfirmationCodeReceived" xml:space="preserve">
+    <value>voer de bevestigingscode in die u in uw e-mail hebt ontvangen</value>
+    <comment />
+  </data>
+  <data name="ValidationCodeIsInvalid" xml:space="preserve">
+    <value>validatiecode is ongeldig</value>
+    <comment />
+  </data>
+  <data name="TokenDoesNotExist" xml:space="preserve">
+    <value>Toegangstoken bestaat niet.</value>
+    <comment />
+  </data>
+  <data name="UserRegisterCorrectly" xml:space="preserve">
+    <value>de gebruiker is al correct geregistreerd</value>
+    <comment />
+  </data>
+  <data name="UserSettingIsInvalid" xml:space="preserve">
+    <value>gebruikersinstelling is ongeldig</value>
+    <comment />
+  </data>
+  <data name="EmployeeIdIsNull" xml:space="preserve">
+    <value>Werknemer is ongeldig</value>
+    <comment />
+  </data>
+  <data name="UserIsInvalid" xml:space="preserve">
+    <value>Gebruiker is ongeldig</value>
+    <comment />
+  </data>
+  <data name="ShopIsInvalid" xml:space="preserve">
+    <value>Winkel is ongeldig</value>
+    <comment />
+  </data>
+  <data name="BoxIdIsInvalid" xml:space="preserve">
+    <value>Vak is ongeldig</value>
+    <comment />
+  </data>
+  <data name="UserHasNoConfiguration" xml:space="preserve">
+    <value>gebruiker heeft geen configuratie</value>
+    <comment />
+  </data>
+  <data name="UserSetting" xml:space="preserve">
+    <value>Gebruikersinstelling</value>
+    <comment />
+  </data>
+  <data name="UserSettingAndRoles" xml:space="preserve">
+    <value>Gebruikersinstelling en -rollen</value>
+    <comment />
+  </data>
+  <data name="Box" xml:space="preserve">
+    <value>Kassa</value>
+    <comment />
+  </data>
+  <data name="EnterHereToSearch" xml:space="preserve">
+    <value>Voer onderdeel in om te zoeken</value>
+    <comment />
+  </data>
+  <data name="SearchOfShops" xml:space="preserve">
+    <value>Zoek Winkel</value>
+    <comment />
+  </data>
+  <data name="SearchOfBox" xml:space="preserve">
+    <value>zoek naar kassa</value>
+    <comment />
+  </data>
+  <data name="SearchOfUsers" xml:space="preserve">
+    <value>Zoeken naar gebruikers</value>
+    <comment />
+  </data>
+  <data name="SearchOfEmployees" xml:space="preserve">
+    <value>zoeken naar werknemer</value>
+    <comment />
+  </data>
+  <data name="SearchBranchOffices" xml:space="preserve">
+    <value>Zoek filialen</value>
+    <comment />
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>Opnieuw laden</value>
+    <comment />
+  </data>
+  <data name="Job_Position" xml:space="preserve">
+    <value>Functie</value>
+    <comment />
+  </data>
+  <data name="job_Sectors" xml:space="preserve">
+    <value>Vacature Branche</value>
+    <comment />
+  </data>
+  <data name="ErrorWhenSelectingItem" xml:space="preserve">
+    <value>Fout bij het selecteren van ítem</value>
+    <comment />
+  </data>
+  <data name="PriceLevel" xml:space="preserve">
+    <value>prijsniveau</value>
+    <comment />
+  </data>
+  <data name="DiscountMaxRate" xml:space="preserve">
+    <value>Maximaal kortingstarief</value>
+    <comment />
+  </data>
+  <data name="SearchOfGroups" xml:space="preserve">
+    <value>Zoeken van groepen</value>
+    <comment />
+  </data>
+  <data name="SearchOfZones" xml:space="preserve">
+    <value>zoeken naar zones</value>
+    <comment />
+  </data>
+  <data name="SearchOfOperationTypes" xml:space="preserve">
+    <value>Zoeken op type bewerking</value>
+    <comment />
+  </data>
+  <data name="ContactNameIsInvalid" xml:space="preserve">
+    <value>Contactnaam is ongeldig</value>
+    <comment />
+  </data>
+  <data name="RucNumberIsInvalid" xml:space="preserve">
+    <value>Het documentnummer van de Belastingbetaler is niet geldig</value>
+    <comment />
+  </data>
+  <data name="ProviderType_ErrorMustSelect" xml:space="preserve">
+    <value>U moet een providertype selecteren</value>
+    <comment />
+  </data>
+  <data name="PaymentType_ErrorMustSelect" xml:space="preserve">
+    <value>Du skal vælge en betalingstype</value>
+    <comment />
+  </data>
+  <data name="StampIsInvalid" xml:space="preserve">
+    <value>de stempel is ongeldig</value>
+    <comment />
+  </data>
+  <data name="BankErrorMustSelect" xml:space="preserve">
+    <value>U moet een bank selecteren</value>
+    <comment />
+  </data>
+  <data name="SearchOfProvider" xml:space="preserve">
+    <value>zoeken naar leveranciers</value>
+    <comment />
+  </data>
+  <data name="BusinessName" xml:space="preserve">
+    <value>Handelsnaam</value>
+    <comment />
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Bedrijf</value>
+    <comment />
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>Service</value>
+    <comment />
+  </data>
+  <data name="Production" xml:space="preserve">
+    <value>Productie</value>
+    <comment />
+  </data>
+  <data name="CattleRaising" xml:space="preserve">
+    <value>veeteelt</value>
+    <comment />
+  </data>
+  <data name="comercialContact" xml:space="preserve">
+    <value>Contactgegevens</value>
+    <comment />
+  </data>
+  <data name="RUC" xml:space="preserve">
+    <value>BSN</value>
+    <comment />
+  </data>
+  <data name="stamped" xml:space="preserve">
+    <value>geponst gat</value>
+    <comment />
+  </data>
+  <data name="PaymentType" xml:space="preserve">
+    <value>Betaalopties</value>
+    <comment />
+  </data>
+  <data name="ProviderType" xml:space="preserve">
+    <value>Aanbiedertype</value>
+    <comment />
+  </data>
+  <data name="SearchOfProviderType" xml:space="preserve">
+    <value>Zoek naar soorten Providers</value>
+    <comment />
+  </data>
+  <data name="SearchOfCities" xml:space="preserve">
+    <value>Zoek steden</value>
+    <comment />
+  </data>
+  <data name="SearchOfPaymentTypes" xml:space="preserve">
+    <value>Zoek naar betalingswijzen</value>
+    <comment />
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>Factuurnummer</value>
+    <comment />
+  </data>
+  <data name="Carrier" xml:space="preserve">
+    <value>vervoerder</value>
+    <comment />
+  </data>
+  <data name="ImportCosts" xml:space="preserve">
+    <value>importkosten</value>
+    <comment />
+  </data>
+  <data name="ItIsImported" xml:space="preserve">
+    <value>het is geïmporteerd</value>
+    <comment />
+  </data>
+  <data name="TypeOfVoucher" xml:space="preserve">
+    <value>Soort bon</value>
+    <comment />
+  </data>
+  <data name="PurchaseWithHoldindTax" xml:space="preserve">
+    <value>Aankoop met bronbelasting</value>
+    <comment />
+  </data>
+  <data name="VoucherDetail" xml:space="preserve">
+    <value>Voucherdetails</value>
+    <comment />
+  </data>
+  <data name="TaxpayerSituation" xml:space="preserve">
+    <value>situatie van de belastingbetaler</value>
+    <comment />
+  </data>
+  <data name="RentWithholding" xml:space="preserve">
+    <value>Huurinhouding</value>
+    <comment />
+  </data>
+  <data name="IVAwithholding" xml:space="preserve">
+    <value>BTW inhouding</value>
+    <comment />
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Aantal</value>
+    <comment />
+  </data>
+  <data name="Tax" xml:space="preserve">
+    <value>Btw</value>
+    <comment />
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Omschrijving</value>
+    <comment />
+  </data>
+  <data name="Exent" xml:space="preserve">
+    <value>vrijstellen</value>
+    <comment />
+  </data>
+  <data name="iva" xml:space="preserve">
+    <value>VAT</value>
+    <comment />
+  </data>
+  <data name="TotalRetention" xml:space="preserve">
+    <value>totale retentie</value>
+    <comment />
+  </data>
+  <data name="VAT_Settlement" xml:space="preserve">
+    <value>btw-afrekening</value>
+    <comment />
+  </data>
+  <data name="RetentionBasis" xml:space="preserve">
+    <value>Retentie basis</value>
+    <comment />
+  </data>
+  <data name="RetentionPercentage" xml:space="preserve">
+    <value>Retentiepercentage</value>
+    <comment />
+  </data>
+  <data name="TotalVATWithheld" xml:space="preserve">
+    <value>Totaal ingehouden btw</value>
+    <comment />
+  </data>
+  <data name="TotalRentWithheld" xml:space="preserve">
+    <value>totale ingehouden huur</value>
+    <comment />
+  </data>
+  <data name="ISOcode" xml:space="preserve">
+    <value>ISO-code</value>
+    <comment />
+  </data>
+  <data name="BaseCurrency" xml:space="preserve">
+    <value>basisvaluta</value>
+    <comment />
+  </data>
+  <data name="decimals" xml:space="preserve">
+    <value>decimalen</value>
+    <comment />
+  </data>
+  <data name="Commission" xml:space="preserve">
+    <value>Commissie</value>
+    <comment />
+  </data>
+  <data name="SearchOfMoney" xml:space="preserve">
+    <value>zoeken naar valuta</value>
+    <comment />
+  </data>
+  <data name="mobileIsInvalid" xml:space="preserve">
+    <value>Mobiel nummer is ongeldig</value>
+    <comment />
+  </data>
+  <data name="moneyIsInvalid" xml:space="preserve">
+    <value>de valuta is niet geldig</value>
+    <comment />
+  </data>
+  <data name="barcodeIsNotValid" xml:space="preserve">
+    <value>de streepjescode is niet geldig</value>
+    <comment />
+  </data>
+  <data name="JobSectorNotValid" xml:space="preserve">
+    <value>de banensector is niet geldig</value>
+    <comment />
+  </data>
+  <data name="JobPostIsInvalid" xml:space="preserve">
+    <value>De vacature is niet geldig</value>
+    <comment />
+  </data>
+  <data name="ProfessionIsNotValid" xml:space="preserve">
+    <value>Het beroep is niet geldig</value>
+    <comment />
+  </data>
+  <data name="FatherNameIsNotValid" xml:space="preserve">
+    <value>De naam van de vader is niet geldig</value>
+    <comment />
+  </data>
+  <data name="MotherNameIsInvalid" xml:space="preserve">
+    <value>De naam van de moeder is niet geldig</value>
+    <comment />
+  </data>
+  <data name="BloodTypenameNotValid" xml:space="preserve">
+    <value>De bloedgroepnaam is niet geldig</value>
+    <comment />
+  </data>
+  <data name="SalaryIsNotValid" xml:space="preserve">
+    <value>het salaris is niet geldig</value>
+    <comment />
+  </data>
+  <data name="CommissionSaleIsNotValid" xml:space="preserve">
+    <value>de commissie voor verkoop is niet geldig</value>
+    <comment />
+  </data>
+  <data name="CommissionCollectionIsNotValid" xml:space="preserve">
+    <value>de commissie voor incasso is niet geldig</value>
+    <comment />
+  </data>
+  <data name="SearchOfCarrier" xml:space="preserve">
+    <value>zoeken van vervoerders</value>
+    <comment />
+  </data>
+  <data name="CivilStatusIsNotValid" xml:space="preserve">
+    <value>De burgerlijke staat is niet geldig</value>
+    <comment />
+  </data>
+  <data name="PlaceBirtIsNotValid" xml:space="preserve">
+    <value>De geboorteplaats is niet geldig</value>
+    <comment />
+  </data>
+  <data name="BirthDateIsInvalid" xml:space="preserve">
+    <value>De geboortedatum is niet geldig</value>
+    <comment />
+  </data>
+  <data name="IdIsInvalid" xml:space="preserve">
+    <value>ID is niet geldig</value>
+    <comment />
+  </data>
+  <data name="SymbolNotValid" xml:space="preserve">
+    <value>Het symbool is niet geldig</value>
+    <comment />
+  </data>
+  <data name="ExchangeIsnotValid" xml:space="preserve">
+    <value>De uitwisseling is niet geldig</value>
+    <comment />
+  </data>
+  <data name="ObservationIsNotValid" xml:space="preserve">
+    <value>De opmerking is niet geldig</value>
+    <comment />
+  </data>
+  <data name="SexIsNotvalid" xml:space="preserve">
+    <value>Het geslacht is niet geldig</value>
+    <comment />
+  </data>
+  <data name="ChildrenNumberIsNotValid" xml:space="preserve">
+    <value>aantal kinderen is ongeldig</value>
+    <comment />
+  </data>
+  <data name="BranchManagerIsNoValid" xml:space="preserve">
+    <value>De filiaalmanager is niet geldig</value>
+    <comment />
+  </data>
+  <data name="Emergency2NumberNotValid" xml:space="preserve">
+    <value>Het noodnummer secundair is niet geldig</value>
+    <comment />
+  </data>
+  <data name="Emergency1NumberNotValid" xml:space="preserve">
+    <value>Het primaire contactnummer voor noodgevallen is niet geldig</value>
+    <comment />
+  </data>
+  <data name="DrivingLicenceNumberIsNotValid" xml:space="preserve">
+    <value>Het rijbewijsnummer is niet geldig</value>
+    <comment />
+  </data>
+  <data name="SalaryTypeIsNotValid" xml:space="preserve">
+    <value>Het salaristype is niet geldig</value>
+    <comment />
+  </data>
+  <data name="CommissionPercentIsNotValid" xml:space="preserve">
+    <value>Commissiepercentage is niet geldig</value>
+    <comment />
+  </data>
+  <data name="SpouceNameIsNotValid" xml:space="preserve">
+    <value>De naam van de echtgenoot is niet geldig</value>
+    <comment />
+  </data>
+  <data name="SpouceIdentiyIsnotValid" xml:space="preserve">
+    <value>De identiteit van de echtgenoot is niet geldig</value>
+    <comment />
+  </data>
+  <data name="NickNameIsInvalid" xml:space="preserve">
+    <value>De bijnaam is niet geldig</value>
+    <comment />
+  </data>
+  <data name="PassportNumIsNotValid" xml:space="preserve">
+    <value>Het paspoortnummer is niet geldig</value>
+    <comment />
+  </data>
+  <data name="WorkStartDateIsInvalid" xml:space="preserve">
+    <value>De startdatum van het werk is niet geldig</value>
+    <comment />
+  </data>
+  <data name="TaxRateIsNotValid" xml:space="preserve">
+    <value>Belastingpercentage is niet geldig</value>
+    <comment />
+  </data>
+  <data name="TotalWithholdingIsInvalid" xml:space="preserve">
+    <value>Totale inhouding is ongeldig</value>
+    <comment />
+  </data>
+  <data name="RemarkIsNotValid" xml:space="preserve">
+    <value>De opmerking is niet geldig</value>
+    <comment />
+  </data>
+  <data name="PurchaseDateIsInvalid" xml:space="preserve">
+    <value>Aankoopdatum is niet geldig</value>
+    <comment />
+  </data>
+  <data name="ProviderIsInvalid" xml:space="preserve">
+    <value>De aanbieder is ongeldig</value>
+    <comment />
+  </data>
+  <data name="OperationTypeIsInvalid" xml:space="preserve">
+    <value>Het type bewerking is niet geldig</value>
+    <comment />
+  </data>
+  <data name="CarrierIsInvalid" xml:space="preserve">
+    <value>De vervoerder is ongeldig</value>
+    <comment />
+  </data>
+  <data name="InvoiceNumberIsNotValid" xml:space="preserve">
+    <value>Factuurnummer is niet geldig</value>
+    <comment />
+  </data>
+  <data name="TotalExentaIsNotValid" xml:space="preserve">
+    <value>Totaal vrijgesteld is niet geldig</value>
+    <comment />
+  </data>
+  <data name="TotalGravadaIsNotValid" xml:space="preserve">
+    <value>Totaal belast is niet geldig</value>
+    <comment />
+  </data>
+  <data name="StatusIsInvalid" xml:space="preserve">
+    <value>Status is niet geldig</value>
+    <comment />
+  </data>
+  <data name="TotalIvaIsNotValid" xml:space="preserve">
+    <value>Totale btw is niet geldig</value>
+    <comment />
+  </data>
+  <data name="CustomerIsNotValid" xml:space="preserve">
+    <value>Klant is niet geldig</value>
+    <comment />
+  </data>
+  <data name="Balance" xml:space="preserve">
+    <value>Evenwicht</value>
+    <comment />
+  </data>
+  <data name="ConditionsToGenerateQuotas" xml:space="preserve">
+    <value>Voorwaarden om quota te genereren</value>
+    <comment />
+  </data>
+  <data name="Capital" xml:space="preserve">
+    <value>Hoofdstad</value>
+    <comment />
+  </data>
+  <data name="AmountOfFees" xml:space="preserve">
+    <value>Bedrag van vergoedingen</value>
+    <comment />
+  </data>
+  <data name="DaysOverdue" xml:space="preserve">
+    <value>Dagen te laat</value>
+    <comment />
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Peil</value>
+    <comment />
+  </data>
+  <data name="Interest" xml:space="preserve">
+    <value>Interesse</value>
+    <comment />
+  </data>
+  <data name="AnnualInterestPercentage" xml:space="preserve">
+    <value>Jaarlijks rentepercentage</value>
+    <comment />
+  </data>
+  <data name="FirstMaturity" xml:space="preserve">
+    <value>Eerste volwassenheid</value>
+    <comment />
+  </data>
+  <data name="Calculate" xml:space="preserve">
+    <value>Berekenen</value>
+    <comment />
+  </data>
+  <data name="BalanceToFinance" xml:space="preserve">
+    <value>Saldo te financieren</value>
+    <comment />
+  </data>
+  <data name="TypesOfTerm" xml:space="preserve">
+    <value>Soorten termen</value>
+    <comment />
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>Levering</value>
+    <comment />
+  </data>
+  <data name="FeesCalculator" xml:space="preserve">
+    <value>Kosten rekenmachine</value>
+    <comment />
+  </data>
+  <data name="FeesGenerator" xml:space="preserve">
+    <value>vergoedingen generator</value>
+    <comment />
+  </data>
+  <data name="EveryDay" xml:space="preserve">
+    <value>elke dag</value>
+    <comment />
+  </data>
+  <data name="Every8days" xml:space="preserve">
+    <value>elke week</value>
+    <comment />
+  </data>
+  <data name="Every30days" xml:space="preserve">
+    <value>elke maand</value>
+    <comment />
+  </data>
+  <data name="Every60Days" xml:space="preserve">
+    <value>elke 60 dagen</value>
+    <comment />
+  </data>
+  <data name="Every90days" xml:space="preserve">
+    <value>elke 90 dagen</value>
+    <comment />
+  </data>
+  <data name="Every180days" xml:space="preserve">
+    <value>elke 180 dagen</value>
+    <comment />
+  </data>
+  <data name="Every15days" xml:space="preserve">
+    <value>elke 15 dagen</value>
+    <comment />
+  </data>
+  <data name="Every120days" xml:space="preserve">
+    <value>elke 120 dagen</value>
+    <comment />
+  </data>
+  <data name="Every45days" xml:space="preserve">
+    <value>elke 45 dagen</value>
+    <comment />
+  </data>
+  <data name="VisualizePurchase" xml:space="preserve">
+    <value>Visualiseer aankopen</value>
+    <comment />
+  </data>
+  <data name="PurchaseReport" xml:space="preserve">
+    <value>Aankooprapport</value>
+    <comment />
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>Ok</value>
+    <comment />
+  </data>
+  <data name="SearchByProvider" xml:space="preserve">
+    <value>zoeken op provider</value>
+    <comment />
+  </data>
+  <data name="SearchByInvoiceNumber" xml:space="preserve">
+    <value>zoeken op factuurnummer</value>
+    <comment />
+  </data>
+  <data name="SearchByOperationType" xml:space="preserve">
+    <value>zoeken op type bewerking</value>
+    <comment />
+  </data>
+  <data name="SearchByMoney" xml:space="preserve">
+    <value>zoeken op valuta</value>
+    <comment />
+  </data>
+  <data name="SearchByBox" xml:space="preserve">
+    <value>zoeken op box</value>
+    <comment />
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Factuur</value>
+    <comment />
+  </data>
+  <data name="Retention" xml:space="preserve">
+    <value>Retentie</value>
+    <comment />
+  </data>
+  <data name="TotalExenta" xml:space="preserve">
+    <value>Totaal vrijgesteld</value>
+    <comment />
+  </data>
+  <data name="TotalVAT" xml:space="preserve">
+    <value>Totaal btw</value>
+    <comment />
+  </data>
+  <data name="TotalTaxed" xml:space="preserve">
+    <value>Totaal belast</value>
+    <comment />
+  </data>
+  <data name="TotalPurchase" xml:space="preserve">
+    <value>Totale aankoop</value>
+    <comment />
+  </data>
+  <data name="TheDateIsNotValid" xml:space="preserve">
+    <value>De datum is ongeldig</value>
+    <comment />
+  </data>
+  <data name="DateSinceIsNotValid" xml:space="preserve">
+    <value>De startdatum is niet juist/geldig</value>
+    <comment />
+  </data>
+  <data name="DateUntilIsNotValid" xml:space="preserve">
+    <value>datum tot is niet geldig</value>
+    <comment />
+  </data>
+  <data name="PaginationItemsperPage" xml:space="preserve">
+    <value>Artikelen per pagina is niet geldig</value>
+    <comment />
+  </data>
+  <data name="PaginationNumberInNotValid" xml:space="preserve">
+    <value>oproepnummer is niet geldig</value>
+    <comment />
+  </data>
+  <data name="TotalNetIsInvalid" xml:space="preserve">
+    <value>Netto totaal is niet geldig</value>
+    <comment />
+  </data>
+  <data name="SearchOptions" xml:space="preserve">
+    <value>zoek opties</value>
+    <comment />
+  </data>
+  <data name="SearchTextIsInvalid" xml:space="preserve">
+    <value>Zoektekst is ongeldig</value>
+    <comment />
+  </data>
+  <data name="SearchOfCountries" xml:space="preserve">
+    <value>Zoeken van landen</value>
+    <comment />
+  </data>
+  <data name="SearchOfStates" xml:space="preserve">
+    <value>Zoeken van Staten</value>
+    <comment />
+  </data>
+  <data name="LoadMore" xml:space="preserve">
+    <value>Meer laden</value>
+    <comment />
+  </data>
+  <data name="forbidenAccess" xml:space="preserve">
+    <value>Verboden toegang</value>
+    <comment />
+  </data>
+  <data name="ApiVersionIsWrong" xml:space="preserve">
+    <value>API-versie is fout</value>
+    <comment />
+  </data>
+  <data name="SearchOfCompany" xml:space="preserve">
+    <value>Zoeken van bedrijven</value>
+    <comment />
+  </data>
+  <data name="Expence" xml:space="preserve">
+    <value>Soort uitgaven</value>
+    <comment />
+  </data>
+  <data name="TypeOfExpenses" xml:space="preserve">
+    <value>Uitgaven</value>
+    <comment />
+  </data>
+  <data name="ReturnReason" xml:space="preserve">
+    <value>Reden van retour</value>
+    <comment />
+  </data>
+  <data name="Town" xml:space="preserve">
+    <value>Buurt</value>
+    <comment />
+  </data>
+  <data name="Vehicle" xml:space="preserve">
+    <value>Voertuig</value>
+    <comment />
+  </data>
+  <data name="GroupIdIsInvalid" xml:space="preserve">
+    <value>Groeps-ID is ongeldig</value>
+    <comment />
+  </data>
+  <data name="ZoneIdIsInvalid" xml:space="preserve">
+    <value>Zone-ID is ongeldig</value>
+    <comment />
+  </data>
+  <data name="SearchOfApply" xml:space="preserve">
+    <value>Zoeken naar toepassing</value>
+    <comment />
+  </data>
+  <data name="SearchOfTown" xml:space="preserve">
+    <value>Zoeken in de stad</value>
+    <comment />
+  </data>
+  <data name="SearchOfCategory" xml:space="preserve">
+    <value>Zoeken op categorie</value>
+    <comment />
+  </data>
+  <data name="SearchOfExpence" xml:space="preserve">
+    <value>Zoeken naar onkosten</value>
+    <comment />
+  </data>
+  <data name="SearchOfBrand" xml:space="preserve">
+    <value>Zoeken op merk</value>
+    <comment />
+  </data>
+  <data name="SearchOfPackage" xml:space="preserve">
+    <value>Zoeken van pakket</value>
+    <comment />
+  </data>
+  <data name="SearchOfPriority" xml:space="preserve">
+    <value>Zoeken op prioriteit</value>
+    <comment />
+  </data>
+  <data name="SearchOfProduct" xml:space="preserve">
+    <value>Zoeken naar producten</value>
+    <comment />
+  </data>
+  <data name="SearchOfJobPost" xml:space="preserve">
+    <value>Zoeken naar vacature</value>
+    <comment />
+  </data>
+  <data name="SearchOfReason" xml:space="preserve">
+    <value>Reden van retourzending zoeken</value>
+    <comment />
+  </data>
+  <data name="SearchOfBranch" xml:space="preserve">
+    <value>Zoek naar filiaal</value>
+    <comment />
+  </data>
+  <data name="SearchOfRoute" xml:space="preserve">
+    <value>Route zoeken</value>
+    <comment />
+  </data>
+  <data name="SearchOfSectorProduct" xml:space="preserve">
+    <value>Zoeken in productsector</value>
+    <comment />
+  </data>
+  <data name="SearchOfJobSector" xml:space="preserve">
+    <value>Zoeken in banensector</value>
+    <comment />
+  </data>
+  <data name="SearchOfSubGroup" xml:space="preserve">
+    <value>Zoeken in subgroep</value>
+    <comment />
+  </data>
+  <data name="SearchOfExepenceType" xml:space="preserve">
+    <value>Zoeken op onkostentype</value>
+    <comment />
+  </data>
+  <data name="SearchOfVehicle" xml:space="preserve">
+    <value>Voertuig zoeken</value>
+    <comment />
+  </data>
+  <data name="SearchOfMeasure" xml:space="preserve">
+    <value>Zoeken op maat</value>
+    <comment />
+  </data>
+  <data name="SearchOfWayAdmin" xml:space="preserve">
+    <value>Search of Way Admin</value>
+    <comment />
+  </data>
+  <data name="SearchOfDrug" xml:space="preserve">
+    <value>Zoeken naar componenten</value>
+    <comment />
+  </data>
+  <data name="ReferentialIntegrityConstraintsError" xml:space="preserve">
+    <value>Referentiële integriteitsbeperkingen</value>
+    <comment />
+  </data>
+  <data name="ResponsibleStaff" xml:space="preserve">
+    <value>Verantwoordelijk personeel</value>
+    <comment />
+  </data>
+  <data name="CreditNoteLastCreated" xml:space="preserve">
+    <value>Creditnota laatst aangemaakt</value>
+    <comment />
+  </data>
+  <data name="CreditNoteSince" xml:space="preserve">
+    <value>Creditnota sinds</value>
+    <comment />
+  </data>
+  <data name="CreditNoteUntil" xml:space="preserve">
+    <value>Creditnota tot</value>
+    <comment />
+  </data>
+  <data name="InvoiceLastCreated" xml:space="preserve">
+    <value>Factuur laatst aangemaakt</value>
+    <comment />
+  </data>
+  <data name="InvoiceSince" xml:space="preserve">
+    <value>Factuur sinds</value>
+    <comment />
+  </data>
+  <data name="InvoiceUntil" xml:space="preserve">
+    <value>Factuur tot</value>
+    <comment />
+  </data>
+  <data name="PromissoryNoteLastCreated" xml:space="preserve">
+    <value>Promissory Note laatst gemaakt</value>
+    <comment />
+  </data>
+  <data name="PromissoryNoteSince" xml:space="preserve">
+    <value>Belofte sinds</value>
+    <comment />
+  </data>
+  <data name="PromissoryNoteUntil" xml:space="preserve">
+    <value>Belofte tot</value>
+    <comment />
+  </data>
+  <data name="ReceiptLastCreated" xml:space="preserve">
+    <value>Ontvangst van betaling Laatst aangemaakt</value>
+    <comment />
+  </data>
+  <data name="ReceiptSince" xml:space="preserve">
+    <value>Ontvangst van betaling Sinds</value>
+    <comment />
+  </data>
+  <data name="ReceiptUntil" xml:space="preserve">
+    <value>Ontvangst van betaling Tot</value>
+    <comment />
+  </data>
+  <data name="ReturnNoteLastCreated" xml:space="preserve">
+    <value>Terug Opmerking Laatst aangemaakt</value>
+    <comment />
+  </data>
+  <data name="ReturnNoteSince" xml:space="preserve">
+    <value>Retournota sinds</value>
+    <comment />
+  </data>
+  <data name="ReturnNoteUntil" xml:space="preserve">
+    <value>Retournota tot</value>
+    <comment />
+  </data>
+  <data name="Shop_ErrorMustSelect" xml:space="preserve">
+    <value>Je moet een winkel selecteren</value>
+    <comment />
+  </data>
+  <data name="Brand" xml:space="preserve">
+    <value>Merk</value>
+    <comment />
+  </data>
+  <data name="Brandisinvalid" xml:space="preserve">
+    <value>Merk is ongeldig</value>
+    <comment />
+  </data>
+  <data name="Capacity" xml:space="preserve">
+    <value>Capaciteit</value>
+    <comment />
+  </data>
+  <data name="CapacityisInvalid" xml:space="preserve">
+    <value>Capaciteit is ongeldig</value>
+    <comment />
+  </data>
+  <data name="CarriagenNumberIsInvalid" xml:space="preserve">
+    <value>Vervoersnummer is ongeldig</value>
+    <comment />
+  </data>
+  <data name="ChassisNumberIsInvalid" xml:space="preserve">
+    <value>Chassisnummer is ongeldig</value>
+    <comment />
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Kleur</value>
+    <comment />
+  </data>
+  <data name="ColorIsInvalid" xml:space="preserve">
+    <value>Kleur is ongeldig</value>
+    <comment />
+  </data>
+  <data name="EngineNumberIsInvalid" xml:space="preserve">
+    <value>Motornummer is ongeldig</value>
+    <comment />
+  </data>
+  <data name="FuelTypeIsInvalid" xml:space="preserve">
+    <value>Brandstoftype is ongeldig</value>
+    <comment />
+  </data>
+  <data name="InitialKmIsInvalid" xml:space="preserve">
+    <value>Initiële km is ongeldig</value>
+    <comment />
+  </data>
+  <data name="LoadTypeIsInvalid" xml:space="preserve">
+    <value>Laadtype is ongeldig</value>
+    <comment />
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Model</value>
+    <comment />
+  </data>
+  <data name="Model is invalid" xml:space="preserve">
+    <value>Model is ongeldig</value>
+    <comment />
+  </data>
+  <data name="Patent" xml:space="preserve">
+    <value>Octrooi</value>
+    <comment />
+  </data>
+  <data name="PatentIsInvalid" xml:space="preserve">
+    <value>Octrooi is ongeldig</value>
+    <comment />
+  </data>
+  <data name="YearModelIsInvalid" xml:space="preserve">
+    <value>Jaarmodel is ongeldig</value>
+    <comment />
+  </data>
+  <data name="CarriageNumber" xml:space="preserve">
+    <value>koets nummer</value>
+    <comment />
+  </data>
+  <data name="ChassisNumber" xml:space="preserve">
+    <value>Chassis nummer</value>
+    <comment />
+  </data>
+  <data name="EngineNumber" xml:space="preserve">
+    <value>Motor nummer</value>
+    <comment />
+  </data>
+  <data name="FuelType" xml:space="preserve">
+    <value>Brandstoftype</value>
+    <comment />
+  </data>
+  <data name="InitialKM" xml:space="preserve">
+    <value>Initiële kilometer</value>
+    <comment />
+  </data>
+  <data name="LoadType" xml:space="preserve">
+    <value>Type belasting</value>
+    <comment />
+  </data>
+  <data name="year" xml:space="preserve">
+    <value>Jaar</value>
+    <comment />
+  </data>
+  <data name="CustomerAccount" xml:space="preserve">
+    <value>Klantaccount</value>
+    <comment />
+  </data>
+  <data name="BankDeposit" xml:space="preserve">
+    <value>Bankstorting</value>
+    <comment />
+  </data>
+  <data name="BankDepositReport" xml:space="preserve">
+    <value>Bankstortingsrapport</value>
+    <comment />
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>Kaarten</value>
+    <comment />
+  </data>
+  <data name="ReleaseCheck" xml:space="preserve">
+    <value>Controle vrijgeven</value>
+    <comment />
+  </data>
+  <data name="Transfers" xml:space="preserve">
+    <value>Overschrijving</value>
+    <comment />
+  </data>
+  <data name="AccountHolderIsInvalid" xml:space="preserve">
+    <value>Rekeninghouder is ongeldig</value>
+    <comment />
+  </data>
+  <data name="AccountNumberIsInvalid" xml:space="preserve">
+    <value>Rekeningnummer is ongeldig</value>
+    <comment />
+  </data>
+  <data name="AgencyIsInvalid" xml:space="preserve">
+    <value>Agentschap is ongeldig</value>
+    <comment />
+  </data>
+  <data name="BankAccountTypeIsInvalid" xml:space="preserve">
+    <value>Type bankrekening is ongeldig</value>
+    <comment />
+  </data>
+  <data name="BankIdIsInvalid" xml:space="preserve">
+    <value>Bank-ID is ongeldig</value>
+    <comment />
+  </data>
+  <data name="CreditOfficerIsInvalid" xml:space="preserve">
+    <value>Kredietfunctionaris is ongeldig</value>
+    <comment />
+  </data>
+  <data name="ManagerIsInvalid" xml:space="preserve">
+    <value>Manager is ongeldig</value>
+    <comment />
+  </data>
+  <data name="WebIsInvalid" xml:space="preserve">
+    <value>internet is ongeldig</value>
+    <comment />
+  </data>
+  <data name="CategoryIsInvalid" xml:space="preserve">
+    <value>Categorie is ongeldig</value>
+    <comment />
+  </data>
+  <data name="DiscountIsNotValid" xml:space="preserve">
+    <value>De korting is niet geldig</value>
+    <comment />
+  </data>
+  <data name="FullNameIsInvalid" xml:space="preserve">
+    <value>Volledige naam is ongeldig</value>
+    <comment />
+  </data>
+  <data name="IdentityPartnerIsInvalid" xml:space="preserve">
+    <value>Identiteitspartner is ongeldig</value>
+    <comment />
+  </data>
+  <data name="MobileNumIsInvalid" xml:space="preserve">
+    <value>Mobiel nummer is ongeldig</value>
+    <comment />
+  </data>
+  <data name="PartnerIsInvalid" xml:space="preserve">
+    <value>Partner is ongeldig</value>
+    <comment />
+  </data>
+  <data name="PriceLevelIsInvalid" xml:space="preserve">
+    <value>Prijsniveau is ongeldig</value>
+    <comment />
+  </data>
+  <data name="RouteIsInvalid" xml:space="preserve">
+    <value>Route is ongeldig</value>
+    <comment />
+  </data>
+  <data name="TradeNameIsInvalid" xml:space="preserve">
+    <value>Handelsnaam is ongeldig</value>
+    <comment />
+  </data>
+  <data name="WorkActivityIsInvalid" xml:space="preserve">
+    <value>Werkactiviteit is ongeldig</value>
+    <comment />
+  </data>
+  <data name="WorkspaceIsInvalid" xml:space="preserve">
+    <value>Werkruimte is ongeldig</value>
+    <comment />
+  </data>
+  <data name="CreditLimitIsInvalid" xml:space="preserve">
+    <value>Kredietlimiet is ongeldig</value>
+    <comment />
+  </data>
+  <data name="CustomerAccountNumberIsInvalid" xml:space="preserve">
+    <value>Klantrekeningnummer is ongeldig</value>
+    <comment />
+  </data>
+  <data name="SearchOfBank" xml:space="preserve">
+    <value>Zoeken naar banken</value>
+    <comment />
+  </data>
+  <data name="SearchOfBankAccount" xml:space="preserve">
+    <value>Bankrekening zoeken</value>
+    <comment />
+  </data>
+  <data name="SearchOfBankAccountType" xml:space="preserve">
+    <value>Zoeken op bankrekeningtype</value>
+    <comment />
+  </data>
+  <data name="SearchOfCustomerAccount" xml:space="preserve">
+    <value>Zoeken van klantaccount</value>
+    <comment />
+  </data>
+  <data name="SearchOfCustomers" xml:space="preserve">
+    <value>Klanten zoeken</value>
+    <comment />
+  </data>
+  <data name="ActiveEmployee" xml:space="preserve">
+    <value>Actieve medewerker</value>
+    <comment />
+  </data>
+  <data name="CollectionCommission" xml:space="preserve">
+    <value>Incassocommissie</value>
+    <comment />
+  </data>
+  <data name="CommissionAgent" xml:space="preserve">
+    <value>Commissie agent</value>
+    <comment />
+  </data>
+  <data name="EmergencyContact" xml:space="preserve">
+    <value>Contactpersoon voor noodgevallen</value>
+    <comment />
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Geslacht</value>
+    <comment />
+  </data>
+  <data name="IsSupervisor" xml:space="preserve">
+    <value>Is Supervisor</value>
+    <comment />
+  </data>
+  <data name="PlaceOfBirth" xml:space="preserve">
+    <value>Geboorteplaats</value>
+    <comment />
+  </data>
+  <data name="Salary" xml:space="preserve">
+    <value>Salaris</value>
+    <comment />
+  </data>
+  <data name="SalesCommissionPercent" xml:space="preserve">
+    <value>Verkoopcommissie</value>
+    <comment />
+  </data>
+  <data name="Spouse" xml:space="preserve">
+    <value>Echtgenoot</value>
+    <comment />
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>Credit</value>
+    <comment />
+  </data>
+  <data name="LendProducts" xml:space="preserve">
+    <value>Producten uitlenen</value>
+    <comment />
+  </data>
+  <data name="OwnHouse" xml:space="preserve">
+    <value>Eigen huis</value>
+    <comment />
+  </data>
+  <data name="SendBillCollector" xml:space="preserve">
+    <value>Verzenden naar factuurverzamelaar</value>
+    <comment />
+  </data>
+  <data name="BillCollector" xml:space="preserve">
+    <value>Deurwaarder</value>
+    <comment />
+  </data>
+  <data name="CreditLimit" xml:space="preserve">
+    <value>Kredietlimiet</value>
+    <comment />
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>Einddatum</value>
+    <comment />
+  </data>
+  <data name="ActiveAccount" xml:space="preserve">
+    <value>actief account</value>
+    <comment />
+  </data>
+  <data name="ShopRule" xml:space="preserve">
+    <value>winkel instellingen</value>
+    <comment />
+  </data>
+  <data name="DefaultClient" xml:space="preserve">
+    <value>standaard klant</value>
+    <comment />
+  </data>
+  <data name="PriceLevelDefault" xml:space="preserve">
+    <value>Prijsniveau Standaard</value>
+    <comment />
+  </data>
+  <data name="OperTypeCreditSale" xml:space="preserve">
+    <value>Bewerkingstype Kredietverkopen</value>
+    <comment />
+  </data>
+  <data name="OperTypeCreditPurchase" xml:space="preserve">
+    <value>Bewerkingstype Kredietaankoop</value>
+    <comment />
+  </data>
+  <data name="OperTypeCashSale" xml:space="preserve">
+    <value>Bewerkingstype Contante verkoop</value>
+    <comment />
+  </data>
+  <data name="OperTypeCashPurchase" xml:space="preserve">
+    <value>Bewerkingstype Contante aankoop</value>
+    <comment />
+  </data>
+  <data name="ModifyPriceInSales" xml:space="preserve">
+    <value>Contante verkooptransactie</value>
+    <comment />
+  </data>
+  <data name="MaximumItemsInSale" xml:space="preserve">
+    <value>Maximum aantal items in de uitverkoop</value>
+    <comment />
+  </data>
+  <data name="InterestRateMonthly" xml:space="preserve">
+    <value>Maandelijkse rente</value>
+    <comment />
+  </data>
+  <data name="ForceSaleIfStockIsZero" xml:space="preserve">
+    <value>Verkoop afdwingen als de voorraad nul is</value>
+    <comment />
+  </data>
+  <data name="EncryptedPrice" xml:space="preserve">
+    <value>Gecodeerde prijs</value>
+    <comment />
+  </data>
+  <data name="DecimalsInStock" xml:space="preserve">
+    <value>decimalen op voorraad</value>
+    <comment />
+  </data>
+  <data name="GrantDiscounts" xml:space="preserve">
+    <value>Kortingen verlenen</value>
+    <comment />
+  </data>
+  <data name="MaxDiscountPercent" xml:space="preserve">
+    <value>Maximaal kortingspercentage</value>
+    <comment />
+  </data>
+  <data name="MaximumPriceLevel" xml:space="preserve">
+    <value>Maximaal prijsniveau</value>
+    <comment />
+  </data>
+  <data name="Administrator" xml:space="preserve">
+    <value>Beheerder</value>
+    <comment />
+  </data>
+  <data name="Finance" xml:space="preserve">
+    <value>Financiën</value>
+    <comment />
+  </data>
+  <data name="Investor" xml:space="preserve">
+    <value>Investeerder</value>
+    <comment />
+  </data>
+  <data name="Operator" xml:space="preserve">
+    <value>Operator</value>
+    <comment />
+  </data>
+  <data name="Seller" xml:space="preserve">
+    <value>Verkoper</value>
+    <comment />
+  </data>
+  <data name="SuperUser" xml:space="preserve">
+    <value>Super gebruiker</value>
+    <comment />
+  </data>
+  <data name="DiscountPercentageIsInvalid" xml:space="preserve">
+    <value>kortingspercentage is ongeldig</value>
+    <comment />
+  </data>
+  <data name="GroupIsRequired" xml:space="preserve">
+    <value>de groep is verplicht</value>
+    <comment />
+  </data>
+  <data name="MaximumPriceLevelIsNotValid" xml:space="preserve">
+    <value>maximum prijsniveau is niet geldig</value>
+    <comment />
+  </data>
+  <data name="OperationTypeIsRequired" xml:space="preserve">
+    <value>het type operatie is vereist</value>
+    <comment />
+  </data>
+  <data name="ZoneIsRequired" xml:space="preserve">
+    <value>de zone is vereist</value>
+    <comment />
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>Inventaris</value>
+    <comment />
+  </data>
+  <data name="ProviderHistory" xml:space="preserve">
+    <value>Providergeschiedenis</value>
+    <comment />
+  </data>
+  <data name="ProviderFees" xml:space="preserve">
+    <value>Providerkosten</value>
+    <comment />
+  </data>
+  <data name="PriceList" xml:space="preserve">
+    <value>Prijslijst</value>
+    <comment />
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>Stock</value>
+    <comment />
+  </data>
+  <data name="CustomerDebt" xml:space="preserve">
+    <value>Klantenschuld</value>
+    <comment />
+  </data>
+  <data name="DebtCreditSale" xml:space="preserve">
+    <value>Schuld voor kredietverkoop</value>
+    <comment />
+  </data>
+  <data name="DebtForPurchases" xml:space="preserve">
+    <value>Schuld voor aankopen</value>
+    <comment />
+  </data>
+  <data name="DebtSupplier" xml:space="preserve">
+    <value>Schuld aan leverancier</value>
+    <comment />
+  </data>
+  <data name="albaran" xml:space="preserve">
+    <value>Afleveringsbon</value>
+    <comment />
+  </data>
+  <data name="InventoryReport" xml:space="preserve">
+    <value>Inventarisatierapport</value>
+    <comment />
+  </data>
+  <data name="PurchaseOrder" xml:space="preserve">
+    <value>Bestelling</value>
+    <comment />
+  </data>
+  <data name="ReturnPurchases" xml:space="preserve">
+    <value>Aankopen retourneren</value>
+    <comment />
+  </data>
+  <data name="SalesOrder" xml:space="preserve">
+    <value>Verkooporder</value>
+    <comment />
+  </data>
+  <data name="SalesReport" xml:space="preserve">
+    <value>Verkoopcijfers</value>
+    <comment />
+  </data>
+  <data name="SalesReturn" xml:space="preserve">
+    <value>Verkoopretour</value>
+    <comment />
+  </data>
+  <data name="TransferProduct" xml:space="preserve">
+    <value>productoverdracht</value>
+    <comment />
+  </data>
+  <data name="TransferReport" xml:space="preserve">
+    <value>Overdrachtsrapport</value>
+    <comment />
+  </data>
+  <data name="UnfulfilledOrders" xml:space="preserve">
+    <value>Niet-uitgevoerde bestellingen</value>
+    <comment />
+  </data>
+  <data name="BanknotesDenomination" xml:space="preserve">
+    <value>Bankbiljet denominatie</value>
+    <comment />
+  </data>
+  <data name="CashBoxClose" xml:space="preserve">
+    <value>CashBox Sluiten</value>
+    <comment />
+  </data>
+  <data name="CashBoxOpening" xml:space="preserve">
+    <value>CashBox openen</value>
+    <comment />
+  </data>
+  <data name="CashboxCount" xml:space="preserve">
+    <value>kassa telling</value>
+    <comment />
+  </data>
+  <data name="Consumption" xml:space="preserve">
+    <value>Consumptie</value>
+    <comment />
+  </data>
+  <data name="CustomerFees" xml:space="preserve">
+    <value>Klantkosten</value>
+    <comment />
+  </data>
+  <data name="CustomerHistory" xml:space="preserve">
+    <value>Klantgeschiedenis</value>
+    <comment />
+  </data>
+  <data name="CustomerPaymentReport" xml:space="preserve">
+    <value>Klantbetalingsrapport</value>
+    <comment />
+  </data>
+  <data name="PriceTag" xml:space="preserve">
+    <value>Prijskaartje</value>
+    <comment />
+  </data>
+  <data name="ProductPrice" xml:space="preserve">
+    <value>Product prijs</value>
+    <comment />
+  </data>
+  <data name="ProviderPayment" xml:space="preserve">
+    <value>Aanbieder betaling</value>
+    <comment />
+  </data>
+  <data name="ProviderPaymentReport" xml:space="preserve">
+    <value>Betalingsrapport van provider</value>
+    <comment />
+  </data>
+  <data name="SaleExpress" xml:space="preserve">
+    <value>Verkoop Express</value>
+    <comment />
+  </data>
+  <data name="CustomerDebtsReport" xml:space="preserve">
+    <value>Debiteurenrapport</value>
+    <comment />
+  </data>
+  <data name="ProviderDebtReport" xml:space="preserve">
+    <value>Crediteurenrapport</value>
+    <comment />
+  </data>
+  <data name="ClearTextBox" xml:space="preserve">
+    <value>tekstvak wissen</value>
+    <comment />
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>ga terug</value>
+    <comment />
+  </data>
+  <data name="SearchOfSourceProduct" xml:space="preserve">
+    <value>Zoeken naar productbron</value>
+    <comment />
+  </data>
+  <data name="workplace" xml:space="preserve">
+    <value>Werkplek</value>
+    <comment />
+  </data>
+  <data name="WorkPhone" xml:space="preserve">
+    <value>werktelefoon</value>
+    <comment />
+  </data>
+  <data name="SpouseIdentification" xml:space="preserve">
+    <value>echtgeno(o)t(e) identificatie</value>
+    <comment />
+  </data>
+  <data name="Indeterminate" xml:space="preserve">
+    <value>onbepaald</value>
+    <comment />
+  </data>
+  <data name="Children" xml:space="preserve">
+    <value>Kinderen</value>
+    <comment />
+  </data>
+  <data name="male" xml:space="preserve">
+    <value>Mannelijk</value>
+    <comment />
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>Eigenschappen</value>
+    <comment />
+  </data>
+  <data name="Remark" xml:space="preserve">
+    <value>Opmerking</value>
+    <comment />
+  </data>
+  <data name="ResidenceDate" xml:space="preserve">
+    <value>Verblijfsdatum</value>
+    <comment />
+  </data>
+  <data name="WorkStartDate" xml:space="preserve">
+    <value>Startdatum werk</value>
+    <comment />
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>vrouwelijk</value>
+    <comment />
+  </data>
+  <data name="AccessCode" xml:space="preserve">
+    <value>Toegangscode</value>
+    <comment />
+  </data>
+  <data name="BloodType" xml:space="preserve">
+    <value>Bloedtype</value>
+    <comment />
+  </data>
+  <data name="CivilStatus" xml:space="preserve">
+    <value>Burgerlijke staat</value>
+    <comment />
+  </data>
+  <data name="DriversLicense" xml:space="preserve">
+    <value>Rijbewijs</value>
+    <comment />
+  </data>
+  <data name="Emergency1Number" xml:space="preserve">
+    <value>Contactnummer voor noodgevallen primair</value>
+    <comment />
+  </data>
+  <data name="Emergency2Number" xml:space="preserve">
+    <value>Noodcontact Nummer secundair</value>
+    <comment />
+  </data>
+  <data name="FatherName" xml:space="preserve">
+    <value>Naam van de vader</value>
+    <comment />
+  </data>
+  <data name="MothersName" xml:space="preserve">
+    <value>Moeders naam</value>
+    <comment />
+  </data>
+  <data name="Nickname" xml:space="preserve">
+    <value>Bijnaam</value>
+    <comment />
+  </data>
+  <data name="passport" xml:space="preserve">
+    <value>Paspoort</value>
+    <comment />
+  </data>
+  <data name="Profession" xml:space="preserve">
+    <value>Beroep</value>
+    <comment />
+  </data>
+  <data name="EmployerContribution" xml:space="preserve">
+    <value>werkgeversbijdrage</value>
+    <comment />
+  </data>
+  <data name="WorkerContribution" xml:space="preserve">
+    <value>werknemersbijdrage</value>
+    <comment />
+  </data>
+  <data name="StaffMaintenance" xml:space="preserve">
+    <value>werknemer onderhoud</value>
+    <comment />
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>medewerker</value>
+    <comment />
+  </data>
+  <data name="Worked" xml:space="preserve">
+    <value>werkte</value>
+    <comment />
+  </data>
+  <data name="CustomerAccountMaintenance" xml:space="preserve">
+    <value>Onderhoud klantaccount</value>
+    <comment />
+  </data>
+  <data name="Agency" xml:space="preserve">
+    <value>bureau</value>
+    <comment />
+  </data>
+  <data name="AmountTotalIsInvalid" xml:space="preserve">
+    <value>Totaalbedrag is ongeldig</value>
+    <comment />
+  </data>
+  <data name="CashAmountIsInvalid" xml:space="preserve">
+    <value>Contant bedrag is ongeldig</value>
+    <comment />
+  </data>
+  <data name="ConceptIsInvalid" xml:space="preserve">
+    <value>Concept is ongeldig</value>
+    <comment />
+  </data>
+  <data name="DepositNumberIsInvalid" xml:space="preserve">
+    <value>Bankdepositonummer is ongeldig</value>
+    <comment />
+  </data>
+  <data name="TransactionDate" xml:space="preserve">
+    <value>Transactie datum</value>
+    <comment />
+  </data>
+  <data name="TransactionDateIsInvalid" xml:space="preserve">
+    <value>Transactiedatum is ongeldig</value>
+    <comment />
+  </data>
+  <data name="VoucherNumber" xml:space="preserve">
+    <value>Vouchernummer</value>
+    <comment />
+  </data>
+  <data name="BankAccountIsInvalid" xml:space="preserve">
+    <value>Bankrekening is ongeldig</value>
+    <comment />
+  </data>
+  <data name="BankCheckDateIsInvalid" xml:space="preserve">
+    <value>Datum bankcheque is ongeldig</value>
+    <comment />
+  </data>
+  <data name="BankNameIsInvalid" xml:space="preserve">
+    <value>Banknaam is ongeldig</value>
+    <comment />
+  </data>
+  <data name="CheckNumberIsInvalid" xml:space="preserve">
+    <value>Chequenummer is ongeldig</value>
+    <comment />
+  </data>
+  <data name="SenderIsInvalid" xml:space="preserve">
+    <value>Afzender is ongeldig</value>
+    <comment />
+  </data>
+  <data name="CheckAmountIsInvalid" xml:space="preserve">
+    <value>chequebedrag is ongeldig</value>
+    <comment />
+  </data>
+  <data name="Initials" xml:space="preserve">
+    <value>Initialen</value>
+    <comment />
+  </data>
+  <data name="InitialsAreNotValid" xml:space="preserve">
+    <value>Initialen zijn niet geldig</value>
+    <comment />
+  </data>
+  <data name="Limit" xml:space="preserve">
+    <value>Nemen</value>
+    <comment />
+  </data>
+  <data name="Offset" xml:space="preserve">
+    <value>Overslaan</value>
+    <comment />
+  </data>
+  <data name="OffsetIsInvalid" xml:space="preserve">
+    <value>Overslaan is ongeldig</value>
+    <comment />
+  </data>
+  <data name="LimitIsInvalid" xml:space="preserve">
+    <value>Take is ongeldig</value>
+    <comment />
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>Exporteren</value>
+    <comment />
+  </data>
+  <data name="ExportToExcel" xml:space="preserve">
+    <value>Exporteren naar MS-Excel</value>
+    <comment />
+  </data>
+  <data name="ExportToHtml" xml:space="preserve">
+    <value>Exporteren naar HTML</value>
+    <comment />
+  </data>
+  <data name="ExportToPDF" xml:space="preserve">
+    <value>Exporteren naar PDF</value>
+    <comment />
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filter</value>
+    <comment />
+  </data>
+  <data name="SearchParameters" xml:space="preserve">
+    <value>Zoekparameters</value>
+    <comment />
+  </data>
+  <data name="DeferredCheck" xml:space="preserve">
+    <value>Uitgestelde cheque</value>
+    <comment />
+  </data>
+  <data name="DeferredCheckIsInvalid" xml:space="preserve">
+    <value>Uitgestelde cheque is ongeldig</value>
+    <comment />
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>Document</value>
+    <comment />
+  </data>
+  <data name="IsDeferrefCheck" xml:space="preserve">
+    <value>Is uitgestelde cheque</value>
+    <comment />
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Nummer</value>
+    <comment />
+  </data>
+  <data name="PostedDate" xml:space="preserve">
+    <value>Datum geplaatst</value>
+    <comment />
+  </data>
+  <data name="PostedDateIsInvalid" xml:space="preserve">
+    <value>Postdatum is ongeldig</value>
+    <comment />
+  </data>
+  <data name="PayeeIsInvalid" xml:space="preserve">
+    <value>begunstigde is ongeldig</value>
+    <comment />
+  </data>
+  <data name="PaymentDateIsInvalid" xml:space="preserve">
+    <value>betalingsdatum is ongeldig</value>
+    <comment />
+  </data>
+  <data name="NumberRangue" xml:space="preserve">
+    <value>Nummerbereik</value>
+    <comment />
+  </data>
+  <data name="SinceNumber" xml:space="preserve">
+    <value>sinds nummer</value>
+    <comment />
+  </data>
+  <data name="UntilNumber" xml:space="preserve">
+    <value>Tot nummer</value>
+    <comment />
+  </data>
+  <data name="NumberRangeIsInvalid" xml:space="preserve">
+    <value>Nummerbereik is ongeldig</value>
+    <comment />
+  </data>
+  <data name="SinceNumberIsInvalid" xml:space="preserve">
+    <value>Aangezien het nummer niet geldig is</value>
+    <comment />
+  </data>
+  <data name="UntilNumberIsInvalid" xml:space="preserve">
+    <value>Tot nummer niet geldig is</value>
+    <comment />
+  </data>
+  <data name="DocumentNumberIsInvalid" xml:space="preserve">
+    <value>Documentnummer is ongeldig</value>
+    <comment />
+  </data>
+  <data name="CheckRegister" xml:space="preserve">
+    <value>Controleer Registreren</value>
+    <comment />
+  </data>
+  <data name="SightBankCheck" xml:space="preserve">
+    <value>Bankcheque inzien</value>
+    <comment />
+  </data>
+  <data name="TypesOfChecks" xml:space="preserve">
+    <value>Type cheque</value>
+    <comment />
+  </data>
+  <data name="Withdrawal" xml:space="preserve">
+    <value>opname</value>
+    <comment />
+  </data>
+  <data name="BetweenDates" xml:space="preserve">
+    <value>tussen data</value>
+    <comment />
+  </data>
+  <data name="BetweenNumbers" xml:space="preserve">
+    <value>tussen cijfers</value>
+    <comment />
+  </data>
+  <data name="Debit" xml:space="preserve">
+    <value>Debiteren</value>
+    <comment />
+  </data>
+  <data name="BankMovementReport" xml:space="preserve">
+    <value>Bankverplaatsingsrapport</value>
+    <comment />
+  </data>
+  <data name="TotalItems" xml:space="preserve">
+    <value>totaal aantal items</value>
+    <comment />
+  </data>
+  <data name="PowerUser" xml:space="preserve">
+    <value>gevorderde gebruiker</value>
+    <comment />
+  </data>
+  <data name="TypeOperationPurchaseCredit" xml:space="preserve">
+    <value>type bewerking voor Aankoop op krediet</value>
+    <comment />
+  </data>
+  <data name="TypeOperationPurchaseCash" xml:space="preserve">
+    <value>type bewerking voor Aankoop contant geld</value>
+    <comment />
+  </data>
+  <data name="TypeOperationSaleCredit" xml:space="preserve">
+    <value>type bewerking voor Aankoop contant geld</value>
+    <comment />
+  </data>
+  <data name="TypeOperationSaleCash" xml:space="preserve">
+    <value>type operatie voor Verkoop contant geld</value>
+    <comment />
+  </data>
+  <data name="InterestRateMonthlyIsInvalid" xml:space="preserve">
+    <value>Maandelijkse rente is ongeldig</value>
+    <comment />
+  </data>
+  <data name="MaxDiscountPercentIsInvalid" xml:space="preserve">
+    <value>Maximaal kortingspercentage is ongeldig</value>
+    <comment />
+  </data>
+  <data name="MaximumNumberOfItemsIsInvalid" xml:space="preserve">
+    <value>Maximum aantal items is ongeldig</value>
+    <comment />
+  </data>
+  <data name="NumberOfDecimalsInStockIsInvalid" xml:space="preserve">
+    <value>Aantal decimalen in voorraad is ongeldig</value>
+    <comment />
+  </data>
+  <data name="PriceLevelDefaultIsInvalid" xml:space="preserve">
+    <value>Prijsniveau Standaard is ongeldig</value>
+    <comment />
+  </data>
+  <data name="SecretKeyForPriceIsNotValid" xml:space="preserve">
+    <value>Geheime sleutel voor prijs is niet geldig</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForPurchaseCashIsInvalid" xml:space="preserve">
+    <value>Type bewerking voor Contant geld kopen is ongeldig</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForPurchaseOnCreditIsInvalid" xml:space="preserve">
+    <value>Type bewerking voor aankoop op krediet is ongeldig</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForSaleCashIsInvalid" xml:space="preserve">
+    <value>Type operatie voor Verkoop contant geld is ongeldig</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForSaleOnCreditIsInvalid" xml:space="preserve">
+    <value>Type bewerking voor Verkoop op krediet is ongeldig</value>
+    <comment />
+  </data>
+  <data name="ActiveProductIsInvalid" xml:space="preserve">
+    <value>Actief product is niet geldig</value>
+    <comment />
+  </data>
+  <data name="AlterStockIsInvalid" xml:space="preserve">
+    <value>Voorraadmodifier is niet geldig</value>
+    <comment />
+  </data>
+  <data name="BarcodeIsInvalid" xml:space="preserve">
+    <value>Barcode is ongeldig</value>
+    <comment />
+  </data>
+  <data name="GenericNameIsInvalid" xml:space="preserve">
+    <value>Algemene naam van het product is niet geldig</value>
+    <comment />
+  </data>
+  <data name="GroupIsInvalid" xml:space="preserve">
+    <value>Productgroep is niet geldig</value>
+    <comment />
+  </data>
+  <data name="MeasureIsInvalid" xml:space="preserve">
+    <value>Maateenheid is niet geldig</value>
+    <comment />
+  </data>
+  <data name="MinimunStockIsInvalid" xml:space="preserve">
+    <value>Minimumvoorraad is niet geldig</value>
+    <comment />
+  </data>
+  <data name="PackagingIsInvalid" xml:space="preserve">
+    <value>Type verpakking is niet geldig</value>
+    <comment />
+  </data>
+  <data name="PriorityIsInvalid" xml:space="preserve">
+    <value>Productprioriteit is niet geldig</value>
+    <comment />
+  </data>
+  <data name="ProductCheckIsInvalid" xml:space="preserve">
+    <value>Gecontroleerd product is ongeldig</value>
+    <comment />
+  </data>
+  <data name="ProductCodeIsInvalid" xml:space="preserve">
+    <value>Productcode is ongeldig</value>
+    <comment />
+  </data>
+  <data name="ProductCodeProviderIsInvalid" xml:space="preserve">
+    <value>Providercode is ongeldig</value>
+    <comment />
+  </data>
+  <data name="SaleCommissionIsNotValid" xml:space="preserve">
+    <value>Verkoopcommissie is niet geldig</value>
+    <comment />
+  </data>
+  <data name="SectorProductIsInvalid" xml:space="preserve">
+    <value>Productsector is niet geldig</value>
+    <comment />
+  </data>
+  <data name="SourceProductIsInvalid" xml:space="preserve">
+    <value>Bron van het product is niet geldig</value>
+    <comment />
+  </data>
+  <data name="SubGroupIsInvalid" xml:space="preserve">
+    <value>Productsubgroep is niet geldig</value>
+    <comment />
+  </data>
+  <data name="TaxIsInvalid" xml:space="preserve">
+    <value>belastingsoort is niet geldig</value>
+    <comment />
+  </data>
+  <data name="TrademarkIsInvalid" xml:space="preserve">
+    <value>Handelsmerk is niet geldig</value>
+    <comment />
+  </data>
+  <data name="WeightIsNotValid" xml:space="preserve">
+    <value>Gewicht is niet geldig</value>
+    <comment />
+  </data>
+  <data name="WholesaleIsInvalid" xml:space="preserve">
+    <value>Groothandel is niet geldig</value>
+    <comment />
+  </data>
+  <data name="ProductNameIsInvalid" xml:space="preserve">
+    <value>productnaam is niet geldig</value>
+    <comment />
+  </data>
+  <data name="ProductIsInvalid" xml:space="preserve">
+    <value>Product is niet geldig</value>
+    <comment />
+  </data>
+  <data name="PriceAccordingToQuantityIsNotValid" xml:space="preserve">
+    <value>prijs volgens hoeveelheid is niet geldig</value>
+    <comment />
+  </data>
+  <data name="PriceValueIsInvalid" xml:space="preserve">
+    <value>Prijs is niet geldig</value>
+    <comment />
+  </data>
+  <data name="TypeOfPriceIsNotValid" xml:space="preserve">
+    <value>Type prijs is niet geldig</value>
+    <comment />
+  </data>
+  <data name="QuantityIsNotValid" xml:space="preserve">
+    <value>Hoeveelheid is niet geldig</value>
+    <comment />
+  </data>
+  <data name="BatchIsInvalid" xml:space="preserve">
+    <value>Batch is ongeldig</value>
+    <comment />
+  </data>
+  <data name="StartDateIsInvalid" xml:space="preserve">
+    <value>startdatum is ongeldig</value>
+    <comment />
+  </data>
+  <data name="EndDateIsInvalid" xml:space="preserve">
+    <value>einddatum is ongeldig</value>
+    <comment />
+  </data>
+  <data name="CustomerActiveIsNotValid" xml:space="preserve">
+    <value>actieve klant is ongeldig</value>
+    <comment />
+  </data>
+  <data name="StockIsInvalid" xml:space="preserve">
+    <value>voorraad is ongeldig</value>
+    <comment />
+  </data>
+  <data name="VATpercentage" xml:space="preserve">
+    <value>BTW percentage</value>
+  </data>
+  <data name="StockQuantity" xml:space="preserve">
+    <value>Voorraadhoeveelheid</value>
+  </data>
+  <data name="Side" xml:space="preserve">
+    <value>Kant</value>
+  </data>
+  <data name="Shelving" xml:space="preserve">
+    <value>rekken</value>
+  </data>
+  <data name="section" xml:space="preserve">
+    <value>Sectie</value>
+  </data>
+  <data name="SalePrice" xml:space="preserve">
+    <value>Verkoopprijs</value>
+  </data>
+  <data name="QuantityPerBox" xml:space="preserve">
+    <value>Aantal per doos</value>
+  </data>
+  <data name="MaximumStock" xml:space="preserve">
+    <value>Maximale voorraad</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>Lijn</value>
+  </data>
+  <data name="ImageSecondary" xml:space="preserve">
+    <value>Secundaire afbeelding</value>
+  </data>
+  <data name="ImageMain" xml:space="preserve">
+    <value>Hoofdafbeelding</value>
+  </data>
+  <data name="DeleteSecondary" xml:space="preserve">
+    <value>Secundair verwijderen</value>
+  </data>
+  <data name="DeleteMain" xml:space="preserve">
+    <value>Hoofd verwijderen</value>
+  </data>
+  <data name="CostPrice" xml:space="preserve">
+    <value>Kostprijs</value>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>Kolom</value>
+  </data>
+  <data name="AddImageSecondary" xml:space="preserve">
+    <value>Secundaire afbeelding toevoegen</value>
+  </data>
+  <data name="AddImageMain" xml:space="preserve">
+    <value>Hoofdafbeelding toevoegen</value>
+  </data>
+  <data name="Attributes" xml:space="preserve">
+    <value>attributen</value>
+  </data>
+  <data name="ComponentsAndApplications" xml:space="preserve">
+    <value>Componenten en toepassingen</value>
+  </data>
+  <data name="Conditions" xml:space="preserve">
+    <value>Conditie</value>
+  </data>
+  <data name="ImageLocationComponents" xml:space="preserve">
+    <value>Afbeelding | Locatie | Componenten</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>Hoofd</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="Prices" xml:space="preserve">
+    <value>Prijzen</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>Eigendom</value>
+  </data>
+  <data name="StockAndPrices" xml:space="preserve">
+    <value>Voorraad en prijzen</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>identitet</value>
+  </data>
+  <data name="AdvantageIsInvalid" xml:space="preserve">
+    <value>Voordeel is ongeldig</value>
+  </data>
+  <data name="BenefitIsInvalid" xml:space="preserve">
+    <value>Voordeel is ongeldig</value>
+  </data>
+  <data name="ColumnIsInvalid" xml:space="preserve">
+    <value>Kolom is ongeldig</value>
+  </data>
+  <data name="FeatureIsInvalid" xml:space="preserve">
+    <value>Functie is ongeldig</value>
+  </data>
+  <data name="LineIsInvalid" xml:space="preserve">
+    <value>Lijn is ongeldig</value>
+  </data>
+  <data name="MaximumStockIsInvalid" xml:space="preserve">
+    <value>Maximale voorraad is ongeldig</value>
+  </data>
+  <data name="ProductServiceIsInvalid" xml:space="preserve">
+    <value>De service van het producttype is niet geldig</value>
+  </data>
+  <data name="QuantityPerBoxIsInvalid" xml:space="preserve">
+    <value>Aantal per doos is ongeldig</value>
+  </data>
+  <data name="ShelvingIsInvalid" xml:space="preserve">
+    <value>Schappen is ongeldig</value>
+  </data>
+  <data name="SideIsInvalid" xml:space="preserve">
+    <value>Kant is ongeldig</value>
+  </data>
+  <data name="CostPriceIsInvalid" xml:space="preserve">
+    <value>Kostprijs is ongeldig</value>
+  </data>
+  <data name="ExpireDateIsInvalid" xml:space="preserve">
+    <value>Vervaldatum is ongeldig</value>
+  </data>
+  <data name="QuantityStockIsInvalid" xml:space="preserve">
+    <value>Hoeveelheid voorraad is ongeldig</value>
+  </data>
+  <data name="SalePriceIsInvalid" xml:space="preserve">
+    <value>Verkoopprijs is ongeldig</value>
+  </data>
+  <data name="CopyCodeToClipboard" xml:space="preserve">
+    <value>Code kopiëren naar klembord</value>
+  </data>
+  <data name="CopyPicture" xml:space="preserve">
+    <value>Afbeelding kopiëren</value>
+  </data>
+  <data name="DeleteImage" xml:space="preserve">
+    <value>Verwijder afbeelding</value>
+  </data>
+  <data name="EditImage" xml:space="preserve">
+    <value>Bewerk afbeelding</value>
+  </data>
+  <data name="ExportImage" xml:space="preserve">
+    <value>Afbeelding exporteren</value>
+  </data>
+  <data name="ModifyStock" xml:space="preserve">
+    <value>Wijzig voorraad</value>
+  </data>
+  <data name="PasteImage" xml:space="preserve">
+    <value>Afbeelding plakken</value>
+  </data>
+  <data name="PurchaseHistory" xml:space="preserve">
+    <value>Aankoop geschiedenis</value>
+  </data>
+  <data name="SelectItem" xml:space="preserve">
+    <value>Selecteer item</value>
+  </data>
+  <data name="ViewImage" xml:space="preserve">
+    <value>Bekijk afbeelding</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Verkrijgbaar</value>
+  </data>
+  <data name="CancelSale" xml:space="preserve">
+    <value>Verkoop annuleren</value>
+  </data>
+  <data name="condition" xml:space="preserve">
+    <value>Voorwaarde</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Doorgaan</value>
+  </data>
+  <data name="ContinueSellingProducts" xml:space="preserve">
+    <value>Doorgaan met het verkopen van producten</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Korting</value>
+  </data>
+  <data name="DiscountRate" xml:space="preserve">
+    <value>Kortingspercentage</value>
+  </data>
+  <data name="displaySalesInvoice" xml:space="preserve">
+    <value>Verkoopfactuur weergeven</value>
+  </data>
+  <data name="finish" xml:space="preserve">
+    <value>Af hebben</value>
+  </data>
+  <data name="finishInvoicing" xml:space="preserve">
+    <value>Facturering afronden</value>
+  </data>
+  <data name="Invoices" xml:space="preserve">
+    <value>Facturen</value>
+  </data>
+  <data name="PretendToPrint" xml:space="preserve">
+    <value>Doen alsof je afdrukt</value>
+  </data>
+  <data name="Row" xml:space="preserve">
+    <value>Rij</value>
+  </data>
+  <data name="SelectCustomerRuc" xml:space="preserve">
+    <value>ssn van de klant</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>Hou op</value>
+  </data>
+  <data name="StopSelling" xml:space="preserve">
+    <value>Stop met verkopen</value>
+  </data>
+  <data name="AddNewRow" xml:space="preserve">
+    <value>Nieuwe rij toevoegen</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>Klanten</value>
+  </data>
+  <data name="budgetPrinterName" xml:space="preserve">
+    <value>naam budgetprinter</value>
+  </data>
+  <data name="InvoicePrinterName" xml:space="preserve">
+    <value>naam factuurprinter</value>
+  </data>
+  <data name="IsSaleImputQuantity" xml:space="preserve">
+    <value>geef hoeveelheid producten aan</value>
+  </data>
+  <data name="PointOfSaleSetup" xml:space="preserve">
+    <value>verkooppunt setup</value>
+  </data>
+  <data name="PersonIdIsInvalid" xml:space="preserve">
+    <value>persoons-ID is ongeldig</value>
+  </data>
+  <data name="PromissoryNoteIsInvalid" xml:space="preserve">
+    <value>promessenummer is ongeldig</value>
+  </data>
+  <data name="NumberOfInstallments" xml:space="preserve">
+    <value>Aantal Installaties</value>
+  </data>
+  <data name="NumberOfInstallmentsInvalid" xml:space="preserve">
+    <value>aantal termijnen is ongeldig</value>
+  </data>
+  <data name="AuthorizedStaff" xml:space="preserve">
+    <value>Geautoriseerd personeel</value>
+  </data>
+  <data name="AuthorizingOfficer" xml:space="preserve">
+    <value>Inkoper</value>
+  </data>
+  <data name="SearchOfAuthorizeStaff" xml:space="preserve">
+    <value>zoeken van geautoriseerd personeel</value>
+  </data>
+  <data name="SearchOfPersons" xml:space="preserve">
+    <value>zoeken van personen</value>
+  </data>
+  <data name="SearchOfPurchasingAuthority" xml:space="preserve">
+    <value>zoeken naar inkoopautoriteit</value>
+  </data>
+  <data name="CustomerCurrencyIsInvalid" xml:space="preserve">
+    <value>selectie niet toegestaan</value>
+  </data>
+  <data name="SelectionNotAllowed" xml:space="preserve">
+    <value>klantvaluta is ongeldig</value>
+  </data>
+  <data name="CurrencyDoesNotMatch" xml:space="preserve">
+    <value>de valuta komt niet overeen</value>
+  </data>
+  <data name="ProductCurrencyIsInvalid" xml:space="preserve">
+    <value>Productvaluta is ongeldig</value>
+  </data>
+  <data name="AmountPaid" xml:space="preserve">
+    <value>Betaald bedrag</value>
+  </data>
+  <data name="FinalizeCashSale" xml:space="preserve">
+    <value>Contante verkoop afronden</value>
+  </data>
+  <data name="SalePaymentDetail" xml:space="preserve">
+    <value>Verkoop betalingsdetails</value>
+  </data>
+  <data name="change" xml:space="preserve">
+    <value>Wijzigen</value>
+  </data>
+  <data name="arrears" xml:space="preserve">
+    <value>achterstallige betalingen</value>
+  </data>
+  <data name="Fees" xml:space="preserve">
+    <value>vergoedingen</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>Periode</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>waarde</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>dagen</value>
+  </data>
+  <data name="FinalizeCreditSale" xml:space="preserve">
+    <value>registrere et kreditsalg</value>
+  </data>
+  <data name="SearchOfAuthorizingOfficer" xml:space="preserve">
+    <value>Ordonnateur zoeken</value>
+  </data>
+  <data name="SerialCodeIsInvalid" xml:space="preserve">
+    <value>seriecode is ongeldig</value>
+  </data>
+  <data name="ShopRuleIsInvalid" xml:space="preserve">
+    <value>winkelregel is ongeldig</value>
+  </data>
+  <data name="VisualizeSalesBill" xml:space="preserve">
+    <value>verkoopfacturen visualiseren</value>
+  </data>
+  <data name="InternalControl" xml:space="preserve">
+    <value>interne controle</value>
+  </data>
+  <data name="DeliveryNote2" xml:space="preserve">
+    <value>afleveringsbon</value>
+  </data>
+  <data name="Budget" xml:space="preserve">
+    <value>Begroting</value>
+  </data>
+  <data name="TotalSales" xml:space="preserve">
+    <value>totale verkoop</value>
+  </data>
+  <data name="InternalControlIsInvalid" xml:space="preserve">
+    <value>interne controle is ongeldig</value>
+  </data>
+  <data name="BoxIsInvalid" xml:space="preserve">
+    <value>de doos is ongeldig</value>
+  </data>
+  <data name="PrintInternalControlLX-350" xml:space="preserve">
+    <value>Interne controle afdrukken LX-350</value>
+  </data>
+  <data name="PrintInternalControlTM-T20" xml:space="preserve">
+    <value>Interne controle afdrukken TM-T20</value>
+  </data>
+  <data name="PrintInternalControlTMU-220" xml:space="preserve">
+    <value>Interne controle afdrukken TM-U220</value>
+  </data>
+  <data name="PrintInvoiceLX-350" xml:space="preserve">
+    <value>Factuur afdrukken LX-350</value>
+  </data>
+  <data name="VisualizeInternalControl" xml:space="preserve">
+    <value>Visualiseer interne controle</value>
+  </data>
+  <data name="CancelInvoiceNumber" xml:space="preserve">
+    <value>Factuurnummer annuleren</value>
+  </data>
+  <data name="DeleteSale" xml:space="preserve">
+    <value>Verkoop verwijderen</value>
+  </data>
+  <data name="SelectSale" xml:space="preserve">
+    <value>Selecteer Verkoop</value>
+  </data>
+  <data name="SendByEmail" xml:space="preserve">
+    <value>Stuur per e-mail</value>
+  </data>
+  <data name="POSdocument" xml:space="preserve">
+    <value>POS-afdrukken</value>
+  </data>
+  <data name="InvoiceAlreadyGenerated" xml:space="preserve">
+    <value>Factuur al gegenereerd</value>
+  </data>
+  <data name="ManageCashRegister" xml:space="preserve">
+    <value>Kassa beheren</value>
+  </data>
+  <data name="SelectActiveBox" xml:space="preserve">
+    <value>Selecteer actief vak</value>
+  </data>
+  <data name="BoxSetting" xml:space="preserve">
+    <value>doos configuratie</value>
+  </data>
+  <data name="DefaultPerson" xml:space="preserve">
+    <value>standaard persoon</value>
+  </data>
+  <data name="AmountOfFeesIsInvalid" xml:space="preserve">
+    <value>Bedrag van vergoedingen is ongeldig</value>
+  </data>
+  <data name="ChargeWithInterest" xml:space="preserve">
+    <value>Laad met rente</value>
+  </data>
+  <data name="InterestIsInvalid" xml:space="preserve">
+    <value>Rente is ongeldig</value>
+  </data>
+  <data name="PaymentValueIsInvalid" xml:space="preserve">
+    <value>Betalingswaarde is ongeldig</value>
+  </data>
+  <data name="SaleFeesIdIsInvalid" xml:space="preserve">
+    <value>ID verkoopkosten is ongeldig</value>
+  </data>
+  <data name="SaleIdIsInvalid" xml:space="preserve">
+    <value>Verkoop-ID is ongeldig</value>
+  </data>
+  <data name="PaymentIdIsInvalid" xml:space="preserve">
+    <value>Het betalings-ID is ongeldig</value>
+  </data>
+  <data name="PaymentTypeIsInvalid" xml:space="preserve">
+    <value>Het betalingstype is ongeldig</value>
+  </data>
+  <data name="PaymentDetailIsInvalid" xml:space="preserve">
+    <value>betalingsgegevens zijn ongeldig</value>
+  </data>
+  <data name="InterestOnArrears" xml:space="preserve">
+    <value>Rente op achterstallige betalingen</value>
+  </data>
+  <data name="InterestOnArrearsIsInvalid" xml:space="preserve">
+    <value>Rente op achterstallige betalingen is ongeldig</value>
+  </data>
+  <data name="StockModification" xml:space="preserve">
+    <value>wijziging van de voorraad</value>
+  </data>
+</root>

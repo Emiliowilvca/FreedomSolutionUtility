@@ -1,0 +1,4162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessPoint" xml:space="preserve">
+    <value>访问点</value>
+    <comment />
+  </data>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>访问被拒绝</value>
+    <comment />
+  </data>
+  <data name="Authorization" xml:space="preserve">
+    <value>授权</value>
+    <comment />
+  </data>
+  <data name="AuthorizationInfo" xml:space="preserve">
+    <value>访问管理</value>
+    <comment />
+  </data>
+  <data name="BackToLogin" xml:space="preserve">
+    <value>返回登陆</value>
+    <comment />
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>修改密码</value>
+    <comment />
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>确认密码</value>
+    <comment />
+  </data>
+  <data name="ConfirmPasswordDoNotMatch" xml:space="preserve">
+    <value>{0}和{1}不匹配</value>
+    <comment />
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>当前密码</value>
+    <comment />
+  </data>
+  <data name="Email_Is_Invalid" xml:space="preserve">
+    <value>您的电子邮件地址无效.</value>
+    <comment />
+  </data>
+  <data name="EmailClickLinkText" xml:space="preserve">
+    <value>要确认用户，请单击此链接:</value>
+    <comment />
+  </data>
+  <data name="EmailConfirm" xml:space="preserve">
+    <value>感谢您确认电子邮件。现在您可以登录系统了.</value>
+    <comment />
+  </data>
+  <data name="EmailConfirmNewUser" xml:space="preserve">
+    <value>{0}确认新用户</value>
+    <comment />
+  </data>
+  <data name="EmailMsgActivate" xml:space="preserve">
+    <value>允许访问用户的说明已通过电子邮件发送。</value>
+    <comment />
+  </data>
+  <data name="EmailNotCorrespond" xml:space="preserve">
+    <value>该电子邮件与注册用户不对应。</value>
+    <comment />
+  </data>
+  <data name="ErrorCantCreateUser" xml:space="preserve">
+    <value>无法创建.</value>
+    <comment />
+  </data>
+  <data name="ErrorFailedToLogin" xml:space="preserve">
+    <value>登录失败</value>
+    <comment />
+  </data>
+  <data name="ErrorUsernameExits" xml:space="preserve">
+    <value>电子邮件已经注册.</value>
+    <comment />
+  </data>
+  <data name="ImageProfile" xml:space="preserve">
+    <value>配置文件映像</value>
+    <comment />
+  </data>
+  <data name="LicenseExpired" xml:space="preserve">
+    <value>许可证已过期</value>
+    <comment />
+  </data>
+  <data name="LoginAsAdministrator" xml:space="preserve">
+    <value>以管理员身份登录</value>
+    <comment />
+  </data>
+  <data name="LoginInstructions" xml:space="preserve">
+    <value>入门说明已发送至您的电子邮件。请检查链接以登录</value>
+    <comment />
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>登录</value>
+    <comment />
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>注销</value>
+    <comment />
+  </data>
+  <data name="LogoutQuestions" xml:space="preserve">
+    <value>打算退出</value>
+    <comment />
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>新密码</value>
+    <comment />
+  </data>
+  <data name="NotAuthorized" xml:space="preserve">
+    <value>您未被授权执行此操作</value>
+    <comment />
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>密码</value>
+    <comment />
+  </data>
+  <data name="PasswordError" xml:space="preserve">
+    <value>输入有效的密码</value>
+    <comment />
+  </data>
+  <data name="PasswordReset" xml:space="preserve">
+    <value>重置密码</value>
+    <comment />
+  </data>
+  <data name="PasswordResetButtonlink" xml:space="preserve">
+    <value>密码重置</value>
+    <comment />
+  </data>
+  <data name="PasswordResetError" xml:space="preserve">
+    <value>重置密码时出错。</value>
+    <comment />
+  </data>
+  <data name="PasswordResetIntruction" xml:space="preserve">
+    <value>恢复密码的说明已发送到您的电子邮箱。</value>
+    <comment />
+  </data>
+  <data name="PasswordResetLink" xml:space="preserve">
+    <value>要重置密码，请单击此链接:</value>
+    <comment />
+  </data>
+  <data name="PasswordResetSuccessful" xml:space="preserve">
+    <value>密码重置成功.</value>
+    <comment />
+  </data>
+  <data name="PasswordResetTitle" xml:space="preserve">
+    <value>Royalsys密码重置</value>
+    <comment />
+  </data>
+  <data name="PleaseSignin" xml:space="preserve">
+    <value>请先登录</value>
+    <comment />
+  </data>
+  <data name="ProfileUser" xml:space="preserve">
+    <value>用户配置文件</value>
+    <comment />
+  </data>
+  <data name="RecoverPassword" xml:space="preserve">
+    <value>找回密码</value>
+    <comment />
+  </data>
+  <data name="RecoverPasswordCompany" xml:space="preserve">
+    <value>{0} 恢复密码</value>
+    <comment />
+  </data>
+  <data name="RegisterNewUser" xml:space="preserve">
+    <value>注册新用户为</value>
+    <comment />
+  </data>
+  <data name="RememberMe" xml:space="preserve">
+    <value>记住我?</value>
+    <comment />
+  </data>
+  <data name="RequiredToLogin" xml:space="preserve">
+    <value>您需要登录 </value>
+    <comment />
+  </data>
+  <data name="RoleNameInvestor" xml:space="preserve">
+    <value>投资者</value>
+    <comment />
+  </data>
+  <data name="RoleNameAdministrator" xml:space="preserve">
+    <value>管理员</value>
+    <comment />
+  </data>
+  <data name="RoleNameCustomer" xml:space="preserve">
+    <value>顾客</value>
+    <comment />
+  </data>
+  <data name="RoleNameFinance" xml:space="preserve">
+    <value>金融</value>
+    <comment />
+  </data>
+  <data name="RoleNameOperator" xml:space="preserve">
+    <value>算子</value>
+    <comment />
+  </data>
+  <data name="RoleNameProvider" xml:space="preserve">
+    <value>提供商</value>
+    <comment />
+  </data>
+  <data name="RoleNameSeller" xml:space="preserve">
+    <value>卖家</value>
+    <comment />
+  </data>
+  <data name="RoleNameSuperuser" xml:space="preserve">
+    <value>超级用户</value>
+    <comment />
+  </data>
+  <data name="SavePassword" xml:space="preserve">
+    <value>保存密码</value>
+    <comment />
+  </data>
+  <data name="SuccessfullyRegister" xml:space="preserve">
+    <value>您已成功注册，我们已经准备就绪。</value>
+    <comment />
+  </data>
+  <data name="ThanksRegistering" xml:space="preserve">
+    <value>感谢你的注册</value>
+    <comment />
+  </data>
+  <data name="UpdateUser" xml:space="preserve">
+    <value>更新用户</value>
+    <comment />
+  </data>
+  <data name="UserAddress" xml:space="preserve">
+    <value>地址</value>
+    <comment />
+  </data>
+  <data name="UserAlreadyRegistered" xml:space="preserve">
+    <value>用户已经注册</value>
+    <comment />
+  </data>
+  <data name="UserEmail" xml:space="preserve">
+    <value>用戶電子郵件</value>
+    <comment />
+  </data>
+  <data name="UserForgotPassword" xml:space="preserve">
+    <value>忘记密码？</value>
+    <comment />
+  </data>
+  <data name="UserFullName" xml:space="preserve">
+    <value>全名</value>
+    <comment />
+  </data>
+  <data name="UserIsAdmin" xml:space="preserve">
+    <value>是管理员?</value>
+    <comment />
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>用戶</value>
+    <comment />
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>用户名</value>
+    <comment />
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>未找到用户.</value>
+    <comment />
+  </data>
+  <data name="UserPhoneNumber" xml:space="preserve">
+    <value>手机</value>
+    <comment />
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>用户</value>
+    <comment />
+  </data>
+  <data name="UserUpdated" xml:space="preserve">
+    <value>用户更新</value>
+    <comment />
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>添加</value>
+    <comment />
+  </data>
+  <data name="Anonymous_NiceToMeetyou" xml:space="preserve">
+    <value>很高兴认识你</value>
+    <comment />
+  </data>
+  <data name="Anonymous_WelcomeToBussiness" xml:space="preserve">
+    <value>欢迎来到我们的业务</value>
+    <comment />
+  </data>
+  <data name="ApiAddress" xml:space="preserve">
+    <value>网址</value>
+    <comment />
+  </data>
+  <data name="ApiAddress_Title" xml:space="preserve">
+    <value>Api服务配置</value>
+    <comment />
+  </data>
+  <data name="ApiAddressTextEmpty" xml:space="preserve">
+    <value>Api地址文本为空</value>
+    <comment />
+  </data>
+  <data name="AppProduct" xml:space="preserve">
+    <value>JK-Shop是Royalsys的产品</value>
+    <comment />
+  </data>
+  <data name="AppType" xml:space="preserve">
+    <value>商业软件解决方案</value>
+    <comment />
+  </data>
+  <data name="AccountStatement" xml:space="preserve">
+    <value>帐户对帐单</value>
+    <comment />
+  </data>
+  <data name="BouncedCheck" xml:space="preserve">
+    <value>空头支票</value>
+    <comment />
+  </data>
+  <data name="BankBranch" xml:space="preserve">
+    <value>银行分行</value>
+    <comment />
+  </data>
+  <data name="BankCheck" xml:space="preserve">
+    <value>银行支票</value>
+    <comment />
+  </data>
+  <data name="BankCheckNumber" xml:space="preserve">
+    <value>支票编号</value>
+    <comment />
+  </data>
+  <data name="BankCheckNumberExist" xml:space="preserve">
+    <value>银行支票号码已经存在</value>
+    <comment />
+  </data>
+  <data name="BankCheckPayee" xml:space="preserve">
+    <value>收款人</value>
+    <comment />
+  </data>
+  <data name="BankDepositAddNew" xml:space="preserve">
+    <value>新的储值记录</value>
+    <comment />
+  </data>
+  <data name="BankDepositedChecks" xml:space="preserve">
+    <value>存入支票</value>
+    <comment />
+  </data>
+  <data name="BankDepositNumber" xml:space="preserve">
+    <value>存款单编号</value>
+    <comment />
+  </data>
+  <data name="BankDepositNumExist" xml:space="preserve">
+    <value>号码已经存在</value>
+    <comment />
+  </data>
+  <data name="BankDepositoDetails" xml:space="preserve">
+    <value>定金详情</value>
+    <comment />
+  </data>
+  <data name="BankDepositReport2" xml:space="preserve">
+    <value>银行存款报告</value>
+    <comment />
+  </data>
+  <data name="BankExtraction" xml:space="preserve">
+    <value>银行提取</value>
+    <comment />
+  </data>
+  <data name="BankExtractionReport" xml:space="preserve">
+    <value>提取报告</value>
+    <comment />
+  </data>
+  <data name="Bank" xml:space="preserve">
+    <value>银行</value>
+    <comment />
+  </data>
+  <data name="BankManager" xml:space="preserve">
+    <value>银行经理</value>
+    <comment />
+  </data>
+  <data name="BankMyBank" xml:space="preserve">
+    <value>銀行</value>
+    <comment />
+  </data>
+  <data name="BankOtherBank" xml:space="preserve">
+    <value>其他银行</value>
+    <comment />
+  </data>
+  <data name="BankReimbursed" xml:space="preserve">
+    <value>已报销</value>
+    <comment />
+  </data>
+  <data name="BankAccount" xml:space="preserve">
+    <value>银行帐户</value>
+    <comment />
+  </data>
+  <data name="BankAccountType" xml:space="preserve">
+    <value>银行帐户类型</value>
+    <comment />
+  </data>
+  <data name="BankDeposit_ReportTitle" xml:space="preserve">
+    <value>实体之间的日期之间的银行存款</value>
+    <comment />
+  </data>
+  <data name="BankDeposit_TitleCheckDeposited" xml:space="preserve">
+    <value>日期之间存入帐户的支票</value>
+    <comment />
+  </data>
+  <data name="BankExtractionType" xml:space="preserve">
+    <value>萃取</value>
+    <comment />
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>分支</value>
+    <comment />
+  </data>
+  <data name="Branch_Name" xml:space="preserve">
+    <value>分支名称</value>
+    <comment />
+  </data>
+  <data name="BusinessManagementSoftware" xml:space="preserve">
+    <value>商业管理软件</value>
+    <comment />
+  </data>
+  <data name="Category_Name" xml:space="preserve">
+    <value>类别名称</value>
+    <comment />
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>类别</value>
+    <comment />
+  </data>
+  <data name="CheckInternetConnection" xml:space="preserve">
+    <value>检查互联网连接.</value>
+    <comment />
+  </data>
+  <data name="Cities" xml:space="preserve">
+    <value>城市</value>
+    <comment />
+  </data>
+  <data name="City_ErrorMustSelect" xml:space="preserve">
+    <value>你必须选择一个城市。</value>
+    <comment />
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>城市</value>
+    <comment />
+  </data>
+  <data name="City_Name" xml:space="preserve">
+    <value>城市名</value>
+    <comment />
+  </data>
+  <data name="City_NoCitiesAddedYet" xml:space="preserve">
+    <value>尚未添加城市</value>
+    <comment />
+  </data>
+  <data name="City_of" xml:space="preserve">
+    <value>城市</value>
+    <comment />
+  </data>
+  <data name="City_Pleseholder" xml:space="preserve">
+    <value>制造商</value>
+    <comment />
+  </data>
+  <data name="City_SelectCombo" xml:space="preserve">
+    <value>选择一个城市</value>
+    <comment />
+  </data>
+  <data name="Company_Create" xml:space="preserve">
+    <value>创建公司</value>
+    <comment />
+  </data>
+  <data name="Company_Edith" xml:space="preserve">
+    <value>更单位</value>
+    <comment />
+  </data>
+  <data name="Company_ErrorMustSelect" xml:space="preserve">
+    <value>你必须选择一家公司。</value>
+    <comment />
+  </data>
+  <data name="Company_Logo" xml:space="preserve">
+    <value>徽标</value>
+    <comment />
+  </data>
+  <data name="Company_OwnerLabel" xml:space="preserve">
+    <value>所有者</value>
+    <comment />
+  </data>
+  <data name="Company_SelectCombo" xml:space="preserve">
+    <value>(请选择一家单位)</value>
+    <comment />
+  </data>
+  <data name="Company_TrialDay" xml:space="preserve">
+    <value>试用日期</value>
+    <comment />
+  </data>
+  <data name="ConfigureConnection" xml:space="preserve">
+    <value>配置连接</value>
+    <comment />
+  </data>
+  <data name="ConfigureDatabase" xml:space="preserve">
+    <value>配置数据库服务器</value>
+    <comment />
+  </data>
+  <data name="Countries" xml:space="preserve">
+    <value>国家/地区</value>
+    <comment />
+  </data>
+  <data name="Country_CannotLoadCountries" xml:space="preserve">
+    <value>无法加载国家</value>
+    <comment />
+  </data>
+  <data name="Country_ErrorMustSelect" xml:space="preserve">
+    <value>您必须选择一个国家</value>
+    <comment />
+  </data>
+  <data name="Country_Name" xml:space="preserve">
+    <value>国家名称</value>
+    <comment />
+  </data>
+  <data name="Country_Pleaseholder" xml:space="preserve">
+    <value>该国名称</value>
+    <comment />
+  </data>
+  <data name="Country_SelectCombo" xml:space="preserve">
+    <value>选择一个国家</value>
+    <comment />
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>國家</value>
+    <comment />
+  </data>
+  <data name="Customer" xml:space="preserve">
+    <value>顧客</value>
+    <comment />
+  </data>
+  <data name="DataBaseName" xml:space="preserve">
+    <value>数据库</value>
+    <comment />
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>关于</value>
+    <comment />
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>接受</value>
+    <comment />
+  </data>
+  <data name="AccountHolder" xml:space="preserve">
+    <value>帐户特有人</value>
+    <comment />
+  </data>
+  <data name="AccountNumber" xml:space="preserve">
+    <value>帐号</value>
+    <comment />
+  </data>
+  <data name="AccountType" xml:space="preserve">
+    <value>帐户类型</value>
+    <comment />
+  </data>
+  <data name="Actions" xml:space="preserve">
+    <value>操作</value>
+    <comment />
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>地址</value>
+    <comment />
+  </data>
+  <data name="AlreadyExists" xml:space="preserve">
+    <value>{0}已存在.</value>
+    <comment />
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>金额</value>
+    <comment />
+  </data>
+  <data name="AmountIsInvalid" xml:space="preserve">
+    <value>金额无效</value>
+    <comment />
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>应用</value>
+    <comment />
+  </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>属性</value>
+    <comment />
+  </data>
+  <data name="BackToList" xml:space="preserve">
+    <value>回到用户积分列表</value>
+    <comment />
+  </data>
+  <data name="Birthdate" xml:space="preserve">
+    <value>出生日期</value>
+    <comment />
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+    <comment />
+  </data>
+  <data name="CardIdNumber" xml:space="preserve">
+    <value>身份证号码</value>
+    <comment />
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>现金</value>
+    <comment />
+  </data>
+  <data name="ChooseFile" xml:space="preserve">
+    <value>选择文件</value>
+    <comment />
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>关闭</value>
+    <comment />
+  </data>
+  <data name="Concept" xml:space="preserve">
+    <value>概念</value>
+    <comment />
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>配置</value>
+    <comment />
+  </data>
+  <data name="CopyToClipboad" xml:space="preserve">
+    <value>复制到剪贴板</value>
+    <comment />
+  </data>
+  <data name="CreateNew" xml:space="preserve">
+    <value>新建</value>
+    <comment />
+  </data>
+  <data name="CreditOfficer" xml:space="preserve">
+    <value>信贷审批主管</value>
+    <comment />
+  </data>
+  <data name="EmptyTable" xml:space="preserve">
+    <value>表中没有可用的数据</value>
+    <comment />
+  </data>
+  <data name="LoadingRecords" xml:space="preserve">
+    <value>正在加载</value>
+    <comment />
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>第一项</value>
+    <comment />
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>最后一页</value>
+    <comment />
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>下一步</value>
+    <comment />
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>上一个</value>
+    <comment />
+  </data>
+  <data name="Processing" xml:space="preserve">
+    <value>正在处理...</value>
+    <comment />
+  </data>
+  <data name="NoRecordsFound" xml:space="preserve">
+    <value>找不到结果</value>
+    <comment />
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>日期</value>
+    <comment />
+  </data>
+  <data name="DateIsInvalid" xml:space="preserve">
+    <value>日期无效</value>
+    <comment />
+  </data>
+  <data name="DateRange" xml:space="preserve">
+    <value>日期范围</value>
+    <comment />
+  </data>
+  <data name="DateRangeValidate" xml:space="preserve">
+    <value>错误的日期范围</value>
+    <comment />
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>删除</value>
+    <comment />
+  </data>
+  <data name="Delete_Question" xml:space="preserve">
+    <value>你想删除?</value>
+    <comment />
+  </data>
+  <data name="DeleteItem" xml:space="preserve">
+    <value>删除项目</value>
+    <comment />
+  </data>
+  <data name="DeleteSuccessful" xml:space="preserve">
+    <value>已成功删除</value>
+    <comment />
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>详细信息</value>
+    <comment />
+  </data>
+  <data name="DetailWithoutRecords" xml:space="preserve">
+    <value>没有记录的细节</value>
+    <comment />
+  </data>
+  <data name="DocNumber" xml:space="preserve">
+    <value>文档编号</value>
+    <comment />
+  </data>
+  <data name="DueDate" xml:space="preserve">
+    <value>截止日期</value>
+    <comment />
+  </data>
+  <data name="DuplicateEntry" xml:space="preserve">
+    <value>重复项</value>
+    <comment />
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>编辑</value>
+    <comment />
+  </data>
+  <data name="EditPerson" xml:space="preserve">
+    <value>编辑人员</value>
+    <comment />
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>电子邮件</value>
+    <comment />
+  </data>
+  <data name="EnterValidNumber" xml:space="preserve">
+    <value>输入有效数字</value>
+    <comment />
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>错误</value>
+    <comment />
+  </data>
+  <data name="Error404" xml:space="preserve">
+    <value>错误404-页面未找到!</value>
+    <comment />
+  </data>
+  <data name="ErrorDataObtained" xml:space="preserve">
+    <value>无法获取数据.</value>
+    <comment />
+  </data>
+  <data name="Expiration" xml:space="preserve">
+    <value>到期</value>
+    <comment />
+  </data>
+  <data name="Facebook" xml:space="preserve">
+    <value>Facebook</value>
+    <comment />
+  </data>
+  <data name="FromCamera" xml:space="preserve">
+    <value>来自照相机</value>
+    <comment />
+  </data>
+  <data name="FromGallery" xml:space="preserve">
+    <value>从库中</value>
+    <comment />
+  </data>
+  <data name="GetRecords" xml:space="preserve">
+    <value>查找记录</value>
+    <comment />
+  </data>
+  <data name="InvalidDateFormat" xml:space="preserve">
+    <value>所需格式 {0}</value>
+    <comment />
+  </data>
+  <data name="IsAvailable" xml:space="preserve">
+    <value>可用</value>
+    <comment />
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>位置</value>
+    <comment />
+  </data>
+  <data name="MainNavigation" xml:space="preserve">
+    <value>主导航</value>
+    <comment />
+  </data>
+  <data name="MainPageTitle" xml:space="preserve">
+    <value>Fredom  - 商业管理软件</value>
+    <comment />
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>经理</value>
+    <comment />
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>字段{0}只能包含{1}个字符长度。</value>
+    <comment />
+  </data>
+  <data name="MinLength" xml:space="preserve">
+    <value>字段{0}必须至少包含{1}个字符。</value>
+    <comment />
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>移动</value>
+    <comment />
+  </data>
+  <data name="ModifyRecord" xml:space="preserve">
+    <value>修改记录</value>
+    <comment />
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名称</value>
+    <comment />
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>否</value>
+    <comment />
+  </data>
+  <data name="NoCameraSupported" xml:space="preserve">
+    <value>设备不支持访问相机.</value>
+    <comment />
+  </data>
+  <data name="NoGallerySupported" xml:space="preserve">
+    <value>设备不支持访问库.</value>
+    <comment />
+  </data>
+  <data name="NoRecordAddedYet" xml:space="preserve">
+    <value>无记录</value>
+    <comment />
+  </data>
+  <data name="NoResultFound" xml:space="preserve">
+    <value>没有发现结果</value>
+    <comment />
+  </data>
+  <data name="UnAuthorized" xml:space="preserve">
+    <value>未授权</value>
+    <comment />
+  </data>
+  <data name="NumberIsInvalid" xml:space="preserve">
+    <value>无效数字</value>
+    <comment />
+  </data>
+  <data name="OperationType" xml:space="preserve">
+    <value>操作类型 </value>
+    <comment />
+  </data>
+  <data name="PageXofY" xml:space="preserve">
+    <value>第 {0} 页，共 {1} 页</value>
+    <comment />
+  </data>
+  <data name="PasteFromClipboard" xml:space="preserve">
+    <value>从剪贴板导入</value>
+    <comment />
+  </data>
+  <data name="PayBox" xml:space="preserve">
+    <value>支付箱</value>
+    <comment />
+  </data>
+  <data name="PaymentDate" xml:space="preserve">
+    <value>下次付款日期</value>
+    <comment />
+  </data>
+  <data name="Person" xml:space="preserve">
+    <value>人员</value>
+    <comment />
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>手机</value>
+    <comment />
+  </data>
+  <data name="Validate_PhoneNumberIsInvalid" xml:space="preserve">
+    <value>有效的电话号码</value>
+    <comment />
+  </data>
+  <data name="PictureSource" xml:space="preserve">
+    <value>你想在哪里拍照？</value>
+    <comment />
+  </data>
+  <data name="Placeholder" xml:space="preserve">
+    <value>输入文字</value>
+    <comment />
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>打印</value>
+    <comment />
+  </data>
+  <data name="RecordExists" xml:space="preserve">
+    <value>这个记录已经存在</value>
+    <comment />
+  </data>
+  <data name="RecordNotFound" xml:space="preserve">
+    <value>找不到记录</value>
+    <comment />
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>报表</value>
+    <comment />
+  </data>
+  <data name="Requiered" xml:space="preserve">
+    <value>字段{0} 是必填的</value>
+    <comment />
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>返回</value>
+    <comment />
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+    <comment />
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>搜索</value>
+    <comment />
+  </data>
+  <data name="ReturnEmptySearch" xml:space="preserve">
+    <value>搜索结果无记录</value>
+    <comment />
+  </data>
+  <data name="SelectItemCombo" xml:space="preserve">
+    <value>(选择物料)</value>
+    <comment />
+  </data>
+  <data name="SelectOption" xml:space="preserve">
+    <value>选择选项</value>
+    <comment />
+  </data>
+  <data name="Sender" xml:space="preserve">
+    <value>致电人</value>
+    <comment />
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>设置</value>
+    <comment />
+  </data>
+  <data name="DateSince" xml:space="preserve">
+    <value>至今</value>
+    <comment />
+  </data>
+  <data name="Subtotal" xml:space="preserve">
+    <value>小计</value>
+    <comment />
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>成功</value>
+    <comment />
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>总计</value>
+    <comment />
+  </data>
+  <data name="TotalRecord" xml:space="preserve">
+    <value>记录总数</value>
+    <comment />
+  </data>
+  <data name="DateUntil" xml:space="preserve">
+    <value>直到日期</value>
+    <comment />
+  </data>
+  <data name="UpdateSuccessful" xml:space="preserve">
+    <value>更新成功</value>
+    <comment />
+  </data>
+  <data name="Web" xml:space="preserve">
+    <value>Web</value>
+    <comment />
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>欢迎来到木主题</value>
+    <comment />
+  </data>
+  <data name="WelcomeTo" xml:space="preserve">
+    <value>欢迎使用 {0}</value>
+    <comment />
+  </data>
+  <data name="WhatsApp" xml:space="preserve">
+    <value>什么样的应用程序</value>
+    <comment />
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>是</value>
+    <comment />
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>组</value>
+    <comment />
+  </data>
+  <data name="Group_Pleaseholder" xml:space="preserve">
+    <value>用户组名称</value>
+    <comment />
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>主页</value>
+    <comment />
+  </data>
+  <data name="HostAddress" xml:space="preserve">
+    <value>主机地址</value>
+    <comment />
+  </data>
+  <data name="IntendsToCancel" xml:space="preserve">
+    <value>打算取消.</value>
+    <comment />
+  </data>
+  <data name="Kardex" xml:space="preserve">
+    <value>卡迪斯</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityBakeries" xml:space="preserve">
+    <value>面包店和糖果</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityClothesStores" xml:space="preserve">
+    <value>衣服和皮革</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityHardwarePaints" xml:space="preserve">
+    <value>五金和油漆</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityIndustries" xml:space="preserve">
+    <value>行业</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityMotorcicleParts" xml:space="preserve">
+    <value>摩托车零件和配件</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityPharmacy" xml:space="preserve">
+    <value>药房和香水</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivitySparePartsVehicle" xml:space="preserve">
+    <value>汽车零件和发动机供应</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityStationery" xml:space="preserve">
+    <value>文具店</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivitySupermarket" xml:space="preserve">
+    <value>超市</value>
+    <comment />
+  </data>
+  <data name="Logout_ActivityToyStore" xml:space="preserve">
+    <value>商店</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageAutomateWorkflow" xml:space="preserve">
+    <value>自动化工作流程</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageBestPlanning" xml:space="preserve">
+    <value>规划</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageImproveAdministrativeProcedures" xml:space="preserve">
+    <value>完善行政程序</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageMarketProjections" xml:space="preserve">
+    <value>市场预测</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageMultipleReportsDataAnalysis" xml:space="preserve">
+    <value>多种报告和数据分析</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageOptimizationCommercialOperations" xml:space="preserve">
+    <value>优化商业运作</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageOptimizeCustomerSupplierRelationships" xml:space="preserve">
+    <value>优化客户与供应商的关系</value>
+    <comment />
+  </data>
+  <data name="Logout_AdvantageReduceAdministrativeTime" xml:space="preserve">
+    <value>减少管理时间</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitAttractingNewBusinessIdeas" xml:space="preserve">
+    <value>吸引新的经营理念</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitCurrencyFlowStability" xml:space="preserve">
+    <value>货币流量稳定</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitCustomerLoyalty" xml:space="preserve">
+    <value>顾客忠诚度</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitFacilityForWorkTeam" xml:space="preserve">
+    <value>工作团队的设施</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitIncreaseIncomeLiquidity" xml:space="preserve">
+    <value>增加收入和流动性</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitIncreasingCustomerBase" xml:space="preserve">
+    <value>客户群不断增加</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitReduceDepartmentCosts" xml:space="preserve">
+    <value>降低部门成本</value>
+    <comment />
+  </data>
+  <data name="Logout_BenefitStabilityCommitmentsSuppliers" xml:space="preserve">
+    <value>与供应商的承诺中的稳定性</value>
+    <comment />
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>会计</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelEmployee" xml:space="preserve">
+    <value>雇员</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelOrders" xml:space="preserve">
+    <value>订单和交货</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelProduct" xml:space="preserve">
+    <value>制品</value>
+    <comment />
+  </data>
+  <data name="Logout_CaroucelTransport" xml:space="preserve">
+    <value>Transports</value>
+    <comment />
+  </data>
+  <data name="Logout_CustomizableSoft" xml:space="preserve">
+    <value>可定制的软件</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureContactOpportunityManagement" xml:space="preserve">
+    <value>联系和机会管理</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureCreationOffers" xml:space="preserve">
+    <value>创建包含产品详细信息，价格，价格和折扣的报价.</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureCustomize options" xml:space="preserve">
+    <value>自定义选项</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureDeliveryManagement" xml:space="preserve">
+    <value>发送管理</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureLoanManagement" xml:space="preserve">
+    <value>借款管理</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureManagementObjectives" xml:space="preserve">
+    <value>目标管理</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureMonitoringTracking" xml:space="preserve">
+    <value>按日期监视和跟踪机会，销售和目标.</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureObtainingReportsAnalysis" xml:space="preserve">
+    <value>获取报告和分析</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureOrderSalesTracking" xml:space="preserve">
+    <value>订单和销售跟踪</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureSalesZones" xml:space="preserve">
+    <value>主销区域</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureStrategicBusinessPlanning" xml:space="preserve">
+    <value>战略业务规划</value>
+    <comment />
+  </data>
+  <data name="Logout_FeatureSynchronizationMobility" xml:space="preserve">
+    <value>同步性和移动性</value>
+    <comment />
+  </data>
+  <data name="Logout_ModBanks" xml:space="preserve">
+    <value>银行</value>
+    <comment />
+  </data>
+  <data name="Logout_ModCustomer" xml:space="preserve">
+    <value>顾客</value>
+    <comment />
+  </data>
+  <data name="Logout_ModCustomerOrders" xml:space="preserve">
+    <value>客户订单</value>
+    <comment />
+  </data>
+  <data name="Logout_ModEmployee" xml:space="preserve">
+    <value>雇员</value>
+    <comment />
+  </data>
+  <data name="Payments" xml:space="preserve">
+    <value>付款</value>
+    <comment />
+  </data>
+  <data name="Logout_ModProducts" xml:space="preserve">
+    <value>产品，库存，库存</value>
+    <comment />
+  </data>
+  <data name="Logout_ModPurchase" xml:space="preserve">
+    <value>购买</value>
+    <comment />
+  </data>
+  <data name="Logout_ModRetail" xml:space="preserve">
+    <value>零售</value>
+    <comment />
+  </data>
+  <data name="Logout_ModReturns" xml:space="preserve">
+    <value>返回</value>
+    <comment />
+  </data>
+  <data name="Logout_ModSales" xml:space="preserve">
+    <value>销售，门票，发票</value>
+    <comment />
+  </data>
+  <data name="Logout_ModSupport" xml:space="preserve">
+    <value>技术支持</value>
+    <comment />
+  </data>
+  <data name="Logout_Modwholesalers" xml:space="preserve">
+    <value>批发商</value>
+    <comment />
+  </data>
+  <data name="Advantage" xml:space="preserve">
+    <value>优点</value>
+    <comment />
+  </data>
+  <data name="Applications" xml:space="preserve">
+    <value>应用程序</value>
+    <comment />
+  </data>
+  <data name="Benefits" xml:space="preserve">
+    <value>好处</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleBusinessManagementSoftware" xml:space="preserve">
+    <value>商业管理软件</value>
+    <comment />
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>特征</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleModule" xml:space="preserve">
+    <value>模块</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleTradeActivity" xml:space="preserve">
+    <value>贸易活动</value>
+    <comment />
+  </data>
+  <data name="Logout_TitleWebPlatformMobileDesktop" xml:space="preserve">
+    <value>Web平台，移动和桌面</value>
+    <comment />
+  </data>
+  <data name="Measure" xml:space="preserve">
+    <value>测量的统</value>
+    <comment />
+  </data>
+  <data name="Measure_name" xml:space="preserve">
+    <value>计量单位</value>
+    <comment />
+  </data>
+  <data name="Employee" xml:space="preserve">
+    <value>雇员</value>
+    <comment />
+  </data>
+  <data name="MenuMain_Finance" xml:space="preserve">
+    <value>财政</value>
+    <comment />
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>制品</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabAdministration" xml:space="preserve">
+    <value>管理</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabConfiguration" xml:space="preserve">
+    <value>配置</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabEmployee" xml:space="preserve">
+    <value>雇员</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabFile" xml:space="preserve">
+    <value>文件</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabFinance" xml:space="preserve">
+    <value>金融</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabProcess" xml:space="preserve">
+    <value>处理</value>
+    <comment />
+  </data>
+  <data name="MenuMain_TabTransport" xml:space="preserve">
+    <value>运输</value>
+    <comment />
+  </data>
+  <data name="Money" xml:space="preserve">
+    <value>货币</value>
+    <comment />
+  </data>
+  <data name="Quote" xml:space="preserve">
+    <value>报价</value>
+    <comment />
+  </data>
+  <data name="Symbol" xml:space="preserve">
+    <value>符号</value>
+    <comment />
+  </data>
+  <data name="Orders" xml:space="preserve">
+    <value>订单</value>
+    <comment />
+  </data>
+  <data name="Package" xml:space="preserve">
+    <value>软件包</value>
+    <comment />
+  </data>
+  <data name="Package_Name" xml:space="preserve">
+    <value>程序包名称</value>
+    <comment />
+  </data>
+  <data name="CustomerPayment" xml:space="preserve">
+    <value>客户付款</value>
+    <comment />
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>端口</value>
+    <comment />
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>價錢</value>
+    <comment />
+  </data>
+  <data name="Priority" xml:space="preserve">
+    <value>优先级</value>
+    <comment />
+  </data>
+  <data name="Priority_Name" xml:space="preserve">
+    <value>优先级名称</value>
+    <comment />
+  </data>
+  <data name="ProductActive" xml:space="preserve">
+    <value>活动产品</value>
+    <comment />
+  </data>
+  <data name="AlterStock" xml:space="preserve">
+    <value>更改库存</value>
+    <comment />
+  </data>
+  <data name="ProductApply" xml:space="preserve">
+    <value>产品使用</value>
+    <comment />
+  </data>
+  <data name="Barcode" xml:space="preserve">
+    <value>条码</value>
+    <comment />
+  </data>
+  <data name="ProductChecked" xml:space="preserve">
+    <value>产品已检查</value>
+    <comment />
+  </data>
+  <data name="ProductCode" xml:space="preserve">
+    <value>代码</value>
+    <comment />
+  </data>
+  <data name="CommissionSale" xml:space="preserve">
+    <value>销售 - 佣金</value>
+    <comment />
+  </data>
+  <data name="Drug" xml:space="preserve">
+    <value>组件</value>
+    <comment />
+  </data>
+  <data name="GenericName" xml:space="preserve">
+    <value>通用名称</value>
+    <comment />
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>製品</value>
+    <comment />
+  </data>
+  <data name="MaximumDiscount" xml:space="preserve">
+    <value>最高积分折扣</value>
+    <comment />
+  </data>
+  <data name="MinimumStock" xml:space="preserve">
+    <value>最小股票</value>
+    <comment />
+  </data>
+  <data name="ProductName" xml:space="preserve">
+    <value>商品名</value>
+    <comment />
+  </data>
+  <data name="ProviderCode" xml:space="preserve">
+    <value>培训机构代码</value>
+    <comment />
+  </data>
+  <data name="PayTax" xml:space="preserve">
+    <value>交税</value>
+    <comment />
+  </data>
+  <data name="TaxRate" xml:space="preserve">
+    <value>税率</value>
+    <comment />
+  </data>
+  <data name="WayAdmin" xml:space="preserve">
+    <value>给药途径</value>
+    <comment />
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>粗细</value>
+    <comment />
+  </data>
+  <data name="Wholesaler" xml:space="preserve">
+    <value>批发商</value>
+    <comment />
+  </data>
+  <data name="Provider" xml:space="preserve">
+    <value>提供商</value>
+    <comment />
+  </data>
+  <data name="Purchase" xml:space="preserve">
+    <value>购买</value>
+    <comment />
+  </data>
+  <data name="Route" xml:space="preserve">
+    <value>路由</value>
+    <comment />
+  </data>
+  <data name="Sales" xml:space="preserve">
+    <value>销售</value>
+    <comment />
+  </data>
+  <data name="Sector" xml:space="preserve">
+    <value>产品部门</value>
+    <comment />
+  </data>
+  <data name="SectorProductName" xml:space="preserve">
+    <value>行业</value>
+    <comment />
+  </data>
+  <data name="Shop" xml:space="preserve">
+    <value>店</value>
+    <comment />
+  </data>
+  <data name="SourceProduct" xml:space="preserve">
+    <value>产品来源</value>
+    <comment />
+  </data>
+  <data name="SourceProduct_Name" xml:space="preserve">
+    <value>源名称</value>
+    <comment />
+  </data>
+  <data name="State_ErrorMustSelect" xml:space="preserve">
+    <value>你必须选择一个州.</value>
+    <comment />
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>状态&amp;#x0D</value>
+    <comment />
+  </data>
+  <data name="State_Name" xml:space="preserve">
+    <value>城市名称</value>
+    <comment />
+  </data>
+  <data name="State_of" xml:space="preserve">
+    <value>的国</value>
+    <comment />
+  </data>
+  <data name="State_Pleaseholder" xml:space="preserve">
+    <value>国家的名字</value>
+    <comment />
+  </data>
+  <data name="State_SelectCombo" xml:space="preserve">
+    <value>选择一个省</value>
+    <comment />
+  </data>
+  <data name="States" xml:space="preserve">
+    <value>省</value>
+    <comment />
+  </data>
+  <data name="Store" xml:space="preserve">
+    <value>商店</value>
+    <comment />
+  </data>
+  <data name="SubGroup" xml:space="preserve">
+    <value>子组</value>
+    <comment />
+  </data>
+  <data name="SubGroup_of" xml:space="preserve">
+    <value>的子组</value>
+    <comment />
+  </data>
+  <data name="Subgroup_pleaseholder" xml:space="preserve">
+    <value>小组名称</value>
+    <comment />
+  </data>
+  <data name="SuccessfulEntry" xml:space="preserve">
+    <value>成功入门</value>
+    <comment />
+  </data>
+  <data name="Trademark" xml:space="preserve">
+    <value>商标</value>
+    <comment />
+  </data>
+  <data name="TrademarkName" xml:space="preserve">
+    <value>商标</value>
+    <comment />
+  </data>
+  <data name="Validate_Address" xml:space="preserve">
+    <value>地址无效</value>
+    <comment />
+  </data>
+  <data name="CantFinishedProccess" xml:space="preserve">
+    <value>该过程无法终止</value>
+    <comment />
+  </data>
+  <data name="Validate_CardId" xml:space="preserve">
+    <value>文件编号无效</value>
+    <comment />
+  </data>
+  <data name="Validate_CityName" xml:space="preserve">
+    <value>城市名称无效.</value>
+    <comment />
+  </data>
+  <data name="Validate_CountryName" xml:space="preserve">
+    <value>国家/地区名称无效.</value>
+    <comment />
+  </data>
+  <data name="Validate_Email" xml:space="preserve">
+    <value>E-mail 地址无效.</value>
+    <comment />
+  </data>
+  <data name="Validate_maxLenght" xml:space="preserve">
+    <value>该字段只能包含{1}长度。</value>
+    <comment />
+  </data>
+  <data name="Validate_Name" xml:space="preserve">
+    <value>您必须输入姓和名</value>
+    <comment />
+  </data>
+  <data name="Validate_NameIsRequiered" xml:space="preserve">
+    <value>必须提供名称.</value>
+    <comment />
+  </data>
+  <data name="Validate_StateName" xml:space="preserve">
+    <value>状态名称无效.</value>
+    <comment />
+  </data>
+  <data name="Visitor_Basket" xml:space="preserve">
+    <value>购物车</value>
+    <comment />
+  </data>
+  <data name="Visitor_Catalog" xml:space="preserve">
+    <value>产品目录</value>
+    <comment />
+  </data>
+  <data name="Visitor_Order" xml:space="preserve">
+    <value>订单</value>
+    <comment />
+  </data>
+  <data name="zip" xml:space="preserve">
+    <value>邮政编码</value>
+    <comment />
+  </data>
+  <data name="Zone" xml:space="preserve">
+    <value>区域</value>
+    <comment />
+  </data>
+  <data name="Zone_Name" xml:space="preserve">
+    <value>区域名称</value>
+    <comment />
+  </data>
+  <data name="Validate_Owner" xml:space="preserve">
+    <value>所有者名称为必填项.</value>
+    <comment />
+  </data>
+  <data name="Validate_Facebook" xml:space="preserve">
+    <value>（需要脸谱API）.</value>
+    <comment />
+  </data>
+  <data name="Validate_Whatsapp" xml:space="preserve">
+    <value>whatsapp字段错误</value>
+    <comment />
+  </data>
+  <data name="ErrorOnSave" xml:space="preserve">
+    <value>保存时出错。</value>
+    <comment />
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>更新</value>
+    <comment />
+  </data>
+  <data name="Alter" xml:space="preserve">
+    <value>更改</value>
+    <comment />
+  </data>
+  <data name="DateRegister" xml:space="preserve">
+    <value>注册日期</value>
+    <comment />
+  </data>
+  <data name="FieldIsRequiered" xml:space="preserve">
+    <value>字段 {0} 是必需的</value>
+    <comment />
+  </data>
+  <data name="owner" xml:space="preserve">
+    <value>所有者</value>
+    <comment />
+  </data>
+  <data name="MaxLengthCharacter" xml:space="preserve">
+    <value>最大长度字符</value>
+    <comment />
+  </data>
+  <data name="FieldNameIsNotValid" xml:space="preserve">
+    <value>名称无效</value>
+    <comment />
+  </data>
+  <data name="FieldOwnerIsNotValid" xml:space="preserve">
+    <value>所有者无效</value>
+    <comment />
+  </data>
+  <data name="FieldWhatsappIsNotValid" xml:space="preserve">
+    <value>whatsapp 无效</value>
+    <comment />
+  </data>
+  <data name="FieldFacebookAddressIsNotValid" xml:space="preserve">
+    <value>脸书地址无效</value>
+    <comment />
+  </data>
+  <data name="FieldPhoneNumberIsNotValid" xml:space="preserve">
+    <value>电话号码无效</value>
+    <comment />
+  </data>
+  <data name="FieldCityIsNotValid" xml:space="preserve">
+    <value>城市名称无效</value>
+    <comment />
+  </data>
+  <data name="FieldCountryIsNotValid" xml:space="preserve">
+    <value>国家/地区名称无效</value>
+    <comment />
+  </data>
+  <data name="FieldAddressIsNotValid" xml:space="preserve">
+    <value>地址无效</value>
+    <comment />
+  </data>
+  <data name="FieldStateIsNotValid" xml:space="preserve">
+    <value>状态无效</value>
+    <comment />
+  </data>
+  <data name="CancelByTocken" xml:space="preserve">
+    <value>此操作已被取消</value>
+    <comment />
+  </data>
+  <data name="ConfirmToFinish" xml:space="preserve">
+    <value>确认完成</value>
+    <comment />
+  </data>
+  <data name="PasswordMinimunLength" xml:space="preserve">
+    <value>最小密码长度为 6 个字符</value>
+    <comment />
+  </data>
+  <data name="PasswordMaxLength" xml:space="preserve">
+    <value>最大密码长度为 20 个字符</value>
+    <comment />
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>电子邮件是必需的</value>
+    <comment />
+  </data>
+  <data name="ItemsperPage" xml:space="preserve">
+    <value>每页项目无效</value>
+    <comment />
+  </data>
+  <data name="IdParameterOutOfRange" xml:space="preserve">
+    <value>身份参数超出范围</value>
+    <comment />
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>请稍候</value>
+    <comment />
+  </data>
+  <data name="ProcessHasBeenCanceled" xml:space="preserve">
+    <value>该过程已被取消</value>
+    <comment />
+  </data>
+  <data name="RecordsProcessedSuccessfully" xml:space="preserve">
+    <value>记录处理成功</value>
+    <comment />
+  </data>
+  <data name="UserIdIsInvalid" xml:space="preserve">
+    <value>用户 ID 无效</value>
+    <comment />
+  </data>
+  <data name="AccessPointIsNullOrEmpty" xml:space="preserve">
+    <value>接入点为空或为空</value>
+    <comment />
+  </data>
+  <data name="IdentityNumberIsNotValid" xml:space="preserve">
+    <value>数字无效</value>
+    <comment />
+  </data>
+  <data name="CompanyIdIsInvalid" xml:space="preserve">
+    <value>公司 ID 无效</value>
+    <comment />
+  </data>
+  <data name="EmailUserCreate" xml:space="preserve">
+    <value>密码已发送至您的邮箱，请验证登录</value>
+    <comment />
+  </data>
+  <data name="InvalidLoginAttempt" xml:space="preserve">
+    <value>您必须有一个确认的电子邮件地址。</value>
+    <comment />
+  </data>
+  <data name="NewUserValidation" xml:space="preserve">
+    <value>新用户验证</value>
+    <comment />
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>确认</value>
+    <comment />
+  </data>
+  <data name="ConfirmationCode" xml:space="preserve">
+    <value>确认代码</value>
+    <comment />
+  </data>
+  <data name="EnterConfirmationCodeReceived" xml:space="preserve">
+    <value>输入在您的电子邮件中收到的确认代码</value>
+    <comment />
+  </data>
+  <data name="ValidationCodeIsInvalid" xml:space="preserve">
+    <value>验证码无效</value>
+    <comment />
+  </data>
+  <data name="TokenDoesNotExist" xml:space="preserve">
+    <value>访问令牌不存在。</value>
+    <comment />
+  </data>
+  <data name="UserRegisterCorrectly" xml:space="preserve">
+    <value>用户已经正确注册</value>
+    <comment />
+  </data>
+  <data name="UserSettingIsInvalid" xml:space="preserve">
+    <value>用户设置无效</value>
+    <comment />
+  </data>
+  <data name="EmployeeIdIsNull" xml:space="preserve">
+    <value>员工无效</value>
+    <comment />
+  </data>
+  <data name="UserIsInvalid" xml:space="preserve">
+    <value>用户无效</value>
+    <comment />
+  </data>
+  <data name="ShopIsInvalid" xml:space="preserve">
+    <value>店铺无效</value>
+    <comment />
+  </data>
+  <data name="BoxIdIsInvalid" xml:space="preserve">
+    <value>盒子无效</value>
+    <comment />
+  </data>
+  <data name="UserHasNoConfiguration" xml:space="preserve">
+    <value>用户没有配置</value>
+    <comment />
+  </data>
+  <data name="UserSetting" xml:space="preserve">
+    <value>用户设置</value>
+    <comment />
+  </data>
+  <data name="UserSettingAndRoles" xml:space="preserve">
+    <value>用户设置和角色</value>
+    <comment />
+  </data>
+  <data name="Box" xml:space="preserve">
+    <value>收银机</value>
+    <comment />
+  </data>
+  <data name="EnterHereToSearch" xml:space="preserve">
+    <value>输入这里进行搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfShops" xml:space="preserve">
+    <value>搜索&amp;商店</value>
+    <comment />
+  </data>
+  <data name="SearchOfBox" xml:space="preserve">
+    <value>寻找钱箱</value>
+    <comment />
+  </data>
+  <data name="SearchOfUsers" xml:space="preserve">
+    <value>搜索用户</value>
+    <comment />
+  </data>
+  <data name="SearchOfEmployees" xml:space="preserve">
+    <value>寻找员工</value>
+    <comment />
+  </data>
+  <data name="SearchBranchOffices" xml:space="preserve">
+    <value>搜索分公司</value>
+    <comment />
+  </data>
+  <data name="Reload" xml:space="preserve">
+    <value>重新加载</value>
+    <comment />
+  </data>
+  <data name="Job_Position" xml:space="preserve">
+    <value>工作岗位</value>
+    <comment />
+  </data>
+  <data name="job_Sectors" xml:space="preserve">
+    <value>应聘行业</value>
+    <comment />
+  </data>
+  <data name="ErrorWhenSelectingItem" xml:space="preserve">
+    <value>选择项目时出错</value>
+    <comment />
+  </data>
+  <data name="PriceLevel" xml:space="preserve">
+    <value>价格水平</value>
+    <comment />
+  </data>
+  <data name="DiscountMaxRate" xml:space="preserve">
+    <value>折扣最大率</value>
+    <comment />
+  </data>
+  <data name="SearchOfGroups" xml:space="preserve">
+    <value>搜索组</value>
+    <comment />
+  </data>
+  <data name="SearchOfZones" xml:space="preserve">
+    <value>搜索区域</value>
+    <comment />
+  </data>
+  <data name="SearchOfOperationTypes" xml:space="preserve">
+    <value>操作类型搜索</value>
+    <comment />
+  </data>
+  <data name="ContactNameIsInvalid" xml:space="preserve">
+    <value>联系人姓名无效</value>
+    <comment />
+  </data>
+  <data name="RucNumberIsInvalid" xml:space="preserve">
+    <value>纳税人的证件号码无效</value>
+    <comment />
+  </data>
+  <data name="ProviderType_ErrorMustSelect" xml:space="preserve">
+    <value>您必須選擇提供者類型</value>
+    <comment />
+  </data>
+  <data name="PaymentType_ErrorMustSelect" xml:space="preserve">
+    <value>您必須選擇付款類型</value>
+    <comment />
+  </data>
+  <data name="StampIsInvalid" xml:space="preserve">
+    <value>邮票无效</value>
+    <comment />
+  </data>
+  <data name="BankErrorMustSelect" xml:space="preserve">
+    <value>您必须选择银行</value>
+    <comment />
+  </data>
+  <data name="SearchOfProvider" xml:space="preserve">
+    <value>寻找供应商</value>
+    <comment />
+  </data>
+  <data name="BusinessName" xml:space="preserve">
+    <value>企业名</value>
+    <comment />
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>公司</value>
+    <comment />
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>服务</value>
+    <comment />
+  </data>
+  <data name="Production" xml:space="preserve">
+    <value>生产</value>
+    <comment />
+  </data>
+  <data name="CattleRaising" xml:space="preserve">
+    <value>养牛业</value>
+    <comment />
+  </data>
+  <data name="comercialContact" xml:space="preserve">
+    <value>联系方式</value>
+    <comment />
+  </data>
+  <data name="RUC" xml:space="preserve">
+    <value>RNTW</value>
+    <comment />
+  </data>
+  <data name="stamped" xml:space="preserve">
+    <value>盖章</value>
+    <comment />
+  </data>
+  <data name="PaymentType" xml:space="preserve">
+    <value>付款方式</value>
+    <comment />
+  </data>
+  <data name="ProviderType" xml:space="preserve">
+    <value>提供者类型</value>
+    <comment />
+  </data>
+  <data name="SearchOfProviderType" xml:space="preserve">
+    <value>搜索提供商类型</value>
+    <comment />
+  </data>
+  <data name="SearchOfCities" xml:space="preserve">
+    <value>城市搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfPaymentTypes" xml:space="preserve">
+    <value>搜索付款方式</value>
+    <comment />
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>發票編號</value>
+    <comment />
+  </data>
+  <data name="Carrier" xml:space="preserve">
+    <value>载体</value>
+    <comment />
+  </data>
+  <data name="ImportCosts" xml:space="preserve">
+    <value>进口成本</value>
+    <comment />
+  </data>
+  <data name="ItIsImported" xml:space="preserve">
+    <value>它是进口的</value>
+    <comment />
+  </data>
+  <data name="PurchaseWithHoldindTax" xml:space="preserve">
+    <value>购买预扣税</value>
+    <comment />
+  </data>
+  <data name="TypeOfVoucher" xml:space="preserve">
+    <value>代金券类型</value>
+    <comment />
+  </data>
+  <data name="VoucherDetail" xml:space="preserve">
+    <value>优惠券详情</value>
+    <comment />
+  </data>
+  <data name="TaxpayerSituation" xml:space="preserve">
+    <value>纳税人情况</value>
+    <comment />
+  </data>
+  <data name="RentWithholding" xml:space="preserve">
+    <value>租金预扣</value>
+    <comment />
+  </data>
+  <data name="IVAwithholding" xml:space="preserve">
+    <value>增值税预扣</value>
+    <comment />
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>数量</value>
+    <comment />
+  </data>
+  <data name="Tax" xml:space="preserve">
+    <value>税款</value>
+    <comment />
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>说明</value>
+    <comment />
+  </data>
+  <data name="Exent" xml:space="preserve">
+    <value>豁免</value>
+    <comment />
+  </data>
+  <data name="iva" xml:space="preserve">
+    <value>增值税</value>
+    <comment />
+  </data>
+  <data name="TotalRetention" xml:space="preserve">
+    <value>总保留</value>
+    <comment />
+  </data>
+  <data name="VAT_Settlement" xml:space="preserve">
+    <value>增值税结算</value>
+    <comment />
+  </data>
+  <data name="RetentionBasis" xml:space="preserve">
+    <value>保留基础</value>
+    <comment />
+  </data>
+  <data name="RetentionPercentage" xml:space="preserve">
+    <value>保留百分比</value>
+    <comment />
+  </data>
+  <data name="TotalVATWithheld" xml:space="preserve">
+    <value>预扣增值税总额</value>
+    <comment />
+  </data>
+  <data name="TotalRentWithheld" xml:space="preserve">
+    <value>扣除的总租金</value>
+    <comment />
+  </data>
+  <data name="ISOcode" xml:space="preserve">
+    <value>ISO代码</value>
+    <comment />
+  </data>
+  <data name="BaseCurrency" xml:space="preserve">
+    <value>基础货币</value>
+    <comment />
+  </data>
+  <data name="decimals" xml:space="preserve">
+    <value>小数点</value>
+    <comment />
+  </data>
+  <data name="Commission" xml:space="preserve">
+    <value>委员会</value>
+    <comment />
+  </data>
+  <data name="SearchOfMoney" xml:space="preserve">
+    <value>货币搜索</value>
+    <comment />
+  </data>
+  <data name="mobileIsInvalid" xml:space="preserve">
+    <value>手机号码无效</value>
+    <comment />
+  </data>
+  <data name="moneyIsInvalid" xml:space="preserve">
+    <value>货币无效</value>
+    <comment />
+  </data>
+  <data name="barcodeIsNotValid" xml:space="preserve">
+    <value>条形码无效</value>
+    <comment />
+  </data>
+  <data name="JobSectorNotValid" xml:space="preserve">
+    <value>工作部门无效</value>
+    <comment />
+  </data>
+  <data name="JobPostIsInvalid" xml:space="preserve">
+    <value>该职位无效</value>
+    <comment />
+  </data>
+  <data name="ProfessionIsNotValid" xml:space="preserve">
+    <value>职业无效</value>
+    <comment />
+  </data>
+  <data name="FatherNameIsNotValid" xml:space="preserve">
+    <value>父亲姓名无效</value>
+    <comment />
+  </data>
+  <data name="MotherNameIsInvalid" xml:space="preserve">
+    <value>母亲姓名无效</value>
+    <comment />
+  </data>
+  <data name="BloodTypenameNotValid" xml:space="preserve">
+    <value>血型名称无效</value>
+    <comment />
+  </data>
+  <data name="SalaryIsNotValid" xml:space="preserve">
+    <value>工资无效</value>
+    <comment />
+  </data>
+  <data name="CommissionSaleIsNotValid" xml:space="preserve">
+    <value>销售佣金无效</value>
+    <comment />
+  </data>
+  <data name="CommissionCollectionIsNotValid" xml:space="preserve">
+    <value>收款委托无效</value>
+    <comment />
+  </data>
+  <data name="SearchOfCarrier" xml:space="preserve">
+    <value>搜索运营商</value>
+    <comment />
+  </data>
+  <data name="BranchManagerIsNoValid" xml:space="preserve">
+    <value>分公司经理无效</value>
+    <comment />
+  </data>
+  <data name="SexIsNotvalid" xml:space="preserve">
+    <value>性别无效</value>
+    <comment />
+  </data>
+  <data name="WorkStartDateIsInvalid" xml:space="preserve">
+    <value>工作开始日期无效</value>
+    <comment />
+  </data>
+  <data name="BirthDateIsInvalid" xml:space="preserve">
+    <value>出生日期无效</value>
+    <comment />
+  </data>
+  <data name="PlaceBirtIsNotValid" xml:space="preserve">
+    <value>出生地无效</value>
+    <comment />
+  </data>
+  <data name="SpouceNameIsNotValid" xml:space="preserve">
+    <value>配偶姓名无效</value>
+    <comment />
+  </data>
+  <data name="DrivingLicenceNumberIsNotValid" xml:space="preserve">
+    <value>驾驶执照号码无效</value>
+    <comment />
+  </data>
+  <data name="Emergency1NumberNotValid" xml:space="preserve">
+    <value>紧急联系人号码主要无效</value>
+    <comment />
+  </data>
+  <data name="Emergency2NumberNotValid" xml:space="preserve">
+    <value>次要紧急联系人号码无效</value>
+    <comment />
+  </data>
+  <data name="CommissionPercentIsNotValid" xml:space="preserve">
+    <value>佣金百分比无效</value>
+    <comment />
+  </data>
+  <data name="ExchangeIsnotValid" xml:space="preserve">
+    <value>兑换无效</value>
+    <comment />
+  </data>
+  <data name="ObservationIsNotValid" xml:space="preserve">
+    <value>评论无效</value>
+    <comment />
+  </data>
+  <data name="NickNameIsInvalid" xml:space="preserve">
+    <value>昵称无效</value>
+    <comment />
+  </data>
+  <data name="SalaryTypeIsNotValid" xml:space="preserve">
+    <value>薪资类型无效</value>
+    <comment />
+  </data>
+  <data name="SpouceIdentiyIsnotValid" xml:space="preserve">
+    <value>配偶身份无效</value>
+    <comment />
+  </data>
+  <data name="PassportNumIsNotValid" xml:space="preserve">
+    <value>护照号码无效</value>
+    <comment />
+  </data>
+  <data name="ChildrenNumberIsNotValid" xml:space="preserve">
+    <value>儿童人数无效</value>
+    <comment />
+  </data>
+  <data name="IdIsInvalid" xml:space="preserve">
+    <value>身份证件无效</value>
+    <comment />
+  </data>
+  <data name="CivilStatusIsNotValid" xml:space="preserve">
+    <value>公民身份无效</value>
+    <comment />
+  </data>
+  <data name="SymbolNotValid" xml:space="preserve">
+    <value>符号无效</value>
+    <comment />
+  </data>
+  <data name="TaxRateIsNotValid" xml:space="preserve">
+    <value>税率无效</value>
+    <comment />
+  </data>
+  <data name="TotalWithholdingIsInvalid" xml:space="preserve">
+    <value>预扣税总额无效</value>
+    <comment />
+  </data>
+  <data name="RemarkIsNotValid" xml:space="preserve">
+    <value>评论无效</value>
+    <comment />
+  </data>
+  <data name="PurchaseDateIsInvalid" xml:space="preserve">
+    <value>购买日期无效</value>
+    <comment />
+  </data>
+  <data name="ProviderIsInvalid" xml:space="preserve">
+    <value>提供者无效</value>
+    <comment />
+  </data>
+  <data name="OperationTypeIsInvalid" xml:space="preserve">
+    <value>操作类型无效</value>
+    <comment />
+  </data>
+  <data name="CarrierIsInvalid" xml:space="preserve">
+    <value>承运人无效</value>
+    <comment />
+  </data>
+  <data name="InvoiceNumberIsNotValid" xml:space="preserve">
+    <value>发票号码无效</value>
+    <comment />
+  </data>
+  <data name="TotalExentaIsNotValid" xml:space="preserve">
+    <value>总豁免无效</value>
+    <comment />
+  </data>
+  <data name="TotalGravadaIsNotValid" xml:space="preserve">
+    <value>总征税无效</value>
+    <comment />
+  </data>
+  <data name="StatusIsInvalid" xml:space="preserve">
+    <value>状态无效</value>
+    <comment />
+  </data>
+  <data name="TotalIvaIsNotValid" xml:space="preserve">
+    <value>增值税总额无效</value>
+    <comment />
+  </data>
+  <data name="CustomerIsNotValid" xml:space="preserve">
+    <value>客户城市无效</value>
+    <comment />
+  </data>
+  <data name="Balance" xml:space="preserve">
+    <value>平衡</value>
+    <comment />
+  </data>
+  <data name="ConditionsToGenerateQuotas" xml:space="preserve">
+    <value>产生配额的条件</value>
+    <comment />
+  </data>
+  <data name="AmountOfFees" xml:space="preserve">
+    <value>费用金额</value>
+    <comment />
+  </data>
+  <data name="DaysOverdue" xml:space="preserve">
+    <value>逾期天数</value>
+    <comment />
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>等级</value>
+    <comment />
+  </data>
+  <data name="Interest" xml:space="preserve">
+    <value>兴趣</value>
+    <comment />
+  </data>
+  <data name="AnnualInterestPercentage" xml:space="preserve">
+    <value>年利率</value>
+    <comment />
+  </data>
+  <data name="FirstMaturity" xml:space="preserve">
+    <value>第一次到期</value>
+    <comment />
+  </data>
+  <data name="Calculate" xml:space="preserve">
+    <value>计算</value>
+    <comment />
+  </data>
+  <data name="TypesOfTerm" xml:space="preserve">
+    <value>术语类型</value>
+    <comment />
+  </data>
+  <data name="Capital" xml:space="preserve">
+    <value>首都</value>
+    <comment />
+  </data>
+  <data name="BalanceToFinance" xml:space="preserve">
+    <value>资金余额</value>
+    <comment />
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>送货</value>
+    <comment />
+  </data>
+  <data name="FeesCalculator" xml:space="preserve">
+    <value>计算器</value>
+    <comment />
+  </data>
+  <data name="FeesGenerator" xml:space="preserve">
+    <value>费用生成器</value>
+    <comment />
+  </data>
+  <data name="EveryDay" xml:space="preserve">
+    <value>每天</value>
+    <comment />
+  </data>
+  <data name="Every8days" xml:space="preserve">
+    <value>每周</value>
+    <comment />
+  </data>
+  <data name="Every15days" xml:space="preserve">
+    <value>每 15 天</value>
+    <comment />
+  </data>
+  <data name="Every30days" xml:space="preserve">
+    <value>每个月</value>
+    <comment />
+  </data>
+  <data name="Every60Days" xml:space="preserve">
+    <value>每 60 天</value>
+    <comment />
+  </data>
+  <data name="Every90days" xml:space="preserve">
+    <value>每 90 天</value>
+    <comment />
+  </data>
+  <data name="Every180days" xml:space="preserve">
+    <value>每 180 天</value>
+    <comment />
+  </data>
+  <data name="Every120days" xml:space="preserve">
+    <value>每 120 天</value>
+    <comment />
+  </data>
+  <data name="Every45days" xml:space="preserve">
+    <value>每 45 天</value>
+    <comment />
+  </data>
+  <data name="VisualizePurchase" xml:space="preserve">
+    <value>可视化购买</value>
+    <comment />
+  </data>
+  <data name="PurchaseReport" xml:space="preserve">
+    <value>项目报表</value>
+    <comment />
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>好的</value>
+    <comment />
+  </data>
+  <data name="SearchByProvider" xml:space="preserve">
+    <value>按供应商搜索</value>
+    <comment />
+  </data>
+  <data name="SearchByInvoiceNumber" xml:space="preserve">
+    <value>按发票号码搜索</value>
+    <comment />
+  </data>
+  <data name="SearchByOperationType" xml:space="preserve">
+    <value>按操作类型搜索</value>
+    <comment />
+  </data>
+  <data name="SearchByMoney" xml:space="preserve">
+    <value>按货币搜索</value>
+    <comment />
+  </data>
+  <data name="SearchByBox" xml:space="preserve">
+    <value>按框搜索</value>
+    <comment />
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>发票</value>
+    <comment />
+  </data>
+  <data name="Retention" xml:space="preserve">
+    <value>留存</value>
+    <comment />
+  </data>
+  <data name="TotalExenta" xml:space="preserve">
+    <value>总豁免</value>
+    <comment />
+  </data>
+  <data name="TotalTaxed" xml:space="preserve">
+    <value>总征税</value>
+    <comment />
+  </data>
+  <data name="TotalPurchase" xml:space="preserve">
+    <value>总购买量</value>
+    <comment />
+  </data>
+  <data name="TotalVAT" xml:space="preserve">
+    <value>增值税总额</value>
+    <comment />
+  </data>
+  <data name="TheDateIsNotValid" xml:space="preserve">
+    <value>日期无效</value>
+    <comment />
+  </data>
+  <data name="DateSinceIsNotValid" xml:space="preserve">
+    <value>开始日期无效</value>
+    <comment />
+  </data>
+  <data name="DateUntilIsNotValid" xml:space="preserve">
+    <value>截止日期无效</value>
+    <comment />
+  </data>
+  <data name="PaginationItemsperPage" xml:space="preserve">
+    <value>每页的项目无效</value>
+    <comment />
+  </data>
+  <data name="PaginationNumberInNotValid" xml:space="preserve">
+    <value>寻呼号码无效</value>
+    <comment />
+  </data>
+  <data name="TotalNetIsInvalid" xml:space="preserve">
+    <value>净总额无效</value>
+    <comment />
+  </data>
+  <data name="SearchOptions" xml:space="preserve">
+    <value>搜索选项</value>
+    <comment />
+  </data>
+  <data name="SearchTextIsInvalid" xml:space="preserve">
+    <value>搜索文本无效</value>
+    <comment />
+  </data>
+  <data name="SearchOfCountries" xml:space="preserve">
+    <value>搜索国家</value>
+    <comment />
+  </data>
+  <data name="SearchOfStates" xml:space="preserve">
+    <value>搜索状态</value>
+    <comment />
+  </data>
+  <data name="LoadMore" xml:space="preserve">
+    <value>加载更多</value>
+    <comment />
+  </data>
+  <data name="forbidenAccess" xml:space="preserve">
+    <value>禁止访问</value>
+    <comment />
+  </data>
+  <data name="ApiVersionIsWrong" xml:space="preserve">
+    <value>api版本不对</value>
+    <comment />
+  </data>
+  <data name="SearchOfCompany" xml:space="preserve">
+    <value>搜索公司</value>
+    <comment />
+  </data>
+  <data name="TypeOfExpenses" xml:space="preserve">
+    <value>费用类型</value>
+    <comment />
+  </data>
+  <data name="Expence" xml:space="preserve">
+    <value>花费</value>
+    <comment />
+  </data>
+  <data name="ReturnReason" xml:space="preserve">
+    <value>返回原因</value>
+    <comment />
+  </data>
+  <data name="Town" xml:space="preserve">
+    <value>社区</value>
+    <comment />
+  </data>
+  <data name="Vehicle" xml:space="preserve">
+    <value>车辆</value>
+    <comment />
+  </data>
+  <data name="GroupIdIsInvalid" xml:space="preserve">
+    <value>组 ID 无效</value>
+    <comment />
+  </data>
+  <data name="ZoneIdIsInvalid" xml:space="preserve">
+    <value>区域 ID 无效</value>
+    <comment />
+  </data>
+  <data name="SearchOfApply" xml:space="preserve">
+    <value>申请搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfTown" xml:space="preserve">
+    <value>城镇搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfCategory" xml:space="preserve">
+    <value>类别搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfExpence" xml:space="preserve">
+    <value>费用查询</value>
+    <comment />
+  </data>
+  <data name="SearchOfBrand" xml:space="preserve">
+    <value>品牌搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfPackage" xml:space="preserve">
+    <value>包裹搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfPriority" xml:space="preserve">
+    <value>优先搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfProduct" xml:space="preserve">
+    <value>产品搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfJobPost" xml:space="preserve">
+    <value>职位搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfReason" xml:space="preserve">
+    <value>退货原因查询</value>
+    <comment />
+  </data>
+  <data name="SearchOfBranch" xml:space="preserve">
+    <value>分行搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfRoute" xml:space="preserve">
+    <value>路线搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfSectorProduct" xml:space="preserve">
+    <value>搜索产品部门</value>
+    <comment />
+  </data>
+  <data name="SearchOfJobSector" xml:space="preserve">
+    <value>寻找工作部门</value>
+    <comment />
+  </data>
+  <data name="SearchOfSubGroup" xml:space="preserve">
+    <value>搜索子组</value>
+    <comment />
+  </data>
+  <data name="SearchOfExepenceType" xml:space="preserve">
+    <value>费用类型搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfVehicle" xml:space="preserve">
+    <value>车辆搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfMeasure" xml:space="preserve">
+    <value>测量的搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfWayAdmin" xml:space="preserve">
+    <value>搜索方式管理员</value>
+    <comment />
+  </data>
+  <data name="SearchOfDrug" xml:space="preserve">
+    <value>组件搜索</value>
+    <comment />
+  </data>
+  <data name="ReferentialIntegrityConstraintsError" xml:space="preserve">
+    <value>參考完整性</value>
+    <comment />
+  </data>
+  <data name="ResponsibleStaff" xml:space="preserve">
+    <value>负责任的员工</value>
+    <comment />
+  </data>
+  <data name="CreditNoteLastCreated" xml:space="preserve">
+    <value>上次创建的信用票据</value>
+    <comment />
+  </data>
+  <data name="CreditNoteSince" xml:space="preserve">
+    <value>信用票据自</value>
+    <comment />
+  </data>
+  <data name="CreditNoteUntil" xml:space="preserve">
+    <value>信用票据直到</value>
+    <comment />
+  </data>
+  <data name="InvoiceLastCreated" xml:space="preserve">
+    <value>上次创建的发票</value>
+    <comment />
+  </data>
+  <data name="InvoiceSince" xml:space="preserve">
+    <value>发票自</value>
+    <comment />
+  </data>
+  <data name="InvoiceUntil" xml:space="preserve">
+    <value>发票直到</value>
+    <comment />
+  </data>
+  <data name="PromissoryNoteLastCreated" xml:space="preserve">
+    <value>上次创建的本票</value>
+    <comment />
+  </data>
+  <data name="PromissoryNoteSince" xml:space="preserve">
+    <value>本票自</value>
+    <comment />
+  </data>
+  <data name="PromissoryNoteUntil" xml:space="preserve">
+    <value>本票直到</value>
+    <comment />
+  </data>
+  <data name="ReceiptLastCreated" xml:space="preserve">
+    <value>上次创建的付款收据</value>
+    <comment />
+  </data>
+  <data name="ReceiptSince" xml:space="preserve">
+    <value>收到付款以来</value>
+    <comment />
+  </data>
+  <data name="ReceiptUntil" xml:space="preserve">
+    <value>收到付款 直到</value>
+    <comment />
+  </data>
+  <data name="ReturnNoteLastCreated" xml:space="preserve">
+    <value>返回备注上次创建</value>
+    <comment />
+  </data>
+  <data name="ReturnNoteSince" xml:space="preserve">
+    <value>退货单自</value>
+    <comment />
+  </data>
+  <data name="ReturnNoteUntil" xml:space="preserve">
+    <value>退货单直到</value>
+    <comment />
+  </data>
+  <data name="Shop_ErrorMustSelect" xml:space="preserve">
+    <value>您必须选择一家商店</value>
+    <comment />
+  </data>
+  <data name="Brand" xml:space="preserve">
+    <value>品牌</value>
+    <comment />
+  </data>
+  <data name="Brandisinvalid" xml:space="preserve">
+    <value>品牌无效</value>
+    <comment />
+  </data>
+  <data name="Capacity" xml:space="preserve">
+    <value>容量</value>
+    <comment />
+  </data>
+  <data name="CapacityisInvalid" xml:space="preserve">
+    <value>容量无效</value>
+    <comment />
+  </data>
+  <data name="CarriagenNumberIsInvalid" xml:space="preserve">
+    <value>车厢号码无效</value>
+    <comment />
+  </data>
+  <data name="ChassisNumberIsInvalid" xml:space="preserve">
+    <value>机箱编号无效</value>
+    <comment />
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>颜色</value>
+    <comment />
+  </data>
+  <data name="ColorIsInvalid" xml:space="preserve">
+    <value>颜色无效</value>
+    <comment />
+  </data>
+  <data name="EngineNumberIsInvalid" xml:space="preserve">
+    <value>引擎编号无效</value>
+    <comment />
+  </data>
+  <data name="FuelTypeIsInvalid" xml:space="preserve">
+    <value>燃料类型无效</value>
+    <comment />
+  </data>
+  <data name="InitialKmIsInvalid" xml:space="preserve">
+    <value>初始公里数无效</value>
+    <comment />
+  </data>
+  <data name="LoadTypeIsInvalid" xml:space="preserve">
+    <value>加载类型无效</value>
+    <comment />
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>模型</value>
+    <comment />
+  </data>
+  <data name="Model is invalid" xml:space="preserve">
+    <value>型号无效</value>
+    <comment />
+  </data>
+  <data name="Patent" xml:space="preserve">
+    <value>专利</value>
+    <comment />
+  </data>
+  <data name="PatentIsInvalid" xml:space="preserve">
+    <value>专利无效</value>
+    <comment />
+  </data>
+  <data name="YearModelIsInvalid" xml:space="preserve">
+    <value>年份模型无效</value>
+    <comment />
+  </data>
+  <data name="CarriageNumber" xml:space="preserve">
+    <value>车厢号</value>
+    <comment />
+  </data>
+  <data name="ChassisNumber" xml:space="preserve">
+    <value>车架号</value>
+    <comment />
+  </data>
+  <data name="EngineNumber" xml:space="preserve">
+    <value>发动机号</value>
+    <comment />
+  </data>
+  <data name="FuelType" xml:space="preserve">
+    <value>燃油类型</value>
+    <comment />
+  </data>
+  <data name="InitialKM" xml:space="preserve">
+    <value>初始公里</value>
+    <comment />
+  </data>
+  <data name="LoadType" xml:space="preserve">
+    <value>负载类型</value>
+    <comment />
+  </data>
+  <data name="year" xml:space="preserve">
+    <value>年</value>
+    <comment />
+  </data>
+  <data name="CustomerAccount" xml:space="preserve">
+    <value>甲方账户</value>
+    <comment />
+  </data>
+  <data name="Cards" xml:space="preserve">
+    <value>牌</value>
+    <comment />
+  </data>
+  <data name="ReleaseCheck" xml:space="preserve">
+    <value>发布检查</value>
+    <comment />
+  </data>
+  <data name="Transfers" xml:space="preserve">
+    <value>电汇</value>
+    <comment />
+  </data>
+  <data name="BankDeposit" xml:space="preserve">
+    <value>银行存款</value>
+    <comment />
+  </data>
+  <data name="BankDepositReport" xml:space="preserve">
+    <value>银行存款报告</value>
+    <comment />
+  </data>
+  <data name="AccountHolderIsInvalid" xml:space="preserve">
+    <value>帐户持有人无效</value>
+    <comment />
+  </data>
+  <data name="AccountNumberIsInvalid" xml:space="preserve">
+    <value>帐号无效</value>
+    <comment />
+  </data>
+  <data name="AgencyIsInvalid" xml:space="preserve">
+    <value>代理机构无效</value>
+    <comment />
+  </data>
+  <data name="BankAccountTypeIsInvalid" xml:space="preserve">
+    <value>银行账户类型无效</value>
+    <comment />
+  </data>
+  <data name="BankIdIsInvalid" xml:space="preserve">
+    <value>银行 ID 无效</value>
+    <comment />
+  </data>
+  <data name="CreditOfficerIsInvalid" xml:space="preserve">
+    <value>信用官无效</value>
+    <comment />
+  </data>
+  <data name="ManagerIsInvalid" xml:space="preserve">
+    <value>经理无效</value>
+    <comment />
+  </data>
+  <data name="WebIsInvalid" xml:space="preserve">
+    <value>网页无效</value>
+    <comment />
+  </data>
+  <data name="CategoryIsInvalid" xml:space="preserve">
+    <value>类别无效</value>
+    <comment />
+  </data>
+  <data name="DiscountIsNotValid" xml:space="preserve">
+    <value>折扣无效</value>
+    <comment />
+  </data>
+  <data name="FullNameIsInvalid" xml:space="preserve">
+    <value>全名无效</value>
+    <comment />
+  </data>
+  <data name="IdentityPartnerIsInvalid" xml:space="preserve">
+    <value>身份合作伙伴无效</value>
+    <comment />
+  </data>
+  <data name="MobileNumIsInvalid" xml:space="preserve">
+    <value>手机号码无效</value>
+    <comment />
+  </data>
+  <data name="PartnerIsInvalid" xml:space="preserve">
+    <value>合作伙伴无效</value>
+    <comment />
+  </data>
+  <data name="PriceLevelIsInvalid" xml:space="preserve">
+    <value>价格水平无效</value>
+    <comment />
+  </data>
+  <data name="RouteIsInvalid" xml:space="preserve">
+    <value>路由无效</value>
+    <comment />
+  </data>
+  <data name="TradeNameIsInvalid" xml:space="preserve">
+    <value>商号无效</value>
+    <comment />
+  </data>
+  <data name="WorkActivityIsInvalid" xml:space="preserve">
+    <value>工作活动无效</value>
+    <comment />
+  </data>
+  <data name="WorkspaceIsInvalid" xml:space="preserve">
+    <value>工作区无效</value>
+    <comment />
+  </data>
+  <data name="CreditLimitIsInvalid" xml:space="preserve">
+    <value>信用额度无效</value>
+    <comment />
+  </data>
+  <data name="CustomerAccountNumberIsInvalid" xml:space="preserve">
+    <value>客户帐号无效</value>
+    <comment />
+  </data>
+  <data name="SearchOfBank" xml:space="preserve">
+    <value>搜索银行</value>
+    <comment />
+  </data>
+  <data name="SearchOfBankAccount" xml:space="preserve">
+    <value>搜索银行账户</value>
+    <comment />
+  </data>
+  <data name="SearchOfBankAccountType" xml:space="preserve">
+    <value>银行账户类型搜索</value>
+    <comment />
+  </data>
+  <data name="SearchOfCustomerAccount" xml:space="preserve">
+    <value>搜索客户账户</value>
+    <comment />
+  </data>
+  <data name="SearchOfCustomers" xml:space="preserve">
+    <value>客户搜索</value>
+    <comment />
+  </data>
+  <data name="ActiveEmployee" xml:space="preserve">
+    <value>在职员工</value>
+    <comment />
+  </data>
+  <data name="CollectionCommission" xml:space="preserve">
+    <value>征收委员会</value>
+    <comment />
+  </data>
+  <data name="CommissionAgent" xml:space="preserve">
+    <value>佣金代理</value>
+    <comment />
+  </data>
+  <data name="EmergencyContact" xml:space="preserve">
+    <value>紧急联系人</value>
+    <comment />
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>性别</value>
+    <comment />
+  </data>
+  <data name="IsSupervisor" xml:space="preserve">
+    <value>是主管</value>
+    <comment />
+  </data>
+  <data name="PlaceOfBirth" xml:space="preserve">
+    <value>出生地</value>
+    <comment />
+  </data>
+  <data name="Salary" xml:space="preserve">
+    <value>薪水</value>
+    <comment />
+  </data>
+  <data name="SalesCommissionPercent" xml:space="preserve">
+    <value>回扣</value>
+    <comment />
+  </data>
+  <data name="Spouse" xml:space="preserve">
+    <value>配偶</value>
+    <comment />
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>信用</value>
+    <comment />
+  </data>
+  <data name="LendProducts" xml:space="preserve">
+    <value>借产品</value>
+    <comment />
+  </data>
+  <data name="OwnHouse" xml:space="preserve">
+    <value>自己的家</value>
+    <comment />
+  </data>
+  <data name="SendBillCollector" xml:space="preserve">
+    <value>发送给收单员</value>
+    <comment />
+  </data>
+  <data name="BillCollector" xml:space="preserve">
+    <value>收单员</value>
+    <comment />
+  </data>
+  <data name="CreditLimit" xml:space="preserve">
+    <value>信用额度</value>
+    <comment />
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>结束日期</value>
+    <comment />
+  </data>
+  <data name="ActiveAccount" xml:space="preserve">
+    <value>活跃账户</value>
+    <comment />
+  </data>
+  <data name="ShopRule" xml:space="preserve">
+    <value>店铺设置</value>
+    <comment />
+  </data>
+  <data name="DefaultClient" xml:space="preserve">
+    <value>默认客户</value>
+    <comment />
+  </data>
+  <data name="PriceLevelDefault" xml:space="preserve">
+    <value>价格水平默认值</value>
+    <comment />
+  </data>
+  <data name="OperTypeCreditSale" xml:space="preserve">
+    <value>经营类型赊销</value>
+    <comment />
+  </data>
+  <data name="OperTypeCreditPurchase" xml:space="preserve">
+    <value>操作类型信用购买</value>
+    <comment />
+  </data>
+  <data name="OperTypeCashSale" xml:space="preserve">
+    <value>操作类型现金销售</value>
+    <comment />
+  </data>
+  <data name="OperTypeCashPurchase" xml:space="preserve">
+    <value>操作类型现金采购</value>
+    <comment />
+  </data>
+  <data name="ModifyPriceInSales" xml:space="preserve">
+    <value>现金销售交易</value>
+    <comment />
+  </data>
+  <data name="MaximumItemsInSale" xml:space="preserve">
+    <value>最大销售物品</value>
+    <comment />
+  </data>
+  <data name="InterestRateMonthly" xml:space="preserve">
+    <value>每月利率</value>
+    <comment />
+  </data>
+  <data name="ForceSaleIfStockIsZero" xml:space="preserve">
+    <value>如果库存为零，则强制出售</value>
+    <comment />
+  </data>
+  <data name="EncryptedPrice" xml:space="preserve">
+    <value>加密价格</value>
+    <comment />
+  </data>
+  <data name="DecimalsInStock" xml:space="preserve">
+    <value>存货小数</value>
+    <comment />
+  </data>
+  <data name="GrantDiscounts" xml:space="preserve">
+    <value>赠款折扣</value>
+    <comment />
+  </data>
+  <data name="MaxDiscountPercent" xml:space="preserve">
+    <value>最大折扣百分比</value>
+    <comment />
+  </data>
+  <data name="MaximumPriceLevel" xml:space="preserve">
+    <value>最高价格水平</value>
+    <comment />
+  </data>
+  <data name="Administrator" xml:space="preserve">
+    <value>行政人员</value>
+    <comment />
+  </data>
+  <data name="Finance" xml:space="preserve">
+    <value>金融</value>
+    <comment />
+  </data>
+  <data name="Investor" xml:space="preserve">
+    <value>投资者</value>
+    <comment />
+  </data>
+  <data name="Operator" xml:space="preserve">
+    <value>操作员</value>
+    <comment />
+  </data>
+  <data name="Seller" xml:space="preserve">
+    <value>卖方</value>
+    <comment />
+  </data>
+  <data name="SuperUser" xml:space="preserve">
+    <value>超级用户</value>
+    <comment />
+  </data>
+  <data name="DiscountPercentageIsInvalid" xml:space="preserve">
+    <value>折扣百分比无效</value>
+    <comment />
+  </data>
+  <data name="GroupIsRequired" xml:space="preserve">
+    <value>该组是必需的</value>
+    <comment />
+  </data>
+  <data name="MaximumPriceLevelIsNotValid" xml:space="preserve">
+    <value>最高价格水平无效</value>
+    <comment />
+  </data>
+  <data name="OperationTypeIsRequired" xml:space="preserve">
+    <value>操作类型是必需的</value>
+    <comment />
+  </data>
+  <data name="ZoneIsRequired" xml:space="preserve">
+    <value>该区域是必需的</value>
+    <comment />
+  </data>
+  <data name="Inventory" xml:space="preserve">
+    <value>存货</value>
+    <comment />
+  </data>
+  <data name="PriceList" xml:space="preserve">
+    <value>价目单价目表</value>
+    <comment />
+  </data>
+  <data name="ProviderFees" xml:space="preserve">
+    <value>提供者费用</value>
+    <comment />
+  </data>
+  <data name="ProviderHistory" xml:space="preserve">
+    <value>提供者历史</value>
+    <comment />
+  </data>
+  <data name="Stock" xml:space="preserve">
+    <value>库存</value>
+    <comment />
+  </data>
+  <data name="CustomerDebt" xml:space="preserve">
+    <value>客户债务</value>
+    <comment />
+  </data>
+  <data name="DebtCreditSale" xml:space="preserve">
+    <value>信贷销售债务</value>
+    <comment />
+  </data>
+  <data name="DebtForPurchases" xml:space="preserve">
+    <value>购买债务</value>
+    <comment />
+  </data>
+  <data name="DebtSupplier" xml:space="preserve">
+    <value>欠供应商的债务</value>
+    <comment />
+  </data>
+  <data name="albaran" xml:space="preserve">
+    <value>送货单</value>
+    <comment />
+  </data>
+  <data name="InventoryReport" xml:space="preserve">
+    <value>库存报告</value>
+    <comment />
+  </data>
+  <data name="PurchaseOrder" xml:space="preserve">
+    <value>采购订单</value>
+    <comment />
+  </data>
+  <data name="ReturnPurchases" xml:space="preserve">
+    <value>退货购买</value>
+    <comment />
+  </data>
+  <data name="SalesOrder" xml:space="preserve">
+    <value>销售订单</value>
+    <comment />
+  </data>
+  <data name="SalesReport" xml:space="preserve">
+    <value>销售报告</value>
+    <comment />
+  </data>
+  <data name="SalesReturn" xml:space="preserve">
+    <value>销售退货</value>
+    <comment />
+  </data>
+  <data name="TransferProduct" xml:space="preserve">
+    <value>产品转移</value>
+    <comment />
+  </data>
+  <data name="TransferReport" xml:space="preserve">
+    <value>转移报告</value>
+    <comment />
+  </data>
+  <data name="UnfulfilledOrders" xml:space="preserve">
+    <value>未完成的订单</value>
+    <comment />
+  </data>
+  <data name="BanknotesDenomination" xml:space="preserve">
+    <value>纸币面额</value>
+    <comment />
+  </data>
+  <data name="CashBoxClose" xml:space="preserve">
+    <value>关闭钱箱</value>
+    <comment />
+  </data>
+  <data name="CashBoxOpening" xml:space="preserve">
+    <value>钱箱开口</value>
+    <comment />
+  </data>
+  <data name="CashboxCount" xml:space="preserve">
+    <value>钱箱计数</value>
+    <comment />
+  </data>
+  <data name="Consumption" xml:space="preserve">
+    <value>消费</value>
+    <comment />
+  </data>
+  <data name="CustomerFees" xml:space="preserve">
+    <value>客户费用</value>
+    <comment />
+  </data>
+  <data name="CustomerHistory" xml:space="preserve">
+    <value>客户历史</value>
+    <comment />
+  </data>
+  <data name="CustomerPaymentReport" xml:space="preserve">
+    <value>客户付款报告</value>
+    <comment />
+  </data>
+  <data name="PriceTag" xml:space="preserve">
+    <value>价格标签</value>
+    <comment />
+  </data>
+  <data name="ProductPrice" xml:space="preserve">
+    <value>产品价格</value>
+    <comment />
+  </data>
+  <data name="ProviderPayment" xml:space="preserve">
+    <value>提供者付款</value>
+    <comment />
+  </data>
+  <data name="ProviderPaymentReport" xml:space="preserve">
+    <value>提供者付款报告</value>
+    <comment />
+  </data>
+  <data name="SaleExpress" xml:space="preserve">
+    <value>销售快递</value>
+    <comment />
+  </data>
+  <data name="CustomerDebtsReport" xml:space="preserve">
+    <value>应收账款报告</value>
+    <comment />
+  </data>
+  <data name="ProviderDebtReport" xml:space="preserve">
+    <value>应付账款报告</value>
+    <comment />
+  </data>
+  <data name="ClearTextBox" xml:space="preserve">
+    <value>清除文本框</value>
+    <comment />
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>回去</value>
+    <comment />
+  </data>
+  <data name="SearchOfSourceProduct" xml:space="preserve">
+    <value>产品来源搜索</value>
+    <comment />
+  </data>
+  <data name="workplace" xml:space="preserve">
+    <value>工作场所</value>
+    <comment />
+  </data>
+  <data name="WorkPhone" xml:space="preserve">
+    <value>工作电话</value>
+    <comment />
+  </data>
+  <data name="SpouseIdentification" xml:space="preserve">
+    <value>配偶身份证明</value>
+    <comment />
+  </data>
+  <data name="Properties" xml:space="preserve">
+    <value>特性</value>
+    <comment />
+  </data>
+  <data name="WorkStartDate" xml:space="preserve">
+    <value>工作开始日期</value>
+    <comment />
+  </data>
+  <data name="ResidenceDate" xml:space="preserve">
+    <value>居住日期</value>
+    <comment />
+  </data>
+  <data name="Children" xml:space="preserve">
+    <value>孩子们</value>
+    <comment />
+  </data>
+  <data name="Indeterminate" xml:space="preserve">
+    <value>不定</value>
+    <comment />
+  </data>
+  <data name="male" xml:space="preserve">
+    <value>男性</value>
+    <comment />
+  </data>
+  <data name="Remark" xml:space="preserve">
+    <value>评论</value>
+    <comment />
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>女性</value>
+    <comment />
+  </data>
+  <data name="AccessCode" xml:space="preserve">
+    <value>访问代码</value>
+    <comment />
+  </data>
+  <data name="BloodType" xml:space="preserve">
+    <value>血型</value>
+    <comment />
+  </data>
+  <data name="CivilStatus" xml:space="preserve">
+    <value>公民身份</value>
+    <comment />
+  </data>
+  <data name="DriversLicense" xml:space="preserve">
+    <value>驾驶执照</value>
+    <comment />
+  </data>
+  <data name="Emergency1Number" xml:space="preserve">
+    <value>紧急联络号码主要</value>
+    <comment />
+  </data>
+  <data name="Emergency2Number" xml:space="preserve">
+    <value>紧急联络号码次要</value>
+    <comment />
+  </data>
+  <data name="FatherName" xml:space="preserve">
+    <value>父亲的名字</value>
+    <comment />
+  </data>
+  <data name="MothersName" xml:space="preserve">
+    <value>母亲的名字</value>
+    <comment />
+  </data>
+  <data name="Nickname" xml:space="preserve">
+    <value>昵称</value>
+    <comment />
+  </data>
+  <data name="passport" xml:space="preserve">
+    <value>护照</value>
+    <comment />
+  </data>
+  <data name="Profession" xml:space="preserve">
+    <value>职业</value>
+    <comment />
+  </data>
+  <data name="WorkerContribution" xml:space="preserve">
+    <value>工人贡献</value>
+    <comment />
+  </data>
+  <data name="EmployerContribution" xml:space="preserve">
+    <value>雇主供款</value>
+    <comment />
+  </data>
+  <data name="StaffMaintenance" xml:space="preserve">
+    <value>员工维护</value>
+    <comment />
+  </data>
+  <data name="Staff" xml:space="preserve">
+    <value>职员</value>
+    <comment />
+  </data>
+  <data name="Worked" xml:space="preserve">
+    <value>工作过</value>
+    <comment />
+  </data>
+  <data name="CustomerAccountMaintenance" xml:space="preserve">
+    <value>客户账户维护</value>
+    <comment />
+  </data>
+  <data name="Agency" xml:space="preserve">
+    <value>机构</value>
+    <comment />
+  </data>
+  <data name="AmountTotalIsInvalid" xml:space="preserve">
+    <value>总金额无效</value>
+    <comment />
+  </data>
+  <data name="CashAmountIsInvalid" xml:space="preserve">
+    <value>现金金额无效</value>
+    <comment />
+  </data>
+  <data name="ConceptIsInvalid" xml:space="preserve">
+    <value>概念无效</value>
+    <comment />
+  </data>
+  <data name="DepositNumberIsInvalid" xml:space="preserve">
+    <value>银行存款号码无效</value>
+    <comment />
+  </data>
+  <data name="TransactionDate" xml:space="preserve">
+    <value>交易日期</value>
+    <comment />
+  </data>
+  <data name="TransactionDateIsInvalid" xml:space="preserve">
+    <value>交易日期无效</value>
+    <comment />
+  </data>
+  <data name="VoucherNumber" xml:space="preserve">
+    <value>凭证号码</value>
+    <comment />
+  </data>
+  <data name="BankAccountIsInvalid" xml:space="preserve">
+    <value>银行账户无效</value>
+    <comment />
+  </data>
+  <data name="BankCheckDateIsInvalid" xml:space="preserve">
+    <value>银行支票日期无效</value>
+    <comment />
+  </data>
+  <data name="BankNameIsInvalid" xml:space="preserve">
+    <value>银行名称无效</value>
+    <comment />
+  </data>
+  <data name="CheckNumberIsInvalid" xml:space="preserve">
+    <value>支票号码无效</value>
+    <comment />
+  </data>
+  <data name="SenderIsInvalid" xml:space="preserve">
+    <value>发件人无效</value>
+    <comment />
+  </data>
+  <data name="CheckAmountIsInvalid" xml:space="preserve">
+    <value>支票金额无效</value>
+    <comment />
+  </data>
+  <data name="Initials" xml:space="preserve">
+    <value>简写</value>
+    <comment />
+  </data>
+  <data name="InitialsAreNotValid" xml:space="preserve">
+    <value>缩写无效</value>
+    <comment />
+  </data>
+  <data name="Limit" xml:space="preserve">
+    <value>跳过</value>
+    <comment />
+  </data>
+  <data name="Offset" xml:space="preserve">
+    <value>拿</value>
+    <comment />
+  </data>
+  <data name="OffsetIsInvalid" xml:space="preserve">
+    <value>跳过无效</value>
+    <comment />
+  </data>
+  <data name="LimitIsInvalid" xml:space="preserve">
+    <value>拍摄无效</value>
+    <comment />
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>出口</value>
+    <comment />
+  </data>
+  <data name="ExportToExcel" xml:space="preserve">
+    <value>导出到 MS-Excel</value>
+    <comment />
+  </data>
+  <data name="ExportToHtml" xml:space="preserve">
+    <value>导出为 HTML</value>
+    <comment />
+  </data>
+  <data name="ExportToPDF" xml:space="preserve">
+    <value>导出为 PDF</value>
+    <comment />
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>筛选</value>
+    <comment />
+  </data>
+  <data name="SearchParameters" xml:space="preserve">
+    <value>搜索参数</value>
+    <comment />
+  </data>
+  <data name="DeferredCheck" xml:space="preserve">
+    <value>延期支票</value>
+    <comment />
+  </data>
+  <data name="DeferredCheckIsInvalid" xml:space="preserve">
+    <value>延期支票无效</value>
+    <comment />
+  </data>
+  <data name="Document" xml:space="preserve">
+    <value>延期支票无效</value>
+    <comment />
+  </data>
+  <data name="IsDeferrefCheck" xml:space="preserve">
+    <value>是延期检查</value>
+    <comment />
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>数字</value>
+    <comment />
+  </data>
+  <data name="PostedDate" xml:space="preserve">
+    <value>发表日期</value>
+    <comment />
+  </data>
+  <data name="PostedDateIsInvalid" xml:space="preserve">
+    <value>发布日期无效</value>
+    <comment />
+  </data>
+  <data name="PayeeIsInvalid" xml:space="preserve">
+    <value>收款人无效</value>
+    <comment />
+  </data>
+  <data name="PaymentDateIsInvalid" xml:space="preserve">
+    <value>付款日期无效</value>
+    <comment />
+  </data>
+  <data name="NumberRangue" xml:space="preserve">
+    <value>号码范围</value>
+    <comment />
+  </data>
+  <data name="SinceNumber" xml:space="preserve">
+    <value>自编号</value>
+    <comment />
+  </data>
+  <data name="UntilNumber" xml:space="preserve">
+    <value>直到号码</value>
+    <comment />
+  </data>
+  <data name="NumberRangeIsInvalid" xml:space="preserve">
+    <value>号码范围无效</value>
+    <comment />
+  </data>
+  <data name="SinceNumberIsInvalid" xml:space="preserve">
+    <value>由于号码无效</value>
+    <comment />
+  </data>
+  <data name="UntilNumberIsInvalid" xml:space="preserve">
+    <value>直到号码无效</value>
+    <comment />
+  </data>
+  <data name="DocumentNumberIsInvalid" xml:space="preserve">
+    <value>文件编号无效</value>
+    <comment />
+  </data>
+  <data name="CheckRegister" xml:space="preserve">
+    <value>检查注册</value>
+    <comment />
+  </data>
+  <data name="SightBankCheck" xml:space="preserve">
+    <value>即期银行支票</value>
+    <comment />
+  </data>
+  <data name="TypesOfChecks" xml:space="preserve">
+    <value>支票类型</value>
+    <comment />
+  </data>
+  <data name="Withdrawal" xml:space="preserve">
+    <value>退出</value>
+    <comment />
+  </data>
+  <data name="BetweenNumbers" xml:space="preserve">
+    <value>数字之间</value>
+    <comment />
+  </data>
+  <data name="BetweenDates" xml:space="preserve">
+    <value>日期之间</value>
+    <comment />
+  </data>
+  <data name="Debit" xml:space="preserve">
+    <value>借方</value>
+    <comment />
+  </data>
+  <data name="BankMovementReport" xml:space="preserve">
+    <value>银行流动报告</value>
+    <comment />
+  </data>
+  <data name="TotalItems" xml:space="preserve">
+    <value>项目总数</value>
+    <comment />
+  </data>
+  <data name="PowerUser" xml:space="preserve">
+    <value>高級用戶</value>
+    <comment />
+  </data>
+  <data name="TypeOperationSaleCash" xml:space="preserve">
+    <value>销售现金的操作类型</value>
+    <comment />
+  </data>
+  <data name="TypeOperationSaleCredit" xml:space="preserve">
+    <value>赊销业务类型</value>
+    <comment />
+  </data>
+  <data name="TypeOperationPurchaseCredit" xml:space="preserve">
+    <value>赊购的操作类型</value>
+    <comment />
+  </data>
+  <data name="TypeOperationPurchaseCash" xml:space="preserve">
+    <value>采购现金的操作类型</value>
+    <comment />
+  </data>
+  <data name="InterestRateMonthlyIsInvalid" xml:space="preserve">
+    <value>月利率无效</value>
+    <comment />
+  </data>
+  <data name="MaxDiscountPercentIsInvalid" xml:space="preserve">
+    <value>最大折扣百分比无效</value>
+    <comment />
+  </data>
+  <data name="MaximumNumberOfItemsIsInvalid" xml:space="preserve">
+    <value>最大项目数无效</value>
+    <comment />
+  </data>
+  <data name="NumberOfDecimalsInStockIsInvalid" xml:space="preserve">
+    <value>库存小数位数无效</value>
+    <comment />
+  </data>
+  <data name="PriceLevelDefaultIsInvalid" xml:space="preserve">
+    <value>价格水平默认值无效</value>
+    <comment />
+  </data>
+  <data name="SecretKeyForPriceIsNotValid" xml:space="preserve">
+    <value>价格的密钥无效</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForPurchaseCashIsInvalid" xml:space="preserve">
+    <value>购买现金的操作类型无效</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForPurchaseOnCreditIsInvalid" xml:space="preserve">
+    <value>赊购的操作类型无效</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForSaleCashIsInvalid" xml:space="preserve">
+    <value>销售现金的操作类型无效</value>
+    <comment />
+  </data>
+  <data name="TypeOfOperationForSaleOnCreditIsInvalid" xml:space="preserve">
+    <value>赊销销售的操作类型无效</value>
+    <comment />
+  </data>
+  <data name="ActiveProductIsInvalid" xml:space="preserve">
+    <value>有效产品无效</value>
+    <comment />
+  </data>
+  <data name="AlterStockIsInvalid" xml:space="preserve">
+    <value>库存修饰符无效</value>
+    <comment />
+  </data>
+  <data name="BarcodeIsInvalid" xml:space="preserve">
+    <value>条码无效</value>
+    <comment />
+  </data>
+  <data name="GenericNameIsInvalid" xml:space="preserve">
+    <value>产品通用名称无效</value>
+    <comment />
+  </data>
+  <data name="GroupIsInvalid" xml:space="preserve">
+    <value>产品组无效</value>
+    <comment />
+  </data>
+  <data name="MeasureIsInvalid" xml:space="preserve">
+    <value>计量单位无效</value>
+    <comment />
+  </data>
+  <data name="MinimunStockIsInvalid" xml:space="preserve">
+    <value>最低库存无效</value>
+    <comment />
+  </data>
+  <data name="PackagingIsInvalid" xml:space="preserve">
+    <value>包装类型无效</value>
+    <comment />
+  </data>
+  <data name="PriorityIsInvalid" xml:space="preserve">
+    <value>产品优先级无效</value>
+    <comment />
+  </data>
+  <data name="ProductCheckIsInvalid" xml:space="preserve">
+    <value>受控产品无效</value>
+    <comment />
+  </data>
+  <data name="ProductCodeIsInvalid" xml:space="preserve">
+    <value>产品代码无效</value>
+    <comment />
+  </data>
+  <data name="ProductCodeProviderIsInvalid" xml:space="preserve">
+    <value>提供者代码无效</value>
+    <comment />
+  </data>
+  <data name="SaleCommissionIsNotValid" xml:space="preserve">
+    <value>销售佣金无效</value>
+    <comment />
+  </data>
+  <data name="SectorProductIsInvalid" xml:space="preserve">
+    <value>产品部门无效</value>
+    <comment />
+  </data>
+  <data name="SourceProductIsInvalid" xml:space="preserve">
+    <value>产品来源无效</value>
+    <comment />
+  </data>
+  <data name="SubGroupIsInvalid" xml:space="preserve">
+    <value>产品子组无效</value>
+    <comment />
+  </data>
+  <data name="TaxIsInvalid" xml:space="preserve">
+    <value>税种无效</value>
+    <comment />
+  </data>
+  <data name="TrademarkIsInvalid" xml:space="preserve">
+    <value>商标无效</value>
+    <comment />
+  </data>
+  <data name="WeightIsNotValid" xml:space="preserve">
+    <value>重量无效</value>
+    <comment />
+  </data>
+  <data name="WholesaleIsInvalid" xml:space="preserve">
+    <value>批发无效</value>
+    <comment />
+  </data>
+  <data name="ProductNameIsInvalid" xml:space="preserve">
+    <value>产品名称无效</value>
+    <comment />
+  </data>
+  <data name="ProductIsInvalid" xml:space="preserve">
+    <value>产品无效</value>
+    <comment />
+  </data>
+  <data name="PriceAccordingToQuantityIsNotValid" xml:space="preserve">
+    <value>按量计价无效</value>
+    <comment />
+  </data>
+  <data name="PriceValueIsInvalid" xml:space="preserve">
+    <value>价格无效</value>
+    <comment />
+  </data>
+  <data name="TypeOfPriceIsNotValid" xml:space="preserve">
+    <value>价格类型无效</value>
+    <comment />
+  </data>
+  <data name="QuantityIsNotValid" xml:space="preserve">
+    <value>数量无效</value>
+    <comment />
+  </data>
+  <data name="BatchIsInvalid" xml:space="preserve">
+    <value>批次无效</value>
+    <comment />
+  </data>
+  <data name="StartDateIsInvalid" xml:space="preserve">
+    <value>开始日期无效</value>
+    <comment />
+  </data>
+  <data name="EndDateIsInvalid" xml:space="preserve">
+    <value>结束日期无效</value>
+    <comment />
+  </data>
+  <data name="CustomerActiveIsNotValid" xml:space="preserve">
+    <value>活动客户无效</value>
+    <comment />
+  </data>
+  <data name="VATpercentage" xml:space="preserve">
+    <value>增值税百分比</value>
+  </data>
+  <data name="StockQuantity" xml:space="preserve">
+    <value>库存数量</value>
+  </data>
+  <data name="Side" xml:space="preserve">
+    <value>边</value>
+  </data>
+  <data name="Shelving" xml:space="preserve">
+    <value>搁架</value>
+  </data>
+  <data name="section" xml:space="preserve">
+    <value>部分</value>
+  </data>
+  <data name="SalePrice" xml:space="preserve">
+    <value>销售价格</value>
+  </data>
+  <data name="QuantityPerBox" xml:space="preserve">
+    <value>每箱数量</value>
+  </data>
+  <data name="MaximumStock" xml:space="preserve">
+    <value>最大库存</value>
+  </data>
+  <data name="Line" xml:space="preserve">
+    <value>线</value>
+  </data>
+  <data name="ImageSecondary" xml:space="preserve">
+    <value>次要图像</value>
+  </data>
+  <data name="ImageMain" xml:space="preserve">
+    <value>主图</value>
+  </data>
+  <data name="DeleteSecondary" xml:space="preserve">
+    <value>删除次要</value>
+  </data>
+  <data name="DeleteMain" xml:space="preserve">
+    <value>删除主要</value>
+  </data>
+  <data name="CostPrice" xml:space="preserve">
+    <value>成本价</value>
+  </data>
+  <data name="Column" xml:space="preserve">
+    <value>柱子</value>
+  </data>
+  <data name="AddImageSecondary" xml:space="preserve">
+    <value>添加次要图像</value>
+  </data>
+  <data name="AddImageMain" xml:space="preserve">
+    <value>添加主图像</value>
+  </data>
+  <data name="StockIsInvalid" xml:space="preserve">
+    <value>库存无效</value>
+  </data>
+  <data name="Attributes" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="ComponentsAndApplications" xml:space="preserve">
+    <value>组件和应用</value>
+  </data>
+  <data name="Conditions" xml:space="preserve">
+    <value>条件</value>
+  </data>
+  <data name="ImageLocationComponents" xml:space="preserve">
+    <value>图片 | 位置 | 成分</value>
+  </data>
+  <data name="Main" xml:space="preserve">
+    <value>主要的</value>
+  </data>
+  <data name="Marketing" xml:space="preserve">
+    <value>营销</value>
+  </data>
+  <data name="Prices" xml:space="preserve">
+    <value>价格</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>财产</value>
+  </data>
+  <data name="StockAndPrices" xml:space="preserve">
+    <value>股票和价格</value>
+  </data>
+  <data name="Identity" xml:space="preserve">
+    <value>身份</value>
+  </data>
+  <data name="AdvantageIsInvalid" xml:space="preserve">
+    <value>优势无效</value>
+  </data>
+  <data name="BenefitIsInvalid" xml:space="preserve">
+    <value>福利无效</value>
+  </data>
+  <data name="ColumnIsInvalid" xml:space="preserve">
+    <value>列无效</value>
+  </data>
+  <data name="FeatureIsInvalid" xml:space="preserve">
+    <value>功能无效</value>
+  </data>
+  <data name="LineIsInvalid" xml:space="preserve">
+    <value>线路无效</value>
+  </data>
+  <data name="MaximumStockIsInvalid" xml:space="preserve">
+    <value>最大库存无效</value>
+  </data>
+  <data name="ProductServiceIsInvalid" xml:space="preserve">
+    <value>产品类型服务无效</value>
+  </data>
+  <data name="QuantityPerBoxIsInvalid" xml:space="preserve">
+    <value>每箱数量无效</value>
+  </data>
+  <data name="ShelvingIsInvalid" xml:space="preserve">
+    <value>搁置无效</value>
+  </data>
+  <data name="SideIsInvalid" xml:space="preserve">
+    <value>方无效</value>
+  </data>
+  <data name="CostPriceIsInvalid" xml:space="preserve">
+    <value>成本价无效</value>
+  </data>
+  <data name="ExpireDateIsInvalid" xml:space="preserve">
+    <value>过期日期无效</value>
+  </data>
+  <data name="QuantityStockIsInvalid" xml:space="preserve">
+    <value>数量库存无效</value>
+  </data>
+  <data name="SalePriceIsInvalid" xml:space="preserve">
+    <value>销售价格无效</value>
+  </data>
+  <data name="CopyCodeToClipboard" xml:space="preserve">
+    <value>将代码复制到剪贴板</value>
+  </data>
+  <data name="CopyPicture" xml:space="preserve">
+    <value>复制图片</value>
+  </data>
+  <data name="DeleteImage" xml:space="preserve">
+    <value>删除图片</value>
+  </data>
+  <data name="EditImage" xml:space="preserve">
+    <value>编辑图片</value>
+  </data>
+  <data name="ExportImage" xml:space="preserve">
+    <value>导出图像</value>
+  </data>
+  <data name="ModifyStock" xml:space="preserve">
+    <value>修改库存</value>
+  </data>
+  <data name="PasteImage" xml:space="preserve">
+    <value>粘贴图片</value>
+  </data>
+  <data name="PurchaseHistory" xml:space="preserve">
+    <value>购买历史</value>
+  </data>
+  <data name="SelectItem" xml:space="preserve">
+    <value>选择物品</value>
+  </data>
+  <data name="ViewImage" xml:space="preserve">
+    <value>看图</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>可用的</value>
+  </data>
+  <data name="CancelSale" xml:space="preserve">
+    <value>取消销售</value>
+  </data>
+  <data name="condition" xml:space="preserve">
+    <value>健康）状况</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="ContinueSellingProducts" xml:space="preserve">
+    <value>继续销售产品</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>折扣</value>
+  </data>
+  <data name="DiscountRate" xml:space="preserve">
+    <value>折扣率</value>
+  </data>
+  <data name="displaySalesInvoice" xml:space="preserve">
+    <value>显示销售发票</value>
+  </data>
+  <data name="finish" xml:space="preserve">
+    <value>结束</value>
+  </data>
+  <data name="finishInvoicing" xml:space="preserve">
+    <value>完成发票</value>
+  </data>
+  <data name="Invoices" xml:space="preserve">
+    <value>发票</value>
+  </data>
+  <data name="PretendToPrint" xml:space="preserve">
+    <value>假装打印</value>
+  </data>
+  <data name="Row" xml:space="preserve">
+    <value>排</value>
+  </data>
+  <data name="SelectCustomerRuc" xml:space="preserve">
+    <value>客户的ssn</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="StopSelling" xml:space="preserve">
+    <value>停止销售</value>
+  </data>
+  <data name="AddNewRow" xml:space="preserve">
+    <value>添加新行</value>
+  </data>
+  <data name="Customers" xml:space="preserve">
+    <value>顾客</value>
+  </data>
+  <data name="budgetPrinterName" xml:space="preserve">
+    <value>预算打印机名称</value>
+  </data>
+  <data name="InvoicePrinterName" xml:space="preserve">
+    <value>发票打印机名称</value>
+  </data>
+  <data name="IsSaleImputQuantity" xml:space="preserve">
+    <value>注明产品数量</value>
+  </data>
+  <data name="PointOfSaleSetup" xml:space="preserve">
+    <value>销售点设置</value>
+  </data>
+  <data name="PersonIdIsInvalid" xml:space="preserve">
+    <value>人员 ID 无效</value>
+  </data>
+  <data name="PromissoryNoteIsInvalid" xml:space="preserve">
+    <value>本票号码无效</value>
+  </data>
+  <data name="NumberOfInstallments" xml:space="preserve">
+    <value>分期付款期数</value>
+  </data>
+  <data name="NumberOfInstallmentsInvalid" xml:space="preserve">
+    <value>分期数无效</value>
+  </data>
+  <data name="AuthorizedStaff" xml:space="preserve">
+    <value>授权人员</value>
+  </data>
+  <data name="AuthorizingOfficer" xml:space="preserve">
+    <value>采购当局</value>
+  </data>
+  <data name="SearchOfAuthorizeStaff" xml:space="preserve">
+    <value>寻找授权人员</value>
+  </data>
+  <data name="SearchOfPersons" xml:space="preserve">
+    <value>搜查人员</value>
+  </data>
+  <data name="SearchOfPurchasingAuthority" xml:space="preserve">
+    <value>采购机关查询</value>
+  </data>
+  <data name="CustomerCurrencyIsInvalid" xml:space="preserve">
+    <value>不允许选择</value>
+  </data>
+  <data name="SelectionNotAllowed" xml:space="preserve">
+    <value>客户货币无效</value>
+  </data>
+  <data name="CurrencyDoesNotMatch" xml:space="preserve">
+    <value>货币不匹配</value>
+  </data>
+  <data name="ProductCurrencyIsInvalid" xml:space="preserve">
+    <value>产品币种无效</value>
+  </data>
+  <data name="AmountPaid" xml:space="preserve">
+    <value>支付的金额</value>
+  </data>
+  <data name="FinalizeCashSale" xml:space="preserve">
+    <value>完成现金销售</value>
+  </data>
+  <data name="SalePaymentDetail" xml:space="preserve">
+    <value>销售付款明细</value>
+  </data>
+  <data name="change" xml:space="preserve">
+    <value>改变</value>
+  </data>
+  <data name="arrears" xml:space="preserve">
+    <value>拖欠</value>
+  </data>
+  <data name="Fees" xml:space="preserve">
+    <value>费用</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>时期</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>价值</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>天</value>
+  </data>
+  <data name="FinalizeCreditSale" xml:space="preserve">
+    <value>记录赊销</value>
+  </data>
+  <data name="SearchOfAuthorizingOfficer" xml:space="preserve">
+    <value>搜尋授權人</value>
+  </data>
+  <data name="SerialCodeIsInvalid" xml:space="preserve">
+    <value>序列号无效</value>
+  </data>
+  <data name="ShopRuleIsInvalid" xml:space="preserve">
+    <value>店铺规则无效</value>
+  </data>
+  <data name="VisualizeSalesBill" xml:space="preserve">
+    <value>可视化销售账单</value>
+  </data>
+  <data name="InternalControl" xml:space="preserve">
+    <value>内部控制</value>
+  </data>
+  <data name="DeliveryNote2" xml:space="preserve">
+    <value>送货单</value>
+  </data>
+  <data name="Budget" xml:space="preserve">
+    <value>预算</value>
+  </data>
+  <data name="TotalSales" xml:space="preserve">
+    <value>总销售额</value>
+  </data>
+  <data name="InternalControlIsInvalid" xml:space="preserve">
+    <value>内部控制无效</value>
+  </data>
+  <data name="BoxIsInvalid" xml:space="preserve">
+    <value>内部控制无效</value>
+  </data>
+  <data name="PrintInternalControlLX-350" xml:space="preserve">
+    <value>打印内控LX-350</value>
+  </data>
+  <data name="PrintInternalControlTM-T20" xml:space="preserve">
+    <value>打印内控TM-T20</value>
+  </data>
+  <data name="PrintInternalControlTMU-220" xml:space="preserve">
+    <value>打印内控TM-U220</value>
+  </data>
+  <data name="PrintInvoiceLX-350" xml:space="preserve">
+    <value>打印发票 LX-350</value>
+  </data>
+  <data name="VisualizeInternalControl" xml:space="preserve">
+    <value>可视化内部控制</value>
+  </data>
+  <data name="CancelInvoiceNumber" xml:space="preserve">
+    <value>取消发票号码</value>
+  </data>
+  <data name="DeleteSale" xml:space="preserve">
+    <value>删除销售</value>
+  </data>
+  <data name="SelectSale" xml:space="preserve">
+    <value>选择销售</value>
+  </data>
+  <data name="SendByEmail" xml:space="preserve">
+    <value>通过电子邮件发送</value>
+  </data>
+  <data name="POSdocument" xml:space="preserve">
+    <value>POS打印</value>
+  </data>
+  <data name="InvoiceAlreadyGenerated" xml:space="preserve">
+    <value>发票已生成</value>
+  </data>
+  <data name="ManageCashRegister" xml:space="preserve">
+    <value>管理收银机</value>
+  </data>
+  <data name="SelectActiveBox" xml:space="preserve">
+    <value>选择活动框</value>
+  </data>
+  <data name="BoxSetting" xml:space="preserve">
+    <value>盒子配置</value>
+  </data>
+  <data name="DefaultPerson" xml:space="preserve">
+    <value>默认人</value>
+  </data>
+  <data name="AmountOfFeesIsInvalid" xml:space="preserve">
+    <value>费用金额无效</value>
+  </data>
+  <data name="ChargeWithInterest" xml:space="preserve">
+    <value>计息</value>
+  </data>
+  <data name="InterestIsInvalid" xml:space="preserve">
+    <value>利息无效</value>
+  </data>
+  <data name="PaymentValueIsInvalid" xml:space="preserve">
+    <value>付款值无效</value>
+  </data>
+  <data name="SaleFeesIdIsInvalid" xml:space="preserve">
+    <value>销售费用 ID 无效</value>
+  </data>
+  <data name="SaleIdIsInvalid" xml:space="preserve">
+    <value>销售编号无效</value>
+  </data>
+  <data name="PaymentIdIsInvalid" xml:space="preserve">
+    <value>支付id无效</value>
+  </data>
+  <data name="PaymentTypeIsInvalid" xml:space="preserve">
+    <value>付款类型无效</value>
+  </data>
+  <data name="PaymentDetailIsInvalid" xml:space="preserve">
+    <value>付款明细无效</value>
+  </data>
+  <data name="InterestOnArrears" xml:space="preserve">
+    <value>欠款利息</value>
+  </data>
+  <data name="InterestOnArrearsIsInvalid" xml:space="preserve">
+    <value>欠款利息无效</value>
+  </data>
+  <data name="StockModification" xml:space="preserve">
+    <value>股票修改</value>
+  </data>
+</root>

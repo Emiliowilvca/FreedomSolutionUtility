@@ -1,0 +1,134 @@
+[
+  {
+    "datos": {
+      "detalle": [
+        {
+          "cantidad": 2,
+          "tasaAplica": "10",
+          "precioUnitario": 8800000,
+          "descripcion": "HONORARIOS PROFESIONALES",
+          "precioTotalExento": 0,
+          "precioTotalAl5": 0,
+          "precioTotalAl10": 17600000,
+          "precioTotal": 17600000,
+          "impuestoExento": 0,
+          "impuestoAl5": 0,
+          "impuestoAl10": 1600000
+        }
+      ],
+      "retencion": {
+        "moneda": "PYG",
+        "fecha": "2017-08-02",
+        "retencionRenta": true,
+        "conceptoRenta": "RENTA_PERSONAL_REGISTRADO.1",
+        "ivaPorcentaje5": 0,
+        "ivaPorcentaje10": 30,
+        "rentaCabezasBase": 0,
+        "rentaCabezasCantidad": 0,
+        "rentaToneladasBase": 0,
+        "rentaToneladasCantidad": 0,
+        "rentaPorcentaje": 0.5,
+        "retencionIva": true,
+        "conceptoIva": "IVA.1",
+        "conceptoIvaNombre": "Retenciones en carácter de pago a cuenta para Contribuyentes obligados por el impuesto",
+        "conceptoRentaNombre": "Pago  a  cuenta  para  Contribuyentes  obligados  por  el Impuesto: Aporta a una Caja de Jubilación",
+        "monedaNombre": "Guarani",
+        "habilitadoRentaCabezas": false,
+        "habilitadoRentaToneladas": false,
+        "ivaBase5": 0,
+        "ivaTotal5": 0,
+        "ivaBase10": 1600000,
+        "ivaTotal10": 480000,
+        "ivaTotal": 480000,
+        "rentaBase": 16000000,
+        "rentaTotal": 80000,
+        "rentaCabezasTotal": 0,
+        "rentaToneladasTotal": 0,
+        "retencionIvaTotal": 480000,
+        "retencionRentaTotal": 80000,
+        "retencionTotal": 560000
+      },
+      "informado": {
+        "situacion": "Contribuyente",
+        "nombre": "JUAN PEREZ SOSA",
+        "ruc": "123456",
+        "dv": "7",
+        "domicilio": "",
+        "tipoIdentificacion": "",
+        "identificacion": "",
+        "direccion": "PALMA 123",
+        "correoElectronico": "",
+        "pais": "uk",
+        "telefono": "",
+        "tipoIdentificacionNombre": "",
+        "paisNombre": "",
+        "tieneRepresentante": true,
+        "tieneBeneficiario": true,
+        "representante": {
+          "tipoIdentificacion": "PASAPORTE",
+          "identificacion": "245234",
+          "nombre": "JUAN SERVIN"
+        },
+        "beneficiario": {
+          "tipoIdentificacion": "CEDULA",
+          "identificacion": "435234",
+          "nombre": "PABLO GONZALEZ"
+        }
+      },
+      "transaccion": {
+        "numeroComprobanteVenta": "001-001-2345",
+        "condicionCompra": "CONTADO",
+        "tipoComprobante": 19,
+        "fecha": "2017-08-01",
+        "numeroTimbrado": "0",
+        "tipoComprobanteNombre": "Planilla de Pagos"
+      },
+      "atributos": {
+        "fechaCreacion": "2017-08-02",
+        "fechaHoraCreacion": "2017-08-07 16:28:40",
+        "uuid": "12fd3528-ed57-431e-b5bc-65cfc7b0e526",
+        "version": "1.0.6"
+      },
+      "totales": {
+        "impuestoTotalExento": 0,
+        "impuestoTotalAl5": 0,
+        "impuestoTotalAl10": 1600000,
+        "valorTotalExento": 0,
+        "valorTotalAl5": 0,
+        "valorTotalAl10": 17600000,
+        "impuestoTotal": 1600000,
+        "valorTotal": 17600000
+      },
+      "informante": {
+        "nombre": "EMPRESA XX SA",
+        "dv": "0",
+        "nombreFantasia": null,
+        "domicilioEmision": "AVENIDA, SDFAFA",
+        "telefono": "132456",
+        "ruc": "800000000",
+        "codigoEstablecimiento": "001",
+        "timbradoComprobante": "10000000",
+        "puntoExpedicionComprobante": "001",
+        "inicioVigenciaComprobante": "2017-06-23",
+        "establecimiento": "001"
+      },
+      "id": "10"
+    },
+    "estado": "enviado",
+    "recepcion": {
+      "fechaProceso": "2017-08-07T16:30:65",
+      "numeroComprobante": "001-003-0000018",
+      "numeroControl": "920c0898",
+      "fechaEmision": "2017-08-02",
+      "cadenaControl": "920c0898|10001266|001-003-0000018|5000|560000",
+      "recepcionCorrecta": true,
+      "mensajeRecepcion": null,
+      "codigoProcesamiento": null,
+      "procesamientoCorrecto": true,
+      "mensajeProcesamiento": null,
+      "numero": "001-003-0000018",
+      "fechaRecepcion": "2017-08-07T16:30:65",
+      "hash": "3a8fe33b95ab01455d211478dd5d1a4b"
+    }
+  }
+]
