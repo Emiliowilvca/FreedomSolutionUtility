@@ -1,6 +1,4 @@
 ﻿using Freedom.Utility.Models.BaseEntity;
-using System;
-using System.Collections.Generic;
 
 namespace Freedom.Utility.Models.Dto
 {
