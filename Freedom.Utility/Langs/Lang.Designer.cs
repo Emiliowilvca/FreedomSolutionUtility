@@ -2140,11 +2140,29 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Current amount.
+        /// </summary>
+        public static string CurrentAmount {
+            get {
+                return ResourceManager.GetString("CurrentAmount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Current password.
         /// </summary>
         public static string CurrentPassword {
             get {
                 return ResourceManager.GetString("CurrentPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current Stock.
+        /// </summary>
+        public static string CurrentStock {
+            get {
+                return ResourceManager.GetString("CurrentStock", resourceCulture);
             }
         }
         
@@ -2433,6 +2451,24 @@ namespace Freedom.Utility.Langs {
         public static string DecimalsInStock {
             get {
                 return ResourceManager.GetString("DecimalsInStock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Decrement.
+        /// </summary>
+        public static string Decrement {
+            get {
+                return ResourceManager.GetString("Decrement", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Decrement value is invalid.
+        /// </summary>
+        public static string DecrementValueIsInvalid {
+            get {
+                return ResourceManager.GetString("DecrementValueIsInvalid", resourceCulture);
             }
         }
         
@@ -3175,6 +3211,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Expiration date.
+        /// </summary>
+        public static string ExpirationDate {
+            get {
+                return ResourceManager.GetString("ExpirationDate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Expire date is invalid.
         /// </summary>
         public static string ExpireDateIsInvalid {
@@ -3742,6 +3787,24 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Increment.
+        /// </summary>
+        public static string Increment {
+            get {
+                return ResourceManager.GetString("Increment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Increment value is invalid.
+        /// </summary>
+        public static string IncrementValueIsInvalid {
+            get {
+                return ResourceManager.GetString("IncrementValueIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Indeterminate.
         /// </summary>
         public static string Indeterminate {
@@ -3864,6 +3927,15 @@ namespace Freedom.Utility.Langs {
         public static string InternalControlIsInvalid {
             get {
                 return ResourceManager.GetString("InternalControlIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid batch record.
+        /// </summary>
+        public static string InvalidBatchRecord {
+            get {
+                return ResourceManager.GetString("InvalidBatchRecord", resourceCulture);
             }
         }
         
@@ -4804,6 +4876,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Lot.
+        /// </summary>
+        public static string Lot {
+            get {
+                return ResourceManager.GetString("Lot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Main.
         /// </summary>
         public static string Main {
@@ -4863,6 +4944,24 @@ namespace Freedom.Utility.Langs {
         public static string ManagerIsInvalid {
             get {
                 return ResourceManager.GetString("ManagerIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Manufacture date is invalid.
+        /// </summary>
+        public static string ManufactureDateIsInvalid {
+            get {
+                return ResourceManager.GetString("ManufactureDateIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Manufacturing date.
+        /// </summary>
+        public static string ManufacturingDate {
+            get {
+                return ResourceManager.GetString("ManufacturingDate", resourceCulture);
             }
         }
         
@@ -7846,6 +7945,24 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Setting Type.
+        /// </summary>
+        public static string SettingType {
+            get {
+                return ResourceManager.GetString("SettingType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to stock adjustment type is invalid.
+        /// </summary>
+        public static string SettingTypeStockIsInvalid {
+            get {
+                return ResourceManager.GetString("SettingTypeStockIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The Sex is not valid.
         /// </summary>
         public static string SexIsNotvalid {
@@ -8373,6 +8490,15 @@ namespace Freedom.Utility.Langs {
         public static string TheDateIsNotValid {
             get {
                 return ResourceManager.GetString("TheDateIsNotValid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The Reason Is Invalid.
+        /// </summary>
+        public static string TheReasonIsInvalid {
+            get {
+                return ResourceManager.GetString("TheReasonIsInvalid", resourceCulture);
             }
         }
         

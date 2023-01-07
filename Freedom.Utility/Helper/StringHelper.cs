@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.Specialized;
+﻿using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Globalization;
-using System.Linq;
 using System.Text;
 using System.Web;
 
@@ -13,6 +10,12 @@ namespace Freedom.Utility
     {
         public static string Truncate(this string source, int startIndex = 0, int lenght = 50)
         {
+            return source.Substring(startIndex, Math.Min(source.Length - startIndex, lenght));
+        }
+
+        public static string Truncate(this string source, int lenght)
+        {
+            int startIndex = 0;
             return source.Substring(startIndex, Math.Min(source.Length - startIndex, lenght));
         }
 
@@ -92,10 +95,8 @@ namespace Freedom.Utility
                 list.Add(text.Substring(lastWrap, currentIndex - lastWrap).Trim(whitespace));
                 lastWrap = currentIndex;
             } while (currentIndex < text.Length);
-
             return list;
         }
-
 
         public static string CharToZplBarcode(string description)
         {
@@ -105,8 +106,6 @@ namespace Freedom.Utility
             specialChars.ToList().ForEach(x => description = description.Replace(x.Key, x.Value));
             return description;
         }
-
-
 
         public static string GetSubString(this string currentText, int length = 50)
         {

@@ -4160,4 +4160,46 @@
   <data name="StockModification" xml:space="preserve">
     <value>стоковая модификация</value>
   </data>
+  <data name="DecrementValueIsInvalid" xml:space="preserve">
+    <value>Недопустимое значение уменьшения</value>
+  </data>
+  <data name="IncrementValueIsInvalid" xml:space="preserve">
+    <value>Недопустимое значение приращения</value>
+  </data>
+  <data name="InvalidBatchRecord" xml:space="preserve">
+    <value>Недопустимая пакетная запись</value>
+  </data>
+  <data name="ManufactureDateIsInvalid" xml:space="preserve">
+    <value>Дата изготовления недействительна</value>
+  </data>
+  <data name="TheReasonIsInvalid" xml:space="preserve">
+    <value>Причина недействительна</value>
+  </data>
+  <data name="SettingTypeStockIsInvalid" xml:space="preserve">
+    <value>недопустимый тип корректировки запаса</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>Много</value>
+  </data>
+  <data name="CurrentAmount" xml:space="preserve">
+    <value>Текущее количество</value>
+  </data>
+  <data name="CurrentStock" xml:space="preserve">
+    <value>Текущий запас</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Срок годности</value>
+  </data>
+  <data name="ManufacturingDate" xml:space="preserve">
+    <value>Дата производства</value>
+  </data>
+  <data name="SettingType" xml:space="preserve">
+    <value>Тип настройки</value>
+  </data>
+  <data name="Decrement" xml:space="preserve">
+    <value>уменьшение</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>приращение</value>
+  </data>
 </root>

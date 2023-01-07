@@ -4160,4 +4160,46 @@
   <data name="StockModification" xml:space="preserve">
     <value>lagermodifisering</value>
   </data>
+  <data name="DecrementValueIsInvalid" xml:space="preserve">
+    <value>Reduksjonsverdien er ugyldig</value>
+  </data>
+  <data name="IncrementValueIsInvalid" xml:space="preserve">
+    <value>Økningsverdien er ugyldig</value>
+  </data>
+  <data name="InvalidBatchRecord" xml:space="preserve">
+    <value>Ugyldig batch-post</value>
+  </data>
+  <data name="ManufactureDateIsInvalid" xml:space="preserve">
+    <value>Produksjonsdatoen er ugyldig</value>
+  </data>
+  <data name="TheReasonIsInvalid" xml:space="preserve">
+    <value>Årsaken er ugyldig</value>
+  </data>
+  <data name="SettingTypeStockIsInvalid" xml:space="preserve">
+    <value>lagerjusteringstype er ugyldig</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>Lot</value>
+  </data>
+  <data name="CurrentAmount" xml:space="preserve">
+    <value>Gjeldende beløp</value>
+  </data>
+  <data name="CurrentStock" xml:space="preserve">
+    <value>Nåværende lager</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Utløpsdato</value>
+  </data>
+  <data name="ManufacturingDate" xml:space="preserve">
+    <value>Produksjonsdato</value>
+  </data>
+  <data name="SettingType" xml:space="preserve">
+    <value>Innstillingstype</value>
+  </data>
+  <data name="Decrement" xml:space="preserve">
+    <value>nedgang</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>øke</value>
+  </data>
 </root>

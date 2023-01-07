@@ -4160,4 +4160,46 @@
   <data name="StockModification" xml:space="preserve">
     <value>Bestandsänderung</value>
   </data>
+  <data name="DecrementValueIsInvalid" xml:space="preserve">
+    <value>Dekrementwert ist ungültig</value>
+  </data>
+  <data name="IncrementValueIsInvalid" xml:space="preserve">
+    <value>Inkrementwert ist ungültig</value>
+  </data>
+  <data name="InvalidBatchRecord" xml:space="preserve">
+    <value>Ungültiges Chargenprotokoll</value>
+  </data>
+  <data name="ManufactureDateIsInvalid" xml:space="preserve">
+    <value>Herstellungsdatum ist ungültig</value>
+  </data>
+  <data name="TheReasonIsInvalid" xml:space="preserve">
+    <value>Der Grund ist ungültig</value>
+  </data>
+  <data name="SettingTypeStockIsInvalid" xml:space="preserve">
+    <value>Bestandsanpassungstyp ist ungültig</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>Menge</value>
+  </data>
+  <data name="CurrentAmount" xml:space="preserve">
+    <value>Aktueller Betrag</value>
+  </data>
+  <data name="CurrentStock" xml:space="preserve">
+    <value>Aktueller Lagerbestand</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Verfallsdatum</value>
+  </data>
+  <data name="ManufacturingDate" xml:space="preserve">
+    <value>Herstellungsdatum</value>
+  </data>
+  <data name="SettingType" xml:space="preserve">
+    <value>Einstellungstyp</value>
+  </data>
+  <data name="Decrement" xml:space="preserve">
+    <value>dekrementieren</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>Zuwachs</value>
+  </data>
 </root>

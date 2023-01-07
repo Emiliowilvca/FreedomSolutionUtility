@@ -49,7 +49,7 @@ namespace Freedom.Frontend.Models.Bindable
         private DateTime _manufactory;
         private DateTime _expiration;
         private int _shelvingSectorId;
-        private int _shelvingShelving;
+        private int _shelving;
         private int _shelvingSide;
         private int _shelvingColumn;
         private int _shelvingLine;
@@ -61,7 +61,7 @@ namespace Freedom.Frontend.Models.Bindable
         private byte _typePrice;
         private string _shopName;
         private string _moneyName;
-
+         
         public int ProductId { get => _productId; set => SetProperty(ref _productId, value); }
 
         public int BrandId { get => _brandId; set => SetProperty(ref _brandId, value); }
@@ -149,9 +149,7 @@ namespace Freedom.Frontend.Models.Bindable
         public DateTime Expiration { get => _expiration; set => SetProperty(ref _expiration, value); }
 
         public int ShelvingSectorId { get => _shelvingSectorId; set => SetProperty(ref _shelvingSectorId, value); }
-
-        public int ShelvingShelving { get => _shelvingShelving; set => SetProperty(ref _shelvingShelving, value); }
-
+         
         public int ShelvingSide { get => _shelvingSide; set => SetProperty(ref _shelvingSide, value); }
 
         public int ShelvingColumn { get => _shelvingColumn; set => SetProperty(ref _shelvingColumn, value); }
@@ -173,5 +171,70 @@ namespace Freedom.Frontend.Models.Bindable
         public string ShopName { get => _shopName; set => SetProperty(ref _shopName, value); }
 
         public string MoneyName { get => _moneyName; set => SetProperty(ref _moneyName, value); }
+        
+        public int Shelving { get => _shelving; set => SetProperty(ref _shelving , value); }
+
+
+
+
+        public override void ResetEntity()
+        {
+            base.ResetEntity();
+            ProductId = 0;
+            BrandId = 0;
+            CompanyId = 0;
+            GroupId = 0;
+            MeasureId = 0;
+            PackageId = 0;
+            PriorityId = 0;
+            SourceId = 0;
+            SubgroupId = 0;
+            Advantage = "";
+            Barcode = "";
+            Barcode = "";
+            Benefit = "";
+            Code = "";
+            CodeProvider = "";
+            Feature = "";
+            GenericName = "";
+            Name = "";
+            ComissionSale = 0;
+            MaxDiscount = 0;
+            QuantityBox = 0;
+            StockMax = 0; 
+            StockMin = 0;
+            TaxRate = 0;
+            Weight = 0;
+            ActiveProduct = false;
+            AlterStock = false;
+            IsService = false;
+            PayTax = false;
+            ProCheck = false;
+            Wholesaler = false;
+            BrandName = "";
+            GroupName = "";
+            SubGroupName = "";
+            MeasureName = "";
+            PackageName = "";
+            PriorityName = "";
+            SourceName = "";
+            StockId = 0;
+            ShopId = 0;
+            StockQuantity = 0;
+            Lote = "";
+            Manufactory = DateTime.Now;
+            Expiration = DateTime.Now;
+            ShelvingSectorId = 0;
+            Shelving = 0;
+            ShelvingLine = 0;
+            PriceId = 0;
+            MoneyId = 0;
+            PriceLevel = 0; 
+            ValuePrice = 0;
+            PriceQuantity = 0;
+            TypePrice = 0;
+            ShopName = "";
+            MoneyName = "";
+        }
     }
 }

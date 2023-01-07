@@ -1,12 +1,15 @@
-﻿using System;
-
-namespace Freedom.Utility.Models.BaseEntity
+﻿namespace Freedom.Utility.Models.BaseEntity
 {
     public interface IAlterStock
     {
         int Id { get; set; }
 
         DateTime AlterDate { get; set; }
+
+        /// <summary>
+        /// tipo de ajuste (aumentar o disminuir)
+        /// </summary>
+        string SettingType { get; set; }
 
         int CompanyId { get; set; }
 
@@ -29,5 +32,15 @@ namespace Freedom.Utility.Models.BaseEntity
         int ShopId { get; set; }
 
         Guid UserId { get; set; }
+
+        int SectorId { get; set; }
+
+        int Shelving { get; set; }
+
+        int Side { get; set; }
+
+        int Column { get; set; }
+
+        int Line { get; set; }
     }
 }

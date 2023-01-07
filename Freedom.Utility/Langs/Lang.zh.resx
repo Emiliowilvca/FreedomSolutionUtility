@@ -4159,4 +4159,46 @@
   <data name="StockModification" xml:space="preserve">
     <value>股票修改</value>
   </data>
+  <data name="DecrementValueIsInvalid" xml:space="preserve">
+    <value>递减值无效</value>
+  </data>
+  <data name="IncrementValueIsInvalid" xml:space="preserve">
+    <value>增量值无效</value>
+  </data>
+  <data name="InvalidBatchRecord" xml:space="preserve">
+    <value>批记录无效</value>
+  </data>
+  <data name="ManufactureDateIsInvalid" xml:space="preserve">
+    <value>生产日期无效</value>
+  </data>
+  <data name="TheReasonIsInvalid" xml:space="preserve">
+    <value>原因无效</value>
+  </data>
+  <data name="SettingTypeStockIsInvalid" xml:space="preserve">
+    <value>库存调整类型无效</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>很多</value>
+  </data>
+  <data name="CurrentAmount" xml:space="preserve">
+    <value>当前金额</value>
+  </data>
+  <data name="CurrentStock" xml:space="preserve">
+    <value>当前库存</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>截止日期</value>
+  </data>
+  <data name="ManufacturingDate" xml:space="preserve">
+    <value>生产日期</value>
+  </data>
+  <data name="SettingType" xml:space="preserve">
+    <value>设置类型</value>
+  </data>
+  <data name="Decrement" xml:space="preserve">
+    <value>递减</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>增量</value>
+  </data>
 </root>

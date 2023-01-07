@@ -8,6 +8,8 @@ namespace Freedom.Utility.Models.Dto
 
         public DateTime AlterDate { get; set; }
 
+        public string SettingType { get; set; }
+
         public int CompanyId { get; set; }
 
         public decimal Decrease { get; set; }
@@ -29,5 +31,15 @@ namespace Freedom.Utility.Models.Dto
         public int ShopId { get; set; }
 
         public Guid UserId { get; set; }
+
+        public int SectorId { get; set; }
+
+        public int Shelving { get; set; }
+
+        public int Side { get; set; }
+
+        public int Column { get; set; }
+
+        public int Line { get; set; }
     }
 }

@@ -4160,4 +4160,46 @@
   <data name="StockModification" xml:space="preserve">
     <value>wijziging van de voorraad</value>
   </data>
+  <data name="DecrementValueIsInvalid" xml:space="preserve">
+    <value>Verlagingswaarde is ongeldig</value>
+  </data>
+  <data name="IncrementValueIsInvalid" xml:space="preserve">
+    <value>Toenamewaarde is ongeldig</value>
+  </data>
+  <data name="InvalidBatchRecord" xml:space="preserve">
+    <value>Ongeldige batchrecord</value>
+  </data>
+  <data name="ManufactureDateIsInvalid" xml:space="preserve">
+    <value>Fabricagedatum is ongeldig</value>
+  </data>
+  <data name="TheReasonIsInvalid" xml:space="preserve">
+    <value>De reden is ongeldig</value>
+  </data>
+  <data name="SettingTypeStockIsInvalid" xml:space="preserve">
+    <value>type voorraadcorrectie is ongeldig</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>Kavel</value>
+  </data>
+  <data name="CurrentAmount" xml:space="preserve">
+    <value>Huidige hoeveelheid</value>
+  </data>
+  <data name="CurrentStock" xml:space="preserve">
+    <value>Huidige voorraad</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Uiterste houdbaarheidsdatum</value>
+  </data>
+  <data name="ManufacturingDate" xml:space="preserve">
+    <value>Fabricage datum</value>
+  </data>
+  <data name="SettingType" xml:space="preserve">
+    <value>Type instelling</value>
+  </data>
+  <data name="Decrement" xml:space="preserve">
+    <value>verlagen</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>verhoging</value>
+  </data>
 </root>

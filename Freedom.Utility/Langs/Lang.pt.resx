@@ -4160,4 +4160,46 @@
   <data name="StockModification" xml:space="preserve">
     <value>modificação de estoque</value>
   </data>
+  <data name="DecrementValueIsInvalid" xml:space="preserve">
+    <value>O valor de decremento é inválido</value>
+  </data>
+  <data name="IncrementValueIsInvalid" xml:space="preserve">
+    <value>O valor do incremento é inválido</value>
+  </data>
+  <data name="InvalidBatchRecord" xml:space="preserve">
+    <value>Registro de lote inválido</value>
+  </data>
+  <data name="ManufactureDateIsInvalid" xml:space="preserve">
+    <value>A data de fabricação é inválida</value>
+  </data>
+  <data name="TheReasonIsInvalid" xml:space="preserve">
+    <value>O motivo é inválido</value>
+  </data>
+  <data name="SettingTypeStockIsInvalid" xml:space="preserve">
+    <value>o tipo de ajuste de estoque é inválido</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>Lote</value>
+  </data>
+  <data name="CurrentAmount" xml:space="preserve">
+    <value>Valor atual</value>
+  </data>
+  <data name="CurrentStock" xml:space="preserve">
+    <value>Estoque atual</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Data de validade</value>
+  </data>
+  <data name="ManufacturingDate" xml:space="preserve">
+    <value>Data de fabricação</value>
+  </data>
+  <data name="SettingType" xml:space="preserve">
+    <value>Tipo de configuração</value>
+  </data>
+  <data name="Decrement" xml:space="preserve">
+    <value>diminuir</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>incremento</value>
+  </data>
 </root>

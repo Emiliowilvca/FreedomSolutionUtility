@@ -4160,4 +4160,46 @@
   <data name="StockModification" xml:space="preserve">
     <value>modifica del magazzino</value>
   </data>
+  <data name="DecrementValueIsInvalid" xml:space="preserve">
+    <value>Il valore di decremento non è valido</value>
+  </data>
+  <data name="IncrementValueIsInvalid" xml:space="preserve">
+    <value>Il valore dell'incremento non è valido</value>
+  </data>
+  <data name="InvalidBatchRecord" xml:space="preserve">
+    <value>Record batch non valido</value>
+  </data>
+  <data name="ManufactureDateIsInvalid" xml:space="preserve">
+    <value>La data di produzione non è valida</value>
+  </data>
+  <data name="TheReasonIsInvalid" xml:space="preserve">
+    <value>Il motivo non è valido</value>
+  </data>
+  <data name="SettingTypeStockIsInvalid" xml:space="preserve">
+    <value>il tipo di rettifica dello stock non è valido</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>Quantità</value>
+  </data>
+  <data name="CurrentAmount" xml:space="preserve">
+    <value>Quantità corrente</value>
+  </data>
+  <data name="CurrentStock" xml:space="preserve">
+    <value>Scorta attuale</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Data di scadenza</value>
+  </data>
+  <data name="ManufacturingDate" xml:space="preserve">
+    <value>Data di produzione</value>
+  </data>
+  <data name="SettingType" xml:space="preserve">
+    <value>Tipo di impostazione</value>
+  </data>
+  <data name="Decrement" xml:space="preserve">
+    <value>decremento</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>incremento</value>
+  </data>
 </root>

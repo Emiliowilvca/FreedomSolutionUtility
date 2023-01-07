@@ -4160,4 +4160,46 @@
   <data name="StockModification" xml:space="preserve">
     <value>Stock Modification</value>
   </data>
+  <data name="IncrementValueIsInvalid" xml:space="preserve">
+    <value>Increment value is invalid</value>
+  </data>
+  <data name="DecrementValueIsInvalid" xml:space="preserve">
+    <value>Decrement value is invalid</value>
+  </data>
+  <data name="ManufactureDateIsInvalid" xml:space="preserve">
+    <value>Manufacture date is invalid</value>
+  </data>
+  <data name="InvalidBatchRecord" xml:space="preserve">
+    <value>Invalid batch record</value>
+  </data>
+  <data name="TheReasonIsInvalid" xml:space="preserve">
+    <value>The Reason Is Invalid</value>
+  </data>
+  <data name="SettingTypeStockIsInvalid" xml:space="preserve">
+    <value>stock adjustment type is invalid</value>
+  </data>
+  <data name="ManufacturingDate" xml:space="preserve">
+    <value>Manufacturing date</value>
+  </data>
+  <data name="ExpirationDate" xml:space="preserve">
+    <value>Expiration date</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>Lot</value>
+  </data>
+  <data name="CurrentAmount" xml:space="preserve">
+    <value>Current amount</value>
+  </data>
+  <data name="CurrentStock" xml:space="preserve">
+    <value>Current Stock</value>
+  </data>
+  <data name="SettingType" xml:space="preserve">
+    <value>Setting Type</value>
+  </data>
+  <data name="Increment" xml:space="preserve">
+    <value>Increment</value>
+  </data>
+  <data name="Decrement" xml:space="preserve">
+    <value>Decrement</value>
+  </data>
 </root>
