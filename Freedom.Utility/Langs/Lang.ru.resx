@@ -4017,7 +4017,7 @@
     <value>валюта не совпадает</value>
   </data>
   <data name="ProductCurrencyIsInvalid" xml:space="preserve">
-    <value>Валюта продукта недействительна.</value>
+    <value>Валюта продукта недействительна</value>
   </data>
   <data name="AmountPaid" xml:space="preserve">
     <value>Выплаченная сумма</value>

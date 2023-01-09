@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Version>1.0.882</Version>
+    <Version>1.0.883</Version>
     <Nullable>disable</Nullable>	  
     <PackageIcon>Letter-F-icon.png</PackageIcon>
     <PackAsTool>False</PackAsTool>    
@@ -10,7 +10,7 @@
 	<Authors>EmilioWildberger</Authors>
 	<Company>Sicro</Company>
 	<Product>FreedomUtililies</Product>
-	<Description>share Dtos between backend and frontend in Freedom project</Description>
+	<Description>Share DtoModels between backend and frontend in FreedomSolution project</Description>
 	<GenerateDocumentationFile>true</GenerateDocumentationFile>
 	<RepositoryUrl>https://github.com/Emiliowilvca/FreedomSolutionUtility</RepositoryUrl>
 	<RepositoryType>github</RepositoryType>	  
