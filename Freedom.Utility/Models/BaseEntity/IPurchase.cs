@@ -25,15 +25,17 @@ namespace Freedom.Utility.Models.BaseEntity
         int BoxId { get; set; }
 
         int CarrierId { get; set; }
-
-        decimal TotalIva { get; set; }
-
-        decimal TotalExenta { get; set; }
-
-        decimal TotalGravada { get; set; }
-
-        decimal TotalNeto { get; set; }
-
+         
+        /// <summary>
+        /// Total Purchase
+        /// </summary>
+        decimal Total { get; set; }
+         
+        /// <summary>
+        ///  Total Taxes in details
+        /// </summary>
+        decimal TotalTax { get; set; }
+         
         decimal ImportExpence { get; set; }
 
         bool ItsImport { get; set; }

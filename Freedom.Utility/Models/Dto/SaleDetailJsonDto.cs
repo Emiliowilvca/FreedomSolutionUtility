@@ -1,11 +1,13 @@
 ﻿using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Utility.Models.Dto
 {
-    [Serializable]
-    public class SaleDetailDto : ISaleDetail
+    public class SaleDetailJsonDto : ISaleDetailJson
     {
+        public string Code { get; set; }
+
+        public string Description { get; set; }
+
         public long SaleDetailId { get; set; }
 
         public int SaleId { get; set; }
@@ -27,6 +29,5 @@ namespace Freedom.Utility.Models.Dto
         public decimal TaxRate { get; set; }
 
         public decimal TaxValue { get; set; }
-         
     }
 }

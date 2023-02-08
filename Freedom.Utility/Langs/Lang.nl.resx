@@ -4202,4 +4202,13 @@
   <data name="Increment" xml:space="preserve">
     <value>verhoging</value>
   </data>
+  <data name="FollowSale" xml:space="preserve">
+    <value>verkoop volgen</value>
+  </data>
+  <data name="ProcessCompletedSuccessfully" xml:space="preserve">
+    <value>proces succesvol afgerond</value>
+  </data>
+  <data name="GridContainsRecords" xml:space="preserve">
+    <value>grid bevat al records</value>
+  </data>
 </root>

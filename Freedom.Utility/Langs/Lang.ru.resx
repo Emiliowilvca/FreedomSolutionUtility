@@ -4202,4 +4202,13 @@
   <data name="Increment" xml:space="preserve">
     <value>приращение</value>
   </data>
+  <data name="FollowSale" xml:space="preserve">
+    <value>следить за продажей</value>
+  </data>
+  <data name="ProcessCompletedSuccessfully" xml:space="preserve">
+    <value>процесс завершен успешно</value>
+  </data>
+  <data name="GridContainsRecords" xml:space="preserve">
+    <value>сетка уже содержит записи</value>
+  </data>
 </root>

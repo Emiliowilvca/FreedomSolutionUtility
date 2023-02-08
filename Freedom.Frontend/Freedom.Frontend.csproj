@@ -1,24 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
-	<Version>1.0.370</Version>
+	<Version>1.0.381</Version>
 	<Authors>EmilioWildberger</Authors>
 	<Company>Sicro</Company>
 	<Product>FrontendMeta</Product>
 	<Description>utilities for my frontend project applicable to Wpf, Blazor, Maiu</Description> 
 	<PackageIcon>back-next-icon.png</PackageIcon>
-    <RepositoryUrl>https://github.com/Emiliowilvca/FreedomSolutionUtility</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Emiliowilvca/FreedomSolutionUtility</RepositoryUrl> 
   </PropertyGroup>
-
   <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Freedom.Utility" Version="1.0.883" />
+    <PackageReference Include="Freedom.Utility" Version="1.0.894" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.141-beta" />
   </ItemGroup>
 
@@ -28,5 +26,4 @@
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
-
 </Project>

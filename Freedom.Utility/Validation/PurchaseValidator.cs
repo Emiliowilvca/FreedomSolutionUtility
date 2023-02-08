@@ -28,11 +28,9 @@ namespace Freedom.Utility.Validation
 
             RuleFor(x => x.CarrierId).CarrierID();
 
-            RuleFor(x => x.TotalIva).TotalIva(0m);
+            RuleFor(x => x.TotalTax).TotalIva(0m);
 
-            RuleFor(x => x.TotalNeto).TotalExenta(0m);
-
-            RuleFor(x => x.TotalGravada).TotalGravada(0m);
+            RuleFor(x => x.Total).TotalNeto(0m);
 
             RuleFor(x => x.Exchange).Exchange(0m);
 

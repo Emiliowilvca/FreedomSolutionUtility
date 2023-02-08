@@ -29,17 +29,20 @@ namespace Freedom.Frontend.Models.Bindable
             get => _code; set 
             {
                 var text = value;
-                if (text.Contains("'") ||
-                      text.Contains("`") ||
-                      text.Contains("´") ||
-                      text.Contains("~"))
+                if (!string.IsNullOrEmpty(text))
                 {
-                    text = text.Replace("'", "-")
-                        .Replace("`", "-")
-                        .Replace("´", "-")
-                        .Replace("~", "-");
-                    value = text;
-                }                
+                    if (text.Contains("'") ||
+                          text.Contains("`") ||
+                          text.Contains("´") ||
+                          text.Contains("~"))
+                    {
+                        text = text.Replace("'", "-")
+                            .Replace("`", "-")
+                            .Replace("´", "-")
+                            .Replace("~", "-");
+                        value = text;
+                    }                
+                }
                 SetProperty(ref _code, value);
             }
         }

@@ -1,5 +1,4 @@
 ﻿using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Utility.Models.Dto
 {
@@ -28,13 +27,9 @@ namespace Freedom.Utility.Models.Dto
 
         public int CarrierId { get; set; }
 
-        public decimal TotalIva { get; set; }
+        public decimal Total { get; set; }
 
-        public decimal TotalExenta { get; set; }
-
-        public decimal TotalGravada { get; set; }
-
-        public decimal TotalNeto { get; set; }
+        public decimal TotalTax { get; set; }
 
         public decimal ImportExpence { get; set; }
 
@@ -47,5 +42,9 @@ namespace Freedom.Utility.Models.Dto
         public string Note { get; set; }
 
         public string Timbrado { get; set; }
+
+        public ICollection<IPurchaseDetail> PurchaseDetails { get; set; }
+
+        public ICollection<IPurchaseFees> PurchaseFees { get; set; }
     }
 }

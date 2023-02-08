@@ -4201,4 +4201,13 @@
   <data name="Increment" xml:space="preserve">
     <value>增量</value>
   </data>
+  <data name="FollowSale" xml:space="preserve">
+    <value>关注销售</value>
+  </data>
+  <data name="ProcessCompletedSuccessfully" xml:space="preserve">
+    <value>过程成功完成</value>
+  </data>
+  <data name="GridContainsRecords" xml:space="preserve">
+    <value>网格已包含记录</value>
+  </data>
 </root>

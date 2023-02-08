@@ -96,6 +96,10 @@ namespace Freedom.Utility.Models.RPT
 
         public string MoneyName { get; set; }
 
+        public int DecimalPlaces { get; set; } 
+
+        public bool IsExpress { get; set; }
+
         public IEnumerable<SaleDetailRpt> SaleDetails { get; set; }
     }
 }

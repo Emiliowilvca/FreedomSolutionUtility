@@ -3517,6 +3517,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Follow Sale.
+        /// </summary>
+        public static string FollowSale {
+            get {
+                return ResourceManager.GetString("FollowSale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Forbidden Access.
         /// </summary>
         public static string forbidenAccess {
@@ -3630,6 +3639,15 @@ namespace Freedom.Utility.Langs {
         public static string GrantDiscounts {
             get {
                 return ResourceManager.GetString("GrantDiscounts", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to grid already contains records.
+        /// </summary>
+        public static string GridContainsRecords {
+            get {
+                return ResourceManager.GetString("GridContainsRecords", resourceCulture);
             }
         }
         
@@ -6267,6 +6285,15 @@ namespace Freedom.Utility.Langs {
         public static string PriorityIsInvalid {
             get {
                 return ResourceManager.GetString("PriorityIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to process completed successfully.
+        /// </summary>
+        public static string ProcessCompletedSuccessfully {
+            get {
+                return ResourceManager.GetString("ProcessCompletedSuccessfully", resourceCulture);
             }
         }
         

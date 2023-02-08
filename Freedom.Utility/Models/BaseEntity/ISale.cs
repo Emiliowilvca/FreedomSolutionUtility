@@ -68,6 +68,15 @@ namespace Freedom.Utility.Models.BaseEntity
         /// </summary>
         decimal TotalNet { get; set; }
 
+        /// <summary>
+        /// Facturas de venta excluidas
+        /// </summary>
         bool Status { get; set; }
+
+        /// <summary>
+        /// Sale if is Express
+        /// </summary>
+        bool IsExpress { get; set; }
+         
     }
 }

@@ -1,5 +1,4 @@
 ﻿using Freedom.Utility.Models.BaseRTO;
-using System;
 
 namespace Freedom.Utility.Models.RTO
 {
@@ -17,13 +16,9 @@ namespace Freedom.Utility.Models.RTO
 
         public string MoneyName { get; set; }
 
-        public decimal TotalIva { get; set; }
+        public decimal Total { get; set; }
 
-        public decimal TotalExenta { get; set; }
-
-        public decimal TotalGravada { get; set; }
-
-        public decimal TotalNeto { get; set; }
+        public decimal TotalTax { get; set; }
 
         public decimal TotalRetention { get; set; }
 

@@ -4202,4 +4202,13 @@
   <data name="Decrement" xml:space="preserve">
     <value>Decrement</value>
   </data>
+  <data name="FollowSale" xml:space="preserve">
+    <value>Follow Sale</value>
+  </data>
+  <data name="ProcessCompletedSuccessfully" xml:space="preserve">
+    <value>process completed successfully</value>
+  </data>
+  <data name="GridContainsRecords" xml:space="preserve">
+    <value>grid already contains records</value>
+  </data>
 </root>

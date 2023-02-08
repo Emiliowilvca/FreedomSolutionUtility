@@ -4202,4 +4202,13 @@
   <data name="Increment" xml:space="preserve">
     <value>stigning</value>
   </data>
+  <data name="FollowSale" xml:space="preserve">
+    <value>følge salget</value>
+  </data>
+  <data name="ProcessCompletedSuccessfully" xml:space="preserve">
+    <value>proces gennemført med succes</value>
+  </data>
+  <data name="GridContainsRecords" xml:space="preserve">
+    <value>gitteret indeholder allerede poster</value>
+  </data>
 </root>
