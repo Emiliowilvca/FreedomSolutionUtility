@@ -2,6 +2,7 @@
 
 namespace Freedom.Utility.Request
 {
+    [Obsolete]
     public class RequestByLimit : IRequestCompanyId, IRequestNavigate
     {
         public int CompanyId { get; set; }

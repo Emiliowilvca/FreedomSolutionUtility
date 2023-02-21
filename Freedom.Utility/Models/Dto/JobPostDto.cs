@@ -1,5 +1,4 @@
 ﻿using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Utility.Models.Dto
 {
@@ -11,7 +10,5 @@ namespace Freedom.Utility.Models.Dto
         public int CompanyId { get; set; }
 
         public string Name { get; set; }
-
-        public CompanyDto CompanyDto { get; set; }
     }
 }

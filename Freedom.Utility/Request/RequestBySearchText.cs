@@ -2,6 +2,7 @@
 
 namespace Freedom.Utility.Request
 {
+    [Obsolete]
     public class RequestBySearchText : IRequestSearchText, IRequestCompanyId, IRequestNavigate
     {
         public string SearchText { get; set; }

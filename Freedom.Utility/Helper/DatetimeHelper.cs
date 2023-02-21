@@ -47,6 +47,8 @@ namespace Freedom.Utility
         /// <returns></returns>
         public static DateTime ToDateTimeUtcNow(this string dateString)
         {
+            if(string.IsNullOrEmpty(dateString)) return DateTime.UtcNow;
+
             if (DateTime.TryParse(dateString, out DateTime current))
             {
                 return current.ToDateTimeUTC();
@@ -61,6 +63,8 @@ namespace Freedom.Utility
         /// <returns></returns>
         public static DateTime ToDatetimeNow(this string dateString)
         {
+            if (string.IsNullOrEmpty(dateString)) return DateTime.Now;
+
             if (DateTime.TryParse(dateString, out DateTime current))
             {
                 return current.ToDateTimeLocal();
@@ -72,6 +76,9 @@ namespace Freedom.Utility
 
         public static DateTime ToDatetimeFirstOfDay(this string dateString)
         {
+           if (string.IsNullOrEmpty(dateString)) 
+                return DateTime.Now;
+
             if (DateTime.TryParse(dateString, out DateTime current))
             {
                 return current.SetTimeFirstOfDay();

@@ -3,6 +3,7 @@ using System;
 
 namespace Freedom.Utility.Request
 {
+    [Obsolete]
     public class XRequest : Pagination
     {
         public SearchType Search { get; set; } = SearchType.DateRange;

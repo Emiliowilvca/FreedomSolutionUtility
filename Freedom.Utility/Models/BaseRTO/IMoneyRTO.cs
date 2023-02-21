@@ -19,11 +19,6 @@
         string Symbol { get; set; }
 
         decimal CommisionPercent { get; set; }
-
-        int DefaultCustomerAccountId { get; set; }
-
-        int DefaultCustomerId { get; set; }
-
-        int DefaultPersonId { get; set; }
+         
     }
 }

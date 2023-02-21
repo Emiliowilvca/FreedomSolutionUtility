@@ -2,6 +2,7 @@
 
 namespace Freedom.Utility.Request
 {
+    [Obsolete]
     public class RequestTimbrado : IRequestCompanyId, IRequestProviderId
     {
         public int CompanyId { get; set; }

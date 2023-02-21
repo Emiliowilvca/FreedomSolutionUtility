@@ -3,6 +3,7 @@ using System;
 
 namespace Freedom.Utility.Request
 {
+    [Obsolete]
     public class RequestById : IRequestDateRangue, IRequestId, IRequestCompanyId, IRequestNavigate,
                                IRequestMoneyId
 

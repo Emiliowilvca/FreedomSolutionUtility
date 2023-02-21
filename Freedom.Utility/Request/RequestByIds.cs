@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 namespace Freedom.Utility.Request
 {
+    [Obsolete]
     public class RequestByIds : IRequestDateRangue, IRequestIds, IRequestCompanyId, IRequestNavigate,
                                 IRequestMoneyId
     {

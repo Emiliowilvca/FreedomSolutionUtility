@@ -21,15 +21,5 @@ namespace Freedom.Utility.Models.RTO
         public bool MoneyBase { get; set; }
 
         public decimal CommisionPercent { get; set; }
-
-        public int DefaultCustomerAccountId { get; set; }
-
-        public int DefaultCustomerId { get; set; }
-
-        public int DefaultPersonId { get; set; }
-
-        public PersonRTO PersonRTO { get; set; }
-
-        public CustomerAccountRTO CustomerAccountRTO { get; set; }
     }
 }

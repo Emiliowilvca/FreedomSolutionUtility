@@ -1,5 +1,4 @@
 ﻿using FluentValidation;
-using Freedom.Utility.Langs;
 using Freedom.Utility.Models.BaseEntity;
 using Freedom.Utility.ValidatorExtension;
 
@@ -28,12 +27,6 @@ namespace Freedom.Utility.Validation
             RuleFor(x => x.IsoCode).NotNull().WithMessage("IsoCode is not valid")
                                    .MinimumLength(1).WithMessage("IsoCode is no Valid - min value")
                                    .MaximumLength(3).WithMessage("IsoCode is no Valid - max value");
-
-            RuleFor(x => x.DefaultCustomerId).Generic(1, int.MaxValue, Lang.CustomerIsNotValid, nameof(Lang.CustomerIsNotValid));
-
-            RuleFor(x => x.DefaultCustomerAccountId).Generic(1, int.MaxValue, Lang.CustomerAccountNumberIsInvalid, nameof(Lang.CustomerAccountNumberIsInvalid));
-
-            RuleFor(x => x.DefaultPersonId).Generic(1, int.MaxValue, Lang.PersonIdIsInvalid, nameof(Lang.PersonIdIsInvalid));
         }
     }
 }

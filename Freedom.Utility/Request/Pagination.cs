@@ -1,5 +1,6 @@
 ﻿namespace Freedom.Utility.Request
 {
+    [Obsolete]
     public class Pagination
     {
         /// <summary>

@@ -1,7 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
 using Freedom.Utility.Models.BaseRTO;
-using System;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
@@ -21,8 +20,11 @@ namespace Freedom.Frontend.Models.BindableINFO
         private decimal _exchange;
         private bool _retentionExport;
         private decimal _totalRetention;
+        private decimal _total;
+        private decimal _totalTax;
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
+
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
         public DateTime PurchaseDate { get => _purchaseDate; set => SetProperty(ref _purchaseDate, value); }
@@ -112,5 +114,9 @@ namespace Freedom.Frontend.Models.BindableINFO
                 return TotalIva * Exchange;
             }
         }
+
+        public decimal Total { get => _total; set => SetProperty(ref _total, value); }
+
+        public decimal TotalTax { get => _totalTax; set => SetProperty(ref _totalTax, value); }
     }
 }

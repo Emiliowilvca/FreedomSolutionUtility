@@ -1,5 +1,4 @@
 ﻿using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Utility.Models.Dto
 {
@@ -23,11 +22,6 @@ namespace Freedom.Utility.Models.Dto
         public string Symbol { get; set; }
 
         public decimal CommisionPercent { get; set; }
-
-        public int DefaultCustomerAccountId { get; set; }
-
-        public int DefaultCustomerId { get; set; }
-
-        public int DefaultPersonId { get; set; }
+       
     }
 }
