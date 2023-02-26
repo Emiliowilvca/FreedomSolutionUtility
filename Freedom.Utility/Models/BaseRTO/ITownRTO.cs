@@ -9,5 +9,13 @@
         int CityId { get; set; }
 
         string CityName { get; set; }
+
+        int StateId { get; set; }
+
+        string StateName { get; set; }
+
+        int CountryId { get; set; }
+
+        string CountryName { get; set; }
     }
 }

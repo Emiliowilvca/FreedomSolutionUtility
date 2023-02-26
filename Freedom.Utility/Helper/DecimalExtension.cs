@@ -1,5 +1,4 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 
 namespace Freedom.Utility.Helper
 {
@@ -7,7 +6,7 @@ namespace Freedom.Utility.Helper
     {
         public static string ToSqlDecimal(this decimal value)
         {
-            return Math.Round(value, 6).ToString(CultureInfo.GetCultureInfo("en-US"));
+            return Math.Round(value, value.GetNumberDecimalPlaces()).ToString(CultureInfo.GetCultureInfo("en-US"));
         }
 
         public static string ToSqlDecimal(this decimal value, int rounds)
@@ -33,6 +32,14 @@ namespace Freedom.Utility.Helper
         {
             decimal div = exchange == 0 ? 1 : exchange;
             return value * div;
+        }
+
+        public static int GetNumberDecimalPlaces(this decimal source)
+        {
+            string[] parts = source.ToString(CultureInfo.InvariantCulture).Split('.');
+            if (parts.Length < 2)
+                return 0;
+            return parts[1].TrimEnd('0').Length;
         }
     }
 }

@@ -24,7 +24,6 @@ namespace Freedom.Utility
                 {
                     return false;
                 }
-
                 return Guid.TryParse(unValidatedGuid.ToString(), out Guid validatedGuid);
             }
             catch (Exception)

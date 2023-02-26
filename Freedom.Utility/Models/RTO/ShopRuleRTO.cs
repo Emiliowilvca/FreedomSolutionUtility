@@ -53,5 +53,9 @@ namespace Freedom.Utility.Models.RTO
         public string OperTypeCreditPurchaseName { get; set; }
 
         public string OperTypeCreditSaleName { get; set; }
+
+        public decimal InterestOnArrears { get; set; }
+
+        public int InstallmentPeriod { get; set; }
     }
 }

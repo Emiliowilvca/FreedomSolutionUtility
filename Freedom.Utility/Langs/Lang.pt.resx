@@ -1657,8 +1657,8 @@
     <value>Precisa inserir o seu primeiro e último nome</value>
     <comment />
   </data>
-  <data name="Validate_NameIsRequiered" xml:space="preserve">
-    <value>O nome é necessário.</value>
+  <data name="NameIsInvalid" xml:space="preserve">
+    <value>o nome é inválido</value>
     <comment />
   </data>
   <data name="Validate_StateName" xml:space="preserve">

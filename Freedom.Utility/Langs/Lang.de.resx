@@ -1657,8 +1657,8 @@
     <value>Sie müssen den Vor- und Nachnamen eingeben</value>
     <comment />
   </data>
-  <data name="Validate_NameIsRequiered" xml:space="preserve">
-    <value>Der Name ist erforderlich.</value>
+  <data name="NameIsInvalid" xml:space="preserve">
+    <value>Der Name ist ungültig</value>
     <comment />
   </data>
   <data name="Validate_StateName" xml:space="preserve">

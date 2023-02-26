@@ -1657,8 +1657,8 @@
     <value>необходимо ввести имя и фамилию</value>
     <comment />
   </data>
-  <data name="Validate_NameIsRequiered" xml:space="preserve">
-    <value>Требуется имя.</value>
+  <data name="NameIsInvalid" xml:space="preserve">
+    <value>имя недействительно</value>
     <comment />
   </data>
   <data name="Validate_StateName" xml:space="preserve">

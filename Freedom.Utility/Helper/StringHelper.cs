@@ -177,6 +177,12 @@ namespace Freedom.Utility
             return HttpUtility.UrlDecode(str);
         }
 
+
+        public static string ToTrimUppercase(this string str)
+        {
+            return str.Trim().ToUpper();    
+        }
+
         /// <summary>
         ///La codificación de URL reemplaza los caracteres ASCII no seguros con un "%" seguido de dos dígitos hexadecimales.
         /// </summary>
@@ -192,7 +198,7 @@ namespace Freedom.Utility
             map.Add("#", "%23");
             map.Add("$", "%24");
             map.Add("&", "%26");
-            map.Add("'", " %27");
+            map.Add("'", "%27");
             map.Add("(", "%28");
             map.Add(")", "%29");
             map.Add("*", "%2A");

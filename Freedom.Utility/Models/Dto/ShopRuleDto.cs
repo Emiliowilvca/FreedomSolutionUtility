@@ -1,5 +1,4 @@
 ﻿using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Utility.Models.Dto
 {
@@ -24,6 +23,8 @@ namespace Freedom.Utility.Models.Dto
 
         public decimal InterestRateMonthly { get; set; }
 
+        public int InstallmentPeriod { get; set; }
+
         public decimal InterestOnArrears { get; set; }
 
         public bool ForceSaleIfStockIsZero { get; set; }
@@ -47,9 +48,5 @@ namespace Freedom.Utility.Models.Dto
         public int PriceLevelDefault { get; set; }
 
         public decimal MaxDiscountPercent { get; set; }
-
-        
-
-
     }
 }

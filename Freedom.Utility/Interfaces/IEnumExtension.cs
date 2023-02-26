@@ -1,6 +1,4 @@
 ﻿using Freedom.Utility.Models.AllPurpose;
-using System;
-using System.Collections.Generic;
 
 namespace Freedom.Utility.Interfaces
 {

@@ -45,7 +45,9 @@ namespace Freedom.Utility.Validation
             RuleFor(x => x.MaxDiscountPercent).Generic(0, int.MaxValue, Lang.MaxDiscountPercentIsInvalid, nameof(Lang.MaxDiscountPercentIsInvalid));
 
             RuleFor(x => x.PriceLevelDefault).Generic(0, int.MaxValue, Lang.PriceLevelDefaultIsInvalid, nameof(Lang.PriceLevelDefaultIsInvalid));
-          
+
+            RuleFor(x => x.InstallmentPeriod).Generic(0, int.MaxValue, Lang.NumberOfInstallmentsInvalid, nameof(Lang.NumberOfInstallmentsInvalid));
+             
         }
     }
 }

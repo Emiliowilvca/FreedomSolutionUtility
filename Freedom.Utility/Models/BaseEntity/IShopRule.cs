@@ -64,5 +64,10 @@
         int PriceLevelDefault { get; set; }
 
         decimal MaxDiscountPercent { get; set; }
+
+        /// <summary>
+        /// Plazo entre cuotas ex:30/60/90 dias
+        /// </summary>
+        int InstallmentPeriod { get; set; }
     }
 }

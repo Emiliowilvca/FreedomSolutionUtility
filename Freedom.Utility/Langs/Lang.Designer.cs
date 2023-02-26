@@ -5335,6 +5335,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The name is invalid.
+        /// </summary>
+        public static string NameIsInvalid {
+            get {
+                return ResourceManager.GetString("NameIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to New password.
         /// </summary>
         public static string NewPassword {
@@ -9192,15 +9201,6 @@ namespace Freedom.Utility.Langs {
         public static string Validate_Name {
             get {
                 return ResourceManager.GetString("Validate_Name", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Name is Required..
-        /// </summary>
-        public static string Validate_NameIsRequiered {
-            get {
-                return ResourceManager.GetString("Validate_NameIsRequiered", resourceCulture);
             }
         }
         

@@ -1657,8 +1657,8 @@
     <value>U moet zowel uw voor- als achternaam invoeren</value>
     <comment />
   </data>
-  <data name="Validate_NameIsRequiered" xml:space="preserve">
-    <value>Naam is vereist.</value>
+  <data name="NameIsInvalid" xml:space="preserve">
+    <value>de naam is ongeldig</value>
     <comment />
   </data>
   <data name="Validate_StateName" xml:space="preserve">
