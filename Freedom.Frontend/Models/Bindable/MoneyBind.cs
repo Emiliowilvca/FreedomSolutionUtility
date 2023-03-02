@@ -1,6 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -17,9 +16,6 @@ namespace Freedom.Frontend.Models.Bindable
         private string _symbol;
         private decimal _commisionPercent;
         private bool _isSelected;
-        private int _defaultCustomerAccountId;
-        private int _defaultCustomerId;
-        private int _defaultPersonId;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -41,12 +37,6 @@ namespace Freedom.Frontend.Models.Bindable
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
 
-        public int DefaultCustomerAccountId { get => _defaultCustomerAccountId; set => SetProperty(ref _defaultCustomerAccountId, value); }
-
-        public int DefaultCustomerId { get => _defaultCustomerId; set => SetProperty(ref _defaultCustomerId, value); }
-
-        public int DefaultPersonId { get => _defaultPersonId; set => SetProperty(ref _defaultPersonId, value); }
-
         public override void ResetEntity()
         {
             base.ResetEntity();
@@ -60,9 +50,6 @@ namespace Freedom.Frontend.Models.Bindable
             Symbol = "";
             CommisionPercent = 0.0M;
             IsSelected = false;
-            DefaultCustomerAccountId = 0;
-            DefaultCustomerId = 0;
-            DefaultPersonId = 0;
         }
 
         public override object Clone()

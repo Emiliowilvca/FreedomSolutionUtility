@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 
 namespace Freedom.Frontend.Models.AllPurpose
 {
+   
     public class FinancingFees : BindableBase
     {
         private int _dividerPerDay = 36000;

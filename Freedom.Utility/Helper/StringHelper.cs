@@ -168,7 +168,9 @@ namespace Freedom.Utility
         }
 
         /// <summary>
-        /// Converts a string in a URL decoded
+        /// <para>convert a string that been encoded for transmission in a url into a decoding string.</para>
+        /// <para>convertir una cadena que ha sido codificada para su transmisión en una URL en una cadena de decodificación string.</para>  
+        /// 
         /// </summary>
         /// <param name="str"></param>
         /// <returns></returns>
@@ -177,7 +179,13 @@ namespace Freedom.Utility
             return HttpUtility.UrlDecode(str);
         }
 
-
+        /// <summary>
+        /// <para> Trims the whitespace from both ends of the string. Whitespace is defined by
+        /// char.IsWhiteSpace. </para>
+        /// <para> Creates a copy of this string in upper case. The culture is set by culture.</para>
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
         public static string ToTrimUppercase(this string str)
         {
             return str.Trim().ToUpper();    

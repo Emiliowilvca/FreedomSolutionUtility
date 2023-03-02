@@ -15,7 +15,7 @@
         /// </summary>
         public static readonly string PasswordRegex = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{6,15}$";
 
-        public static readonly string PhoneNumberRegex = @"^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$";
+        public static readonly string PhoneNumberRegex = @"^[^a-z\s]{4,}$";
 
 
         public static readonly string EmailRegex = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
