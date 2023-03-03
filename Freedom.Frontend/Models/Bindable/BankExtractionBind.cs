@@ -1,5 +1,4 @@
 ﻿using Freedom.Utility.Bindable;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -68,31 +67,5 @@ namespace Freedom.Frontend.Models.Bindable
         public string AccountNumber { get => _accountNumber; set => SetProperty(ref _accountNumber, value); }
 
         public string OperationTypeName { get => _operationTypeName; set => SetProperty(ref _operationTypeName, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            CompanyId = 0;
-            BankAccountId = 0;
-            BankId = 0;
-            OperationTypeId = 0;
-            MoneyId = 0;
-            IsDeferredCheck = false;
-            UserId = default;
-            PostedDate = "";
-            PaymentDate = "";
-            CheckNumber = "";
-            Amount = "";
-            Payee = "";
-            Status = true;
-            BankName = "";
-            AccountHolder = "";
-            MoneyName = "";
-            AccountTypeName = "";
-            AccountNumber = "";
-            OperationTypeName = "";
-            Concept = "";
-        }
     }
 }

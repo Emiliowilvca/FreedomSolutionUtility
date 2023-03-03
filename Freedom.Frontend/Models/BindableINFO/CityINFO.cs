@@ -27,16 +27,5 @@ namespace Freedom.Frontend.Models.BindableINFO
         public int CountryId { get => _countryId; set => SetProperty(ref _countryId, value); }
 
         public int StateId { get => _stateId; set => SetProperty(ref _stateId, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            IsSelected = false;
-            Name = "";
-            StateName = "";
-            CountryName = "";
-            CountryId = 0;
-            StateId = 0;
-        }
     }
 }

@@ -1,6 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -20,17 +19,5 @@ namespace Freedom.Frontend.Models.Bindable
         public int SubclassId { get => _subclassId; set => SetProperty(ref _subclassId, value); }
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
         public string Intials { get => _intials; set => SetProperty(ref _intials, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-
-            Id = 0;
-            CompanyId = 0;
-            Name = "";
-            SubclassId = 0;
-            IsSelected = false;
-        }
-       
     }
 }

@@ -35,18 +35,6 @@ namespace Freedom.Frontend.Models.Bindable
 
         public DateTime EnrollmentDate { get => _enrollmentDate; set => SetProperty(ref _enrollmentDate, value); }
 
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            this.Id = 0;
-            this.FullName = "";
-            this.Address = "";
-            this.CardId = "";
-            this.CompanyId = 0;
-            this.Email = "";
-            this.PhoneNumber = "";
-            this.BirthDate = DateTime.UtcNow;
-            this.EnrollmentDate = DateTime.UtcNow;
-        }
+      
     }
 }

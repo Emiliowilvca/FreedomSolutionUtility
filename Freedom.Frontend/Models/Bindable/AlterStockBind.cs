@@ -62,33 +62,5 @@ namespace Freedom.Frontend.Models.Bindable
         public int Column { get => _column; set => SetProperty(ref _column, value); }
 
         public int Line { get => _line; set => SetProperty(ref _line, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-
-            Id = 0;
-            AlterDate = DateTime.UtcNow;
-            Expiration = DateTime.UtcNow;
-            SettingType = "";
-            CompanyId = 0;
-            Decrease = 0;
-            SettingType = "";
-            CompanyId = 0;
-            Decrease = 0m;
-            Increase = 0;
-            Lote = "";
-            Manufactory = DateTime.UtcNow;
-            NoteReason = "";
-            OperationTypeId = 0;
-            ProductId = 0;
-            ShopId = 0;
-            UserId = Guid.NewGuid();
-            SectorId = 0;
-            Shelving = 0;
-            Side = 0;
-            Column = 0;
-            Line = 0;
-        }
     }
 }

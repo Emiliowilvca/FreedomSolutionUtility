@@ -1,6 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -19,14 +18,5 @@ namespace Freedom.Frontend.Models.Bindable
         public int PurchaseId { get => _purchaseId; set => SetProperty(ref _purchaseId, value); }
 
         public int WithholdingTaxId { get => _withholdingTaxId; set => SetProperty(ref _withholdingTaxId, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            CompanyId = 0;
-            PurchaseId = 0;
-            WithholdingTaxId = 0;
-        }
     }
 }

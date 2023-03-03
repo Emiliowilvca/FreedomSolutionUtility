@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
+
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
@@ -60,33 +60,5 @@ namespace Freedom.Frontend.Models.Bindable
         public decimal Exchange { get => _exchange; set => SetProperty(ref _exchange, value); }
 
         public short Taxtype { get => _taxtype; set => SetProperty(ref _taxtype, value); }
-
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            CompanyId = 0;
-            DateExpence = DateTime.UtcNow;
-            InvoiceNum = 0;
-            Remark = "";
-            ProviderId = 0;
-            OperationTypeId = 0;
-            MoneyId = 0;
-            UserId = default;
-            ShopId = 0;
-            BoxId = 0;
-            ExpenceTypeId = 0;
-            TotalIva = 0m;
-            TotalExenta = 0m;
-            TotalGravada = 0m;
-            TotalNeto = 0m;
-            Exchange = 0m;
-            Taxtype = 0;
-
-            
-        }
-
-
     }
 }

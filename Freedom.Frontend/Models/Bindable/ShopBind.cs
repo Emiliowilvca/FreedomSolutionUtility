@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
+
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
@@ -33,26 +33,5 @@ namespace Freedom.Frontend.Models.Bindable
         public string Phone { get => _phone; set => SetProperty(ref _phone, value); }
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            Address = "";
-            BranchManager = "";
-            CityId = 0;
-            CompanyId = 0;
-            Mail = "";
-            Phone = "";
-            Name = "";
-            IsSelected = false;
-        }
-
-        public override object Clone()
-        {
-            ShopBind shopBind = (ShopBind)this.MemberwiseClone();
-
-            return shopBind;
-        }
     }
 }

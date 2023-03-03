@@ -47,5 +47,44 @@
             return entity;
         }
 
+
+        public static T ResetEntity<T>(this T entity) where T : class
+        {
+            var propertyInfo = entity.GetType().GetProperties();
+            foreach (var pi in propertyInfo)
+            {
+                Type type = pi.PropertyType;
+                if (type == typeof(byte) ||
+                    type == typeof(short) ||
+                    type == typeof(int) ||
+                    type == typeof(long) ||
+                    type == typeof(float) ||
+                    type == typeof(double))
+                {
+                    pi.SetValue(entity, 0, null);
+                }
+                if (type == typeof(decimal))
+                {
+                    pi.SetValue(entity, 0m, null);
+                }
+                if (type == typeof(string))
+                {
+                    pi.SetValue(entity, string.Empty, null);
+                }
+                if (type == typeof(bool))
+                {
+                    pi.SetValue(entity, false, null);
+                }
+                if (type == typeof(DateTime) || type == typeof(DateTimeOffset))
+                {
+                    pi.SetValue(entity, DateTime.UtcNow, null);
+                }
+                if (type == typeof(Guid))
+                {
+                    pi.SetValue(entity, Guid.Empty, null);
+                }
+            }
+            return entity;
+        }
     }
 }

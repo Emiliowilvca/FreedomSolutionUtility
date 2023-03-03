@@ -1,6 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -49,24 +48,5 @@ namespace Freedom.Frontend.Models.Bindable
         public string FuelType { get => _fuelType; set => SetProperty(ref _fuelType, value); }
 
         public string YearModel { get => _yearModel; set => SetProperty(ref _yearModel, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            CompanyId = 0;
-            Brand = "";
-            TruckModel = "";
-            Capacity = 0;
-            Color = "";
-            InitialKm = 0;
-            Patent = "";
-            ChassisNum = "";
-            EngineNum = "";
-            CarriageNum = 0;
-            LoadType = "";
-            FuelType = "";
-            YearModel = "";
-        }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseEntity;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -71,36 +70,5 @@ namespace Freedom.Frontend.Models.Bindable
         public string OperTypeCashSaleName { get => _operTypeCashSaleName; set => _operTypeCashSaleName = value; }
 
         public string OperTypeCreditSaleName { get => _operTypeCreditSaleName; set => _operTypeCreditSaleName = value; }
-      
-        
-        
-       
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            CompanyId = 0;
-            ShopId = 0;
-            DecimalInStock = "";
-            EncryptPriceKey = "";
-            InterestRateMonthly = "";
-            ForceSaleIfStockIsZero = false;
-            GrantDiscounts = false;
-            MaxItemInSale = "";
-            ModifyPriceInSales = false;
-            OperTypeCashPurchase = 0;
-            OperTypeCashPurchaseName = "";
-            OperTypeCashSale = 0;
-            OperTypeCashSaleName = "";
-            OperTypeCreditPurchase = 0;
-            OperTypeCreditPurchaseName = "";
-            OperTypeCreditSale = 0;
-            OperTypeCreditSaleName = "";
-            PriceLevelDefault = "";
-            CustomerName = "";
-            MaxDiscountPercent = "";
-            CustomerId = 0;
-        }
     }
 }

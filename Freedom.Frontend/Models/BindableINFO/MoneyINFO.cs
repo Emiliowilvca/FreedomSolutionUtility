@@ -45,22 +45,5 @@ namespace Freedom.Frontend.Models.BindableINFO
         public int DefaultCustomerId { get => _defaultCustomerId; set => SetProperty(ref _defaultCustomerId, value); }
 
         public int DefaultPersonId { get => _defaultPersonId; set => SetProperty(ref _defaultPersonId, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            IsSelected = false;
-            DecimalPlaces = 0;
-            Name = "";
-            Exchange = 0;
-            IsoCode = "";
-            Symbol = "";
-            CompanyId = 0;
-            MoneyBase = false;
-            CommisionPercent = 0;
-            DefaultCustomerAccountId = 0;
-            DefaultCustomerId = 0;
-            DefaultPersonId = 0;
-        }
     }
 }

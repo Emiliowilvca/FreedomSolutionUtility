@@ -28,16 +28,5 @@ namespace Freedom.Frontend.Models.Bindable
         public string BankName { get => _bankName; set => SetProperty(ref _bankName, value); }
 
         public string Concept { get => _concept; set => SetProperty(ref _concept, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Amount = "";
-            CheckNumber = "";
-            CheckDate = "";
-            Sender = "";
-            BankName = "";
-            Concept = "";
-        }
     }
 }

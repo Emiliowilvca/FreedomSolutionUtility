@@ -8,7 +8,6 @@ namespace Freedom.Frontend.Models.Bindable
         private string _creditLimit;
         private string _customerName;
         private string _customerRUC;
-        private string _invoiceMoney;
         private string _moneyReference1;
         private string _moneyReference2;
         private string _moneyReference3;
@@ -71,34 +70,5 @@ namespace Freedom.Frontend.Models.Bindable
         public int ShopId { get => _shopId; set => SetProperty(ref _shopId, value); }
 
         public decimal Exchange { get => _exchange; set => SetProperty(ref _exchange, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            _customerAccountName = "";
-            _creditLimit = "";
-            _customerName = "";
-            _customerRUC = "";
-            _invoiceMoney = "";
-            _moneyReference1 = "";
-            _moneyReference2 = "";
-            _moneyReference3 = "";
-            _moneyName = "";
-            _moneySymbol = "";
-            _saleCondition = "";
-            _totalInvoice = 0m;
-            _totalMoneyRef1 = 0m;
-            _totalMoneyRef2 = 0m;
-            _totalMoneyRef3 = 0m;
-            _operationTypeId = 0;
-            _operationTypeId = 0;
-            _customerId = 0;
-            _personId = 0;
-            _customerId = 0;
-            _moneyId = 0;
-            _shopId = 0;
-            _boxId = 0;
-            _exchange = 0m;
-        }
     }
 }

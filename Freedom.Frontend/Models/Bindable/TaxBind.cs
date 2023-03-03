@@ -1,6 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -19,14 +18,5 @@ namespace Freedom.Frontend.Models.Bindable
         public string Name { get => _name; set => SetProperty(ref _name, value); }
 
         public decimal TaxRate { get => _taxRate; set => SetProperty(ref _taxRate, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            Name = "";
-            CompanyId = 0;
-            TaxRate = 0;
-        }
     }
 }

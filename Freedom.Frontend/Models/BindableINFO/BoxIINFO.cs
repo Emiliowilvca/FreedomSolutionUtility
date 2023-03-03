@@ -30,17 +30,5 @@ namespace Freedom.Frontend.Models.BindableINFO
         public string ShopName { get => _shopName; set => SetProperty(ref _shopName, value); }
 
         public string MoneyName { get => _moneyName; set => SetProperty(ref _moneyName, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            CompanyId = 0;
-            ShopId = 0;
-            MoneyId = 0;
-            Name = "";
-            ShopName = "";
-            MoneyName = "";
-        }
     }
 }

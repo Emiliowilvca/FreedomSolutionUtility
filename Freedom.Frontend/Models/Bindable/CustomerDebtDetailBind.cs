@@ -1,6 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseRTO;
-using System;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
@@ -100,40 +99,6 @@ namespace Freedom.Frontend.Models.BindableINFO
                     value = _balanceFees;
                 SetProperty(ref _imputValue, value);
             }
-        }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-
-            SaleId = 0;
-            SaleFeesId = 0;
-            Invoice = null;
-            ShopId = 0;
-            ShopName = "";
-            BoxId = 0;
-            BoxName = "";
-            Exchange = 0m;
-            SaleDate = DateTime.MinValue;
-            MoneyId = 0;
-            MoneyName = "";
-            MoneySymbol = "";
-            EmployeeId = 0;
-            EmployeeName = "";
-            UserName = "";
-            TotalTax = 0;
-            TotalNet = 0;
-            TotalGross = 0;
-            TotalDiscount = 0;
-            PromissoryNote = 0;
-            Feesvalue = 0;
-            PartialPayment = 0;
-            BalanceFees = 0;
-            Expirate = DateTime.MinValue;
-            NumberFees = 0;
-            DaysLate = 0;
-            InterestOnArrears = 0;
-            ImputValue = 0;
         }
     }
 }

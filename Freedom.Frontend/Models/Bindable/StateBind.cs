@@ -1,6 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -25,21 +24,5 @@ namespace Freedom.Frontend.Models.Bindable
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
 
         public string CountryName { get => _countryName; set => SetProperty(ref _countryName, value); }
-
-        public override void ResetEntity()
-        {
-            Id = 0;
-            Name = "";
-            CountryId = 0;
-            CompanyId = 0;
-            CountryName = "";
-            IsSelected = false;
-        }
-
-        public override object Clone()
-        {
-            StateBind stateBind = (StateBind)this.MemberwiseClone();
-            return stateBind;
-        }
     }
 }

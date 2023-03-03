@@ -16,12 +16,6 @@ namespace Freedom.Frontend.Models.BindableINFO
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
 
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            IsSelected = false;
-            Name = string.Empty;
-            Id = 0;
-        }
+        
     }
 }

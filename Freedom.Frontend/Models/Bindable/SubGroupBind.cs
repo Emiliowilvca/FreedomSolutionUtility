@@ -1,6 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -22,15 +21,5 @@ namespace Freedom.Frontend.Models.Bindable
         public int GroupId { get => _groupId; set => SetProperty(ref _groupId, value); }
 
         public string GroupName { get => _groupName; set => SetProperty(ref _groupName, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            Name = "";
-            CompanyId = 0;
-            GroupId = 0;
-            GroupName = "";
-        }
     }
 }

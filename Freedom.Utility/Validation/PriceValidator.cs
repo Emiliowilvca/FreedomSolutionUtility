@@ -21,7 +21,7 @@ namespace Freedom.Utility.Validation
 
             RuleFor(x => x.ValuePrice).Generic(0, decimal.MaxValue, Lang.PriceValueIsInvalid, nameof(Lang.PriceValueIsInvalid));
 
-            RuleFor(x => x.Quantity).Generic(0, short.MaxValue, Lang.PriceAccordingToQuantityIsNotValid, nameof(Lang.PriceAccordingToQuantityIsNotValid));
+            RuleFor(x => x.QuantityPrice).Generic(0, short.MaxValue, Lang.PriceAccordingToQuantityIsNotValid, nameof(Lang.PriceAccordingToQuantityIsNotValid));
 
             RuleFor(x => x.TypePrice).Generic(0, byte.MaxValue, Lang.TypeOfPriceIsNotValid, nameof(Lang.TypeOfPriceIsNotValid));
         }

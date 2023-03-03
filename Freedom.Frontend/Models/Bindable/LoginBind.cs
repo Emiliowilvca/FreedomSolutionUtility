@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
+
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
@@ -18,21 +18,5 @@ namespace Freedom.Frontend.Models.Bindable
         public string Email { get => _email; set => SetProperty(ref _email, value); }
 
         public bool Rememberme { get => _rememberme; set => SetProperty(ref _rememberme, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-
-            EndPoint = "";
-            Password = "";
-            Email = "";
-            Rememberme = false;
-        }
-
-        public override object Clone()
-        {
-            LoginBind loginBind = (LoginBind)this.MemberwiseClone();
-            return loginBind;
-        }
     }
 }

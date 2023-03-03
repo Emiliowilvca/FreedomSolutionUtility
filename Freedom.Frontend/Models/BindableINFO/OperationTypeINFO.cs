@@ -24,14 +24,5 @@ namespace Freedom.Frontend.Models.BindableINFO
         public string SubClassName { get => _subClassName; set => SetProperty(ref _subClassName, value); }
 
         public string Intials { get => _intials; set => SetProperty(ref _intials, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            Name = "";
-            IsSelected = false;
-            SubclassId = 0;
-        }
     }
 }

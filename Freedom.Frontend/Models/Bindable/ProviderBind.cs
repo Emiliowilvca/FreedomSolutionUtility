@@ -1,6 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -67,32 +66,5 @@ namespace Freedom.Frontend.Models.Bindable
         public string BankAccountNum { get => _bankAccountNum; set => SetProperty(ref _bankAccountNum, value); }
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            CompanyId = 0;
-            Name = "";
-            Address = "";
-            Contact = "";
-            Phone = "";
-            Email = "";
-            Ruc = "";
-            ProviderTypeID = 0;
-            PaymentTypeId = 0;
-            CityId = 0;
-            Authorization = DateTime.UtcNow;
-            Expiration = DateTime.UtcNow;
-            Timbrado = "";
-            BankName = "";
-            BankAccountNum = "";
-        }
-
-        public override object Clone()
-        {
-            ProviderBind providerBind = (ProviderBind)this.MemberwiseClone();
-            return providerBind;
-        }
     }
 }

@@ -1,5 +1,5 @@
-﻿using Freedom.Utility.Models.BaseEntity;
-using Freedom.Utility.Bindable;
+﻿using Freedom.Utility.Bindable;
+using Freedom.Utility.Models.BaseEntity;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -35,20 +35,5 @@ namespace Freedom.Frontend.Models.Bindable
         public int CityId { get => _cityId; set => SetProperty(ref _cityId, value); }
 
         public int CompanyId { get => _companyId; set => SetProperty(ref _companyId, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            Name = "";
-            Address = "";
-            Phone = "";
-            Mobile = "";
-            Web = "";
-            Mail = "";
-            Manager = "";
-            CityId = 0;
-            CompanyId = 0;
-        }
     }
 }

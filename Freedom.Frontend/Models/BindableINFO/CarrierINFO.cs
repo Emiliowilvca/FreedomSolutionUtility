@@ -21,17 +21,5 @@ namespace Freedom.Frontend.Models.BindableINFO
         public string Address { get => _address; set => SetProperty(ref _address, value); }
         public string Phone { get => _phone; set => SetProperty(ref _phone, value); }
         public string Mobile { get => _mobile; set => SetProperty(ref _mobile, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            IsSelected = false;
-            Id = 0;
-            Name = "";
-            Person = "";
-            Address = "";
-            Phone = "";
-            Mobile = "";
-        }
     }
 }

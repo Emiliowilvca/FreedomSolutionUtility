@@ -1,6 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseRTO;
-using System;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
@@ -90,38 +89,5 @@ namespace Freedom.Frontend.Models.BindableINFO
         public decimal Exchange { get => _exchange; set => SetProperty(ref _exchange, value); }
 
         public Guid UserId { get => _userId; set => SetProperty(ref _userId, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            CompanyId = 0;
-            AccountNum = 0;
-            Name = "";
-            CustomerId = 0;
-            CustomerFullName = "";
-            Ruc = "";
-            MoneyId = 0;
-            BoxId = 0;
-            SerialId = Guid.NewGuid();
-            MoneyName = "";
-            ShopId = 0;
-            ShopName = "";
-            EmployeeId = 0;
-            EmployeeName = "";
-            CreditLimit = 0;
-            CustomerPhone = "";
-            CustomerCity = "";
-            OperationTypeId = 0;
-            LastReceiptGenerate = "";
-            Concept = "";
-            PaymentDate = DateTime.Now.ToShortDateString();
-            ChargeInterest = false;
-            TotalAmountImput = 0;
-            TotalBalance = 0;
-            TotalInterest = 0;
-            Exchange = 0;
-            UserId = Guid.Empty;
-        }
     }
 }

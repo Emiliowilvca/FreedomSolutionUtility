@@ -1,6 +1,5 @@
 ﻿using Freedom.Frontend.Models.BaseEntitySqlite;
 using Freedom.Utility.Bindable;
-using System;
 
 namespace Freedom.Frontend.Models.BindableSqlite
 {
@@ -20,23 +19,5 @@ namespace Freedom.Frontend.Models.BindableSqlite
         public string Password { get => _password; set => SetProperty(ref _password, value); }
         public string Email { get => _email; set => SetProperty(ref _email, value); }
         public bool Rememberme { get => _rememberme; set => SetProperty(ref _rememberme, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-
-            Id = Guid.NewGuid();
-            LastDateAccess = DateTime.UtcNow;
-            EndPoint = "";
-            Password = "";
-            Email = "";
-            Rememberme = false;
-        }
-
-        public override object Clone()
-        {
-            LoginHistoryBind loginHistoryBind = (LoginHistoryBind)this.MemberwiseClone();
-            return loginHistoryBind;
-        }
     }
 }

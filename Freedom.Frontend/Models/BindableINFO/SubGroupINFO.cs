@@ -21,13 +21,5 @@ namespace Freedom.Frontend.Models.BindableINFO
         public string GroupName { get => _groupName; set => SetProperty(ref _groupName, value); }
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            Name = "";
-            IsSelected = false;
-        }
     }
 }

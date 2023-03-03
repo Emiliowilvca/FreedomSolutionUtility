@@ -1,6 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -21,7 +20,7 @@ namespace Freedom.Frontend.Models.Bindable
 
         public bool Admin { get => _admin; set => SetProperty(ref _admin, value); }
 
-        public bool PowerUser { get => _powerUser; set => SetProperty(ref _powerUser , value); }
+        public bool PowerUser { get => _powerUser; set => SetProperty(ref _powerUser, value); }
 
         public bool Finance { get => _finance; set => SetProperty(ref _finance, value); }
 
@@ -34,21 +33,5 @@ namespace Freedom.Frontend.Models.Bindable
         public bool Provider { get => _provider; set => SetProperty(ref _provider, value); }
 
         public bool Investor { get => _investor; set => SetProperty(ref _investor, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            SuperUser = false;
-            Admin = false;
-            PowerUser = false;
-            Finance = false;
-            Seller = false;
-            Operator = false;
-            Customer = false;
-            Provider = false;
-            Investor = false;
-        }
-
-
     }
 }

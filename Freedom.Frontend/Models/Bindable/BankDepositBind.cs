@@ -1,6 +1,5 @@
 ﻿using Freedom.Utility;
 using Freedom.Utility.Bindable;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -84,27 +83,6 @@ namespace Freedom.Frontend.Models.Bindable
                 decimal efe = NumericHelper.ToDecimal(TotalCash);
                 return efe + TotalCheck;
             }
-        }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            AccountHolder = "";
-            BankAccount = "";
-            BankName = "";
-            CompanyId = 0;
-            Concept = "";
-            DepositNumber = "";
-            Id = 0;
-            MoneyName = "";
-            OperationTypeName = "";
-            TotalCash = "";
-            TotalCheck = 0m;
-            TransactionDate = "";
-            UserId = default;
-            BankAccountId = 0;
-            Status = false;
-            OperationTypeId = 0;
         }
     }
 }

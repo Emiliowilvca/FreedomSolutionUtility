@@ -25,6 +25,11 @@ namespace Freedom.Frontend.Models.BindableINFO
         private bool _payTax;
         private decimal _quantityBox;
         private decimal _maxDiscount;
+        private decimal _exchange;
+        private int _shopId;
+        private bool _alterStock;
+        private bool _isService;
+        private bool _proCheck;
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
 
@@ -63,5 +68,15 @@ namespace Freedom.Frontend.Models.BindableINFO
         public decimal QuantityBox { get => _quantityBox; set => SetProperty(ref _quantityBox, value); }
 
         public decimal MaxDiscount { get => _maxDiscount; set => SetProperty(ref _maxDiscount, value); }
+
+        public decimal Exchange { get => _exchange; set => SetProperty(ref _exchange, value); }
+
+        public int ShopId { get => _shopId; set => SetProperty(ref _shopId, value); }
+
+        public bool AlterStock { get => _alterStock; set => SetProperty(ref _alterStock, value); }
+
+        public bool IsService { get => _isService; set => SetProperty(ref _isService, value); }
+
+        public bool ProCheck { get => _proCheck; set => SetProperty(ref _proCheck, value); }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using Freedom.Utility.Bindable;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -73,15 +72,6 @@ namespace Freedom.Frontend.Models.Bindable
         {
             RaisePropertyChanged(nameof(SubTotal));
             RaisePropertyChanged(nameof(TaxTotal));
-        }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Code = "";
-            Description = "";
-            Price = 0.0M;
-            TaxRate = 0;
         }
     }
 }

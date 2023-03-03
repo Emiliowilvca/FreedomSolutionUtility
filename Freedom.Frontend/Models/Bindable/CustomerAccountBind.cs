@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
+
 namespace Freedom.Frontend.Models.Bindable
 {
     public class CustomerAccountBind : BindableBase, ICustomerAccount
@@ -41,22 +41,5 @@ namespace Freedom.Frontend.Models.Bindable
         public DateTime StartDate { get => _startDate; set => SetProperty(ref _startDate, value); }
 
         public DateTime EndDate { get => _endDate; set => SetProperty(ref _endDate, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            CompanyId = 0;
-            AccountNum = 0;
-            Name = "";
-            CustomerId = 0;
-            MoneyId = 0;
-            ShopId = 0;
-            EmployeeId = 0;
-            CreditLimit = 0;
-            Active = false;
-            StartDate = DateTime.MinValue;
-            EndDate = DateTime.MinValue;
-        }
     }
 }

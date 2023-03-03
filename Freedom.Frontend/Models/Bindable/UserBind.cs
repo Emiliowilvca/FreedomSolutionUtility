@@ -1,6 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -58,33 +57,5 @@ namespace Freedom.Frontend.Models.Bindable
         public string UserRole { get => _userRole; set => SetProperty(ref _userRole, value); }
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
-         
-
-        public override void ResetEntity()
-        {
-            Id = Guid.Empty;
-            FullName = "";
-            Document = "";
-            Address = "";
-            CityId = 0;
-            CompanyId = 0;
-            IsSuperUser = false;
-            _isAvailable = false;
-            Latitude = 0;
-            Longitude = 0;
-            UserName = "";
-            Email = "";
-            PhoneNumber = "";
-            Password = "";
-            ConfirmPassword = "";
-            UserRole = "";
-            IsSelected = false;
-        }
-
-        public override object Clone()
-        {
-            UserBind userBind = (UserBind)this.MemberwiseClone();
-            return userBind;
-        }
     }
 }

@@ -66,30 +66,5 @@ namespace Freedom.Frontend.Models.Bindable
         public decimal Total { get => _total; set => SetProperty(ref _total, value); }
 
         public decimal TotalTax { get => _totalTax; set => SetProperty(ref _totalTax, value); }
-
-        public override void ResetEntity()
-        {
-            IsSelected = false;
-            Id = 0;
-            CompanyId = 0;
-            PurchaseDate = DateTime.Now;
-            InvoiceNum = 0;
-            ProviderId = 0;
-            OperationTypeId = 0;
-            MoneyId = 0;
-            UserId = Guid.Empty;
-            ShopId = 0;
-            BoxId = 0;
-            CarrierId = 0;
-            ImportExpence = 0;
-            ItsImport = false;
-            Exchange = 0;
-            Status = true;
-            Note = "";
-            Timbrado = "";
-            Total = 0;
-            TotalTax = 0;
-        }
-
     }
 }

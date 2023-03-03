@@ -1,6 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -22,16 +21,5 @@ namespace Freedom.Frontend.Models.Bindable
         public int ZoneId { get => _zoneId; set => SetProperty(ref _zoneId, value); }
 
         public string ZoneName { get => _zoneName; set => SetProperty(ref _zoneName, value); }
-
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            Name = "";
-            CompanyId = 0;
-            ZoneId = 0;
-            ZoneName = "";
-        }
     }
 }

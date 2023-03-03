@@ -1,10 +1,9 @@
 ﻿using Freedom.Utility.Models.BaseEntity;
-using Freedom.Utility.Models.Dto;
 using Freedom.Utility.Models.RTO;
-using System.Collections.Generic;
 
 namespace Freedom.Utility.Models.FullDto
 {
+    [Serializable]
     public class ProductDtoFull : IProduct
     {
         public int Id { get; set; }

@@ -1,7 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
 using Freedom.Utility.Models.BaseRTO;
-using System;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
@@ -43,22 +42,5 @@ namespace Freedom.Frontend.Models.BindableINFO
         public int JobSectorId { get => _jobSectorId; set => SetProperty(ref _jobSectorId, value); }
 
         public int CityId { get => _cityId; set => SetProperty(ref _cityId, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            IsSelected = false;
-            Name = "";
-            Address = "";
-            City = "";
-            Identity = "";
-            Phone = "";
-            JobPost = "";
-            JobSector = "";
-            CityId = 0;
-            JobPostId = 0;
-            JobSectorId = 0;
-        }
     }
 }

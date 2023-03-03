@@ -1,5 +1,4 @@
 ﻿using Freedom.Utility.Bindable;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -159,59 +158,5 @@ namespace Freedom.Frontend.Models.Bindable
         public string TaxRate { get => _taxRate; set => SetProperty(ref _taxRate, value); }
 
         public string Weight { get => _weight; set => SetProperty(ref _weight, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-
-            ActiveProduct = false;
-            Advantage = "";
-            AlterStock = false;
-            Barcode = "";
-            Benefit = "";
-            BrandName = "";
-            BrandId = 0;
-            Code = "";
-            CodeProvider = "";
-            Column = "";
-            ComissionSale = "";
-            CompanyId = 0;
-            CostPrice = "";
-            Feature = "";
-            GenericName = "";
-            GroupId = 0;
-            GroupName = "";
-            Id = 0;
-            IsService = false;
-            Line = "";
-            MaxDiscount = "";
-            MeasureId = 0;
-            MeasureName = "";
-            MoneyId = 0;
-            Name = "";
-            PackageId = 0;
-            PackageName = "";
-            PayTax = false;
-            PriorityId = 0;
-            PriorityName = "";
-            ProCheck = false;
-            ProductExpiration = "";
-            QuantityBox = "";
-            SalePrice = "";
-            SectorId = 0;
-            SectorName = "";
-            Shelving = "";
-            ShopId = 0;
-            Side = "";
-            SourceName = "";
-            StockMax = "";
-            StockMin = "";
-            StockQuantity = "";
-            SubgroupId = 0;
-            SubGroupName = "";
-            TaxRate = "";
-            Weight = "";
-            Wholesaler = false;
-        }
     }
 }

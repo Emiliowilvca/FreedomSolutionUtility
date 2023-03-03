@@ -1,5 +1,5 @@
-﻿using Freedom.Utility.Models.BaseEntity;
-using Freedom.Utility.Bindable;
+﻿using Freedom.Utility.Bindable;
+using Freedom.Utility.Models.BaseEntity;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -35,20 +35,5 @@ namespace Freedom.Frontend.Models.Bindable
         public string Agency { get => _agency; set => SetProperty(ref _agency, value); }
 
         public string Phone { get => _phone; set => SetProperty(ref _phone, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            CompanyId = 0;
-            BankId = 0;
-            MoneyId = 0;
-            BankAccountTypeId = 0;
-            AccountNum = "";
-            AccountHolder = "";
-            CreditOfficer = "";
-            Agency = "";
-            Phone = "";
-        }
     }
 }

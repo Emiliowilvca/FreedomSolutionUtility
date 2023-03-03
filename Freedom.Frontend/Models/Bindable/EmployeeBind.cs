@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
+
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
@@ -123,55 +123,5 @@ namespace Freedom.Frontend.Models.Bindable
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
 
         public bool IsCommissionAgent { get => _isCommissionAgent; set => SetProperty(ref _isCommissionAgent, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            CompanyId = 0;
-            Name = "";
-            Address = "";
-            Barcode = "";
-            Phone = "";
-            Identity = "";
-            JobSectorId = 0;
-            JobPostId = 0;
-            CityId = 0;
-            PhoneMobile = "";
-            EMail = "";
-            Salary = 0.0M;
-            CommissionSales = 0.0M;
-            CommissionCollection = 0.0M;
-            BirtDate = DateTime.Now;
-            PlaceBirt = "";
-            Sex = "";
-            WorkStarDate = new DateTime();
-            ChildCount = 0;
-            CivilStatus = "";
-            Profession = "";
-            IpsEmployer = false;
-            IpsWorked = false;
-            ActiveWorked = false;
-            FatherName = "";
-            MotherName = "";
-            BloodType = "";
-            Nick = "";
-            PassportNum = "";
-            SpouceCI = "";
-            SpouceName = "";
-            DrivingLicenceNum = "";
-            EmergencyContact1 = "";
-            EmergencyContact2 = "";
-            Supervisor = false;
-            IsCommissionAgent = false;
-             Obs = "";
-            IsSelected = false;
-        }
-
-        public override object Clone()
-        {
-            EmployeeBind employeeBind = (EmployeeBind)this.MemberwiseClone();
-            return employeeBind;
-        }
     }
 }

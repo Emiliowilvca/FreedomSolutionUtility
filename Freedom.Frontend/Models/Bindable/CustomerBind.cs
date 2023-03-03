@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
+
 namespace Freedom.Frontend.Models.Bindable
 {
     public class CustomerBind : BindableBase, ICustomer
@@ -101,43 +101,5 @@ namespace Freedom.Frontend.Models.Bindable
         public decimal MaxDiscount { get => _maxDiscount; set => SetProperty(ref _maxDiscount, value); }
 
         public string Note { get => _note; set => SetProperty(ref _note, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            CompanyId = 0;
-            FullName = "";
-            Address = "";
-            TradeName = "";
-            Ruc = "";
-            Telephone = "";
-            TradeName = "";
-            Mobile1 = "";
-            Mobile2 = "";
-            CategoryId = 0;
-            CityId = 0;
-            BranchId = 0;
-            RouteId = 0;
-            WorkPlace = "";
-            Partner = "";
-            PartnerCI = 0;
-            ResidenceDate = DateTime.UtcNow;
-            OwnHouse = false;
-            SendMoneyColletor = false;
-            LendProducts = false;
-            Credit = false;
-            Workphone = "";
-            EmployementDate = DateTime.UtcNow;
-            Email = "";
-            Goods = "";
-            DateAdmin = DateTime.UtcNow;
-            BirthDate = DateTime.UtcNow;
-            Children = 0;
-            Gender = 0;
-            PriceLevel = 0;
-            MaxDiscount = 0;
-            Note = "";
-        }
     }
 }

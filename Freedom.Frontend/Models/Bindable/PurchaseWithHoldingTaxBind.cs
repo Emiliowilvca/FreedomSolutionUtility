@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
+
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
@@ -276,47 +276,6 @@ namespace Freedom.Frontend.Models.Bindable
             RaisePropertyChanged(nameof(this.TaxTotal));
             RaisePropertyChanged(nameof(this.TotalInvoice));
             RaisePropertyChanged(nameof(this.RetentionTotalGeneral));
-        }
-
-        //reset
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            CompanyId = 0;
-            PurchaseId = 0;
-            DateRetention = DateTime.Now;
-            MoneyISO4217 = "";
-            Condition = "";
-            TaxPayerStatus = "";
-            TipoComprobanteId = 0;
-            IsRetentionIVA = false;
-            IsRetentionRenta = false;
-            ConceptRetentionRenta = "";
-            ConceptRetentionTaxIva = "";
-            ChangeType = 0;
-            TotalInvoice = 0;
-            TotalIva10 = 0;
-            TotalIva5 = 0;
-            TotalExenta = 0;
-            TaxIva10 = 0;
-            TaxIva5 = 0;
-            TaxTotal = 0;
-            RetentionPercentIva10 = 0;
-            RetentionPercentIva5 = 0;
-            RetentionPercentRenta = 0;
-            RetentionIva10 = 0;
-            RetentionIva5 = 0;
-            RetentionRenta = 0;
-            RetentionTonelada = 0;
-            RetentionCabeza = 0;
-            RetentionTotalGeneral = 0;
-        }
-
-        public override object Clone()
-        {
-            PurchaseWithHoldingTaxBind purchaseBind = (PurchaseWithHoldingTaxBind)this.MemberwiseClone();
-            return purchaseBind;
         }
     }
 }

@@ -1,5 +1,4 @@
-﻿using System;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 
@@ -11,11 +10,12 @@ namespace Freedom.Utility.Bindable
     public abstract class BindableBase : INotifyPropertyChanged, ICloneable
     {
         /// <summary>
-        /// 
+        ///
         /// </summary>
         public event PropertyChangedEventHandler PropertyChanged;
+
         /// <summary>
-        /// 
+        ///
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="storage"></param>
@@ -64,11 +64,9 @@ namespace Freedom.Utility.Bindable
             return objcpy;
         }
 
-        /// <summary>
-        /// clear Dto entity, solo es eredable
-        /// </summary>
-        public virtual void ResetEntity()
-        {
-        }
+        //[Obsolete("This method is obsolete. Use Freedom.Utility.Helper.EntityExtension.ResetEntity instead.")]
+        //public virtual void ResetEntity()
+        //{
+        //}
     }
 }

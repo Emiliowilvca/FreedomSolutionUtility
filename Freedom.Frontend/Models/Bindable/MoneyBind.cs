@@ -36,26 +36,5 @@ namespace Freedom.Frontend.Models.Bindable
         public decimal CommisionPercent { get => _commisionPercent; set => SetProperty(ref _commisionPercent, value); }
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            Name = "";
-            CompanyId = 0;
-            DecimalPlaces = 0;
-            Exchange = 0.0M;
-            IsoCode = "";
-            MoneyBase = false;
-            Symbol = "";
-            CommisionPercent = 0.0M;
-            IsSelected = false;
-        }
-
-        public override object Clone()
-        {
-            MoneyBind moneyBind = (MoneyBind)this.MemberwiseClone();
-            return moneyBind;
-        }
     }
 }

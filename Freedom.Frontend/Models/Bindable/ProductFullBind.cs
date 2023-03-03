@@ -3,9 +3,9 @@ using Freedom.Utility.Models.BaseRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
-    public class ProductPlusBind : BindableBase, IProductPlusRTO
+    public class ProductFullBind : BindableBase, IProductFullRTO
     {
-        private int _productId;
+        private int _id;
         private int _brandId;
         private int _companyId;
         private int _groupId;
@@ -35,16 +35,24 @@ namespace Freedom.Frontend.Models.Bindable
         private bool _payTax;
         private bool _proCheck;
         private bool _wholesaler;
-        private string _brandName;
-        private string _groupName;
+        private decimal _salePrice;
+        private decimal _costPrice;
+        private int _moneyId;
+        private decimal _exchange;
+        private int _shopId;
+        private decimal _stockQuantity;
         private string _subGroupName;
         private string _measureName;
         private string _packageName;
         private string _priorityName;
         private string _sourceName;
+        private string _brandName;
+        private string _groupName;
+        private short _priceLevel;
+        private short _priceQuantity;
+        private byte _typePrice;
+        private string _moneyName;
         private int _stockId;
-        private int _shopId;
-        private decimal _stockQuantity;
         private string _lote;
         private DateTime _manufactory;
         private DateTime _expiration;
@@ -53,16 +61,8 @@ namespace Freedom.Frontend.Models.Bindable
         private int _shelvingSide;
         private int _shelvingColumn;
         private int _shelvingLine;
-        private int _priceId;
-        private int _moneyId;
-        private short _priceLevel;
-        private decimal _valuePrice;
-        private short _priceQuantity;
-        private byte _typePrice;
-        private string _shopName;
-        private string _moneyName;
-         
-        public int ProductId { get => _productId; set => SetProperty(ref _productId, value); }
+
+        public int Id { get => _id; set => SetProperty(ref _id, value); }
 
         public int BrandId { get => _brandId; set => SetProperty(ref _brandId, value); }
 
@@ -122,9 +122,17 @@ namespace Freedom.Frontend.Models.Bindable
 
         public bool Wholesaler { get => _wholesaler; set => SetProperty(ref _wholesaler, value); }
 
-        public string BrandName { get => _brandName; set => SetProperty(ref _brandName, value); }
+        public decimal SalePrice { get => _salePrice; set => SetProperty(ref _salePrice, value); }
 
-        public string GroupName { get => _groupName; set => SetProperty(ref _groupName, value); }
+        public decimal CostPrice { get => _costPrice; set => SetProperty(ref _costPrice, value); }
+
+        public int MoneyId { get => _moneyId; set => SetProperty(ref _moneyId, value); }
+
+        public decimal Exchange { get => _exchange; set => SetProperty(ref _exchange, value); }
+
+        public int ShopId { get => _shopId; set => SetProperty(ref _shopId, value); }
+
+        public decimal StockQuantity { get => _stockQuantity; set => SetProperty(ref _stockQuantity, value); }
 
         public string SubGroupName { get => _subGroupName; set => SetProperty(ref _subGroupName, value); }
 
@@ -136,11 +144,19 @@ namespace Freedom.Frontend.Models.Bindable
 
         public string SourceName { get => _sourceName; set => SetProperty(ref _sourceName, value); }
 
+        public string BrandName { get => _brandName; set => SetProperty(ref _brandName, value); }
+
+        public string GroupName { get => _groupName; set => SetProperty(ref _groupName, value); }
+
+        public short PriceLevel { get => _priceLevel; set => SetProperty(ref _priceLevel, value); }
+
+        public short PriceQuantity { get => _priceQuantity; set => SetProperty(ref _priceQuantity, value); }
+
+        public byte TypePrice { get => _typePrice; set => SetProperty(ref _typePrice, value); }
+
+        public string MoneyName { get => _moneyName; set => SetProperty(ref _moneyName, value); }
+
         public int StockId { get => _stockId; set => SetProperty(ref _stockId, value); }
-
-        public int ShopId { get => _shopId; set => SetProperty(ref _shopId, value); }
-
-        public decimal StockQuantity { get => _stockQuantity; set => SetProperty(ref _stockQuantity, value); }
 
         public string Lote { get => _lote; set => SetProperty(ref _lote, value); }
 
@@ -149,92 +165,13 @@ namespace Freedom.Frontend.Models.Bindable
         public DateTime Expiration { get => _expiration; set => SetProperty(ref _expiration, value); }
 
         public int ShelvingSectorId { get => _shelvingSectorId; set => SetProperty(ref _shelvingSectorId, value); }
-         
+
+        public int Shelving { get => _shelving; set => SetProperty(ref _shelving, value); }
+
         public int ShelvingSide { get => _shelvingSide; set => SetProperty(ref _shelvingSide, value); }
 
         public int ShelvingColumn { get => _shelvingColumn; set => SetProperty(ref _shelvingColumn, value); }
 
         public int ShelvingLine { get => _shelvingLine; set => SetProperty(ref _shelvingLine, value); }
-
-        public int PriceId { get => _priceId; set => SetProperty(ref _priceId, value); }
-
-        public int MoneyId { get => _moneyId; set => SetProperty(ref _moneyId, value); }
-
-        public short PriceLevel { get => _priceLevel; set => SetProperty(ref _priceLevel, value); }
-
-        public decimal ValuePrice { get => _valuePrice; set => SetProperty(ref _valuePrice, value); }
-
-        public short PriceQuantity { get => _priceQuantity; set => SetProperty(ref _priceQuantity, value); }
-
-        public byte TypePrice { get => _typePrice; set => SetProperty(ref _typePrice, value); }
-
-        public string ShopName { get => _shopName; set => SetProperty(ref _shopName, value); }
-
-        public string MoneyName { get => _moneyName; set => SetProperty(ref _moneyName, value); }
-        
-        public int Shelving { get => _shelving; set => SetProperty(ref _shelving , value); }
-
-
-
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            ProductId = 0;
-            BrandId = 0;
-            CompanyId = 0;
-            GroupId = 0;
-            MeasureId = 0;
-            PackageId = 0;
-            PriorityId = 0;
-            SourceId = 0;
-            SubgroupId = 0;
-            Advantage = "";
-            Barcode = "";
-            Barcode = "";
-            Benefit = "";
-            Code = "";
-            CodeProvider = "";
-            Feature = "";
-            GenericName = "";
-            Name = "";
-            ComissionSale = 0;
-            MaxDiscount = 0;
-            QuantityBox = 0;
-            StockMax = 0; 
-            StockMin = 0;
-            TaxRate = 0;
-            Weight = 0;
-            ActiveProduct = false;
-            AlterStock = false;
-            IsService = false;
-            PayTax = false;
-            ProCheck = false;
-            Wholesaler = false;
-            BrandName = "";
-            GroupName = "";
-            SubGroupName = "";
-            MeasureName = "";
-            PackageName = "";
-            PriorityName = "";
-            SourceName = "";
-            StockId = 0;
-            ShopId = 0;
-            StockQuantity = 0;
-            Lote = "";
-            Manufactory = DateTime.Now;
-            Expiration = DateTime.Now;
-            ShelvingSectorId = 0;
-            Shelving = 0;
-            ShelvingLine = 0;
-            PriceId = 0;
-            MoneyId = 0;
-            PriceLevel = 0; 
-            ValuePrice = 0;
-            PriceQuantity = 0;
-            TypePrice = 0;
-            ShopName = "";
-            MoneyName = "";
-        }
     }
 }

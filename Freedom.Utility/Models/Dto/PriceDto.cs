@@ -19,9 +19,9 @@ namespace Freedom.Utility.Models.Dto
         public decimal ValuePrice { get; set; }
 
         /// <summary>
-        /// Price per Quantity
+        /// price according to quantity
         /// </summary>
-        public short Quantity { get; set; }
+        public short QuantityPrice { get; set; }
 
         public byte TypePrice { get; set; }
     }

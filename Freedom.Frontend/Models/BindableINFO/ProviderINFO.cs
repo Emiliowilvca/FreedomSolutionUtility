@@ -1,7 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
 using Freedom.Utility.Models.BaseRTO;
-using System;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
@@ -67,30 +66,5 @@ namespace Freedom.Frontend.Models.BindableINFO
         public string BankName { get => _bankName; set => SetProperty(ref _bankName, value); }
 
         public string BankAccountNum { get => _bankAccountNum; set => SetProperty(ref _bankAccountNum, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            Name = "";
-            IsSelected = false;
-            Contact = "";
-            Phone = "";
-            Email = "";
-            Ruc = "";
-            Timbrado = "";
-            CityName = "";
-            ProviderTypeName = "";
-            PaymentTypeName = "";
-            CompanyId = 0;
-            Address = "";
-            PaymentTypeId = 0;
-            CityId = 0;
-            ProviderTypeID = 0;
-            Authorization = DateTime.UtcNow;
-            Expiration = DateTime.UtcNow;
-            BankName = "";
-            BankAccountNum = "";
-        }
     }
 }

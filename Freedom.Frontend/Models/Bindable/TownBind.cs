@@ -20,15 +20,5 @@ namespace Freedom.Frontend.Models.Bindable
         public int CompanyId { get => _companyId; set => SetProperty(ref _companyId, value); }
 
         public string CityName { get => _cityName; set => SetProperty(ref _cityName, value); }
-
-        public override void ResetEntity()
-        {
-            base.ResetEntity();
-            Id = 0;
-            Name = "";
-            CompanyId = 0;
-            CityId = 0;
-            CityName = "";
-        }
     }
 }

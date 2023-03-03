@@ -1,6 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -34,20 +33,6 @@ namespace Freedom.Frontend.Models.Bindable
 
         public string Groups { get => _groups; set => SetProperty(ref _groups, value); }
 
-        public string Zones { get => _zones; set => SetProperty(ref _zones , value); }
-
-        public override void ResetEntity()
-        {
-            Id = 0;
-            UserId = Guid.Empty;
-            CompanyId = 0;
-            BoxId = 0;
-            EmployeeId = 0;
-            MaxLevelPrice = 0;
-            MaxDiscountRate = 0;
-            OperationTypes = "";
-            Groups = "";
-            Zones = "";
-        }
+        public string Zones { get => _zones; set => SetProperty(ref _zones, value); }
     }
 }

@@ -13,11 +13,8 @@ namespace Freedom.Utility.Models.BaseEntity
         short Level { get; set; }
 
         decimal ValuePrice { get; set; }
-
-        /// <summary>
-        /// Price per Quantity
-        /// </summary>
-        short Quantity { get; set; }
+         
+        short QuantityPrice { get; set; }
 
         byte TypePrice { get; set; }
     }
