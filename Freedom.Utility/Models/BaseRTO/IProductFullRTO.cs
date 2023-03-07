@@ -2,7 +2,7 @@
 
 namespace Freedom.Utility.Models.BaseRTO
 {
-    public interface IProductFullRTO : IProduct, IProductRTO
+    public interface IProductFullRTO : IProduct 
     {
         /* names */
         string SubGroupName { get; set; }

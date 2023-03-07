@@ -14,7 +14,7 @@
 
         int ProductId { get; set; }
 
-        short Quantity { get; set; }
+        short QuantityPrice { get; set; }
 
         byte TypePrice { get; set; }
 

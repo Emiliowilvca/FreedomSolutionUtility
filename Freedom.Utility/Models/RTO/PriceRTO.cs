@@ -15,11 +15,8 @@ namespace Freedom.Utility.Models.RTO
         public short Level { get; set; }
 
         public decimal ValuePrice { get; set; }
-
-        /// <summary>
-        /// Price per Quantity
-        /// </summary>
-        public short Quantity { get; set; }
+         
+        public short QuantityPrice { get; set; }
 
         public byte TypePrice { get; set; }
 
@@ -28,5 +25,6 @@ namespace Freedom.Utility.Models.RTO
         public string MoneyName { get; set; }
 
         public string MoneySymbol { get; set; }
+        
     }
 }

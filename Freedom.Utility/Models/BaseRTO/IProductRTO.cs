@@ -1,9 +1,5 @@
 ﻿namespace Freedom.Utility.Models.BaseRTO
-{
-
-    /// <summary>
-    /// Use entity in sales
-    /// </summary>
+{ 
     public interface IProductRTO
     {
         int Id { get; set; }
