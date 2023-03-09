@@ -1,10 +1,9 @@
 using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Utility.Models.Dto
 {
     [Serializable]
-    public class PriceDto : IPrice
+    public class SalePriceDto : ISalePrice
     {
         public int Id { get; set; }
 
@@ -14,16 +13,10 @@ namespace Freedom.Utility.Models.Dto
 
         public int MoneyId { get; set; }
 
-        public short Level { get; set; }
+        public int Level { get; set; }
 
         public decimal ValuePrice { get; set; }
 
-        /// <summary>
-        /// price according to quantity
-        /// </summary>
-        public short QuantityPrice { get; set; }
-
-        public byte TypePrice { get; set; }
-         
+        public int QuantityPrice { get; set; }
     }
 }

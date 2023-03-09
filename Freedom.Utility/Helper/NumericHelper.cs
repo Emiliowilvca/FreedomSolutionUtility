@@ -169,5 +169,11 @@ namespace Freedom.Utility
         {
             return value != 0;
         }
+
+        
+
+
+
+
     }
 }

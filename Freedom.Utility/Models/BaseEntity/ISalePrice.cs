@@ -1,6 +1,6 @@
 namespace Freedom.Utility.Models.BaseEntity
 {
-    public interface IPrice
+    public interface ISalePrice
     {
         int Id { get; set; }
 
@@ -10,15 +10,10 @@ namespace Freedom.Utility.Models.BaseEntity
 
         int MoneyId { get; set; }
 
-        short Level { get; set; }
+        int Level { get; set; }
 
         decimal ValuePrice { get; set; }
 
-        short QuantityPrice { get; set; }
-
-        byte TypePrice { get; set; }
+        int QuantityPrice { get; set; }
     }
-
-
-
 }

@@ -1,7 +1,4 @@
-﻿using System.Threading;
-using System.Threading.Tasks;
-
-namespace Freedom.Utility
+﻿namespace Freedom.Utility
 {
     public static class TaskExtensions
     {

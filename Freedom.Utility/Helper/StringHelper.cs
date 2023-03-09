@@ -153,7 +153,13 @@ namespace Freedom.Utility
         /// <returns></returns>
         public static string RemoveFilter(this string str, List<char> charsToRemove)
         {
-            charsToRemove.ForEach(c => str = str.Replace(c.ToString(), String.Empty));
+            charsToRemove.ForEach(c => str = str.Replace(c.ToString(), string.Empty));
+            return str;
+        }
+
+        public static string RemoveFilter(this string str, char[] charsToRemove)
+        {
+            charsToRemove.ToList().ForEach(c => str = str.Replace(c.ToString(), string.Empty));
             return str;
         }
 
@@ -169,8 +175,8 @@ namespace Freedom.Utility
 
         /// <summary>
         /// <para>convert a string that been encoded for transmission in a url into a decoding string.</para>
-        /// <para>convertir una cadena que ha sido codificada para su transmisión en una URL en una cadena de decodificación string.</para>  
-        /// 
+        /// <para>convertir una cadena que ha sido codificada para su transmisión en una URL en una cadena de decodificación string.</para>
+        ///
         /// </summary>
         /// <param name="str"></param>
         /// <returns></returns>
@@ -188,7 +194,7 @@ namespace Freedom.Utility
         /// <returns></returns>
         public static string ToTrimUppercase(this string str)
         {
-            return str.Trim().ToUpper();    
+            return str.Trim().ToUpper();
         }
 
         /// <summary>
@@ -243,6 +249,88 @@ namespace Freedom.Utility
                 sb.Append(st);
             }
             return sb.ToString();
+        }
+
+        /// <summary>
+        /// Replace and prevent Sql Ineject Attack
+        /// </summary>
+        /// <param name="source"></param>
+        /// <returns></returns>
+        public static string PreventSqlInjectionAttack(this string source)
+        {
+            return source.ToUpper()
+                         .Replace("--", string.Empty)
+                         .Replace("/*", string.Empty)
+                         .Replace("*/", string.Empty)
+                         .Replace("DELETE", string.Empty)
+                         .Replace("INSERT", string.Empty)
+                         .Replace("UPDATE", string.Empty)
+                         .Replace("DROP", string.Empty)
+                         .Replace("TABLE", string.Empty)
+                         .Replace("FROM", string.Empty)
+                         .Replace("WHERE", string.Empty)
+                         .Replace("TRUNCATE", string.Empty)
+                         .Replace("SELECT", string.Empty)
+                         .Replace("CHAR", string.Empty)
+                         .Replace("NVARCHAR", string.Empty)
+                         .Replace("VARCHAR", string.Empty)
+                         .Replace("ALTER", string.Empty)
+                         .Replace("BEGIN", string.Empty)
+                         .Replace("CAST", string.Empty)
+                         .Replace("CREATE", string.Empty)
+                         .Replace("DECLARE", string.Empty)
+                         .Replace("CURSOR", string.Empty)
+                         .Replace("END", string.Empty)
+                         .Replace("EXEC", string.Empty)
+                         .Replace("EXECUTE", string.Empty)
+                         .Replace("FETCH", string.Empty)
+                         .Replace("KILL", string.Empty)
+                         .Replace("SYS", string.Empty)
+                         .Replace("SYSOBJECT", string.Empty)
+                         .Replace("SYSCOLUMN", string.Empty)
+                         .Replace("DATABASE", string.Empty)
+                         .Replace("#", string.Empty)
+                         .Replace("!", string.Empty)
+                         .Replace("@", string.Empty)
+                         .Replace("$", string.Empty)
+                         .Replace("%", string.Empty)
+                         .Replace("^", string.Empty)
+                         .Replace("&", string.Empty)
+                         .Replace("+", string.Empty)
+                         .Replace("=", string.Empty)
+                         .Replace("{", string.Empty)
+                         .Replace("}", string.Empty)
+                         .Replace("[", string.Empty)
+                         .Replace("]", string.Empty)
+                         .Replace("|", string.Empty)
+                         .Replace(";", string.Empty)
+                         .Replace("\"", string.Empty)
+                         .Replace("'", string.Empty)
+                         .Replace("<", string.Empty)
+                         .Replace(">", string.Empty)
+                         .Replace(",", string.Empty)
+                         .Replace("?", string.Empty)
+                         .Replace("~", string.Empty)
+                         .Replace("`", string.Empty)
+                         .Replace("+", string.Empty)
+                         .Replace("  ", " ")
+                         .Trim();
+        }
+
+        /// <summary>
+        /// sql parameter contain(Prevent SQL-Injection)
+        /// </summary>
+        /// <param name="source"></param>
+        /// <param name="lenght"></param>
+        /// <returns></returns>
+        public static string ToSqlParameter(this string source, int lenght = 50)
+        {
+            if (source == null)
+                return string.Empty;
+
+            return source.Truncate(lenght)
+                         .PreventSqlInjectionAttack()
+                         .Trim();
         }
     }
 }

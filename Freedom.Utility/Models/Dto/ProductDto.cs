@@ -65,7 +65,9 @@ namespace Freedom.Utility.Models.Dto
 
         public decimal Weight { get; set; }
 
-        public ICollection<PriceDto> Prices { get; set; }
+        public ICollection<CostPriceDto> CostPrices { get; set; }
+
+        public ICollection<SalePriceDto> SalePrices  { get; set; }
 
         public ICollection<StockDto> Stocks { get; set; }
 

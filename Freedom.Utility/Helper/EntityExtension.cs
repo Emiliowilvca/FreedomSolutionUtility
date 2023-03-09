@@ -47,7 +47,6 @@
             return entity;
         }
 
-
         public static T ResetEntity<T>(this T entity) where T : class
         {
             var propertyInfo = entity.GetType().GetProperties();
@@ -85,6 +84,55 @@
                 }
             }
             return entity;
+        }
+
+        /// <summary>
+        /// prevent Sql Ineject Attack in Model (each all string in model and replace special char and sqlInjection commands)
+        /// </summary>
+        /// <typeparam name="T">Entity or Model to database </typeparam>
+        /// <param name="entity"></param>
+        /// <returns></returns>
+        public static T PreventSqlInjection<T>(this T entity) where T : class
+        {
+            if (entity == null)
+                return default(T);
+
+            var propertyInfo = entity.GetType().GetProperties();
+
+            foreach (var pi in propertyInfo)
+            {
+                if (pi.PropertyType == typeof(string))
+                {
+                    string value = (string)pi.GetValue(entity, null);
+                    pi.SetValue(entity, value.PreventSqlInjectionAttack(), null);
+                }
+            }
+            return entity as T;
+        }
+
+        /// <summary>
+        /// prevent Sql Ineject Attack in Model (each all string in model and replace special char and sqlInjection commands)
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="entity"></param>
+        /// <param name="excludeProperties"></param>
+        /// <returns></returns>
+        public static T PreventSqlInjection<T>(this T entity, string[] excludeProperties) where T : class
+        {
+            if (entity == null)
+                return default(T);
+            string[] exclude = excludeProperties ?? Array.Empty<string>();
+            var propertyInfo = entity.GetType().GetProperties().Where(x => !exclude.Contains(x.Name));
+
+            foreach (var pi in propertyInfo)
+            {
+                if (pi.PropertyType == typeof(string))
+                {
+                    string value = (string)pi.GetValue(entity, null);
+                    pi.SetValue(entity, value.PreventSqlInjectionAttack(), null);
+                }
+            }
+            return entity as T;
         }
     }
 }
