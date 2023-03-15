@@ -2,7 +2,7 @@
 
 namespace Freedom.Utility.Models.Dto
 {
-    public class ProductFullDto : ProductDto, IProductFullDto
+    public class ProductFullDto : ProductBase, IProductFullDto
     {
         public string SubGroupName { get; set; }
 
@@ -17,5 +17,41 @@ namespace Freedom.Utility.Models.Dto
         public string BrandName { get; set; }
 
         public string GroupName { get; set; }
+
+        public int ShopId { get; set; }
+
+        public decimal Quantity { get; set; }
+
+        public string Lote { get; set; }
+
+        public DateTime Manufactory { get; set; }
+
+        public DateTime Expiration { get; set; }
+
+        public int SectorId { get; set; }
+
+        public int Shelving { get; set; }
+
+        public int Side { get; set; }
+
+        public int Column { get; set; }
+
+        public int Line { get; set; }
+
+        public int MoneyId { get; set; }
+
+        public decimal CostPrice { get; set; }
+
+        public int Level { get; set; }
+
+        public decimal SalePrice { get; set; }
+
+        public int QuantityPrice { get; set; }
+
+        public IEnumerable<DrugDto> Drugs { get; set; }
+
+        public IEnumerable<ApplyDto> Applies { get; set; }
+
+        public IEnumerable<WayAdminDto> WayAdmins { get; set; }
     }
 }

@@ -14,8 +14,6 @@ namespace Freedom.Utility.Models.RTO
 
         public string BrandName { get; set; }
 
-        public string MoneySymbol { get; set; }
-
         public string MoneyName { get; set; }
 
         public decimal QuantityBox { get; set; }

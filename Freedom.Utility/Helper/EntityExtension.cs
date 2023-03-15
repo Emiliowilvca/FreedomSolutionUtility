@@ -1,4 +1,4 @@
-﻿namespace Freedom.Utility.Helper
+﻿namespace Freedom.Utility
 {
     public static class EntityExtension
     {
@@ -104,7 +104,7 @@
                 if (pi.PropertyType == typeof(string))
                 {
                     string value = (string)pi.GetValue(entity, null);
-                    pi.SetValue(entity, value.PreventSqlInjectionAttack(), null);
+                    pi.SetValue(entity, value.RemoveSpecialCharacters().PreventSqlInjectionAttack(), null);
                 }
             }
             return entity as T;
@@ -129,7 +129,7 @@
                 if (pi.PropertyType == typeof(string))
                 {
                     string value = (string)pi.GetValue(entity, null);
-                    pi.SetValue(entity, value.PreventSqlInjectionAttack(), null);
+                    pi.SetValue(entity, value.RemoveSpecialCharacters().PreventSqlInjectionAttack(), null);
                 }
             }
             return entity as T;

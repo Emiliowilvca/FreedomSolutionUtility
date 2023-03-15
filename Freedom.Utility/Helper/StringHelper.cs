@@ -8,6 +8,11 @@ namespace Freedom.Utility
 {
     public static class StringHelper
     {
+
+        public const string PatterRemoveCharInInsert =  @"#@`\»«!~%^&[]{}+=|:'<>,*;";
+
+        public const string PatterRemovedCharInSelect = @"#@`\»«!~^&[]{}+=|:'<>,;";
+
         public static string Truncate(this string source, int startIndex = 0, int lenght = 50)
         {
             return source.Substring(startIndex, Math.Min(source.Length - startIndex, lenght));
@@ -146,10 +151,10 @@ namespace Freedom.Utility
         }
 
         /// <summary>
-        /// Remove chars on string
+        /// Remove chars on string,does not contain predefined elements
         /// </summary>
         /// <param name="str">all string</param>
-        /// <param name="charsToRemove">chars list to remove in string </param>
+        /// <param name="charsToRemove">chars list to remove in string, does not contain predefined elements </param>
         /// <returns></returns>
         public static string RemoveFilter(this string str, List<char> charsToRemove)
         {
@@ -157,6 +162,12 @@ namespace Freedom.Utility
             return str;
         }
 
+        /// <summary>
+        /// remove Special Chars
+        /// </summary>
+        /// <param name="str"></param>
+        /// <param name="charsToRemove"></param>
+        /// <returns></returns>
         public static string RemoveFilter(this string str, char[] charsToRemove)
         {
             charsToRemove.ToList().ForEach(c => str = str.Replace(c.ToString(), string.Empty));
@@ -204,39 +215,41 @@ namespace Freedom.Utility
         /// <returns></returns>
         public static string ToUrlEncodeClient(this string str)
         {
-            Dictionary<string, string> map = new Dictionary<string, string>();
-            map.Add("%", "%25");
-            map.Add(" ", "%20");
-            map.Add("!", "%21");
-            map.Add("\"", "%22");
-            map.Add("#", "%23");
-            map.Add("$", "%24");
-            map.Add("&", "%26");
-            map.Add("'", "%27");
-            map.Add("(", "%28");
-            map.Add(")", "%29");
-            map.Add("*", "%2A");
-            map.Add("+", "%2B");
-            map.Add(",", "%2C");
-            map.Add("-", "%2D");
-            map.Add(".", "%2E");
-            map.Add("/", "%2F");
-            map.Add(":", "%3A");
-            map.Add(";", "%3B");
-            map.Add("<", "%3C");
-            map.Add("=", "%3D");
-            map.Add(">", "%3E");
-            map.Add("?", "%3F");
-            map.Add("@", "%40");
-            map.Add("[", "%5B");
-            map.Add("]", "%5D");
-            map.Add("^", "%5E");
-            map.Add("_", "%5F");
-            map.Add("`", "%60");
-            map.Add("{", "%7B");
-            map.Add("|", "%7C");
-            map.Add("}", "%7D");
-            map.Add("~", "%7E");
+            Dictionary<string, string> map = new()
+            {
+                { "%", "%25" },
+                { " ", "%20" },
+                { "!", "%21" },
+                { "\"", "%22" },
+                { "#", "%23" },
+                { "$", "%24" },
+                { "&", "%26" },
+                { "'", "%27" },
+                { "(", "%28" },
+                { ")", "%29" },
+                { "*", "%2A" },
+                { "+", "%2B" },
+                { ",", "%2C" },
+                { "-", "%2D" },
+                { ".", "%2E" },
+                { "/", "%2F" },
+                { ":", "%3A" },
+                { ";", "%3B" },
+                { "<", "%3C" },
+                { "=", "%3D" },
+                { ">", "%3E" },
+                { "?", "%3F" },
+                { "@", "%40" },
+                { "[", "%5B" },
+                { "]", "%5D" },
+                { "^", "%5E" },
+                { "_", "%5F" },
+                { "`", "%60" },
+                { "{", "%7B" },
+                { "|", "%7C" },
+                { "}", "%7D" },
+                { "~", "%7E" }
+            };
 
             StringBuilder sb = new StringBuilder();
             foreach (var item in str.ToArray())
@@ -252,85 +265,16 @@ namespace Freedom.Utility
         }
 
         /// <summary>
-        /// Replace and prevent Sql Ineject Attack
+        /// Remove Special chars , already contains elements
         /// </summary>
-        /// <param name="source"></param>
+        /// <param name="source">source</param>
+        /// <param name="specialCharacters">predefined elements</param>
         /// <returns></returns>
-        public static string PreventSqlInjectionAttack(this string source)
+        public static string RemoveSpecialCharacters(this string source, string specialCharacters = PatterRemoveCharInInsert)
         {
-            return source.ToUpper()
-                         .Replace("--", string.Empty)
-                         .Replace("/*", string.Empty)
-                         .Replace("*/", string.Empty)
-                         .Replace("DELETE", string.Empty)
-                         .Replace("INSERT", string.Empty)
-                         .Replace("UPDATE", string.Empty)
-                         .Replace("DROP", string.Empty)
-                         .Replace("TABLE", string.Empty)
-                         .Replace("FROM", string.Empty)
-                         .Replace("WHERE", string.Empty)
-                         .Replace("TRUNCATE", string.Empty)
-                         .Replace("SELECT", string.Empty)
-                         .Replace("CHAR", string.Empty)
-                         .Replace("NVARCHAR", string.Empty)
-                         .Replace("VARCHAR", string.Empty)
-                         .Replace("ALTER", string.Empty)
-                         .Replace("BEGIN", string.Empty)
-                         .Replace("CAST", string.Empty)
-                         .Replace("CREATE", string.Empty)
-                         .Replace("DECLARE", string.Empty)
-                         .Replace("CURSOR", string.Empty)
-                         .Replace("END", string.Empty)
-                         .Replace("EXEC", string.Empty)
-                         .Replace("EXECUTE", string.Empty)
-                         .Replace("FETCH", string.Empty)
-                         .Replace("KILL", string.Empty)
-                         .Replace("SYS", string.Empty)
-                         .Replace("SYSOBJECT", string.Empty)
-                         .Replace("SYSCOLUMN", string.Empty)
-                         .Replace("DATABASE", string.Empty)
-                         .Replace("#", string.Empty)
-                         .Replace("!", string.Empty)
-                         .Replace("@", string.Empty)
-                         .Replace("$", string.Empty)
-                         .Replace("%", string.Empty)
-                         .Replace("^", string.Empty)
-                         .Replace("&", string.Empty)
-                         .Replace("+", string.Empty)
-                         .Replace("=", string.Empty)
-                         .Replace("{", string.Empty)
-                         .Replace("}", string.Empty)
-                         .Replace("[", string.Empty)
-                         .Replace("]", string.Empty)
-                         .Replace("|", string.Empty)
-                         .Replace(";", string.Empty)
-                         .Replace("\"", string.Empty)
-                         .Replace("'", string.Empty)
-                         .Replace("<", string.Empty)
-                         .Replace(">", string.Empty)
-                         .Replace(",", string.Empty)
-                         .Replace("?", string.Empty)
-                         .Replace("~", string.Empty)
-                         .Replace("`", string.Empty)
-                         .Replace("+", string.Empty)
-                         .Replace("  ", " ")
-                         .Trim();
-        }
-
-        /// <summary>
-        /// sql parameter contain(Prevent SQL-Injection)
-        /// </summary>
-        /// <param name="source"></param>
-        /// <param name="lenght"></param>
-        /// <returns></returns>
-        public static string ToSqlParameter(this string source, int lenght = 50)
-        {
-            if (source == null)
-                return string.Empty;
-
-            return source.Truncate(lenght)
-                         .PreventSqlInjectionAttack()
-                         .Trim();
+            if (string.IsNullOrEmpty(specialCharacters))
+                return "";
+            return string.Join("", source.ToCharArray().Where(x => !specialCharacters.Contains(x)).Select(x => x));
         }
     }
 }

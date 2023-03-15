@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace Freedom.Utility.Helper
+namespace Freedom.Utility
 {
     public static class DecimalExtension
     {

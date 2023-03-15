@@ -1,6 +1,8 @@
-﻿namespace Freedom.Utility.Models.BaseRTO
+﻿using Freedom.Utility.Models.BaseEntity;
+
+namespace Freedom.Utility.Models.BaseRTO
 {
-    public interface IProductRTO
+    public interface IProductRTO 
     {
         int Id { get; set; }
 
@@ -35,5 +37,7 @@
         int ShopId { get; set; }
 
         decimal StockQuantity { get; set; }
+
+        DateTime Expiration { get; set; }
     }
 }

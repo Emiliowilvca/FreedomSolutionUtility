@@ -2,6 +2,7 @@
 
 namespace Freedom.Utility.Models.RTO
 {
+    [Obsolete]
     public class PriceRTO : IPriceRTO
     {
         public int Id { get; set; }

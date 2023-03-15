@@ -53,6 +53,7 @@ namespace Freedom.Utility.Bindable
             }
         }
 
+
         public static T CopyClass<T>(T obj)
         {
             T objcpy = (T)Activator.CreateInstance(typeof(T));
@@ -64,9 +65,6 @@ namespace Freedom.Utility.Bindable
             return objcpy;
         }
 
-        //[Obsolete("This method is obsolete. Use Freedom.Utility.Helper.EntityExtension.ResetEntity instead.")]
-        //public virtual void ResetEntity()
-        //{
-        //}
+        
     }
 }

@@ -1,5 +1,6 @@
 ﻿namespace Freedom.Utility.Models.BaseRTO
 {
+    [Obsolete]
     public interface IPriceRTO
     {
         int CompanyId { get; set; }

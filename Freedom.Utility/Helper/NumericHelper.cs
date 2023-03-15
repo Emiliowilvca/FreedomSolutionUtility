@@ -1,12 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
+﻿using System.Globalization;
 
 namespace Freedom.Utility
 {
     public static class NumericHelper
     {
+        public static IEnumerable<int> ToIntList(this string list, char separator = ',')
+        {
+            if (string.IsNullOrEmpty(list))
+            {
+                return Enumerable.Empty<int>();
+            }
+
+            string numbersFromString = new string(list.Where(x => x >= '0' && x <= '9').ToArray());
+
+            return list.Split(separator).Select(Int32.Parse).ToList();
+        }
+
         public static int ExtractIntegerFromString(this string input)
         {
             if (string.IsNullOrEmpty(input))
@@ -170,10 +179,53 @@ namespace Freedom.Utility
             return value != 0;
         }
 
-        
+        /// <summary>
+        /// convert list_string to list int
+        /// </summary>
+        /// <param name="strings">list string</param>
+        /// <returns></returns>
+        public static List<int> ToIntegerArray(this List<string> strings)
+        {
+            List<int> ints = strings
+                            .Select(s => int.TryParse(s, out int n) ? n : (int?)null)
+                            .Where(n => n.HasValue)
+                            .Select(n => n.Value)
+                            .ToList();
+            return ints;
+        }
 
+        /// <summary>
+        /// convert string to List int
+        /// </summary>
+        /// <param name="source">Ex. (1,2,3,4,5,6,7,8,9)</param>
+        /// <param name="separator">ex:','</param>
+        /// <returns></returns>
+        public static List<int> ToIntegerCollection(this string source, char separator = ',')
+        {
+            List<int> ints = source.Split(separator)
+                            .Select(s => int.TryParse(s, out int n) ? n : (int?)null)
+                            .Where(n => n.HasValue)
+                            .Select(n => n.Value)
+                            .ToList();
+            return ints;
+        }
 
-
-
+        /// <summary>
+        /// convert string to Array _int
+        /// </summary>
+        /// <param name="source"></param>
+        /// <param name="separator"></param>
+        /// <returns></returns>
+        public static int[] ToIntegerArray(this string source, char separator = ',')
+        {
+            if(source == null)  
+                return Array.Empty<int>();
+            List<int> ints = source.Split(separator)
+                            .Select(s => int.TryParse(s, out int n) ? n : (int?)null)
+                            .Where(n => n.HasValue)
+                            .Select(n => n.Value)
+                            .ToList();
+            return ints.ToArray();
+        }
     }
 }

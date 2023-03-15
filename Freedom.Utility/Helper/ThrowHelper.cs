@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Freedom.Utility.Helper
+﻿namespace Freedom.Utility
 {
     public static class ThrowHelper
     {
@@ -52,7 +50,6 @@ namespace Freedom.Utility.Helper
                 "@@",
                 "--",
                 "1=1"
-
             };
             if (attackwords.Any(x => source.ToUpper().Contains(x)))
             {

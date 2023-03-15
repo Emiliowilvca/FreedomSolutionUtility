@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Freedom.Utility.Helper
+namespace Freedom.Utility
 {
     public static class RandomExtension
     {
