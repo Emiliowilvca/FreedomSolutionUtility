@@ -1,9 +1,10 @@
 ﻿using Freedom.Utility.Bindable;
+using Freedom.Utility.Models.BaseEntity;
 
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
-    public class ProductBind : BindableBase
+    public class ProductBind :  BindableBase
     {
         private bool _activeProduct;
         private bool _alterStock;
@@ -158,5 +159,8 @@ namespace Freedom.Frontend.Models.Bindable
         public string TaxRate { get => _taxRate; set => SetProperty(ref _taxRate, value); }
 
         public string Weight { get => _weight; set => SetProperty(ref _weight, value); }
+
+
+    
     }
 }

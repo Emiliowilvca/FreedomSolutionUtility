@@ -2,6 +2,7 @@
 {
     public static class EntityExtension
     {
+
         /// <summary>
         /// Remove spaces and convert to UpperCase in all string properties values
         /// </summary>
@@ -53,35 +54,18 @@
             foreach (var pi in propertyInfo)
             {
                 Type type = pi.PropertyType;
-                if (type == typeof(byte) ||
-                    type == typeof(short) ||
-                    type == typeof(int) ||
-                    type == typeof(long) ||
-                    type == typeof(float) ||
-                    type == typeof(double))
-                {
-                    pi.SetValue(entity, 0, null);
-                }
-                if (type == typeof(decimal))
-                {
-                    pi.SetValue(entity, 0m, null);
-                }
-                if (type == typeof(string))
-                {
-                    pi.SetValue(entity, string.Empty, null);
-                }
-                if (type == typeof(bool))
-                {
-                    pi.SetValue(entity, false, null);
-                }
-                if (type == typeof(DateTime) || type == typeof(DateTimeOffset))
-                {
-                    pi.SetValue(entity, DateTime.UtcNow, null);
-                }
-                if (type == typeof(Guid))
-                {
-                    pi.SetValue(entity, Guid.Empty, null);
-                }
+                if (type == typeof(byte)) { pi.SetValue(entity, (byte)0); }
+                if (type == typeof(short)) { pi.SetValue(entity, (short)0); }
+                if (type == typeof(int)) { pi.SetValue(entity, 0); }
+                if (type == typeof(long)) { pi.SetValue(entity, (long)0); }
+                if (type == typeof(float)) { pi.SetValue(entity, 0.0f); }
+                if (type == typeof(double)) { pi.SetValue(entity, 0.0d); }
+                if (type == typeof(decimal)) { pi.SetValue(entity, 0.0m); }
+                if (type == typeof(string)) { pi.SetValue(entity, string.Empty); }
+                if (type == typeof(bool)) { pi.SetValue(entity, false); }
+                if (type == typeof(DateTime)) { pi.SetValue(entity, DateTime.UtcNow); }
+                if (type == typeof(DateTimeOffset)) { pi.SetValue(entity, DateTime.UtcNow); }
+                if (type == typeof(Guid)) { pi.SetValue(entity, Guid.Empty); }
             }
             return entity;
         }
@@ -134,5 +118,6 @@
             }
             return entity as T;
         }
+
     }
 }
