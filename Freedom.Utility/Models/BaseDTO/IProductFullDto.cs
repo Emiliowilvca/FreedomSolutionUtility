@@ -44,7 +44,7 @@ namespace Freedom.Utility.Models.BaseDTO
 
         decimal SalePrice { get; set; }
 
-        int Level { get; set; }
+        int PriceLevel { get; set; }
 
         int QuantityPrice { get; set; }
     }

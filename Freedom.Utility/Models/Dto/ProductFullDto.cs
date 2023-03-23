@@ -20,6 +20,10 @@ namespace Freedom.Utility.Models.Dto
 
         public int ShopId { get; set; }
 
+        public int SalePriceId { get; set; }
+
+        public int CostPriceId { get; set; }
+
         public decimal Quantity { get; set; }
 
         public string Lote { get; set; }
@@ -42,7 +46,9 @@ namespace Freedom.Utility.Models.Dto
 
         public decimal CostPrice { get; set; }
 
-        public int Level { get; set; }
+        public int PriceLevel { get; set; }
+
+        public int StockId { get; set; }
 
         public decimal SalePrice { get; set; }
 
