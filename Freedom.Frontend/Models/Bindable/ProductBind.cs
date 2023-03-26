@@ -55,12 +55,6 @@ namespace Freedom.Frontend.Models.Bindable
         private string _taxRate;
         private string _weight;
 
-        /// </summary>
-        /// </summary>
-        /// <summary>
-        /// <summary>
-        /// Estanteria numero
-        /// Lado de la estanteria
         public bool ActiveProduct { get => _activeProduct; set => SetProperty(ref _activeProduct, value); }
 
         public bool AlterStock { get => _alterStock; set => SetProperty(ref _alterStock, value); }

@@ -1,7 +1,6 @@
 using FluentValidation;
 using Freedom.Utility.Langs;
 using Freedom.Utility.Models.BaseEntity;
-using Freedom.Utility.Responses;
 using Freedom.Utility.ValidatorExtension;
 
 namespace Freedom.Utility.Validation
@@ -10,10 +9,8 @@ namespace Freedom.Utility.Validation
     {
         public StockValidator()
         {
-
-            DateTime start = DateTime.Now.AddYears(-5);
-            DateTime end = DateTime.Now.AddDays(10);
-
+            DateTime start = DateTime.Now.AddYears(-20);
+            DateTime end = DateTime.Now.AddYears(20);
 
             RuleFor(x => x.Id).ID();
 
@@ -37,15 +34,9 @@ namespace Freedom.Utility.Validation
 
             RuleFor(x => x.Side).Generic(0, int.MaxValue, Lang.SideIsInvalid, nameof(Lang.SideIsInvalid));
 
-            RuleFor(x=> x.Expiration).InclusiveBetween(start,end)
-                                            .WithMessage(Lang.ExpireDateIsInvalid)
-                                            .WithErrorCode(Lang.ExpireDateIsInvalid)
-                                        .NotEmpty().NotNull();
+            RuleFor(x => x.Expiration).Generic(Lang.ExpireDateIsInvalid, nameof(Lang.ExpireDateIsInvalid));
 
-            RuleFor(x => x.Manufactory).InclusiveBetween(start, end)
-                                           .WithMessage(Lang.ManufactureDateIsInvalid)
-                                           .WithErrorCode(Lang.ManufactureDateIsInvalid)
-                                       .NotEmpty().NotNull();
+            RuleFor(x => x.Manufactory).Generic(Lang.ManufactureDateIsInvalid, nameof(Lang.ManufactureDateIsInvalid));
         }
     }
 }

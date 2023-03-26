@@ -3,13 +3,13 @@ using Freedom.Utility.Models.BaseEntity;
 
 namespace Freedom.Frontend.Models.Bindable
 {
-    public class CostPriceBind : BindableBase, ICostPrice
+    public class CostPriceBind : BindableBase
     {
         private int _id;
         private int _companyId;
         private int _productId;
         private int _moneyId;
-        private decimal _costValue;
+        private string _costValue;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -19,6 +19,6 @@ namespace Freedom.Frontend.Models.Bindable
 
         public int MoneyId { get => _moneyId; set => SetProperty(ref _moneyId, value); }
 
-        public decimal CostValue { get => _costValue; set => SetProperty(ref _costValue, value); }
+        public string CostValue { get => _costValue; set => SetProperty(ref _costValue, value); }
     }
 }

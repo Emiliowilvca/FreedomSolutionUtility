@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Freedom.Frontend.Models.BindableINFO
+﻿namespace Freedom.Frontend.Models.BindableINFO
 {
+    [Obsolete("no utilizar")]
     public class PriceBind
     {
         public int Id { get; set; }
-
-
-
-
     }
 }
