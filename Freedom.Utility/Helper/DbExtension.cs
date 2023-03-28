@@ -79,39 +79,43 @@ namespace Freedom.Utility
         /// <returns></returns>
         public static string PreventSqlInjectionAttack(this string source)
         {
+             
             return source.ToUpper()
+                         .Trim()
+                         .Replace(@"\", string.Empty)
+                         .Replace(";", string.Empty)
+                         .Replace("1=1", string.Empty)
                          .Replace("--", string.Empty)
                          .Replace("/*", string.Empty)
                          .Replace("*/", string.Empty)
-                         .Replace("DELETE", string.Empty)
-                         .Replace("INSERT", string.Empty)
-                         .Replace("UPDATE", string.Empty)
-                         .Replace("DROP", string.Empty)
-                         .Replace("TABLE", string.Empty)
-                         .Replace("FROM", string.Empty)
-                         .Replace("WHERE", string.Empty)
-                         .Replace("TRUNCATE", string.Empty)
-                         .Replace("SELECT", string.Empty)
-                         .Replace("CHAR", string.Empty)
-                         .Replace("NVARCHAR", string.Empty)
-                         .Replace("VARCHAR", string.Empty)
                          .Replace("ALTER", string.Empty)
                          .Replace("BEGIN", string.Empty)
                          .Replace("CAST", string.Empty)
+                         .Replace("CHAR", string.Empty)
                          .Replace("CREATE", string.Empty)
-                         .Replace("DECLARE", string.Empty)
                          .Replace("CURSOR", string.Empty)
+                         .Replace("DATABASE", string.Empty)
+                         .Replace("DECLARE", string.Empty)
+                         .Replace("DELETE", string.Empty)
+                         .Replace("DROP", string.Empty)
                          .Replace("END", string.Empty)
                          .Replace("EXEC", string.Empty)
                          .Replace("EXECUTE", string.Empty)
                          .Replace("FETCH", string.Empty)
+                         .Replace("FROM", string.Empty)
+                         .Replace("INSERT", string.Empty)
                          .Replace("KILL", string.Empty)
+                         .Replace("NVARCHAR", string.Empty)
+                         .Replace("SELECT", string.Empty)
                          .Replace("SYS", string.Empty)
-                         .Replace("SYSOBJECT", string.Empty)
                          .Replace("SYSCOLUMN", string.Empty)
-                         .Replace("DATABASE", string.Empty)
-                         .Replace("  ", " ")
-                         .Trim();
+                         .Replace("SYSOBJECT", string.Empty)
+                         .Replace("TABLE", string.Empty)
+                         .Replace("TRUNCATE", string.Empty)
+                         .Replace("UPDATE", string.Empty)
+                         .Replace("VARCHAR", string.Empty)
+                         .Replace("WHERE", string.Empty)
+                         .Replace("  ", " ");
         }
 
         /// <summary>
@@ -126,7 +130,6 @@ namespace Freedom.Utility
                 return string.Empty;
 
             return source.Truncate(lenght)
-                         .RemoveSpecialCharacters()
                          .PreventSqlInjectionAttack()
                          .Trim();
         }         

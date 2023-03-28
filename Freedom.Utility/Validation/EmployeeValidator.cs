@@ -24,7 +24,7 @@ namespace Freedom.Utility.Validation
 
             RuleFor(x => x.JobPostId).JobPostID();
 
-            RuleFor(x => x.EMail).EmailRequest();
+            RuleFor(x => x.Email).EmailRequest();
 
             RuleFor(x => x.PhoneMobile).MobileNumber(1, 12);
 

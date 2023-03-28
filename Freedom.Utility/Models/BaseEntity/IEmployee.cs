@@ -26,7 +26,7 @@ namespace Freedom.Utility.Models.BaseEntity
 
         string PhoneMobile { get; set; }
 
-        string EMail { get; set; }
+        string Email { get; set; }
 
         decimal Salary { get; set; }
 

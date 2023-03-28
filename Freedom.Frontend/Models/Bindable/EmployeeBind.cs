@@ -17,7 +17,7 @@ namespace Freedom.Frontend.Models.Bindable
         private int _jobPostId;
         private int _cityId;
         private string _phoneMobile;
-        private string _eMail;
+        private string _email;
         private decimal _salary;
         private decimal _commissionSales;
         private decimal _commissionCollection;
@@ -68,7 +68,7 @@ namespace Freedom.Frontend.Models.Bindable
 
         public string PhoneMobile { get => _phoneMobile; set => SetProperty(ref _phoneMobile, value); }
 
-        public string EMail { get => _eMail; set => SetProperty(ref _eMail, value); }
+        public string Email { get => _email; set => SetProperty(ref _email, value); }
 
         public decimal Salary { get => _salary; set => SetProperty(ref _salary, value); }
 

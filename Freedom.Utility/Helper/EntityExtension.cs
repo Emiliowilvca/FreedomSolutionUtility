@@ -88,7 +88,7 @@
                 if (pi.PropertyType == typeof(string))
                 {
                     string value = (string)pi.GetValue(entity, null);
-                    pi.SetValue(entity, value.RemoveSpecialCharacters().PreventSqlInjectionAttack(), null);
+                    pi.SetValue(entity, value.PreventSqlInjectionAttack(), null);
                 }
             }
             return entity as T;

@@ -28,7 +28,7 @@ namespace Freedom.Utility.Models.Dto
 
         public string PhoneMobile { get; set; }
 
-        public string EMail { get; set; }
+        public string Email { get; set; }
 
         public decimal Salary { get; set; }
 
