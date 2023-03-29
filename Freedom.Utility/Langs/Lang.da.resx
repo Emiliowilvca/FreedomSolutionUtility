@@ -4211,4 +4211,10 @@
   <data name="GridContainsRecords" xml:space="preserve">
     <value>gitteret indeholder allerede poster</value>
   </data>
+  <data name="Verify" xml:space="preserve">
+    <value>verificere</value>
+  </data>
+  <data name="VerifyYourAccount" xml:space="preserve">
+    <value>Bekræft din konto</value>
+  </data>
 </root>

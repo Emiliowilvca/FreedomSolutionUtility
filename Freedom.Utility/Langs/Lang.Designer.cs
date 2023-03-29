@@ -9286,6 +9286,24 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Verify.
+        /// </summary>
+        public static string Verify {
+            get {
+                return ResourceManager.GetString("Verify", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Verify your account.
+        /// </summary>
+        public static string VerifyYourAccount {
+            get {
+                return ResourceManager.GetString("VerifyYourAccount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to View image.
         /// </summary>
         public static string ViewImage {

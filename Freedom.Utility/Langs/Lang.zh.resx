@@ -4210,4 +4210,10 @@
   <data name="GridContainsRecords" xml:space="preserve">
     <value>网格已包含记录</value>
   </data>
+  <data name="VerifyYourAccount" xml:space="preserve">
+    <value>验证您的帐户</value>
+  </data>
+  <data name="Verify" xml:space="preserve">
+    <value>核实</value>
+  </data>
 </root>

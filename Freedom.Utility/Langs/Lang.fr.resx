@@ -4211,4 +4211,10 @@
   <data name="GridContainsRecords" xml:space="preserve">
     <value>la grille contient déjà des enregistrements</value>
   </data>
+  <data name="Verify" xml:space="preserve">
+    <value>vérifier</value>
+  </data>
+  <data name="VerifyYourAccount" xml:space="preserve">
+    <value>Vérifiez votre compte</value>
+  </data>
 </root>

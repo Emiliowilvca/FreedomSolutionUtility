@@ -4211,4 +4211,10 @@
   <data name="GridContainsRecords" xml:space="preserve">
     <value>grade já contém registros</value>
   </data>
+  <data name="Verify" xml:space="preserve">
+    <value>verificar</value>
+  </data>
+  <data name="VerifyYourAccount" xml:space="preserve">
+    <value>Verifique sua conta</value>
+  </data>
 </root>

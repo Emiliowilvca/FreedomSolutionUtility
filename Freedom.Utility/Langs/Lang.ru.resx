@@ -4211,4 +4211,10 @@
   <data name="GridContainsRecords" xml:space="preserve">
     <value>сетка уже содержит записи</value>
   </data>
+  <data name="Verify" xml:space="preserve">
+    <value>проверять</value>
+  </data>
+  <data name="VerifyYourAccount" xml:space="preserve">
+    <value>подтвердите ваш аккаунт</value>
+  </data>
 </root>

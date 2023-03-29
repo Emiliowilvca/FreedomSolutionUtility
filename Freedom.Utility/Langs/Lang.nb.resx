@@ -4211,4 +4211,10 @@
   <data name="GridContainsRecords" xml:space="preserve">
     <value>rutenettet inneholder allerede poster</value>
   </data>
+  <data name="Verify" xml:space="preserve">
+    <value>bekrefte</value>
+  </data>
+  <data name="VerifyYourAccount" xml:space="preserve">
+    <value>bekrefte kontoen din</value>
+  </data>
 </root>
