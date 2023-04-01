@@ -4217,4 +4217,13 @@
   <data name="Verify" xml:space="preserve">
     <value>Verify</value>
   </data>
+  <data name="CustomerAccountIsInvalid" xml:space="preserve">
+    <value>Customer account is invalid</value>
+  </data>
+  <data name="AccountSuspended" xml:space="preserve">
+    <value>Account suspended</value>
+  </data>
+  <data name="CreditLimitExceeded" xml:space="preserve">
+    <value>Credit limit exceeded</value>
+  </data>
 </root>

@@ -4217,4 +4217,13 @@
   <data name="VerifyYourAccount" xml:space="preserve">
     <value>подтвердите ваш аккаунт</value>
   </data>
+  <data name="AccountSuspended" xml:space="preserve">
+    <value>Аккаунт заблокирован</value>
+  </data>
+  <data name="CustomerAccountIsInvalid" xml:space="preserve">
+    <value>Учетная запись клиента недействительна</value>
+  </data>
+  <data name="CreditLimitExceeded" xml:space="preserve">
+    <value>превышен кредитный лимит</value>
+  </data>
 </root>

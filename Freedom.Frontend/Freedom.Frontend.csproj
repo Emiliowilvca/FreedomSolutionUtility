@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Freedom.Utility" Version="1.0.949" />
+    <PackageReference Include="Freedom.Utility" Version="1.0.950" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.141-beta" />
   </ItemGroup>
 

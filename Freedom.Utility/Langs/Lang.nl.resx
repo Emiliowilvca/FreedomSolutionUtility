@@ -4217,4 +4217,13 @@
   <data name="VerifyYourAccount" xml:space="preserve">
     <value>Verifieer uw account</value>
   </data>
+  <data name="AccountSuspended" xml:space="preserve">
+    <value>Account opgeschort</value>
+  </data>
+  <data name="CustomerAccountIsInvalid" xml:space="preserve">
+    <value>Klantaccount is ongeldig</value>
+  </data>
+  <data name="CreditLimitExceeded" xml:space="preserve">
+    <value>kredietlimiet overschreden</value>
+  </data>
 </root>

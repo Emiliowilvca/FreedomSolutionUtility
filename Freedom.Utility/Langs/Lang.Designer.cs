@@ -169,6 +169,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Account suspended.
+        /// </summary>
+        public static string AccountSuspended {
+            get {
+                return ResourceManager.GetString("AccountSuspended", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Account Type.
         /// </summary>
         public static string AccountType {
@@ -2077,6 +2086,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Credit limit exceeded.
+        /// </summary>
+        public static string CreditLimitExceeded {
+            get {
+                return ResourceManager.GetString("CreditLimitExceeded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Credit Limit is invalid.
         /// </summary>
         public static string CreditLimitIsInvalid {
@@ -2181,6 +2199,15 @@ namespace Freedom.Utility.Langs {
         public static string CustomerAccount {
             get {
                 return ResourceManager.GetString("CustomerAccount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Customer account is invalid.
+        /// </summary>
+        public static string CustomerAccountIsInvalid {
+            get {
+                return ResourceManager.GetString("CustomerAccountIsInvalid", resourceCulture);
             }
         }
         

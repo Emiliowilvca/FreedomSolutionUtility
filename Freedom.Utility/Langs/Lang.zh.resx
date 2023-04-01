@@ -4216,4 +4216,13 @@
   <data name="Verify" xml:space="preserve">
     <value>核实</value>
   </data>
+  <data name="AccountSuspended" xml:space="preserve">
+    <value>帐户暂停</value>
+  </data>
+  <data name="CustomerAccountIsInvalid" xml:space="preserve">
+    <value>客户帐号无效</value>
+  </data>
+  <data name="CreditLimitExceeded" xml:space="preserve">
+    <value>超出信用额度</value>
+  </data>
 </root>
