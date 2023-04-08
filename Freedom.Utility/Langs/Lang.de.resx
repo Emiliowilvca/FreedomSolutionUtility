@@ -4226,4 +4226,16 @@
   <data name="CreditLimitExceeded" xml:space="preserve">
     <value>Kreditlimit überschritten</value>
   </data>
+  <data name="VAT" xml:space="preserve">
+    <value>MwSt</value>
+  </data>
+  <data name="Manufacturing" xml:space="preserve">
+    <value>Herstellung</value>
+  </data>
+  <data name="AREYOUWANTTOCLOSE" xml:space="preserve">
+    <value>MÖCHTEN SIE SCHLIESSEN?</value>
+  </data>
+  <data name="Closing" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
 </root>

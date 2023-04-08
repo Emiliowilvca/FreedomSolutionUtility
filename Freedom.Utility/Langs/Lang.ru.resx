@@ -4226,4 +4226,16 @@
   <data name="CreditLimitExceeded" xml:space="preserve">
     <value>превышен кредитный лимит</value>
   </data>
+  <data name="VAT" xml:space="preserve">
+    <value>НДС</value>
+  </data>
+  <data name="Manufacturing" xml:space="preserve">
+    <value>производство</value>
+  </data>
+  <data name="AREYOUWANTTOCLOSE" xml:space="preserve">
+    <value>ВЫ ХОТИТЕ ЗАКРЫТЬ?</value>
+  </data>
+  <data name="Closing" xml:space="preserve">
+    <value>Закрытие</value>
+  </data>
 </root>

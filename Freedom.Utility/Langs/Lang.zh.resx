@@ -4225,4 +4225,16 @@
   <data name="CreditLimitExceeded" xml:space="preserve">
     <value>超出信用额度</value>
   </data>
+  <data name="VAT" xml:space="preserve">
+    <value>增值税</value>
+  </data>
+  <data name="Manufacturing" xml:space="preserve">
+    <value>制造业</value>
+  </data>
+  <data name="AREYOUWANTTOCLOSE" xml:space="preserve">
+    <value>你想关闭吗?</value>
+  </data>
+  <data name="Closing" xml:space="preserve">
+    <value>关闭</value>
+  </data>
 </root>

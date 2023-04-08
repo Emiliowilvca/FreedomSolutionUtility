@@ -33,6 +33,19 @@ namespace Freedom.Utility.Bindable
             return true;
         }
 
+        protected bool SetProperty<T>(ref T storage, T value, Action callback ,[CallerMemberName] string propertyName = null)
+        {
+            if (Equals(storage, value))
+            {
+                return false;
+            }
+            storage = value;
+            this.RaisePropertyChanged(propertyName);
+            callback?.Invoke();
+            return true;
+        }
+         
+
         protected void RaisePropertyChanged([CallerMemberName] string propertyName = null)
         {
             this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));

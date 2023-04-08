@@ -24,28 +24,7 @@ namespace Freedom.Frontend.Models.Bindable
 
         public bool IsPopulate { get => _isPopulate; set => SetProperty(ref _isPopulate, value); }
 
-        public string Code
-        {
-            get => _code; set 
-            {
-                var text = value;
-                if (!string.IsNullOrEmpty(text))
-                {
-                    if (text.Contains("'") ||
-                          text.Contains("`") ||
-                          text.Contains("´") ||
-                          text.Contains("~"))
-                    {
-                        text = text.Replace("'", "-")
-                            .Replace("`", "-")
-                            .Replace("´", "-")
-                            .Replace("~", "-");
-                        value = text;
-                    }                
-                }
-                SetProperty(ref _code, value);
-            }
-        }
+        public string Code { get => _code; set => SetProperty(ref _code, value);  }
 
         public string Name { get => _name; set => SetProperty(ref _name, value); }
 
@@ -55,25 +34,9 @@ namespace Freedom.Frontend.Models.Bindable
 
         public int MoneyId { get => _moneyId; set => SetProperty(ref _moneyId, value); }
 
-        public decimal Quantity
-        {
-            get => _quantity;
-            set
-            {
-                SetProperty(ref _quantity, value);
-                Refresh();
-            }
-        }
+        public decimal Quantity { get => _quantity; set => SetProperty(ref _quantity, value,Refresh); }
 
-        public decimal SalePrice
-        {
-            get => _salePrice;
-            set
-            {
-                SetProperty(ref _salePrice, value);
-                Refresh();
-            }
-        }
+        public decimal SalePrice { get => _salePrice; set => SetProperty(ref _salePrice, value, Refresh); }
 
         public decimal MaximumDiscount
         {

@@ -511,6 +511,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ARE YOU WANT TO CLOSE?.
+        /// </summary>
+        public static string AREYOUWANTTOCLOSE {
+            get {
+                return ResourceManager.GetString("AREYOUWANTTOCLOSE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Arrears.
         /// </summary>
         public static string arrears {
@@ -1596,6 +1605,15 @@ namespace Freedom.Utility.Langs {
         public static string Close {
             get {
                 return ResourceManager.GetString("Close", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to CLOSING.
+        /// </summary>
+        public static string Closing {
+            get {
+                return ResourceManager.GetString("Closing", resourceCulture);
             }
         }
         
@@ -4998,6 +5016,15 @@ namespace Freedom.Utility.Langs {
         public static string ManufactureDateIsInvalid {
             get {
                 return ResourceManager.GetString("ManufactureDateIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Manufacturing.
+        /// </summary>
+        public static string Manufacturing {
+            get {
+                return ResourceManager.GetString("Manufacturing", resourceCulture);
             }
         }
         
@@ -9282,6 +9309,15 @@ namespace Freedom.Utility.Langs {
         public static string Value {
             get {
                 return ResourceManager.GetString("Value", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to VAT.
+        /// </summary>
+        public static string VAT {
+            get {
+                return ResourceManager.GetString("VAT", resourceCulture);
             }
         }
         
