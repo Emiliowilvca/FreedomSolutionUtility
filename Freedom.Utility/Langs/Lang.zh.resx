@@ -4237,4 +4237,13 @@
   <data name="Closing" xml:space="preserve">
     <value>关闭</value>
   </data>
+  <data name="ModifyPrices" xml:space="preserve">
+    <value>修改价格</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>向下移动</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>提升</value>
+  </data>
 </root>

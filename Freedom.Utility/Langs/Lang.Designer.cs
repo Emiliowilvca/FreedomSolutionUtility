@@ -2761,6 +2761,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to down.
+        /// </summary>
+        public static string Down {
+            get {
+                return ResourceManager.GetString("Down", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Driver&apos;s license.
         /// </summary>
         public static string DriversLicense {
@@ -5322,6 +5331,15 @@ namespace Freedom.Utility.Langs {
         public static string ModifyPriceInSales {
             get {
                 return ResourceManager.GetString("ModifyPriceInSales", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Modify prices.
+        /// </summary>
+        public static string ModifyPrices {
+            get {
+                return ResourceManager.GetString("ModifyPrices", resourceCulture);
             }
         }
         
@@ -8985,6 +9003,15 @@ namespace Freedom.Utility.Langs {
         public static string UntilNumberIsInvalid {
             get {
                 return ResourceManager.GetString("UntilNumberIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to up.
+        /// </summary>
+        public static string Up {
+            get {
+                return ResourceManager.GetString("Up", resourceCulture);
             }
         }
         

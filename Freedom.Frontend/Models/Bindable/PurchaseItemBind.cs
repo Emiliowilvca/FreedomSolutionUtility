@@ -1,5 +1,4 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseEntity;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -56,12 +55,11 @@ namespace Freedom.Frontend.Models.Bindable
                     var taxpercent = (TaxRate / 100) + 1;
                     taxValue = CostPrice - (CostPrice / taxpercent);
                 }
-                return taxValue;
+                return IsPopulate ? taxValue : 0;
             }
-
         }
 
-        public decimal SubTotal => CostPrice * Quantity;
+        public decimal SubTotal => IsPopulate ? CostPrice * Quantity : 0;
 
         private void Refresh()
         {

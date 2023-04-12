@@ -4238,4 +4238,13 @@
   <data name="Closing" xml:space="preserve">
     <value>Cierre</value>
   </data>
+  <data name="ModifyPrices" xml:space="preserve">
+    <value>Modificar precios</value>
+  </data>
+  <data name="Down" xml:space="preserve">
+    <value>abajo</value>
+  </data>
+  <data name="Up" xml:space="preserve">
+    <value>arriba</value>
+  </data>
 </root>
