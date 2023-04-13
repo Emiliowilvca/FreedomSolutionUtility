@@ -4247,4 +4247,13 @@
   <data name="ModifyPrices" xml:space="preserve">
     <value>Preise ändern</value>
   </data>
+  <data name="InsertEmptyRow" xml:space="preserve">
+    <value>leere Zeile einfügen</value>
+  </data>
+  <data name="MoveRowDown" xml:space="preserve">
+    <value>Zeile nach unten verschieben</value>
+  </data>
+  <data name="MoveRowUp" xml:space="preserve">
+    <value>Reihe nach oben verschieben</value>
+  </data>
 </root>

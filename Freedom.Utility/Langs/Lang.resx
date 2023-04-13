@@ -4247,4 +4247,13 @@
   <data name="Down" xml:space="preserve">
     <value>down</value>
   </data>
+  <data name="InsertEmptyRow" xml:space="preserve">
+    <value>Insert empty row</value>
+  </data>
+  <data name="MoveRowUp" xml:space="preserve">
+    <value>Move row up</value>
+  </data>
+  <data name="MoveRowDown" xml:space="preserve">
+    <value>Move row down</value>
+  </data>
 </root>

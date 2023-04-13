@@ -4246,4 +4246,13 @@
   <data name="Up" xml:space="preserve">
     <value>提升</value>
   </data>
+  <data name="InsertEmptyRow" xml:space="preserve">
+    <value>插入空行</value>
+  </data>
+  <data name="MoveRowDown" xml:space="preserve">
+    <value>向下移动行</value>
+  </data>
+  <data name="MoveRowUp" xml:space="preserve">
+    <value>向上移动行</value>
+  </data>
 </root>

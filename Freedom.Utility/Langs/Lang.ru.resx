@@ -4247,4 +4247,13 @@
   <data name="Up" xml:space="preserve">
     <value>вверх</value>
   </data>
+  <data name="InsertEmptyRow" xml:space="preserve">
+    <value>вставить пустую строку</value>
+  </data>
+  <data name="MoveRowDown" xml:space="preserve">
+    <value>переместить строку вниз</value>
+  </data>
+  <data name="MoveRowUp" xml:space="preserve">
+    <value>переместить строку вверх</value>
+  </data>
 </root>

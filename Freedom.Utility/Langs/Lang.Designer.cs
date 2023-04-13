@@ -3922,6 +3922,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Insert empty row.
+        /// </summary>
+        public static string InsertEmptyRow {
+            get {
+                return ResourceManager.GetString("InsertEmptyRow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Intends to cancel..
         /// </summary>
         public static string IntendsToCancel {
@@ -5394,6 +5403,24 @@ namespace Freedom.Utility.Langs {
         public static string MothersName {
             get {
                 return ResourceManager.GetString("MothersName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move row down.
+        /// </summary>
+        public static string MoveRowDown {
+            get {
+                return ResourceManager.GetString("MoveRowDown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Move row up.
+        /// </summary>
+        public static string MoveRowUp {
+            get {
+                return ResourceManager.GetString("MoveRowUp", resourceCulture);
             }
         }
         

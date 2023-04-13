@@ -4247,4 +4247,13 @@
   <data name="Up" xml:space="preserve">
     <value>acima</value>
   </data>
+  <data name="InsertEmptyRow" xml:space="preserve">
+    <value>inserir linha vazia</value>
+  </data>
+  <data name="MoveRowDown" xml:space="preserve">
+    <value>mover linha para baixo</value>
+  </data>
+  <data name="MoveRowUp" xml:space="preserve">
+    <value>mover linha para cima</value>
+  </data>
 </root>

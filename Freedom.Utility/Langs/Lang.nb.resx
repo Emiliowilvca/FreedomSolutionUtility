@@ -4247,4 +4247,13 @@
   <data name="Up" xml:space="preserve">
     <value>opp</value>
   </data>
+  <data name="InsertEmptyRow" xml:space="preserve">
+    <value>sett inn tom rad</value>
+  </data>
+  <data name="MoveRowDown" xml:space="preserve">
+    <value>flytte rad ned</value>
+  </data>
+  <data name="MoveRowUp" xml:space="preserve">
+    <value>flytte rad opp</value>
+  </data>
 </root>
