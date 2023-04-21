@@ -4256,4 +4256,22 @@
   <data name="MoveRowUp" xml:space="preserve">
     <value>mover linha para cima</value>
   </data>
+  <data name="AppIsAlreadyRunning" xml:space="preserve">
+    <value>O aplicativo já está em execução</value>
+  </data>
+  <data name="Installments" xml:space="preserve">
+    <value>Parcelado</value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>Percentagem</value>
+  </data>
+  <data name="PriceByQuantity" xml:space="preserve">
+    <value>Preço por quantidade</value>
+  </data>
+  <data name="ProductInformation" xml:space="preserve">
+    <value>Informação do produto</value>
+  </data>
+  <data name="SalePriceAdjustment" xml:space="preserve">
+    <value>Ajuste de preço de venda</value>
+  </data>
 </root>

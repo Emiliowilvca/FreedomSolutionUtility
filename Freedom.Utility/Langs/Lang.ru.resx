@@ -4256,4 +4256,22 @@
   <data name="MoveRowUp" xml:space="preserve">
     <value>переместить строку вверх</value>
   </data>
+  <data name="AppIsAlreadyRunning" xml:space="preserve">
+    <value>Приложение уже запущено</value>
+  </data>
+  <data name="Installments" xml:space="preserve">
+    <value>Рассрочка</value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>Процент</value>
+  </data>
+  <data name="PriceByQuantity" xml:space="preserve">
+    <value>Цена по количеству</value>
+  </data>
+  <data name="ProductInformation" xml:space="preserve">
+    <value>Информация о товаре</value>
+  </data>
+  <data name="SalePriceAdjustment" xml:space="preserve">
+    <value>Корректировка цены продажи</value>
+  </data>
 </root>

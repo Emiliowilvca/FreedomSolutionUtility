@@ -475,6 +475,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to App is already running.
+        /// </summary>
+        public static string AppIsAlreadyRunning {
+            get {
+                return ResourceManager.GetString("AppIsAlreadyRunning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Applications.
         /// </summary>
         public static string Applications {
@@ -3931,6 +3940,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Installments.
+        /// </summary>
+        public static string Installments {
+            get {
+                return ResourceManager.GetString("Installments", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Intends to cancel..
         /// </summary>
         public static string IntendsToCancel {
@@ -6073,6 +6091,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Percentage.
+        /// </summary>
+        public static string Percentage {
+            get {
+                return ResourceManager.GetString("Percentage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Period.
         /// </summary>
         public static string Period {
@@ -6249,6 +6276,15 @@ namespace Freedom.Utility.Langs {
         public static string PriceAccordingToQuantityIsNotValid {
             get {
                 return ResourceManager.GetString("PriceAccordingToQuantityIsNotValid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Price by quantity.
+        /// </summary>
+        public static string PriceByQuantity {
+            get {
+                return ResourceManager.GetString("PriceByQuantity", resourceCulture);
             }
         }
         
@@ -6501,6 +6537,15 @@ namespace Freedom.Utility.Langs {
         public static string ProductCurrencyIsInvalid {
             get {
                 return ResourceManager.GetString("ProductCurrencyIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Product Information.
+        /// </summary>
+        public static string ProductInformation {
+            get {
+                return ResourceManager.GetString("ProductInformation", resourceCulture);
             }
         }
         
@@ -7320,6 +7365,15 @@ namespace Freedom.Utility.Langs {
         public static string SalePrice {
             get {
                 return ResourceManager.GetString("SalePrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sale price adjustment.
+        /// </summary>
+        public static string SalePriceAdjustment {
+            get {
+                return ResourceManager.GetString("SalePriceAdjustment", resourceCulture);
             }
         }
         

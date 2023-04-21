@@ -4256,4 +4256,22 @@
   <data name="MoveRowUp" xml:space="preserve">
     <value>flytte rækken op</value>
   </data>
+  <data name="AppIsAlreadyRunning" xml:space="preserve">
+    <value>Appen kører allerede</value>
+  </data>
+  <data name="SalePriceAdjustment" xml:space="preserve">
+    <value>Salgsprisregulering</value>
+  </data>
+  <data name="ProductInformation" xml:space="preserve">
+    <value>produkt information</value>
+  </data>
+  <data name="PriceByQuantity" xml:space="preserve">
+    <value>Pris efter mængde</value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>Procent</value>
+  </data>
+  <data name="Installments" xml:space="preserve">
+    <value>Afdrag</value>
+  </data>
 </root>

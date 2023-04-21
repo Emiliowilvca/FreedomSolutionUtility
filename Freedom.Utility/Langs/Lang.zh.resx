@@ -4255,4 +4255,22 @@
   <data name="MoveRowUp" xml:space="preserve">
     <value>向上移动行</value>
   </data>
+  <data name="AppIsAlreadyRunning" xml:space="preserve">
+    <value>应用程序已经在运行</value>
+  </data>
+  <data name="SalePriceAdjustment" xml:space="preserve">
+    <value>销售价格调整</value>
+  </data>
+  <data name="ProductInformation" xml:space="preserve">
+    <value>产品信息</value>
+  </data>
+  <data name="PriceByQuantity" xml:space="preserve">
+    <value>按量计价</value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>百分比</value>
+  </data>
+  <data name="Installments" xml:space="preserve">
+    <value>分期付款</value>
+  </data>
 </root>
