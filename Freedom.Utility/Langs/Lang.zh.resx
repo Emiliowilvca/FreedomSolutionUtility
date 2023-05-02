@@ -4273,4 +4273,7 @@
   <data name="Installments" xml:space="preserve">
     <value>分期付款</value>
   </data>
+  <data name="CustomerAccountDebtFree" xml:space="preserve">
+    <value>客户账户无债务</value>
+  </data>
 </root>

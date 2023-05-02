@@ -2230,6 +2230,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Customer account debt free.
+        /// </summary>
+        public static string CustomerAccountDebtFree {
+            get {
+                return ResourceManager.GetString("CustomerAccountDebtFree", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Customer account is invalid.
         /// </summary>
         public static string CustomerAccountIsInvalid {

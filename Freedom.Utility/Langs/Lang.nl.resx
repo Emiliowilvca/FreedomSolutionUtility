@@ -4274,4 +4274,7 @@
   <data name="Installments" xml:space="preserve">
     <value>termijnen</value>
   </data>
+  <data name="CustomerAccountDebtFree" xml:space="preserve">
+    <value>Klantenaccount schuldenvrij</value>
+  </data>
 </root>

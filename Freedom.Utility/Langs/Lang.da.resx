@@ -4274,4 +4274,7 @@
   <data name="Installments" xml:space="preserve">
     <value>Afdrag</value>
   </data>
+  <data name="CustomerAccountDebtFree" xml:space="preserve">
+    <value>Kundekonto gældfri</value>
+  </data>
 </root>

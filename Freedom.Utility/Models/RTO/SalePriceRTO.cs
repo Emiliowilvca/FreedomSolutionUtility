@@ -1,9 +1,8 @@
-using Freedom.Utility.Models.BaseEntity;
+﻿using Freedom.Utility.Models.BaseRTO;
 
-namespace Freedom.Utility.Models.Dto
+namespace Freedom.Utility.Models.RTO
 {
-    [Serializable]
-    public class SalePriceDto : ISalePrice
+    public class SalePriceRTO : ISalePriceRTO
     {
         public int Id { get; set; }
 
@@ -20,5 +19,9 @@ namespace Freedom.Utility.Models.Dto
         public int QuantityPrice { get; set; }
 
         public int Installment { get; set; }
+
+        public string MoneySymbol { get; set; }
+
+        public string MoneyName { get; set; }
     }
 }

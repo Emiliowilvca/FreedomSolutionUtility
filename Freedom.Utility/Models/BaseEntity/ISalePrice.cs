@@ -15,5 +15,7 @@ namespace Freedom.Utility.Models.BaseEntity
         decimal ValuePrice { get; set; }
 
         int QuantityPrice { get; set; }
+
+        int Installment { get; set; }
     }
 }

@@ -4274,4 +4274,7 @@
   <data name="SalePriceAdjustment" xml:space="preserve">
     <value>Ajuste del precio de venta</value>
   </data>
+  <data name="CustomerAccountDebtFree" xml:space="preserve">
+    <value>Cuenta de cliente libre de deudas</value>
+  </data>
 </root>
