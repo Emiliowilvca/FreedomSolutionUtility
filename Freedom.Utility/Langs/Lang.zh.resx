@@ -4276,4 +4276,25 @@
   <data name="CustomerAccountDebtFree" xml:space="preserve">
     <value>客户账户无债务</value>
   </data>
+  <data name="InternalControlWithDuplicate" xml:space="preserve">
+    <value>内部控制重复</value>
+  </data>
+  <data name="PrintPreview" xml:space="preserve">
+    <value>打印预览</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="zoom" xml:space="preserve">
+    <value>飞涨</value>
+  </data>
+  <data name="StockSoldOut" xml:space="preserve">
+    <value>存货卖光了！ 打算继续</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>新版本可用</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>下载</value>
+  </data>
 </root>

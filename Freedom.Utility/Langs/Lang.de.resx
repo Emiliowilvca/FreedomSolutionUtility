@@ -4277,4 +4277,25 @@
   <data name="CustomerAccountDebtFree" xml:space="preserve">
     <value>Kundenkonto schuldenfrei</value>
   </data>
+  <data name="InternalControlWithDuplicate" xml:space="preserve">
+    <value>Interne Kontrolle mit Duplikat</value>
+  </data>
+  <data name="PrintPreview" xml:space="preserve">
+    <value>Druckvorschau</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Stunde</value>
+  </data>
+  <data name="zoom" xml:space="preserve">
+    <value>Zoomen</value>
+  </data>
+  <data name="StockSoldOut" xml:space="preserve">
+    <value>Lager ausverkauft! beabsichtigt fortzusetzen</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>neue Version ist verfügbar</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>herunterladen</value>
+  </data>
 </root>

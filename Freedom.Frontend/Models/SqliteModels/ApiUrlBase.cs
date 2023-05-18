@@ -16,5 +16,10 @@ namespace Freedom.Frontend.Models.SqliteModels
         public string EndPoint { get; set; }
 
         public string EndPointAccount { get; set; }
+
+
+        public string DeploymentEndPoint { get; set; }
+
+
     }
 }

@@ -2788,6 +2788,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Download.
+        /// </summary>
+        public static string download {
+            get {
+                return ResourceManager.GetString("download", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Driver&apos;s license.
         /// </summary>
         public static string DriversLicense {
@@ -4035,6 +4044,15 @@ namespace Freedom.Utility.Langs {
         public static string InternalControlIsInvalid {
             get {
                 return ResourceManager.GetString("InternalControlIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Internal control with duplicate.
+        /// </summary>
+        public static string InternalControlWithDuplicate {
+            get {
+                return ResourceManager.GetString("InternalControlWithDuplicate", resourceCulture);
             }
         }
         
@@ -5488,6 +5506,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to new version is available.
+        /// </summary>
+        public static string NewVersionAvailable {
+            get {
+                return ResourceManager.GetString("NewVersionAvailable", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Next.
         /// </summary>
         public static string Next {
@@ -6411,6 +6438,15 @@ namespace Freedom.Utility.Langs {
         public static string PrintInvoiceLX_350 {
             get {
                 return ResourceManager.GetString("PrintInvoiceLX-350", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Print Preview.
+        /// </summary>
+        public static string PrintPreview {
+            get {
+                return ResourceManager.GetString("PrintPreview", resourceCulture);
             }
         }
         
@@ -8503,6 +8539,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Stock sold out! intends to continue.
+        /// </summary>
+        public static string StockSoldOut {
+            get {
+                return ResourceManager.GetString("StockSoldOut", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Stop.
         /// </summary>
         public static string Stop {
@@ -8697,6 +8742,15 @@ namespace Freedom.Utility.Langs {
         public static string TheReasonIsInvalid {
             get {
                 return ResourceManager.GetString("TheReasonIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Time.
+        /// </summary>
+        public static string Time {
+            get {
+                return ResourceManager.GetString("Time", resourceCulture);
             }
         }
         
@@ -9804,6 +9858,15 @@ namespace Freedom.Utility.Langs {
         public static string ZoneIsRequired {
             get {
                 return ResourceManager.GetString("ZoneIsRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to zoom.
+        /// </summary>
+        public static string zoom {
+            get {
+                return ResourceManager.GetString("zoom", resourceCulture);
             }
         }
     }

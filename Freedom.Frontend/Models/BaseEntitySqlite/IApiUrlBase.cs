@@ -9,5 +9,7 @@ namespace Freedom.Frontend.Models.BaseEntitySqlite
         string EndPoint { get; set; }
 
         string EndPointAccount { get; set; }
+
+        
     }
 }

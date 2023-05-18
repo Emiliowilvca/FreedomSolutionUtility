@@ -457,7 +457,7 @@
         public const string Icon452 = "\ue9ca";
         public const string Icon453 = "\ue9ce";
         public const string Icon454 = "\uea8f";
-        public const string Icon455 = "\uea90";
+        public const string PDF = "\uea90";
         public const string Icon456 = "\uea93";
         public const string Icon457 = "\uea95";
         public const string Icon458 = "\uea91";
@@ -465,7 +465,7 @@
         public const string Icon460 = "\uea94";
         public const string Icon461 = "\uea97";
         public const string Icon462 = "\ue1ef";
-        public const string Icon463 = "\uea99";
+        public const string Broom = "\uea99";
         public const string Icon464 = "\uea1f";
         public const string Icon465 = "\uea35";
         public const string Icon466 = "\uea24";

@@ -4277,4 +4277,25 @@
   <data name="CustomerAccountDebtFree" xml:space="preserve">
     <value>Клиентский счет без долгов</value>
   </data>
+  <data name="InternalControlWithDuplicate" xml:space="preserve">
+    <value>Внутренний контроль с дубликатом</value>
+  </data>
+  <data name="PrintPreview" xml:space="preserve">
+    <value>предварительный просмотр печати</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>час</value>
+  </data>
+  <data name="zoom" xml:space="preserve">
+    <value>увеличить</value>
+  </data>
+  <data name="StockSoldOut" xml:space="preserve">
+    <value>Склад распродан! намерен продолжать</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>доступна новая версия</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>скачать</value>
+  </data>
 </root>

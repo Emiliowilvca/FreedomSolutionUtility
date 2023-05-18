@@ -4277,4 +4277,25 @@
   <data name="CustomerAccountDebtFree" xml:space="preserve">
     <value>Kundekonto gældfri</value>
   </data>
+  <data name="InternalControlWithDuplicate" xml:space="preserve">
+    <value>Intern kontrol med duplikat</value>
+  </data>
+  <data name="PrintPreview" xml:space="preserve">
+    <value>udskriftsvisning</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="zoom" xml:space="preserve">
+    <value>zoom</value>
+  </data>
+  <data name="StockSoldOut" xml:space="preserve">
+    <value>Lager udsolgt! har til hensigt at fortsætte</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>ny version er tilgængelig</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>Hent</value>
+  </data>
 </root>

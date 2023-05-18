@@ -4277,4 +4277,25 @@
   <data name="CustomerAccountDebtFree" xml:space="preserve">
     <value>Klantenaccount schuldenvrij</value>
   </data>
+  <data name="InternalControlWithDuplicate" xml:space="preserve">
+    <value>Interne controle met duplicaat</value>
+  </data>
+  <data name="PrintPreview" xml:space="preserve">
+    <value>afdrukvoorbeeld</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>tid</value>
+  </data>
+  <data name="zoom" xml:space="preserve">
+    <value>zoom</value>
+  </data>
+  <data name="StockSoldOut" xml:space="preserve">
+    <value>Voorraad uitverkocht! voornemens is door te gaan</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>nieuwe versie is beschikbaar</value>
+  </data>
+  <data name="download" xml:space="preserve">
+    <value>downloaden</value>
+  </data>
 </root>
