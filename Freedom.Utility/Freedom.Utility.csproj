@@ -2,18 +2,18 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Version>1.0.983</Version>
+    <Version>1.0.998</Version>
     <Nullable>disable</Nullable>	  
     <PackageIcon>Letter-F-icon.png</PackageIcon>
     <PackAsTool>False</PackAsTool>    
     <Title>Dto Model Shared</Title>
-	<Authors>EmilioWildberger</Authors>
-	<Company>Sicro</Company>
-	<Product>FreedomUtililies</Product>
-	<Description>Share DtoModels between backend and frontend in FreedomSolution project</Description>
-	<GenerateDocumentationFile>true</GenerateDocumentationFile>
-	<RepositoryUrl>https://github.com/Emiliowilvca/FreedomSolutionUtility</RepositoryUrl>
-	<RepositoryType>github</RepositoryType>	  
+    <Authors>EmilioWildberger</Authors>
+    <Company>Sicro</Company>
+    <Product>FreedomUtililies</Product>
+    <Description>Share DtoModels between backend and frontend in FreedomSolution project</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <RepositoryUrl>https://github.com/Emiliowilvca/FreedomSolutionUtility</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>	  
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />

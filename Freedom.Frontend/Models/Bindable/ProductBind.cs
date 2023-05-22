@@ -1,11 +1,11 @@
 ﻿using Freedom.Utility.Bindable;
+using Freedom.Utility.Models.ModelPlus;
+using Freedom.Utility.Models.RTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
-    [Serializable]
-    public class ProductBind : BindableBase
+    public class ProductBind : BindableBase, IProductFull
     {
-        private bool _activeProduct;
         private bool _alterStock;
         private bool _isService;
         private bool _payTax;
@@ -29,33 +29,47 @@ namespace Freedom.Frontend.Models.Bindable
         private string _brandName;
         private string _code;
         private string _codeProvider;
-        private string _column;
-        private string _comissionSale;
-        private string _costPrice;
+        private int _column;
         private string _feature;
         private string _genericName;
         private string _groupName;
-        private string _line;
-        private string _maxDiscount;
+        private int _line;
         private string _measureName;
         private string _name;
         private string _packageName;
         private string _priorityName;
         private string _productExpiration;
-        private string _quantityBox;
-        private string _salePrice;
+        private decimal _salePrice;
         private string _sectorName;
-        private string _shelving;
-        private string _side;
+        private int _shelving;
+        private int _side;
         private string _sourceName;
-        private string _stockMax;
-        private string _stockMin;
-        private string _stockQuantity;
         private string _subGroupName;
-        private string _taxRate;
-        private string _weight;
+        private string _moneyName;
+        private string _moneySymbol;
+        private string _urlPrimaryImage;
+        private string _urlSecondaryImage;
+        private bool _isActive;
+        private decimal _comissionSale;
+        private decimal _maxDiscount;
+        private decimal _quantityBox;
+        private decimal _stockMax;
+        private decimal _stockMin;
+        private decimal _taxRate;
+        private decimal _weight;
+        private decimal _costPrice;
+        private int _quantityPrice;
+        private int _installment;
+        private string _shopName;
+        private string _lote;
+        private DateTime _manufactory;
+        private DateTime _expiration;
+        private int _priceLevel;
+        private decimal _stockQuantity;
+        private int _stockId;
+        private int _costPriceId;
+        private int _salePriceId;
 
-        public bool ActiveProduct { get => _activeProduct; set => SetProperty(ref _activeProduct, value); }
 
         public bool AlterStock { get => _alterStock; set => SetProperty(ref _alterStock, value); }
 
@@ -103,21 +117,11 @@ namespace Freedom.Frontend.Models.Bindable
 
         public string CodeProvider { get => _codeProvider; set => SetProperty(ref _codeProvider, value); }
 
-        public string Column { get => _column; set => SetProperty(ref _column, value); }
-
-        public string ComissionSale { get => _comissionSale; set => SetProperty(ref _comissionSale, value); }
-
-        public string CostPrice { get => _costPrice; set => SetProperty(ref _costPrice, value); }
-
         public string Feature { get => _feature; set => SetProperty(ref _feature, value); }
 
         public string GenericName { get => _genericName; set => SetProperty(ref _genericName, value); }
 
         public string GroupName { get => _groupName; set => SetProperty(ref _groupName, value); }
-
-        public string Line { get => _line; set => SetProperty(ref _line, value); }
-
-        public string MaxDiscount { get => _maxDiscount; set => SetProperty(ref _maxDiscount, value); }
 
         public string MeasureName { get => _measureName; set => SetProperty(ref _measureName, value); }
 
@@ -129,28 +133,83 @@ namespace Freedom.Frontend.Models.Bindable
 
         public string ProductExpiration { get => _productExpiration; set => SetProperty(ref _productExpiration, value); }
 
-        public string QuantityBox { get => _quantityBox; set => SetProperty(ref _quantityBox, value); }
-
-        public string SalePrice { get => _salePrice; set => SetProperty(ref _salePrice, value); }
+        public decimal SalePrice { get => _salePrice; set => SetProperty(ref _salePrice, value); }
 
         public string SectorName { get => _sectorName; set => SetProperty(ref _sectorName, value); }
 
-        public string Shelving { get => _shelving; set => SetProperty(ref _shelving, value); }
+        public int Shelving { get => _shelving; set => SetProperty(ref _shelving, value); }
 
-        public string Side { get => _side; set => SetProperty(ref _side, value); }
+        public int Side { get => _side; set => SetProperty(ref _side, value); }
+
+        public int Column { get => _column; set => SetProperty(ref _column, value); }
+
+        public int Line { get => _line; set => SetProperty(ref _line, value); }
 
         public string SourceName { get => _sourceName; set => SetProperty(ref _sourceName, value); }
 
-        public string StockMax { get => _stockMax; set => SetProperty(ref _stockMax, value); }
-
-        public string StockMin { get => _stockMin; set => SetProperty(ref _stockMin, value); }
-
-        public string StockQuantity { get => _stockQuantity; set => SetProperty(ref _stockQuantity, value); }
-
         public string SubGroupName { get => _subGroupName; set => SetProperty(ref _subGroupName, value); }
 
-        public string TaxRate { get => _taxRate; set => SetProperty(ref _taxRate, value); }
+        public bool IsActive { get => _isActive; set => SetProperty(ref _isActive, value); }
 
-        public string Weight { get => _weight; set => SetProperty(ref _weight, value); }
+        public decimal ComissionSale { get => _comissionSale; set => SetProperty(ref _comissionSale, value); }
+
+        public decimal MaxDiscount { get => _maxDiscount; set => SetProperty(ref _maxDiscount, value); }
+
+        public decimal QuantityBox { get => _quantityBox; set => SetProperty(ref _quantityBox, value); }
+
+        public decimal StockMax { get => _stockMax; set => SetProperty(ref _stockMax, value); }
+
+        public decimal StockMin { get => _stockMin; set => SetProperty(ref _stockMin, value); }
+
+        public decimal TaxRate { get => _taxRate; set => SetProperty(ref _taxRate, value); }
+
+        public decimal Weight { get => _weight; set => SetProperty(ref _weight, value); }
+
+        /* Prices */
+
+        public int CostPriceId { get => _costPriceId; set => SetProperty(ref _costPriceId, value); }
+
+        public int SalePriceId { get => _salePriceId; set => SetProperty(ref _salePriceId, value); }
+
+        public decimal CostPrice { get => _costPrice; set => SetProperty(ref _costPrice, value); }
+
+        public int PriceLevel { get => _priceLevel; set => SetProperty(ref _priceLevel, value); }
+
+        public int QuantityPrice { get => _quantityPrice; set => SetProperty(ref _quantityPrice, value); }
+
+        public int Installment { get => _installment; set => SetProperty(ref _installment, value); }
+
+        public string MoneyName { get => _moneyName; set => SetProperty(ref _moneyName, value); }
+
+        public string MoneySymbol { get => _moneySymbol; set => SetProperty(ref _moneySymbol, value); }
+
+        /* Shop stock */
+        public string ShopName { get => _shopName; set => SetProperty(ref _shopName, value); }
+
+        public decimal StockQuantity { get => _stockQuantity; set => SetProperty(ref _stockQuantity, value); }
+
+        public string Lote { get => _lote; set => SetProperty(ref _lote, value); }
+
+        public DateTime Manufactory { get => _manufactory; set => SetProperty(ref _manufactory, value); }
+
+        public DateTime Expiration { get => _expiration; set => SetProperty(ref _expiration, value); }
+
+        public int StockId { get => _stockId; set => SetProperty(ref _stockId, value); }
+
+        /* Images */
+
+        public string UrlPrimaryImage { get => _urlPrimaryImage; set => SetProperty(ref _urlPrimaryImage, value); }
+
+        public string UrlSecondaryImage { get => _urlSecondaryImage; set => SetProperty(ref _urlSecondaryImage, value); }
+
+        public IEnumerable<SalePriceRTO> Prices { get; set; }
+
+        public IEnumerable<StockRTO> Stocks { get; set; }
+
+        public IEnumerable<ApplyRTO> Applies { get; set; }
+
+        public IEnumerable<WayAdminRTO> WayAdmins { get; set; }
+
+        public IEnumerable<DrugRTO> Drugs { get; set; }
     }
 }

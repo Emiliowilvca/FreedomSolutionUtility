@@ -1,8 +1,6 @@
 ﻿using FluentValidation;
 using Freedom.Utility.Langs;
 using Freedom.Utility.Variables;
-using System;
-using System.Collections.Generic;
 using System.Globalization;
 
 namespace Freedom.Utility.ValidatorExtension
@@ -931,7 +929,6 @@ namespace Freedom.Utility.ValidatorExtension
             return options;
         }
 
-
         public static IRuleBuilder<T, DateTime> PaymentDate<T>(this IRuleBuilder<T, DateTime> ruleBuilder)
         {
             var startdate = DateTime.UtcNow.AddYears(-100);
@@ -944,7 +941,6 @@ namespace Freedom.Utility.ValidatorExtension
                                             .WithErrorCode(nameof(Lang.PaymentDateIsInvalid));
             return options;
         }
-
 
         #endregion Datetime
 
@@ -1126,6 +1122,19 @@ namespace Freedom.Utility.ValidatorExtension
                           .Must(GuidExtensions.BeAValidGuid)
                                .WithMessage(message)
                                .WithErrorCode(errorCode);
+            return options;
+        }
+
+        public static IRuleBuilder<T, byte[]> Generic<T>(this IRuleBuilder<T, byte[]> ruleBuilder, string message, string errorCode)
+        {
+            var options = ruleBuilder
+                         .NotNull()
+                               .WithMessage(message)
+                               .WithErrorCode(errorCode)
+                         .Must(x => x.Length > 0)
+                            .WithMessage(message)
+                            .WithErrorCode(errorCode);
+
             return options;
         }
 

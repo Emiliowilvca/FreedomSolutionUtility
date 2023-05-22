@@ -19,5 +19,13 @@
 
 
         public static readonly string EmailRegex = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+
+
+        /// <summary>
+        /// https://storage.googleapis.com/imagepro-freedom-app/{imagekey}
+        /// </summary>
+        public static readonly string GCSBucketImagePath = @"https://storage.googleapis.com/imagepro-freedom-app/";
+
+
     }
 }

@@ -977,7 +977,7 @@
     <value>er ikke et gyldigt telefon nummer</value>
     <comment />
   </data>
-  <data name="PictureSource" xml:space="preserve">
+  <data name="ImageSourceQuestion" xml:space="preserve">
     <value>Hvor vil du tage billedet?</value>
     <comment />
   </data>
@@ -3887,7 +3887,7 @@
   <data name="CopyCodeToClipboard" xml:space="preserve">
     <value>Kopiér koden til udklipsholderen</value>
   </data>
-  <data name="CopyPicture" xml:space="preserve">
+  <data name="CopyImage" xml:space="preserve">
     <value>Kopier billede</value>
   </data>
   <data name="DeleteImage" xml:space="preserve">
@@ -4297,5 +4297,23 @@
   </data>
   <data name="download" xml:space="preserve">
     <value>Hent</value>
+  </data>
+  <data name="ImageAlreadyExists" xml:space="preserve">
+    <value>Billedet findes allerede</value>
+  </data>
+  <data name="ImageIsInvalid" xml:space="preserve">
+    <value>Billedet er ugyldigt</value>
+  </data>
+  <data name="ReallyIntendsRemoveImage" xml:space="preserve">
+    <value>har virkelig til hensigt at fjerne dette billede</value>
+  </data>
+  <data name="ProductImageIndexIsInvalid" xml:space="preserve">
+    <value>Produktbilledeindekset er ugyldigt</value>
+  </data>
+  <data name="ImageIdIsInvalid" xml:space="preserve">
+    <value>billed-id er ugyldigt</value>
+  </data>
+  <data name="OutOfStock" xml:space="preserve">
+    <value>udsolgt</value>
   </data>
 </root>

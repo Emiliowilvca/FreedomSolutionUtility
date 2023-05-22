@@ -13,6 +13,9 @@ namespace Freedom.Utility.Responses
         [JsonPropertyName("message")]
         public string Menssage { get; set; }
 
+        [JsonPropertyName("errordata")]
+        public string ErrorData {get; set; }
+
         [JsonPropertyName("explanation")]
         public string Explanation { get; set; }
     }

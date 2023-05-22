@@ -1,5 +1,6 @@
 ﻿namespace Freedom.Utility.Models.BaseRTO
 {
+    [Obsolete("use product full", true)]
     public interface IProductItemRTO : IProductRTO
     {
         string CodeProvider { get; set; }

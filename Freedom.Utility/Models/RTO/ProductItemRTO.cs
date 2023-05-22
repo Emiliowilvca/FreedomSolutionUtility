@@ -2,6 +2,7 @@
 
 namespace Freedom.Utility.Models.RTO
 {
+    [Obsolete("use product full", true)]
     public class ProductItemRTO : ProductRTO, IProductItemRTO
     {
         public string CodeProvider { get; set; }

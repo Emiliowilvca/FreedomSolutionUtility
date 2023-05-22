@@ -2,6 +2,7 @@
 
 namespace Freedom.Utility.Models.RTO
 {
+    [Obsolete("use product full", true)]
     public class ProductFullRTO : ProductRTO, IProductFullRTO
     {
         public bool ActiveProduct { get; set; }
@@ -10,19 +11,13 @@ namespace Freedom.Utility.Models.RTO
 
         public byte TypePrice { get; set; }
 
-        public DateTime Expiration { get; set; }
-
         public DateTime Manufactory { get; set; }
 
         public decimal ComissionSale { get; set; }
 
-        public decimal QuantityBox { get; set; }
-
         public decimal StockMax { get; set; }
 
         public decimal StockMin { get; set; }
-
-        public decimal Weight { get; set; }
 
         public int BrandId { get; set; }
 
@@ -58,13 +53,9 @@ namespace Freedom.Utility.Models.RTO
 
         public string Advantage { get; set; }
 
-        public string Barcode { get; set; }
-
         public string Benefit { get; set; }
 
         public string BrandName { get; set; }
-
-        public string CodeProvider { get; set; }
 
         public string Feature { get; set; }
 
@@ -85,5 +76,7 @@ namespace Freedom.Utility.Models.RTO
         public string SourceName { get; set; }
 
         public string SubGroupName { get; set; }
+
+        public bool IsActive { get; set; }
     }
 }

@@ -2,6 +2,7 @@
 
 namespace Freedom.Utility.Models.Dto
 {
+    [Obsolete("Deprecate use productFull",true)]
     public class ProductFullDto : ProductBase, IProductFullDto
     {
         public string SubGroupName { get; set; }
@@ -53,6 +54,10 @@ namespace Freedom.Utility.Models.Dto
         public decimal SalePrice { get; set; }
 
         public int QuantityPrice { get; set; }
+
+        public string UrlPrimaryImage { get; set; }
+
+        public string UrlSecondaryImage { get; set; }
 
         public IEnumerable<DrugDto> Drugs { get; set; }
 

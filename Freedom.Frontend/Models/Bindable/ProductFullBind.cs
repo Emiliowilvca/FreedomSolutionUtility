@@ -3,6 +3,7 @@ using Freedom.Utility.Models.BaseRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
+    [Obsolete("use Product Bind",true)]
     public class ProductFullBind : BindableBase, IProductFullRTO
     {
         private int _id;
@@ -29,7 +30,6 @@ namespace Freedom.Frontend.Models.Bindable
         private decimal _stockMin;
         private decimal _taxRate;
         private decimal _weight;
-        private bool _activeProduct;
         private bool _alterStock;
         private bool _isService;
         private bool _payTax;
@@ -61,6 +61,7 @@ namespace Freedom.Frontend.Models.Bindable
         private int _shelvingSide;
         private int _shelvingColumn;
         private int _shelvingLine;
+        private bool _isActive;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -109,8 +110,6 @@ namespace Freedom.Frontend.Models.Bindable
         public decimal TaxRate { get => _taxRate; set => SetProperty(ref _taxRate, value); }
 
         public decimal Weight { get => _weight; set => SetProperty(ref _weight, value); }
-
-        public bool ActiveProduct { get => _activeProduct; set => SetProperty(ref _activeProduct, value); }
 
         public bool AlterStock { get => _alterStock; set => SetProperty(ref _alterStock, value); }
 
@@ -173,5 +172,7 @@ namespace Freedom.Frontend.Models.Bindable
         public int ShelvingColumn { get => _shelvingColumn; set => SetProperty(ref _shelvingColumn, value); }
 
         public int ShelvingLine { get => _shelvingLine; set => SetProperty(ref _shelvingLine, value); }
+
+        public bool IsActive { get => _isActive; set => SetProperty(ref _isActive, value); }
     }
 }

@@ -1,20 +1,36 @@
-﻿using Freedom.Utility.Models.BaseEntity;
-
-namespace Freedom.Utility.Models.BaseRTO
+﻿namespace Freedom.Utility.Models.BaseRTO
 {
-    public interface IProductRTO 
+
+    [Obsolete("use product full", true)]
+    public interface IProductRTO
     {
         int Id { get; set; }
 
         string Code { get; set; }
 
+        string CodeProvider { get; set; }
+
+        string Barcode { get; set; }
+
         string Name { get; set; }
+
+        string Group { get; set; }
+
+        string SubGroup { get; set; }
+
+        string Brand { get; set; }
+
+        string Measure { get; set; }
+
+        decimal Weight { get; set; }
 
         bool PayTax { get; set; }
 
         decimal TaxRate { get; set; }
 
         decimal MaxDiscount { get; set; }
+
+        decimal QuantityBox { get; set; }
 
         bool AlterStock { get; set; }
 
@@ -31,6 +47,8 @@ namespace Freedom.Utility.Models.BaseRTO
 
         string Symbol { get; set; }
 
+        string MoneyName { get; set; }
+
         int DecimalPlaces { get; set; }
 
         //stock
@@ -39,5 +57,9 @@ namespace Freedom.Utility.Models.BaseRTO
         decimal StockQuantity { get; set; }
 
         DateTime Expiration { get; set; }
+
+        string UrlPrimaryImage { get; set; }
+
+        string UrlSecondaryImage { get; set; }
     }
 }

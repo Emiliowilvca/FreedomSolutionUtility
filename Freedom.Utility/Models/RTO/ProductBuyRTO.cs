@@ -3,6 +3,8 @@
     /// <summary>
     /// Purchase Item transfer Object
     /// </summary>
+    /// 
+    [Obsolete("Ya no se utiliza",true)]
     public class ProductBuyRTO
     {
         public int Id { get; set; }

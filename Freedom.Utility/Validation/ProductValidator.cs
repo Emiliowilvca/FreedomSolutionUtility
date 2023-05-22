@@ -43,7 +43,7 @@ namespace Freedom.Utility.Validation
 
             RuleFor(x => x.Name).Generic(0, 50, Lang.ProductNameIsInvalid, nameof(Lang.ProductNameIsInvalid));
 
-            RuleFor(x => x.ActiveProduct).Generic(Lang.ActiveProductIsInvalid, nameof(Lang.ActiveProductIsInvalid));
+            RuleFor(x => x.IsActive).Generic(Lang.ActiveProductIsInvalid, nameof(Lang.ActiveProductIsInvalid));
 
             RuleFor(x => x.AlterStock).Generic(Lang.AlterStockIsInvalid, nameof(Lang.AlterStockIsInvalid));
 

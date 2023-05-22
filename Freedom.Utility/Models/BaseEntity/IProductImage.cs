@@ -9,6 +9,7 @@
         /// </summary>
         int ProductId { get; set; }
 
+
         int CompanyId { get; set; }
 
         /// <summary>

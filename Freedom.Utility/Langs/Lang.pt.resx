@@ -977,7 +977,7 @@
     <value>não é um número de telefone válido</value>
     <comment />
   </data>
-  <data name="PictureSource" xml:space="preserve">
+  <data name="ImageSourceQuestion" xml:space="preserve">
     <value>Onde você quer tirar a foto ?</value>
     <comment />
   </data>
@@ -3887,7 +3887,7 @@
   <data name="CopyCodeToClipboard" xml:space="preserve">
     <value>Copie o código para a área de transferência</value>
   </data>
-  <data name="CopyPicture" xml:space="preserve">
+  <data name="CopyImage" xml:space="preserve">
     <value>Copiar imagem</value>
   </data>
   <data name="DeleteImage" xml:space="preserve">
@@ -4297,5 +4297,23 @@
   </data>
   <data name="download" xml:space="preserve">
     <value>baixar</value>
+  </data>
+  <data name="ImageAlreadyExists" xml:space="preserve">
+    <value>A imagem já existe</value>
+  </data>
+  <data name="ImageIsInvalid" xml:space="preserve">
+    <value>A imagem é inválida</value>
+  </data>
+  <data name="ReallyIntendsRemoveImage" xml:space="preserve">
+    <value>realmente pretende remover esta imagem</value>
+  </data>
+  <data name="ProductImageIndexIsInvalid" xml:space="preserve">
+    <value>O índice da imagem do produto é inválido</value>
+  </data>
+  <data name="ImageIdIsInvalid" xml:space="preserve">
+    <value>identificação com foto é inválida</value>
+  </data>
+  <data name="OutOfStock" xml:space="preserve">
+    <value>fora de estoque</value>
   </data>
 </root>

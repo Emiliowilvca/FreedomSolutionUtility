@@ -977,7 +977,7 @@
     <value>有效的电话号码</value>
     <comment />
   </data>
-  <data name="PictureSource" xml:space="preserve">
+  <data name="ImageSourceQuestion" xml:space="preserve">
     <value>你想在哪里拍照？</value>
     <comment />
   </data>
@@ -3886,7 +3886,7 @@
   <data name="CopyCodeToClipboard" xml:space="preserve">
     <value>将代码复制到剪贴板</value>
   </data>
-  <data name="CopyPicture" xml:space="preserve">
+  <data name="CopyImage" xml:space="preserve">
     <value>复制图片</value>
   </data>
   <data name="DeleteImage" xml:space="preserve">
@@ -4296,5 +4296,23 @@
   </data>
   <data name="download" xml:space="preserve">
     <value>下载</value>
+  </data>
+  <data name="ImageAlreadyExists" xml:space="preserve">
+    <value>图片已经存在</value>
+  </data>
+  <data name="ImageIsInvalid" xml:space="preserve">
+    <value>图片无效</value>
+  </data>
+  <data name="ReallyIntendsRemoveImage" xml:space="preserve">
+    <value>真的打算删除此图像</value>
+  </data>
+  <data name="ProductImageIndexIsInvalid" xml:space="preserve">
+    <value>商品图片索引无效</value>
+  </data>
+  <data name="ImageIdIsInvalid" xml:space="preserve">
+    <value>照片 ID 无效</value>
+  </data>
+  <data name="OutOfStock" xml:space="preserve">
+    <value>缺货</value>
   </data>
 </root>

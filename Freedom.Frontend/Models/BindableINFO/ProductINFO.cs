@@ -4,6 +4,7 @@ using Freedom.Utility.Models.BaseRTO;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
+    [Obsolete("use product Bind", true)]
     public class ProductINFO : BindableBase, IProductRTO, ISelectable
     {
         private int _id;
@@ -23,6 +24,17 @@ namespace Freedom.Frontend.Models.BindableINFO
         private decimal _stockQuantity;
         private DateTime _expiration;
         private bool _isSelected;
+        private string _codeProvider;
+        private string _barcode;
+        private string _group;
+        private string _subGroup;
+        private string _brand;
+        private string _measure;
+        private decimal _weight;
+        private decimal _quantityBox;
+        private string _urlPrimaryImage;
+        private string _urlSecondaryImage;
+        private string _moneyName;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -58,5 +70,26 @@ namespace Freedom.Frontend.Models.BindableINFO
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
 
+        public string CodeProvider { get => _codeProvider; set => SetProperty(ref _codeProvider, value); }
+
+        public string Barcode { get => _barcode; set => SetProperty(ref _barcode, value); }
+
+        public string Group { get => _group; set => SetProperty(ref _group, value); }
+
+        public string SubGroup { get => _subGroup; set => SetProperty(ref _subGroup, value); }
+
+        public string Brand { get => _brand; set => SetProperty(ref _brand, value); }
+
+        public string Measure { get => _measure; set => SetProperty(ref _measure, value); }
+
+        public decimal Weight { get => _weight; set => SetProperty(ref _weight, value); }
+
+        public decimal QuantityBox { get => _quantityBox; set => SetProperty(ref _quantityBox, value); }
+
+        public string UrlPrimaryImage { get => _urlPrimaryImage; set => SetProperty(ref _urlPrimaryImage, value); }
+
+        public string UrlSecondaryImage { get => _urlSecondaryImage; set => SetProperty(ref _urlSecondaryImage, value); }
+
+        public string MoneyName { get => _moneyName; set => SetProperty(ref _moneyName, value); }
     }
 }

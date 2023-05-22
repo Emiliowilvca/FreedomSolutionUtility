@@ -2,6 +2,8 @@
 
 namespace Freedom.Utility.Models.BaseRTO
 {
+
+    [Obsolete("use model IProductFull")]
     public interface IProductFullRTO : IProduct 
     {
         /* names */

@@ -1989,9 +1989,9 @@ namespace Freedom.Utility.Langs {
         /// <summary>
         ///   Looks up a localized string similar to Copy Picture.
         /// </summary>
-        public static string CopyPicture {
+        public static string CopyImage {
             get {
-                return ResourceManager.GetString("CopyPicture", resourceCulture);
+                return ResourceManager.GetString("CopyImage", resourceCulture);
             }
         }
         
@@ -3841,6 +3841,33 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The image already exists.
+        /// </summary>
+        public static string ImageAlreadyExists {
+            get {
+                return ResourceManager.GetString("ImageAlreadyExists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image id is invalid.
+        /// </summary>
+        public static string ImageIdIsInvalid {
+            get {
+                return ResourceManager.GetString("ImageIdIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The picture is invalid.
+        /// </summary>
+        public static string ImageIsInvalid {
+            get {
+                return ResourceManager.GetString("ImageIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Image | Location | Components.
         /// </summary>
         public static string ImageLocationComponents {
@@ -3873,6 +3900,15 @@ namespace Freedom.Utility.Langs {
         public static string ImageSecondary {
             get {
                 return ResourceManager.GetString("ImageSecondary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Where do you want to take the picture?.
+        /// </summary>
+        public static string ImageSourceQuestion {
+            get {
+                return ResourceManager.GetString("ImageSourceQuestion", resourceCulture);
             }
         }
         
@@ -5785,6 +5821,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Out of stock.
+        /// </summary>
+        public static string OutOfStock {
+            get {
+                return ResourceManager.GetString("OutOfStock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Owner.
         /// </summary>
         public static string owner {
@@ -6168,15 +6213,6 @@ namespace Freedom.Utility.Langs {
         public static string PhoneNumber {
             get {
                 return ResourceManager.GetString("PhoneNumber", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Where do you want to take the picture?.
-        /// </summary>
-        public static string PictureSource {
-            get {
-                return ResourceManager.GetString("PictureSource", resourceCulture);
             }
         }
         
@@ -6586,6 +6622,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Product image Index is invalid.
+        /// </summary>
+        public static string ProductImageIndexIsInvalid {
+            get {
+                return ResourceManager.GetString("ProductImageIndexIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Product Information.
         /// </summary>
         public static string ProductInformation {
@@ -6933,6 +6978,15 @@ namespace Freedom.Utility.Langs {
         public static string Quote {
             get {
                 return ResourceManager.GetString("Quote", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to really intends to remove this image.
+        /// </summary>
+        public static string ReallyIntendsRemoveImage {
+            get {
+                return ResourceManager.GetString("ReallyIntendsRemoveImage", resourceCulture);
             }
         }
         

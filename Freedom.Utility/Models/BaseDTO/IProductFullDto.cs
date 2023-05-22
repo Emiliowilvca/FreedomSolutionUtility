@@ -2,6 +2,8 @@
 
 namespace Freedom.Utility.Models.BaseDTO
 {
+
+    [Obsolete("Use Product Full")]
     public interface IProductFullDto : IProduct
     {
         string SubGroupName { get; set; }
@@ -47,5 +49,9 @@ namespace Freedom.Utility.Models.BaseDTO
         int PriceLevel { get; set; }
 
         int QuantityPrice { get; set; }
+
+        string UrlPrimaryImage { get; set; }
+
+        string UrlSecondaryImage { get; set; }
     }
 }
