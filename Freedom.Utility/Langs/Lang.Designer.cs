@@ -232,6 +232,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Add image.
+        /// </summary>
+        public static string AddImage {
+            get {
+                return ResourceManager.GetString("AddImage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Add main image.
         /// </summary>
         public static string AddImageMain {
@@ -1227,6 +1236,15 @@ namespace Freedom.Utility.Langs {
         public static string CancelSale {
             get {
                 return ResourceManager.GetString("CancelSale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cannot delete row.
+        /// </summary>
+        public static string CannotDeleteRow {
+            get {
+                return ResourceManager.GetString("CannotDeleteRow", resourceCulture);
             }
         }
         
@@ -3837,6 +3855,15 @@ namespace Freedom.Utility.Langs {
         public static string IdParameterOutOfRange {
             get {
                 return ResourceManager.GetString("IdParameterOutOfRange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Image.
+        /// </summary>
+        public static string Image {
+            get {
+                return ResourceManager.GetString("Image", resourceCulture);
             }
         }
         
@@ -6618,6 +6645,15 @@ namespace Freedom.Utility.Langs {
         public static string ProductCurrencyIsInvalid {
             get {
                 return ResourceManager.GetString("ProductCurrencyIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Product Image.
+        /// </summary>
+        public static string ProductImage {
+            get {
+                return ResourceManager.GetString("ProductImage", resourceCulture);
             }
         }
         
@@ -9921,6 +9957,15 @@ namespace Freedom.Utility.Langs {
         public static string zoom {
             get {
                 return ResourceManager.GetString("zoom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to zoom with mouse wheel.
+        /// </summary>
+        public static string ZoomWithMouseWheel {
+            get {
+                return ResourceManager.GetString("ZoomWithMouseWheel", resourceCulture);
             }
         }
     }

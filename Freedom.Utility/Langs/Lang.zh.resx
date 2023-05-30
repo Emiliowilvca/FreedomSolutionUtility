@@ -4315,4 +4315,19 @@
   <data name="OutOfStock" xml:space="preserve">
     <value>缺货</value>
   </data>
+  <data name="ProductImage" xml:space="preserve">
+    <value>产品图片</value>
+  </data>
+  <data name="ZoomWithMouseWheel" xml:space="preserve">
+    <value>用鼠标滚轮缩放</value>
+  </data>
+  <data name="AddImage" xml:space="preserve">
+    <value>添加图片</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="CannotDeleteRow" xml:space="preserve">
+    <value>无法删除行</value>
+  </data>
 </root>

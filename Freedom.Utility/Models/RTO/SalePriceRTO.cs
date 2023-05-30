@@ -4,8 +4,6 @@ namespace Freedom.Utility.Models.RTO
 {
     public class SalePriceRTO : ISalePriceRTO
     {
-        public int Id { get; set; }
-
         public int CompanyId { get; set; }
 
         public int ProductId { get; set; }

@@ -18,6 +18,12 @@ namespace Freedom.Frontend.Models.Bindable
         private decimal _quantity;
         private decimal _taxRate;
         private decimal _taxValue;
+        private string _urlPrimaryImage;
+
+        public PurchaseItemBind()
+        {
+            SalePriceCollection = new();
+        }
 
         public Guid Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -60,6 +66,10 @@ namespace Freedom.Frontend.Models.Bindable
         }
 
         public decimal SubTotal => IsPopulate ? CostPrice * Quantity : 0;
+
+        public string UrlPrimaryImage { get => _urlPrimaryImage; set => SetProperty(ref _urlPrimaryImage, value); }
+
+        public List<SalePriceBind> SalePriceCollection { get; set; }
 
         private void Refresh()
         {

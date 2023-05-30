@@ -2,15 +2,13 @@ namespace Freedom.Utility.Models.BaseEntity
 {
     public interface ISalePrice
     {
-        int Id { get; set; }
-
-        int CompanyId { get; set; }
-
         int ProductId { get; set; }
+
+        int Level { get; set; }
 
         int MoneyId { get; set; }
 
-        int Level { get; set; }
+        int CompanyId { get; set; }
 
         decimal ValuePrice { get; set; }
 

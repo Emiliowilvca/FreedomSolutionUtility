@@ -36,7 +36,7 @@ namespace Freedom.Utility.Models
         public int Installment { get; set; }
         public int StockId { get; set; }
         public int CostPriceId { get; set; }
-        public int SalePriceId { get; set; }
+
         public decimal SalePrice { get; set; }
         public IEnumerable<ApplyRTO> Applies { get; set; }
         public IEnumerable<WayAdminRTO> WayAdmins { get; set; }

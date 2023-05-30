@@ -62,27 +62,24 @@ namespace Freedom.Utility.Models.ModelPlus
 
         int CostPriceId { get; set; }
 
-        int SalePriceId { get; set; }
-
         decimal CostPrice { get; set; }
 
-         int PriceLevel { get; set; }
+        int PriceLevel { get; set; }
 
-         decimal SalePrice { get; set; }
+        decimal SalePrice { get; set; }
 
-         int QuantityPrice { get; set; }
+        int QuantityPrice { get; set; }
 
-         int Installment { get; set; }
- 
+        int Installment { get; set; }
 
         IEnumerable<SalePriceRTO> Prices { get; set; }
 
-         IEnumerable<StockRTO> Stocks { get; set; }
+        IEnumerable<StockRTO> Stocks { get; set; }
 
-         IEnumerable<ApplyRTO> Applies { get; set; }
+        IEnumerable<ApplyRTO> Applies { get; set; }
 
-         IEnumerable<WayAdminRTO> WayAdmins { get; set; }
+        IEnumerable<WayAdminRTO> WayAdmins { get; set; }
 
-         IEnumerable<DrugRTO> Drugs { get; set; }
+        IEnumerable<DrugRTO> Drugs { get; set; }
     }
 }

@@ -68,8 +68,6 @@ namespace Freedom.Frontend.Models.Bindable
         private decimal _stockQuantity;
         private int _stockId;
         private int _costPriceId;
-        private int _salePriceId;
-
 
         public bool AlterStock { get => _alterStock; set => SetProperty(ref _alterStock, value); }
 
@@ -168,8 +166,6 @@ namespace Freedom.Frontend.Models.Bindable
         /* Prices */
 
         public int CostPriceId { get => _costPriceId; set => SetProperty(ref _costPriceId, value); }
-
-        public int SalePriceId { get => _salePriceId; set => SetProperty(ref _salePriceId, value); }
 
         public decimal CostPrice { get => _costPrice; set => SetProperty(ref _costPrice, value); }
 

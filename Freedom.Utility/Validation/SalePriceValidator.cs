@@ -9,13 +9,11 @@ namespace Freedom.Utility.Validation
     {
         public SalePriceValidator()
         {
-            RuleFor(x => x.Id).ID();
-
-            RuleFor(x => x.CompanyId).CompanyID();
-
             RuleFor(x => x.ProductId).Generic(0, int.MaxValue, Lang.ProductIsInvalid, nameof(Lang.ProductIsInvalid));
 
-            RuleFor(x => x.Level).Generic(0, short.MaxValue, Lang.PriceLevelIsInvalid, nameof(Lang.PriceLevelIsInvalid));
+            RuleFor(x => x.Level).Generic(1, 20, Lang.PriceLevelIsInvalid, nameof(Lang.PriceLevelIsInvalid));
+            
+            RuleFor(x => x.CompanyId).CompanyID();
 
             RuleFor(x => x.MoneyId).MoneyID();
 

@@ -4316,4 +4316,19 @@
   <data name="OutOfStock" xml:space="preserve">
     <value>utsolgt</value>
   </data>
+  <data name="ProductImage" xml:space="preserve">
+    <value>produktbilde</value>
+  </data>
+  <data name="ZoomWithMouseWheel" xml:space="preserve">
+    <value>zoom med musehjul</value>
+  </data>
+  <data name="AddImage" xml:space="preserve">
+    <value>Legg til bilde</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>bilde</value>
+  </data>
+  <data name="CannotDeleteRow" xml:space="preserve">
+    <value>Kan ikke slette rad</value>
+  </data>
 </root>

@@ -4316,4 +4316,19 @@
   <data name="OutOfStock" xml:space="preserve">
     <value>rupture de stock</value>
   </data>
+  <data name="ProductImage" xml:space="preserve">
+    <value>Image du produit</value>
+  </data>
+  <data name="ZoomWithMouseWheel" xml:space="preserve">
+    <value>zoomer avec la molette de la souris</value>
+  </data>
+  <data name="AddImage" xml:space="preserve">
+    <value>ajouter une image</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>image</value>
+  </data>
+  <data name="CannotDeleteRow" xml:space="preserve">
+    <value>Impossible de supprimer la ligne</value>
+  </data>
 </root>

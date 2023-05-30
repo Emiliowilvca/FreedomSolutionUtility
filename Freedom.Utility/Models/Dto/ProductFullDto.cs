@@ -2,7 +2,7 @@
 
 namespace Freedom.Utility.Models.Dto
 {
-    [Obsolete("Deprecate use productFull",true)]
+    [Obsolete("Deprecate use productFull", true)]
     public class ProductFullDto : ProductBase, IProductFullDto
     {
         public string SubGroupName { get; set; }
@@ -20,8 +20,6 @@ namespace Freedom.Utility.Models.Dto
         public string GroupName { get; set; }
 
         public int ShopId { get; set; }
-
-        public int SalePriceId { get; set; }
 
         public int CostPriceId { get; set; }
 
