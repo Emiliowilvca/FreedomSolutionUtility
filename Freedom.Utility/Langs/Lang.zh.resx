@@ -4330,4 +4330,13 @@
   <data name="CannotDeleteRow" xml:space="preserve">
     <value>无法删除行</value>
   </data>
+  <data name="PaymentPlan" xml:space="preserve">
+    <value>付款计划</value>
+  </data>
+  <data name="FinishPurchaseProcess" xml:space="preserve">
+    <value>完成购买流程</value>
+  </data>
+  <data name="PaymentPlanIsInvalid" xml:space="preserve">
+    <value>付款计划无效</value>
+  </data>
 </root>

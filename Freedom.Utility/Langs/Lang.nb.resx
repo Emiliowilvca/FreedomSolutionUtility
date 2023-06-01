@@ -4331,4 +4331,13 @@
   <data name="CannotDeleteRow" xml:space="preserve">
     <value>Kan ikke slette rad</value>
   </data>
+  <data name="PaymentPlan" xml:space="preserve">
+    <value>Betalingsplan</value>
+  </data>
+  <data name="FinishPurchaseProcess" xml:space="preserve">
+    <value>fullføre kjøpsprosessen</value>
+  </data>
+  <data name="PaymentPlanIsInvalid" xml:space="preserve">
+    <value>Betalingsplanen er ugyldig</value>
+  </data>
 </root>

@@ -1,6 +1,5 @@
 ﻿using Freedom.Frontend.Models.BaseBindables;
 using Freedom.Utility.Bindable;
-using System;
 
 namespace Freedom.Frontend.Models.Bindable
 {
@@ -21,6 +20,8 @@ namespace Freedom.Frontend.Models.Bindable
         private string _userName;
         private string _boxName;
         private string _businessName;
+        private int _operationTypeId;
+        private string _operationTypeName;
 
         public decimal LoanAmount { get => _loanAmount; set => SetProperty(ref _loanAmount, value); }
 
@@ -52,6 +53,10 @@ namespace Freedom.Frontend.Models.Bindable
 
         public string BusinessName { get => _businessName; set => SetProperty(ref _businessName, value); }
 
+        public int OperationTypeId { get => _operationTypeId; set => SetProperty(ref _operationTypeId, value); }
+
+        public string OperationTypeName { get => _operationTypeName; set => SetProperty(ref _operationTypeName, value); }
+
         public void GetEntity(IPayOffCalculator p)
         {
             LoanAmount = p.LoanAmount;
@@ -69,6 +74,8 @@ namespace Freedom.Frontend.Models.Bindable
             UserName = p.UserName;
             BoxName = p.BoxName;
             BusinessName = p.BusinessName;
+            OperationTypeId = p.OperationTypeId;
+            OperationTypeName = p.OperationTypeName;
         }
     }
 }

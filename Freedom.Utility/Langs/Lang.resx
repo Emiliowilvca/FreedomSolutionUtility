@@ -4331,4 +4331,13 @@
   <data name="CannotDeleteRow" xml:space="preserve">
     <value>Cannot delete row</value>
   </data>
+  <data name="PaymentPlan" xml:space="preserve">
+    <value>Payment plan</value>
+  </data>
+  <data name="FinishPurchaseProcess" xml:space="preserve">
+    <value>Finish purchase process</value>
+  </data>
+  <data name="PaymentPlanIsInvalid" xml:space="preserve">
+    <value>Payment plan is invalid</value>
+  </data>
 </root>

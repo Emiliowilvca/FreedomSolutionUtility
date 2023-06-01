@@ -3598,6 +3598,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Finish purchase process.
+        /// </summary>
+        public static string FinishPurchaseProcess {
+            get {
+                return ResourceManager.GetString("FinishPurchaseProcess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to First.
         /// </summary>
         public static string First {
@@ -6141,6 +6150,24 @@ namespace Freedom.Utility.Langs {
         public static string PaymentIdIsInvalid {
             get {
                 return ResourceManager.GetString("PaymentIdIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Payment plan.
+        /// </summary>
+        public static string PaymentPlan {
+            get {
+                return ResourceManager.GetString("PaymentPlan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Payment plan is invalid.
+        /// </summary>
+        public static string PaymentPlanIsInvalid {
+            get {
+                return ResourceManager.GetString("PaymentPlanIsInvalid", resourceCulture);
             }
         }
         

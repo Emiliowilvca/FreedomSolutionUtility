@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Freedom.Frontend.Models.BaseBindables
+﻿namespace Freedom.Frontend.Models.BaseBindables
 {
     public interface IPayOffCalculator
     {
@@ -48,5 +46,10 @@ namespace Freedom.Frontend.Models.BaseBindables
         string BoxName { get; set; }
 
         string BusinessName { get; set; }
+
+        int OperationTypeId { get; set; }
+
+        string OperationTypeName { get; set; }
+
     }
 }

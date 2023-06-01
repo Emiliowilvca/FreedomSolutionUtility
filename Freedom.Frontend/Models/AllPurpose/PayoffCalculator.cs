@@ -1,5 +1,4 @@
 ﻿using Freedom.Frontend.Models.BaseBindables;
-using System;
 
 namespace Freedom.Frontend.Models.AllPurpose
 {
@@ -35,5 +34,8 @@ namespace Freedom.Frontend.Models.AllPurpose
 
         public string BusinessName { get; set; }
 
+        public int OperationTypeId { get; set; }
+
+        public string OperationTypeName { get; set; }
     }
 }

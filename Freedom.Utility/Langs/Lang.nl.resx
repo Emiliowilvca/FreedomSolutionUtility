@@ -4331,4 +4331,13 @@
   <data name="CannotDeleteRow" xml:space="preserve">
     <value>Kan rij niet verwijderen</value>
   </data>
+  <data name="PaymentPlan" xml:space="preserve">
+    <value>Betaalplan</value>
+  </data>
+  <data name="FinishPurchaseProcess" xml:space="preserve">
+    <value>koopproces afronden</value>
+  </data>
+  <data name="PaymentPlanIsInvalid" xml:space="preserve">
+    <value>Betalingsplan is ongeldig</value>
+  </data>
 </root>
