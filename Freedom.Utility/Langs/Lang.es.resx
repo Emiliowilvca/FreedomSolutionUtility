@@ -4340,4 +4340,7 @@
   <data name="PaymentPlanIsInvalid" xml:space="preserve">
     <value>El plan de pago no es válido</value>
   </data>
+  <data name="ImportPurchase" xml:space="preserve">
+    <value>Compra de importación</value>
+  </data>
 </root>

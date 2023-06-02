@@ -43,8 +43,8 @@ namespace Freedom.Utility.Models.Dto
 
         public string Timbrado { get; set; }
 
-        public ICollection<IPurchaseDetail> PurchaseDetails { get; set; }
+        public ICollection<PurchaseDetailDto> PurchaseDetails { get; set; }
 
-        public ICollection<IPurchaseFees> PurchaseFees { get; set; }
+        public ICollection<PurchaseInstallmentDto> PurchaseInstallments { get; set; }
     }
 }

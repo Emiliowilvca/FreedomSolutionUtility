@@ -2,7 +2,7 @@
 
 namespace Freedom.Utility.Models.RTO
 {
-    public class PurchaseFeesRTO : IPurchaseFeesRTO
+    public class PurchaseInstallmentRTO : IPurchaseInstallmentRTO
     {
         public int Id { get; set; }
 

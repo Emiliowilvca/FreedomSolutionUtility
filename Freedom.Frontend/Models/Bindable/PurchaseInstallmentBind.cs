@@ -1,15 +1,15 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
-using System;
+
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
-    public class PurchaseFeesBind : BindableBase, IPurchaseFees
+    public class PurchaseInstallmentBind : BindableBase, IPurchaseInstallment
     {
         private int _id;
         private int _companyId;
         private int _purchaseId;
-        private byte _numberFees;
+
         private int _providerId;
         private decimal _capital;
         private decimal _interest;
@@ -18,6 +18,7 @@ namespace Freedom.Frontend.Models.Bindable
         private bool _status;
         private DateTime _expirate;
         private decimal _exchange;
+        private int _feeIndex;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -25,7 +26,7 @@ namespace Freedom.Frontend.Models.Bindable
 
         public int PurchaseId { get => _purchaseId; set => SetProperty(ref _purchaseId, value); }
 
-        public byte NumberFees { get => _numberFees; set => SetProperty(ref _numberFees, value); }
+        public int FeeIndex { get => _feeIndex; set => SetProperty(ref _feeIndex, value); }
 
         public int ProviderId { get => _providerId; set => SetProperty(ref _providerId, value); }
 

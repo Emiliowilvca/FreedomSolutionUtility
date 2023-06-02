@@ -1,8 +1,9 @@
 ﻿using Freedom.Utility.Bindable;
+using Freedom.Utility.Models.BaseEntity;
 
 namespace Freedom.Frontend.Models.Bindable
 {
-    public class PurchaseItemBind : BindableBase
+    public class PurchaseItemBind : BindableBase, IPurchaseDetail
     {
         private Guid _id;
         private int _productId;
@@ -10,15 +11,16 @@ namespace Freedom.Frontend.Models.Bindable
         private string _code;
         private string _name;
         private Guid _userId;
-        private decimal _costPrice;
+        private decimal _price;
         private string _lote;
-        private string _manufactory;
-        private string _expiration;
         private int _moneyId;
         private decimal _quantity;
         private decimal _taxRate;
         private decimal _taxValue;
         private string _urlPrimaryImage;
+        private DateTime _manufactory;
+        private DateTime _expiration;
+        private int _purchaseId;
 
         public PurchaseItemBind()
         {
@@ -37,13 +39,13 @@ namespace Freedom.Frontend.Models.Bindable
 
         public Guid UserId { get => _userId; set => SetProperty(ref _userId, value); }
 
-        public decimal CostPrice { get => _costPrice; set => SetProperty(ref _costPrice, value, Refresh); }
+        public decimal Price { get => _price; set => SetProperty(ref _price, value, Refresh); }
 
         public string Lote { get => _lote; set => SetProperty(ref _lote, value); }
 
-        public string Manufactory { get => _manufactory; set => SetProperty(ref _manufactory, value); }
+        public DateTime Manufactory { get => _manufactory; set => SetProperty(ref _manufactory, value); }
 
-        public string Expiration { get => _expiration; set => SetProperty(ref _expiration, value); }
+        public DateTime Expiration { get => _expiration; set => SetProperty(ref _expiration, value); }
 
         public int MoneyId { get => _moneyId; set => SetProperty(ref _moneyId, value); }
 
@@ -55,21 +57,26 @@ namespace Freedom.Frontend.Models.Bindable
         {
             get
             {
-                decimal taxValue = 0;
+                _taxValue = 0;
                 if (TaxRate != 0)
                 {
                     var taxpercent = (TaxRate / 100) + 1;
-                    taxValue = CostPrice - (CostPrice / taxpercent);
+                    _taxValue = Price - (Price / taxpercent);
                 }
-                return IsPopulate ? taxValue : 0;
+                return IsPopulate ? _taxValue : 0;
             }
+            set => SetProperty(ref _taxValue, value);
         }
 
-        public decimal SubTotal => IsPopulate ? CostPrice * Quantity : 0;
+        public decimal SubTotal => IsPopulate ? Price * Quantity : 0;
 
         public string UrlPrimaryImage { get => _urlPrimaryImage; set => SetProperty(ref _urlPrimaryImage, value); }
 
         public List<SalePriceBind> SalePriceCollection { get; set; }
+
+        public int PurchaseId { get => _purchaseId; set => SetProperty(ref _purchaseId, value); }
+
+        long IPurchaseDetail.Id { get; set; }
 
         private void Refresh()
         {

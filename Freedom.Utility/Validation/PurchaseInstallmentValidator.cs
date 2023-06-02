@@ -4,9 +4,9 @@ using Freedom.Utility.ValidatorExtension;
 
 namespace Freedom.Utility.Validation
 {
-    public class PurchaseFeesValidator : AbstractValidator<IPurchaseFees>
+    public class PurchaseInstallmentValidator : AbstractValidator<IPurchaseInstallment>
     {
-        public PurchaseFeesValidator()
+        public PurchaseInstallmentValidator()
         {
             RuleFor(x => x.Id).ID();
 
@@ -14,9 +14,7 @@ namespace Freedom.Utility.Validation
 
             RuleFor(x => x.PurchaseId).Generic(0, int.MaxValue, "PurchaseId is invalid", "");
 
-            RuleFor(x => (int)x.NumberFees).Generic(0, byte.MaxValue, "NumberFees is invalid", "");
-
-            RuleFor(x => (int)x.NumberFees).Generic(0, byte.MaxValue, "NumberFees is invalid", "");
+            RuleFor(x => x.FeeIndex).Generic(0, byte.MaxValue, "Installment index is invalid", "");
 
             RuleFor(x => x.ProviderId).ProviderID();
 

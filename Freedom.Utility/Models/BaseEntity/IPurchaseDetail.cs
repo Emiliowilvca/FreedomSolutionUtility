@@ -21,5 +21,6 @@
         DateTime Manufactory { get; set; }
 
         DateTime Expiration { get; set; }
+       
     }
 }

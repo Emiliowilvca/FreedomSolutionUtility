@@ -1,14 +1,12 @@
-﻿using System;
-
-namespace Freedom.Utility.Models.BaseEntity
+﻿namespace Freedom.Utility.Models.BaseEntity
 {
-    public interface IPurchaseFees : IEntity
+    public interface IPurchaseInstallment : IEntity
     {
         int CompanyId { get; set; }
 
         int PurchaseId { get; set; }
 
-        byte NumberFees { get; set; }
+        int FeeIndex { get; set; }
 
         int ProviderId { get; set; }
 

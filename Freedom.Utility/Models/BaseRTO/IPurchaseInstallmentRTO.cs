@@ -1,6 +1,6 @@
 ﻿namespace Freedom.Utility.Models.BaseRTO
 {
-    public interface IPurchaseFeesRTO
+    public interface IPurchaseInstallmentRTO
     {
         int Id { get; set; }
 

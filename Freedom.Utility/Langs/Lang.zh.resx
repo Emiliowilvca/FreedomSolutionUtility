@@ -4339,4 +4339,7 @@
   <data name="PaymentPlanIsInvalid" xml:space="preserve">
     <value>付款计划无效</value>
   </data>
+  <data name="ImportPurchase" xml:space="preserve">
+    <value>进口采购</value>
+  </data>
 </root>

@@ -1,10 +1,9 @@
 ﻿using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Utility.Models.Dto
 {
     [Serializable]
-    public class PurchaseFeesDto : IEntity, IPurchaseFees
+    public class PurchaseInstallmentDto : IEntity, IPurchaseInstallment
     {
         public int Id { get; set; }
 
@@ -12,7 +11,7 @@ namespace Freedom.Utility.Models.Dto
 
         public int PurchaseId { get; set; }
 
-        public byte NumberFees { get; set; }
+        public int FeeIndex { get; set; }
 
         public int ProviderId { get; set; }
 

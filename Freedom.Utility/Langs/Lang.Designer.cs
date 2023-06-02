@@ -3958,6 +3958,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Import purchase.
+        /// </summary>
+        public static string ImportPurchase {
+            get {
+                return ResourceManager.GetString("ImportPurchase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Increment.
         /// </summary>
         public static string Increment {

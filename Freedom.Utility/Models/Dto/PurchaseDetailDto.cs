@@ -24,5 +24,8 @@ namespace Freedom.Utility.Models.Dto
 
         public DateTime Expiration { get; set; }
 
+        public CostPriceDto CostPriceDto { get; set; }
+
+        public IEnumerable<SalePriceDto> SalePriceCollection { get; set; }
     }
 }
