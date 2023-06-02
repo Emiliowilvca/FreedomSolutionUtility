@@ -4343,4 +4343,10 @@
   <data name="ImportPurchase" xml:space="preserve">
     <value>aankoop importeren</value>
   </data>
+  <data name="YouMustEnterSomeItems" xml:space="preserve">
+    <value>u moet enkele items invoeren</value>
+  </data>
+  <data name="IntendToContinue" xml:space="preserve">
+    <value>van plan zijn door te gaan</value>
+  </data>
 </root>

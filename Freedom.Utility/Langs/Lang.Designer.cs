@@ -4057,6 +4057,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to intend to continue.
+        /// </summary>
+        public static string IntendToContinue {
+            get {
+                return ResourceManager.GetString("IntendToContinue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Interest.
         /// </summary>
         public static string Interest {
@@ -9939,6 +9948,15 @@ namespace Freedom.Utility.Langs {
         public static string Yes {
             get {
                 return ResourceManager.GetString("Yes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You must enter some items.
+        /// </summary>
+        public static string YouMustEnterSomeItems {
+            get {
+                return ResourceManager.GetString("YouMustEnterSomeItems", resourceCulture);
             }
         }
         

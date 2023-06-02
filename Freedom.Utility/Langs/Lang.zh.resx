@@ -4342,4 +4342,10 @@
   <data name="ImportPurchase" xml:space="preserve">
     <value>进口采购</value>
   </data>
+  <data name="YouMustEnterSomeItems" xml:space="preserve">
+    <value>你必须输入一些项目</value>
+  </data>
+  <data name="IntendToContinue" xml:space="preserve">
+    <value>打算继续</value>
+  </data>
 </root>

@@ -1,4 +1,5 @@
-﻿using Freedom.Utility.Bindable;
+﻿using Freedom.Utility;
+using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
 
 namespace Freedom.Frontend.Models.Bindable
@@ -21,6 +22,8 @@ namespace Freedom.Frontend.Models.Bindable
         private DateTime _manufactory;
         private DateTime _expiration;
         private int _purchaseId;
+        private string _manufactoryStr;
+        private string _expirationStr;
 
         public PurchaseItemBind()
         {
@@ -28,6 +31,10 @@ namespace Freedom.Frontend.Models.Bindable
         }
 
         public Guid Id { get => _id; set => SetProperty(ref _id, value); }
+
+        long IPurchaseDetail.Id { get; set; }
+
+        public int PurchaseId { get => _purchaseId; set => SetProperty(ref _purchaseId, value); }
 
         public int ProductId { get => _productId; set => SetProperty(ref _productId, value); }
 
@@ -46,6 +53,18 @@ namespace Freedom.Frontend.Models.Bindable
         public DateTime Manufactory { get => _manufactory; set => SetProperty(ref _manufactory, value); }
 
         public DateTime Expiration { get => _expiration; set => SetProperty(ref _expiration, value); }
+
+        public string ManufactoryStr
+        {
+            get => _manufactoryStr;
+            set => SetProperty(ref _manufactoryStr, value, () => { Manufactory = _manufactoryStr.ToDatetimeNow(); });
+        }
+
+        public string ExpirationStr
+        {
+            get => _expirationStr;
+            set => SetProperty(ref _expirationStr, value, () => { Expiration = _expirationStr.ToDatetimeNow(); });
+        }
 
         public int MoneyId { get => _moneyId; set => SetProperty(ref _moneyId, value); }
 
@@ -73,10 +92,6 @@ namespace Freedom.Frontend.Models.Bindable
         public string UrlPrimaryImage { get => _urlPrimaryImage; set => SetProperty(ref _urlPrimaryImage, value); }
 
         public List<SalePriceBind> SalePriceCollection { get; set; }
-
-        public int PurchaseId { get => _purchaseId; set => SetProperty(ref _purchaseId, value); }
-
-        long IPurchaseDetail.Id { get; set; }
 
         private void Refresh()
         {

@@ -4343,4 +4343,10 @@
   <data name="ImportPurchase" xml:space="preserve">
     <value>Importkauf</value>
   </data>
+  <data name="YouMustEnterSomeItems" xml:space="preserve">
+    <value>Sie müssen einige Elemente eingeben</value>
+  </data>
+  <data name="IntendToContinue" xml:space="preserve">
+    <value>beabsichtigen weiterzumachen</value>
+  </data>
 </root>
