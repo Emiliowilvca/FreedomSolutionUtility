@@ -2418,7 +2418,7 @@
     <comment />
   </data>
   <data name="VisualizePurchase" xml:space="preserve">
-    <value>Visualizar Compras</value>
+    <value>Visualizar Compra</value>
     <comment />
   </data>
   <data name="PurchaseReport" xml:space="preserve">
@@ -4351,5 +4351,11 @@
   </data>
   <data name="DoYouWantToEndProcess" xml:space="preserve">
     <value>Pretende finalizar este proceso</value>
+  </data>
+  <data name="PurchaseInvoiceAlreadyExists" xml:space="preserve">
+    <value>Factura de compra ya existe</value>
+  </data>
+  <data name="VisualizePurchaseInvoice" xml:space="preserve">
+    <value>Visualizar facturas de compras</value>
   </data>
 </root>

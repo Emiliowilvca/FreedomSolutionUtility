@@ -4351,4 +4351,10 @@
   <data name="DoYouWantToEndProcess" xml:space="preserve">
     <value>你想结束这个过程吗</value>
   </data>
+  <data name="PurchaseInvoiceAlreadyExists" xml:space="preserve">
+    <value>采购发票已存在</value>
+  </data>
+  <data name="VisualizePurchaseInvoice" xml:space="preserve">
+    <value>查看采购发票</value>
+  </data>
 </root>

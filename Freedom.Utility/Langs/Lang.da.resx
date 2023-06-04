@@ -4352,4 +4352,10 @@
   <data name="DoYouWantToEndProcess" xml:space="preserve">
     <value>Vil du afslutte denne proces</value>
   </data>
+  <data name="PurchaseInvoiceAlreadyExists" xml:space="preserve">
+    <value>købsfaktura findes allerede</value>
+  </data>
+  <data name="VisualizePurchaseInvoice" xml:space="preserve">
+    <value>se købsfaktura</value>
+  </data>
 </root>

@@ -4352,4 +4352,10 @@
   <data name="DoYouWantToEndProcess" xml:space="preserve">
     <value>Wilt u dit proces beëindigen</value>
   </data>
+  <data name="PurchaseInvoiceAlreadyExists" xml:space="preserve">
+    <value>inkoopfactuur bestaat al</value>
+  </data>
+  <data name="VisualizePurchaseInvoice" xml:space="preserve">
+    <value>Inkoopfactuur bekijken</value>
+  </data>
 </root>

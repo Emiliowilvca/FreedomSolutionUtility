@@ -4352,4 +4352,10 @@
   <data name="DoYouWantToEndProcess" xml:space="preserve">
     <value>Möchten Sie diesen Vorgang beenden</value>
   </data>
+  <data name="PurchaseInvoiceAlreadyExists" xml:space="preserve">
+    <value>Die Kaufrechnung ist bereits vorhanden</value>
+  </data>
+  <data name="VisualizePurchaseInvoice" xml:space="preserve">
+    <value>Kaufrechnung ansehen</value>
+  </data>
 </root>

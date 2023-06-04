@@ -26,6 +26,14 @@ namespace Freedom.Frontend.Models.Bindable
         private bool _isSelected;
         private decimal _totalTax;
         private decimal _total;
+        private string _providerRuc;
+        private string _providerName;
+        private string _moneyName;
+        private string _shopName;
+        private string _boxName;
+        private string _userName;
+        private string _operationTypeName;
+        private string _carrierName;
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
 
@@ -66,5 +74,21 @@ namespace Freedom.Frontend.Models.Bindable
         public decimal Total { get => _total; set => SetProperty(ref _total, value); }
 
         public decimal TotalTax { get => _totalTax; set => SetProperty(ref _totalTax, value); }
+
+        public string ProviderRuc { get => _providerRuc; set => SetProperty(ref _providerRuc, value); }
+
+        public string ProviderName { get => _providerName; set => SetProperty(ref _providerName, value); }
+
+        public string MoneyName { get => _moneyName; set => SetProperty(ref _moneyName, value); }
+
+        public string ShopName { get => _shopName; set => SetProperty(ref _shopName, value); }
+
+        public string BoxName { get => _boxName; set => SetProperty(ref _boxName, value); }
+
+        public string UserName { get => _userName; set => SetProperty(ref _userName, value); }
+
+        public string OperationTypeName { get => _operationTypeName; set => SetProperty(ref _operationTypeName, value); }
+
+        public string CarrierName { get => _carrierName; set => SetProperty(ref _carrierName, value); }
     }
 }

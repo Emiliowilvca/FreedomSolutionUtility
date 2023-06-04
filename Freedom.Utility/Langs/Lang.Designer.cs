@@ -6991,6 +6991,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Purchase invoice already exists.
+        /// </summary>
+        public static string PurchaseInvoiceAlreadyExists {
+            get {
+                return ResourceManager.GetString("PurchaseInvoiceAlreadyExists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Purchase Order.
         /// </summary>
         public static string PurchaseOrder {
@@ -9732,6 +9741,15 @@ namespace Freedom.Utility.Langs {
         public static string VisualizePurchase {
             get {
                 return ResourceManager.GetString("VisualizePurchase", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to View purchase invoice.
+        /// </summary>
+        public static string VisualizePurchaseInvoice {
+            get {
+                return ResourceManager.GetString("VisualizePurchaseInvoice", resourceCulture);
             }
         }
         
