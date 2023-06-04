@@ -4349,4 +4349,7 @@
   <data name="IntendToContinue" xml:space="preserve">
     <value>har tenkt å fortsette</value>
   </data>
+  <data name="DoYouWantToEndProcess" xml:space="preserve">
+    <value>Vil du avslutte denne prosessen</value>
+  </data>
 </root>

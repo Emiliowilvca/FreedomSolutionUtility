@@ -2815,6 +2815,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Do you want to end this process.
+        /// </summary>
+        public static string DoYouWantToEndProcess {
+            get {
+                return ResourceManager.GetString("DoYouWantToEndProcess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Driver&apos;s license.
         /// </summary>
         public static string DriversLicense {
