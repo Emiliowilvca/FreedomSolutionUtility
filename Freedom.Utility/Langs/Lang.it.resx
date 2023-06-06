@@ -4358,4 +4358,10 @@
   <data name="VisualizePurchaseInvoice" xml:space="preserve">
     <value>visualizzare la fattura di acquisto</value>
   </data>
+  <data name="ContinuePurchasing" xml:space="preserve">
+    <value>continuare il processo di acquisto</value>
+  </data>
+  <data name="TaxWithholding" xml:space="preserve">
+    <value>Ritenuta d'acconto</value>
+  </data>
 </root>

@@ -3614,7 +3614,7 @@
     <comment />
   </data>
   <data name="TypeOfOperationForPurchaseCashIsInvalid" xml:space="preserve">
-    <value>Type of operation  for Purchase cash is invalid</value>
+    <value>Type of operation for Purchase cash is invalid</value>
     <comment />
   </data>
   <data name="TypeOfOperationForPurchaseOnCreditIsInvalid" xml:space="preserve">
@@ -4209,7 +4209,7 @@
     <value>process completed successfully</value>
   </data>
   <data name="GridContainsRecords" xml:space="preserve">
-    <value>grid already contains records</value>
+    <value>Grid already contains items</value>
   </data>
   <data name="VerifyYourAccount" xml:space="preserve">
     <value>Verify your account</value>
@@ -4357,5 +4357,11 @@
   </data>
   <data name="VisualizePurchaseInvoice" xml:space="preserve">
     <value>View purchase invoice</value>
+  </data>
+  <data name="ContinuePurchasing" xml:space="preserve">
+    <value>continue purchase process</value>
+  </data>
+  <data name="TaxWithholding" xml:space="preserve">
+    <value>Tax withholding</value>
   </data>
 </root>

@@ -4357,4 +4357,10 @@
   <data name="VisualizePurchaseInvoice" xml:space="preserve">
     <value>查看采购发票</value>
   </data>
+  <data name="ContinuePurchasing" xml:space="preserve">
+    <value>继续购买流程</value>
+  </data>
+  <data name="TaxWithholding" xml:space="preserve">
+    <value>预扣税</value>
+  </data>
 </root>

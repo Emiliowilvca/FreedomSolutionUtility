@@ -1987,6 +1987,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to continue purchase process.
+        /// </summary>
+        public static string ContinuePurchasing {
+            get {
+                return ResourceManager.GetString("ContinuePurchasing", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Continue selling products.
         /// </summary>
         public static string ContinueSellingProducts {
@@ -3760,7 +3769,7 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to grid already contains records.
+        ///   Looks up a localized string similar to Grid already contains items.
         /// </summary>
         public static string GridContainsRecords {
             get {
@@ -8872,6 +8881,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Tax withholding.
+        /// </summary>
+        public static string TaxWithholding {
+            get {
+                return ResourceManager.GetString("TaxWithholding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Thanks for Registering.
         /// </summary>
         public static string ThanksRegistering {
@@ -9160,7 +9178,7 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Type of operation  for Purchase cash is invalid.
+        ///   Looks up a localized string similar to Type of operation for Purchase cash is invalid.
         /// </summary>
         public static string TypeOfOperationForPurchaseCashIsInvalid {
             get {

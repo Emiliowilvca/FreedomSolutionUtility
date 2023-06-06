@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Version>1.0.1020</Version>
+    <Version>1.0.1022</Version>
     <Nullable>disable</Nullable>	  
     <PackageIcon>Letter-F-icon.png</PackageIcon>
     <PackAsTool>False</PackAsTool>    
