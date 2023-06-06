@@ -1,15 +1,17 @@
 
 /* CLAVE */
-oy2jghmataluuclza3fa53zokwcf25uepdts2fallk2nja
 
+
+oy2cawm7fa4jo4u2qakaziawmpuhlvre3n43lezkzi37by
  
+
 
 go to ~/FreedomUtility/Freedom.Utility/bin/Debug$  ***for export with success result***
 
 
 /--------------------------------PUBLICAR EN LA NUBE-----------------------------------------------------/
 
-dotnet nuget push Freedom.Utility.1.0.690.nupkg --api-key oy2jghmataluuclza3fa53zokwcf25uepdts2fallk2nja --source https://api.nuget.org/v3/index.json
+dotnet nuget push Freedom.Utility.1.0.1022.nupkg --api-key oy2cawm7fa4jo4u2qakaziawmpuhlvre3n43lezkzi37by --source https://api.nuget.org/v3/index.json
  
 
  
@@ -35,5 +37,6 @@ dotnet add /home/emilio/FreedomWebApi/Freedom.Data/Freedom.Data.csproj package F
 emilio@ubuntu2022:~/scriptsNuget$ ./script.sh 
 
 VERSION 1.0.691
+
 
 
