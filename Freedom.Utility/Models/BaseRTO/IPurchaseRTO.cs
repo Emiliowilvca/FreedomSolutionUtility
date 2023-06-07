@@ -1,33 +1,23 @@
-﻿namespace Freedom.Utility.Models.BaseRTO
+﻿using Freedom.Utility.Models.BaseEntity;
+
+namespace Freedom.Utility.Models.BaseRTO
 {
-    public interface IPurchaseRTO
+    public interface IPurchaseRTO : IPurchase
     {
-        int Id { get; set; }
-
-        DateTime PurchaseDate { get; set; }
-
-        long InvoiceNum { get; set; }
-
         string ProviderName { get; set; }
+
+        decimal TotalRetention { get; set; }
+
+        bool RetentionExport { get; set; }
 
         string OperationTypeName { get; set; }
 
         string MoneyName { get; set; }
 
-        /// <summary>
-        /// Total Purchase
-        /// </summary>
-        decimal Total { get; set; }
+        string ShopName { get; set; }
 
-        /// <summary>
-        ///  Total Taxes in details
-        /// </summary>
-        decimal TotalTax { get; set; }
+        string BoxName { get; set; }
 
-        decimal TotalRetention { get; set; }
-
-        decimal Exchange { get; set; }
-
-        bool RetentionExport { get; set; }
+        string CarrierName { get; set; }
     }
 }
