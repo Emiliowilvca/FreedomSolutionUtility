@@ -1,5 +1,4 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 
 namespace Freedom.Utility
 {
@@ -39,6 +38,16 @@ namespace Freedom.Utility
             return result ? nuevo : DateTime.UtcNow;
         }
 
+        /// <summary>
+        /// Conver string to Datetime UTC+0
+        /// </summary>
+        /// <param name="date">yyyy-MM-ddTHH:mm:ss format</param>
+        /// <returns> DateTime UTC+0</returns>
+        public static DateTime ToDateTimeFromUrl(this string date)
+        {
+            DateTime result;
+            return DateTime.TryParseExact(date.ToString(), "yyyy-MM-ddTHH:mm:ss", CultureInfo.InvariantCulture, DateTimeStyles.None, out result) ? result : DateTime.UtcNow;
+        }
 
         /// <summary>
         /// Convert String to datetime utc hour
@@ -47,7 +56,7 @@ namespace Freedom.Utility
         /// <returns></returns>
         public static DateTime ToDateTimeUtcNow(this string dateString)
         {
-            if(string.IsNullOrEmpty(dateString)) return DateTime.UtcNow;
+            if (string.IsNullOrEmpty(dateString)) return DateTime.UtcNow;
 
             if (DateTime.TryParse(dateString, out DateTime current))
             {
@@ -72,11 +81,9 @@ namespace Freedom.Utility
             return DateTime.Now;
         }
 
-
-
         public static DateTime ToDatetimeFirstOfDay(this string dateString)
         {
-           if (string.IsNullOrEmpty(dateString)) 
+            if (string.IsNullOrEmpty(dateString))
                 return DateTime.Now;
 
             if (DateTime.TryParse(dateString, out DateTime current))
@@ -95,7 +102,6 @@ namespace Freedom.Utility
             return DateTime.Now.SetTimeEndOfDay();
         }
 
-      
         public static string ToLongDateWithoutWeekDayString(this DateTime source)
         {
             string s1 = source.ToLongDateString();
@@ -125,6 +131,11 @@ namespace Freedom.Utility
             return d.ToString("yyyy-MM-dd HH:mm:ss");
         }
 
+        public static string ToUrlDatetime(this DateTime d)
+        {
+            return d.ToString("yyyy-MM-ddTHH:mm:ss");
+        }
+
 
         /// <summary>
         /// Convert date to first hour day string mysql date format (yyyy-MM-dd HH:mm:ss)
@@ -152,7 +163,6 @@ namespace Freedom.Utility
         {
             return new DateTime(d.Year, d.Month, d.Day, 0, 0, 1);
         }
-
 
         /// <summary>
         /// convert datetime to string first of day (yyyy/MM/dd HH:mm:ss)
@@ -192,9 +202,8 @@ namespace Freedom.Utility
             return new DateTime(d.Year, d.Month, d.Day, dx.Hour, dx.Minute, dx.Second);
         }
 
-
         /// <summary>
-        /// convert date to server datetime 
+        /// convert date to server datetime
         /// </summary>
         /// <param name="d"> datetime</param>
         /// <returns> utc server datetime </returns>
@@ -204,9 +213,8 @@ namespace Freedom.Utility
             return new DateTime(d.Year, d.Month, d.Day, c.Hour, c.Minute, c.Second);
         }
 
-
         /// <summary>
-        /// convert date to local datetime 
+        /// convert date to local datetime
         /// </summary>
         /// <param name="d"> datetime </param>
         /// <returns> local pc datetime </returns>
@@ -215,7 +223,5 @@ namespace Freedom.Utility
             DateTime c = DateTime.Now;
             return new DateTime(d.Year, d.Month, d.Day, c.Hour, c.Minute, c.Second);
         }
-
-        
     }
 }
