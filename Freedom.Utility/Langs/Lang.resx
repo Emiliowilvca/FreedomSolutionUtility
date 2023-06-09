@@ -2065,8 +2065,8 @@
     <value>taxpayer situation</value>
     <comment />
   </data>
-  <data name="IVAwithholding" xml:space="preserve">
-    <value>VAT withholding</value>
+  <data name="PurchaseTaxWithholding" xml:space="preserve">
+    <value>Purchase Tax withholding</value>
     <comment />
   </data>
   <data name="RentWithholding" xml:space="preserve">
@@ -4363,5 +4363,11 @@
   </data>
   <data name="TaxWithholding" xml:space="preserve">
     <value>Tax withholding</value>
+  </data>
+  <data name="VatWithholding" xml:space="preserve">
+    <value>VAT Withholding</value>
+  </data>
+  <data name="InvoicesWithWithholding" xml:space="preserve">
+    <value>invoices with withholding</value>
   </data>
 </root>

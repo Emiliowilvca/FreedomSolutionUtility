@@ -2069,8 +2069,8 @@
     <value>租金预扣</value>
     <comment />
   </data>
-  <data name="IVAwithholding" xml:space="preserve">
-    <value>增值税预扣</value>
+  <data name="PurchaseTaxWithholding" xml:space="preserve">
+    <value>代扣代缴购置税</value>
     <comment />
   </data>
   <data name="Quantity" xml:space="preserve">
@@ -4362,5 +4362,11 @@
   </data>
   <data name="TaxWithholding" xml:space="preserve">
     <value>预扣税</value>
+  </data>
+  <data name="VatWithholding" xml:space="preserve">
+    <value>增值税预扣</value>
+  </data>
+  <data name="InvoicesWithWithholding" xml:space="preserve">
+    <value>预扣发票</value>
   </data>
 </root>

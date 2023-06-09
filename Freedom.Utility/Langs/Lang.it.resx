@@ -2069,8 +2069,8 @@
     <value>Ritenuta d'affitto</value>
     <comment />
   </data>
-  <data name="IVAwithholding" xml:space="preserve">
-    <value>Ritenuta IVA</value>
+  <data name="PurchaseTaxWithholding" xml:space="preserve">
+    <value>Ritenuta d'acconto sull'acquisto</value>
     <comment />
   </data>
   <data name="Quantity" xml:space="preserve">
@@ -4363,5 +4363,11 @@
   </data>
   <data name="TaxWithholding" xml:space="preserve">
     <value>Ritenuta d'acconto</value>
+  </data>
+  <data name="VatWithholding" xml:space="preserve">
+    <value>Ritenuta IVA</value>
+  </data>
+  <data name="InvoicesWithWithholding" xml:space="preserve">
+    <value>fatture con ritenuta d'acconto</value>
   </data>
 </root>

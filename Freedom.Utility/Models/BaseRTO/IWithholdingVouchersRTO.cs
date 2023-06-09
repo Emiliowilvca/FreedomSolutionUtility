@@ -6,7 +6,7 @@
 
         int CompanyId { get; set; }
 
-        int VourchersType { get; set; }
+        int VourchersTypeId { get; set; }
 
         string Code { get; set; }
 

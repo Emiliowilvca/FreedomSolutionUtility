@@ -1,10 +1,11 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
+using Freedom.Utility.Models.BaseRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
-    public class PurchaseBind : BindableBase, IPurchase, ISelectable
+    public class PurchaseBind : BindableBase, IPurchaseRTO, ISelectable
     {
         private int _id;
         private int _companyId;
@@ -34,6 +35,8 @@ namespace Freedom.Frontend.Models.Bindable
         private string _userName;
         private string _operationTypeName;
         private string _carrierName;
+        private decimal _totalRetention;
+        private bool _retentionExport;
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
 
@@ -90,5 +93,9 @@ namespace Freedom.Frontend.Models.Bindable
         public string OperationTypeName { get => _operationTypeName; set => SetProperty(ref _operationTypeName, value); }
 
         public string CarrierName { get => _carrierName; set => SetProperty(ref _carrierName, value); }
+
+        public decimal TotalRetention { get => _totalRetention; set => SetProperty(ref _totalRetention, value); }
+
+        public bool RetentionExport { get => _retentionExport; set => SetProperty(ref _retentionExport, value); }
     }
 }

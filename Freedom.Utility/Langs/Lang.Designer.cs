@@ -4291,6 +4291,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to invoices with withholding.
+        /// </summary>
+        public static string InvoicesWithWithholding {
+            get {
+                return ResourceManager.GetString("InvoicesWithWithholding", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Invoice Until.
         /// </summary>
         public static string InvoiceUntil {
@@ -4368,15 +4377,6 @@ namespace Freedom.Utility.Langs {
         public static string iva {
             get {
                 return ResourceManager.GetString("iva", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to VAT withholding.
-        /// </summary>
-        public static string IVAwithholding {
-            get {
-                return ResourceManager.GetString("IVAwithholding", resourceCulture);
             }
         }
         
@@ -7023,6 +7023,15 @@ namespace Freedom.Utility.Langs {
         public static string PurchaseReport {
             get {
                 return ResourceManager.GetString("PurchaseReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Purchase Tax withholding.
+        /// </summary>
+        public static string PurchaseTaxWithholding {
+            get {
+                return ResourceManager.GetString("PurchaseTaxWithholding", resourceCulture);
             }
         }
         
@@ -9678,6 +9687,15 @@ namespace Freedom.Utility.Langs {
         public static string VATpercentage {
             get {
                 return ResourceManager.GetString("VATpercentage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to VAT Withholding.
+        /// </summary>
+        public static string VatWithholding {
+            get {
+                return ResourceManager.GetString("VatWithholding", resourceCulture);
             }
         }
         

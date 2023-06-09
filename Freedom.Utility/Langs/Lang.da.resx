@@ -2069,8 +2069,8 @@
     <value>Leje tilbageholdelse</value>
     <comment />
   </data>
-  <data name="IVAwithholding" xml:space="preserve">
-    <value>Momsindeholdelse</value>
+  <data name="PurchaseTaxWithholding" xml:space="preserve">
+    <value>Indeholdelse af købsafgift</value>
     <comment />
   </data>
   <data name="Quantity" xml:space="preserve">
@@ -4363,5 +4363,11 @@
   </data>
   <data name="TaxWithholding" xml:space="preserve">
     <value>Skat tilbageholdelse</value>
+  </data>
+  <data name="VatWithholding" xml:space="preserve">
+    <value>moms tilbageholdelse</value>
+  </data>
+  <data name="InvoicesWithWithholding" xml:space="preserve">
+    <value>fakturaer med tilbageholdelse</value>
   </data>
 </root>

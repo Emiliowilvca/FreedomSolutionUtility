@@ -8,7 +8,7 @@ namespace Freedom.Utility.Models.RTO
 
         public int CompanyId { get; set; }
 
-        public int VourchersType { get; set; }
+        public int VourchersTypeId { get; set; }
 
         public string Code { get; set; }
 

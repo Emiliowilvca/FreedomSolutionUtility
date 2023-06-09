@@ -2069,8 +2069,8 @@
     <value>Удержание арендной платы</value>
     <comment />
   </data>
-  <data name="IVAwithholding" xml:space="preserve">
-    <value>Удержание НДС</value>
+  <data name="PurchaseTaxWithholding" xml:space="preserve">
+    <value>Удержание налога на покупку</value>
     <comment />
   </data>
   <data name="Quantity" xml:space="preserve">
@@ -4363,5 +4363,11 @@
   </data>
   <data name="TaxWithholding" xml:space="preserve">
     <value>Удержание налогов</value>
+  </data>
+  <data name="VatWithholding" xml:space="preserve">
+    <value>удержание НДС</value>
+  </data>
+  <data name="InvoicesWithWithholding" xml:space="preserve">
+    <value>счета-фактуры с удержанием</value>
   </data>
 </root>

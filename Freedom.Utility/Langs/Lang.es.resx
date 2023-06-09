@@ -2065,8 +2065,8 @@
     <value>Retención de renta</value>
     <comment />
   </data>
-  <data name="IVAwithholding" xml:space="preserve">
-    <value>Retención de IVA</value>
+  <data name="PurchaseTaxWithholding" xml:space="preserve">
+    <value>Retención de impuestos de compra</value>
     <comment />
   </data>
   <data name="Quantity" xml:space="preserve">
@@ -4362,6 +4362,12 @@
     <value>Continuar proceso de compra</value>
   </data>
   <data name="TaxWithholding" xml:space="preserve">
-    <value>Retención</value>
+    <value>Retención de Compras</value>
+  </data>
+  <data name="VatWithholding" xml:space="preserve">
+    <value>Retención de IVA</value>
+  </data>
+  <data name="InvoicesWithWithholding" xml:space="preserve">
+    <value>Facturas con retención</value>
   </data>
 </root>

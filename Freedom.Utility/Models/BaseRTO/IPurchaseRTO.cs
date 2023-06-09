@@ -6,6 +6,8 @@ namespace Freedom.Utility.Models.BaseRTO
     {
         string ProviderName { get; set; }
 
+        string ProviderRuc { get; set; }
+
         decimal TotalRetention { get; set; }
 
         bool RetentionExport { get; set; }

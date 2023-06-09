@@ -2069,8 +2069,8 @@
     <value>Retenue de loyer</value>
     <comment />
   </data>
-  <data name="IVAwithholding" xml:space="preserve">
-    <value>Retenue de TVA</value>
+  <data name="PurchaseTaxWithholding" xml:space="preserve">
+    <value>Retenue d'impôt sur l'achat</value>
     <comment />
   </data>
   <data name="Quantity" xml:space="preserve">
@@ -4363,5 +4363,11 @@
   </data>
   <data name="TaxWithholding" xml:space="preserve">
     <value>Retenue d'impôt</value>
+  </data>
+  <data name="VatWithholding" xml:space="preserve">
+    <value>retenue de TVA</value>
+  </data>
+  <data name="InvoicesWithWithholding" xml:space="preserve">
+    <value>factures avec retenue</value>
   </data>
 </root>
