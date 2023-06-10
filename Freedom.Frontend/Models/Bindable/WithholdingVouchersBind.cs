@@ -8,7 +8,7 @@ namespace Freedom.Frontend.Models.Bindable
     {
         private int _id;
         private int _companyId;
-        private int _vourchersType;
+        private int _vourcherTypeId;
         private string _code;
         private string _description;
 
@@ -16,7 +16,7 @@ namespace Freedom.Frontend.Models.Bindable
 
         public int CompanyId { get => _companyId; set => SetProperty(ref _companyId, value); }
 
-        public int VourchersType { get => _vourchersType; set => SetProperty(ref _vourchersType, value); }
+        public int VourcherTypeId { get => _vourcherTypeId; set => SetProperty(ref _vourcherTypeId, value); }
 
         public string Code { get => _code; set => SetProperty(ref _code, value); }
 

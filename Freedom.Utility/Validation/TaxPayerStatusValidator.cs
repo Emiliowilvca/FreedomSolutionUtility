@@ -13,6 +13,10 @@ namespace Freedom.Utility.Validation
             RuleFor(x => x.CompanyId).CompanyID();
 
             RuleFor(x => x.Name).Name(1, 50);
+
+            RuleFor(x => x.CodeSET).Name(1, 50);
+
+            RuleFor(x => x.NameSET).Name(1, 50);
         }
     }
 }
