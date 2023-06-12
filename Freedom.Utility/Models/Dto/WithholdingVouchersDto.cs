@@ -9,7 +9,9 @@ namespace Freedom.Utility.Models.Dto
 
         public int CompanyId { get; set; }
 
-        public int VourcherTypeId { get; set; }
+        public int TaxPayerStatusId { get; set; }
+
+        public string TaxType { get; set; }
 
         public string Code { get; set; }
 

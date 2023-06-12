@@ -1,9 +1,9 @@
-﻿namespace Freedom.Utility.Models.BaseRTO
-{
-    public interface IPurchaseInstallmentRTO
-    {
-        int Id { get; set; }
+﻿using Freedom.Utility.Models.BaseEntity;
 
-        string Name { get; set; }
+namespace Freedom.Utility.Models.BaseRTO
+{
+    public interface IPurchaseInstallmentRTO: IPurchaseInstallment
+    {
+         
     }
 }

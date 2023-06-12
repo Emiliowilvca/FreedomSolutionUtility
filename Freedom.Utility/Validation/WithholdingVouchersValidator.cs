@@ -12,7 +12,9 @@ namespace Freedom.Utility.Validation
 
             RuleFor(x => x.CompanyId).CompanyID();
 
-            RuleFor(x => x.VourcherTypeId).Generic(1, int.MaxValue, "WithholdingVouchers VourchersType is invalid", "");
+            RuleFor(x => x.TaxPayerStatusId).Generic(1, int.MaxValue, "Tax Payer Status Id is invalid", "");
+
+            RuleFor(x => x.TaxType).Generic(1, 50, "TaxType is invalid", "");
 
             RuleFor(x => x.Code).Generic(1, int.MaxValue, "WithholdingVouchers code is invalid", "");
 

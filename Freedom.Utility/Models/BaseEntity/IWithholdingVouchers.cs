@@ -6,7 +6,15 @@
 
         int CompanyId { get; set; }
 
-        int VourcherTypeId { get; set; }
+        /// <summary>
+        /// CONTRIBUYENTE, NO-CONTRIBUYENTE, NO-RESIDENTE
+        /// </summary>
+        int TaxPayerStatusId { get; set; }
+
+        /// <summary>
+        /// IVA o Renta
+        /// </summary>
+        string TaxType { get; set; }
 
         string Code { get; set; }
 
