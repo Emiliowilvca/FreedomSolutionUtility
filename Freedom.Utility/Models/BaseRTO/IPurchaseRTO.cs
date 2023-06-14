@@ -7,11 +7,7 @@ namespace Freedom.Utility.Models.BaseRTO
         string ProviderName { get; set; }
 
         string ProviderRuc { get; set; }
-
-        decimal TotalRetention { get; set; }
-
-        bool RetentionExport { get; set; }
-
+        
         string OperationTypeName { get; set; }
 
         string MoneyName { get; set; }
@@ -21,5 +17,9 @@ namespace Freedom.Utility.Models.BaseRTO
         string BoxName { get; set; }
 
         string CarrierName { get; set; }
+
+        bool RetentionExport { get; set; }
+
+        decimal TotalRetention { get; set; }
     }
 }

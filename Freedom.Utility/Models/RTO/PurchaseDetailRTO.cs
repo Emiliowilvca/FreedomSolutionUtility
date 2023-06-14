@@ -9,6 +9,7 @@ namespace Freedom.Utility.Models.RTO
         public int PurchaseId { get; set; }
 
         public int ProductId { get; set; }
+
         public string Code { get; set; }
 
         public string Description { get; set; }

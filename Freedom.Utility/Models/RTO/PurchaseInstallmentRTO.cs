@@ -4,6 +4,8 @@ namespace Freedom.Utility.Models.RTO
 {
     public class PurchaseInstallmentRTO : IPurchaseInstallmentRTO
     {
+        public int Id { get; set; }
+
         public int CompanyId { get; set; }
 
         public int PurchaseId { get; set; }
@@ -26,6 +28,5 @@ namespace Freedom.Utility.Models.RTO
 
         public decimal Exchange { get; set; }
 
-        public int Id { get; set; }
     }
 }

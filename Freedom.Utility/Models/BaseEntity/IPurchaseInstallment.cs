@@ -1,4 +1,7 @@
-﻿namespace Freedom.Utility.Models.BaseEntity
+﻿using Freedom.Utility.Helper;
+using System.Text.Json.Serialization;
+
+namespace Freedom.Utility.Models.BaseEntity
 {
     public interface IPurchaseInstallment : IEntity
     {
@@ -14,10 +17,14 @@
 
         decimal Interest { get; set; }
 
+        /// <summary>
+        ///feesvalue = capital + interest
+        /// </summary>
         decimal Feesvalue { get; set; }
 
         int MoneyId { get; set; }
 
+        [JsonConverter(typeof(IntToBoolJsonConverter))]
         bool Status { get; set; }
 
         DateTime Expirate { get; set; }
