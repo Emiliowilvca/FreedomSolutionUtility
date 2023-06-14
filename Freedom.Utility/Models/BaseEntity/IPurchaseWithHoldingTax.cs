@@ -130,5 +130,7 @@ namespace Freedom.Utility.Models.BaseEntity
         /// suma de todas las retencion Ej: Ret.Renta + Ret.Cabezas + Ret.Toneladas + Ret.Iva10 + Ret.Iva5
         /// </summary>
         decimal RetentionTotalGeneral { get; set; }
+
+        //29 properties
     }
 }

@@ -1,7 +1,4 @@
-﻿using Freedom.Utility.Helper;
-using System.Text.Json.Serialization;
-
-namespace Freedom.Utility.Models.BaseEntity
+﻿namespace Freedom.Utility.Models.BaseEntity
 {
     public interface IPurchaseInstallment : IEntity
     {
@@ -24,7 +21,6 @@ namespace Freedom.Utility.Models.BaseEntity
 
         int MoneyId { get; set; }
 
-        [JsonConverter(typeof(IntToBoolJsonConverter))]
         bool Status { get; set; }
 
         DateTime Expirate { get; set; }

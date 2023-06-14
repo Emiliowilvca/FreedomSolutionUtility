@@ -1,5 +1,4 @@
 ﻿using Freedom.Utility.Models.BaseRTO;
-using System;
 
 namespace Freedom.Utility.Models.RTO
 {
