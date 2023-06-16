@@ -4370,4 +4370,7 @@
   <data name="InvoicesWithWithholding" xml:space="preserve">
     <value>facturen met inhouding</value>
   </data>
+  <data name="InvoiceNumberNotFound" xml:space="preserve">
+    <value>factuurnummer niet gevonden</value>
+  </data>
 </root>

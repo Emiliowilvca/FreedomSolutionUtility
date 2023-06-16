@@ -1,6 +1,8 @@
-﻿namespace Freedom.Utility.Models.Dto
+﻿using Freedom.Utility.Bindable;
+
+namespace Freedom.Utility.Models.Dto
 {
-    public class WithholdingPercentVAT5Dto
+    public class WithholdingPercentVAT5Dto : BindableBase
     {
         public int Id { get; set; }
 

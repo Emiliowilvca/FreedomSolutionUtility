@@ -4264,6 +4264,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to invoice number not found.
+        /// </summary>
+        public static string InvoiceNumberNotFound {
+            get {
+                return ResourceManager.GetString("InvoiceNumberNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to invoice printer name.
         /// </summary>
         public static string InvoicePrinterName {

@@ -4369,4 +4369,7 @@
   <data name="InvoicesWithWithholding" xml:space="preserve">
     <value>预扣发票</value>
   </data>
+  <data name="InvoiceNumberNotFound" xml:space="preserve">
+    <value>未找到发票编号</value>
+  </data>
 </root>
