@@ -13,7 +13,7 @@ namespace Freedom.Utility.Validation
 
             RuleFor(x => x.CompanyId).CompanyID();
 
-            RuleFor(x => x.PurchaseId).Generic(0, int.MaxValue, "PurchaseId is invalid", "error 01");
+            RuleFor(x => x.PurchaseId).Generic(1, int.MaxValue, "PurchaseId is invalid", "error 01");
 
             RuleFor(x => x.DateRetention).Generic("Date Retention is invalid", "error 01");
 
@@ -21,7 +21,7 @@ namespace Freedom.Utility.Validation
 
             RuleFor(x => x.Condition).Generic(1, 10, "Condition is not Valid", "error 01");
 
-            RuleFor(x => x.TaxPayerStatus).Generic(1, 20, "Condition is not Valid", "error 01");
+            RuleFor(x => x.TaxPayerStatus).Generic(1, 20, "TaxPayerStatus is not Valid", "error 01");
 
             RuleFor(x => x.TipoComprobanteId).Generic(1, int.MaxValue, "TipoComprobanteId is not Valid", "error 01");
 

@@ -1,4 +1,5 @@
-﻿using Freedom.Utility.Bindable;
+﻿using Freedom.Frontend.FontIcons;
+using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.BaseEntity;
 using Freedom.Utility.Models.BaseRTO;
 
@@ -37,6 +38,9 @@ namespace Freedom.Frontend.Models.Bindable
         private string _carrierName;
         private decimal _totalRetention;
         private bool _retentionExport;
+        private string _moneyISO4217;
+        private string _withholdingConditionSET;
+        private string _isWilholdingTaxGlyp;
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
 
@@ -97,5 +101,21 @@ namespace Freedom.Frontend.Models.Bindable
         public decimal TotalRetention { get => _totalRetention; set => SetProperty(ref _totalRetention, value); }
 
         public bool RetentionExport { get => _retentionExport; set => SetProperty(ref _retentionExport, value); }
+
+        public string MoneyISO4217 { get => _moneyISO4217; set => SetProperty(ref _moneyISO4217, value); }
+
+        public string WithholdingConditionSET { get => _withholdingConditionSET; set => SetProperty(ref _withholdingConditionSET, value); }
+
+        public bool IsWithHoldingTax { get; set; }
+
+        public string IsWilholdingTaxGlyp
+        {
+            get
+            {
+                _isWilholdingTaxGlyp = IsWithHoldingTax ? MaterialDesignIcons.ArrowTopRightThick : "";
+                return _isWilholdingTaxGlyp;
+            }
+            set => SetProperty(ref _isWilholdingTaxGlyp, value);
+        }
     }
 }

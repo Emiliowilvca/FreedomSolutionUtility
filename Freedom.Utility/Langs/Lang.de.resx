@@ -4373,4 +4373,10 @@
   <data name="InvoiceNumberNotFound" xml:space="preserve">
     <value>Rechnungsnummer nicht gefunden</value>
   </data>
+  <data name="DocumentNumberAlreadyExists" xml:space="preserve">
+    <value>Die Belegnummer ist bereits vorhanden</value>
+  </data>
+  <data name="CopyInvoiceNumber" xml:space="preserve">
+    <value>Rechnungsnummer kopieren</value>
+  </data>
 </root>

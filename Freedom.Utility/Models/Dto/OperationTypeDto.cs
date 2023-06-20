@@ -1,5 +1,4 @@
 ﻿using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Utility.Models.Dto
 {
@@ -16,5 +15,6 @@ namespace Freedom.Utility.Models.Dto
 
         public string Intials { get; set; }
 
+        public string NameSET { get; set; }
     }
 }

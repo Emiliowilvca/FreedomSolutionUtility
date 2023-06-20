@@ -4372,4 +4372,10 @@
   <data name="InvoiceNumberNotFound" xml:space="preserve">
     <value>未找到发票编号</value>
   </data>
+  <data name="DocumentNumberAlreadyExists" xml:space="preserve">
+    <value>文件编号已存在</value>
+  </data>
+  <data name="CopyInvoiceNumber" xml:space="preserve">
+    <value>复制发票号码</value>
+  </data>
 </root>

@@ -59,5 +59,9 @@ namespace Freedom.Utility.Models.RTO
         public string Timbrado { get; set; }
 
         public string ProviderRuc { get; set; }
+
+        public string MoneyISO4217 { get; set; }
+
+        public string WithholdingConditionSET { get; set; }
     }
 }

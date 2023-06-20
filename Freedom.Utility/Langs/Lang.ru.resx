@@ -4373,4 +4373,10 @@
   <data name="InvoiceNumberNotFound" xml:space="preserve">
     <value>номер счета не найден</value>
   </data>
+  <data name="DocumentNumberAlreadyExists" xml:space="preserve">
+    <value>номер документа уже существует</value>
+  </data>
+  <data name="CopyInvoiceNumber" xml:space="preserve">
+    <value>Скопировать номер счета</value>
+  </data>
 </root>

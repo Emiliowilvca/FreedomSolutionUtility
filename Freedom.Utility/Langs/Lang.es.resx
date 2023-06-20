@@ -4373,4 +4373,10 @@
   <data name="InvoiceNumberNotFound" xml:space="preserve">
     <value>No se encuentra el numero de factura</value>
   </data>
+  <data name="DocumentNumberAlreadyExists" xml:space="preserve">
+    <value>el número de documento ya existe</value>
+  </data>
+  <data name="CopyInvoiceNumber" xml:space="preserve">
+    <value>Copiar número de factura</value>
+  </data>
 </root>

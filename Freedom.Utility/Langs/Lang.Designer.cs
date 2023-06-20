@@ -2023,6 +2023,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Copy invoice number.
+        /// </summary>
+        public static string CopyInvoiceNumber {
+            get {
+                return ResourceManager.GetString("CopyInvoiceNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Copy to clipboard.
         /// </summary>
         public static string CopyToClipboad {
@@ -2793,6 +2802,15 @@ namespace Freedom.Utility.Langs {
         public static string Document {
             get {
                 return ResourceManager.GetString("Document", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Document number already exists.
+        /// </summary>
+        public static string DocumentNumberAlreadyExists {
+            get {
+                return ResourceManager.GetString("DocumentNumberAlreadyExists", resourceCulture);
             }
         }
         

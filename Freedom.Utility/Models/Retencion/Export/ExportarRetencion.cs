@@ -2,9 +2,9 @@
 
 namespace Freedom.Utility.Models.Retencion.Export
 {
-    public class Exportacion
-    {
-    }
+    //public class ImportacionRetencion
+    //{
+    //}
 
     // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
 

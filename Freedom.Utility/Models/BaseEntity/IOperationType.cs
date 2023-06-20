@@ -11,5 +11,7 @@
         int SubclassId { get; set; }
 
         string Intials { get; set; }
+
+        string NameSET { get; set; }
     }
 }

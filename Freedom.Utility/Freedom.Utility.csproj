@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Version>1.0.1039</Version>
+    <Version>1.0.1052</Version>
     <Nullable>disable</Nullable>	  
     <PackageIcon>Letter-F-icon.png</PackageIcon>
     <PackAsTool>False</PackAsTool>    
@@ -21,7 +21,7 @@
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="11.5.2" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="6.0.0-preview.4.21253.7" />
-    <PackageReference Include="System.Text.Json" Version="7.0.2" />
+    <PackageReference Include="System.Text.Json" Version="7.0.3" />
   </ItemGroup>	
   <ItemGroup>
     <Compile Update="Langs\Lang.Designer.cs">
