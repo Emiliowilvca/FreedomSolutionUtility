@@ -4385,4 +4385,13 @@
   <data name="CancelExported" xml:space="preserve">
     <value>avbryt eksportert</value>
   </data>
+  <data name="PendingInvoices" xml:space="preserve">
+    <value>ventende fakturaer</value>
+  </data>
+  <data name="MoneyReceipt" xml:space="preserve">
+    <value>pengekvittering</value>
+  </data>
+  <data name="PartialPayment" xml:space="preserve">
+    <value>delbetaling</value>
+  </data>
 </root>

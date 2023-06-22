@@ -4385,4 +4385,13 @@
   <data name="CancelExported" xml:space="preserve">
     <value>annulla esportato</value>
   </data>
+  <data name="PendingInvoices" xml:space="preserve">
+    <value>fatture in sospeso</value>
+  </data>
+  <data name="MoneyReceipt" xml:space="preserve">
+    <value>ricevuta di denaro</value>
+  </data>
+  <data name="PartialPayment" xml:space="preserve">
+    <value>pagamento parziale</value>
+  </data>
 </root>

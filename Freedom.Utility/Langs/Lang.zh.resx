@@ -4384,4 +4384,13 @@
   <data name="CancelExported" xml:space="preserve">
     <value>取消导出</value>
   </data>
+  <data name="PendingInvoices" xml:space="preserve">
+    <value>待处理的发票</value>
+  </data>
+  <data name="MoneyReceipt" xml:space="preserve">
+    <value>收据</value>
+  </data>
+  <data name="PartialPayment" xml:space="preserve">
+    <value>部分付款</value>
+  </data>
 </root>

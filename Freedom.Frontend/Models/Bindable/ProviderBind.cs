@@ -22,8 +22,10 @@ namespace Freedom.Frontend.Models.Bindable
         private string _timbrado;
         private string _bankName;
         private string _bankAccountNum;
-
         private bool _isSelected;
+        private string _cityName;
+        private string _providerTypeName;
+        private string _paymentTypeName;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -66,5 +68,11 @@ namespace Freedom.Frontend.Models.Bindable
         public string BankAccountNum { get => _bankAccountNum; set => SetProperty(ref _bankAccountNum, value); }
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
+
+        public string CityName { get => _cityName; set => SetProperty(ref _cityName, value); }
+
+        public string ProviderTypeName { get => _providerTypeName; set => SetProperty(ref _providerTypeName, value); }
+
+        public string PaymentTypeName { get => _paymentTypeName; set => SetProperty(ref _paymentTypeName, value); }
     }
 }

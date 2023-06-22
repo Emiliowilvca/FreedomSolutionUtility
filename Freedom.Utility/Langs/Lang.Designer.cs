@@ -5578,6 +5578,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Money receipt.
+        /// </summary>
+        public static string MoneyReceipt {
+            get {
+                return ResourceManager.GetString("MoneyReceipt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The mother name is not valid.
         /// </summary>
         public static string MotherNameIsInvalid {
@@ -6019,6 +6028,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Partial payment.
+        /// </summary>
+        public static string PartialPayment {
+            get {
+                return ResourceManager.GetString("PartialPayment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Partner is invalid.
         /// </summary>
         public static string PartnerIsInvalid {
@@ -6303,6 +6321,15 @@ namespace Freedom.Utility.Langs {
         public static string PayTax {
             get {
                 return ResourceManager.GetString("PayTax", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pending invoices.
+        /// </summary>
+        public static string PendingInvoices {
+            get {
+                return ResourceManager.GetString("PendingInvoices", resourceCulture);
             }
         }
         
