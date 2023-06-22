@@ -793,7 +793,7 @@
     <value>Удалить</value>
     <comment />
   </data>
-  <data name="Delete_Question" xml:space="preserve">
+  <data name="DoYouReallyWantToDelete" xml:space="preserve">
     <value>Почему вы хотите отменить этот заказ?</value>
     <comment />
   </data>
@@ -4378,5 +4378,11 @@
   </data>
   <data name="CopyInvoiceNumber" xml:space="preserve">
     <value>Скопировать номер счета</value>
+  </data>
+  <data name="OperationCannotBeCompleted" xml:space="preserve">
+    <value>Операция не может быть завершена</value>
+  </data>
+  <data name="CancelExported" xml:space="preserve">
+    <value>отменить экспорт</value>
   </data>
 </root>

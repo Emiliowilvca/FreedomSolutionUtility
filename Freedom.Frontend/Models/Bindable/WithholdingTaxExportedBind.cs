@@ -9,7 +9,7 @@ namespace Freedom.Frontend.Models.Bindable
         private int _id;
         private int _companyId;
         private int _purchaseId;
-        private int _withholdingTaxId;
+        private int _purchaseWithHoldingTaxId;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -17,6 +17,6 @@ namespace Freedom.Frontend.Models.Bindable
 
         public int PurchaseId { get => _purchaseId; set => SetProperty(ref _purchaseId, value); }
 
-        public int WithholdingTaxId { get => _withholdingTaxId; set => SetProperty(ref _withholdingTaxId, value); }
+        public int PurchaseWithHoldingTaxId { get => _purchaseWithHoldingTaxId; set => SetProperty(ref _purchaseWithHoldingTaxId, value); }
     }
 }

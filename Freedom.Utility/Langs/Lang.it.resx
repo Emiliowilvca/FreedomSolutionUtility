@@ -793,7 +793,7 @@
     <value>Elimina</value>
     <comment />
   </data>
-  <data name="Delete_Question" xml:space="preserve">
+  <data name="DoYouReallyWantToDelete" xml:space="preserve">
     <value>Vuoi eliminare?</value>
     <comment />
   </data>
@@ -4378,5 +4378,11 @@
   </data>
   <data name="CopyInvoiceNumber" xml:space="preserve">
     <value>Copia il numero della fattura</value>
+  </data>
+  <data name="OperationCannotBeCompleted" xml:space="preserve">
+    <value>L'operazione non può essere completata</value>
+  </data>
+  <data name="CancelExported" xml:space="preserve">
+    <value>annulla esportato</value>
   </data>
 </root>

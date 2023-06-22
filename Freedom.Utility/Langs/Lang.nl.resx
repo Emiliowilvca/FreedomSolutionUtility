@@ -793,8 +793,8 @@
     <value>Verwijderen</value>
     <comment />
   </data>
-  <data name="Delete_Question" xml:space="preserve">
-    <value>Wilt u verwijderen?</value>
+  <data name="DoYouReallyWantToDelete" xml:space="preserve">
+    <value>wil je echt verwijderen?</value>
     <comment />
   </data>
   <data name="DeleteItem" xml:space="preserve">
@@ -4378,5 +4378,11 @@
   </data>
   <data name="CopyInvoiceNumber" xml:space="preserve">
     <value>Kopieer factuurnummer</value>
+  </data>
+  <data name="OperationCannotBeCompleted" xml:space="preserve">
+    <value>De bewerking kan niet worden voltooid</value>
+  </data>
+  <data name="CancelExported" xml:space="preserve">
+    <value>geëxporteerd annuleren</value>
   </data>
 </root>

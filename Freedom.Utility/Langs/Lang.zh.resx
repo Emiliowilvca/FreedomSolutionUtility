@@ -793,8 +793,8 @@
     <value>删除</value>
     <comment />
   </data>
-  <data name="Delete_Question" xml:space="preserve">
-    <value>你想删除?</value>
+  <data name="DoYouReallyWantToDelete" xml:space="preserve">
+    <value>你真的要删除吗？</value>
     <comment />
   </data>
   <data name="DeleteItem" xml:space="preserve">
@@ -4377,5 +4377,11 @@
   </data>
   <data name="CopyInvoiceNumber" xml:space="preserve">
     <value>复制发票号码</value>
+  </data>
+  <data name="OperationCannotBeCompleted" xml:space="preserve">
+    <value>操作无法完成</value>
+  </data>
+  <data name="CancelExported" xml:space="preserve">
+    <value>取消导出</value>
   </data>
 </root>

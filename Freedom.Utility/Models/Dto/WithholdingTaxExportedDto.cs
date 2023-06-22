@@ -1,5 +1,4 @@
 ﻿using Freedom.Utility.Models.BaseEntity;
-using System;
 
 namespace Freedom.Utility.Models.Dto
 {
@@ -12,6 +11,6 @@ namespace Freedom.Utility.Models.Dto
 
         public int PurchaseId { get; set; }
 
-        public int WithholdingTaxId { get; set; }
+        public int PurchaseWithHoldingTaxId { get; set; }
     }
 }

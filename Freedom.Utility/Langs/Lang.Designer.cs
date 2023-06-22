@@ -1222,6 +1222,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cancel exported.
+        /// </summary>
+        public static string CancelExported {
+            get {
+                return ResourceManager.GetString("CancelExported", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cancel Invoice Number.
         /// </summary>
         public static string CancelInvoiceNumber {
@@ -2617,15 +2626,6 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Do you want to delete ?.
-        /// </summary>
-        public static string Delete_Question {
-            get {
-                return ResourceManager.GetString("Delete_Question", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Delete image.
         /// </summary>
         public static string DeleteImage {
@@ -2838,6 +2838,15 @@ namespace Freedom.Utility.Langs {
         public static string download {
             get {
                 return ResourceManager.GetString("download", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Do you really want to delete?.
+        /// </summary>
+        public static string DoYouReallyWantToDelete {
+            get {
+                return ResourceManager.GetString("DoYouReallyWantToDelete", resourceCulture);
             }
         }
         
@@ -5835,6 +5844,15 @@ namespace Freedom.Utility.Langs {
         public static string ok {
             get {
                 return ResourceManager.GetString("ok", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The operation cannot be completed.
+        /// </summary>
+        public static string OperationCannotBeCompleted {
+            get {
+                return ResourceManager.GetString("OperationCannotBeCompleted", resourceCulture);
             }
         }
         

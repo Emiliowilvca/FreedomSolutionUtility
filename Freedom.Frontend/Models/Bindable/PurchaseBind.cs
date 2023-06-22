@@ -100,19 +100,26 @@ namespace Freedom.Frontend.Models.Bindable
 
         public decimal TotalRetention { get => _totalRetention; set => SetProperty(ref _totalRetention, value); }
 
-        public bool RetentionExport { get => _retentionExport; set => SetProperty(ref _retentionExport, value); }
+        public bool RetentionExport
+        {
+            get => _retentionExport;
+
+            set
+            {
+                SetProperty(ref _retentionExport, value);
+                RaisePropertyChanged(nameof(IsWilholdingTaxGlyp));
+            }
+        }
 
         public string MoneyISO4217 { get => _moneyISO4217; set => SetProperty(ref _moneyISO4217, value); }
 
         public string WithholdingConditionSET { get => _withholdingConditionSET; set => SetProperty(ref _withholdingConditionSET, value); }
 
-        public bool IsWithHoldingTax { get; set; }
-
         public string IsWilholdingTaxGlyp
         {
             get
             {
-                _isWilholdingTaxGlyp = IsWithHoldingTax ? MaterialDesignIcons.ArrowTopRightThick : "";
+                _isWilholdingTaxGlyp = RetentionExport ? MaterialDesignIcons.ArrowTopRightThick : "";
                 return _isWilholdingTaxGlyp;
             }
             set => SetProperty(ref _isWilholdingTaxGlyp, value);

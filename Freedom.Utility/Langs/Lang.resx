@@ -793,8 +793,8 @@
     <value>Delete</value>
     <comment />
   </data>
-  <data name="Delete_Question" xml:space="preserve">
-    <value>Do you want to delete ?</value>
+  <data name="DoYouReallyWantToDelete" xml:space="preserve">
+    <value>Do you really want to delete?</value>
     <comment />
   </data>
   <data name="DeleteItem" xml:space="preserve">
@@ -4378,5 +4378,11 @@
   </data>
   <data name="CopyInvoiceNumber" xml:space="preserve">
     <value>Copy invoice number</value>
+  </data>
+  <data name="OperationCannotBeCompleted" xml:space="preserve">
+    <value>The operation cannot be completed</value>
+  </data>
+  <data name="CancelExported" xml:space="preserve">
+    <value>Cancel exported</value>
   </data>
 </root>

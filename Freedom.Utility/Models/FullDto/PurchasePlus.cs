@@ -9,5 +9,7 @@ namespace Freedom.Utility.Models.FullDto
         public string PurchaseInstallmentJson { get; set; }
 
         public string WithholdingTaxJson { get; set; }
+
+        public string WithholdingTaxExportedJson { get; set; }
     }
 }

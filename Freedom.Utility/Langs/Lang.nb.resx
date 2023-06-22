@@ -793,7 +793,7 @@
     <value>Slett</value>
     <comment />
   </data>
-  <data name="Delete_Question" xml:space="preserve">
+  <data name="DoYouReallyWantToDelete" xml:space="preserve">
     <value>Vil du slette?</value>
     <comment />
   </data>
@@ -4378,5 +4378,11 @@
   </data>
   <data name="CopyInvoiceNumber" xml:space="preserve">
     <value>Kopier fakturanummer</value>
+  </data>
+  <data name="OperationCannotBeCompleted" xml:space="preserve">
+    <value>Operasjonen kan ikke fullføres</value>
+  </data>
+  <data name="CancelExported" xml:space="preserve">
+    <value>avbryt eksportert</value>
   </data>
 </root>

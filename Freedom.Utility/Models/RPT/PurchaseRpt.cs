@@ -1,4 +1,5 @@
-﻿using Freedom.Utility.Models.RTO;
+﻿using Freedom.Utility.Models.Dto;
+using Freedom.Utility.Models.RTO;
 
 namespace Freedom.Utility.Models.RPT
 {
@@ -9,5 +10,7 @@ namespace Freedom.Utility.Models.RPT
         public IEnumerable<PurchaseInstallmentRTO> PurchaseInstallments { get; set; }
 
         public IEnumerable<PurchaseWithHoldingTaxRTO> PurchaseWithHoldingTaxes { get; set; }
+
+        public IEnumerable<WithholdingTaxExportedDto> WithholdingTaxExporteds { get; set; }
     }
 }

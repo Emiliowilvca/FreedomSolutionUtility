@@ -8,6 +8,6 @@
 
         int PurchaseId { get; set; }
 
-        int WithholdingTaxId { get; set; }
+        int PurchaseWithHoldingTaxId { get; set; }
     }
 }
