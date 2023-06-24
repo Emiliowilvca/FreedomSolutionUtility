@@ -1,5 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseRTO;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
@@ -33,6 +33,9 @@ namespace Freedom.Frontend.Models.BindableINFO
         private Guid _serialId;
         private decimal _exchange;
         private Guid _userId;
+        private bool _active;
+        private DateTime _startDate;
+        private DateTime _endDate;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -89,5 +92,8 @@ namespace Freedom.Frontend.Models.BindableINFO
         public decimal Exchange { get => _exchange; set => SetProperty(ref _exchange, value); }
 
         public Guid UserId { get => _userId; set => SetProperty(ref _userId, value); }
+        public bool Active { get => _active; set => SetProperty(ref _active, value); }
+        public DateTime StartDate { get => _startDate; set => SetProperty(ref _startDate, value); }
+        public DateTime EndDate { get => _endDate; set => SetProperty(ref _endDate, value); }
     }
 }

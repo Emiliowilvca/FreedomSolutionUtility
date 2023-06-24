@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseEntity;
-using Freedom.Utility.Models.BaseRTO;
+using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
@@ -32,7 +32,7 @@ namespace Freedom.Frontend.Models.BindableINFO
         public string CityName { get => _cityName; set => SetProperty(ref _cityName, value); }
 
         public int cityId { get => _cityId; set => SetProperty(ref _cityId, value); }
-
+        public int CityId { get; set; }
         public string BranchManager { get => _branchManager; set => SetProperty(ref _branchManager, value); }
 
         public int CompanyId { get => _companyId; set => SetProperty(ref _companyId, value); }

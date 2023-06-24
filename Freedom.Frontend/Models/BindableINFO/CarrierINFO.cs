@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseEntity;
-using Freedom.Utility.Models.BaseRTO;
+using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
@@ -21,5 +21,6 @@ namespace Freedom.Frontend.Models.BindableINFO
         public string Address { get => _address; set => SetProperty(ref _address, value); }
         public string Phone { get => _phone; set => SetProperty(ref _phone, value); }
         public string Mobile { get => _mobile; set => SetProperty(ref _mobile, value); }
+        public int CompanyId { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseEntity;
-using Freedom.Utility.Models.BaseRTO;
+using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
@@ -24,5 +24,7 @@ namespace Freedom.Frontend.Models.BindableINFO
         public string SubClassName { get => _subClassName; set => SetProperty(ref _subClassName, value); }
 
         public string Intials { get => _intials; set => SetProperty(ref _intials, value); }
+        public int CompanyId { get; set; }
+        public string NameSET { get; set; }
     }
 }

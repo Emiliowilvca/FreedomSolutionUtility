@@ -1,4 +1,4 @@
-﻿using Freedom.Utility.Models.BaseRTO;
+﻿using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {

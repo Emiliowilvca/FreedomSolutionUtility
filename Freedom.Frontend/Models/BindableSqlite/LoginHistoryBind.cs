@@ -1,4 +1,4 @@
-﻿using Freedom.Frontend.Models.BaseEntitySqlite;
+﻿using Freedom.Frontend.Models.InterfaceEntitySqlite;
 using Freedom.Utility.Bindable;
 
 namespace Freedom.Frontend.Models.BindableSqlite

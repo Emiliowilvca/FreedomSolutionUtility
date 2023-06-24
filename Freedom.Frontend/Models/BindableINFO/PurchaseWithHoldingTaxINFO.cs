@@ -1,5 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseRTO;
+using Freedom.Utility.Models.InterfaceRTO;
 using System;
 
 namespace Freedom.Frontend.Models.BindableINFO

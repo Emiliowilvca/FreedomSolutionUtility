@@ -1,5 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseRTO;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
@@ -33,6 +33,18 @@ namespace Freedom.Frontend.Models.BindableINFO
         private decimal _daysLate;
         private decimal _interestOnArrears;
         private decimal _imputValue;
+        private int _id;
+        private int _customerId;
+        private bool _status;
+        private DateTime _salesDate;
+        private Guid _userId;
+        private int _personId;
+        private Guid _serialId;
+        private decimal _totalCost;
+        private bool _isExpress;
+        private int _customerAccountId;
+        private int _operationTypeId;
+        private int _companyId;
 
         public int SaleId { get => _saleId; set => SetProperty(ref _saleId, value); }
 
@@ -100,5 +112,29 @@ namespace Freedom.Frontend.Models.BindableINFO
                 SetProperty(ref _imputValue, value);
             }
         }
+
+        public int Id { get => _id; set => SetProperty(ref _id, value); }
+
+        public int CustomerId { get => _customerId; set => SetProperty(ref _customerId, value); }
+
+        public int CustomerAccountId { get => _customerAccountId; set => SetProperty(ref _customerAccountId, value); }
+
+        public bool Status { get => _status; set => SetProperty(ref _status, value); }
+
+        public int CompanyId { get => _companyId; set => SetProperty(ref _companyId , value); }
+
+        public DateTime SalesDate { get => _salesDate; set => SetProperty(ref _salesDate, value); }
+
+        public Guid UserId { get => _userId; set => SetProperty(ref _userId, value); }
+
+        public int OperationTypeId { get => _operationTypeId; set => SetProperty(ref _operationTypeId, value); }
+
+        public int PersonId { get => _personId; set => SetProperty(ref _personId, value); }
+
+        public Guid SerialId { get => _serialId; set => SetProperty(ref _serialId, value); }
+
+        public decimal TotalCost { get => _totalCost; set => SetProperty(ref _totalCost, value); }
+
+        public bool IsExpress { get => _isExpress; set => SetProperty(ref _isExpress, value); }
     }
 }

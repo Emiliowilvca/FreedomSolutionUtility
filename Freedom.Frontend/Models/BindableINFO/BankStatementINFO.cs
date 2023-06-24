@@ -1,6 +1,6 @@
 ﻿using System;
 using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseRTO;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {

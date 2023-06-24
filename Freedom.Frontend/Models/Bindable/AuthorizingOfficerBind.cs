@@ -1,5 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseEntity;
+using Freedom.Utility.Models.InterfaceEntity;
 using System;
 
 namespace Freedom.Frontend.Models.Bindable

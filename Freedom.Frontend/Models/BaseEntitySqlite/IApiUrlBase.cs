@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Freedom.Frontend.Models.BaseEntitySqlite
+namespace Freedom.Frontend.Models.InterfaceEntitySqlite
 {
     public interface IApiUrlBase
     {

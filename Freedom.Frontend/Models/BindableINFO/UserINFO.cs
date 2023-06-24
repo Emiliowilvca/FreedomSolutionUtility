@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseEntity;
-using Freedom.Utility.Models.BaseRTO;
+using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 using System;
 
 namespace Freedom.Frontend.Models.BindableINFO
@@ -34,5 +34,12 @@ namespace Freedom.Frontend.Models.BindableINFO
         public string Email { get => _email; set => SetProperty(ref _email, value); }
 
         public string UserRole { get => _userRole; set => SetProperty(ref _userRole, value); }
+        public int CityId { get; set; }
+        public int CompanyId { get; set; }
+        public bool IsSuperUser { get; set; }
+        public bool IsAvailable { get; set; }
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
+        public string UserName { get; set; }
     }
 }

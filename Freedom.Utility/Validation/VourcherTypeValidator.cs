@@ -1,5 +1,5 @@
 ﻿using FluentValidation;
-using Freedom.Utility.Models.BaseEntity;
+using Freedom.Utility.Models.InterfaceEntity;
 using Freedom.Utility.ValidatorExtension;
 
 namespace Freedom.Utility.Validation

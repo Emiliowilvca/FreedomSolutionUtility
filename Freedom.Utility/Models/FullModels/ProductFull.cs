@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Models.BaseDTO;
-using Freedom.Utility.Models.ModelPlus;
-using Freedom.Utility.Models.RTO;
+using Freedom.Utility.Models.InterfacePlus;
+using Freedom.Utility.Models.EntityRTO;
 
 namespace Freedom.Utility.Models
 {
@@ -36,7 +36,6 @@ namespace Freedom.Utility.Models
         public int Installment { get; set; }
         public int StockId { get; set; }
         public int CostPriceId { get; set; }
-
         public decimal SalePrice { get; set; }
         public IEnumerable<ApplyRTO> Applies { get; set; }
         public IEnumerable<WayAdminRTO> WayAdmins { get; set; }

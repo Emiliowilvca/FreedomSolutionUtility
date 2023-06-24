@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseEntity;
-using Freedom.Utility.Models.BaseRTO;
+using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
@@ -57,5 +57,25 @@ namespace Freedom.Frontend.Models.BindableINFO
         public int RouteId { get => _routeId; set => SetProperty(ref _routeId, value); }
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
+        public string Mobile2 { get; set; }
+        public string WorkPlace { get; set; }
+        public string Partner { get; set; }
+        public int PartnerCI { get; set; }
+        public DateTime ResidenceDate { get; set; }
+        public bool OwnHouse { get; set; }
+        public bool SendMoneyColletor { get; set; }
+        public bool LendProducts { get; set; }
+        public bool Credit { get; set; }
+        public string Workphone { get; set; }
+        public DateTime EmployementDate { get; set; }
+        public string Email { get; set; }
+        public string Goods { get; set; }
+        public DateTime DateAdmin { get; set; }
+        public DateTime BirthDate { get; set; }
+        public byte Children { get; set; }
+        public byte Gender { get; set; }
+        public byte PriceLevel { get; set; }
+        public decimal MaxDiscount { get; set; }
+        public string Note { get; set; }
     }
 }

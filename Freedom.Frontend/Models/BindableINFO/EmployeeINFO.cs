@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseEntity;
-using Freedom.Utility.Models.BaseRTO;
+using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
@@ -42,5 +42,35 @@ namespace Freedom.Frontend.Models.BindableINFO
         public int JobSectorId { get => _jobSectorId; set => SetProperty(ref _jobSectorId, value); }
 
         public int CityId { get => _cityId; set => SetProperty(ref _cityId, value); }
+        public int CompanyId { get; set; }
+        public string Barcode { get; set; }
+        public string PhoneMobile { get; set; }
+        public string Email { get; set; }
+        public decimal Salary { get; set; }
+        public decimal CommissionSales { get; set; }
+        public decimal CommissionCollection { get; set; }
+        public bool IsCommissionAgent { get; set; }
+        public DateTime BirtDate { get; set; }
+        public string PlaceBirt { get; set; }
+        public string Sex { get; set; }
+        public DateTime WorkStarDate { get; set; }
+        public int ChildCount { get; set; }
+        public string CivilStatus { get; set; }
+        public string Profession { get; set; }
+        public bool IpsEmployer { get; set; }
+        public bool IpsWorked { get; set; }
+        public bool ActiveWorked { get; set; }
+        public string FatherName { get; set; }
+        public string MotherName { get; set; }
+        public string BloodType { get; set; }
+        public string Nick { get; set; }
+        public string PassportNum { get; set; }
+        public string SpouceCI { get; set; }
+        public string SpouceName { get; set; }
+        public string DrivingLicenceNum { get; set; }
+        public string EmergencyContact1 { get; set; }
+        public string EmergencyContact2 { get; set; }
+        public bool Supervisor { get; set; }
+        public string Obs { get; set; }
     }
 }

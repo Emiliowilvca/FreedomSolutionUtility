@@ -1,5 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseRTO;
+using Freedom.Utility.Models.InterfaceRTO;
 using System;
 
 namespace Freedom.Frontend.Models.BindableINFO
@@ -90,5 +90,7 @@ namespace Freedom.Frontend.Models.BindableINFO
         public decimal TotalTax { get => _totalTax; set => SetProperty(ref _totalTax, value); }
 
         public decimal TotalNet { get => _totalNet; set => SetProperty(ref _totalNet, value); }
+        public bool Status { get; set; }
+        public bool IsExpress { get; set; }
     }
 }

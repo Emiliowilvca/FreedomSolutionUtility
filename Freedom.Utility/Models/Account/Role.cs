@@ -1,4 +1,4 @@
-﻿using Freedom.Utility.Models.BaseEntity;
+﻿using Freedom.Utility.Models.InterfaceEntity;
 
 namespace Freedom.Utility
 {

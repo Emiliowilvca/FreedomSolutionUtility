@@ -1,4 +1,6 @@
-﻿namespace Freedom.Utility
+﻿using System.Linq.Expressions;
+
+namespace Freedom.Utility
 {
     public static class EntityExtension
     {
@@ -118,6 +120,20 @@
             }
             return entity as T;
         }
+          
+        /// <summary>
+        /// property selector from entity and check if null
+        /// </summary>
+        /// <typeparam name="TSource"></typeparam>
+        /// <param name="source"></param>
+        /// <param name="propertySelector"></param>
+        /// <param name="defaultValue"></param>
+        /// <returns></returns>
+        public static string MapStringOrDefault<TSource>(this TSource source, Func<TSource, string> propertySelector, string defaultValue = "")
+        {
+            return source != null ? propertySelector(source) : defaultValue;
+        }
 
+        
     }
 }

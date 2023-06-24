@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 using Freedom.Utility.Langs;
-using Freedom.Utility.Models.ModelPlus;
+using Freedom.Utility.Models.InterfacePlus;
 using Freedom.Utility.ValidatorExtension;
 
 namespace Freedom.Frontend.BindableModelValidation

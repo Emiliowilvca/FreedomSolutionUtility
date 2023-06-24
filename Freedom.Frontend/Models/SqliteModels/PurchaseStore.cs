@@ -1,4 +1,4 @@
-﻿using Freedom.Frontend.Models.BaseEntitySqlite;
+﻿using Freedom.Frontend.Models.InterfaceEntitySqlite;
 using SQLite;
 using System.ComponentModel.DataAnnotations.Schema;
 

@@ -1,5 +1,5 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseRTO;
+using Freedom.Utility.Models.InterfaceRTO;
 using System;
 
 namespace Freedom.Frontend.Models.BindableINFO
@@ -90,5 +90,17 @@ namespace Freedom.Frontend.Models.BindableINFO
         public decimal InterestOnArrears { get => _interestOnArrears; set => SetProperty(ref _interestOnArrears, value); }
         
         public decimal ImputValue { get => _imputValue; set => SetProperty(ref _imputValue , value); }
+        public int Id { get; set; }
+        public int CustomerId { get; set; }
+        public int CustomerAccountId { get; set; }
+        public bool Status { get; set; }
+        public int CompanyId { get; set; }
+        public DateTime SalesDate { get; set; }
+        public Guid UserId { get; set; }
+        public int OperationTypeId { get; set; }
+        public int PersonId { get; set; }
+        public Guid SerialId { get; set; }
+        public decimal TotalCost { get; set; }
+        public bool IsExpress { get; set; }
     }
 }

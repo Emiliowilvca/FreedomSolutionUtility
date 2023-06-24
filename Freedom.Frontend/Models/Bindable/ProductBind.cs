@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.ModelPlus;
-using Freedom.Utility.Models.RTO;
+using Freedom.Utility.Models.EntityRTO;
+using Freedom.Utility.Models.InterfacePlus;
 
 namespace Freedom.Frontend.Models.Bindable
 {

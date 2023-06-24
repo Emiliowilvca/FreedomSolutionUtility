@@ -1,6 +1,6 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.BaseEntity;
-using Freedom.Utility.Models.BaseRTO;
+using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
@@ -24,5 +24,14 @@ namespace Freedom.Frontend.Models.BindableINFO
         public string PhoneNumber { get => _phoneNumber; set => SetProperty(ref _phoneNumber, value); }
 
         public string City { get => _city; set => SetProperty(ref _city, value); }
+        public string Address { get; set; }
+        public string CompanyOwner { get; set; }
+        public string Country { get; set; }
+        public string FacebookAdress { get; set; }
+        public bool IsAvailable { get; set; }
+        public DateTime Registered { get; set; }
+        public string State { get; set; }
+        public int TrialDay { get; set; }
+        public string WhatsappPhoneNumber { get; set; }
     }
 }

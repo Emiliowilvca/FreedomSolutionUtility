@@ -1,4 +1,4 @@
-﻿using Freedom.Utility.Models.RTO;
+﻿using Freedom.Utility.Models.EntityRTO;
 using System;
 
 namespace Freedom.Utility.Responses
