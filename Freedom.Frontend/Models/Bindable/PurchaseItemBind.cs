@@ -1,16 +1,15 @@
 ﻿using Freedom.Utility;
 using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
-    public class PurchaseItemBind : BindableBase, IPurchaseDetail
+    public class PurchaseItemBind : BindableBase, IPurchaseDetailRTO
     {
-        private Guid _id;
+        private Guid _rowId;
         private int _productId;
         private bool _isPopulate;
         private string _code;
-        private string _name;
         private Guid _userId;
         private decimal _price;
         private string _lote;
@@ -24,15 +23,17 @@ namespace Freedom.Frontend.Models.Bindable
         private int _purchaseId;
         private string _manufactoryStr;
         private string _expirationStr;
+        private long _id;
+        private string _description;
 
         public PurchaseItemBind()
         {
             SalePriceCollection = new();
         }
 
-        public Guid Id { get => _id; set => SetProperty(ref _id, value); }
+        public Guid RowId { get => _rowId; set => SetProperty(ref _rowId, value); }
 
-        long IPurchaseDetail.Id { get; set; }
+        public long Id { get => _id; set => SetProperty(ref _id, value); }
 
         public int PurchaseId { get => _purchaseId; set => SetProperty(ref _purchaseId, value); }
 
@@ -42,7 +43,7 @@ namespace Freedom.Frontend.Models.Bindable
 
         public string Code { get => _code; set => SetProperty(ref _code, value); }
 
-        public string Name { get => _name; set => SetProperty(ref _name, value); }
+        public string Description { get => _description; set => SetProperty(ref _description, value); }
 
         public Guid UserId { get => _userId; set => SetProperty(ref _userId, value); }
 

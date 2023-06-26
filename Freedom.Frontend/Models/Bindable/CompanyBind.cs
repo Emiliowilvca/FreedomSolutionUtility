@@ -1,10 +1,11 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
-    public class CompanyBind : BindableBase, ICompany, ISelectable
+    public class CompanyBind : BindableBase, ICompanyRTO, ISelectable
     {
         private int _id;
         private string _address;

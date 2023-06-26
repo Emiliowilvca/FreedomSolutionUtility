@@ -1,12 +1,12 @@
-﻿using Freedom.Utility;
-using Freedom.Utility.Bindable;
+﻿using Freedom.Utility.Bindable;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
-    public class BankDepositBind : BindableBase
+    public class BankDepositBind : BindableBase, IBankDepositRTO
     {
-        private string _totalCash;
-        private string _depositNumber;
+        private decimal _totalCash;
+        private long _depositNumber;
         private string _bankAccount;
         private string _concept;
         private string _operationTypeName;
@@ -14,7 +14,7 @@ namespace Freedom.Frontend.Models.Bindable
         private string _accountHolder;
         private string _moneyName;
         private decimal _totalCheck;
-        private string _transactionDate;
+        private DateTime _transactionDate;
         private int _id;
         private int _companyId;
         private Guid _userId;
@@ -22,6 +22,9 @@ namespace Freedom.Frontend.Models.Bindable
         private bool _status;
         private int _operationTypeId;
         private int _moneyId;
+        private string _opInitials;
+        private string _moneySymbol;
+        private decimal _totalAmount;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -29,9 +32,9 @@ namespace Freedom.Frontend.Models.Bindable
 
         public Guid UserId { get => _userId; set => SetProperty(ref _userId, value); }
 
-        public string TransactionDate { get => _transactionDate; set => SetProperty(ref _transactionDate, value); }
+        public DateTime TransactionDate { get => _transactionDate; set => SetProperty(ref _transactionDate, value); }
 
-        public string TotalCash
+        public decimal TotalCash
         {
             get => _totalCash;
             set
@@ -42,7 +45,7 @@ namespace Freedom.Frontend.Models.Bindable
             }
         }
 
-        public decimal TotalCashDecimal => NumericHelper.ToDecimal(_totalCash);
+        public decimal TotalCashDecimal => _totalCash;
 
         public decimal TotalCheck
         {
@@ -54,7 +57,7 @@ namespace Freedom.Frontend.Models.Bindable
             }
         }
 
-        public string DepositNumber { get => _depositNumber; set => SetProperty(ref _depositNumber, value); }
+        public long DepositNumber { get => _depositNumber; set => SetProperty(ref _depositNumber, value); }
 
         public int BankAccountId { get => _bankAccountId; set => SetProperty(ref _bankAccountId, value); }
 
@@ -80,9 +83,14 @@ namespace Freedom.Frontend.Models.Bindable
         {
             get
             {
-                decimal efe = NumericHelper.ToDecimal(TotalCash);
-                return efe + TotalCheck;
+                return TotalCash + TotalCheck;
             }
         }
+
+        public string OpInitials { get => _opInitials; set => SetProperty(ref _opInitials, value); }
+
+        public string MoneySymbol { get => _moneySymbol; set => _moneySymbol = value; }
+
+        public decimal TotalAmount { get => _totalAmount; set => _totalAmount = value; }
     }
 }

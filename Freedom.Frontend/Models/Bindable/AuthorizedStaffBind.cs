@@ -1,9 +1,10 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
-    public class AuthorizedStaffBind : BindableBase, IAuthorizedStaff
+    public class AuthorizedStaffBind : BindableBase, IAuthorizedStaffRTO, ISelectable
     {
         private int _id;
         private string _fullName;
@@ -14,6 +15,7 @@ namespace Freedom.Frontend.Models.Bindable
         private string _phoneNumber;
         private DateTime _birthDate;
         private DateTime _enrollmentDate;
+        private bool _isSelected;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -32,5 +34,7 @@ namespace Freedom.Frontend.Models.Bindable
         public DateTime BirthDate { get => _birthDate; set => SetProperty(ref _birthDate, value); }
 
         public DateTime EnrollmentDate { get => _enrollmentDate; set => SetProperty(ref _enrollmentDate, value); }
+
+        public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
     }
 }

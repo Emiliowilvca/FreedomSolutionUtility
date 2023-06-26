@@ -1,9 +1,10 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
-    public class BankAccountBind : BindableBase, IBankAccount
+    public class BankAccountBind : BindableBase, IBankAccountRTO, ISelectable
     {
         private int _id;
         private int _companyId;
@@ -15,6 +16,10 @@ namespace Freedom.Frontend.Models.Bindable
         private string _creditOfficer;
         private string _agency;
         private string _phone;
+        private string _bank;
+        private string _money;
+        private string _bankAccountTypeName;
+        private bool _isSelected;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -35,5 +40,13 @@ namespace Freedom.Frontend.Models.Bindable
         public string Agency { get => _agency; set => SetProperty(ref _agency, value); }
 
         public string Phone { get => _phone; set => SetProperty(ref _phone, value); }
+
+        public string Bank { get => _bank; set => SetProperty(ref _bank, value); }
+
+        public string Money { get => _money; set => SetProperty(ref _money, value); }
+
+        public string BankAccountTypeName { get => _bankAccountTypeName; set => SetProperty(ref _bankAccountTypeName, value); }
+
+        public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
     }
 }

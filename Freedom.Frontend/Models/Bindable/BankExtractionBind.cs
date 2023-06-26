@@ -1,8 +1,9 @@
 ﻿using Freedom.Utility.Bindable;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
-    public class BankExtractionBind : BindableBase
+    public class BankExtractionBind : BindableBase, IBankExtractionRTO
     {
         private int _id;
         private int _companyId;
@@ -11,10 +12,6 @@ namespace Freedom.Frontend.Models.Bindable
         private int _operationTypeId;
         private bool _isDeferredCheck;
         private Guid _userId;
-        private string _postedDate;
-        private string _paymentDate;
-        private string _checkNumber;
-        private string _amount;
         private string _payee;
         private bool _status;
         private string _bankName;
@@ -25,6 +22,11 @@ namespace Freedom.Frontend.Models.Bindable
         private string _operationTypeName;
         private string _concept;
         private int _moneyId;
+        private string _opType;
+        private DateTime _postedDate;
+        private DateTime _paymentDate;
+        private long _checkNumber;
+        private decimal _amount;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -41,14 +43,6 @@ namespace Freedom.Frontend.Models.Bindable
         public bool IsDeferredCheck { get => _isDeferredCheck; set => SetProperty(ref _isDeferredCheck, value); }
 
         public Guid UserId { get => _userId; set => SetProperty(ref _userId, value); }
-
-        public string PostedDate { get => _postedDate; set => SetProperty(ref _postedDate, value); }
-
-        public string PaymentDate { get => _paymentDate; set => SetProperty(ref _paymentDate, value); }
-
-        public string CheckNumber { get => _checkNumber; set => SetProperty(ref _checkNumber, value); }
-
-        public string Amount { get => _amount; set => SetProperty(ref _amount, value); }
 
         public string Payee { get => _payee; set => SetProperty(ref _payee, value); }
 
@@ -67,5 +61,15 @@ namespace Freedom.Frontend.Models.Bindable
         public string AccountNumber { get => _accountNumber; set => SetProperty(ref _accountNumber, value); }
 
         public string OperationTypeName { get => _operationTypeName; set => SetProperty(ref _operationTypeName, value); }
+
+        public string OpType { get => _opType; set => SetProperty(ref _opType, value); }
+
+        public DateTime PostedDate { get => _postedDate; set => SetProperty(ref _postedDate, value); }
+
+        public DateTime PaymentDate { get => _paymentDate; set => SetProperty(ref _paymentDate, value); }
+
+        public long CheckNumber { get => _checkNumber; set => SetProperty(ref _checkNumber, value); }
+
+        public decimal Amount { get => _amount; set => SetProperty(ref _amount, value); }
     }
 }

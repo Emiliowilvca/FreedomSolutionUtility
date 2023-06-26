@@ -1,14 +1,13 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
-    public class WithholdingVouchersBind : BindableBase, IWithholdingVouchers
+    public class WithholdingVouchersBind : BindableBase, IWithholdingVouchersRTO
     {
         private int _id;
         private int _companyId;
-
         private string _code;
         private string _description;
         private int _taxPayerStatusId;

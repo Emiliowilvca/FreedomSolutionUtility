@@ -1,10 +1,11 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
-    public class OperationTypeBind : BindableBase, IOperationType, ISelectable
+    public class OperationTypeBind : BindableBase, IOperationTypeRTO, ISelectable
     {
         private int _id;
         private int _companyId;
@@ -13,6 +14,7 @@ namespace Freedom.Frontend.Models.Bindable
         private bool _isSelected;
         private string _intials;
         private string _nameSET;
+        private string _subClassName;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -27,5 +29,7 @@ namespace Freedom.Frontend.Models.Bindable
         public string Intials { get => _intials; set => SetProperty(ref _intials, value); }
 
         public string NameSET { get => _nameSET; set => SetProperty(ref _nameSET, value); }
+
+        public string SubClassName { get => _subClassName; set => SetProperty(ref _subClassName, value); }
     }
 }

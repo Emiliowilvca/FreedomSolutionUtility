@@ -1,9 +1,10 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
-    public class CustomerBind : BindableBase, ICustomer
+    public class CustomerBind : BindableBase, ICustomerRTO, ISelectable
     {
         private int _id;
         private int _companyId;
@@ -37,6 +38,11 @@ namespace Freedom.Frontend.Models.Bindable
         private byte _priceLevel;
         private decimal _maxDiscount;
         private string _note;
+        private string _city;
+        private string _category;
+        private string _branch;
+        private string _route;
+        private bool _isSelected;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -101,5 +107,15 @@ namespace Freedom.Frontend.Models.Bindable
         public decimal MaxDiscount { get => _maxDiscount; set => SetProperty(ref _maxDiscount, value); }
 
         public string Note { get => _note; set => SetProperty(ref _note, value); }
+
+        public string City { get => _city; set => SetProperty(ref _city, value); }
+
+        public string Category { get => _category; set => SetProperty(ref _category, value); }
+
+        public string Branch { get => _branch; set => SetProperty(ref _branch, value); }
+
+        public string Route { get => _route; set => SetProperty(ref _route, value); }
+
+        public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
     }
 }

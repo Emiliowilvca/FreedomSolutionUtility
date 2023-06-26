@@ -1,10 +1,11 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
-    public class EmployeeBind : BindableBase, IEmployee, ISelectable
+    public class EmployeeBind : BindableBase, IEmployeeRTO, ISelectable
     {
         private int _id;
         private int _companyId;
@@ -45,6 +46,9 @@ namespace Freedom.Frontend.Models.Bindable
         private string _obs;
         private bool _isSelected;
         private bool _isCommissionAgent;
+        private string _city;
+        private string _jobPost;
+        private string _jobSector;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -123,5 +127,11 @@ namespace Freedom.Frontend.Models.Bindable
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
 
         public bool IsCommissionAgent { get => _isCommissionAgent; set => SetProperty(ref _isCommissionAgent, value); }
+
+        public string City { get => _city; set => SetProperty(ref _city, value); }
+
+        public string JobPost { get => _jobPost; set => SetProperty(ref _jobPost, value); }
+
+        public string JobSector { get => _jobSector; set => SetProperty(ref _jobSector, value); }
     }
 }

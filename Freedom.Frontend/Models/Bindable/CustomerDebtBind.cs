@@ -92,8 +92,11 @@ namespace Freedom.Frontend.Models.BindableINFO
         public decimal Exchange { get => _exchange; set => SetProperty(ref _exchange, value); }
 
         public Guid UserId { get => _userId; set => SetProperty(ref _userId, value); }
+
         public bool Active { get => _active; set => SetProperty(ref _active, value); }
+
         public DateTime StartDate { get => _startDate; set => SetProperty(ref _startDate, value); }
+
         public DateTime EndDate { get => _endDate; set => SetProperty(ref _endDate, value); }
     }
 }

@@ -1,15 +1,15 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
-    public class PurchaseInstallmentBind : BindableBase, IPurchaseInstallment
+    public class PurchaseInstallmentBind : BindableBase, IPurchaseInstallmentRTO, ISelectable
     {
         private int _id;
         private int _companyId;
         private int _purchaseId;
-
         private int _providerId;
         private decimal _capital;
         private decimal _interest;
@@ -19,6 +19,7 @@ namespace Freedom.Frontend.Models.Bindable
         private DateTime _expirate;
         private decimal _exchange;
         private int _feeIndex;
+        private bool _isSelected;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -43,5 +44,7 @@ namespace Freedom.Frontend.Models.Bindable
         public DateTime Expirate { get => _expirate; set => SetProperty(ref _expirate, value); }
 
         public decimal Exchange { get => _exchange; set => SetProperty(ref _exchange, value); }
+
+        public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
     }
 }

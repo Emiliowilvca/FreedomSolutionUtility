@@ -1,10 +1,10 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
-    public class PurchaseWithHoldingTaxBind : BindableBase, IPurchaseWithHoldingTax
+    public class PurchaseWithHoldingTaxBind : BindableBase, IPurchaseWithHoldingTaxRTO
     {
         private int _id;
         private int _companyId;

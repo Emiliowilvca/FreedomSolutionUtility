@@ -1,9 +1,10 @@
 ﻿using Freedom.Utility.Bindable;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
-    public class TaxVoucherDetailBind : BindableBase
+    public class TaxVoucherDetailBind : BindableBase, ITaxVoucherDetailRTO
     {
         private decimal _quantity;
         private decimal _price;

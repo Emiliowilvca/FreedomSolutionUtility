@@ -1,10 +1,11 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
-    public class UserBind : BindableBase, IUser, ISelectable
+    public class UserBind : BindableBase, IUserRTO, ISelectable
     {
         private Guid _id;
         private string _fullName;
@@ -23,6 +24,7 @@ namespace Freedom.Frontend.Models.Bindable
         private string _confirmPassword;
         private string _userRole;
         private bool _isSelected;
+        private string _cityName;
 
         public Guid Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -57,5 +59,7 @@ namespace Freedom.Frontend.Models.Bindable
         public string UserRole { get => _userRole; set => SetProperty(ref _userRole, value); }
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
+
+        public string CityName { get => _cityName; set => SetProperty(ref _cityName, value); }
     }
 }

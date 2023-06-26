@@ -1,9 +1,9 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
-    public class CostPriceBind : BindableBase, ICostPrice
+    public class CostPriceBind : BindableBase, ICostPriceRTO
     {
         private int _id;
         private int _companyId;

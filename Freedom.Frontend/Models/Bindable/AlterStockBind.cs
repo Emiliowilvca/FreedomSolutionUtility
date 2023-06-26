@@ -1,9 +1,9 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
-    public class AlterStockBind : BindableBase, IAlterStock
+    public class AlterStockBind : BindableBase, IAlterStockRTO
     {
         private int _id;
         private DateTime _alterDate;

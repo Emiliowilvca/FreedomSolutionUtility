@@ -9,11 +9,11 @@ namespace Freedom.Frontend.BindableModelValidation
     {
         public BankDepositDetailBindValidator()
         {
-            RuleFor(x => x.Amount).StringIsDecimal(0, decimal.MaxValue, Lang.AmountIsInvalid, nameof(Lang.AmountIsInvalid));
+            RuleFor(x => x.Amount).Generic(0, decimal.MaxValue, Lang.AmountIsInvalid, nameof(Lang.AmountIsInvalid));
 
-            RuleFor(x => x.CheckDate).StringIsDateTime(Lang.BankCheckDateIsInvalid, nameof(Lang.BankCheckDateIsInvalid));
+            RuleFor(x => x.CheckDate).Generic(Lang.BankCheckDateIsInvalid, nameof(Lang.BankCheckDateIsInvalid));
 
-            RuleFor(x => x.CheckNumber).StringIsLong(1, long.MaxValue, Lang.CheckNumberIsInvalid, nameof(Lang.CheckNumberIsInvalid));
+            RuleFor(x => x.CheckNumber).Generic(1, long.MaxValue, Lang.CheckNumberIsInvalid, nameof(Lang.CheckNumberIsInvalid));
 
             RuleFor(x => x.Sender).Generic(1, 50, Lang.SenderIsInvalid, nameof(Lang.SenderIsInvalid));
 

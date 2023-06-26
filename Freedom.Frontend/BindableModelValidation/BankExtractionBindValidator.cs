@@ -23,13 +23,13 @@ namespace Freedom.Frontend.BindableModelValidation
 
             RuleFor(x => x.OperationTypeId).OperationTypeID();
 
-            RuleFor(x => x.PostedDate).StringIsDateTime(Lang.PostedDateIsInvalid, nameof(Lang.PostedDateIsInvalid));
+            RuleFor(x => x.PostedDate).Generic(Lang.PostedDateIsInvalid, nameof(Lang.PostedDateIsInvalid));
 
-            RuleFor(x => x.PaymentDate).StringIsDateTime(Lang.PaymentDateIsInvalid, nameof(Lang.PaymentDateIsInvalid));
+            RuleFor(x => x.PaymentDate).Generic(Lang.PaymentDateIsInvalid, nameof(Lang.PaymentDateIsInvalid));
 
-            RuleFor(x => x.CheckNumber).StringIsLong(1, long.MaxValue, Lang.CheckNumberIsInvalid, nameof(Lang.CheckNumberIsInvalid));
+            RuleFor(x => x.CheckNumber).Generic(1, long.MaxValue, Lang.CheckNumberIsInvalid, nameof(Lang.CheckNumberIsInvalid));
 
-            RuleFor(x => x.Amount).StringIsDecimal(0, decimal.MaxValue, Lang.AmountIsInvalid, nameof(Lang.AmountIsInvalid));
+            RuleFor(x => x.Amount).Generic(0, decimal.MaxValue, Lang.AmountIsInvalid, nameof(Lang.AmountIsInvalid));
 
             RuleFor(x => x.Payee).Generic(1, 50, Lang.PayeeIsInvalid, nameof(Lang.PayeeIsInvalid));
 

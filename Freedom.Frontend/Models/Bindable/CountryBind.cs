@@ -1,10 +1,11 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
-    public class CountryBind : BindableBase, ICountry, ISelectable
+    public class CountryBind : BindableBase, ICountryRTO, ISelectable
     {
         private int _id;
         private string _name;

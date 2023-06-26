@@ -1,9 +1,10 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
-    public class PosDocumentINFO : BindableBase, IPosDocument
+    public class PosDocumentINFO : BindableBase, IPosDocumentRTO, ISelectable
     {
         private int _id;
         private int _companyId;
@@ -23,6 +24,7 @@ namespace Freedom.Frontend.Models.BindableINFO
         private long _returnLastCreated;
         private long _returnSince;
         private long _returnUntil;
+        private bool _isSelected;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -59,5 +61,7 @@ namespace Freedom.Frontend.Models.BindableINFO
         public long ReturnSince { get => _returnSince; set => SetProperty(ref _returnSince, value); }
 
         public long ReturnUntil { get => _returnUntil; set => SetProperty(ref _returnUntil, value); }
+
+        public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
     }
 }

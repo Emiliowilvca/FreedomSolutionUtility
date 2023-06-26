@@ -4,8 +4,24 @@ namespace Freedom.Utility.Models.InterfaceRTO
 {
     public interface IPurchaseDetailRTO : IPurchaseDetail
     {
-        public string Code { get; set; }
+        string Code { get; set; }
 
-        public string Description { get; set; }
+        string Description { get; set; }
+
+        string ExpirationStr { get; set; }
+
+        bool IsPopulate { get; set; }
+
+        string ManufactoryStr { get; set; }
+
+        int MoneyId { get; set; }
+
+        Guid RowId { get; set; }
+
+        decimal SubTotal { get; }
+
+        string UrlPrimaryImage { get; set; }
+
+        Guid UserId { get; set; }
     }
 }

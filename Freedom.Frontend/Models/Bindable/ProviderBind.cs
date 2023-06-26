@@ -1,10 +1,11 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
-    public class ProviderBind : BindableBase, IProvider, ISelectable
+    public class ProviderBind : BindableBase, IProviderRTO, ISelectable
     {
         private int _id;
         private int _companyId;
@@ -49,17 +50,9 @@ namespace Freedom.Frontend.Models.Bindable
 
         public int PaymentTypeId { get => _paymentTypeId; set => SetProperty(ref _paymentTypeId, value); }
 
-        public DateTime Authorization
-        {
-            get => _authorization;
-            set => SetProperty(ref _authorization, value);
-        }
+        public DateTime Authorization { get => _authorization; set => SetProperty(ref _authorization, value); }
 
-        public DateTime Expiration
-        {
-            get => _expiration;
-            set => SetProperty(ref _expiration, value);
-        }
+        public DateTime Expiration { get => _expiration; set => SetProperty(ref _expiration, value); }
 
         public string Timbrado { get => _timbrado; set => SetProperty(ref _timbrado, value); }
 

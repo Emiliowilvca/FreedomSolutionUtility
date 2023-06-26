@@ -2,14 +2,14 @@
 using System.ComponentModel;
 using System.Globalization;
 using System.Text;
+using System.Text.Json;
 using System.Web;
 
 namespace Freedom.Utility
 {
     public static class StringHelper
     {
-
-        public const string PatterRemoveCharInInsert =  @"#@`\»«!~%^&[]{}+=|:'<>,*;";
+        public const string PatterRemoveCharInInsert = @"#@`\»«!~%^&[]{}+=|:'<>,*;";
 
         public const string PatterRemovedCharInSelect = @"#@`\»«!~^&[]{}+=|:'<>,;";
 
@@ -275,6 +275,21 @@ namespace Freedom.Utility
             if (string.IsNullOrEmpty(specialCharacters))
                 return "";
             return string.Join("", source.ToCharArray().Where(x => !specialCharacters.Contains(x)).Select(x => x));
+        }
+
+        /// <summary>
+        /// Convert json string to collection
+        /// </summary>
+        /// <typeparam name="TEntity"></typeparam>
+        /// <param name="detailJson"></param>
+        /// <returns></returns>
+        public static IEnumerable<TEntity> JsonToCollection<TEntity>(this string detailJson) where TEntity : class
+        {
+            if (string.IsNullOrEmpty(detailJson))
+            {
+                return Enumerable.Empty<TEntity>();
+            }
+            return JsonSerializer.Deserialize<IEnumerable<TEntity>>(detailJson, new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
     }
 }

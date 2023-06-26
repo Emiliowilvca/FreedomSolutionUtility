@@ -1,9 +1,9 @@
 ﻿using Freedom.Utility.Bindable;
-using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
-    public class VoucherTypeBind : BindableBase, IVourcherType
+    public class VoucherTypeBind : BindableBase, IVourcherTypeRTO
     {
         private int _id;
         private int _companyId;

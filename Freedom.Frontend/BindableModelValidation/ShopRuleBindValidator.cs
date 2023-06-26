@@ -15,13 +15,13 @@ namespace Freedom.Frontend.BindableModelValidation
 
             RuleFor(x => x.ShopId).ShopID();
 
-            RuleFor(x => x.DecimalInStock).StringIsInteger(0, 10, Lang.NumberOfDecimalsInStockIsInvalid, nameof(Lang.NumberOfDecimalsInStockIsInvalid));
+            RuleFor(x => x.DecimalInStock).Generic(0, 10, Lang.NumberOfDecimalsInStockIsInvalid, nameof(Lang.NumberOfDecimalsInStockIsInvalid));
 
             RuleFor(x => x.EncryptPriceKey).Generic(10, 10, Lang.SecretKeyForPriceIsNotValid, nameof(Lang.SecretKeyForPriceIsNotValid));
 
-            RuleFor(x => x.InterestRateMonthly).StringIsDecimal(0, 1000, Lang.InterestRateMonthlyIsInvalid, nameof(Lang.InterestRateMonthlyIsInvalid));
+            RuleFor(x => x.InterestRateMonthly).Generic(0, 1000, Lang.InterestRateMonthlyIsInvalid, nameof(Lang.InterestRateMonthlyIsInvalid));
 
-            RuleFor(x => x.MaxItemInSale).StringIsInteger(1, int.MaxValue, Lang.MaximumNumberOfItemsIsInvalid, nameof(Lang.MaximumNumberOfItemsIsInvalid));
+            RuleFor(x => x.MaxItemInSale).Generic(1, int.MaxValue, Lang.MaximumNumberOfItemsIsInvalid, nameof(Lang.MaximumNumberOfItemsIsInvalid));
 
             RuleFor(x => x.OperTypeCashPurchase).Generic(1, int.MaxValue, Lang.TypeOfOperationForPurchaseCashIsInvalid , nameof(Lang.TypeOfOperationForPurchaseCashIsInvalid));
 
@@ -31,9 +31,9 @@ namespace Freedom.Frontend.BindableModelValidation
 
             RuleFor(x => x.OperTypeCreditSale).Generic(1, int.MaxValue, Lang.TypeOfOperationForSaleOnCreditIsInvalid, nameof(Lang.TypeOfOperationForSaleOnCreditIsInvalid));
 
-            RuleFor(x => x.PriceLevelDefault).StringIsInteger(1, int.MaxValue, Lang.PriceLevelDefaultIsInvalid, nameof(Lang.PriceLevelDefaultIsInvalid));
+            RuleFor(x => x.PriceLevelDefault).Generic(1, int.MaxValue, Lang.PriceLevelDefaultIsInvalid, nameof(Lang.PriceLevelDefaultIsInvalid));
 
-            RuleFor(x => x.MaxDiscountPercent).StringIsDecimal(0, int.MaxValue, Lang.MaxDiscountPercentIsInvalid, nameof(Lang.MaxDiscountPercentIsInvalid));
+            RuleFor(x => x.MaxDiscountPercent).Generic(0, int.MaxValue, Lang.MaxDiscountPercentIsInvalid, nameof(Lang.MaxDiscountPercentIsInvalid));
 
             RuleFor(x => x.CustomerId).Generic(1, int.MaxValue, Lang.CustomerIsNotValid, nameof(Lang.CustomerIsNotValid));
         }

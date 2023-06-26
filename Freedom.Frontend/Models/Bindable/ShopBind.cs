@@ -1,10 +1,11 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.InterfaceEntity;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
     [Serializable]
-    public class ShopBind : BindableBase, IShop, ISelectable
+    public class ShopBind : BindableBase, IShopRTO, ISelectable
     {
         private int _id;
         private string _address;
@@ -15,6 +16,7 @@ namespace Freedom.Frontend.Models.Bindable
         private string _phone;
         private string _name;
         private bool _isSelected;
+        private string _cityName;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -33,5 +35,7 @@ namespace Freedom.Frontend.Models.Bindable
         public string Phone { get => _phone; set => SetProperty(ref _phone, value); }
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
+
+        public string CityName { get => _cityName; set => SetProperty(ref _cityName, value); }
     }
 }
