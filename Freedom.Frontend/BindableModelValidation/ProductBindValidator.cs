@@ -1,11 +1,11 @@
 ﻿using FluentValidation;
 using Freedom.Utility.Langs;
-using Freedom.Utility.Models.InterfacePlus;
+using Freedom.Utility.Models.InterfaceRTO;
 using Freedom.Utility.ValidatorExtension;
 
 namespace Freedom.Frontend.BindableModelValidation
 {
-    public class ProductBindValidator : AbstractValidator<IProductFull>
+    public class ProductBindValidator : AbstractValidator<IProductRTO>
     {
         public ProductBindValidator()
         {

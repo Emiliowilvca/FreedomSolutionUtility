@@ -1,18 +1,18 @@
-﻿using Freedom.Utility.Models.InterfaceEntity;
+﻿using Freedom.Utility.Models.InterfaceBase;
 
 namespace Freedom.Utility.Models.BaseDTO
 {
-    public class ProductBase : IProduct
+    public class ProductBase : IProductBase
     {
         public int Id { get; set; }
 
         public string Code { get; set; }
 
+        public string Name { get; set; }
+
         public string CodeProvider { get; set; }
 
         public string Barcode { get; set; }
-
-        public string Name { get; set; }
 
         public string GenericName { get; set; }
 

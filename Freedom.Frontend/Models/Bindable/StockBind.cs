@@ -11,13 +11,13 @@ namespace Freedom.Frontend.Models.Bindable
         private int _shopId;
         private string _lote;
         private int _sectorId;
-        private decimal _quantity;
         private DateTime _manufactory;
         private DateTime _expiration;
         private int _shelving;
         private int _side;
         private int _column;
         private int _line;
+        private decimal _stockQuantity;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -31,7 +31,7 @@ namespace Freedom.Frontend.Models.Bindable
 
         public int SectorId { get => _sectorId; set => SetProperty(ref _sectorId, value); }
 
-        public decimal Quantity { get => _quantity; set => SetProperty(ref _quantity, value); }
+        public decimal StockQuantity { get => _stockQuantity; set => SetProperty(ref _stockQuantity, value); }
 
         public DateTime Manufactory { get => _manufactory; set => SetProperty(ref _manufactory, value); }
 

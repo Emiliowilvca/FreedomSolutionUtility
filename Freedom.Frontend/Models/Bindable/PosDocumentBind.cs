@@ -4,7 +4,7 @@ using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.BindableINFO
 {
-    public class PosDocumentINFO : BindableBase, IPosDocumentRTO, ISelectable
+    public class PosDocumentBind : BindableBase, IPosDocumentRTO, ISelectable
     {
         private int _id;
         private int _companyId;

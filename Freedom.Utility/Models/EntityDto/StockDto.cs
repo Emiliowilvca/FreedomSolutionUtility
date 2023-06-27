@@ -14,7 +14,7 @@ namespace Freedom.Utility.Models.EntityDto
 
         public int ShopId { get; set; }
 
-        public decimal Quantity { get; set; }
+        public decimal StockQuantity { get; set; }
 
         public string Lote { get; set; }
 

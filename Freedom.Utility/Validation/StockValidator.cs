@@ -20,7 +20,7 @@ namespace Freedom.Utility.Validation
 
             RuleFor(x => x.ShopId).Generic(1, int.MaxValue, Lang.ShopIsInvalid, nameof(Lang.ShopIsInvalid));
 
-            RuleFor(x => x.Quantity).Generic(decimal.MinValue, decimal.MaxValue, Lang.QuantityIsNotValid, nameof(Lang.QuantityIsNotValid));
+            RuleFor(x => x.StockQuantity).Generic(decimal.MinValue, decimal.MaxValue, Lang.QuantityIsNotValid, nameof(Lang.QuantityIsNotValid));
 
             RuleFor(x => x.Lote).Generic(1, 12, Lang.BatchIsInvalid, nameof(Lang.BatchIsInvalid));
 

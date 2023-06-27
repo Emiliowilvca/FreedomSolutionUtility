@@ -1,6 +1,8 @@
-﻿namespace Freedom.Utility.Models.InterfacePlus
+﻿using Freedom.Utility.Models.InterfaceRTO;
+
+namespace Freedom.Utility.Models.InterfacePlus
 {
-    public interface IProductPlus : IProductFull
+    public interface IProductPlus : IProductRTO
     {
         public string PricesJson { get; set; }
 

@@ -1,10 +1,10 @@
 ﻿using Freedom.Utility.Bindable;
 using Freedom.Utility.Models.EntityRTO;
-using Freedom.Utility.Models.InterfacePlus;
+using Freedom.Utility.Models.InterfaceRTO;
 
 namespace Freedom.Frontend.Models.Bindable
 {
-    public class ProductBind : BindableBase, IProductFull
+    public class ProductBind : BindableBase, IProductRTO
     {
         private bool _alterStock;
         private bool _isService;
@@ -68,6 +68,8 @@ namespace Freedom.Frontend.Models.Bindable
         private decimal _stockQuantity;
         private int _stockId;
         private int _costPriceId;
+        private string _symbol;
+        private int _decimalPlaces;
 
         public bool AlterStock { get => _alterStock; set => SetProperty(ref _alterStock, value); }
 
@@ -178,6 +180,10 @@ namespace Freedom.Frontend.Models.Bindable
         public string MoneyName { get => _moneyName; set => SetProperty(ref _moneyName, value); }
 
         public string MoneySymbol { get => _moneySymbol; set => SetProperty(ref _moneySymbol, value); }
+
+        public string Symbol { get => _symbol; set => SetProperty(ref _symbol, value); }
+
+        public int DecimalPlaces { get => _decimalPlaces; set => SetProperty(ref _decimalPlaces, value); }
 
         /* Shop stock */
         public string ShopName { get => _shopName; set => SetProperty(ref _shopName, value); }

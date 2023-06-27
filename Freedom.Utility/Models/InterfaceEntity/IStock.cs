@@ -1,5 +1,3 @@
-using System;
-
 namespace Freedom.Utility.Models.InterfaceEntity
 {
     public interface IStock
@@ -12,7 +10,7 @@ namespace Freedom.Utility.Models.InterfaceEntity
 
         int ShopId { get; set; }
 
-        decimal Quantity { get; set; }
+        decimal StockQuantity { get; set; }
 
         string Lote { get; set; }
 

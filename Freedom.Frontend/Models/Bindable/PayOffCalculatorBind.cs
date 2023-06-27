@@ -1,4 +1,4 @@
-﻿using Freedom.Frontend.Models.BaseBindables;
+﻿using Freedom.Frontend.Models.BaseBindableInterface;
 using Freedom.Utility.Bindable;
 
 namespace Freedom.Frontend.Models.Bindable

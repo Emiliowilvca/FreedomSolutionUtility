@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Freedom.Frontend.Models.BaseBindables
+namespace Freedom.Frontend.Models.BaseBindableInterface
 {
     public interface IPaymentSchedule
     {

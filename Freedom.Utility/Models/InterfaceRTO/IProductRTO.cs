@@ -1,47 +1,30 @@
-﻿namespace Freedom.Utility.Models.InterfaceRTO
+﻿using Freedom.Utility.Models.InterfaceEntity;
+
+namespace Freedom.Utility.Models.InterfaceRTO
 {
-
-    [Obsolete("use product full", true)]
-    public interface IProductRTO
+    public interface IProductRTO : IProduct
     {
-        int Id { get; set; }
+        string GroupName { get; set; }
 
-        string Code { get; set; }
+        string SubGroupName { get; set; }
 
-        string CodeProvider { get; set; }
+        string MeasureName { get; set; }
 
-        string Barcode { get; set; }
+        string PackageName { get; set; }
 
-        string Name { get; set; }
+        string PriorityName { get; set; }
 
-        string Group { get; set; }
+        string SourceName { get; set; }
 
-        string SubGroup { get; set; }
+        string BrandName { get; set; }
 
-        string Brand { get; set; }
+        decimal CostPrice { get; set; }
 
-        string Measure { get; set; }
-
-        decimal Weight { get; set; }
-
-        bool PayTax { get; set; }
-
-        decimal TaxRate { get; set; }
-
-        decimal MaxDiscount { get; set; }
-
-        decimal QuantityBox { get; set; }
-
-        bool AlterStock { get; set; }
-
-        bool IsService { get; set; }
-
-        bool ProCheck { get; set; }
-
-        //price sale
         decimal SalePrice { get; set; }
 
-        //money
+        int PriceLevel { get; set; }
+
+        int QuantityPrice { get; set; }
 
         int MoneyId { get; set; }
 
@@ -51,15 +34,28 @@
 
         int DecimalPlaces { get; set; }
 
-        //stock
+        string UrlPrimaryImage { get; set; }
+
+        string UrlSecondaryImage { get; set; }
+
         int ShopId { get; set; }
 
         decimal StockQuantity { get; set; }
 
+        string Lote { get; set; }
+
+        DateTime Manufactory { get; set; }
+
         DateTime Expiration { get; set; }
 
-        string UrlPrimaryImage { get; set; }
+        int SectorId { get; set; }
 
-        string UrlSecondaryImage { get; set; }
+        int Shelving { get; set; }
+
+        int Side { get; set; }
+
+        int Column { get; set; }
+
+        int Line { get; set; }
     }
 }
