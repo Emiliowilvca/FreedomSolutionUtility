@@ -2,21 +2,21 @@
 {
     public interface IProductItem
     {
-        Guid RowId { get; set; }
-
-        int ProductId { get; set; }
-
-        bool IsPopulate { get; set; }
+        int Id { get; set; }
 
         string Code { get; set; }
 
-        string Description { get; set; }
+        string Name { get; set; }
 
         decimal MaxDiscount { get; set; }
 
-        decimal PriceCost { get; set; }
+        decimal QuantityBox { get; set; }
 
-        decimal PriceSale { get; set; }
+        decimal TaxRate { get; set; }
+
+        decimal CostPrice { get; set; }
+
+        decimal SalePrice { get; set; }
 
         string Lote { get; set; }
 
@@ -24,16 +24,10 @@
 
         decimal StockQuantity { get; set; }
 
-        decimal TaxRate { get; set; }
-
-        decimal TaxValue { get; set; }
-
-        decimal Discount { get; set; }
-
-        string UrlPrimaryImage { get; set; }
-
         DateTime Manufactory { get; set; }
 
         DateTime Expiration { get; set; }
+
+        string UrlPrimaryImage { get; set; }
     }
 }

@@ -29,7 +29,7 @@ namespace Freedom.Utility.Models.EntityRTO
 
         public int MoneyId { get; set; }
 
-        public string Symbol { get; set; }
+        public string MoneySymbol { get; set; }
 
         public string MoneyName { get; set; }
 
@@ -58,5 +58,9 @@ namespace Freedom.Utility.Models.EntityRTO
         public int Column { get; set; }
 
         public int Line { get; set; }
+
+        public int StockId { get; set; }
+
+        public int CostPriceId { get; set; }
     }
 }

@@ -4,19 +4,11 @@ namespace Freedom.Utility.Models.InterfaceRTO
 {
     public interface IProductRTO : IProduct
     {
-        string GroupName { get; set; }
-
-        string SubGroupName { get; set; }
-
-        string MeasureName { get; set; }
-
         string PackageName { get; set; }
 
         string PriorityName { get; set; }
 
         string SourceName { get; set; }
-
-        string BrandName { get; set; }
 
         decimal CostPrice { get; set; }
 
@@ -26,29 +18,17 @@ namespace Freedom.Utility.Models.InterfaceRTO
 
         int QuantityPrice { get; set; }
 
-        int MoneyId { get; set; }
-
-        string Symbol { get; set; }
-
-        string MoneyName { get; set; }
-
         int DecimalPlaces { get; set; }
-
-        string UrlPrimaryImage { get; set; }
 
         string UrlSecondaryImage { get; set; }
 
         int ShopId { get; set; }
 
-        decimal StockQuantity { get; set; }
-
-        string Lote { get; set; }
-
-        DateTime Manufactory { get; set; }
-
-        DateTime Expiration { get; set; }
-
         int SectorId { get; set; }
+
+        int StockId { get; set; }
+
+        int CostPriceId { get; set; }
 
         int Shelving { get; set; }
 
@@ -57,5 +37,31 @@ namespace Freedom.Utility.Models.InterfaceRTO
         int Column { get; set; }
 
         int Line { get; set; }
+
+        int MoneyId { get; set; }
+
+        DateTime Expiration { get; set; }
+
+        decimal StockQuantity { get; set; }
+
+        string BrandName { get; set; }
+
+        string GroupName { get; set; }
+
+          string SubGroupName { get; set; }
+
+        public string MeasureName { get; set; }
+
+        string MoneySymbol { get; set; }
+
+        string MoneyName { get; set; }
+
+        string UrlPrimaryImage { get; set; }
+
+
+
+          string Lote { get; set; }
+
+          DateTime Manufactory { get; set; }
     }
 }

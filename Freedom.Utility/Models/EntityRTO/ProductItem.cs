@@ -4,21 +4,19 @@ namespace Freedom.Utility.Models.EntityRTO
 {
     public class ProductItem : IProductItem
     {
-        public Guid RowId { get; set; }
-
-        public int ProductId { get; set; }
-
-        public bool IsPopulate { get; set; }
+        public int Id { get; set; }
 
         public string Code { get; set; }
 
-        public string Description { get; set; }
+        public string Name { get; set; }
 
         public decimal MaxDiscount { get; set; }
 
-        public decimal PriceCost { get; set; }
+        public decimal QuantityBox { get; set; }
 
-        public decimal PriceSale { get; set; }
+        public decimal CostPrice { get; set; }
+
+        public decimal SalePrice { get; set; }
 
         public string Lote { get; set; }
 
@@ -27,10 +25,6 @@ namespace Freedom.Utility.Models.EntityRTO
         public decimal StockQuantity { get; set; }
 
         public decimal TaxRate { get; set; }
-
-        public decimal TaxValue { get; set; }
-
-        public decimal Discount { get; set; }
 
         public string UrlPrimaryImage { get; set; }
 
