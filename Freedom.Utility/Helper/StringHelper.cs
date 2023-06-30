@@ -291,5 +291,20 @@ namespace Freedom.Utility
             }
             return JsonSerializer.Deserialize<IEnumerable<TEntity>>(detailJson, new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
+
+        /// <summary>
+        /// Convert json string to Entity
+        /// </summary>
+        /// <typeparam name="TEntity"></typeparam>
+        /// <param name="detailJson"></param>
+        /// <returns></returns>
+        public static TEntity JsonToEntity<TEntity>(this string detailJson) where TEntity : class
+        {
+            if (string.IsNullOrEmpty(detailJson))
+                return null;
+            return JsonSerializer.Deserialize<IEnumerable<TEntity>>(detailJson,
+                new JsonSerializerOptions() { PropertyNameCaseInsensitive = true })
+                .FirstOrDefault();
+        }
     }
 }

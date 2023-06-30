@@ -4,16 +4,32 @@ namespace Freedom.Utility.Models.InterfacePlus
 {
     public interface IProductPlus : IProductRTO
     {
-        public string PricesJson { get; set; }
+        string GroupJson { get; set; }
 
-        public string StockJson { get; set; }
+        string SubGroupJson { get; set; }
 
-        public string ApplyJson { get; set; }
+        string MeasureJson { get; set; }
 
-        public string DrugJson { get; set; }
+        string PackageJson { get; set; }
 
-        public string WayAdminJson { get; set; }
+        string PriorityJson { get; set; }
 
-        public string ImagesNamesJson { get; set; }
+        string SourceJson { get; set; }
+
+        string BrandJson { get; set; }
+
+        string SalePricesJson { get; set; }
+
+        string CostPriceJson { get; set; }
+
+        string StockJson { get; set; }
+
+        string ApplyJson { get; set; }
+
+        string DrugJson { get; set; }
+
+        string WayAdminJson { get; set; }
+
+        string ImagesNamesJson { get; set; }
     }
 }

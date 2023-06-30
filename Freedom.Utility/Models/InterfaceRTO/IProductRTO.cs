@@ -57,9 +57,7 @@ namespace Freedom.Utility.Models.InterfaceRTO
         string MoneyName { get; set; }
 
         string UrlPrimaryImage { get; set; }
-
-
-
+         
           string Lote { get; set; }
 
           DateTime Manufactory { get; set; }
