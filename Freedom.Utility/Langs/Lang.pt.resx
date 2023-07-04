@@ -4394,4 +4394,7 @@
   <data name="PartialPayment" xml:space="preserve">
     <value>pagamento parcial</value>
   </data>
+  <data name="InvoiceRowQuantityIsInvalid" xml:space="preserve">
+    <value>a quantidade da linha da fatura é inválida</value>
+  </data>
 </root>

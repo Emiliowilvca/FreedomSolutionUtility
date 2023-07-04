@@ -4309,6 +4309,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Invoice row quantity is invalid.
+        /// </summary>
+        public static string InvoiceRowQuantityIsInvalid {
+            get {
+                return ResourceManager.GetString("InvoiceRowQuantityIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Invoices.
         /// </summary>
         public static string Invoices {

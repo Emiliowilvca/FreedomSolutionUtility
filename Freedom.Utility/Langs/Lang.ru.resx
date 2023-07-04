@@ -4394,4 +4394,7 @@
   <data name="PartialPayment" xml:space="preserve">
     <value>частичная оплата</value>
   </data>
+  <data name="InvoiceRowQuantityIsInvalid" xml:space="preserve">
+    <value>недопустимое количество в строке счета-фактуры</value>
+  </data>
 </root>

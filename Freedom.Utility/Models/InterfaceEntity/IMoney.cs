@@ -21,7 +21,7 @@
 
         string Symbol { get; set; }
 
-        decimal CommisionPercent { get; set; }
-        
-    }
+        decimal CommisionPercent { get; set; } 
+         
+    } 
 }

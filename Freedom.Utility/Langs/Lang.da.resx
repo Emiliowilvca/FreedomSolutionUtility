@@ -4394,4 +4394,7 @@
   <data name="PartialPayment" xml:space="preserve">
     <value>delvis betaling</value>
   </data>
+  <data name="InvoiceRowQuantityIsInvalid" xml:space="preserve">
+    <value>mængden af fakturarækken er ugyldig</value>
+  </data>
 </root>

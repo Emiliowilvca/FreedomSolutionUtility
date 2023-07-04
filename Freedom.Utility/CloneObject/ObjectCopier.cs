@@ -19,7 +19,7 @@ namespace Freedom.Utility.CloneObject
             string jsonData = System.Text.Json.JsonSerializer.Serialize(theObject);
             return System.Text.Json.JsonSerializer.Deserialize<T>(jsonData);
         }
-
+        
         /// <summary>
         /// Perform a deep Copy of an object that is marked with '[DataContract]'
         /// </summary>

@@ -4393,4 +4393,7 @@
   <data name="PartialPayment" xml:space="preserve">
     <value>部分付款</value>
   </data>
+  <data name="InvoiceRowQuantityIsInvalid" xml:space="preserve">
+    <value>发票行数量无效</value>
+  </data>
 </root>

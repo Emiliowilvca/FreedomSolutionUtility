@@ -1,5 +1,4 @@
 ﻿using Freedom.Utility.Models.EntityRTO;
-using System;
 
 namespace Freedom.Utility.Responses
 {
@@ -22,10 +21,6 @@ namespace Freedom.Utility.Responses
         public EmployeeRTO EmployeeRTO { get; set; }
 
         public MoneyRTO MoneyRTO { get; set; }
-
-        public CustomerAccountRTO CustomerAccountRTO { get; set; }
-
-        public PersonRTO PersonRTO { get; set; }
 
         public DateTime ExpireToken { get; set; }
 

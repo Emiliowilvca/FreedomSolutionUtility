@@ -1,10 +1,7 @@
-﻿using System.Linq.Expressions;
-
-namespace Freedom.Utility
+﻿namespace Freedom.Utility
 {
     public static class EntityExtension
     {
-
         /// <summary>
         /// Remove spaces and convert to UpperCase in all string properties values
         /// </summary>
@@ -120,7 +117,7 @@ namespace Freedom.Utility
             }
             return entity as T;
         }
-          
+
         /// <summary>
         /// property selector from entity and check if null
         /// </summary>
@@ -134,6 +131,38 @@ namespace Freedom.Utility
             return source != null ? propertySelector(source) : defaultValue;
         }
 
-        
+        /// <summary>
+        /// use in automapper
+        /// </summary>
+        /// <typeparam name="TSource"></typeparam>
+        /// <typeparam name="TDestination"></typeparam>
+        /// <param name="source"></param>
+        /// <param name="propertySelector"></param>
+        /// <param name="defaultValue"></param>
+        /// <returns></returns>
+        public static TDestination MapEntityOrDefault<TSource, TDestination>(this TSource source, Func<TSource, TDestination> propertySelector,
+                                                                                   TDestination defaultValue)
+        {
+            return source != null ? propertySelector(source) : defaultValue;
+        }
+
+        /// <summary>
+        /// use in Automapper
+        /// </summary>
+        /// <typeparam name="TSource"></typeparam>
+        /// <typeparam name="TDestination"></typeparam>
+        /// <param name="source"></param>
+        /// <param name="propertySelector"></param>
+        /// <param name="defaultValue"></param>
+        /// <returns></returns>
+
+        public static TDestination MapCollectionOrDefault<TSource, TDestination>(this IEnumerable<TSource> source, Func<TSource, TDestination> propertySelector,
+                                                                               TDestination defaultValue)
+        {
+            if (source == null || !source.Any())
+                return defaultValue;
+
+            return source != null ? propertySelector(source.FirstOrDefault()) : defaultValue;
+        }
     }
 }

@@ -4394,4 +4394,7 @@
   <data name="PartialPayment" xml:space="preserve">
     <value>gedeeltelijke betaling</value>
   </data>
+  <data name="InvoiceRowQuantityIsInvalid" xml:space="preserve">
+    <value>hoeveelheid factuurrij is ongeldig</value>
+  </data>
 </root>

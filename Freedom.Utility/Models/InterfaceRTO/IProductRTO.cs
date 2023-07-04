@@ -28,7 +28,7 @@ namespace Freedom.Utility.Models.InterfaceRTO
 
         int StockId { get; set; }
 
-        int CostPriceId { get; set; }
+        int CostPriceId { get; set; }       
 
         int Shelving { get; set; }
 

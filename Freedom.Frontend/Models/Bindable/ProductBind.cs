@@ -38,7 +38,7 @@ namespace Freedom.Frontend.Models.Bindable
         private string _name;
         private string _packageName;
         private string _priorityName;
-        private string _productExpiration;
+
         private decimal _salePrice;
         private string _sectorName;
         private int _shelving;
@@ -68,7 +68,7 @@ namespace Freedom.Frontend.Models.Bindable
         private decimal _stockQuantity;
         private int _stockId;
         private int _costPriceId;
-        private string _symbol;
+
         private int _decimalPlaces;
 
         public bool AlterStock { get => _alterStock; set => SetProperty(ref _alterStock, value); }
@@ -131,8 +131,6 @@ namespace Freedom.Frontend.Models.Bindable
 
         public string PriorityName { get => _priorityName; set => SetProperty(ref _priorityName, value); }
 
-        public string ProductExpiration { get => _productExpiration; set => SetProperty(ref _productExpiration, value); }
-
         public decimal SalePrice { get => _salePrice; set => SetProperty(ref _salePrice, value); }
 
         public string SectorName { get => _sectorName; set => SetProperty(ref _sectorName, value); }
@@ -181,11 +179,10 @@ namespace Freedom.Frontend.Models.Bindable
 
         public string MoneySymbol { get => _moneySymbol; set => SetProperty(ref _moneySymbol, value); }
 
-        public string Symbol { get => _symbol; set => SetProperty(ref _symbol, value); }
-
         public int DecimalPlaces { get => _decimalPlaces; set => SetProperty(ref _decimalPlaces, value); }
 
         /* Shop stock */
+
         public string ShopName { get => _shopName; set => SetProperty(ref _shopName, value); }
 
         public decimal StockQuantity { get => _stockQuantity; set => SetProperty(ref _stockQuantity, value); }

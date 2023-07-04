@@ -4394,4 +4394,7 @@
   <data name="PartialPayment" xml:space="preserve">
     <value>Teilzahlung</value>
   </data>
+  <data name="InvoiceRowQuantityIsInvalid" xml:space="preserve">
+    <value>Die Anzahl der Rechnungszeilen ist ungültig</value>
+  </data>
 </root>
