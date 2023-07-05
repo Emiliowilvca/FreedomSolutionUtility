@@ -26,9 +26,9 @@
         /// </summary>
         int CustomerAccountId { get; set; }
 
-        int OperTypeCashSale { get; set; }
+        int OperTypeIdCashSale { get; set; }
 
-        int OperTypeCreditSale { get; set; }
+        int OperTypeIdCreditSale { get; set; }
 
         int MaxItemInSale { get; set; }
 

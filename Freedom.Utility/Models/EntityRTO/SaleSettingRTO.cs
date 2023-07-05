@@ -42,12 +42,6 @@ namespace Freedom.Utility.Models.EntityRTO
 
         public string PersonPhone { get; set; }
 
-        public string OperationTypeName { get; set; }
-
-        public string OperationTypeIntials { get; set; }
-
-        public string OperationTypeNameSET { get; set; }
-
         public string OperTypeCashSaleName { get; set; }
 
         public string OperTypeCreditSaleName { get; set; }

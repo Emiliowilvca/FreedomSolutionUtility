@@ -26,12 +26,6 @@ namespace Freedom.Utility.Models.InterfaceRTO
 
         string MoneyName { get; set; }
 
-        string OperationTypeIntials { get; set; }
-
-        string OperationTypeName { get; set; }
-
-        string OperationTypeNameSET { get; set; }
-
         string PersonAddress { get; set; }
 
         string PersonCardId { get; set; }

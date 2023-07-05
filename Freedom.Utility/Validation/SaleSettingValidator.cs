@@ -23,19 +23,17 @@ namespace Freedom.Utility.Validation
 
             RuleFor(x => x.CustomerAccountId).Generic(1, int.MaxValue, Lang.CustomerAccountIsInvalid, nameof(Lang.CustomerAccountIsInvalid));
 
-            RuleFor(x => x.OperTypeCashSale).Generic(1, int.MaxValue, Lang.TypeOfOperationForSaleCashIsInvalid, nameof(Lang.TypeOfOperationForSaleCashIsInvalid));
+            RuleFor(x => x.OperTypeIdCashSale).Generic(1, int.MaxValue, Lang.TypeOfOperationForSaleCashIsInvalid, nameof(Lang.TypeOfOperationForSaleCashIsInvalid));
 
-            RuleFor(x => x.OperTypeCreditSale).Generic(1, int.MaxValue, Lang.TypeOfOperationForSaleOnCreditIsInvalid, nameof(Lang.TypeOfOperationForSaleOnCreditIsInvalid));
-
-            RuleFor(x => x.OperTypeCashSale).Generic(1, int.MaxValue, Lang.OperationTypeIsInvalid, nameof(Lang.OperationTypeIsInvalid));
+            RuleFor(x => x.OperTypeIdCreditSale).Generic(1, int.MaxValue, Lang.TypeOfOperationForSaleOnCreditIsInvalid, nameof(Lang.TypeOfOperationForSaleOnCreditIsInvalid));
 
             RuleFor(x => x.CustomerId).Generic(1, int.MaxValue, Lang.CustomerIsNotValid, nameof(Lang.CustomerIsNotValid));
 
-            RuleFor(x => x.ForceSaleIfStockIsZero).Generic("ForceSaleIfStockIsZero is not valid", "");
+            RuleFor(x => x.ForceSaleIfStockIsZero).Generic("Force Sale If Stock Is Zero is not valid", "");
 
             RuleFor(x => x.MaxItemInSale).Generic(0, int.MaxValue, Lang.MaximumNumberOfItemsIsInvalid, nameof(Lang.MaximumNumberOfItemsIsInvalid));
 
-            RuleFor(x => x.ModifyPriceInSales).Generic("OperTypeCashSale is not valid", "");
+            RuleFor(x => x.ModifyPriceInSales).Generic("Modify Price In Sales is not valid", "");
 
             RuleFor(x => x.MaxDiscountPercent).Generic(0, int.MaxValue, Lang.MaxDiscountPercentIsInvalid, nameof(Lang.MaxDiscountPercentIsInvalid));
 
