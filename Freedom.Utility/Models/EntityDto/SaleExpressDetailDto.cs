@@ -2,7 +2,7 @@
 
 namespace Freedom.Utility.Models.EntityDto
 {
-    public class SaleDetailJsonDto : ISaleDetailJson
+    public class SaleExpressDetailDto : ISaleDetailJson
     {
         public string Code { get; set; }
 

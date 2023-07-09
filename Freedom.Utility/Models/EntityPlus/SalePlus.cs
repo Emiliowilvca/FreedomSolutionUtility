@@ -2,7 +2,7 @@
 
 namespace Freedom.Utility.Models.EntityPlus
 {
-    public class SaleInvoicePlus : SaleInvoiceRpt
+    public class SalePlus : SaleRPT
     {
         public string SaleDetailJson { get; set; }
 

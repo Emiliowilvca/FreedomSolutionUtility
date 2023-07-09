@@ -1,9 +1,10 @@
 ﻿using Freedom.Utility.Models.BaseDTO;
+using Freedom.Utility.Models.InterfaceEntity;
 
 namespace Freedom.Utility.Models.EntityDto
 {
     [Serializable]
-    public class SaleDto : SaleBase
+    public class SaleDto : SaleBase, ISale
     {
         public SaleAuthorizeDto SaleAuthorizeDto { get; set; }
 
@@ -12,3 +13,5 @@ namespace Freedom.Utility.Models.EntityDto
         public IEnumerable<SaleFeesDto> SaleFeesDtos { get; set; }
     }
 }
+
+

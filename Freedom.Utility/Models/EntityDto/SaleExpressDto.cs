@@ -7,7 +7,7 @@ namespace Freedom.Utility.Models.EntityDto
     {
         public SaleAuthorizeDto SaleAuthorizeDto { get; set; }
 
-        public IEnumerable<SaleDetailJsonDto> SaleDetailJsonDtos { get; set; }
+        public IEnumerable<SaleExpressDetailDto> SaleExpressDetailDtos { get; set; }
 
         public IEnumerable<SaleFeesDto> SaleFeesDtos { get; set; }
     }
