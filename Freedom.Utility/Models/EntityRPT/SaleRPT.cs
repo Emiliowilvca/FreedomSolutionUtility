@@ -20,6 +20,6 @@ namespace Freedom.Utility.Models.EntityRPT
 
         public IEnumerable<SaleDetailRTO> SaleDetails { get; set; }
 
-        public IEnumerable<SaleExpressDetailDto> SaleExpressDetails { get; set; }
+        //public IEnumerable<SaleExpressDetailDto> SaleExpressDetails { get; set; }
     }
 }

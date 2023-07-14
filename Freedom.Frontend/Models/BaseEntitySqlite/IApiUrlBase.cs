@@ -10,6 +10,6 @@ namespace Freedom.Frontend.Models.InterfaceEntitySqlite
 
         string EndPointAccount { get; set; }
 
-        
+        string VersionCheckerEndPoint { get; set; }
     }
 }

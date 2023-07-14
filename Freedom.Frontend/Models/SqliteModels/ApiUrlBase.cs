@@ -1,6 +1,5 @@
 ﻿using Freedom.Frontend.Models.InterfaceEntitySqlite;
 using SQLite;
-using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Freedom.Frontend.Models.SqliteModels
@@ -17,9 +16,8 @@ namespace Freedom.Frontend.Models.SqliteModels
 
         public string EndPointAccount { get; set; }
 
-
         public string DeploymentEndPoint { get; set; }
 
-
+        public string VersionCheckerEndPoint { get; set; }
     }
 }
