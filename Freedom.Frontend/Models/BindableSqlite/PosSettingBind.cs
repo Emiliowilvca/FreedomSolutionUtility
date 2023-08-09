@@ -1,9 +1,9 @@
-﻿using Freedom.Utility.Bindable;
-using System;
+﻿using Freedom.Frontend.Models.InterfaceEntitySqlite;
+using Freedom.Utility.Bindable;
 
 namespace Freedom.Frontend.Models.BindableSqlite
 {
-    public class PosSettingBind : BindableBase
+    public class PosSettingBind : BindableBase, IPosSetting
     {
         private Guid _id;
         private bool _isSaleImputQuantity;
@@ -11,10 +11,13 @@ namespace Freedom.Frontend.Models.BindableSqlite
         private string _saleNotePrinter;
         private string _termTypeDefault;
         private int _posDocumentId;
+        private bool _isGroupSaleItems;
 
         public Guid Id { get => _id; set => SetProperty(ref _id, value); }
 
         public bool IsSaleImputQuantity { get => _isSaleImputQuantity; set => SetProperty(ref _isSaleImputQuantity, value); }
+
+        public bool IsGroupSaleItems { get => _isGroupSaleItems; set => SetProperty(ref _isGroupSaleItems, value); }
 
         public string InvoicePrinter { get => _invoicePrinter; set => SetProperty(ref _invoicePrinter, value); }
 
@@ -24,7 +27,6 @@ namespace Freedom.Frontend.Models.BindableSqlite
         /// tipo de plazo para generar cuotas
         /// </summary>
         public string TermTypeDefault { get => _termTypeDefault; set => SetProperty(ref _termTypeDefault, value); }
-
 
         /// <summary>
         /// Punto de impresion

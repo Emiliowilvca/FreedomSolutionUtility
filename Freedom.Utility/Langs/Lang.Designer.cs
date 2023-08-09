@@ -1240,6 +1240,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cancel receipt number.
+        /// </summary>
+        public static string CancelReceiptNumber {
+            get {
+                return ResourceManager.GetString("CancelReceiptNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Cancel sale.
         /// </summary>
         public static string CancelSale {
@@ -1434,6 +1443,15 @@ namespace Freedom.Utility.Langs {
         public static string change {
             get {
                 return ResourceManager.GetString("change", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Change invoice number.
+        /// </summary>
+        public static string ChangeInvoiceNumber {
+            get {
+                return ResourceManager.GetString("ChangeInvoiceNumber", resourceCulture);
             }
         }
         
@@ -2653,11 +2671,29 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Delete receipt.
+        /// </summary>
+        public static string DeleteReceipt {
+            get {
+                return ResourceManager.GetString("DeleteReceipt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Delete Sale.
         /// </summary>
         public static string DeleteSale {
             get {
                 return ResourceManager.GetString("DeleteSale", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Delete sales invoice.
+        /// </summary>
+        public static string DeleteSalesInvoice {
+            get {
+                return ResourceManager.GetString("DeleteSalesInvoice", resourceCulture);
             }
         }
         
@@ -3846,6 +3882,15 @@ namespace Freedom.Utility.Langs {
         public static string GroupIsRequired {
             get {
                 return ResourceManager.GetString("GroupIsRequired", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Group items in sales.
+        /// </summary>
+        public static string GroupSaleItems {
+            get {
+                return ResourceManager.GetString("GroupSaleItems", resourceCulture);
             }
         }
         
@@ -5074,15 +5119,6 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Returns.
-        /// </summary>
-        public static string Logout_ModReturns {
-            get {
-                return ResourceManager.GetString("Logout_ModReturns", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Sales, Tickets, Invoice.
         /// </summary>
         public static string Logout_ModSales {
@@ -5547,6 +5583,15 @@ namespace Freedom.Utility.Langs {
         public static string ModifyPrices {
             get {
                 return ResourceManager.GetString("ModifyPrices", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Modify product price.
+        /// </summary>
+        public static string ModifyProductPrice {
+            get {
+                return ResourceManager.GetString("ModifyProductPrice", resourceCulture);
             }
         }
         
@@ -6577,6 +6622,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Price per box.
+        /// </summary>
+        public static string PricePerBox {
+            get {
+                return ResourceManager.GetString("PricePerBox", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Prices.
         /// </summary>
         public static string Prices {
@@ -6654,6 +6708,15 @@ namespace Freedom.Utility.Langs {
         public static string PrintPreview {
             get {
                 return ResourceManager.GetString("PrintPreview", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Print receipt.
+        /// </summary>
+        public static string PrintReceipt {
+            get {
+                return ResourceManager.GetString("PrintReceipt", resourceCulture);
             }
         }
         
@@ -7189,11 +7252,56 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Really intends to delete.
+        /// </summary>
+        public static string ReallyIntendsToDelete {
+            get {
+                return ResourceManager.GetString("ReallyIntendsToDelete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Receipt of payment Last Created.
         /// </summary>
         public static string ReceiptLastCreated {
             get {
                 return ResourceManager.GetString("ReceiptLastCreated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Receipt Number.
+        /// </summary>
+        public static string ReceiptNumber {
+            get {
+                return ResourceManager.GetString("ReceiptNumber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Receipt number already exist.
+        /// </summary>
+        public static string ReceiptNumberAlreadyExist {
+            get {
+                return ResourceManager.GetString("ReceiptNumberAlreadyExist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Receipt number is invalid.
+        /// </summary>
+        public static string ReceiptNumberIsInvalid {
+            get {
+                return ResourceManager.GetString("ReceiptNumberIsInvalid", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Receipts.
+        /// </summary>
+        public static string Receipts {
+            get {
+                return ResourceManager.GetString("Receipts", resourceCulture);
             }
         }
         
@@ -7464,6 +7572,15 @@ namespace Freedom.Utility.Langs {
         public static string ReturnReason {
             get {
                 return ResourceManager.GetString("ReturnReason", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Returns.
+        /// </summary>
+        public static string Returns {
+            get {
+                return ResourceManager.GetString("Returns", resourceCulture);
             }
         }
         
@@ -9808,6 +9925,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to View customer payments.
+        /// </summary>
+        public static string ViewCustomerPayments {
+            get {
+                return ResourceManager.GetString("ViewCustomerPayments", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to View image.
         /// </summary>
         public static string ViewImage {
@@ -9844,6 +9970,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Visualize Customer Collections.
+        /// </summary>
+        public static string VisualizeCustomerPayment {
+            get {
+                return ResourceManager.GetString("VisualizeCustomerPayment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Visualize Internal Control.
         /// </summary>
         public static string VisualizeInternalControl {
@@ -9867,6 +10002,15 @@ namespace Freedom.Utility.Langs {
         public static string VisualizePurchaseInvoice {
             get {
                 return ResourceManager.GetString("VisualizePurchaseInvoice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Visualize receipt.
+        /// </summary>
+        public static string VisualizeReceipt {
+            get {
+                return ResourceManager.GetString("VisualizeReceipt", resourceCulture);
             }
         }
         

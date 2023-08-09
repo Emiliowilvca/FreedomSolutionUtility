@@ -1317,7 +1317,7 @@
     <value>Retailers</value>
     <comment />
   </data>
-  <data name="Logout_ModReturns" xml:space="preserve">
+  <data name="Returns" xml:space="preserve">
     <value>Retourneert</value>
     <comment />
   </data>
@@ -4396,5 +4396,53 @@
   </data>
   <data name="InvoiceRowQuantityIsInvalid" xml:space="preserve">
     <value>hoeveelheid factuurrij is ongeldig</value>
+  </data>
+  <data name="ChangeInvoiceNumber" xml:space="preserve">
+    <value>Factuurnummer wijzigen</value>
+  </data>
+  <data name="DeleteSalesInvoice" xml:space="preserve">
+    <value>Verkoopfactuur verwijderen</value>
+  </data>
+  <data name="ReallyIntendsToDelete" xml:space="preserve">
+    <value>echt van plan is te verwijderen</value>
+  </data>
+  <data name="ViewCustomerPayments" xml:space="preserve">
+    <value>Se kundebetalinger</value>
+  </data>
+  <data name="ModifyProductPrice" xml:space="preserve">
+    <value>productprijs wijzigen</value>
+  </data>
+  <data name="VisualizeCustomerPayment" xml:space="preserve">
+    <value>klantbetaling bekijken</value>
+  </data>
+  <data name="ReceiptNumber" xml:space="preserve">
+    <value>Bonnummer</value>
+  </data>
+  <data name="CancelReceiptNumber" xml:space="preserve">
+    <value>ontvangstbewijsnummer annuleren</value>
+  </data>
+  <data name="DeleteReceipt" xml:space="preserve">
+    <value>ontvangstbewijs verwijderen</value>
+  </data>
+  <data name="PrintReceipt" xml:space="preserve">
+    <value>printbon</value>
+  </data>
+  <data name="ReceiptNumberIsInvalid" xml:space="preserve">
+    <value>bonnummer is ongeldig</value>
+  </data>
+  <data name="VisualizeReceipt" xml:space="preserve">
+    <value>ontvangstbewijs visualiseren</value>
+  </data>
+  <data name="ReceiptNumberAlreadyExist" xml:space="preserve">
+    <value>bonnummer bestaat al</value>
+  </data>
+  <data name="Receipts" xml:space="preserve">
+    <value>bonnen</value>
+  </data>
+  <data name="GroupSaleItems" xml:space="preserve">
+    <value>groepeer artikelen in de verkoop</value>
+  </data>
+  <data name="PricePerBox" xml:space="preserve">
+    <value>prijs per doos</value>
   </data>
 </root>

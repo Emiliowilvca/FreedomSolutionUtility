@@ -19,5 +19,15 @@ namespace Freedom.Utility.Models.InterfaceRTO
         string BoxName { get; set; }
 
         string AccountName { get; set; }
+
+        string OperationTypeName { get; set; }
+
+        string CustomerAddress { get; set; }
+
+        string CustomerPhone { get; set; }
+
+        string EmployeeName { get; set; }
+
+        string UserName { get; set; }
     }
 }

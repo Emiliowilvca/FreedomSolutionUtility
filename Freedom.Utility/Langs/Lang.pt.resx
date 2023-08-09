@@ -1317,7 +1317,7 @@
     <value>Varejistas</value>
     <comment />
   </data>
-  <data name="Logout_ModReturns" xml:space="preserve">
+  <data name="Returns" xml:space="preserve">
     <value>Retornos</value>
     <comment />
   </data>
@@ -4389,12 +4389,60 @@
     <value>faturas pendentes</value>
   </data>
   <data name="MoneyReceipt" xml:space="preserve">
-    <value>recibo de dinheiro</value>
+    <value>Recibo de dinheiro</value>
   </data>
   <data name="PartialPayment" xml:space="preserve">
     <value>pagamento parcial</value>
   </data>
   <data name="InvoiceRowQuantityIsInvalid" xml:space="preserve">
     <value>a quantidade da linha da fatura é inválida</value>
+  </data>
+  <data name="ChangeInvoiceNumber" xml:space="preserve">
+    <value>Alterar número da fatura</value>
+  </data>
+  <data name="DeleteSalesInvoice" xml:space="preserve">
+    <value>Excluir fatura de venda</value>
+  </data>
+  <data name="ReallyIntendsToDelete" xml:space="preserve">
+    <value>realmente pretende deletar</value>
+  </data>
+  <data name="ViewCustomerPayments" xml:space="preserve">
+    <value>Ver pagamentos de clientes</value>
+  </data>
+  <data name="ModifyProductPrice" xml:space="preserve">
+    <value>modificar preço do produto</value>
+  </data>
+  <data name="VisualizeCustomerPayment" xml:space="preserve">
+    <value>ver pagamento do cliente</value>
+  </data>
+  <data name="ReceiptNumber" xml:space="preserve">
+    <value>Número do recibo</value>
+  </data>
+  <data name="CancelReceiptNumber" xml:space="preserve">
+    <value>número do recibo de cancelamento</value>
+  </data>
+  <data name="DeleteReceipt" xml:space="preserve">
+    <value>excluir recibo</value>
+  </data>
+  <data name="PrintReceipt" xml:space="preserve">
+    <value>imprimir recibo</value>
+  </data>
+  <data name="ReceiptNumberIsInvalid" xml:space="preserve">
+    <value>número do recibo é inválido</value>
+  </data>
+  <data name="VisualizeReceipt" xml:space="preserve">
+    <value>visualizar recibo</value>
+  </data>
+  <data name="ReceiptNumberAlreadyExist" xml:space="preserve">
+    <value>número de recibo já existe</value>
+  </data>
+  <data name="Receipts" xml:space="preserve">
+    <value>recibos</value>
+  </data>
+  <data name="GroupSaleItems" xml:space="preserve">
+    <value>agrupar itens em vendas</value>
+  </data>
+  <data name="PricePerBox" xml:space="preserve">
+    <value>preço por caixa</value>
   </data>
 </root>

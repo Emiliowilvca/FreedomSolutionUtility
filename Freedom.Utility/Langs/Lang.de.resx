@@ -1317,7 +1317,7 @@
     <value>Händler</value>
     <comment />
   </data>
-  <data name="Logout_ModReturns" xml:space="preserve">
+  <data name="Returns" xml:space="preserve">
     <value>Rückgabe</value>
     <comment />
   </data>
@@ -4396,5 +4396,53 @@
   </data>
   <data name="InvoiceRowQuantityIsInvalid" xml:space="preserve">
     <value>Die Anzahl der Rechnungszeilen ist ungültig</value>
+  </data>
+  <data name="ChangeInvoiceNumber" xml:space="preserve">
+    <value>Rechnungsnummer ändern</value>
+  </data>
+  <data name="DeleteSalesInvoice" xml:space="preserve">
+    <value>Verkaufsrechnung löschen</value>
+  </data>
+  <data name="ReallyIntendsToDelete" xml:space="preserve">
+    <value>wirklich zu löschen beabsichtigt</value>
+  </data>
+  <data name="ViewCustomerPayments" xml:space="preserve">
+    <value>Kundenzahlungen anzeigen</value>
+  </data>
+  <data name="ModifyProductPrice" xml:space="preserve">
+    <value>Produktpreis ändern</value>
+  </data>
+  <data name="VisualizeCustomerPayment" xml:space="preserve">
+    <value>Kundenzahlung anzeigen</value>
+  </data>
+  <data name="ReceiptNumber" xml:space="preserve">
+    <value>Quittungsnummer</value>
+  </data>
+  <data name="CancelReceiptNumber" xml:space="preserve">
+    <value>Quittungsnummer stornieren</value>
+  </data>
+  <data name="DeleteReceipt" xml:space="preserve">
+    <value>Quittung löschen</value>
+  </data>
+  <data name="PrintReceipt" xml:space="preserve">
+    <value>Druckeingang</value>
+  </data>
+  <data name="ReceiptNumberIsInvalid" xml:space="preserve">
+    <value>Die Belegnummer ist ungültig</value>
+  </data>
+  <data name="VisualizeReceipt" xml:space="preserve">
+    <value>Quittung visualisieren</value>
+  </data>
+  <data name="ReceiptNumberAlreadyExist" xml:space="preserve">
+    <value>Die Belegnummer ist bereits vorhanden</value>
+  </data>
+  <data name="Receipts" xml:space="preserve">
+    <value>Quittungen</value>
+  </data>
+  <data name="GroupSaleItems" xml:space="preserve">
+    <value>Gruppieren Sie Artikel im Verkauf</value>
+  </data>
+  <data name="PricePerBox" xml:space="preserve">
+    <value>Preis pro Karton</value>
   </data>
 </root>

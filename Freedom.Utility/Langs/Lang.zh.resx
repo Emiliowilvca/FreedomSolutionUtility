@@ -1317,7 +1317,7 @@
     <value>零售</value>
     <comment />
   </data>
-  <data name="Logout_ModReturns" xml:space="preserve">
+  <data name="Returns" xml:space="preserve">
     <value>返回</value>
     <comment />
   </data>
@@ -4395,5 +4395,53 @@
   </data>
   <data name="InvoiceRowQuantityIsInvalid" xml:space="preserve">
     <value>发票行数量无效</value>
+  </data>
+  <data name="ChangeInvoiceNumber" xml:space="preserve">
+    <value>更改发票号码</value>
+  </data>
+  <data name="DeleteSalesInvoice" xml:space="preserve">
+    <value>删除销售发票</value>
+  </data>
+  <data name="ReallyIntendsToDelete" xml:space="preserve">
+    <value>确实想删除</value>
+  </data>
+  <data name="ViewCustomerPayments" xml:space="preserve">
+    <value>查看客户付款</value>
+  </data>
+  <data name="ModifyProductPrice" xml:space="preserve">
+    <value>修改产品价格</value>
+  </data>
+  <data name="VisualizeCustomerPayment" xml:space="preserve">
+    <value>查看客户付款</value>
+  </data>
+  <data name="ReceiptNumber" xml:space="preserve">
+    <value>收据号码</value>
+  </data>
+  <data name="CancelReceiptNumber" xml:space="preserve">
+    <value>取消收据号码</value>
+  </data>
+  <data name="DeleteReceipt" xml:space="preserve">
+    <value>删除收据</value>
+  </data>
+  <data name="PrintReceipt" xml:space="preserve">
+    <value>打印收据</value>
+  </data>
+  <data name="ReceiptNumberIsInvalid" xml:space="preserve">
+    <value>收据号码无效</value>
+  </data>
+  <data name="VisualizeReceipt" xml:space="preserve">
+    <value>可视化收据</value>
+  </data>
+  <data name="ReceiptNumberAlreadyExist" xml:space="preserve">
+    <value>收据号码已存在</value>
+  </data>
+  <data name="Receipts" xml:space="preserve">
+    <value>收据</value>
+  </data>
+  <data name="GroupSaleItems" xml:space="preserve">
+    <value>将销售中的商品分组</value>
+  </data>
+  <data name="PricePerBox" xml:space="preserve">
+    <value>每盒价格</value>
   </data>
 </root>

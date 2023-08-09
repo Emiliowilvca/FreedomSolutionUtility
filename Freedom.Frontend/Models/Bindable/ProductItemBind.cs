@@ -24,6 +24,7 @@ namespace Freedom.Frontend.Models.Bindable
         private Guid _rowId;
         private bool _isPopulate;
         private Guid _userId;
+        private int _measureId;
 
         public Guid RowId { get => _rowId; set => SetProperty(ref _rowId, value); }
 
@@ -60,5 +61,7 @@ namespace Freedom.Frontend.Models.Bindable
         public string UrlPrimaryImage { get => _urlPrimaryImage; set => SetProperty(ref _urlPrimaryImage, value); }
 
         public decimal StockInput { get => _stockInput; set => SetProperty(ref _stockInput, value); }
+
+        public int MeasureId { get => _measureId; set => SetProperty(ref _measureId, value); }
     }
 }

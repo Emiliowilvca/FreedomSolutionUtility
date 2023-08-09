@@ -28,6 +28,7 @@ namespace Freedom.Frontend.Models.Bindable
         private DateTime _manufactory;
         private DateTime _expiration;
         private string _urlPrimaryImage;
+        private int _measureId;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -74,5 +75,7 @@ namespace Freedom.Frontend.Models.Bindable
         public DateTime Expiration { get => _expiration; set => SetProperty(ref _expiration, value); }
 
         public string UrlPrimaryImage { get => _urlPrimaryImage; set => SetProperty(ref _urlPrimaryImage, value); }
+
+        public int MeasureId { get => _measureId; set => SetProperty(ref _measureId, value); }
     }
 }

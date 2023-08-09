@@ -22,6 +22,8 @@ namespace Freedom.Utility.Models.EntityRTO
 
         public int MoneyId { get; set; }
 
+        public int MeasureId { get; set; }
+
         public decimal StockQuantity { get; set; }
 
         public decimal TaxRate { get; set; }

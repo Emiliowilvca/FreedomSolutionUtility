@@ -1317,7 +1317,7 @@
     <value>Distributeurs</value>
     <comment />
   </data>
-  <data name="Logout_ModReturns" xml:space="preserve">
+  <data name="Returns" xml:space="preserve">
     <value>Retours</value>
     <comment />
   </data>
@@ -4396,5 +4396,53 @@
   </data>
   <data name="InvoiceRowQuantityIsInvalid" xml:space="preserve">
     <value>la quantité de ligne de facture n'est pas valide</value>
+  </data>
+  <data name="ChangeInvoiceNumber" xml:space="preserve">
+    <value>Modifier le numéro de facture</value>
+  </data>
+  <data name="DeleteSalesInvoice" xml:space="preserve">
+    <value>Supprimer la facture de vente</value>
+  </data>
+  <data name="ReallyIntendsToDelete" xml:space="preserve">
+    <value>a vraiment l'intention de supprimer</value>
+  </data>
+  <data name="ViewCustomerPayments" xml:space="preserve">
+    <value>Afficher les paiements des clients</value>
+  </data>
+  <data name="ModifyProductPrice" xml:space="preserve">
+    <value>modificare il prezzo del prodotto</value>
+  </data>
+  <data name="VisualizeCustomerPayment" xml:space="preserve">
+    <value>voir le paiement client</value>
+  </data>
+  <data name="ReceiptNumber" xml:space="preserve">
+    <value>Numéro de reçu</value>
+  </data>
+  <data name="CancelReceiptNumber" xml:space="preserve">
+    <value>annuler le numéro de reçu</value>
+  </data>
+  <data name="DeleteReceipt" xml:space="preserve">
+    <value>supprimer le reçu</value>
+  </data>
+  <data name="PrintReceipt" xml:space="preserve">
+    <value>imprimer le reçu</value>
+  </data>
+  <data name="ReceiptNumberIsInvalid" xml:space="preserve">
+    <value>le numéro de reçu est invalide</value>
+  </data>
+  <data name="VisualizeReceipt" xml:space="preserve">
+    <value>visualiser le reçu</value>
+  </data>
+  <data name="ReceiptNumberAlreadyExist" xml:space="preserve">
+    <value>le numéro de reçu existe déjà</value>
+  </data>
+  <data name="Receipts" xml:space="preserve">
+    <value>Reçus</value>
+  </data>
+  <data name="GroupSaleItems" xml:space="preserve">
+    <value>articles de groupe dans les ventes</value>
+  </data>
+  <data name="PricePerBox" xml:space="preserve">
+    <value>prix par boîte</value>
   </data>
 </root>

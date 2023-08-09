@@ -20,5 +20,15 @@ namespace Freedom.Utility.Models.EntityRTO
         public string BoxName { get; set; }
 
         public string AccountName { get; set; }
+
+        public string OperationTypeName { get; set; }
+
+        public string CustomerAddress { get; set; }
+
+        public string CustomerPhone { get; set; }
+
+        public string EmployeeName { get; set; }
+
+        public string UserName { get; set; }
     }
 }

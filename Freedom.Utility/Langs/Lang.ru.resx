@@ -1317,7 +1317,7 @@
     <value>Предприятия розничной торговли</value>
     <comment />
   </data>
-  <data name="Logout_ModReturns" xml:space="preserve">
+  <data name="Returns" xml:space="preserve">
     <value>Возвращает</value>
     <comment />
   </data>
@@ -4396,5 +4396,53 @@
   </data>
   <data name="InvoiceRowQuantityIsInvalid" xml:space="preserve">
     <value>недопустимое количество в строке счета-фактуры</value>
+  </data>
+  <data name="ChangeInvoiceNumber" xml:space="preserve">
+    <value>Изменить номер счета</value>
+  </data>
+  <data name="DeleteSalesInvoice" xml:space="preserve">
+    <value>Удалить счет продажи</value>
+  </data>
+  <data name="ReallyIntendsToDelete" xml:space="preserve">
+    <value>действительно собирается удалить</value>
+  </data>
+  <data name="ViewCustomerPayments" xml:space="preserve">
+    <value>Просмотр платежей клиентов</value>
+  </data>
+  <data name="ModifyProductPrice" xml:space="preserve">
+    <value>изменить цену продукта</value>
+  </data>
+  <data name="VisualizeCustomerPayment" xml:space="preserve">
+    <value>посмотреть платеж клиента</value>
+  </data>
+  <data name="ReceiptNumber" xml:space="preserve">
+    <value>Номер квитанции</value>
+  </data>
+  <data name="CancelReceiptNumber" xml:space="preserve">
+    <value>отменить номер квитанции</value>
+  </data>
+  <data name="DeleteReceipt" xml:space="preserve">
+    <value>удалить квитанцию</value>
+  </data>
+  <data name="PrintReceipt" xml:space="preserve">
+    <value>распечатать квитанцию</value>
+  </data>
+  <data name="ReceiptNumberIsInvalid" xml:space="preserve">
+    <value>номер квитанции недействителен</value>
+  </data>
+  <data name="VisualizeReceipt" xml:space="preserve">
+    <value>визуализировать квитанцию</value>
+  </data>
+  <data name="ReceiptNumberAlreadyExist" xml:space="preserve">
+    <value>номер квитанции уже существует</value>
+  </data>
+  <data name="Receipts" xml:space="preserve">
+    <value>квитанции</value>
+  </data>
+  <data name="GroupSaleItems" xml:space="preserve">
+    <value>групповые товары в продажах</value>
+  </data>
+  <data name="PricePerBox" xml:space="preserve">
+    <value>цена за коробку</value>
   </data>
 </root>

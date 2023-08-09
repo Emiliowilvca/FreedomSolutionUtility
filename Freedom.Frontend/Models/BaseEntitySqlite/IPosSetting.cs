@@ -1,12 +1,12 @@
-﻿using System;
-
-namespace Freedom.Frontend.Models.InterfaceEntitySqlite
+﻿namespace Freedom.Frontend.Models.InterfaceEntitySqlite
 {
     public interface IPosSetting
     {
         Guid Id { get; set; }
 
         bool IsSaleImputQuantity { get; set; }
+
+        bool IsGroupSaleItems { get; set; }
 
         string InvoicePrinter { get; set; }
 
@@ -17,7 +17,6 @@ namespace Freedom.Frontend.Models.InterfaceEntitySqlite
         /// </summary>
         string TermTypeDefault { get; set; }
 
-
-          int PosDocumentId { get; set; }
+        int PosDocumentId { get; set; }
     }
 }

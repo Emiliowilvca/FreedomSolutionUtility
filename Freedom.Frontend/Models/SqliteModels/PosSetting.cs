@@ -20,5 +20,7 @@ namespace Freedom.Frontend.Models.SqliteModels
         public string TermTypeDefault { get; set; }
 
         public int PosDocumentId { get; set; }
+
+        public bool IsGroupSaleItems { get; set; }
     }
 }

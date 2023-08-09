@@ -45,6 +45,7 @@ namespace Freedom.Frontend.Models.BindableINFO
         private int _customerAccountId;
         private int _operationTypeId;
         private int _companyId;
+        private decimal _saleReturnValue;
 
         public int SaleId { get => _saleId; set => SetProperty(ref _saleId, value); }
 
@@ -134,6 +135,8 @@ namespace Freedom.Frontend.Models.BindableINFO
         public Guid SerialId { get => _serialId; set => SetProperty(ref _serialId, value); }
 
         public decimal TotalCost { get => _totalCost; set => SetProperty(ref _totalCost, value); }
+
+        public decimal SaleReturnValue { get => _saleReturnValue; set => SetProperty(ref _saleReturnValue, value); }
 
         public bool IsExpress { get => _isExpress; set => SetProperty(ref _isExpress, value); }
     }

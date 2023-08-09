@@ -22,6 +22,8 @@
 
         int MoneyId { get; set; }
 
+        int MeasureId { get; set; }
+
         decimal StockQuantity { get; set; }
 
         DateTime Manufactory { get; set; }

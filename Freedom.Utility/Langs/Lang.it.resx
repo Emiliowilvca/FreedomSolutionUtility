@@ -1317,7 +1317,7 @@
     <value>Venditori al dettaglio</value>
     <comment />
   </data>
-  <data name="Logout_ModReturns" xml:space="preserve">
+  <data name="Returns" xml:space="preserve">
     <value>Risultati restituiti</value>
     <comment />
   </data>
@@ -4396,5 +4396,53 @@
   </data>
   <data name="InvoiceRowQuantityIsInvalid" xml:space="preserve">
     <value>la quantità della riga della fattura non è valida</value>
+  </data>
+  <data name="ChangeInvoiceNumber" xml:space="preserve">
+    <value>Cambia il numero della fattura</value>
+  </data>
+  <data name="DeleteSalesInvoice" xml:space="preserve">
+    <value>Elimina fattura di vendita</value>
+  </data>
+  <data name="ReallyIntendsToDelete" xml:space="preserve">
+    <value>intende davvero eliminare</value>
+  </data>
+  <data name="ViewCustomerPayments" xml:space="preserve">
+    <value>Visualizza i pagamenti dei clienti</value>
+  </data>
+  <data name="ModifyProductPrice" xml:space="preserve">
+    <value>modificare il prezzo del prodotto</value>
+  </data>
+  <data name="VisualizeCustomerPayment" xml:space="preserve">
+    <value>visualizzare il pagamento del cliente</value>
+  </data>
+  <data name="ReceiptNumber" xml:space="preserve">
+    <value>Numero di ricevuta</value>
+  </data>
+  <data name="CancelReceiptNumber" xml:space="preserve">
+    <value>annullare il numero di ricevuta</value>
+  </data>
+  <data name="DeleteReceipt" xml:space="preserve">
+    <value>eliminare ricevuta</value>
+  </data>
+  <data name="PrintReceipt" xml:space="preserve">
+    <value>stampare la ricevuta</value>
+  </data>
+  <data name="ReceiptNumberIsInvalid" xml:space="preserve">
+    <value>il numero di ricevuta non è valido</value>
+  </data>
+  <data name="VisualizeReceipt" xml:space="preserve">
+    <value>visualizzare lo scontrino</value>
+  </data>
+  <data name="ReceiptNumberAlreadyExist" xml:space="preserve">
+    <value>il numero di ricevuta esiste già</value>
+  </data>
+  <data name="Receipts" xml:space="preserve">
+    <value>ricevute</value>
+  </data>
+  <data name="GroupSaleItems" xml:space="preserve">
+    <value>raggruppare gli articoli nelle vendite</value>
+  </data>
+  <data name="PricePerBox" xml:space="preserve">
+    <value>prezzo per scatola</value>
   </data>
 </root>

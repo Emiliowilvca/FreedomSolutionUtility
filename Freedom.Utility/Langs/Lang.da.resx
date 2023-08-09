@@ -1317,7 +1317,7 @@
     <value>Detailhandlere</value>
     <comment />
   </data>
-  <data name="Logout_ModReturns" xml:space="preserve">
+  <data name="Returns" xml:space="preserve">
     <value>Returneringer</value>
     <comment />
   </data>
@@ -4396,5 +4396,53 @@
   </data>
   <data name="InvoiceRowQuantityIsInvalid" xml:space="preserve">
     <value>mængden af fakturarækken er ugyldig</value>
+  </data>
+  <data name="ChangeInvoiceNumber" xml:space="preserve">
+    <value>Skift fakturanummer</value>
+  </data>
+  <data name="DeleteSalesInvoice" xml:space="preserve">
+    <value>Slet salgsfaktura</value>
+  </data>
+  <data name="ReallyIntendsToDelete" xml:space="preserve">
+    <value>virkelig har til hensigt at slette</value>
+  </data>
+  <data name="ViewCustomerPayments" xml:space="preserve">
+    <value>Se kundebetalinger</value>
+  </data>
+  <data name="ModifyProductPrice" xml:space="preserve">
+    <value>ændre produktprisen</value>
+  </data>
+  <data name="VisualizeCustomerPayment" xml:space="preserve">
+    <value>se kundebetaling</value>
+  </data>
+  <data name="ReceiptNumber" xml:space="preserve">
+    <value>Kvitteringsnummer</value>
+  </data>
+  <data name="CancelReceiptNumber" xml:space="preserve">
+    <value>annullere kvitteringsnummer</value>
+  </data>
+  <data name="DeleteReceipt" xml:space="preserve">
+    <value>slette kvittering</value>
+  </data>
+  <data name="PrintReceipt" xml:space="preserve">
+    <value>Udskriv kvittering</value>
+  </data>
+  <data name="ReceiptNumberIsInvalid" xml:space="preserve">
+    <value>kvitteringsnummeret er ugyldigt</value>
+  </data>
+  <data name="VisualizeReceipt" xml:space="preserve">
+    <value>visualisere kvittering</value>
+  </data>
+  <data name="ReceiptNumberAlreadyExist" xml:space="preserve">
+    <value>kvitteringsnummer findes allerede</value>
+  </data>
+  <data name="Receipts" xml:space="preserve">
+    <value>kvitteringer</value>
+  </data>
+  <data name="GroupSaleItems" xml:space="preserve">
+    <value>gruppevarer i salg</value>
+  </data>
+  <data name="PricePerBox" xml:space="preserve">
+    <value>pris pr kasse</value>
   </data>
 </root>
