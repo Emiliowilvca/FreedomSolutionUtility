@@ -24,6 +24,27 @@
         }
 
         /// <summary>
+        /// prevents sql attack to the minimum
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="entity"></param>
+        /// <returns></returns>
+        public static T PreventSqlInjectionMinimal<T>(this T entity) where T : class
+        {
+            var propertyInfo = entity.GetType().GetProperties();
+
+            foreach (var pi in propertyInfo)
+            {
+                if (pi.PropertyType == typeof(string))
+                {
+                    string value = (string)pi.GetValue(entity, null);
+                    pi.SetValue(entity, value.PreventSqlInjectionAttackMinimal(), null);
+                }
+            }
+            return entity;
+        }
+
+        /// <summary>
         /// Remove spaces and convert to UpperCase in all string properties values
         /// </summary>
         /// <typeparam name="T">Entity Type</typeparam>

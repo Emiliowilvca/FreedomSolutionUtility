@@ -29,19 +29,19 @@ namespace Freedom.Utility.Validation
 
             RuleFor(x => x.Advantage).Generic(0, 256, Lang.AdvantageIsInvalid, nameof(Lang.AdvantageIsInvalid));
 
-            RuleFor(x => x.Barcode).Generic(0, 20, Lang.barcodeIsNotValid, nameof(Lang.BarcodeIsInvalid));
-
             RuleFor(x => x.Benefit).Generic(0, 256, Lang.BenefitIsInvalid, nameof(Lang.BenefitIsInvalid));
 
-            RuleFor(x => x.Code).Generic(0, 20, Lang.ProductCodeIsInvalid, nameof(Lang.ProductCodeIsInvalid));
+            RuleFor(x => x.Code).Generic(3, 20, Lang.ProductCodeIsInvalid, nameof(Lang.ProductCodeIsInvalid));
 
-            RuleFor(x => x.CodeProvider).Generic(0, 20, Lang.ProductCodeProviderIsInvalid, nameof(Lang.ProductCodeProviderIsInvalid));
+            RuleFor(x => x.CodeProvider).Generic(2, 20, Lang.ProductCodeProviderIsInvalid, nameof(Lang.ProductCodeProviderIsInvalid));
+
+            RuleFor(x => x.Barcode).Generic(2, 20, Lang.barcodeIsNotValid, nameof(Lang.BarcodeIsInvalid));
+
+            RuleFor(x => x.Name).Generic(3, 50, Lang.ProductNameIsInvalid, nameof(Lang.ProductNameIsInvalid));
+
+            RuleFor(x => x.GenericName).Generic(2, 50, Lang.GenericNameIsInvalid, nameof(Lang.GenericNameIsInvalid));
 
             RuleFor(x => x.Feature).Generic(0, 256, Lang.FeatureIsInvalid, nameof(Lang.FeatureIsInvalid));
-
-            RuleFor(x => x.GenericName).Generic(0, 50, Lang.GenericNameIsInvalid, nameof(Lang.GenericNameIsInvalid));
-
-            RuleFor(x => x.Name).Generic(0, 50, Lang.ProductNameIsInvalid, nameof(Lang.ProductNameIsInvalid));
 
             RuleFor(x => x.IsActive).Generic(Lang.ActiveProductIsInvalid, nameof(Lang.ActiveProductIsInvalid));
 

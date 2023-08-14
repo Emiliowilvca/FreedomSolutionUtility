@@ -4445,4 +4445,13 @@
   <data name="PricePerBox" xml:space="preserve">
     <value>Preis pro Karton</value>
   </data>
+  <data name="RetainOrRemoveExistingRecords" xml:space="preserve">
+    <value>Bestehende Datensätze beibehalten oder entfernen</value>
+  </data>
+  <data name="ContinueProcess" xml:space="preserve">
+    <value>Vorgang fortsetzen</value>
+  </data>
+  <data name="SelectInvoice" xml:space="preserve">
+    <value>Rechnung auswählen</value>
+  </data>
 </root>

@@ -4445,4 +4445,13 @@
   <data name="PricePerBox" xml:space="preserve">
     <value>цена за коробку</value>
   </data>
+  <data name="RetainOrRemoveExistingRecords" xml:space="preserve">
+    <value>Сохранить или удалить существующие записи</value>
+  </data>
+  <data name="ContinueProcess" xml:space="preserve">
+    <value>Продолжить процесс</value>
+  </data>
+  <data name="SelectInvoice" xml:space="preserve">
+    <value>Выберите счет</value>
+  </data>
 </root>

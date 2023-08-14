@@ -4444,4 +4444,13 @@
   <data name="PricePerBox" xml:space="preserve">
     <value>每盒价格</value>
   </data>
+  <data name="RetainOrRemoveExistingRecords" xml:space="preserve">
+    <value>保留或删除现有记录</value>
+  </data>
+  <data name="ContinueProcess" xml:space="preserve">
+    <value>继续处理</value>
+  </data>
+  <data name="SelectInvoice" xml:space="preserve">
+    <value>选择发票</value>
+  </data>
 </root>

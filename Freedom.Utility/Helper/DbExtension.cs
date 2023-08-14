@@ -4,7 +4,6 @@ namespace Freedom.Utility
 {
     public static class DbExtension
     {
-        
         /// <summary>
         /// Conver
         /// </summary>
@@ -66,11 +65,45 @@ namespace Freedom.Utility
             return string.Concat(source.PreventSqlInjectionAttack().Replace("*", "%"), "%");
         }
 
+        /// <summary>
+        /// Agregate LIKE mysql special char % and prevent Sql Injection Minimal
+        /// </summary>
+        /// <param name="source"></param>
+        /// <returns></returns>
+        public static string ToSqlLikeMinimal(this string source)
+        {
+            return string.Concat(source.PreventSqlInjectionAttackMinimal().Replace("*", "%"), "%");
+        }
+
         public static string ToDbName(this Type type)
         {
             return type.Name.ToLower();
         }
-         
+
+        /// <summary>
+        /// Prevent Sql Injection Attack Minimal
+        /// </summary>
+        /// <param name="source"></param>
+        /// <returns></returns>
+        public static string PreventSqlInjectionAttackMinimal(this string source)
+        {
+            return source.Trim().ToUpper()
+                         .Replace(@"\", string.Empty)
+                         .Replace(";", string.Empty)
+                         .Replace("1=1", string.Empty)
+                         .Replace("--", string.Empty)
+                         .Replace("/*", string.Empty)
+                         .Replace("*/", string.Empty)
+                         .Replace("FROM", string.Empty)
+                         .Replace("DROP", string.Empty)
+                         .Replace("DATABASE", string.Empty)
+                         .Replace("DELETE", string.Empty)
+                         .Replace("INSERT", string.Empty)
+                         .Replace("TRUNCATE", string.Empty)
+                         .Replace("UPDATE", string.Empty)
+                         .Replace("WHERE", string.Empty)
+                         .Replace("  ", " ");
+        }
 
         /// <summary>
         /// Replace and prevent Sql Ineject Attack
@@ -79,7 +112,6 @@ namespace Freedom.Utility
         /// <returns></returns>
         public static string PreventSqlInjectionAttack(this string source)
         {
-             
             return source.ToUpper()
                          .Trim()
                          .Replace(@"\", string.Empty)
@@ -106,7 +138,7 @@ namespace Freedom.Utility
                          .Replace("INSERT", string.Empty)
                          .Replace("KILL", string.Empty)
                          .Replace("NVARCHAR", string.Empty)
-                         .Replace("SELECT", string.Empty)                       
+                         .Replace("SELECT", string.Empty)
                          .Replace("SYSCOLUMN", string.Empty)
                          .Replace("SYSOBJECT", string.Empty)
                          .Replace("TABLE", string.Empty)
@@ -131,7 +163,6 @@ namespace Freedom.Utility
             return source.Truncate(lenght)
                          .PreventSqlInjectionAttack()
                          .Trim();
-        }         
-       
+        }
     }
 }

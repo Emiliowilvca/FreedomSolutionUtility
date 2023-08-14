@@ -2014,6 +2014,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Continue process.
+        /// </summary>
+        public static string ContinueProcess {
+            get {
+                return ResourceManager.GetString("ContinueProcess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to continue purchase process.
         /// </summary>
         public static string ContinuePurchasing {
@@ -7486,6 +7495,15 @@ namespace Freedom.Utility.Langs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Retain or remove existing records.
+        /// </summary>
+        public static string RetainOrRemoveExistingRecords {
+            get {
+                return ResourceManager.GetString("RetainOrRemoveExistingRecords", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Retention.
         /// </summary>
         public static string Retention {
@@ -8427,6 +8445,15 @@ namespace Freedom.Utility.Langs {
         public static string SelectCustomerRuc {
             get {
                 return ResourceManager.GetString("SelectCustomerRuc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select invoice.
+        /// </summary>
+        public static string SelectInvoice {
+            get {
+                return ResourceManager.GetString("SelectInvoice", resourceCulture);
             }
         }
         

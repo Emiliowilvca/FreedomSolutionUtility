@@ -3,7 +3,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>disable</Nullable>
-	<Version>1.0.561</Version>
+	<Version>1.0.571</Version>
 	<Authors>EmilioWildberger</Authors>
 	<Company>Sicro</Company>
 	<Product>FrontendMeta</Product>
@@ -14,12 +14,10 @@
   <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
   </ItemGroup>
-
   <ItemGroup>
-    <PackageReference Include="Freedom.Utility" Version="1.0.1144" />
+    <PackageReference Include="Freedom.Utility" Version="1.0.1149" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.141-beta" />
   </ItemGroup>
-
   <ItemGroup>
     <None Update="back-next-icon.png">
       <Pack>True</Pack>
