@@ -24,27 +24,6 @@
         }
 
         /// <summary>
-        /// prevents sql attack to the minimum
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="entity"></param>
-        /// <returns></returns>
-        public static T PreventSqlInjectionMinimal<T>(this T entity) where T : class
-        {
-            var propertyInfo = entity.GetType().GetProperties();
-
-            foreach (var pi in propertyInfo)
-            {
-                if (pi.PropertyType == typeof(string))
-                {
-                    string value = (string)pi.GetValue(entity, null);
-                    pi.SetValue(entity, value.PreventSqlInjectionAttackMinimal(), null);
-                }
-            }
-            return entity;
-        }
-
-        /// <summary>
         /// Remove spaces and convert to UpperCase in all string properties values
         /// </summary>
         /// <typeparam name="T">Entity Type</typeparam>
@@ -115,6 +94,27 @@
         }
 
         /// <summary>
+        /// prevents sql attack to the minimum
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="entity"></param>
+        /// <returns></returns>
+        public static T PreventSqlInjectionMinimal<T>(this T entity) where T : class
+        {
+            var propertyInfo = entity.GetType().GetProperties();
+
+            foreach (var pi in propertyInfo)
+            {
+                if (pi.PropertyType == typeof(string))
+                {
+                    string value = (string)pi.GetValue(entity, null);
+                    pi.SetValue(entity, value.PreventSqlInjectionAttackMinimal(), null);
+                }
+            }
+            return entity;
+        }
+
+        /// <summary>
         /// prevent Sql Ineject Attack in Model (each all string in model and replace special char and sqlInjection commands)
         /// </summary>
         /// <typeparam name="T"></typeparam>
@@ -134,6 +134,31 @@
                 {
                     string value = (string)pi.GetValue(entity, null);
                     pi.SetValue(entity, value.RemoveSpecialCharacters().PreventSqlInjectionAttack(), null);
+                }
+            }
+            return entity as T;
+        }
+
+        /// <summary>
+        /// prevent Sql Ineject Attack in Model (each all string in model and replace special char and sqlInjection commands)
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="entity"></param>
+        /// <param name="excludeProperties"></param>
+        /// <returns></returns>
+        public static T PreventSqlInjectionMinimal<T>(this T entity, string[] excludeProperties) where T : class
+        {
+            if (entity == null)
+                return default(T);
+            string[] exclude = excludeProperties ?? Array.Empty<string>();
+            var propertyInfo = entity.GetType().GetProperties().Where(x => !exclude.Contains(x.Name));
+
+            foreach (var pi in propertyInfo)
+            {
+                if (pi.PropertyType == typeof(string))
+                {
+                    string value = (string)pi.GetValue(entity, null);
+                    pi.SetValue(entity, value.RemoveSpecialCharacters().PreventSqlInjectionAttackMinimal(), null);
                 }
             }
             return entity as T;
@@ -176,7 +201,6 @@
         /// <param name="propertySelector"></param>
         /// <param name="defaultValue"></param>
         /// <returns></returns>
-
         public static TDestination MapCollectionOrDefault<TSource, TDestination>(this IEnumerable<TSource> source, Func<TSource, TDestination> propertySelector,
                                                                                TDestination defaultValue)
         {
