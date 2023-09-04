@@ -26,6 +26,12 @@
         /// </summary>
         public static readonly string GCSBucketImagePath = @"https://storage.googleapis.com/imagepro-freedom-app/";
 
+         
 
+        /// <summary>
+        /// https://storage.googleapis.com/appfreedom-clickoncestore/customers-receipt-images/{imageKey}
+        /// </summary>
+        public static readonly string GCSBucketReceiptImagePath = @"https://storage.googleapis.com/appfreedom-clickoncestore/customers-receipt-images/";
+         
     }
 }

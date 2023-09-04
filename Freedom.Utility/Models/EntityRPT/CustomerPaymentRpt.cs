@@ -17,6 +17,8 @@ namespace Freedom.Utility.Models.EntityRPT
 
         public string CompanyState { get; set; }
 
+        public string CompanyRuc { get; set; }
+
         public IEnumerable<CustomerPaymentDetailRpt> CustomerPaymentDetails { get; set; }
     }
 }

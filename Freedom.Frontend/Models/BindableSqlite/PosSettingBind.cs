@@ -12,6 +12,9 @@ namespace Freedom.Frontend.Models.BindableSqlite
         private string _termTypeDefault;
         private int _posDocumentId;
         private bool _isGroupSaleItems;
+        private int _printFormatInvoiceId;
+        private int _printFormatControlInternoId;
+        private int _printFormatReceiptId;
 
         public Guid Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -32,5 +35,20 @@ namespace Freedom.Frontend.Models.BindableSqlite
         /// Punto de impresion
         /// </summary>
         public int PosDocumentId { get => _posDocumentId; set => SetProperty(ref _posDocumentId, value); }
+
+        /// <summary>
+        /// formato de impresion para Facturas
+        /// </summary>
+        public int PrintFormatInvoiceId { get => _printFormatInvoiceId; set => SetProperty(ref _printFormatInvoiceId, value); }
+
+        /// <summary>
+        /// Formato de impresion para ControlInterno
+        /// </summary>
+        public int PrintFormatControlInternoId { get => _printFormatControlInternoId; set => SetProperty(ref _printFormatControlInternoId, value); }
+
+        /// <summary>
+        /// Formato de impresion para Recibo
+        /// </summary>
+        public int PrintFormatReceiptId { get => _printFormatReceiptId; set => SetProperty(ref _printFormatReceiptId, value); }
     }
 }

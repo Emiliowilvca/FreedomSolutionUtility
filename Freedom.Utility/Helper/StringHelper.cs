@@ -80,6 +80,22 @@ namespace Freedom.Utility
         }
 
         /// <summary>
+        ///
+        /// </summary>
+        /// <param name="source"></param>
+        /// <param name="totalWidth"></param>
+        /// <param name="filled"></param>
+        /// <returns></returns>
+        public static string CenterInString(this string source, int totalWidth, char filled = ' ')
+        {
+            string str = source.Truncate(totalWidth).Trim();
+            int spacesToAdd = totalWidth - str.Length;
+            int leftSpaces = spacesToAdd / 2;
+            int rightSpaces = spacesToAdd - leftSpaces;
+            return new string(filled, leftSpaces) + str + new string(filled, rightSpaces);
+        }
+
+        /// <summary>
         /// dividir la cadena en líneas con la longitud máxima, sin romper palabras
         /// </summary>
         /// <param name="text"></param>

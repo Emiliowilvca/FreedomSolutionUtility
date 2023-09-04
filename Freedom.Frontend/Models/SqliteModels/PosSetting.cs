@@ -22,5 +22,12 @@ namespace Freedom.Frontend.Models.SqliteModels
         public int PosDocumentId { get; set; }
 
         public bool IsGroupSaleItems { get; set; }
+
+        public int PrintFormatInvoiceId { get; set; }
+
+        public int PrintFormatControlInternoId { get; set; }
+
+        public int PrintFormatReceiptId { get; set; }
+
     }
 }

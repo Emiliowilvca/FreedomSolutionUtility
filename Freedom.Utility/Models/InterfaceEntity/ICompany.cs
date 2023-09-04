@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Freedom.Utility.Models.InterfaceEntity
+﻿namespace Freedom.Utility.Models.InterfaceEntity
 {
     public interface ICompany : IEntity
     {
@@ -15,6 +13,11 @@ namespace Freedom.Utility.Models.InterfaceEntity
         string Country { get; set; }
 
         string Email { get; set; }
+        string Ruc { get; set; }
+
+        DateTime TimbradoInit { get; set; }
+
+        DateTime TimbradoExpire { get; set; }
 
         string FacebookAdress { get; set; }
 

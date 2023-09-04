@@ -1,4 +1,4 @@
-﻿using Freedom.Utility.Bindable;
+﻿  using Freedom.Utility.Bindable;
 
 namespace Freedom.Frontend.Models.AllPurpose
 {

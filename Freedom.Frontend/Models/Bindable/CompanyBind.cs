@@ -22,6 +22,9 @@ namespace Freedom.Frontend.Models.Bindable
         private int _trialDay;
         private string _whatsappPhoneNumber;
         private bool _isSelected;
+        private string _ruc;
+        private DateTime _timbradoInit;
+        private DateTime _timbradoExpire;
 
         public int Id { get => _id; set => SetProperty(ref _id, value); }
 
@@ -52,5 +55,8 @@ namespace Freedom.Frontend.Models.Bindable
         public int TrialDay { get => _trialDay; set => SetProperty(ref _trialDay, value); }
 
         public bool IsSelected { get => _isSelected; set => SetProperty(ref _isSelected, value); }
+        public string Ruc { get => _ruc; set => SetProperty(ref _ruc, value); }
+        public DateTime TimbradoInit { get => _timbradoInit; set => SetProperty(ref _timbradoInit, value); }
+        public DateTime TimbradoExpire { get => _timbradoExpire; set => SetProperty(ref _timbradoExpire, value); }
     }
 }

@@ -19,5 +19,7 @@
         string MoneySymbol { get; set; }
 
         string MoneyName { get; set; }
+
+        int DecimalPlaces { get; set; }
     }
 }

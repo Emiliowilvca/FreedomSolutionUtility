@@ -1,5 +1,4 @@
 ﻿using Freedom.Utility.Models.InterfaceEntity;
-using System;
 
 namespace Freedom.Utility.Models.EntityDto
 {
@@ -13,6 +12,12 @@ namespace Freedom.Utility.Models.EntityDto
         public string CompanyOwner { get; set; }
 
         public string Email { get; set; }
+
+        public string Ruc { get; set; }
+
+        public DateTime TimbradoInit { get; set; }
+
+        public DateTime TimbradoExpire { get; set; }
 
         public string FacebookAdress { get; set; }
 

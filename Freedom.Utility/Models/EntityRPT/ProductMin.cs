@@ -22,5 +22,7 @@ namespace Freedom.Utility.Models.EntityRPT
         public string MoneySymbol { get; set; }
 
         public string MoneyName { get; set; }
+
+        public int DecimalPlaces { get; set; }
     }
 }
